@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "latex-workshop.latex.outDir": "%DIR%/build",
+    "latex-workshop.latex.rootFile.doNotPrompt": true,
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.recipe.default": "latexmk",
+    "latex-workshop.texcount.args": [
+      "-merge",
+      "-sum",
+      "-total",
+      "-q"
+    ],
+    "[latex]": {
+      "editor.wordWrap": "on"
+    },
+    "files.exclude": {
+      "build": true
+    }
+  }
+}

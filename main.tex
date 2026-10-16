@@ -1,0 +1,41 @@
+\documentclass[manuscript,screen,review,anonymous]{acmart}
+%\documentclass[sigconf,screen,review,anonymous]{acmart}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{Bib\TeX}}}
+
+\setcopyright{none}
+\copyrightyear{2027}
+\acmYear{2027}
+\acmDOI{}
+\acmISBN{}
+\acmConference[IDC '27]{Interaction Design and Children}{June 2027}{Seattle, WA, USA}
+
+\usepackage{subcaption}
+\graphicspath{{figures/}}
+
+\begin{document}
+
+\title{Title}
+
+\input{sections/0-abstract}
+
+\maketitle
+
+\input{sections/1-introduction}
+\input{sections/2-related-work}
+\input{sections/3-methods}
+\input{sections/4-findings-listening}
+\input{sections/5-findings-designing}
+\input{sections/6-discussion}
+\input{sections/7-limitations}
+\input{sections/8-conclusion}
+\input{sections/9-children}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+%% \appendix
+%% \input{sections/appendix}
+
+\end{document}
