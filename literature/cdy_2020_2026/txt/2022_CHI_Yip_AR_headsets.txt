@@ -1,0 +1,1492 @@
+SOURCE PDF: ../pdf/2022_CHI_Yip_AR_headsets.pdf
+SOURCE URL: https://bigyipper.com/wp-content/uploads/2022/02/chi22-ARkids-final.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing
+Children’s Conceptual Model of AR Headsets Through
+Co-Design
+Julia Woodward
+
+Department of CISE, University of
+Florida, Gainesville, Florida, USA
+julia.woodward@uf.edu
+
+Lisa Anthony
+
+Department of CISE, University of
+Florida, Gainesville, Florida, USA
+lanthony@cise.uf.edu
+
+Feben Alemu
+
+Department of Geography, University
+of Washington, Seattle, Washington
+feben.alemu@outlook.com
+
+Jason C. Yip
+
+Information School, University of
+Washington, Seattle, Washington
+jcyip@uw.edu
+
+ABSTRACT
+Children are being presented with augmented reality (AR) in different contexts, such as education and gaming. However, little is
+known about how children conceptualize AR, especially AR headsets. Prior work has shown that children’s interaction behaviors
+and expectations of technological devices can be quite diferent
+from adults’. It is important to understand children’s mental models
+of AR headsets to design more efective experiences for them. To
+elicit children’s perceptions, we conducted four participatory design sessions with ten children on designing content for imaginary
+AR headsets. We found that children expect AR systems to be highly
+intelligent and to recognize and virtually transform surroundings to
+create immersive environments. Also, children are in favor of using
+these devices for difcult tasks but prefer to work on their own
+for easy tasks. Our work contributes new understanding on how
+children comprehend AR headsets and provides recommendations
+for designing future headsets for children.
+
+CCS CONCEPTS
+• Human-centered computing; • Human-computer interaction (HCI); • HCI theory, concepts and models;
+
+KEYWORDS
+Augmented reality, children, co-design, participatory design, conceptual model
+ACM Reference Format:
+Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony,
+Jason C. Yip, and Jaime Ruiz. 2022. “It Would Be Cool to Get Stampeded
+by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design. In CHI Conference on Human Factors in Computing
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for proft or commercial advantage and that copies bear this notice and the full citation
+on the frst page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specifc permission and/or a
+fee. Request permissions from permissions@acm.org.
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+© 2022 Association for Computing Machinery.
+ACM ISBN 978-1-4503-9157-3/22/04. . . $15.00
+https://doi.org/10.1145/3491102.3501979
+
+Natalia E. López Adames
+
+University of Puerto Rico, Mayagüez,
+Puerto Rico
+natalia.lopez17@upr.edu
+
+Jaime Ruiz
+
+Department of CISE, University of
+Florida, Gainesville, Florida, USA
+jaime.ruiz@uf.edu
+
+Systems (CHI ’22), April 29–May 05, 2022, New Orleans, LA, USA. ACM, New
+York, NY, USA, 13 pages. https://doi.org/10.1145/3491102.3501979
+
+1
+
+INTRODUCTION
+
+Augmented reality (AR) supplements the real world through combining virtual objects with the natural environment [42]. Past studies have examined using AR with children of all ages in diferent
+contexts, such as education [11, 32–34, 61, 63] and gaming [3, 40],
+and as an aid for children with autism and disabilities [26, 39, 64, 67].
+For example, AR has been shown to increase student engagement
+and knowledge retention in elementary, middle, and high school
+[11, 24, 60]. However, little is known about how children conceptualize AR and how to design AR for children, especially for AR headsets. Compared to hand-held AR platforms (e.g., smartphone, tablet),
+headsets provide mobility and hands-free capabilities, which allow
+for more user freedom and immersion. AR headsets are starting to
+enter the industrial and consumer markets [84, 90], and children are
+using them in a variety of applications. For example, AR headsets
+are being used as educational tools for children (e.g., games, virtual
+feld trips) [40, 70], as communication and emotion recognition
+aids for children with autism [30, 67], and to help children relax
+during medical procedures [13]. As children are starting to utilize
+these devices, it is important to understand their mental models and
+expectations because this can afect their perceptions of the system
+and usability. According to the Expectation-Confrmation Model
+for information systems, users are more satisfed with a system
+when they view it as useful and when their expectations are met
+[10]. Mismatches in expectations between users and designers can
+cause usability issues [59].
+Children’s interaction behaviors and expectations have been
+shown to be diferent than adults’ across multiple devices and platforms (e.g., [4, 48, 49, 77]). It is important to examine AR headsets
+with children, since their interactions, perceptions, and expectations might be diferent. To create a conceptual model [37] about
+children’s understanding of AR headsets, we conducted four remote online participatory design (PD) sessions with an established
+intergenerational co-design group of ten children (ages 7 to 12).
+PD helps elicit rich design ideas from children (e.g., [7, 18]) and
+can be used to construct children’s mental models [79]. Modeling
+children’s thought processes is important to capture how children
+
+===== PDF PAGE 2 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+perceive things and has been used to develop children’s learning
+instruction and technology (e.g., [21, 73]). We completed online
+remote PD sessions over Zoom [91] due to the COVID-19 pandemic.
+Online PD sessions have been shown to be equivalent to in-person
+sessions in collecting rich data, as well as allowing for a wider range
+of children to participate [44, 74]. Since the study was remote, the
+children did not interact with AR headsets while designing. None
+of the children had any prior experience with AR headsets, which
+enabled us to observe their initial perceptions and expectations. In
+the design activities, we focused on designing content for AR headsets with an emphasis on using them for tasks. Task completion
+is a common application for AR headsets, such as in maintenance,
+healthcare, and education (e.g., [39, 47, 83]). We defned “tasks” to
+the children as a job, chore, or project. We are interested in the
+tasks children would be interested in for AR headsets, and how
+they would want the devices to help them.
+After completing the PD sessions, we created an afnity diagram
+[9] of the children’s utterances from the video recordings of the
+sessions and then constructed a conceptual model. We found that
+children expect highly intelligent AR systems that can recognize
+and virtually transform surroundings, provide guidance and suggestions, and create immersive environments. In addition, children
+are in favor of using the headsets for games and difcult tasks but
+would prefer not to use it when they are trying to be creative and
+when completing easy tasks. Children often want to accomplish
+things on their own [51] and this translates to AR headsets. We also
+learned more about resolving challenges of conducting PD sessions
+online that involve a device not available for participants to interact
+with while designing. The contributions of our work include: (1) a
+conceptual model of how children comprehend and perceive AR
+headsets, and (2) new design recommendations for designing AR
+headset content and experiences for children. Our fndings inform
+future designs of AR headsets for children.
+
+2
+
+RELATED WORK
+
+We focus our related work on four major categories: (1) examining
+children’s technological interaction behaviors and expectations, (2)
+using augmented reality (AR) headsets with children, (3) applying
+participatory design methods, and (4) conducting participatory
+design sessions with children on AR.
+
+2.1
+
+Children’s Interactions and Expectations
+
+Previous work has examined children’s interaction behaviors and
+expectations with technological devices, such as touchscreens
+[4, 53, 77, 78], tabletop computers [65, 80], and voice input systems
+[48, 49]. Anthony et al. [4] examined touch and gesture interactions
+by children (ages 7 to 16) and adults on a smartphone. The authors
+found that children had increased holdover touches (i.e., when the
+location of touch is in vicinity of the previous target) and higher
+miss rates than adults. Prior work has also shown that children
+require a diferent pointing performance model for fnger input on
+touchscreens than adults, most likely due to children’s variability
+in touch performance [78]. Lovato and Piper [49] explored how
+children (ages 7 and under) use voice input systems by analyzing
+YouTube videos of children using Siri. The authors identifed three
+ways children use voice input systems: exploration, information
+
+Julia Woodward et al.
+
+seeking, and function. Also, the authors observed low recognition
+accuracy due to the devices having a harder time understanding
+children’s speech. Woodward et al. [79] also found that children
+expect diferent error detection and correction techniques for intelligent user interfaces than adults. For instance, children wanted IUIs
+to admit when it does not understand and seek clarifcation instead
+of using common techniques, such as auto-correcting or suggesting
+alternatives. These studies highlight both how children’s interaction behaviors are diferent than adults and how children may have
+more difculty using devices; therefore, it is important to examine
+AR headsets with children since their interaction behaviors and
+expectations might be diferent than adults.
+
+2.2
+
+Using AR Headsets with Children
+
+Although previous AR studies with children have mainly focused
+on hand-held platforms (tablets, smartphones) (e.g., [26, 32, 63]),
+headsets are increasing in popularity due to being more immersive
+and interactive. For instance, Juan et al. [40] created an AR headset game focused on learning about endangered animals. In the
+game, children (ages 7 to 12) interacted with tangible cubes that
+had reference codes that the headset would recognize and overlay
+with virtual graphics and videos. The hands-free capability of the
+headset allowed the children to interact with the physical cubes
+and see the virtual content at the same time, which made the experience more immersive. In the non-AR condition, pictures and
+information were pasted directly onto the cubes and the children
+would watch videos on a separate computer monitor. The children
+enjoyed the AR game more, although they found it harder to use
+than the non-AR condition. Andersen et al. [3] designed BattleBoard 3D, an AR headset based game. During the game, one child
+would wear a headset, which showed augmented characters overlaid onto physical board game pieces, while the other child saw the
+characters on a monitor. The children wearing the headset found
+the game more entertaining and immersive, but they sometimes
+had difculty navigating the physical space and interacting with
+their opponent. Even though Juan et al. [40] and Andersen et al.
+[3] found that children enjoyed using AR headsets, both studies
+identifed device usability issues. Prior work has started to examine
+diferent interaction methods in AR headsets with children [57, 58].
+Munsinger and Quarles [57] analyzed three interaction methods
+(voice, gesture, controller) for a Fitts’ Law task in an AR headset
+with children (ages 9 to 11). In the study, the controller resulted in
+signifcantly faster time, less fatigue, and higher usability compared
+to voice and gesture.
+Importantly, Southgate et al. [71] explored the ethics of designing AR experiences for children. The authors remarked that there
+has been little research on the physical, cognitive, emotional, and
+social efects of highly immersive experiences on children. Children (under age 13) have a harder time separating the real from
+unreal [46, 62] and can become so immersed that they lose track
+of their environment in an unsafe manner [6, 23]. The authors emphasized considering the developmental stage of the children when
+designing and to include researchers with expertise with children
+when conducting studies. Although studies have examined using
+AR headsets with children, it is still unclear how children conceptualize these devices and what their expectations are, both of which
+
+===== PDF PAGE 3 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+
+are critical to understand for children’s design. Knowing and matching users’ expectations is important for users’ satisfaction and to
+avoid usability issues [10, 59]. Therefore, we aimed to understand
+how children conceptualize interaction with AR headsets.
+
+2.3
+
+Participatory Design Methods
+
+For our study, we utilized participatory design (PD), which is a
+method of design that brings users and designers together to create
+new technologies [41]. Specifcally, we used a PD method called
+Cooperative Inquiry that emphasizes close partnerships with children [19, 20, 82]. Prior studies in child-computer interaction have
+used PD methods such as Cooperative Inquiry to create technology
+tailored towards children [7, 14, 18, 20, 45, 68, 76, 79, 82]. PD can
+elicit rich ideas from children, more so than interviews [7, 18, 79].
+Woodward et al. [79] used PD to understand how children conceptualize intelligent user interfaces. The authors conducted four
+synchronous in-person PD sessions with children (ages 7 to 12) to
+create a conceptual model of children’s understanding of intelligent
+interfaces. They reported that asking children specifc questions
+about the technology in the warm-up discussions did not produce
+as insightful results as the design activities, since the activities
+allowed the children to express abstract ideas.
+Prior work on PD with children has mainly focused on synchronously designing together in-person. However, due to the
+COVID-19 pandemic, our design sessions had to become remote.
+Remote PD has been used in the past to increase access to participation for children who may have transportation, location, or
+other limitations [44, 74]. Other advantages of conducting online
+PD sessions exist, such as: (1) separating small groups into breakout rooms for more defned partnerships, (2) allowing children to
+design in a familiar environment (e.g., their home), and (3) incorporating digital materials more seamlessly into activities. Lee et
+al. [44] conducted and examined ten online remote PD sessions
+with a co-design group consisting of both children (ages 7-11) and
+adults. The authors provided guidance for how to modify existing PD techniques to an online format. We used Lee et al.’s [44]
+technique adaptations as a base for our design sessions, which we
+explain in the Methods section.
+
+2.4
+
+common elements the children added were item information and
+instructions. Similarly, Sim et al. [68] used PD methods to examine
+how children would design AR experiences, except for a museum
+context. The children (ages 7 to 9) were presented with a storyboard
+of going to a museum, putting on smart glasses, and looking at an
+exhibit of a Roman soldier. The children were instructed to draw
+augmented content onto three images: walking into the museum
+for training, the soldier exhibit, and then a sign with text describing
+a museum artifact. The authors found that the children were able to
+grasp the idea of AR and designed virtual content, some in which
+was interactive (e.g., fghting the soldier). Although these two prior
+studies utilized PD methods to examine children designing for AR
+headsets, they only conducted one design session and constrained
+the context of the children’s designs by providing the children with
+specifc static images. For our study, we conducted four open-ended
+design activities, instead of constraining the context. These two
+studies investigated whether children could understand the concept
+of AR headsets but did not analyze how the children conceptualize
+the technology itself, what their ideas for its use might be, and
+what their expectations for the technology are. We concentrated on
+understanding how children conceptualize AR headsets and their
+overall expectations.
+
+3
+
+METHODS
+
+For our study, we conducted four remote synchronous participatory
+design (PD) sessions with an existing intergenerational co-design
+group. The sessions focused on designing content for AR headsets,
+with an emphasis on utilizing the devices for completing tasks (i.e.,
+jobs, chores, projects). Our design activities were open-ended; we
+did not constrain the children to specifc tasks. We conducted four
+80-minute design sessions across two weeks over Zoom [91], with
+two sessions a week. Our protocol was approved by our institutional
+review board, and we collected both parental consent and child
+assent. The four sessions included:
+• Design Session 1: Design an AR headset game.
+• Design Session 2: Design elements in an AR headset that
+would be helpful while using Legos.
+• Design Session 3: Create a story of using an AR headset for
+doing a task.
+• Design Session 4: Finish a story of using an AR headset for
+one of the tasks from Design Session 3.
+
+Participatory Design Sessions on AR
+
+Previous studies have also used PD methods with children to examine AR [1, 14, 68]. Alhumaidan et al. [1] conducted PD sessions with
+a group of children (ages 8-10) and adults to design an AR textbook
+for a tablet. The co-design sessions focused on creating low-tech
+prototypes out of craft materials, as well as critiquing an existing
+AR textbook. Based on the children’s designs, the authors presented
+design features for an AR textbook (e.g., being able to interact with
+the virtual elements using the tablet touchscreen). In addition to
+tablets, prior work has also used PD methods with children for AR
+headsets [14, 68]. Cassidy et al. [14] utilized PD design methods
+to gain insight into what augmentations children fnd engaging
+in play contexts. The children (ages 7 and 8) were instructed to
+create designs for a “super pair of glasses” that would help them
+play. In small groups, the children drew on a clear acetate sheet
+over three static photograph images (i.e., Legos, fake food pieces,
+and a coloring book) to simulate AR display technology. The most
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+3.1
+
+Participants
+
+We conducted the study with an intergenerational co-design group,
+consisting of both adult design researchers and child participants,
+called KidsTeam UW [44, 81, 82]. The group includes ten children
+ages 7 to 12 [M = 9.3, SD = 1.9]. The age group of the children
+is consistent with existing Cooperative Inquiry studies (e.g., [75,
+79, 82]), as well as prior work on using AR headsets with children
+[40, 58]. None of the children had used AR headsets before. All
+names presented in the paper are pseudonyms, and the children’s
+demographics were parent-reported (Table 1).
+
+3.2
+
+Design Sessions
+
+Each design session was conducted remotely over Zoom and was
+broken down into four parts: social time (10 minutes), introduction
+
+===== PDF PAGE 4 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+Julia Woodward et al.
+
+Table 1: Child participant demographics. All names are pseudonyms.
+Child Pseudonyms
+
+Age
+
+Gender
+
+Ethnicity
+
+Anne
+Akira
+Elsie
+David
+Marcus
+Kotaro
+Mike
+Katie
+Billy
+Henry
+
+7
+7
+8
+8
+8
+10
+10
+11
+12
+12
+
+Female
+Male
+Female
+Male
+Male
+Male
+Male
+Female
+Male
+Male
+
+Asian/Black
+Asian/White
+Asian/White
+Hispanic
+Asian/White
+Asian/White
+White
+Asian/White
+Asian
+Hispanic
+
+(10 minutes), design activity (40 minutes), and discussion (20 minutes). Social time allowed time for the children and adults to arrive
+and get settled. In the introduction, we asked a “question of the
+day” and presented the design activity for that session. We used the
+question of the day to prompt the children about what we would be
+designing and to get insights into their mental models. During each
+day’s design activity, the main group broke into smaller intergenerational groups in Zoom breakout rooms to complete the activity.
+In each group, the adult design researchers acted as partners by
+designing with the children and facilitating discussions. After the
+design activity, all the groups came back together to discuss their
+fnished designs during the discussion. Each design activity was
+chosen for its potential to explore diferent aspects of the design
+space of children’s conceptual model of AR headsets. When using PD to build mental models, Woodward et al. [79] recommends
+starting with designs sessions that allow participants to become
+familiar with the context before structuring the later sessions to focus on more complex topics. Therefore, we organized the activities
+to scafold the children’s thought process on AR headsets, by frst
+introducing the concept of AR headsets and then delving into using
+it for task performance. The design sessions were video recorded
+through Zoom.
+3.2.1 DS 1: AR Headset Game. On the frst day, we focused on
+introducing the concept of AR headsets. During the introduction, we
+asked the question, “Does anyone know anything about augmented
+reality (AR)?”, to try to establish the scope of the children’s preexisting mental models of AR. Since the children did not interact
+with headsets during the design sessions and none of the children
+had any prior experience with headset AR, we frst discussed AR
+as a group before the design activity. Similar to prior work [68], we
+explained AR within the context of Pokémon GO [92] and showed
+videos of the functionality of AR headsets [16, 55] before starting
+the activity. The videos depict people seeing and interacting with
+virtual content while wearing AR headsets in both frst- and thirdperson perspectives. We then explained the design activity, which
+was to design an AR headset game. The only design constraint was
+that it had to be for a headset (i.e., not tablet, etc.). For the activity,
+we used two existing PD techniques: Bags of Stuf [19, 76] and Big
+Paper [29, 76]. Bags of Stuf is a low-tech prototyping technique,
+in which large bags are flled with craft materials and each group
+uses the materials to create a low-fdelity prototype. Big Paper is a
+
+form of paper prototyping, in which each design group has a large
+piece of paper to collaborate and draw. Due to the remote nature
+of our sessions, we shipped the children a box of craft materials for
+them to use to create their own prototype, including a child-size
+face shield they could use to simulate an AR display (Figure 1 left).
+The children could draw on the face shield and physically put it on
+to test out their designs. For Big Paper, we had each small design
+group collaborate using Google Slides. Overall, the session included:
+craft materials, face shield, and Google Slides.
+3.2.2 DS 2: Lego Activity. For the second design session, we asked
+the question, “What information would you always want to know
+throughout your day that would be helpful to you?” We asked this
+question to elicit children’s ideas about information they would
+like to have access to in an AR headset. The design activity was
+to design elements to appear in an AR headset while using Legos
+and depict how the elements should be displayed in the headset
+(Figure 1 right). The children could make anything with the Legos;
+it just had to connect with what they designed in the headset. We
+chose to use Legos as the activity because we wanted to shift the
+design activities towards using AR headsets for tasks. Building with
+Legos has similar characteristics to working on tasks, such as being
+step-based and having an end goal (i.e., completion), and Legos are
+still familiar to the children. We utilized the same PD techniques
+as DS 1 (i.e., Bags of Stuf, Big Paper); we also shipped the children
+Legos. Altogether, the session included: craft materials, face shield,
+Legos, and Google Slides.
+3.2.3 DS 3: AR Headsets for Tasks Part 1. We designed the third
+session to introduce the concept of using AR headsets for task
+performance. The focus was to have the children think about and
+identify what tasks they would want to use the headsets for. During
+the introduction, we asked the children, “What would you want
+to use AR headsets for throughout your day?”, to get the children
+thinking about using headsets for specifc purposes. The design
+activity was to create a story of using an AR headset for doing a
+task. We clarifed “tasks” to the children, as a job, chore, or project.
+We used Comicboarding [76], an existing PD technique in which
+children come up with a story about a technology they are designing
+while an adult artist is drawing their story. Since our sessions were
+remote, we utilized Lee et al.’s [44] modifed online Comicboarding
+technique of having the groups create a story together using Google
+
+===== PDF PAGE 5 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+Figure 1: Child participant’s AR game using a face shield [DS 1] (left) and child participant’s design using Legos [DS 2] (right).
+Slides and the children direct the adults on fnding visuals online.
+For the story the groups had three boxes to fll out with a prompt
+in each one: what is the task, what will you see, and how will it
+help. The three prompts helped the children identify tasks, as well
+as consider visual elements presented in the headset.
+3.2.4 DS 4: AR Headsets for Tasks Part 2. The last design session
+was a continuation of DS 3. The goal was to further explore using AR
+headsets for task performance, specifcally focusing on functionality.
+For our last question, we asked the children, “How would you explain
+augmented reality (AR) to someone?” The purpose of the question
+was to examine how the children’s concept of AR may have shifted
+during the sessions. The design activity was to fnish a story of
+using an AR headset for one of the tasks from DS 3. We chose
+three of the tasks the children designed in DS 3 and assigned each
+small group one of them: helping with homework, teaching how
+to cook, or assisting in a fre (e.g., leading people to safety). We
+utilized Lee et al.’s [44] remote Comicboarding and had the groups
+fll out three boxes using Google Slides with the prompts: create
+a character of who would use it for that task, how would they
+use it (when and where), and what happens when they use it. We
+also used the PD technique Layered Elaboration [75, 76], in which
+transparent material is added to paper-based prototypes to enable
+iterative design. For our remote sessions, we modifed the technique
+to have the children elaborate on one of the tasks from D3. The
+small groups could look back to the Google Slides from DS 3 to see
+the previous design and expand upon it. For both DS 3 and DS 4,
+the sessions included Google Slides, in which the children could
+annotate and draw on.
+
+3.3
+
+Data Analysis
+
+After completing the four design sessions, the frst and third authors transcribed the Zoom recordings. The recordings included 16
+videos, consisting of approximately 554 minutes of video data (not
+including social time). The transcriptions resulted in 512 utterances
+used for analysis (i.e., excluding utterances not pertaining to the
+design activities). Out of the 512 utterances, 372 were made by the
+children (72.7%); the rest were made by the adult design partners or
+researchers. Similar to prior work [79], we analyzed the utterances
+through afnity diagramming, which is a method to organize largescale qualitative data through a bottom-up inductive approach [9].
+
+We did not compute inter-rater reliability as it is not recommended
+when the research goal is to determine concepts and themes [52].
+To create the afnity diagram, the frst three authors iteratively
+grouped the individual utterances into themes over the course of
+ten meetings (approximately 20 hours) using Miro [93], an online
+whiteboard tool for remote collaboration. We initially identifed
+12 central themes, which we further combined into 7 main groups.
+We iteratively grouped the themes until we had a clear distinction
+between groups. The entire research team then met over two 1-hour
+meetings to discuss the themes and determine the links between
+the groups to create our conceptual model [37] (Figure 2).
+
+4
+
+FINDINGS
+
+We identifed 7 main groups: User Feeling, User Input, System Output,
+Context of Use, System Ability, System Immersion, and System Intelligence. When determining the 7 groups we were inspired by the
+groupings from Woodward et al.’s conceptual model on intelligent
+user interfaces (IUIs) [79]; however, we found diferences between
+our results and the model on IUIs which we elaborate on in the
+Discussion section of the paper. We provide an overview of the
+conceptual model before discussing each main group and themes.
+
+4.1
+
+Conceptual Model Overview
+
+In our study, the children talked about their distrust towards the
+AR headset and only wanting to use it in certain situations (User
+Feeling). Their feelings infuenced how they used and interacted
+with the device. When designing for interaction, the children added
+a wide range of input modalities (e.g., voice, body movement) (User
+Input). The children expected diverse system outputs (e.g., color,
+voice, virtual elements) (System Output). Both user input and system output illustrate the required high level of system intelligence
+(System Intelligence). In addition, the children expected certain contexts of use, as well as certain headset abilities and content (e.g.,
+virtual characters, social connection) (Context of Use, System Ability). The intelligence and output of the system then impacted the
+children’s feelings of immersion and connection, which in turn
+infuenced their feelings towards the system (System Immersion,
+User Feeling). Overall, the children designed highly intelligent AR
+headsets that accepted a wide range of input modalities to create
+immersive environments for the user (Figure 2).
+
+===== PDF PAGE 6 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+Julia Woodward et al.
+
+Figure 2: A conceptual model of children’s understanding of augmented reality (AR) headsets.
+
+4.2
+
+Main Groups and Themes
+
+We will now discuss each of the 7 main groups and the subthemes,
+with specifc examples from our design sessions. Although some of
+the children’s designs are not feasible (e.g., using AR headsets to
+see the future), we take inspiration from these ideas and provide
+design recommendations in the Discussion that can be applied to
+real-world AR headsets.
+4.2.1 User Feeling. Throughout all four design sessions, the children remarked on their Feelings, which included: Distrust and Independence. The children frequently commented on their lack of trust
+in the headset. When designing AR headsets for cooking, Kotaro
+stated, “I wouldn’t trust it because like, obviously AI can do weird
+stuf. Maybe it might like mess up when it’s like, I don’t know when
+the stove is on and then it catches the entire house on fre.” [DS 4]. The
+children were concerned the headset could make faulty decisions.
+Children’s experience with the limitations of smart technologies
+(e.g., voice assistants not understanding them [8, 49]) made them
+wary of trusting a new device to make decisions and help them
+accomplish things.
+For Independence, the children did not always want to use the
+headset, rather wanting to accomplish certain things on their own:
+“If people get along easily without it, why do we need it?” [Marcus,
+DS 4]. When designing using an AR headset for homework, Mike
+preferred to use the headset for step-based problems instead of creative writing. Also, the children would sometimes prefer a human
+connection and a break from technology: “I’d rather be with humans
+than robots.” [Kotaro, DS 3] and “I wouldn’t wear it a lot, I already
+do a lot of screens.” [Akira, DS 3]. One interesting thing to note is
+Kotaro equated AR headsets with robots. This may be due to the
+increasing pervasiveness of robots (e.g., [31, 66, 86]), as well as children’s perceptions. Children view robots as intelligent, comfortable,
+social, and helpful [56]. Therefore, Kotaro may view a headset as
+comparable to a robot due to having similar characteristics. While
+discussing independence, the children talked about wanting to use
+the AR headset for certain circumstances. For example, during DS 2
+
+the children discussed not wanting to use a headset for free building
+Legos. They preferred using the headset for Lego sets that require
+instructions. The children’s distrust and desire for independence
+infuenced their feelings towards AR headsets and how they want
+to interact with it.
+
+4.2.2 User Input. The children considered a wide range of input
+modalities for User Input, which included three themes: Interaction
+with Virtual Elements, Body Motion, and Additional Hardware. In
+their designs for AR headsets, the children incorporated how to
+interact with the virtual elements, such as through natural interaction, direct manipulation (e.g., button clicks), and voice. For natural
+interaction, the children talked about interacting with the elements
+as they would in the real-world. During DS 1, Mike created a prison
+escape room game, in which the user had to interact with virtual
+elements similarly to how one would interact with real-world elements to fnd clues (e.g., grabbing a virtual wrench). When asked
+how it would look like when someone is using a headset to cook,
+David said, “It will probably look normal except the AR headset would
+be on the person’s head.” [DS 4]. In the children’s mental models, a
+person would not need to change their interactions to suit the AR
+headset, they could act normally to complete the task. We found
+that the children added voice interaction, especially with tasks: “I
+think it [voice input] would be easiest to do like, um, on short notice.
+Um, because like, you don’t have to take time to like touch something.”
+[Mike, DS4].
+The children utilized Body Motion as a method of input in their
+designs. During DS 1, the children frequently created AR games
+which required whole-body movement. For example, Henry created
+a game in which the user must avoid virtual cars coming towards
+them by physically moving and dodging, and Mike used head movement to move a virtual character. The children also added Additional
+Hardware into their designs, such as joysticks, physical buttons,
+and even physical mechanical arms attached to the headset. The
+
+===== PDF PAGE 7 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+Figure 3: Designs for an AR headset feld-of-view for cooking [DS 3] (left) and locating a fre [DS 4] (right).
+children added hardware to increase the functionality of the headset and to expand interaction options (e.g., combination of voice
+and physical buttons).
+4.2.3 System Output. The children considered the System Output and User Interface, which contained six themes: 2D Virtual
+Elements, 3D Virtual Elements, Voice, Use of Color, Location in
+Field-of-View, and Amount of Information. While we saw a mix
+of both 2D and 3D virtual elements throughout all four sessions,
+the children mostly incorporated 3D elements into games (DS 1)
+and 2D elements for task-based designs (DS 3 and 4). For the 3D
+elements, the children designed both realistic and fantasy elements
+(e.g., cars, dragons), as well as 3D text instructions. For the 2D virtual elements, the children included text, images, mini-maps, and
+symbols/shapes. When designing AR headsets to help pinpoint a
+fre, Mike said, “A circle would be good. And then you could like,
+put a random number on it, like 150 degrees Fahrenheit.” [DS 4]
+(Figure 3 right). In terms of Voice and Use of Color, the children
+mostly included these features in task-based designs. For example,
+Akira designed the headset to give a tsunami warning: “Someone
+would yell in your ear and say, ‘get out of here! warning! There’s a
+tsunami!”’ [DS 3]. For cooking, Katie used color to show food that
+the user is allergic to or that has gone bad: “Red. Just like tint it red.
+You get red, give it an X, just give it a big X. Like a gone bad stamp.”
+[DS 3] (Figure 3 left).
+We observed the children consider the User Interface, by determining where elements should be located in the feld-of-view and
+the amount and type of information to be displayed. The children
+frequently designed elements to be on the right-hand side of the
+feld-of-view. For example, when discussing where to place a game
+menu, Akira said, “Maybe a little corner at the top,” and David responded by saying, “Well, it’s usually on the right top corner.” [DS 1].
+The children’s expectation of elements being located on the right
+side of the feld-of-view might be based on prior experience with
+video games. For instance, both Mario Kart 8 [85] and Fortnite [94]
+include mini-maps on the right-hand side. The children considered
+the amount of information to be displayed, because they did not
+want the information to be too distracting or difcult to understand.
+4.2.4 Context of Use. During the design sessions, the children
+thought of a wide range of contexts that AR headsets could aid in
+(AR Utilization) and considered how the headset difers from traditional interaction methods (AR Usability). The children designed
+
+headsets to help in contexts such as homework, video games, cooking, recording and playing events, and safety. The children thought
+of situations in which augmented information and elements could
+be entertaining (e.g., games), as well as benefcial to the user. For
+instance, the children thought AR could aid in instructional-based
+activities (e.g., cooking, homework) and in emergency situations.
+David suggested that in a fre, a large virtual character, such as
+Nintendo’s Mario, could lead users to safety. Also, virtual arrows
+could appear on the ground to show the user which direction to go
+[DS 3]. Although the children did think of diferent contexts, it is
+important to note that the children did not perceive AR headsets as
+pervasive; rather, viewing the device as a tool for specifc situations.
+Throughout the sessions, the children compared the usability of
+AR headsets to traditional methods. For instance, Elsie compared
+playing games on the headset to the Nintendo Switch: “I would
+probably want to play it like kinda like in a headset, so you put it on
+and you can see everything like up close and you don’t have to like
+lean into your switch screen.” [DS 1]. Also, the children thought the
+headset would be more useful than paper instructions: “I think I
+prefer it [headset] over the book because having the book it always
+splits closed or like twists the next page or whatever.” [Katie, DS 2].
+4.2.5 System Ability. We noticed the children incorporated certain
+abilities and content for the AR headset that included: Content Topics, Gameplay, Social Connection, and Guidance. In all four design
+sessions, the children considered content as a base of their design.
+The children commonly focused on fantasy and science fction topics and added characters and elements from existing entertainment
+(e.g., Mario Kart, Minecraft, Sesame Street). For example, in DS 4
+David wanted a virtual Cookie Monster to show him how to cook
+in the headset. The children also included certain game elements,
+such as diferent game modes, customization, and the ability for
+game progression (e.g., diferent levels). For example, Akira and
+David created a Star Wars game, in which a user can battle other
+players, visit diferent planets, and build ships [DS 1]. Through
+using AR headsets, children can build objects that are impossible in
+the real-world (e.g., life-size Star Wars ships) and view how those
+objects relate to the natural environment.
+During the sessions, we observed that the children frequently
+included a Social Connection, through interacting with virtual characters and adding human collaboration. The children created a wide
+
+===== PDF PAGE 8 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+range of virtual characters, from fantasy creatures to humans. During DS 3, Mike said, “Like if I had a couch it [headset] could add, like
+somebody sitting on the couch I have in my room.” The children also
+added aspects of human collaboration, such as multi-player options
+and allowing people to view what the user is doing. For example,
+Anne included the ability to share experiences with other people:
+“But if someone else is wearing the headset too, then they can see it.”
+[DS 3]. In the children’s mental models, they also view AR headsets
+as a system to provide Guidance. The children incorporated elements, such as instructions, explanations, and reminders/warnings
+throughout all four sessions. For instance, Mike wanted the headset
+to help with his homework [DS 3]. In the children’s designs, the
+headset would recognize what the user is doing in real-time and
+provide guidance through overlaid visual elements and voice.
+4.2.6 System Immersion. The children designed the AR headset
+experiences to be Immersive, as represented through fve themes:
+First-Person, Feeling and Haptics, Physical Magnitude, Outdoor Usage,
+and Interaction Between Virtual and Real-World. Most of the children’s designs focused on a frst-person perspective. For instance,
+Billy created a game in which life-size dinosaurs walk around and
+the user can battle or dodge the dinosaurs. In his game, Billy also
+incorporated the idea of Feeling and Haptics through being able to
+interact with the dinosaurs as if in the real-world: “I think it would
+be cool to get stampeded by dinosaurs.” [DS 1]. We also saw this concept of haptics in other children’s designs, such as Henry’s game
+with virtual cars in which the user must “[. . .] avoid trafc or get
+run over.” [DS 1, utterance posted in Zoom chat]. Additionally, the
+children designed AR experiences that included virtual elements
+with Physical Magnitude (e.g., dinosaurs, spaceships, cars) and that
+occurred in diferent environments, such as Outdoors. For example,
+Henry talked about playing his game with virtual cars on sidewalks,
+racetracks, and on hiking trails.
+One main immersive concept that appeared in the children’s
+designs was the idea of Interaction Between Virtual and Real-World,
+in which virtual elements can infuence the real-world environment. In existing headsets, users can interact with virtual elements;
+however, the virtual elements do not in turn impact the users’ environment. We observed the children consider how virtual elements
+could afect and change their environment. For instance, in Akira’s
+and David’s Star Wars game, David was worried that the virtual
+characters with lightsabers would afect the real-world: “Actually
+it wouldn’t be good if AR could sense the things that were around
+you, because if it could sense the things around you the characters are
+going to be cutting in half all the cars around you.” [DS 1]. While
+it is not feasible for virtual elements in AR headsets to physically
+interact with and change the real-world (e.g., cutting cars in half),
+the devices could include more interactivity with the real-world.
+For instance, a virtual character’s actions (e.g., dialogue, movement)
+could refer to elements in the user’s actual physical environment.
+4.2.7 System Intelligence. The children expected a high level of
+System Intelligence, such as the ability to Recognize Surroundings
+and Objects, Transform Surroundings, provide Suggestions, and Manipulate Time. In the children’s mental models, the headset must
+be able to recognize objects, locations, danger (e.g., a fre), other
+people, and the status of objects and people. For instance, Mike and
+Katie discussed using the headset to determine people’s ages and
+
+Julia Woodward et al.
+
+level of danger during a fre: “Like, uh, put the people in like green
+dots and then people who are in danger red dots.” [Katie, DS 4]. The
+children thought the headset should discern people’s ages in a fre
+because “[. . .] the kids need to be rescued frst, then the old people
+then the middle-aged slash adults.” [Mike, DS 4]. Like Katie’s “gone
+bad” food stamp discussed in the System Output section (Figure 3
+left), Billy also designed the headset to go beyond recognition in
+having the headset decide the status of food: “Um, and it [headset]
+can also show you like if your food has gone rotten, and so you can
+throw that away.” [DS 3].
+In addition to recognition, the children expected the AR headset
+to be able to virtually transform their surroundings. For the Star
+Wars game, David discussed transforming his surroundings to a
+spaceship workshop. When talking about adding virtual elements
+to the environment, Anne said, “And then, and then like basically
+the whole room, it turns, it looks, it turns into real life and it looks
+real, but no one else can see it except me because I’m wearing the
+headset.” [DS 3]. Other levels of intelligence the children included
+were providing suggestions and manipulating time. For example,
+Anne thought of using the headset to change the future and past.
+While this level of intelligence is not possible, the headset could
+show how things may have looked in the past or will look in the
+future (e.g., a fnished building that is under construction). Overall,
+the children incorporated a high level of system intelligence into
+their design concepts.
+
+5
+
+DISCUSSION
+
+We focus our discussion on (a) summarizing the key points of our
+conceptual model of children’s understanding of AR headsets, (b)
+comparing our conceptual model to existing models of children’s
+understanding of technology, (c) discussing new insights on conducting remote online PD sessions with children about a device
+they do not have access to while designing, and (d) suggesting new
+design recommendations for AR headset experiences for children.
+
+5.1
+
+Our Conceptual Model
+
+Based on our fndings, children perceive AR headsets as a type of
+intelligent system that can go beyond recognizing objects to also
+determine important status details about those objects (e.g., people’s ages, expired food). Children also envision headsets should be
+able to transform users’ surroundings to create immersive environments, in which virtual elements can interact with and afect the
+real world. Children imagine interacting with AR headsets through
+voice, natural interaction, and body movement, and expect the system to intelligently respond using 2D and 3D virtual elements and
+voice. Children’s perceptions of AR headsets go further than just a
+visual augmentation tool, rather considering an all-encompassing
+system. In addition, children have specifc ideas of what they want
+to use headsets for, as well as expect certain abilities and content
+(e.g., existing characters). For example, David designed a virtual
+Mario to lead users to safety during a fre. When discussing the
+size of the character, David said, “It would be kind of creepy if it
+was little, more little than me. He’s 25 years old.” [DS 3]. Yip et al.
+[81] found that qualities such as an ominous physical appearance
+(e.g., overly tall), mimicry, and unpredictability can lead to children viewing technology as “creepy”. In David’s mind, a virtual
+
+===== PDF PAGE 9 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+
+Mario in the headset should realistically represent the character’s
+characteristics, such as age. Although children are interested in
+using AR headsets, they still value their independence away from
+the headset to be creative and interact with people without digital
+screens. Prior research has found that children still enjoy performing non-digital activities (e.g., outdoor play) away from technology
+[38]. Also, children often want to accomplish things on their own
+without help from their parents [51], and children (ages 7 to 11)
+are learning to be competent and productive individually [25]. We
+observed that children’s desire to do things on their own translated
+to AR headsets in our sessions.
+Through conducting PD sessions, we were able to elicit rich
+ideas from the children and extract their complex perceptions of
+AR headsets. In our study, not having the children interact with
+existing headsets allowed us to view their original mental models
+and engender new design ideas. For example, the children were not
+limited in their designs by the feld-of-view of existing headsets;
+Mike discussed having an “[. . .] endless circle of a face shield.” [DS
+1]. Overall, we were able to create a cohesive conceptual model
+of children’s understanding of AR headsets, which can be used to
+design headsets that match children’s expectations.
+
+5.2
+
+Our Model vs. Existing Models
+
+We used a top-down deductive approach to compare our conceptual
+model to existing models of children’s understanding of technology.
+Jarvis and Rennie [36] created a fve-stage model of the development
+of how children (ages 5-11) understand technology. The authors
+generated their model based on children’s drawings of what the
+term “technology” means to them and one-on-one interviews. In
+the model, the fve stages are: (1) No Model, (2) Embryonic Ideas
+(unestablished ideas), (3) Single Explanation (consistent idea), (4)
+Multiple Explanations (inconsistently applied), and (5) Development of a Generalized Concept. Lachapelle et al. [43] examined
+children’s (ages 8-11) conceptions of technology through responses
+to open-ended questions and picture analysis (i.e., determining if a
+picture of an object can be classifed as technology). The authors
+found that children conceptualize “technology” primarily as artifacts powered by electrical energy. In our conceptual model of
+children’s understanding of AR, the children go beyond a simple
+explanation of being powered by electrical energy and their design
+concepts displayed evidence that they have a generalized concept.
+The children’s generalized concept was also evident through their
+responses to the question of the day for DS 4: “How would you
+explain augmented reality (AR) to someone?” For example, David
+answered, “You put [it] on your head, then you can see things and
+interact with [it],” and Billy said, “So in the headset, you can see like
+virtual objects on top of the real world.”
+As mentioned, Woodward et al. [79] created a conceptual model
+of children’s understanding of intelligent interfaces (IUIs). The
+authors defned IUIs as interfaces that try to interpret the user’s
+intent, such as smartphones and speech agents. In comparing our
+conceptual model of AR headsets to Woodward et al.’s model [79],
+there are similarities in children’s expectations. For example, children expect a wide range of input modalities and system outputs
+(e.g., voice, visual elements), social connections, and high system
+intelligence. In both models, children presume high accuracy and
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+recognition, as well as that the system will be able to make decisions (i.e., suggestions). Although we see similarities, there are clear
+diferences between the models. For instance, with AR headsets
+children expected more mobility, such as the ability to use wholebody movement as user input (e.g., fghting). The immersive and
+hands-free capabilities of the devices allow for whole-body motion
+as an input method. Furthermore, we noticed that children view
+AR headsets as a tool to provide guidance (e.g., learning how to
+cook), instead of users teaching and commanding the system as in
+Woodward et al.’s model of IUIs [79]. Other diferences between
+the models include our fnding of user feeling compared to user
+behavior and our theme of system immersion. In our study, we
+observed the children discussing their feelings toward using AR
+headsets, instead of mainly focusing on their desired input behaviors as with the model of IUIs. This diference could be a result of
+the novelty of AR headsets and the children not having any prior
+experience, compared to IUIs (e.g., smartphones). The emphasis on
+user feelings was also present in our theme of system immersion,
+which was not part of children’s mental models of IUIs. For AR
+headsets, children considered what the user would experience and
+feel. Also, children viewed headsets as able to afect and infuence
+the physical environment. According to children, it is important
+to consider users’ perceptions and immersion when designing interactions with AR headsets. In general, our fndings along with
+Woodward et al.’s model [79] illustrate that children think about
+technology in complex unexpected ways. It is important to understand children’s perceptions and expectations of technology to
+efectively design for them, especially as children continue to use
+technological devices in diferent contexts.
+
+5.3
+
+Remote PD Sessions with Children
+
+In part due to our PD sessions being remote, the children did not
+interact with AR headsets while designing, as sending individual
+devices to each child as part of the design sessions was out of scope
+for our project. Since the children did not have access to an existing AR headset, we tried to simulate a headset through a low-tech
+commonplace item: a face shield. We chose a face shield because it
+shares similarities with a headset: (1) a person physically wears it on
+their head, (2) there is a transparent screen, and (3) it is hands-free.
+By using the face shield, the children were able to create and test
+out their designs as if they were wearing a headset. For example,
+when Elsie put on her face shield when creating an AR headset
+baking game, she immediately said, “I drew it too low!” [DS 1]. Lowtech prototyping is a long-established PD technique for in-person
+sessions (e.g., [19, 76]). We found that this is still a valid PD technique when conducting online PD sessions with children involving
+a device that is not available. Researchers can utilize commonplace
+items that have similar characteristics with the unavailable device
+for online PD sessions. Our work corroborates Lee et al.’s [44] fnding on the importance of improvisation in conducting remote PD
+sessions with children. For instance, Billy never received the package with the craft materials and face shield. Therefore, we had to
+improvise; instead, Billy used plastic wrap that was in his kitchen,
+since it still shared enough similar characteristics to an AR headset
+(e.g., transparent screen).
+
+===== PDF PAGE 10 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+In our study, we noticed the children had diferent ways of communicating that were unique to an online format. In addition to
+speech, the children sent responses and images in the Zoom chat
+and annotation on the Zoom screen. The distinct methods of communication allowed the children to express themselves in a way
+they felt most comfortable. Designing through images and annotation enabled the children to clearly articulate their visual ideas.
+When transcribing the data, we had to be mindful of the diferent
+ways the children communicated to capture their designs. In analyzing the data, we observed that DS 2 (i.e., Lego activity) had
+fewer utterances and design ideas than the other design sessions
+(i.e., 70 utterances out of 512). Compared to the frst design session
+that focused on designing an AR headset game with a face shield,
+DS 2 required the children to focus on two external items: (1) Legos, and (2) a face shield. The children frequently remarked that
+they were confused: “I don’t understand what we’re supposed to do
+with it.” [Katie, DS 2]. Also, the groups were able to collaborate on
+Google Slides during DS 2; however, the children mainly focused
+on the two individual components (i.e., Legos and face shield). In
+comparison, the groups in DS 1, 3, and 4 actively collaborated using
+Google Slides. For conducting remote PD sessions with children,
+we recommend researchers actively incorporate an online collaboration component (e.g., Google Slides) into the design activity. For
+instance, for the online Comicboarding technique, groups can create
+a story together using Google Slides [44].
+
+5.4
+
+Design Recommendations
+
+Based on our model, we suggest recommendations for designing
+AR headset content and experiences for children. In each subsection, we connect the recommendation to our conceptual model.
+We also highlight which recommendations are currently applicable
+and which require future research directions. Existing and future
+designers of AR headset experiences for children can utilize our
+model to examine if their designs match children’s expectations.
+5.4.1 Location of Content in AR Headset [Current]. Prior work has
+found that people exhibit a leftward visual and spatial bias, known
+as pseudoneglect [12, 72]. Pseudoneglect leads to advantages in the
+left visual feld, such as faster motion processing, greater detection
+accuracy, and higher contrast sensitivity [15, 50, 72]. Furthermore,
+prior research has shown that pseudoneglect extends to elements
+located on the left-hand side of a computer screen [50]. However,
+based on the themes System Output and User Interface in our conceptual model, the children expect elements to be on the right-hand
+side of the AR headset feld-of-view. The children’s expectation
+of virtual elements being on the right side of the feld-of-view is
+most likely do to their prior experience with video games, where
+mini-maps and other elements are often located on the right (e.g.,
+Mario Kart 8 [85]). We suggest that current designers consider a
+trade-of between noticeability and usability when designing where
+to place content in AR headsets for children. For instance, Jones et
+al. [39] investigated using monocular AR headsets to help facilitate
+sign language in learning environments. Deaf or hard-of hearing
+students receive instruction visually and usually must split attention between signed narration and visual aids. Therefore, Jones et
+al. examined how displaying sign language in an AR headset could
+help with receiving instruction. The authors allowed the students
+
+Julia Woodward et al.
+
+to choose where to place the sign language in the headset, and the
+majority chose the top-right. The students struggled to split attention between the real world and signed narration in the headset.
+Based on our fndings, while the top-right aligns with their mental
+model, in the context of education the information may be better
+suited to be displayed on the left-hand side to lead to higher detection and contrast. One thing to note is, while pseudoneglect has
+been shown to occur in both right-handed and left-handed people,
+it is not prominent in cultural groups that read right-to-left [69].
+Therefore, designers should also consider users’ cultural groups
+when designing where to place the elements in headsets.
+5.4.2 Consider Context [Current]. Prior work has examined the
+applicability of using AR headsets in an array of contexts (e.g.,
+healthcare, military, navigation, education) and how headsets compare to traditional display methods [27, 28, 40, 47]. However, based
+on the User Feelings theme in our model, designers should pause
+and consider when to design AR experiences for children; certain
+contexts do not match children’s mental models. In contrast to
+other wearable technology (e.g., smartwatch), children do not view
+AR headsets as pervasive technology to wear throughout the day.
+We observed the children want Independence, as they did not want
+to use AR headsets for situations that were not difcult for them.
+For instance, Marcus said, “I do my homework in 15 minutes, why do
+I need the AR, or I easily read cookbooks, I don’t need someone telling
+me.” [DS 4]. Children have a desire to accomplish things on their
+own [51], and the children in our study exhibited this behavior
+with AR headsets. Besides not wanting to use the headsets for tasks
+they did not need help with, the children did not want to use it
+when being creative (e.g., free building Legos, writing). Therefore,
+our fndings show that, while AR headsets are being applied in
+educational contexts for children [11, 40], not every topic might
+be relevant. For instance, although the children considered using
+the devices to help with homework, it was only for certain subjects
+(e.g., math) and for things they found difcult to work on themselves. Prior work in intelligent tutoring systems has focused on
+providing appropriate scafolding based on learners’ cognitive and
+afective states (e.g., [17, 22]). Designers can apply scafolding and
+intervention techniques from intelligent tutoring systems research
+to design for AR headsets to recognize and present help when children are having difculty. Overall, we recommend that designers
+consider children’s desires to accomplish things on their own and
+only deliver support in headsets when children are having trouble
+with a task.
+5.4.3 Avoid Specific Gesture Commands [Current & Future]. Because one of the main benefts children seemed to conceptualize
+for AR headsets was the ability to use them hands-free, we found
+that children rarely thought of interacting with the devices using
+specifc gestures. Instead, in the User Input theme in our model,
+we saw the children focus on natural interaction, direct manipulation (i.e., button click), and voice. In our study, the children often
+used voice interaction for tasks. For example, in the context of using AR headsets for cooking, David said, “Well I wouldn’t want to
+clap or something, if I had soap on my hands or something then it
+would all go fying, so maybe voice.” [DS 4]. Based on the children’s
+mental model, we recommend avoiding interactive hand gesture
+commands in AR headsets with children. For example, the Microsoft
+
+===== PDF PAGE 11 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+
+HoloLens AR headset utilizes a “Bloom” gesture, which symbolizes
+a fower blossom, to invoke the start menu [87]. This gesture does
+not necessarily ft with children’s mental models and expectations
+of how they would interact with a headset. For the HoloLens 2, the
+“Bloom” gesture was replaced with a virtual wrist button, which is
+more aligned with children’s mental models as we saw them. However, in our study, the children focused on direct manipulation with
+physical buttons and virtual buttons in their main feld-of-view (e.g.,
+not on their wrist). Based on our fndings, designers should avoid
+using interactive hand gesture commands when designing AR headset experiences for children. Although current designers should
+avoid using gesture commands, a broad-spectrum of modalities (e.g.,
+voice, natural interaction, body motion) will have to continue to be
+improved for children. Prior work has shown that voice assistants
+have trouble recognizing children [8, 49] and motion recognition
+systems are not tailored to children’s motions [2, 35]. Therefore,
+future designers should focus on increasing accuracy in these areas
+to meet children’s mental models and expectations.
+5.4.4 Allow for Mobility [Future]. In our study, the children designed a wide range of mobility for AR headsets, such as being
+compatible with diferent environments (e.g., indoors, outdoors).
+The children designed outdoor AR headset experiences, which is
+captured in the themes of System Immersion and Outdoor Usage in
+our model. For example, David suggested, “Um, maybe while taking
+a hike and it could tell you what species of animal or plant or thing it
+was.” [DS 4]. While the idea of using these devices outdoors is not
+novel (e.g., using headsets for military operations [5]), our fndings
+highlight children’s expectations. Also, Microsoft recommends only
+using the HoloLens indoors to avoid natural sunlight [88]; therefore,
+current headsets are not yet optimized to support the use cases in
+which children want to use AR headsets. In addition, in the theme
+User Input, the children incorporated whole-body movement as an
+input method in their designs (e.g., fghting, running). For instance,
+in Billy’s dinosaur game, the user can fght the dinosaurs by utilizing their whole body, such as dodging and throwing punches. As
+of right now, AR headsets focus on hand-tracking, eye-tracking,
+and voice interaction [89]; existing headsets do not yet track or
+recognize whole body motions. Furthermore, current headsets are
+limited in their mobility by either being tethered to a computer (e.g.,
+[54]) or having restricted usage. For instance, the HoloLens 2 has a
+battery life of 2-3 hours [89], which restrains the user’s experience.
+We recommend that AR headsets for children allow for extensive
+mobility and recognize whole-body input.
+
+6
+
+LIMITATIONS AND FUTURE WORK
+
+There are limitations to the scope of our work. Since we could not
+provide headsets to all the children, the children did not interact
+with any existing AR headsets while designing. This allowed us to
+get children’s initial expectations; however, there are disadvantages,
+such as not being able to get the children’s impressions of existing
+headsets (i.e., likes, dislikes). Future work should explore children’s
+perceptions of the usability of existing commercial AR headsets. In
+addition, ten children participated in our PD sessions. Although
+the number may seem small, it is consistent with prior PD sessions
+with children (e.g., [7, 44, 79, 81]). Another limitation is that the
+children were recruited from Seattle, Washington, USA, and the
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+surrounding area; therefore, the children’s economic, social, and
+cultural backgrounds might be similar to each other. For future
+work, researchers should explicitly recruit children from geographically distributed areas; this is especially feasible when conducting
+remote PD sessions.
+
+7
+
+CONCLUSION
+
+As augmented reality (AR) headset use among children continues
+to grow, it is important to understand how they conceptualize these
+devices to design content and experiences that match their mental
+models. To examine children’s expectations and perceptions, we
+conducted four remote PD sessions with a group of ten children.
+In the design sessions, we focused on designing content for AR
+headsets with an emphasis on using headsets for tasks. We found
+that children expect highly intelligent systems that can recognize
+and virtually transform surroundings, provide suggestions, and
+create immersive environments. Children want to use headsets
+for games and difcult tasks but would prefer not to use it when
+being creative and when accomplishing easy tasks. Based on our
+fndings, we created a conceptual model of children’s perceptions of
+AR headsets. We present new recommendations for designing AR
+headsets for children that are aligned with their conceptual models,
+such as avoiding hand gesture commands. Our fndings inform the
+design of content and experiences for AR headsets for children.
+
+ACKNOWLEDGMENTS
+We thank the children and project partners in KidsTeam UW. This
+work is partially supported by National Science Foundation Grant
+Award #IIS-1750840 and the National Science Foundation Graduate
+Research Fellowship under Grant No. DGE-1842473. Any opinions,
+fndings, and conclusions or recommendations expressed in this
+paper are those of the authors and do not necessarily refect these
+agencies’ views.
+
+REFERENCES
+[1] Haifa Alhumaidan, Kathy Pui Ying Lo, and Andrew Selby. 2018. Co-designing
+with Children a Collaborative Augmented Reality Book Based on a Primary
+School Textbook. International Journal of Child-Computer Interaction 15: 24–36.
+https://doi.org/10.1016/J.IJCCI.2017.11.005
+[2] Aishat Aloba, Annie Luc, Julia Woodward, Yuzhu Dong, Rong Zhang, Eakta
+Jain, and Lisa Anthony. 2019. Quantifying Diferences Between Child and Adult
+Motion Based on Gait Features. In International Conference on Human-Computer
+Interaction (HCII ’19), 385–402. https://doi.org/10.1007/978-3-030-23563-5_31
+[3] Troels L. Andersen, Sune Kristensen, Bjørn W. Nielsen, and Kaj Grønbæk. 2004.
+Designing an Augmented Reality Board Game with Children: The BattleBoard 3D
+Experience. In Proceedings of the International Conference on Interaction Design
+and Children (IDC ’04), 137–138. https://doi.org/10.1145/1017833.1017858
+[4] Lisa Anthony, Quincy Brown, Jaye Nias, Berthel Tate, and Shreya Mohan. 2012.
+Interaction and Recognition Challenges in Interpreting Children’s Touch and
+Gesture Input on Mobile Devices. In Proceedings of the ACM Interational Conference on Interactive Tabletops and Surfaces (ITS ’12), 225–234. https://doi.org/10.
+1145/2396636.2396671
+[5] Deborah Bach. 2021. U.S. Army to use HoloLens technology in hightech headsets for soldiers . Microsoft. Retrieved August 18, 2021 from
+https://news.microsoft.com/transform/u-s-army-to-use-hololens-technologyin-high-tech-headsets-for-soldiers/
+[6] Thomas Baumgartner, Dominique Speck, Denise Wettstein, Ornella Masnari,
+Gian Beeli, and Lutz Jäncke. 2008. Feeling Present in Arousing Virtual Reality
+Worlds: Prefrontal Brain Regions Diferentially Orchestrate Presence Experience
+in Adults and Children. Frontiers in Human Neuroscience 2: 12pp. https://doi.org/
+10.3389/NEURO.09.008.2008
+[7] Mathilde Bekker, Julie Beusmans, David Keyson, and Peter Lloyd. 2003.
+KidReporter: A User Requirements Gathering Technique for Designing with Children. Interacting with Computers 15, 2: 187–202. https://doi.org/10.1016/S0953-
+
+===== PDF PAGE 12 =====
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+5438(03)00007-9
+[8] Erin Beneteau, Olivia K. Richards, Mingrui Zhang, Julie A. Kientz, Jason Yip, and
+Alexis Hiniker. 2019. Communication Breakdowns Between Families and Alexa.
+In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI ’19), 13pp. https://doi.org/10.1145/3290605.3300473
+[9] Hugh Beyer and Karen Holtzblatt. 1999. Contextual design. Interactions 6, 32–42.
+https://doi.org/10.1145/291224.291229
+[10] Anol Bhattacherjee. 2001. Understanding Information Systems Continuance:
+An Expectation-Confrmation Model. MIS Quarterly: Management Information
+Systems 25, 3: 351–370. https://doi.org/10.2307/3250921
+[11] Mark Billinghurst and Andreas Duenser. 2012. Augmented Reality in the Classroom. Computer 45, 7: 56–63. https://doi.org/10.1109/MC.2012.111
+[12] Dawn Bowers and Kenneth M. Heilman. 1980. Pseudoneglect: Efects of Hemispace on a Tactile Line Bisection Task. Neuropsychologia 18, 4–5: 491–498. https:
+//doi.org/10.1016/0028-3932(80)90151-7
+[13] Thomas J. Caruso, Martine Madill, Douglas Sidell, Kara Meister, Ellen Wang,
+Maria Menendez, Madison N. Kist, and Samuel Rodriguez. 2021. Using Augmented Reality to Reduce Fear and Promote Cooperation During Pediatric Otolaryngologic Procedures. The Laryngoscope 131, 4: E1342–E1344. https://doi.org/
+10.1002/LARY.29098
+[14] Brendan Cassidy, Gavin Sim, Matthew Horton, and Daniel Fitton. 2015. Participatory Design of Wearable Augmented Reality Display Elements for Children
+at Play. In Computer Science and Electronic Engineering Conference (CEEC ’15),
+53–58. https://doi.org/10.1109/CEEC.2015.7332699
+[15] Stephen D. Christman and Christopher L. Niebauer. 1997. The Relation Between
+Left-Right and Upper-Lower Visual Field Asymmetries: (Or: What Goes Up
+Goes Right While What’s Left Lays Low). Advances in Psychology 123: 263–296.
+https://doi.org/10.1016/S0166-4115(97)80076-3
+[16] Crunchfsh. 2017. Gesture Interaction in Industrial AR Smart Glasses. YouTube.
+Retrieved December 8, 2021 from https://youtu.be/_K9iCCx8zNg
+[17] Sidney K. D’Mello, Blair Lehman, and Art Graesser. 2011. A Motivationally
+Supportive Afect-Sensitive AutoTutor. New Perspectives on Afect and Learning
+Technologies: 113–126. https://doi.org/10.1007/978-1-4419-9625-1_9
+[18] Christian Dindler, Eva Eriksson, Ole Sejer Iversen, Andreas Lykke-Olesen,
+and Martin Ludvigsen. 2005. Mission from Mars: A Method for Exploring
+User Requirements for Children in a Narrative Space. In Proceedings of the
+International Conference on Interaction Design and Children (IDC ’05), 40–47.
+https://doi.org/10.1145/1109540.1109546
+[19] Allison Druin. 1999. Cooperative Inquiry: Developing New Technologies for
+Children with Children. In Proceedings of the ACM SIGCHI Conference on Human
+Factors in Computing Systems (CHI ’99), 592–599. https://doi.org/10.1145/302979.
+303166
+[20] Allison Druin. 2002. The Role of Children in the Design of New Technology. Behaviour & Information Technology 21, 1: 1–25. https://doi.org/10.1080/
+01449290110108659
+[21] Allison Druin, Elizabeth Foss, Hilary Hutchinson, Evan Golub, and Leshell Hatley.
+2010. Children’s Roles Using Keyword Search Interfaces at Home. In Proceedings
+of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI ’10),
+413–422. https://doi.org/10.1145/1753326.1753388
+[22] Melissa C. Dufy and Roger Azevedo. 2015. Motivation Matters: Interactions
+Between Achievement Goals and Agent Scafolding for Self-Regulated Learning
+Within an Intelligent Tutoring System. Computers in Human Behavior 52: 338–348.
+https://doi.org/10.1016/J.CHB.2015.05.041
+[23] Matt Dunleavy, Chris Dede, and Rebecca Mitchell. 2009. Afordances and Limitations of Immersive Participatory Augmented Reality Simulations for Teaching and Learning. Journal of Science Education and Technology 18, 1: 7–22.
+https://doi.org/10.1007/s10956-008-9119-1
+[24] Andreas Dünser and Eva Hornecker. 2007. Lessons from an AR Book Study. In
+International Conference on Tangible and Embedded Interaction (TEI ’07), 179–182.
+https://doi.org/10.1145/1226969.1227006
+[25] Jacquelynne S. Eccles. 1999. The Development of Children Ages 6 to 14. Future of
+Children 9, 2: 30–44. https://doi.org/10.2307/1602703
+[26] Lizbeth Escobedo, Monica Tentori, Eduardo Quintana, Jesus Favela, and Daniel
+Garcia-Rosas. 2014. Using Augmented Reality to Help Children with Autism Stay
+Focused. IEEE Pervasive Computing 13, 1: 38–46. https://doi.org/10.1109/MPRV.
+2014.19
+[27] Eric Gans, David Roberts, Matthew Bennett, Herman Towles, Alberico Menozzi,
+James Cook, and Todd Sherrill. 2015. Augmented Reality Technology for
+Day/Night Situational Awareness for the Dismounted Soldier. In Display Technologies and Applications for Defense, Security, and Avionics, Article 9470. https:
+//doi.org/10.1117/12.2177086
+[28] Martha Grabowski. 2015. Research on Wearable, Immersive Augmented Reality
+(WIAR) Adoption in Maritime Navigation. Journal of Navigation 68, 3: 453–464.
+https://doi.org/10.1017/S0373463314000873
+[29] Mona Leigh Guha, Allison Druin, Gene Chipman, Jerry Alan Fails, Sante Simms,
+and Allison Farber. 2004. Mixing Ideas: A New Technique for Working with Young
+Children as Design Partners. In Proceedings of the International Conference on
+
+Julia Woodward et al.
+
+Interaction Design and Children (IDC ’04), 35–42. https://doi.org/10.1145/1017833.
+1017838
+[30] Nick Haber, Catalin Voss, and Dennis Wall. 2020. Upgraded Google Glass
+Helps Autistic Kids “See” Emotions. IEEE Spectrum. Retrieved August 17, 2021
+from https://spectrum.ieee.org/upgraded-google-glass-helps-autistic-kids-seeemotions/particle-8
+[31] Takuya Hashimoto, Hiroshi Kobayashi, Alex Polishuk, and Igor Verner. 2013.
+Elementary Science Lesson Delivered by Robot. In ACM/IEEE International Conference on Human-Robot Interaction (HRI ’13), 133–134. https://doi.org/10.1109/
+HRI.2013.6483537
+[32] Tien Chi Huang, Chia Chen Chen, and Yu Wen Chou. 2016. Animating EcoEducation: To See, Feel, and Discover in an Augmented Reality-Based Experiential
+Learning Environment. Computers and Education 96: 72–82. https://doi.org/10.
+1016/j.compedu.2016.02.008
+[33] María Blanca Ibáñez and Carlos Delgado-Kloos. 2018. Augmented Reality for
+STEM Learning: A Systematic Review. Computers and Education 123: 109–123.
+https://doi.org/10.1016/j.compedu.2018.05.002
+[34] María Blanca Ibáñez, Ángela Di Serio, Diego Villarán, and Carlos Delgado Kloos.
+2014. Experimenting with Electromagnetism Using Augmented Reality: Impact on
+Flow Student Experience and Educational Efectiveness. Computers and Education
+71: 1–13. https://doi.org/10.1016/j.compedu.2013.09.004
+[35] Eakta Jain, Lisa Anthony, Aishat Aloba, Amanda Castonguay, Isabella Cuba, Alex
+Shaw, and Julia Woodward. 2016. Is the Motion of a Child Perceivably Diferent
+from the Motion of an Adult? ACM Transactions on Applied Perception (TAP) 13,
+4: 17pp. https://doi.org/10.1145/2947616
+[36] Tina Jarvis and Léonie J. Rennie. 1998. Factors that Infuence Children’s Developing Perceptions of Technology. International Journal of Technology and Design
+Education 8, 3: 261–279. https://doi.org/10.1023/A:1008826320260
+[37] Jef Johnson and Austin Henderson. 2002. Conceptual Models: Begin by Designing
+What to Design. Interactions 9, 25–32. https://doi.org/10.1145/503355.503366
+[38] Joint Research Centre. 2015. Young Children (0-8) and Digital Technology: A
+Qualitative Exploratory Study Across Seven Countries. Retrieved August 18, 2021
+from https://publications.jrc.ec.europa.eu/repository/handle/JRC93239
+[39] Michael Jones, M. Jeannette Lawler, Eric Hintz, Nathan Bench, Fred Mangrubang,
+and Mallory Trullender. 2014. Head Mounted Displays and Deaf Children: Facilitating Sign Language in Challenging Learning Environments. In Proceedings of
+the International Conference on Interaction Design and Children (IDC ’14), 317–320.
+https://doi.org/10.1145/2593968.2610481
+[40] M. Carmen Juan, Giacomo Tofetti, Francisco Abad, and Juan Cano. 2010. Tangible Cubes Used As The User Interface In An Augmented Reality Game for
+Edutainment. In IEEE International Conference on Advanced Learning Technologies
+(ICALT ’10), 599–603. https://doi.org/10.1109/ICALT.2010.170
+[41] Finn Kensing and Jeanette Blomberg. 1998. Participatory Design: Issues and
+Concerns. Computer Supported Cooperative Work (CSCW ’98) 7, 3–4: 167–185.
+https://doi.org/10.1023/A:1008689307411
+[42] D.W.F. van Krevelen and Ronald Poelman. 2010. A Survey of Augmented Reality
+Technologies, Applications and Limitations. The International Journal of Virtual
+Reality 9, 2: 1–20. https://doi.org/10.13140/RG.2.1.1874.7929
+[43] Cathy P. Lachapelle, Christine M. Cunningham, and Yoonkyung Oh. 2018. What is
+Technology? Development and Evaluation of a Simple Instrument for Measuring
+Children’s Conceptions of Technology. International Journal of Science Education
+41, 2: 188–209. https://doi.org/10.1080/09500693.2018.1545101
+[44] Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, and Harkiran Kaur Zhu. 2021. The
+Show Must Go On: A Conceptual Model of Conducting Synchronous Participatory Design with Children Online. In Proceedings of the SIGCHI Conference on
+Human Factors in Computing Systems (CHI ’21), 1–16. https://doi.org/10.1145/
+3411764.3445715
+[45] Mona Leigh Guha, Allison Druin, and Jerry Alan Fails. 2013. Cooperative Inquiry
+Revisited: Refections of the Past and Guidelines for the Future of Intergenerational Co-design. International Journal of Child-Computer Interaction 1, 1: 14–23.
+https://doi.org/10.1016/j.ijcci.2012.08.003
+[46] D. Stephen Lindsay and Marcia K. Johnson. 1987. Reality Monitoring and Suggestibility: Children’s Ability to Discriminate Among Memories From Diferent
+Sources. Children’s Eyewitness Memory: 92–121. https://doi.org/10.1007/978-14684-6338-5_6
+[47] David Liu, Simon A. Jenkins, Penelope M. Sanderson, Marcus O. Watson, Terrence Leane, Amanda Kruys, and W John Russell. 2009. Monitoring with HeadMounted Displays: Performance and Safety in a Full-Scale Simulator and PartTask Trainer. Anesthesia & Analgesia 109, 4: 1135–1146. https://doi.org/10.1213/
+ANE.0b013e3181b5a200
+[48] Silvia B. Lovato, Anne Marie Piper, and Ellen A. Wartella. 2019. “Hey Google,
+do unicorns exist?”: Conversational Agents as a Path to Answers to Children’s
+Questions. In Proceedings of the International Conference on Interaction Design
+and Children (IDC ’19), 301–313. https://doi.org/10.1145/3311927.3323150
+[49] Silvia Lovato and Anne Marie Piper. 2015. “Siri, is this you?”: Understanding
+Young Children’s Interactions with Voice Input Systems. In Proceedings of the
+International Conference on Interaction Design and Children (IDC ’15), 335–338.
+https://doi.org/10.1145/2771839.2771910
+
+===== PDF PAGE 13 =====
+
+“It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets
+Through Co-Design
+[50] Aristides Mairena, Carl Gutwin, and Andy Cockburn. 2019. Peripheral Notifcations in Large Displays: Efects of Feature Combination and Task Interference. In
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI’19), 12pp. https://doi.org/10.1145/3290605.3300870
+[51] Elizabeth Maxwell. 1998. “I Can Do it Myself!” Refections on Early Self-Efcacy.
+Roeper Review 20, 3: 183–187. https://doi.org/10.1080/02783199809553888
+[52] Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and
+Inter-rater Reliability in Qualitative Research: Norms and Guidelines for CSCW
+and HCI Practice. Proceedings of the ACM on Human-Computer Interaction 3,
+CSCW: 23pp. https://doi.org/10.1145/3359174
+[53] Lorna McKnight and Brendan Cassidy. 2010. Children’s Interaction with Mobile Touch-Screen Devices. International Journal of Mobile Human Computer
+Interaction 2, 2: 1–18. https://doi.org/10.4018/jmhci.2010040101
+[54] Meta. Meta Augmented Reality. Retrieved April 24, 2019 from https://www.
+metavision.com/
+[55] Microsoft HoloLens. 2019. Introducing Microsoft HoloLens 2. YouTube. Retrieved
+December 8, 2021 from https://youtu.be/eqFqtAJMtYE?t=42
+[56] Kathrin Müller and Carsten Schulte. 2018. Are Children Perceiving Robots as Supporting or Replacing Humans? In Workshop in Primary and Secondary Computing
+Education (WiPSCE ’18), 4pp. https://doi.org/10.1145/3265757
+[57] Brita Munsinger and John Quarles. 2019. Augmented Reality for Children in
+a Confrmation Task: Time, Fatigue, and Usability. In Proceedings of the ACM
+Symposium on Virtual Reality Software and Technology (VRST ’19), 5 pages. https:
+//doi.org/10.1145/3359996.3364274
+[58] Brita Munsinger, Greg White, and John Quarles. 2019. The Usability of the Microsoft Hololens for an Augmented Reality Game to Teach Elementary School
+Children. In Proceedings of the International Conference on Virtual Worlds and
+Games for Serious Applications (VS-Games ’19), 1–4. https://doi.org/10.1109/VSGames.2019.8864548
+[59] Donald A. Norman. 2002. The Design of Everyday Things. Basic Books.
+[60] Patrick O’Shea, Rebecca Mitchell, Catherine Johnston, and Chris Dede. 2009.
+Lessons Learned about Designing Augmented Realities. International Journal of
+Gaming and Computer-Mediated Simulations 1, 1: 1–15. https://doi.org/10.4018/
+JGCMS.2009010101
+[61] Lyn Pemberton and Marcus Winter. 2009. Collaborative Augmented Reality in
+Schools. In International Conference on Computer Supported Collaborative Learning
+(CSCL ’09), 109–111. https://doi.org/10.5555/1599503.1599540
+[62] Gabrielle F. Principe and Eric Smith. 2008. The Tooth, The Whole Tooth and
+Nothing But The Tooth: How Belief in The Tooth Fairy Can Engender False
+Memories. Applied Cognitive Psychology 22, 5: 625–642. https://doi.org/10.1002/
+ACP.1402
+[63] Iulian Radu, Betsy McCarthy, and Yvonne Kao. 2016. Discovering Educational
+Augmented Reality Math Applications by Prototyping with Elementary-School
+Teachers. In IEEE Virtual Reality (VR ’16), 271–272. https://doi.org/10.1109/VR.
+2016.7504758
+[64] E. Richard, V. Billaudeau, P. Richard, and G. Gaudin. 2007. Augmented Reality for
+Rehabilitation of Cognitive Disabled Children: A Preliminary Study. In Virtual
+Rehabilitation (IWVR ’07), 102–108. https://doi.org/10.1109/ICVR.2007.4362148
+[65] Jochen Rick, Amanda Harris, Paul Marshall, Rowanne Fleck, Nicola Yuill, and
+Yvonne Rogers. 2009. Children Designing Together On A Multi-Touch Tabletop:
+An Analysis Of Spatial Orientation and User Interactions. In Proceedings of the
+International Conference on Interaction Design and Children (IDC ’09), 106–114.
+https://doi.org/10.1145/1551788.1551807
+[66] Daniel J. Ricks and Mark B. Colton. 2010. Trends and Considerations in RobotAssisted Autism Therapy. In IEEE International Conference on Robotics and Automation, 4354–4359. https://doi.org/10.1109/ROBOT.2010.5509327
+[67] Ned Sahin, Neha Keshav, Joseph Salisbury, and Arshya Vahabzadeh. 2018. Safety
+and Lack of Negative Efects of Wearable Augmented-Reality Social Communication Aid for Children and Adults with Autism. Journal of Clinical Medicine 7, 8:
+188. https://doi.org/10.3390/jcm7080188
+[68] Gavin Sim, Brendan Cassidy, and Janet C. Read. 2018. Crowdsourcing Ideas for
+Augmented Reality Museum Experiences with Children. In Museum Experience
+Design., A. Vermeeren, L. Calvi and A. Sabiescu (eds.). Springer, 75–93. https:
+//doi.org/10.1007/978-3-319-58550-5_4
+[69] Austen K. Smith, Izabela Szelest, Trista E. Friedrich, and Lorin J. Elias. 2014. Native
+Reading Direction Infuences Lateral Biases in The Perception of Shape From
+Shading. Laterality 20, 4: 418–433. https://doi.org/10.1080/1357650X.2014.990975
+[70] Kiley Sobel. 2019. Future of Childhood Immersive Media and Child Development.
+Retrieved August 17, 2021 from https://fles.eric.ed.gov/fulltext/ED598949.pdf
+[71] Erica Southgate, Shamus P. Smith, and Jill Scevak. 2017. Asking Ethical Questions
+in Research Using Immersive Virtual and Augmented Reality Technologies with
+Children and Youth. In IEEE Virtual Reality (VR ’17), 12–18. https://doi.org/10.
+1109/VR.2017.7892226
+[72] Nicole A. Thomas, Oliver Schneider, Carl Gutwin, and Lorin J. Elias. 2012. Dorsal Stream Contributions to Perceptual Asymmetries. Journal of the International Neuropsychological Society: JINS 18, 2: 251–259. https://doi.org/10.1017/
+
+CHI ’22, April 29–May 05, 2022, New Orleans, LA, USA
+
+S1355617711001585
+[73] Stella Vosniadou and William F Brewer. 1992. Mental Models of the Earth: A
+Study of Conceptual Change in Childhood. Cognitive Psychology 24, 4: 535–585.
+https://doi.org/10.1016/0010-0285(92)90018-W
+[74] Greg Walsh. 2011. Distributed Participatory Design. In Extended Abstracts of the
+ACM SIGCHI Conference on Human Factors in Computing Systems (CHI’2011),
+1061–1064. https://doi.org/10.1145/1979742.1979696
+[75] Greg Walsh, Alison Druin, Mona Leigh Guha, Elizabeth Foss, Evan Golub, Leshell
+Hatley, Elizabeth Bonsignore, and Sonia Franckel. 2010. Layered Elaboration: A
+New Technique for Co-design with Children. In Proceedings of the ACM SIGCHI
+Conference on Human Factors in Computing Systems (CHI ’10), 1237–1240. https:
+//doi.org/10.1145/1753326.1753512
+[76] Greg Walsh, Elizabeth Foss, Jason Yip, and Allison Druin. 2013. FACIT PD: A
+Framework for Analysis and Creation of Intergenerational Techniques for Participatory Design. In Proceedings of the ACM SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’13), 2893–2902. https://doi.org/10.1145/2470654.2481400
+[77] Julia Woodward, Lisa Anthony, Germaine Irwin, Alex Shaw, Annie Luc, Brittany
+Craig, Juthika Das, Phillip Hall, Akshay Holla, Danielle Sikich, and Quincy Brown.
+2016. Characterizing How Interface Complexity Afects Children’s Touchscreen
+Interactions. In Proceedings of the ACM SIGCHI Conference on Human Factors in
+Computing Systems (CHI’16), 1921–1933. https://doi.org/10.1145/2858036.2858200
+[78] Julia Woodward, Jahelle Cato, Jesse Smith, Isaac Wang, Brett Benda, Lisa Anthony,
+and Jaime Ruiz. 2020. Examining Fitts’ and FFitts’ Law Models for Children’s
+Pointing Tasks on Touchscreens. In ACM International Conference on Advanced
+Visual Interfaces (AVI ’20), 1–5. https://doi.org/10.1145/3399715.3399844
+[79] Julia Woodward, Zari McFadden, Nicole Shiver, Amir Ben-hayon, Jason C. Yip, and
+Lisa Anthony. 2018. Using Co-Design to Examine How Children Conceptualize
+Intelligent Interfaces. In Proceedings of the SIGCHI Conference on Human Factors
+in Computing Systems (CHI ’18), 1–14. https://doi.org/10.1145/3173574.3174149
+[80] Julia Woodward, Alex Shaw, Aishat Aloba, Ayushi Jain, Jaime Ruiz, and Lisa Anthony. 2017. Tablets, Tabletops, and Smartphones: Cross-Platform Comparisons
+of Children’s Touchscreen Interactions. In Proceedings of the ACM International
+Conference on Multimodal Interaction (ICMI’17), 5–14. https://doi.org/10.1145/
+3136755.3136762
+[81] Jason C. Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofana, Justin Park, and Alexis Hiniker. 2019. Laughing is
+Scary, but Farting is Cute a Conceptual Model of Children’s Perspectives of
+Creepy Technologies. Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’19): 15pp. https://doi.org/10.1145/3290605.3300303
+[82] Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, and
+Laura R. Pina. 2017. Examining Adult-Child Interactions in Intergenerational
+Participatory Design. In Proceedings of the ACM SIGCHI Conference on Human
+Factors in Computing Systems (CHI’2017), 5742–5754. https://doi.org/10.1145/
+3025453.3025787
+[83] Zhiwei Zhu, Vlad Branzoi, Michael Wolverton, Glen Murray, Nicholas Vitovitch,
+Louise Yarnall, Girish Acharya, Supun Samarasekera, and Rakesh Kumar. 2014.
+AR-Mentor: Augmented Reality Based Mentoring System. In IEEE International
+Symposium on Mixed and Augmented Reality (ISMAR ’14), 17–22. https://doi.org/
+10.1109/ISMAR.2014.6948404
+[84] Augmented Reality Is A Game Changer For Oil & Gas. OilPrice.com. Retrieved
+from https://oilprice.com/Energy/Energy-General/
+[85] 2017. Mario KartTM 8 Deluxe . Nintendo. Retrieved August 24, 2021 from https:
+//mariokart8.nintendo.com/
+[86] 2018. Woobo - A Smart Toy for Kids. Woobo. Retrieved August 25, 2021 from
+https://www.woobo.io/
+[87] 2019. Mixed Reality Start Gesture. Microsoft Docs. Retrieved August 10, 2021
+from https://docs.microsoft.com/en-us/windows/mixed-reality/design/systemgesture
+[88] 2019. HoloLens Environment Considerations . Microsoft Docs. Retrieved August
+11, 2021 from https://docs.microsoft.com/en-us/hololens/hololens-environmentconsiderations
+[89] 2020. HoloLens 2 Hardware. Microsoft Docs. Retrieved August 11, 2021 from
+https://docs.microsoft.com/en-us/hololens/hololens2-hardware
+[90] 2021. Microsoft HoloLens 2. Microsoft. Retrieved August 3, 2021 from https:
+//www.microsoft.com/en-us/hololens
+[91] 2021. Video Conferencing, Cloud Phone, Webinars, Chat, Virtual Events . Zoom.
+Retrieved August 9, 2021 from https://zoom.us/
+[92] 2021. Pokémon GO. The Pokémon Company. Retrieved August 23, 2021 from
+https://pokemongolive.com/en/
+[93] 2021. Online Whiteboard . Miro. Retrieved July 21, 2021 from https://miro.com/
+online-whiteboard/
+[94] 2021. Fortnite . Epic Games. Retrieved August 24, 2021 from https://www.
+epicgames.com/fortnite/en-US/home

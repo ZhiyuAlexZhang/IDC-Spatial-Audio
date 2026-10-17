@@ -1,0 +1,1464 @@
+SOURCE PDF: ../pdf/2023_IDC_Yip_Money_shouldnt_be_money.pdf
+SOURCE URL: https://bigyipper.com/wp-content/uploads/2023/04/idc23-4.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+"Money shouldn’t be money!" : An Examination of Financial
+Literacy and Technology for Children Through Co-Design
+Jason C. Yip
+
+The Information School, University of
+Washington
+jcyip@uw.edu
+
+Frannie Ello
+
+Fumi Tsukiyama
+
+Human Centered Design &
+Engineering, University of
+Washington
+fello@uw.edu
+
+Atharv Wairagade
+
+Human Centered Design &
+Engineering, University of
+Washington
+atharvavw@gmail.com
+
+ABSTRACT
+Financial literacy is the use of knowledge, skills, and behaviors
+around managing financial resources. Despite its importance, less
+is known from a Human Computer Interaction (HCI) and childcomputer interaction perspective about what financial literacy
+means for youth, especially the role of digital technologies. We
+examine children’s perspectives of financial literacy and digital
+technologies through a study of nine participatory design sessions
+with children (ages 7 – 11) centered around ideating, evaluating,
+and designing technologies for children’s finances. Our co-design
+findings demonstrate that children’s relationship to money can be
+quite complex in the digital world. Empirically, we report three
+inductive themes that demonstrate the role that technology plays
+in children’s financial literacy. Theoretically, we argue the need for
+child-computer interaction research to engage more in financial
+literacy for children. Finally, we reflect on co-designing for financial
+literacy, technology, and children.
+
+CCS CONCEPTS
+• Human-centered computing; • Human computer interaction (HCI); • HCI design and evaluation methods; • User models;
+
+KEYWORDS
+Child-computer interaction, participatory design, financial literacy,
+children’s perceptions
+ACM Reference Format:
+Jason C. Yip, Frannie Ello, Fumi Tsukiyama, Atharv Wairagade, and June
+Ahn. 2023. "Money shouldn’t be money!" : An Examination of Financial
+Literacy and Technology for Children Through Co-Design. In Interaction
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+© 2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0131-3/23/06. . . $15.00
+https://doi.org/10.1145/3585088.3589355
+
+Human Centered Design &
+Engineering, University of
+Washington
+fumi.tsukiyama@gmail.com
+
+June Ahn
+
+School of Education, University of
+California - Irvine
+junea@uci.edu
+Design and Children (IDC ’23), June 19–23, 2023, Chicago, IL, USA. ACM, New
+York, NY, USA, 12 pages. https://doi.org/10.1145/3585088.3589355
+
+1
+
+INTRODUCTION
+
+Financial conditions can be taxing concerns for people, and as financial choices become more complex, increasing consumer financial
+literacy has become a public policy issue in the US [60]. Financial
+literacy is the combination of knowledge, skills, and behaviors that
+support people’s financial decisions and management of resources
+for financial well-being [1, 39, 40, 56, 75]. Lower financial literacy
+is correlated with negative financial behaviors, such as predatory
+debt [50], higher borrowing rates [47], and home foreclosures [27].
+Researchers have made arguments for children and adolescents
+to be exposed earlier to financial literacy education (e.g., [2, 31, 36,
+44, 81]). A Pew Research Center [74] study in 2022 found that sevenin-ten Americans think young adults are facing more challenges
+than the prior generation. Young people are taking on more student
+debt [4], face an affordable housing crisis [78], and have a harder
+time saving financial resources for the future [45]. While there
+are calls for national policies to address these economic issues in
+young people, several researchers make arguments for the early
+development of financial literacy in youth, even starting in pre-K
+[36].
+Educators and policy makers are considering early financial
+literacy exposure to youth, but we know little about how to support
+children’s development of these literacies in current times. Financial
+literacy is different now for children than for prior generations,
+in part, due to technological innovations. First, financial markets
+are changing due to digital technologies. Cryptocurrency, nonfungible tokens (NFTs), online banking, digital wallets, and other
+technology upheavals can influence how youth think about finances.
+In 2021, Pew Research [62] found that for American adults who
+have invested in cryptocurrency, the largest age group are between
+ages 18 – 29 (31% compared to 21% for ages 30 – 49, and 8% for ages
+50 – 64). There are even concerns that cryptocurrencies and NFTs
+are being marketed directly to children [35]. Second, children are
+now being exposed to financial markets through home technologies.
+Digital games with microtransactions, online shopping, and the
+transition from cash to credit cards are aspects of financial change
+through digital technologies. Overall, a rapidly changing landscape
+
+===== PDF PAGE 2 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+for financial literacy, often mediated by youth and technology —
+are reasons for Human Computer Interaction (HCI) researchers to
+consider the role of design and technology in how children perceive
+and interact with money in the digital world.
+We argue that HCI and child-computer interaction researchers
+need to consider the connection between children’s financial literacy and technology usage. For instance, Pina et al. [63], Roldan et al.
+[71], and Yip et al. [92] demonstrated that families are often dependent on children’s understandings of technology as it pertains to
+finances. In our review of HCI and child-computer interaction studies (CHI, IDC, International Journal of Child-Computer Interaction,
+etc.) we only found a small set of studies pertaining to children’s
+financial literacy and technology. Despite rapid shifts in technology
+around finances (both directly and indirectly affecting children),
+we do not have guidelines for design in our HCI community. For
+this study, we ask the following research questions: RQ1: What
+do children (ages 7 - 11) in a co-design setting consider important
+about finances as it relates to technology? How do children in a
+co-design setting make sense of the complex world of technology
+and financial literacy? RQ2: What design principles and guidelines
+can be derived from a co-design setting with children about the
+consideration of technology and financial literacy for children?
+To understand how children conceptualized financial literacy
+and its relationship to technology, we conducted nine participatory
+design (PD) sessions [91] with children (ages 7 - 11) on co-designing
+technologies for financial literacy. Through the PD method of Cooperative Inquiry [20, 91], we utilized adult-child design partnerships
+to dive deep into how children understood financial literacy and
+technologies. We used different co-design activities for each session to elicit how children conceptualized ideas about financial
+literacy and technologies. We contribute to the discussion on children, financial literacy, and technology in three ways. Empirically,
+we report three inductive themes that demonstrate the role that
+technology plays in children’s financial literacy. Theoretically, we
+pursue the argument for a need in child-computer interaction research to engage more in financial literacy for children. Finally, we
+make reflections on co-designing for financial literacy, technology,
+and children.
+
+2 LITERATURE REVIEW
+2.1 Definitions of financial literacy
+Education researchers observe that people engage in foundational
+literacies, such as reading, writing, numeracy, and general cognitive abilities (e.g., executive function) [68]. From this foundation,
+there are expansions to specific types of literacy, such as digital
+literacy, media literacy, information literacy, health literacy, etc. As
+a specific concept, financial literacy takes on two dimensions: 1)
+understanding and knowledge of finances, and 2) behavior towards
+finances [39]. A systematic review by Hung et al. [39] notes that
+many conceptual definitions of financial literacy exist, but the definition comes together as a) specific form of knowledge around
+financial matters; b) the ability and skills to apply financial knowledge to a variety of situations; c) how people perceive knowledge
+around finances; d) whether people have good behavior around
+finances; and e) what kinds of financial experiences they have. Despite some consensus, Hung et al. argue that researchers need to
+
+Jason Yip et al.
+
+make clear distinctions between financial literacy and financial attitudes (e.g., self-reports, personal preferences, opinions on finances)
+and financial education (e.g., the processes by which people improve
+their financial skills and knowledge). From this definition, Hung
+et al. [39] created a conceptual model in which financial knowledge affects the skills, behavior, and perceived knowledge of the
+person, but at the same time, behavior reciprocates and influences
+knowledge, skills, and perceived knowledge.
+Alsemgeest’s [1] review on financial education notes a contention of whether financial literacy education leads to effective
+financial behaviors. Alsemgeest’s argument for financial literacy
+is that consumer financial decisions have great personal and societal consequences. Big and small decisions can have negative
+consequences when people are poorly informed about finances. For
+instance, in the US, predatory lending and high-level debt have
+increased [14]. Financial adversity can lead to great emotional toil,
+hardship, and psychological issues [21, 67]. In the modern digital world, advanced technologies, and market innovations (e.g.,
+cryptocurrency, day-trading) have made the financial world more
+complex and sophisticated. Learning about financial literacy matters, as prior studies show. For example, that those that plan for
+retirement accumulate more retirement income [66].
+However, numerous challenges exist when only considering individuals’ financial literacy. First, consumers are individuals, with
+their own irrational tendencies around finances [13]. People have
+personal and emotional triggers that can be unpredictable around finances [42], with biases in decision-making [48]. Teaching financial
+literacy in a systematic and prescribed way is not always effective
+[1]. There is also an unclear relationship between financial knowledge and behavior (i.e., causal, correlational, or both). Research has
+not shown if financial education leads to better financial behaviors
+[1]. Focusing on an individual’s financial literacy may put blame
+on the individual, when in fact, we are living in times of global systemic financial crisis [25]. Financial planning is hard and requires a
+lot of general knowledge (e.g., numeracy, executive function) that
+financial literacy or education itself cannot address. These complex
+challenges and tensions underscore the importance of designing
+supports for developing financial literacy, which arise from the
+mental models and realities that children face. Given the rapidly
+changing social, cultural, and technological environment that children experience today, updating our understanding of their ways
+of understanding financial literacy becomes vital.
+
+2.2
+
+Children and youth and financial literacy
+
+While financial literacy is a difficult topic for people, there is a
+consensus among researchers that financial literacy and education
+programs for young children matters [2, 30, 36, 77, 81]. For example,
+the Programme for International Student Assessment (PISA) exam is
+a worldwide study intended to evaluate the educational systems of
+countries by looking at the performance of 15-year-old students in
+reading, writing, science, and mathematics. PISA has an optional
+financial literacy assessment section. The assessment found that
+youth in some wealthier countries (e.g., US, Portugal, Spain, Russia,
+Italy) scored average or slightly below the OECD score (505) [61],
+which suggests that merely living in a wealthier country does not
+appear to have a strong relationship with higher financial literacy
+
+===== PDF PAGE 3 =====
+
+"Money shouldn’t be money!" : An Examination of Financial Literacy and Technology for Children Through Co-Design
+
+scores. Amagir et al.’s [2] review on financial literacy programs
+for children and adolescents found that school-based financial education programs can support positive financial knowledge and
+attitudes. However, studies that assess the effects of financial education behavior in the long term are scarce.
+The Brookings Institute [44] conducted a large-scale review of
+US-based youth financial education programs. The result of the
+review was inconclusive on what policies and programs are effective in promoting positive financial behaviors in the long-term.
+The report found that many parts of the US do not have financial
+literacy requirements in schools or weak mandates for a comprehensive education. The conclusion noted that programs often consider
+financial literacy as just presenting information. The report suggests that designers and policy makers need to consider financial
+literacy as “a dynamic construct, with the acquisition of financial
+skills and behavior built upon crucial foundational skills and shaped
+over time by experience and opportunity.” For HCI researchers, this
+means attempting to consider how technologies can connect time,
+space, experience, and opportunities for children to think about
+their financial literacy in the long run.
+Overall, while research indicates that financial literacy and education programs are important for youth, less information exists
+on how to design for such programs. There is consensus from researchers that financial literacy programs for younger children
+(pre-K to 3) need much stronger consideration [36]. However, there
+are number of challenges that exist in creating designs for younger
+children around financial literacy. First, researchers need to consider children’s cognitive development (e.g., numeracy, executive
+functioning, Piagetian conceptual change, maturation [36]) and
+how it fits with financial literacy.
+Second, because financial skills acquired in childhood are often instilled by caregivers, considerations of family are important
+for youth. Children do not interact independently with financial
+institutions and markets; therefore, the design of programs or products needs to consider children’s experiences with caregivers as
+intermediaries. Van Campenhout [84] notes that caregivers and
+families socialize children in the financial process. Caregivers play
+the most prominent role in a child’s life, especially with financial
+socialization. This socialization includes environmental influences
+in the family, learning processes, and parents as sources of financial
+information.
+Third, while general cognition and literacy are important for
+finances [36], young children do not often have prior knowledge
+about direct financial concepts (e.g., trading, exchange, taxes) and
+these specific concepts may need to be directly taught to them.
+Therefore, designs must be attractive to both caregivers and teachers for any adoption to occur. Designs need to consider how to
+start financial education early with children and their families, be
+highly customizable for children’s development, and help caregivers
+introduce financial concepts.
+
+2.3
+
+Technology on financial literacy for
+children and youth
+
+While researchers highlight that early financial literacy considerations are important, our study’s review indicates that there is little
+research in the HCI and child-computer interaction space in this
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+area. Commercially, there are digital games that support learning
+about finances [43], children’s personalized debit cards [37], budget
+apps for children [80], and videos for children on financial literacy
+[57]. Sari et al. [73] developed a financial literacy storybook for
+early childhood using augmented reality. Digital games are perhaps
+the most prevalent technologies for children and financial literacy.
+Tanja and Alesja [79] developed digital games for promoting financial literacy in youth. Liu et al. [54] created games and online virtual
+worlds for teenagers using Second Life. Rasco et al. [69] developed
+FinCraft, an open-source gaming platform to enhance financial
+literacy in teens. Others have utilized Scratch programming [26]
+to create a game to teach financial literacy concepts to children.
+Digital quizzes are also found in the children design space. Sladjana
+and Ziakou [94] conducted research on the European Money Quiz,
+a digital learning initiative to understand children’s understanding
+of finances. Despite the research on digital designs for financial
+literacy for children and adolescents, many of these designs do
+not follow some of the financial learning principles outlined in
+this review. For instance, none of these designs have considerations of parental involvement and support of financial behavior
+and knowledge in the long term.
+Finally, many of these design studies do not utilize established
+principles of participatory design [19] and co-design [20, 91] to
+consider what children know and need. The most prominent paper our research could find on children, co-design, and financial
+literacy was by Halloluwa et al. [31] and their case study of codesign activities with primary school children in Sri Lanka. The
+researchers aimed to design mobile applications to engage primary
+school students in financial literacy topics. The researchers engaged
+in three co-design workshops around Bags of Stuff (low-tech prototyping with arts and crafts), storyboarding, and using sticky notes
+for critique.
+In our review, we could not find any papers from the CHI, Interaction Design and Children (IDC), and International Journal of
+Child-Computer Interaction venues on financial literacy. Zimmerman et al.’s [95] work in ACM Design of Interactive Systems (DIS)
+conducted a study asking if parents should play a role in teaching
+their teens’ financial literacy. They conducted a literature review,
+competitive analysis of current digital tools, and interviewed parents and teens. They found that there is interest in digital tools that
+allow parents to educate their teens. We assert that more studies like
+Zimmerman et al. [95] need to be conducted in the HCI youth space.
+Therefore, our study builds off the Halloluwa et al. [31] research to
+engage in multiple co-design activities with an established intergenerational co-design group of children (ages 7 – 11) and adults.
+Our goal in this paper is to demonstrate the role that co-design
+can play in understanding children’s perceptions, knowledge, skills,
+and behaviors around financial literacy and digital technologies.
+
+3
+
+METHOD
+
+For this study we followed the participatory design (PD) method of
+Cooperative Inquiry [20, 91]. PD is a user-centered design method
+that focuses on close collaborations and democratic ideas between
+designers and stakeholders. Cooperative Inquiry is a method of
+PD that emphasizes that design partnerships between children and
+adults can be done equally and equitably [20, 91].
+
+===== PDF PAGE 4 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Jason Yip et al.
+
+Table 1: Demographic characteristics of our child participants
+Name
+
+Age
+
+Gender
+
+Ethnicity
+
+Sessions
+
+Melissa*
+Kristin*
+Matteo
+Sierra
+Shiro#
+Hideo#
+Caleb
+Jin&
+Yoongi&
+Haile
+
+11
+8
+9
+7
+10
+7
+10
+11
+8
+8
+
+Female
+Female
+Male
+Female
+Male
+Male
+Male
+Female
+Female
+Male
+
+White
+White
+Hispanic
+Asian / Black
+Asian / White
+Asian / White
+White
+Asian / White
+Asian / White
+Black
+
+1, 2
+7, 8
+1, 2, 3, 4, 5, 6, 7, 9
+1, 2, 3, 4, 5, 7, 8, 9
+1, 2, 3, 9
+1, 2, 3, 8, 9
+1, 2, 3, 4, 6, 8, 9
+1, 2, 3, 4, 5, 6, 7, 9
+1, 2, 3, 4, 5, 6, 7, 9
+1, 2, 3, 4, 6, 7, 8, 9
+
+The symbols *, #, and & refer to children as siblings.
+We chose PD and Cooperative Inquiry [20, 91] as our method
+for this study for three reasons. First, while prior research indicates
+that interviewing and surveying children is possible [34], the complex and abstract nature around finances can be difficult to elicit
+and interpret qualitative responses. Second, researchers in HCI
+and child-computer interaction have shown that PD techniques
+and workshops allow children to concretely express abstract ideas
+around complex topics due to the in-depth and rich engagement
+children are able to have. Finally, Cooperative Inquiry has shown
+robustly that children that already work closely in comfortable
+settings with adults can express their perceptions more assertively.
+Children in long-term co-design groups develop close relationships
+over time with adults and develop trust. The children are also knowledgeable on multiple PD techniques [85] and can therefore dive
+deeper into financial literacy rather than needing to teach children
+how to co-design. Overall, Cooperative Inquiry has shown to be a
+strong choice when needing to work with children to understand
+their perspective on complex topics like intelligent user interfaces
+[87, 88], cybersecurity and privacy [49, 59], creepy technologies
+[90], and online safety [7, 8, 15–17].
+The PD sessions in this study focused on designing and eliciting
+responses from children around their ideas and perceptions of financial literacy. The study took place in the middle of the COVID-19
+pandemic (Fall 2021 – Spring 2022). Due to lockdowns and COVID19 preventative measures, we conducted nine 90-minute co-design
+sessions across the span of one year using online and hybrid codesign techniques [51].
+
+3.1
+
+Participants
+
+An intergenerational co-design group of children (ages 7 – 11) and
+adult design researchers (undergraduates, masters students, and
+an investigator) participated in nine co-design sessions. Our team
+is called KidsTeam UW (a pseudonym, all child and adult names
+are also pseudonyms, Table 1). Child members have participated in
+KidsTeam UW for the past 1 – 4 years. We obtained all appropriate parental consent and child assent. All research conducted was
+approved by our university’s Institutional Review Board for ethics
+and safety. In each of the co-design sessions, between four to six
+adult facilitators acted as design partners. The adults developed relationships with the children, supported facilitation of the sessions,
+
+designed with the children, and helped to generate and interpret
+ideas around financial literacy technologies for children.
+
+3.2
+
+Design sessions
+
+Each design session (DS1 – 9) in KidsTeam UW was conducted
+mostly online [51], except for the eighth session (DS8), which we
+did as a hybrid local and online session. The design sessions mostly
+followed the same pattern. The first 10 minutes of the session
+(snack and arrival time) started with some light chit-chat and games
+to build relationships. The next 15 minutes (circle time) focused
+on introductions to the session and a “Question of the Day” that
+helped to prime the children’s thinking around the session. The
+next 45 minutes (design time) were spent on a design activity for
+us to understand children’s engagements around finances. During
+design time, children and adults were split into “breakout” rooms
+of around two children and two adults to work together. The last 15
+minutes (discussion time) allowed each group to share their design
+ideas and bring together all the thoughts for everyone to discuss.
+We conducted nine design sessions (Table 2), with the early
+sessions to center broadly on children’s thoughts around finance
+itself (DS1), and then later to focus specifically on financial issues
+like credit cards (DS2), parental permission around finances (DS3
+– DS4), children’s perceptions of current financial literacy apps
+(DS5), children redesigning a board game around finances (DS6),
+and how voice assistants could be integrated with finances (DS7).
+We concluded the sessions with children redesigning lessons on
+allowances and money responsibility (DS8) and saving, investing,
+and comparison shopping (DS9).
+
+3.3
+
+Data analysis
+
+We approached this study through inductive methods [22]. We
+began with an inductive analysis of a total of approximately 540
+minutes of online video of the co-design sessions. We had two
+reviewers of the video data: a primary and secondary reviewer. For
+each co-design session (DS1 – DS9), the primary reviewer watched
+the videos, created analytic memos, and transcribed the portions of
+the co-design sessions that were pertinent to the study. Analytic
+memos allowed us to review the videos and make our own reflective
+data and observation [10, 70]. Next, a secondary reviewer looked
+over the initial analytic memos from the primary reviewer and the
+
+===== PDF PAGE 5 =====
+
+"Money shouldn’t be money!" : An Examination of Financial Literacy and Technology for Children Through Co-Design
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Table 2: Design Sessions
+Session
+
+Session Overview and Goals
+
+Design Activities Description
+
+DS1 - online
+
+Asking children what they think about
+learning about money and finances.
+
+DS2 - online
+
+Having children co-design what they think a
+credit card should look like for kids
+How do children ask for permission to buy
+things online?
+
+We asked children to list 10 questions they had about money and had
+them draw out technologies that are going to help children learn
+more about money.
+We had children list 10 questions they had about credit cards and had
+them design their own credit cards.
+We asked children five questions around parental permission and
+money: what children ask permission for; what children think about
+asking; what’s hard about asking; what’s their parents’ reaction; and
+do the children have strategies to get their parents to say yes. We also
+had them draw a scenario in which children asked for permission
+about money and purchasing online.
+We gave children three tasks: 1) pick a physical item to buy; 2) pick a
+digital item to buy; and 3) create an app for children to ask their
+parents’ permission for purchasing physical and digital items. We
+provided children Google Slides and images to help them create their
+purchasing app.
+We asked children to engage in Line Judging ([85]) to review six apps
+and games around finances for children: Rooster Money (children’s
+banking app); Bankaroo (children’s budgeting app); BusyKid
+(children’s debit card); FamZoo (a site that helps parents teach
+children good money habits); Star Banks (educational minigame
+about money); The Game of Life (traditional board game / digital
+game to simulate growing up and using money).
+We took screenshots from The Game of Life (digital edition) and had
+the children draw out what they envisioned to make the game better
+around finances.
+We had the children create a script that would simulate a scenario in
+which an AI-based voice assistant to help children with their money.
+We gave screenshots of two lesson plans for grades 3 – 6 on money
+and had the children redesign the lessons on allowances and
+spending, and financial responsibility. We used printouts, markers,
+and sticky notes in this session.
+We gave screenshots of two lesson plans for grades 3 – 6 on money
+and had the children redesign the lessons on saving, investing, and
+comparison shopping). We used printouts, markers, and sticky notes
+in this session.
+
+DS3 - online
+
+DS4 - online
+
+How would children like to ask for
+permission to buy things online?
+
+DS5 - online
+
+What do children think about current
+financial literacy apps and online games?
+
+DS6 - online
+
+Asking children to redesign The Game of
+Life to understand what they think about
+finances
+Asking kids to consider how voice assistants
+could be used for financial literacy
+Using lessons we found online and asking
+children to make the lessons better
+(allowances and spending, money
+responsibility)
+Using lessons we found online, and asking
+children to make the lessons better (Saving
+and investing; comparison shopping)
+
+DS7 – online
+DS8 – hybrid
+
+DS9 – online
+
+video data and added their own reflections and observations to the
+document. Once we completed the analytic memos, we began an
+inductive coding process.
+First, we created a codebook based on our initial development of
+the analytic memos. We created initial codes, such as how children
+spent their money, how children used technology to handle money,
+what questions children had about money, experiences asking their
+parents’ permission, and what positive and negative thoughts children had about money. Over the course of five discussions with the
+co-authors of this paper, we organized our initial codebook into
+larger themes. Next, the primary reviewer of the analytic memos
+began the coding process using the initial codebook. Over the next
+two group discussions, we updated the codebook to reflect this initial coding process. Once the primary reviewers completed the first
+round of coding, the secondary reviewers reviewed the codes and
+
+determined points in which they disagreed. We conducted interrater reliability through qualitative negotiations and discussions
+about the disagreements [58]. We went through the disagreements
+about coding processes and made sure our group came to a consensus. Through axial coding [46], we developed three overarching
+inductive themes around financial literacy: the modality of money,
+independence vs. parental supervision, and how children learn
+about money in the digital age.
+
+4
+
+FINDINGS
+
+We present our findings in three major themes with subthemes: (1)
+the modality of money; (2) independence and parental supervision
+around money in its digital form; and (3) how children learn about
+money in the digital age. We present descriptions of co-design
+sessions and direct quotes from the children as qualitative evidence
+
+===== PDF PAGE 6 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+for these themes. For each section, we conclude with a summary
+analysis of the importance of the theme as it relates to technology
+and money for children.
+
+4.1
+
+The modality of money
+
+Physical vs. digital. Children in our co-design sessions had questions about what money exactly was (modality), especially concerning physical vs. digital currency. In DS1, Hideo noted that “money
+shouldn’t be money because money is literally paper”. He later
+noted in DS1 that money is also metal coins because the actual
+worth of the coins is in the metal. Meanwhile, Melissa also explained that money is the value of something. Both children had
+an understanding that the physical form of money does not necessarily tie into what its value is. Kristin (DS7, DS8) also wanted to
+know why other countries had different money. Some children in
+DS1 asked at what point is video game money the same thing real
+money.
+Children had questions about the relationship between physical
+money, credit cards, and digital access. In DS2, Matteo wondered
+about the physicality of money (storage). Hideo had notions that
+digital money is different from physical money. In DS2 Matteo
+asked, “how do they store money inside a credit card?” Hideo tried
+to explain, “it’s just digital money. . .. You can go to a bank and
+then like show them your credit card and then you can like get
+money. . .” Matteo responded, “But I mean, like how is there like
+money inside a plastic card? That’s what I mean.” Matteo later
+wondered about what you are allowed to buy with a credit card.
+Hideo explained that you cannot buy things on Amazon.com with
+physical cash. Some children had concerns about the transition
+from cash to digital credit only.
+Unfamiliar digital money concepts. Children also had
+thoughts about unfamiliar technology concepts around finances.
+For instance, in DS1 Matteo said that cryptocurrency was just “online money”, but that he had heard “bad stuff” about it. Hideo did
+not know what cryptocurrency was, but had heard of Bitcoin and
+Dogecoin, even explaining to us that Dogecoin was set up as a joke.
+In later conversations (DS8), Caleb and Kristin try to compare Bitcoin to the concept of foreign currencies. Kristin responded that she
+did not understand cryptocurrencies herself, but that she thought
+children should know more about them.
+Summary analysis. From our examination, we posit children
+now have a different material relationship with what they think
+money is. From our co-design sessions, we observe children developing a mental model of what they think money is based on
+different sources, such as credit cards, digital currency (both real
+and imaginary), changing store policies against physical cash, storage of currency in digital gift cards, and murmurs of cryptocurrency
+in the backdrop. We argue it is important to understand this material relationship with money because, as the world becomes more
+digital, children’s experiences with finances are becoming more
+diverse. Our co-design sessions demonstrate that children are possibly conflating concepts. Children asked if video game money is
+the same as real money, if cryptocurrency is just another form of
+digital money that they can spend, and why money is limited in the
+real world when there are unlimited amounts of money in fictional
+video game worlds.
+
+Jason Yip et al.
+
+4.2
+
+Independence and parental supervision
+around money in its digital form
+
+Parental supervision. Some co-design partners thought that children still needed some form of parental supervision for technology
+and finances. In DS2, we asked children to design their own credit
+cards. Melissa and Yoongi put parental supervision features into
+her credit card app. Sabina noted, “Okay, it (her design) says it
+has parent supervision, it’s connected to the app. I wanted it to be
+able to change the color of the credit cards through the app. And
+monitoring of money how it’s used and where it’s used.”
+Parental control of technology. For some children, just because they have money does not mean they can go directly online
+to make purchases. Matteo (DS3) explained that just because he
+wanted to buy a cash dispenser gun on Amazon.com did not mean
+he could do it. His mother was in control of the credit card for
+Amazon.com. Children also talked about how their parents would
+not let them order food online because the food would be uneaten
+and wasted. Sierra expressed that apps and digital games required
+permission from parents, especially as they controlled the technology. Matteo added (DS3) that even if the apps and games are free, he
+must still ask permission and his parents will enforce a time limit.
+Hideo noted that if he asks to make a purchase on the Microsoft
+Xbox or Nintendo Switch, his parents must unlock the device with
+a password.
+A need for digital literacies around money. We posit that
+while there are affordances in online and digital commerce, children require an updated set of literacies beyond just asking their
+parents for permission. Children need to develop heightened awareness of how designs like in-app purchases and subscription models
+manipulate their customers to make the sticky sale; and similarly,
+how these designs are root issues for needing parental supervision
+routines in the absence of any other support mechanisms. However,
+children need to navigate these digital realities with their parents
+beyond a sale or no-sale binary, and perhaps with more cooperative learning opportunities for families to experience alternatives
+together. For example, children in KidsTeam UW critiqued Apple
+iOS “Ask to Buy” feature in which children can ask permission for
+parents to purchase apps in the App Store. The children expressed
+that while “Ask to Buy” is a simple transaction of yes or no, asking
+parents for financial permission is complex and emotional. This
+design contradicts prior research on children’s financial literacy
+suggesting that designs should provide opportunities for parents to
+participate in teaching financial knowledge and skills [32, 81, 83],
+financial socialization in families and schools [25, 26, 83], numeracy
+development [32], and direct experiences with money [25].
+During DS4, Sierra said that her parents must give her approval
+to buy something, which is hard because a lot of the items she wants
+require parental approval. In the design of new technologies for
+permissions (DS5), children developed apps that helped them plan
+out how to convince their parents towards financial purchases. One
+group discussed a potential app that provides children strategies for
+how to ask their parents’ permission for finances. Another group
+worked on parents putting “money limits” on what is fine to ask for.
+Shiro wanted a “persuasion app” that could be used to tell him what
+to say in a situation to ask his parents for permission around money
+(DS3). Jin created an app to allow other siblings to “+1” any request
+
+===== PDF PAGE 7 =====
+
+"Money shouldn’t be money!" : An Examination of Financial Literacy and Technology for Children Through Co-Design
+
+of parents that they agreed with. As designers, we might consider
+that as children and families work through what is allowed or not
+allowed in purchases, they could develop new literacies around
+digital commerce that helps children make more sense of the kinds
+of manipulations that exist around commerce and digital purchases.
+A need for supervision around digital purchases. Children
+had ideas around how technology influences their confidence levels and attitudes around money. In KidsTeam UW, children had
+different perceptions of what they thought was mature behavior
+around finances for children with technology. For instance, Jin was
+surprised that children could even have access to a child’s version
+of a debit card (DS5), “You know, like, kids, what’s a seven-year-old
+is going to do with 20 bucks (on a debit card). They’re gonna spend
+it on toys.” Jin has a perception of herself as older (age 12) and more
+responsible with money than children who are younger than her.
+Caleb (DS8) also agreed that credit cards would be too risky for
+children, and that children’s debit cards are better.
+Summary analysis. Based on these sessions, we believe children’s relationship with monetary independence and supervision
+is now based on their digital relationships with money. For instance, teaching children about money is not just about traditional
+financial literacies, such as numeracy, delayed gratification executive function, financial concepts, or budgeting. What is unique
+about commerce in digital environments is that children (and their
+families) need a different lens on how digital marketing and sales
+mechanisms work. Take for example, free digital games and in-app
+purchases, a business model that maximizes a larger quantity of
+views and interactions on the game because it’s offered for "free”.
+Freemium games have manipulations designed for children to believe they need or want digital purchases. While KidsTeam UW
+children wanted different ways to negotiate with their parents
+about downloading free games or getting in-app purchases, the
+children in our sessions did not mention knowing about these market manipulations. We believe families may also have a less critical
+eye, and only focus on supervision and gatekeeping mechanisms
+for purchases. The question of parental supervision and children’s
+developing independence has the potential to focus more on how
+families can learn together around these heightened situations.
+
+4.3
+
+How children learn about money in the
+digital age
+
+Social interactions. Although children need to develop financial
+skills and abilities, KidsTeam UW children discouraged homework
+style organizational skills embedded in digital design. Jin (DS8)
+noted that children do not like charts and worksheets that help
+them organize their finances. Technologies that use charts and
+worksheets do not account for the reality of how children interact
+and spend money. Children also explained that technology designs
+that try to help them develop the ability to compare prices does not
+consider their inability to go to every store to compare the prices.
+Hideo (DS8) explained that for comparison shopping, “instead of
+having good stuff, you (the technology) must have the essentials.”
+Maria (adult) asked if children would go around to different grocery
+stores and compare each price, to which Hideo said no. Hideo tried
+to remember the prices after looking at them but felt that people
+only go to a different store if the item is not there.
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Unsurprisingly the main social influence in which the children
+of KidsTeam UW learned about digital finances was through their
+parents [26, 32, 83, 93]. Children also mentioned that they learned
+about money simply by watching their parents’ financial interactions online, mostly when his parents buy things online. Matteo
+said he learned about money as he started earning small amounts
+and spending it through online shopping on Amazon.com with
+his parents. Children also talked about learning about finances
+from their friends. In DS1, Tom (adult) joined in a conversation and
+asked children about payments using Venmo and PayPal. Melissa
+explained some children she knew used that and have that, but she
+personally does not. She said she knows about digital payments
+since some friends talk about it.
+Digital technologies. KidsTeam UW children did refer to
+children’s apps they used to spend and save money (e.g., digital
+debit cards). Caleb referred to BusyKid (https://busykid.com) as
+a way his parents structure his spending digitally. Children also
+talked about the work they did to earn money. For Hideo (DS3),
+he would do chores and record them on an app called Mellow
+(https://mellowmoney.com). Chore amounts would be converted to
+points that he could spend online. At the same time, children are
+also using digital tools designed for adults. In DS5, Yoongi recalled,
+“Just use like Google Pay or something.” Jon (adult) was surprised by
+her response about Google Pay, and Yoongi justified, “Yeah, whatever it’s called. My sister has it. . . And like you can set limits on
+it.”
+Melissa said that video games are an easier medium to learn and
+process financial information. For example, Hideo noted that he
+does not have a bank account, but in Minecraft there is a mini game
+called Hipixel SkyBlock (SkyBlock), with a digital bank. In SkyBlock, the money increases the longer you keep your funds in the
+bank. Similarly, children in KidsTeam UW talked much about Animal Crossing and how they better understood rent and mortgages
+(DS9). Hideo and Melissa noted that the “bells” (game currency)
+in Nintendo’s Animal Crossing do not mean anything in real life.
+However, Hideo noted there could be a transitional point where the
+bells mean money to somebody. Haile added that Nintendo does
+convert cash into a point system to spend on games. Some children
+had a poor perception of digital games teaching them financial
+lessons.
+During DS5, Jin had strong opinions on digital games and finances: “I’ve got a lot to say about this one. This is the game. Kids,
+they’re gonna be focused on the game, not the financial learning.
+They’re gonna forget it overnight, and then they’re gonna come
+back and be like, What the heck is this? What is this stupid game?
+It’s just Candy Crush.” Jin explained that children are just distracted
+by digital games, and not the main goal of how to be fiscally responsible. Children also learned about finances through video games
+through in-game purchases in Fortnite (DS3), in which they must
+constantly ask their parents for permission.
+Summary analysis. Through co-design, KidsTeam UW children discussed two forms of learning about digital finances. First,
+children learned from direct instruction, such as parent modeling
+how to use Amazon.com, parents giving permission to make digital
+purchases, and children using specific financial apps (Apple Pay,
+Google Pay, Venmo, BusyKid). Children in KidsTeam UW reacted
+poorly to the specific forms of direct instruction, such as online
+
+===== PDF PAGE 8 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+budgeting lessons and specific edutainment video games about
+finances. Most importantly, KidsTeam UW children brought up
+a second form of learning, that is, the hidden curriculum [3] of
+digital finances, the amorphous collection of implicit, unspoken,
+and unwritten social and cultural messages around digital finances.
+These ways of learning about digital money are embedded in subtle
+ways such as fictional currency in video games, side conversations
+with parents about digital money, and watching friends use new
+forms of digital payments. In the hidden curriculum, there are also
+digital literacy skills and critical awareness that some children may
+be picking up subtly. Whether specific explicit or implicit hidden
+curriculum, we argue children in the digital age face new challenges,
+whether it is helping children navigate wisely around digital advertising, deceptive dark patterns, and digital misinformation around
+money that leads to their parents. Even helping children be aware
+of the modality of money becomes important, given that physical
+money is fading away, and children are literally not able to touch
+what money is anymore on a regular basis.
+
+5
+
+DISCUSSION
+
+We outline our discussion in three parts: (1) the need for research
+in child-computer interaction and digital finances; (2) methodology
+issues in co-design with children around digital finances; and (3)
+implications for design.
+
+5.1
+
+The need for child-computer interaction
+and digital finances
+
+Our co-design findings demonstrate that children’s relationship to
+money can be quite complex in the digital world. Children are faced
+with figuring out what money means in a world that transitions
+to less physical interactions with money (e.g., cash). Children also
+have multiple means of access to money through digital means,
+such as digital debit cards for children, access to online shopping,
+in-app purchases, and the use of adult-designed finance tools (e.g.,
+Google Pay, Apple Pay). As such, teaching children about money
+is not only about traditional financial literacy skills, such as budgeting and savings [30], numeracy [36], financial concepts [2, 30]
+and executive function [36]. Such traditional skills and education
+development in children currently have little to say about the material relationships children have with digital forms and access to
+money. In addition, because children’s access to finances are digital,
+deceptive financial designs exist that target children online, such
+as financial mis/disinformation for children [38], deceptive dark
+patterns trying to get children to spend more [93], online advertisements targeting children [12], financial aid scams [38], and online
+influencers [18]. The findings of this co-design experience show
+that children struggle with three tensions around digital finances
+that child-computer interaction researchers can take a note of.
+Tension 1: What is money? One contribution of our research
+findings shows that children’s mental models of digital money
+are expanding and becoming more diverse. Understanding money
+and its digital forms is not just about content knowledge, such as
+understanding how a digital debit card works or knowing how
+to transfer money from one digital account to another. The overarching issue we have noticed is children’s conflation about the
+different forms of digital assets that exist. Children in this study
+
+Jason Yip et al.
+
+mixed digital payments, video game currency, in-app purchasing,
+and even cryptocurrency together into a single concept of money
+in its digital form. Since children may not be accessing money in
+its physical form as much, the concept of money in digital form
+can be harder to grasp. For instance, learning sciences research
+work in embodied cognition notes the importance of physical manipulation, sensorimotor feedback, gestural interfaces, and direct
+manipulation as ways for children to learn [11]. With less embodied interactions with physical cash, the concept of money becomes
+more abstract for people. For example, as society transitions to the
+cashless society, scholars in business note that a new form of digital
+competence needs to take place, one that helps people understand
+the flow of money without physical movement of cash but using
+digital credit and debit cards and online payments [72]. We believe
+child-computer interaction researchers and designers can think
+about work that could help children understand digital payment
+systems through embodiment or other theories of learning.
+Tension 2: What are children’s needs for financial independence
+vs. family supervision? A second contribution of our findings reveals a tension around independence and supervision in children’s
+digital finances. Children in this study mostly talked about the
+gatekeeping mechanism their parents and families have around
+digital purchases. However, we know very little about how designs
+in child-computer interaction can help families learn together, especially as safety, privacy, scams, dark patterns, and other pitfalls exist
+in digital finances. For instance, child development scholars note
+the importance of children and parents to negotiate risk, safety, and
+danger together [72]. To consider negotiations between children
+and families around digital finances, it is important for designers to
+think about how to transition children from thinking about their
+relationships to digital tools and finance as gatekeeping, and instead towards financial independence. The notion of risk and safety
+is fluid, contingent, and contextual, with perceptions of temporal
+changes, behaviors, and responsibility. Child-computer interaction
+researchers interested in digital finances can learn from online
+safety and privacy researchers that study child-family negotiations.
+For instance, Ghosh et al.’s [29] work in Circle of Trust highlights
+how transitions from adolescent regulation of online safety can be
+designed around negotiation. Similarly, a trust development design
+perspective could take place within families and children.
+Tension 3: How do children learn about digital finances? Finally,
+the third contribution of our findings notes the tension in children
+in learning about digital finances, from direct instruction to implicit
+learning from the hidden curriculum [3]. Children in the digital
+age engage in a multiplicity of different ways to learn about digital finances. There is a ripe opportunity to re-design experiences
+that children have with currency, purchases, and financial literacy
+in general – through the digital interactions they have with apps
+and games for example – that perhaps scaffold different learning
+processes. Some interactions might directly instruct children on
+key aspects of financial literacy. For example, during the process
+of making a purchase, perhaps apps might scaffold children to reflect on key considerations. Other interactions could be designed
+to expand children’s’ access to hidden curriculum experiences, by
+perhaps making them aware of other children and family strategies
+
+===== PDF PAGE 9 =====
+
+"Money shouldn’t be money!" : An Examination of Financial Literacy and Technology for Children Through Co-Design
+
+around finances, connecting children safely with other peers for social modeling, or facilitating generative parent-child conversations
+around key issues.
+
+5.2
+
+The value-laden issues of co-designing for
+financial literacy
+
+In the US, there is an old saying, “Never talk about money, politics
+or religion at the dinner table.” This study was an attempt at codesigning for a specific and sensitive topic around digital finances
+[28]. As child-computer interaction studies have so few studies on
+co-design and children’s financial literacy [31], it is important for
+us to critically reflect on our process. Children’s co-design of financial literacy involves value-laden issues that are a part of money,
+capitalism, and citizenship [5, 6]. Prior work on co-designing with
+youth has taken on sensitive topics such as privacy and security
+[16, 49], creepiness of technology [90], gender and sexuality [52],
+and online safety and cyberbullying [7, 8]. However, a contribution
+of this study demonstrates that personal finance and children’s
+co-design can have some thorny issues to carefully consider in
+co-design.
+Our stance positions co-design as a fruitful methodology for
+understanding and designing for children’s financial literacy. Codesign has the potential for adults and children to think about how
+to be critical actors in the financial system [5, 41]. For instance, children in these co-design sessions had critical questions on why rich
+and poor individuals exist in society, why money is used, what exploitations occur with technology and finances, and the relationship
+between their emotions and money. We believe that co-designing
+with children around financial literacy and technology can help
+children articulate critical questions about themselves and their
+underlying assumptions around finances.
+Some of the opinions of the children in these co-design sessions
+are also value-propositions [24] that some take as some form of
+personal truths. Children had opinions about what they considered
+wasteful uses of money, what they thought was good spending
+and saving, who should be able to spend money, the relationship
+between happiness and money, and financial inequities. Some children had binary perspectives of good rich and bad poor, good saving
+and bad wasting, and happy vs. unhappy with wealth gains. Some
+children in the co-design session also recognized that their peers
+did have more (or less) financial resources than they did, which
+introduced some level of awkwardness.
+Overall, considerations of design for youth financial literacy
+from co-design need to be approached with sensitivity. Reflexively
+[86], we need to critically think about questions of how to approach
+values, co-design, technology, and finances for children. Do we create digital designs that help children accrue more money through
+a “neutral” perspective that still assumes and perpetuates invisible
+values? Do we create digital designs that help children and families learn about financial literacy, but also critically reflect on their
+own their values on money? How do we design wisely for financial literacy for children without exacerbating (if possible) greed,
+selfishness, and social inequities?
+Recently, Smith et al. [76] coined the term “mindfulness for financial literacy” to refer to the need to support financial education
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+in dealing with issues of envy, greed, and other problems associated with humans and money. Mindfulness strategies for finances
+can include intention in creating goals, emotional regulation, and
+increasing mental and physical health. Lucey and Henning [55]
+created the idea of “compassionate financial literacy” which is the
+notion of integrating arts-based education with financial education
+to consider issues of social justice. As an alternative to traditional
+notions, compassionate financial literacy encourages financial learners to think about citizenship and develop a sense of worth beyond
+financial attachments. Whether mindfulness or compassion, we
+advocate for designers considering youth financial literacy work to
+set the stage with children earlier about values related to finances.
+Portions of our study could have better integrated these concepts,
+such as co-designing for selflessness and finances, donations, and
+reflection of financial and citizenship values. We do believe more
+work needs to be taken place in co-designing for children’s financial literacy so that we can better understand the relationship with
+children, technology, values, and finances.
+
+5.3
+
+Design implications
+
+We provide two design contributions for this work: designing for a
+family team perspective and integrating prior financial technologies into youth financial education programs. Current technological
+designs around youth and financial literacy focus on “piecemeal”
+concepts. Children’s budgeting apps [80] emphasize how to gain
+financial skills and support positive financial behavior, but we do
+not know what actual knowledge children are developing around
+money (e.g., modality, digitalization of money) and how their perceptions and attitudes are affected (e.g., positive / negative views).
+In contrast, digital financial games [79] may help children develop
+actual knowledge around how finances work but may not help us
+understand how children’s actual financial skills (e.g., organization
+skills), perceptions, and behaviors are affected. As financial literacy
+for children (and people) is developed over the course of years (or
+a lifetime), it can be difficult then to gauge how children’s financial
+literacy develops without a bigger picture.
+HCI researchers note the importance of technologies for wellness
+designed from a family team perspective [64]. Financial socialization is an important aspect of children’s development in financial
+literacy [77, 84]. However, parental involvement in design is not
+well developed in financial education programs [84]. For instance,
+some parents have hesitation to participate in financial education
+programs due to skepticism, unfamiliarity, and lack of experience
+[9, 84]. We also observe the same need that financial socialization
+and parental involvement is not developed well in technology designs. We suggest moving away from isolated technology designs
+for children towards an approach that integrates parental trust and
+family learning opportunities in the aspects of financial literacy.
+We can also consider the organization and evaluation possibilities for youth financial education programs. In a large-scale review
+of financial education programs for youth in the United States [44],
+few programs considered the integration of digital technologies.
+Most of the technologies in these programs are meant for digital
+online distribution of learning materials. Educators and learning
+designers can expand their thinking about how to evaluate and integrate digital technologies into financial education programs. For
+
+===== PDF PAGE 10 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+instance, to determine the potential of new technologies in financial
+education, technologists could collect different piecemeal financial
+literacy technologies [23, 82] and evaluate how the technologies
+connect and influence children’s actual financial knowledge, perceived knowledge, skills, behaviors, and trust development.
+
+6
+
+LIMITATIONS AND FUTURE WORK
+
+We developed our themes with ten children and nine co-design
+sessions in a single geographic region in the Pacific Northwest, US.
+All the children have extensive experience with technology and
+co-design. Therefore, our findings and discussions are formative
+theoretical generalizations, not statistical generalizations [89]. Our
+work is guided by Lincoln and Guba’s prioritization of information
+richness, rather than probabilistic sampling [53]. Future work in this
+area needs to determine how robust our themes are. Three groups
+of children are siblings, therefore, some of what they indicated in
+the co-design is influenced by their own home interactions and
+parents. Our intense work with children has positive aspects, such
+as children who are unafraid of sharing their opinions with adults,
+working well together, and having healthy disagreements.
+At the same time, we have limitations such as being able to fully
+comprehend the perspectives of diverse populations and families
+(e.g., different SES groups, recent immigrants, etc.). We contend this
+research is not the end but a starting point for child-computer interaction researchers to consider more about financial literacy with
+children in the digital age. We also conducted this work alone with
+children. Future work could incorporate parental and educators’
+perspectives, experiences, and opinions to expand our knowledge
+on children’s perceptions of money in the digital age. Future surveys, experimental studies, interviews, and other methods could
+be used to validate the themes and generate new understandings.
+Finally, additional work needs to also consider the role that culture,
+and other ecological factors have in influencing how children think
+about financial literacy and technologies.
+
+7
+
+CONCLUSION
+
+By working closely with children through PD methods, we were
+able to better understand how technology relates to children’s
+mental models about financial literacy, and how their experiences
+relate as a sociotechnical system across social, cultural, familial,
+and technological domains. The importance of continuing this area
+of research remains substantial. While financial literacy does play a
+large influence in people’s financial situations, we note that global
+financial crises [25], inequity and privilege backgrounds [65], corruption [33], and systemic racism [32, 65] are also at the core of
+many financial issues beyond the individual. As Kentaro Toyama
+quotes [83], “we as a society fool ourselves into believing that the
+world’s problems can be solved by enlightened consumerism.” Instead, we believe that understanding and engaging with children’s
+perceptions of financial literacy and technology helps us to consider
+designs that can start conversations around finances, demonstrate
+transparency in the financial sectors, and help families develop
+supportive dialogues and trust with each other.
+
+Jason Yip et al.
+
+8
+
+SELECTION AND PARTICIPATION OF
+CHILDREN
+
+Children who participated in our study were already engaged in
+KidsTeam UW. Recruitment for KidsTeam UW children involved
+using flyers, mailing lists, and snowball sampling. The team is open
+to children ages 6-11. All the parents and guardians of child participants in KidsTeam UW signed an assent (children) and consent
+(parents) form. We informed both parents and children about the
+aims of the study, safety risks, and confidentiality and privacy measures. During the consent process, we indicated both parents and
+children were free to withdraw at any time. Researchers acted as
+facilitators and watched for children to make sure they did not
+feel under any pressure to participate in the study activities. All
+research has been approved by our university’s Institutional Review
+Board. All adult facilitators go through ethics and safety training
+for children at our institution. All children’s data were anonymized
+for the analysis and stored on a secure server.
+
+ACKNOWLEDGMENTS
+We thank all the children and families involved in KidsTeam UW.
+This work was funded in part by the Jacobs Foundation Research
+Fellowship Program.
+
+REFERENCES
+[1] Liezel Alsemgeest. 2015. Arguments for and against financial literacy education:
+where to go from here? International Journal of Consumer Studies 39, 2 (2015),
+155–161. DOI: https://doi.org/10.1111/ijcs.12163
+[2] Aisa Amagir, Wim Groot, Henriëtte Maassen van den Brink, and Arie Wilschut.
+2018. A review of financial-literacy education programs for children and adolescents. Citizenship, Social and Economics Education 17, 1 (April 2018), 56–80. DOI:
+https://doi.org/10.1177/2047173417719555
+[3] Jean Anyon. 2017. Social class and the hidden curriculum of work. In Childhood
+socialization. Routledge, Oxfordshire, UK, 369–394.
+[4] Nikolaos Artavanis and Soumya Karra. 2020. Financial literacy and student debt.
+The European Journal of Finance 26, 4–5 (March 2020), 382–401. DOI: https:
+//doi.org/10.1080/1351847X.2019.1711435
+[5] Chris Arthur. 2012. Consumers or critical citizens? Financial literacy education
+and freedom. Critical Education 3, 6 (2012). DOI: https://doi.org/10.14288/ce.v3i6.
+182350
+[6] Chris Arthur. 2012. Financial literacy education for citizens: What kind of responsibility, equality and engagement? Citizenship, Social and Economics Education
+11, 3 (2012), 163–176. DOI: https://doi.org/10.2304/csee.2012.11.3.163
+[7] Karla Badillo-Urquiola, Zachary Shea, Zainab Agha, Irina Lediaeva, and Pamela
+Wisniewski. 2021. Conducting risky research with teens: co-designing for the ethical treatment and protection of adolescents. In Proceedings of the ACM on HumanComputer Interaction 4, CSCW3, 2021, 1–46. https://doi.org/10.1145/3432930
+[8] Karla Badillo-Urquiola, Diva Smriti, Brenna McNally, Evan Golub, Elizabeth
+Bonsignore, and Pamela J. Wisniewski. 2019. Stranger danger! social media app
+features co-designed with children to keep them safe online. In Proceedings of the
+18th ACM International Conference on Interaction Design and Children, 394–406.
+https://doi.org/10.1145/3311927.3323133
+[9] Neil Bhutta, Jesse Bricker, Andrew C. Chang, Lisa J. Dettling, Sarena Goodman,
+Joanne W. Hsu, Kevin B. Moore, Sarah Reber, Alice Henriques Volz, and Richard
+Windle. 2020. Changes in U.S. Family Finances from 2016 to 2019: Evidence from the
+Survey of Consumer Finances. Social Science Research Network, Rochester, NY.
+Retrieved September 14, 2022 from https://papers.ssrn.com/abstract$=$3716339
+[10] Melanie Birks, Ysanne Chapman, and Karen Francis. 2008. Memoing in qualitative
+research: Probing data and processes. Journal of research in nursing 13, 1 (2008),
+68–75. DOI: https://doi.org/10.1177/1744987107081254
+[11] John B. Black, Ayelet Segal, Jonathan Vitale, and Cameron L. Fadjo. 2012. Embodied cognition and learning environment design. In Theoretical foundations of
+learning environments. Routledge, Oxfordshire, UK, 198–223.
+[12] Sandra L. Calvert. 2008. Children as consumers: Advertising and marketing. The
+future of children 18, 1 (2008), 205–234. DOI: https://doi.org/10.1353/foc.0.0001
+[13] Bryan Caplan. 2000. Rational Irrationality: A Framework for the NeoclassicalBehavioral Debate. Eastern Economic Journal 26, 2 (2000), 191–211.
+[14] Carolyn Carter. 2022. Predatory Installment Lending in the States (2022). National
+Consumer Law Center. Retrieved January 18, 2023 from https://www.nclc.org/
+
+===== PDF PAGE 11 =====
+
+"Money shouldn’t be money!" : An Examination of Financial Literacy and Technology for Children Through Co-Design
+
+resources/predatory-installment-lending-in-the-states-2022/
+[15] Neeraj Chatlani, Zachary Shea, and Pamela Wisniewski. 2020. Teenovate: using
+intergenerational participatory design to teach students about adolescent online
+safety. In Chatlani, Neeraj and Shea, Zachary and Wisniewski, Pamela, Teenovate:
+Using Intergenerational Participatory Design to Teach Students about Adolescent
+Online Safety (June 18, 2020). Teaching CCI Workshop of the 2020 ACM Interaction
+Design and Children Conference. http://dx.doi.org/10.2139/ssrn.3786322
+[16] Chhaya Chouhan, Christy M. LaPerriere, Zaina Aljallad, Jess Kropczynski,
+Heather Lipford, and Pamela J. Wisniewski. 2019. Co-designing for community oversight: Helping people make privacy and security decisions together.
+Proceedings of the ACM on Human-Computer Interaction 3, CSCW (2019), 1–31.
+https://doi.org/10.1145/3359248
+[17] Arianna Davis, Neeraj Chatlani, Karla Badillo-Urquiola, and Pamela Wisniewski.
+2021. Teenovate-Using Participatory Action Research to Create a Sustainable
+Teen Program Designing Adolescent Online Safety Solutions. http://dx.doi.org/
+10.2139/ssrn.3882835
+[18] Marijke De Veirman, Liselot Hudders, and Michelle R. Nelson. 2019. What is
+influencer marketing and how does it target children? A review and direction
+for future research. Frontiers in psychology 10, (2019), 2685. DOI: https://doi.org/
+10.3389/fpsyg.2019.02685
+[19] B. DiSalvo, J Yip, E Bonsignore, and C. DiSalvo (Eds.). 2017. Participatory design for
+learning - Persepctives from practice and research (1st ed.). Routledge, Oxfordshire,
+UK.
+[20] Allison Druin. 2002. The role of children in the design of new technology. Behaviour and Information Technology 21, 1 (2002), 1–25. DOI: https://doi.org/10.
+1080/01449290110108659
+[21] Adriana Espinosa and Sasha Rudenstine. 2020. The contribution of financial
+well-being, social support, and trait emotional intelligence on psychological
+distress. British Journal of Clinical Psychology 59, 2 (2020), 224–240. DOI: https:
+//doi.org/10.1111/bjc.12242
+[22] Jennifer Fereday and Eimear Muir-Cochrane. 2006. Demonstrating rigor using
+thematic analysis: A hybrid approach of inductive and deductive coding and
+theme development. International journal of qualitative methods 5, 1 (2006), 80–92.
+DOI: https://doi.org/10.1177/160940690600500107
+[23] B. Frączek. 2016. Usage of internet technology in financial education and financial
+inclusion by students of economics universities. International Journal of Economics
+and Management Engineering 10, 9 (2016), 3209–3217. DOI: https://doi.org/10.
+5281/zenodo.1127040
+[24] Batya Friedman. 1996. Value-sensitive design. Interactions 3, 6 (1996), 16–23. DOI:
+https://doi.org/10.1145/242485.242493
+[25] Gerry Gallery and Natalie Gallery. 2010. Rethinking Financial Literacy in the
+Aftermath of the Global Financial Crisis. Griffith Law Review 19, 1 (January 2010),
+30–50. DOI: https://doi.org/10.1080/10854667.2010.10854667
+[26] Zurishaddai A. Garcia, Dave Francis, Amanda Christensen, Stacey S. MacArthur,
+Margie Memmott, and Paul A. Hill. 2017. The Money Mentors Program: Increasing
+Financial Literacy in Utah Youths. The Journal of Extension 55, 6 (2017).
+[27] Kristopher Gerardi. 2010. Financial Literacy and Subprime Mortgage Delinquency:
+Evidence from a Survey Matched to Administrative Data. DIANE Publishing.
+[28] Paul Gerrans and Douglas A. Hershey. 2017. Financial Adviser Anxiety, Financial
+Literacy, and Financial Advice Seeking. Journal of Consumer Affairs 51, 1 (2017),
+54–90. DOI: https://doi.org/10.1111/joca.12120
+[29] Arup Kumar Ghosh, Charles E. Hughes, and Pamela J. Wisniewski. 2020. Circle
+of trust: a new approach to mobile online safety for families. In Proceedings of
+the 2020 CHI Conference on Human Factors in Computing Systems, 1–14. https:
+//doi.org/10.1145/3313831.3376747
+[30] Antonia Grohmann, Roy Kouwenberg, and Lukas Menkhoff. 2015. Childhood
+roots of financial literacy. Journal of Economic Psychology 51, (2015), 114–133.
+DOI: https://doi.org/10.1016/j.joep.2015.09.002
+[31] Thilina Halloluwa, Dhaval Vyas, Hakim Usoof, Pradeepa Bandara, Margot Brereton, and Priyantha Hewagamage. 2017. Designing for Financial Literacy:
+Co-design with Children in Rural Sri Lanka. In Human-Computer Interaction INTERACT 2017 (Lecture Notes in Computer Science), Springer International
+Publishing, Cham, 313–334.https://doi.org/10.1007/978-3-319-67744-6_21
+[32] Darrick Hamilton and William A. Darity. 2017. The Political Economy of Education,
+Financial Literacy, and the Racial Wealth Gap. Social Science Research Network,
+Rochester, NY. DOI: https://doi.org/10.20955/r.2017.59-76
+[33] Harun Harun, Peter Graham, Haryono P. Kamase, and Monir Mir. 2021. A Critical
+Analysis of the Impacts of Financial Literacy and NPM on Village Funds Initiative
+in Indonesia. International Journal of Public Administration 44, 4 (March 2021),
+336–345. DOI: https://doi.org/10.1080/01900692.2020.1722165
+[34] Einar Heiervang and Robert Goodman. 2011. Advantages and limitations of webbased surveys: evidence from a child mental health survey. Social Psychiatry and
+Psychiatric Epidemiology 46, 1 (2011), 69–76. DOI: https://doi.org/10.1007/s00127009-0171-9
+[35] Amanda Hess (April 26, 2022). Does a Toddler Need an NFT? The New York Times.
+https://www.nytimes.com/2022/04/26/arts/nft-zigazoo-qai-qai.html
+[36] Karen Holden, Charles Kalish, Laura Scheinholtz, Deanna Dietrich, and Beatriz Novak. 2009. Financial literacy programs targeted on pre-school children:
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Development and evaluation. La Follette Working Papers. Available at: http:
+//digital.library.wisc.edu/1793/36314
+[37] Cassidy Horton. 2022. The best debit cards for kids for 2022. Retrieved September
+11, 2022 from https://www.finder.com/debit-cards-for-kids
+[38] Philip N. Howard, Lisa-Maria Neudert, Nayana Prakash, and Steven Vosloo.
+2021. Digital misinformation/disinformation and children. UNICEF. Retrieved
+February 20, 2021 from https://www.unicef.org/globalinsight/stories/digitalmisinformation-disinformation-and-children
+[39] Angela Hung, Andrew M. Parker, and Joanne Yoong. 2009. Defining and measuring financial literacy. RAND Working Paper Series WR-708 (2009). DOI: https:
+//dx.doi.org/10.2139/ssrn.1498674
+[40] Sandra J. Huston. 2010. Measuring Financial Literacy. Journal of Consumer Affairs
+44, 2 (2010), 296–316. DOI: https://doi.org/10.1111/j.1745-6606.2010.01170.x
+[41] Moritz Hütten, Daniel Maman, Zeev Rosenhek, and Matthias Thiemann. 2018.
+Critical financial literacy: an agenda. International Journal of Pluralism and Economics Education 9, 3 (2018), 274–291. DOI: https://doi.org/10.1504/IJPEE.2018.
+10013932
+[42] Yuwei Jiang, Zhansheng Chen, and Robert S. Wyer. 2014. Impact of money on
+emotional expression. Journal of Experimental Social Psychology 55, (November
+2014), 228–233. DOI: https://doi.org/10.1016/j.jesp.2014.07.013
+[43] Panu Kalmi and Tanja Sihvonen. 2021. Education or entertainment?: On the
+potential of games in financial education. In The Routledge Handbook of Financial
+Literacy. Routledge, London UK, 259–273.
+[44] Matt Kasman, Benjamin Heuberger, and Ross A. Hammond. 2018. A review of
+large scale youth financial literacy education policies and programs. The Brookings
+Institution. Available at: https://www.brookings.edu/wp-content/uploads/2018/
+10/ES_20181001_Financial-Literacy-Review.pdf
+[45] Matewos Kebede Navkihiran jit Dalhual Kaur and Jasmeendeep Kuar. 2015. Financial Literacy and Management of Personal Finance: A Review of Recent
+Literatures. Research Journal of Finance and Accounting 6, 13 (2015), 92.
+[46] Judy Kendall. 1999. Axial Coding and the Grounded Theory Controversy. Western
+Journal of Nursing Research 21, 6 (December 1999), 743–757. DOI: https://doi.
+org/10.1177/019394599902100603
+[47] Leora Klapper and Annamaria Lusardi. 2020. Financial literacy and financial
+resilience: Evidence from around the world. Financial Management 49, 3 (2020),
+589–614. DOI: https://doi.org/10.1111/fima.12283
+[48] Bilgehan Kubilay and Ali Bayrakdaroglu. 2016. An Empirical Research on Investor
+Biases in Financial Decision-Making, Financial Risk Tolerance and Financial
+Personality. International Journal of Financial Research 7, 2 (February 2016), 171.
+DOI: https://doi.org/10.5430/ijfr.v7n2p171
+[49] Priya Kumar, Jessica Vitak, Marshini Chetty, Tamara L. Clegg, Jonathan Yang,
+Brenna McNally, and Elizabeth Bonsignore. 2018. Co-designing online privacyrelated games and stories with children. In Proceedings of the 17th ACM conference
+on interaction design and children, 67–79. https://doi.org/10.1145/3202185.3202735
+[50] Jae Min Lee, Narang Park, and Wookjae Heo. 2019. Importance of Subjective
+Financial Knowledge and Perceived Credit Score in Payday Loan Use. International Journal of Financial Studies 7, 3 (September 2019), 53. DOI: https:
+//doi.org/10.3390/ijfs7030053
+[51] Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran Kaur Saluja, Sungmin Na,
+Britnie Chin, Yilin Zeng, Jin Ha Lee, and Jason Yip. 2021. The show must go on: A
+conceptual model of conducting synchronous participatory design with children
+online. In Proceedings of the 2021 CHI conference on human factors in computing
+systems, 1–16. DOI: https://doi.org/10.1145/3411764.3445715
+[52] Calvin A. Liang, Katie Albertson, Florence Williams, David Inwards-Breland,
+Sean A. Munson, Julie A. Kientz, and Kym Ahrens. 2020. Designing an online
+sex education resource for gender-diverse youth. In Proceedings of the Interaction
+Design and Children Conference (IDC ’20), Association for Computing Machinery,
+New York, NY, US, 108–120. DOI: https://doi.org/10.1145/3392063.3394404
+[53] Yvonna S. Lincoln and Egon G. Guba. 1985. Naturalistic Inquiry. SAGE, Newbury
+Park, CA, US.
+[54] Chang Liu, Teresa Franklin, Roger Shelor, Sertac Ozercan, Jarrod Reuter, En Ye,
+and Scott Moriarty. 2011. A learning game for youth financial literacy education
+in the teen grid of second life three-dimensional virtual environment. American
+Journal of Business Education 4, 7 (2011), 1–18. DOI: https://doi.org/10.19030/ajbe.
+v4i7.4670
+[55] Thomas A. Lucey and Mary Beth Henning. 2021. Toward critically compassionate
+financial literacy: How elementary preservice teachers view the standards. Theory
+& Research in Social Education 49, 1 (January 2021), 107–136. DOI: https://doi.
+org/10.1080/00933104.2020.1859422
+[56] Annamaria Lusardi and Olivia S. Mitchell. 2011. Financial literacy around the
+world: an overview. Journal of Pension Economics & Finance 10, 4 (October 2011),
+497–508. DOI: https://doi.org/10.1017/S1474747211000448
+[57] Jessica Martel. 2022. Financial Literacy Videos for Kids. Penny Pinchin’ Mom.
+Retrieved from https://www.pennypinchinmom.com/financial-literacy-videoskids/.
+[58] Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and
+inter-rater reliability in qualitative research: Norms and guidelines for CSCW and
+HCI practice. Proceedings of the ACM on Human-Computer Interaction 3, CSCW
+
+===== PDF PAGE 12 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+(2019), 1–23. DOI: https://doi.org/10.1145/3359174
+[59] Brenna McNally, Priya Kumar, Chelsea Hordatt, Matthew Louis Mauriello, Shalmali Naik, Leyla Norooz, Alazandra Shorter, Evan Golub, and Allison Druin. 2018.
+Co-designing mobile online safety applications with children. In Proceedings
+of the 2018 CHI Conference on Human Factors in Computing Systems, 1–9. DOI:
+https://doi.org/10.1145/3173574.3174097
+[60] Heather Morton. 2021. Financial Literacy 2021 Legislation. Retrieved September
+11, 2022 from https://www.ncsl.org/research/financial-services-and-commerce/
+financial-literacy-2021-legislation.aspx.
+[61] OECD. Organisation for Economic Co-operation and Development (OECD). 2017.
+PISA 2015 Results (Volume IV) Students’ Financial Literacy. Retrieved from https://
+www.oecd.org/education/pisa-2015-results-volume-iv-9789264270282-en.htm.
+[62] Andrew Perrin. 2021. 16% of Americans say they have ever invested in, traded
+or used cryptocurrency. Pew Research Center. Retrieved September 11, 2022
+from https://www.pewresearch.org/fact-tank/2021/11/11/16-of-americans-saythey-have-ever-invested-in-traded-or-used-cryptocurrency/.
+[63] Laura R. Pina, Carmen Gonzalez, Carolina Nieto, Wendy Roldan, Edgar Onofre,
+and Jason C. Yip. 2018. How Latino Children in the U.S. Engage in Collaborative Online Information Problem Solving with their Families. In Proceedings of
+the ACM Human-Compuer. Interaction 2, CSCW (November 2018), 140:1-140:26.
+DOI:https://doi.org/10.1145/3274409
+[64] Laura R. Pina, Sang-Wha Sien, Teresa Ward, Jason C. Yip, Sean A. Munson, James
+Fogarty, and Julie A. Kientz. 2017. From Personal Informatics to Family Informatics: Understanding Family Practices around Health Monitoring. In Proceedings
+of the 2017 ACM Conference on Computer Supported Cooperative Work and Social
+Computing (CSCW ’17), Association for Computing Machinery, New York, NY,
+USA, 2300–2315. DOI:https://doi.org/10.1145/2998181.2998362
+[65] Laura Elizabeth Pinto and Eliabeth Coulson. 2011. Social Justice and the Gender
+Politics of Financial Literacy Education. Journal of the Canadian Association for
+Curriculum Studies 9, 2 (December 2011), 54–85.
+[66] James Poterba, Joshua Rauh, Steven Venti, and David Wise. 2007. Defined
+contribution plans, defined benefit plans, and the accumulation of retirement
+wealth. Journal of Public Economics 91, 10 (November 2007), 2062–2086. DOI:
+https://doi.org/10.1016/j.jpubeco.2007.08.004
+[67] Richard H. Price, Jin Nam Choi, and Amiram D. Vinokur. 2002. Links in the
+chain of adversity following job loss: How financial strain and loss of personal
+control lead to depression, impaired functioning, and poor health. Journal of
+Occupational Health Psychology 7, (2002), 302–312. DOI: https://doi.org/10.1037/
+1076-8998.7.4.302
+[68] David J. Purpura, Laura E. Hume, Darcey M. Sims, and Christopher J. Lonigan.
+2011. Early literacy and early numeracy: The value of including early literacy
+skills in the prediction of numeracy development. Journal of Experimental Child
+Psychology 110, 4 (December 2011), 647–658. DOI: https://doi.org/10.1016/j.jecp.
+2011.07.004
+[69] Aldrich Rasco, Johnny Chan, Gabrielle Peko, and David Sundaram. 2020. Fincraft:
+immersive personalised persuasive serious games for financial literacy among
+young decision-makers. In Proceedings of the 53rd Hawaii International Conference
+on System Sciences, 32–41. DOI: http://dx.doi.org/10.2139/ssrn.3675270
+[70] Richard Rogers. 2018. Coding and writing analytic memos on qualitative data: A
+review of Johnny Saldaña’s the coding for qualitative researchers. The Qualitative
+Report 23, 4 (2018), 889–893. DOI: https://doi.org/10.46743/2160-3715/2018.3459
+[71] Wendy Roldan, Paola Vanegas, Laura Pina, Carmen Gonzalez, and Jason Yip. 2019.
+The Role of Funds of Knowledge in Online Search and Brokering. (June 2019).
+Retrieved September 8, 2022 from https://repository.isls.org//handle/1/4398.
+[72] Mohammad Salman and Imran Saleem. 2017. Role of digital competence in
+cashless economy. IOSR Journal of Business and Management 19, 11 (2017), 49–53.
+DOI: 10.9790/487X-1911034953
+[73] Ratna Candra Sari, Mimin Nur Aisyah, Sariyatul Ilyana, and Hardika Dwi Hermawan. 2022. Developing a Financial Literacy Storybook for Early Childhood
+in an Augmented Reality Context. Contemporary Educational Techology 14, 2
+(February 2022), 18 pages. DOI:https://doi.org/10.30935/cedtech/11734
+[74] Stella Sechopoulos. 2022. Most in the U.S. say young adults today face more challenges than their parents’ generation in some key areas. Pew Resesarch Center.
+Retrieved September 11, 2022 from https://www.pewresearch.org/facttank/2022/02/28/most-in-the-u-s-say-young-adults-today-face-morechallenges-than-their-parents-generation-in-some-key-areas/.
+[75] Soyeon Shim, Jing J. Xiao, Bonnie L. Barber, and Angela C. Lyons. 2009. Pathways
+to life success: A conceptual model of financial well-being for young adults.
+Journal of Applied Developmental Psychology 30, 6 (2009), 708–723. DOI: https:
+//doi.org/10.1016/j.appdev.2009.02.003
+[76] Thomas E. Smith, Kristin V. Richards, and Victoria M. Shelton. 2016. Mindfulness
+in financial literacy. Journal of Human Behavior in the Social Environment 26, 2
+(February 2016), 154–161. DOI:https://doi.org/10.1080/10911359.2015.1052914
+
+Jason Yip et al.
+
+[77] Sang-Hee Sohn, So-Hyun Joo, John E. Grable, Seonglim Lee, and Minjeung Kim.
+2012. Adolescents’ financial literacy: the role of financial socialization agents,
+financial experiences, and money attitudes in shaping financial literacy among
+South Korean youth. Journal of Adolescence 35, 4 (August 2012), 969–980. DOI:
+https://doi.org/10.1016/j.adolescence.2012.02.002
+[78] Connie Susilawati and Leh Roo Wong. 2014. Barriers to entering affordable home
+ownership for young people: A preliminary study from university students’
+perspectives. In Proceedings of the 20th Annual Pacific Rim Real Estate Society
+Conference, S. Bond (ed.). Pacific Rim Real Estate Society, New Zealand, 1–11.
+Retrieved September 8, 2022 from https://eprints.qut.edu.au/83852/.
+[79] Sihvonen Tanja and Serada Alesja. 2020. Play with Money The Role of Digital Games in Promoting Financial Literacy. Retrieved September 8, 2022
+from http://www.digra.org/digital-library/publications/play-with-money-therole-of-digital-games-in-promoting-financial-literacy/.
+[80] Mia Taylor. 2022. The 5 Best Allowance and Budgeting Apps for Kids. Parents.
+Retrieved September 11, 2022 from https://www.parents.com/kids/responsibility/
+money-management/allowance-and-budgeting-apps-for-kids/
+[81] Tali Te’eni-Harari. 2016. Financial literacy among children: the role of involvement in saving money. Young Consumers 17, 2 (January 2016), 197–208. DOI:
+https://doi.org/10.1108/YC-01-2016-00579
+[82] Chandan Kumar Tiwari, S. Gopalakrishnan, Davinder Kaur, and Abhinav Pal. 2020.
+Promoting Financial Literacy through Digital Platforms: A Systematic Review of
+Literature and Future Research Agenda. Journal of General Management Research
+7, 2 (2020), 15–26.
+[83] Kentaro Toyama. 2015. Geek Heresy: Rescuing Social Change from the Cult of
+Technology (1st . ed.). PublicAffairs, New York, NY, US.
+[84] Geert Van Campenhout. 2015. Revaluing the role of parents as financial socialization agents in youth financial literacy programs. Journal of Consumer Affairs
+49, 1 (2015), 186–222. DOI: https://doi.org/10.1111/joca.12064
+[85] Greg Walsh, Elizabeth Foss, Jason Yip, and Allison Druin. 2013. FACIT PD: a
+framework for analysis and creation of intergenerational techniques for participatory design. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’13), Association for Computing Machinery, New York,
+NY, US, 2893–2902. DOI:https://doi.org/10.1145/2470654.2481400
+[86] Diane Watt. 2007. On Becoming a Qualitative Researcher: The Value of Reflexivity.
+Qualitative Report 12, 1 (March 2007), 82–101.
+[87] Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason
+C. Yip, and Jaime Ruiz. 2022. “It would be cool to get stampeded by dinosaurs”:
+Analyzing children’s conceptual model of AR headsets through co-design. In CHI
+Conference on Human Factors in Computing Systems, 1–13. DOI: https://doi.org/
+10.1145/3491102.3501979
+[88] Julia Woodward, Zari McFadden, Nicole Shiver, Amir Ben-Hayon, Jason C. Yip,
+and Lisa Anthony. 2018. Using co-design to examine how children conceptualize
+intelligent interfaces. In Proceedings of the 2018 CHI Conference on Human Factors
+in Computing Systems, 1–14. DOI: https://doi.org/10.1145/3173574.3174149
+[89] Robert K. Yin. 2013. Validity and generalization in future case study evaluations. Evaluation 19, 3 (July 2013), 321–332. DOI: https://doi.org/10.1177/
+1356389013497081
+[90] Jason C. Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofiana, Justin Park, and Alexis Hiniker. 2019. Laughing
+is scary, but farting is cute: A conceptual model of children’s perspectives of
+creepy technologies. In Proceedings of the 2019 CHI Conference on Human Factors
+in Computing Systems, 1–15. DOI: https://doi.org/10.1145/3290605.3300303
+[91] Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, and
+Laura R. Pina. 2017. Examining Adult-Child Interactions in Intergenerational
+Participatory Design. In Proceedings of the 2017 CHI Conference on Human Factors
+in Computing Systems (CHI ’17), Association for Computing Machinery, New
+York, NY, US, 5742–5754. DOI:https://doi.org/10.1145/3025453.3025787
+[92] Jason Yip, Wendy Roldan, Carmen Gonzalez, Laura R. Pina, Maria Ruiz, and Paola
+Vanegas. 2022. Youth invisible work: the sociocultural and collaborative processes
+of online search and brokering between adolescents and English-language learning families. Information and Learning Sciences 123, 7/8 (January 2022), 330–350.
+DOI: https://doi.org/10.1108/ILS-01-2022-0004
+[93] José P. Zagal, Staffan Björk, and Chris Lewis. 2013. Dark patterns in the design of
+games. In Foundations of Digital Games Conference (FDG 2013), May 14-17, Chania,
+Greece. http://www.fdg2013.org/program/papers/paper06_zagal_etal.pdf
+[94] Sophia Ziakou. 2020. Resilient Digital Financial Education for Youth – European
+Money Quiz Project. FINIZ 2020 - People in the Focus of Process Automation (2020),
+131–136. DOI:https://doi.org/10.15308/finiz-2020-131-136
+[95] John Zimmerman, Jodi Forlizzi, Justin Finkenaur, Sarah Amick, Ji Young Ahn,
+Nanako Era, and Owen Tong. 2016. Teens, Parents, and Financial Literacy. In
+Proceedings of the 2016 ACM Conference on Designing Interactive Systems (DIS ’16),
+Association for Computing Machinery, New York, NY, USA, 312–322. DOI:https:
+//doi.org/10.1145/2901790.2901889

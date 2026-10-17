@@ -1,0 +1,2292 @@
+SOURCE PDF: ../pdf/2026_IJCCI_Landesman_Teen_AI.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2026/04/2026.IJCCI_.Teen_AI_uses_and_concerns.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: OCR: Poppler rendering at 180 dpi, Tesseract English --psm 3; original PDF font encoding was unusable.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+we {|
+
+ELSEVI
+
+Contents lists available at ScienceDirect
+
+International Journal of Child-Computer Interaction
+
+ER journal homepage: www elsevier com/locate/ijcci
+
+Research paper
+
+“When AI generates ideas for you, that kind of defeats the purpose”: An
+exploration of teens’ uses and concerns about AI
+
+Rotem Landesman *®: , Larissa Schwartz, Katie Davis*
+
+* University of Washington Information School, Seattle, 98195, WA, USA
+» University of Colorado Boulder, Boulder, 80309, CO, USA
+
+ARTICLE INFO ABSTRACT
+
+Keywords: ‘As young people rapidly integrate AI technologies into their everyday lives, they face numerous ethical
+
+Adolescents dilemmas and decisions about their use. To support them in addressing these dilemmas, research is needed to
+
+ai understand how youth currently use and think about AI in their lives. We engaged 29 teens (ages 14-17) in five
+ies
+
+co-design sessions focused on their everyday uses of AI tools and platforms. Our results show that teens use AI
+
+to engage in a variety of tasks ranging from central to supporting in relation to their focal activity. We further
+demonstrate how teens exert different levels of cognitive effort while using AI tools. Through our analysis,
+we identified three types of concerns that teens expressed about their AI use: instrumental, personal, and
+existential concerns. We use these insights to offer guidance for designing AI tools and educational curricula
+to support teens’ responsible and ethical AI use.
+
+1. Introduction
+
+Young people are rapidly adopting Al-powered tools and services
+in their daily lives, from helping to develop their ideas for school
+assignments to talking with Al-powered chatbots on social media plat-
+forms (American Psychological Association, 2025; Hasse et al., 2024;
+Robb & Mann, 2025). These everyday uses of AI raise a variety of ethi-
+cal dilemmas related to questions of authorship, authenticity, friend-
+ship, and agency, among others. At present, however, most youth
+receive little explicit guidance about how AI tools work, the benefits
+they can provide, and the ethical challenges they raise (Casal-Otero
+et al., 2023). Many schools have banned the use of large language mod-
+els (LLMs) outright, while others have issued vague or no policies to
+guide their use (Elsen-Rooney, 2023; Famaye et al., 2024; Kasneci et al.,
+2023; Laird et al., 2023). As a result, youth have few opportunities to
+reflect on AI and its role in their lives. Despite this communication vac-
+uum, young people’s use of AI continues to accelerate, raising questions
+about whether and how to prepare them for a world permeated by AI
+technologies.
+
+Exploring adolescents’ evolving perceptions about AI tools is impor-
+tant given their uniqueness as technology users and their developmen-
+tal context. Prior studies, for example, often point to teens as early
+adopters of technological advancements (Ito, 2013; Ito et al., 2005),
+positioning them to shape societal perceptions and future iterations
+of these innovations. The implications of teens using AI tools are
+also shaped by the developmental processes that are foregrounded
+
+Corresponding author.
+E-mail address: roteml@uw.edu (R. Landesman).
+
+https://doi.org/10.1016/j.ijeci.2026.100815,
+
+during adolescence, such as the development of identity, social rela-
+tionships, executive function skills, and ethical reasoning (Blakemore
+& Choudhury, 2006; Davis et al., 2023).
+
+Due to the recency of widely available tools and platforms built on
+LLMs, research is still emerging on young people’s uses and conceptions
+of AI. Existing research has documented many different ways that youth
+are using Al inside and out of school (Ali et al., 2021; American Psycho-
+logical Association, 2025; Higgs & Stornaiuolo, 2024; Morales-Navarro
+& Kafai, 2023; Morales-Navarro et al., 2023; Robb & Mann, 2025; Thai
+et al., 2023), as well as how they are thinking about the ethical issues
+surrounding their AI use (Aitken & Briggs, 2022; Bilstrup et al., 2020;
+Forsyth et al., 2021; Gazulla et al., 2024; Higgs & Stornaiuolo, 2024;
+Landesman et al., 2024a; Morales-Navarro et al., 2024). However, this
+understanding is far from complete, especially in light of the speed
+with which AI tools are being released and adopted. Developing this
+understanding represents a critical step in identifying and developing
+supports to promote youth’s responsible AI use. Although teens’ uses
+and conceptions of AI will likely evolve just as rapidly as the Al tools
+themselves, the current work represents an important foundational
+view of how teens are approaching their ethical stances towards AI.
+
+We engaged 29 teens (ages 14-17) in the Summer and Fall of 2024
+in a series of five co-design sessions focused on their everyday uses
+of AI tools and platforms. Youth were members of a university-based
+Youth Advisory Board that met regularly as part of an ongoing, long-
+term engagement in research and co-design. This meant that we entered
+
+Received 30 June 2025; Received in revised form 16 February 2026; Accepted 4 March 2026
+
+Available online 7 March 2026
+
+2212-8689/© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+
+===== PDF PAGE 2 =====
+
+R. Landesman et al.
+
+this research with strong design partnerships between adult researchers
+
+and teen participants. These design partnerships provided a rich context
+
+for identifying and reflecting on the variety of ways that Al permeates
+
+and shapes teens’ daily lives, and allowed youth to surface their implicit
+
+and intuitive thinking through the design process (Obrenovi¢, 2011).
+The following research questions guided our investigation:
+
+RQ1: In what ways are teens using Al-powered tools and plat-
+forms in their everyday lives, inside and out of school?
+
+RQ2: What concerns do teens express about AI technologies, and
+how do they manage these concerns?
+
+Through a thematic analysis of session recordings, design artifacts,
+and teens’ individual research journals, we documented a variety of
+ways that teens use AI tools for schoolwork and entertainment (RQ1).
+Participants also described AI tools that are seamlessly integrated into
+other tools and platforms (e.g., music streaming platforms, social me-
+dia) and therefore used without much, if any, conscious thought. Our
+results show that teens’ AI use can be categorized along two dimen-
+sions: (1) whether they are engaged in a central or supporting task
+in relation to their focal activity, and (2) the level of cognitive effort
+they exert while using Al. We further identified seven primary con-
+cerns expressed by participants about AI technologies (RQ2), which we
+classified into three groupings: (1) the usefulness/quality of AI output,
+(2) AI’s impact on personal well-being, and (3) how AI’s efficiency
+threatens our humanity.
+
+This work contributes new empirical evidence documenting how
+teens are currently using and reasoning about AI technologies in their
+daily lives, with a particular focus on teens’ reasoning about the eth-
+ical dimensions of AI. Our mapping of teens’ AI uses along the two
+dimensions of supporting/central tasks and high/low cognitive effort
+(cognitive engagement vs. cognitive offloading) provides new insight
+into the circumstances under which teens’ AI use supports or under-
+mines their sense of personal agency. Our model depicting the broad
+range of youth’s present concerns about their AI use demonstrates that
+they are prepared and eager to move beyond discussions of AI and
+cheating.
+
+2. Related work
+2.1. Young people’s uses and perceptions of AI
+
+AI technologies are rapidly becoming integrated into young people’s
+daily lives. As early adopters of new technologies (Ito, 2013), teens are
+exploring ways to use AI tools that are specific to their environments
+and evolving needs. In a report from 2024, 53% percent of US teens said
+they have used generative AI (gen AI) to help with homework, 42% to
+fight boredom, and 38% to brainstorm ideas (Hasse et al., 2024). In
+the context of school, teens use AI chatbots and text generators most
+frequently, with almost half (40%) the teens surveyed reporting they
+have used AI in school in some capacity (Hasse et al., 2024). Though
+there is much public concern about teens’ use of AI to cheat on their
+schoolwork, one recent study found no change in students’ cheating
+behaviors on school assignments since the release of gen AI tools like
+ChatGPT (Lee et al., 2024). These findings are reflected in reports
+surveying teachers, which found that a majority (59%) of teachers
+believe that gen Al is likely to have legitimate educational uses (Walton
+Family Foundation, 2023). At the same time, evidence is emerging
+that students’ use of gen AI may undermine aspects of their cognitive
+engagement in school assignments (Melumad & Yun, 2025). Within
+this context, teens and their parents have expressed concerns about the
+lack of clear AI guidelines in schools, believing that AI tools should
+be limited until rules and regulations are put into place (Common
+Sense Media, 2023).
+
+Outside of school, teens are using AI tools to create content (19%),
+ask for advice on personal (18%) or health related (14%) issues, and
+seek companionship (15%) (Hasse et al., 2024). As AI tools and features
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+become integrated into popular applications and platforms, young peo-
+ple are increasingly interacting with Al in some form during their social
+and learning activities (Mcdonald et al., 2023). Social media platforms
+such as Instagram (TechCrunch et al., 2023), Snapchat (Snapchat Help,
+2025), and TikTok (TikTok Newsroom, 2025) are rapidly integrating
+Al features into their platforms, ranging from chatbots (Snapchat Help,
+2025) to content generation features, (TikTok Newsroom, 2025; Wei &
+Tyson, 2024) which young users encounter on a daily basis.
+
+In addition to investigating young people’s use of gen Al, re-
+searchers are also exploring youth’s perceptions of AI technologies.
+This research suggests that youth are aware of, excited, and concerned
+about Al in their lives. For instance, teens surveyed in the US in 2024
+reported their belief that gen AI is likely to have both positive and
+negative impacts on their lives in the next ten years (Green et al.,
+2024). In a report from the Alan Turing Institute in 2023 (children’s
+rights & ai, 2023), children (ages 7-11) from across Scotland shared a
+wide range of perceptions about Al’s usefulness in schools, alongside
+concerns about Al’s role in replicating bias in society and infringing on
+their privacy. In another report from 2024 investigating US based teens’
+and young adults’ perceptions of Al, approximately one third (34%)
+of respondents who had not previously used gen AI said they did not
+believe it would be useful to them, citing concerns about the potential
+impact that AI might have on intellectual property theft, privacy, and
+misinformation (Green et al., 2024). As gen AI tools continue their
+rapid development, it is vital for research to track young people’s
+evolving uses and perceptions of AI so that researchers, educators, and
+developers can build robust supports for responsible AI use in ways that
+attend to youth’s hopes and apprehensions.
+
+2.2. Young people’s ethical reasoning about AI
+
+Understanding how youth identify and reflect on the ethical com-
+plexities of Al is key to supporting their responsible AI use (Gazulla
+et al., 2024). Gaining this understanding is particularly important in
+light of adolescents’ distinct moral developmental stage (Kohlberg,
+1981; Piaget, 2013; Turiel, 1983), which prior work has shown to
+shape how adolescents reason about the ethical dimensions of their
+technology use (Flores & James, 2013).
+
+Research exploring youth perceptions has examined young peo-
+ple’s understanding of machine learning applications and their societal
+implications (Kaspersen et al., 2022); their knowledge about gen AI
+and its limitations (Ali et al., 2021); and their understandings and
+apprehensions about AI (Lee et al., 2022). Prior work has found that
+young people often react to AI tools with fear and rejection given the
+black box nature of large language model (LLM) reasoning (Alexandre
+et al., 2021). Collectively, this work indicates that youth are actively
+engaging with questions about the role of Al in their lives.
+
+There is growing evidence that young people’s active engagement
+with questions about AI includes reflections about the ethical issues
+that arise when using large language and image models (Dwivedi
+et al., 2024; Higgs & Stornaiuolo, 2024; Lechelt et al., 2020; Williams
+et al., 2023; Zhang et al., 2023). In their work with diverse youth to
+explore critical conceptions of fairer Al systems, Solyst et al. (2023b)
+found that teens are able both to identify ethical dilemmas that AI
+systems pose and to propose solutions to complex ethical problems
+regarding technological bias and unfairness. Other researchers have
+found that young people easily and eagerly engage in discussions of
+ethics in the context of fairness and bias in Al (Lee et al., 2021), writing
+with AI agents (Higgs & Stornaiuolo, 2024), and discussing potential
+benefits and harms of LLM systems (Ali et al., 2021; Landesman et al.,
+2024a; Morales-Navarro et al., 2024). In a different approach, Dwivedi
+et al. (2024) explored the values reflected in children’s designs as they
+worked with teachable machines, suggesting that by understanding
+the values children hold we can better understand their needs when
+designing AI tools. Recent work by Gazulla et al. (2024) examined
+the ethical frameworks teens employed while analyzing AI use cases,
+
+===== PDF PAGE 3 =====
+
+R. Landesman et al.
+
+and found that teens analyzed dilemmas through a consequential lens,
+sticking to their own worldviews and reasoned principles. This work
+represents scholars’ growing understanding of youth’s capacity to rec-
+ognize ethical complexities when interacting with AI tools, as well as
+the values and ethical lenses they themselves employ when using these
+tools.
+
+Notably, much of the published work exploring youth’s ethical
+perspectives on Al, especially in the field of HCI, focuses on supporting
+young people’s thinking about design ethics (Antle & Hourcade, 2022;
+Gazulla et al., 2024; Mechelen et al., 2020). Design ethics is concerned
+with the ethical dimensions of a technology’s design, with a focus
+on the personal and societal impacts of the specific design choices
+made by developers (Mechelen et al., 2020). In contrast, everyday ethics
+explores the ethical dimensions of people’s interactions with a partic-
+ular technology; the focus is on the user and their interactions rather
+than the developer and their design decisions (Mechelen et al., 2020).
+Frameworks and pedagogies that position youth to think about design
+ethics focus on topics such as the ethical implications of designing
+technologies in a specific way (Antle et al., 2022; Schaper et al., 2022);
+the inherent biases that exist in digital environments (Solyst et al.,
+2023a); and the moral decisions made by organizations and individuals
+when building AI tools (Bilstrup et al., 2020). Some of these studies
+do address everyday ethics to some degree, but typically without an
+explicit focus (Solyst et al., 2024). Less commonly, approaches focused
+on everyday ethics (Higgs & Stornaiuolo, 2024) specifically explore
+the values and ethical choices that youth make when using AI in
+their daily lives, such as at school or at home (Gazulla et al., 2024).
+Explicitly foregrounding youth’s everyday ethical thinking about gen AI
+represents an important component in helping them to develop the full
+set of skills they need to confidently approach and make decisions about
+using AI. Moreover, a focus on supporting everyday ethical thinking
+about AI is key to provide teens a better understanding of ethical issues
+from a socio-technical perspective (Sartori & Bocca, 2023), and allow
+them to see a space for agency in their daily lives when interacting
+with AI (Daly, 2022; Gazulla et al., 2024). In this work, we reference
+agency in relation to self-determination theory (Ryan & Deci, 2000),
+which emphasizes an individual’s capacity to act intentionally and
+autonomously. In the current work, we explore the specific and situated
+uses, perceptions, and ethical concerns that youth express about AI
+and use these insights to propose a set of design considerations for
+supporting their everyday ethical thinking about AI.
+
+2.3. Supporting youth’s Al literacy
+
+The rapid emergence of AI technologies in K-12 settings (Heintz,
+2021) has prompted the publication of numerous frameworks that
+identify what youth need to know about AI (Yim, 2024). For instance,
+Touretzky’s 5 Big ideas in AI (Touretzky et al., 2019), the 4A’s AI
+Literacy Framework for Families (Druga et al., 2021), the AI learning
+levels SEAME framework (Waite et al., 2023), the AKIEE Curriculum
+Framework (Chiu et al., 2021), the affective, behavioral, cognitive, and
+ethical (ABCE) learning framework (Ng et al., 2021, 2024), and the
+AI4K12 initiative (Touretzky, 2019) are all examples of approaches that
+aim to prepare youth to think, work, and live in a world with AI. Within
+HCI, Long and Magerko (2020) developed a conceptual framework
+based on their synthesis of interdisciplinary literature to help guide the
+design of AI literacy learning interventions. The framework consists of
+a set of competencies and design considerations that are organized into
+five core themes: (1) What is AI?; (2) What can AI do?; (3) How does AI
+work?; (4) How should AI be used?; And (5) How do people perceive
+AI?. In their review of Al literacy efforts in K-12 settings, Casal-Otero
+et al. (2023) identified two categories of work: (1) designing learning
+experiences focused on understanding Al, including an understanding
+of how AI works (e.g. Burgsteiner et al. (2016), Lee et al. (2020), Varti-
+ainen et al. (2021)), and (2) work concerning the implementation of AI
+learning at the K-12 level, which includes teacher training, resources,
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+and curriculum design. The same review urges educators and scholars
+to foreground the critical questions youth may have about AI (Casal-
+Otero et al., 2023; Veldhuis et al., 2024), and to actively examine how
+AI tools adopted by youth in K-12 settings (Li et al., 2022) may have
+been designed without considering their needs (Howley III, 2019).
+
+More recent work in this area argues for the need to move beyond
+Al literacy to critical AI literacy frameworks, noting AI technologies’
+positioning within broader sociocultural contexts which may have far
+reaching implications on the individual user and society at large (Casal-
+Otero et al., 2023). Defined by Veldhuis et al. (2024) in a recent review
+of critical AI literacy efforts, critical AI literacy is the “capacity to
+analyze, critique, and transform Al’s critical implications”. That same
+review (Veldhuis et al., 2024) recognized a variety of efforts whose
+learning objectives are to encourage youth to question how Al is inte-
+grated into their lives (DiPaola et al., 2020), highlight unique attributes
+of Al and its critical implications (Dai et al., 2024; Schaper et al., 2023),
+or discuss issues of existing AI systems in daily life (Everson et al.,
+2022; Forsyth et al., 2021; Solyst et al., 2023b). Work by Higgs and
+Stornaiuolo (2024) examined high school students’ critical perceptions
+of Al-mediated writing in the context of an English Language Arts class.
+Alongside showcasing the complexity of teens’ ethical perspectives
+about Al, the authors urged educators to offer more support to students
+in thinking about the role of AI by helping them to “thoughtfully
+and critically engage with, and take informed actions to address the
+everyday ethical dilemmas that surface” (Higgs & Stornaiuolo, 2024)
+when using AI. However, work exploring young people’s critical and
+ethical views of AI points to the scarce supports available to teens to
+learn about the ethical dimensions of their technology use (Gazulla
+et al., 2024; Vakil & de Royston, 2022), as well as the lack of concrete
+guidance for implementing existing critical Al frameworks in practice.
+We see understanding teens’ ethical dilemmas and concerns about using
+Al as an important component in developing this guidance. By surfacing
+and mapping teens’ AI uses alongside their concerns about using Al
+tools and platforms, our research lays the foundation to build support
+mechanisms for teens to examine their everyday ethical thinking when
+interacting with Al.
+
+3. Methods
+3.1. Cooperative inquiry with youth
+
+Our study employed a participatory design (PD) method called
+Cooperative Inquiry (CI) (Druin, 1999), also known as co-design (Yip
+et al., 2017). Cl is a design method that emphasizes equal and equitable
+design partnerships between young people and adults throughout the
+entire process of design (Druin, 1999; Yip et al., 2017), and has been
+used in human-computer interaction (HCI) to explore complex topics
+with youth such as gender and sexuality (Liang et al., 2020), science
+learning (Yip et al., 2013), and privacy (Kumar et al., 2018).
+
+We decided to use CI for our investigation for several reasons. First,
+we build on prior knowledge that points to the fact that while inter-
+viewing and surveying teens is possible (Heiervang & Goodman, 2011),
+exploring abstract and complex topics like hesitations and perceptions
+about AI can be difficult to elicit with methods using a singular point
+in time (Yip et al., 2023). Instead, workshops and PD techniques such
+as CI allow young people to concretely express abstract ideas about
+complex topics due to the in-depth and rich engagement they are able
+to have.
+
+Additionally, our work was done with an established youth advisory
+board that works closely with adult researchers for prolonged periods
+of time. We created this group in order to engage teens in long-term,
+intergenerational co-design and research initiatives at our university.
+Prior work has shown that conducting CI in this type of long-term,
+supportive context allows youth to express deep and complex thoughts
+due to their prolonged engagement and the relationships they form
+with each other and with the adult design partners (Yip et al., 2023).
+
+===== PDF PAGE 4 =====
+
+R. Landesman et al.
+
+Table 1
+Participants’ self-disclosed demographic information.
+Participant ID Age Gender Sessions attended
+PO1 17 Female DS1, DS2
+P02 17 Female DS1, DS3
+P03 17 Female DS1, DS2, DS3, DS4, DSS
+P04 14 Male DS1, DS2, DS3
+POS 16 Male DS1, DS2, DS3
+P06 14 Male DS1, DS2, DS3
+P07 17 Female DS1, DS2, DS3
+POS 16 Female DS1, DS2, DS3, DS4, DSS
+POO 17 Male Ds1
+P10 17 Female DS2, DS3, DS4, DSS
+Pll 16 Female DS2, DS3
+P12 16 Female DS2, DS3
+P13 15 Female DSS
+P14 16 Female Ds4, DSS
+P1S 15 Female Ds4, DSS
+P16 17 Male Ds4, DSS
+P17 15 Female DSs4
+P18 14 Male DSS
+P19 15 Female Ds4, DSS
+P20 17 Female DSs4
+P21 15 Female Ds4, DSS
+P22 15 Female DSs4
+P23 14 Female Ds4, DSS
+P24 17 Female DSs4
+P25 15 Female DSs4
+P26 17 Female DSs4
+P27 14 Female Ds4, DSS
+P28 14 Female Ds4, DSS
+P29 16 Female Ds4, DSS
+
+When approaching the topic of teens2019 current uses and concerns
+about Al, this type of collaborative environment is key to surface
+granular perceptions.
+
+By engaging our participants in design activities, we sought to
+surface their tacit and intuitive knowledge about AI tools (Obrenovié,
+2011), which would allow us to accurately represent their lived exper-
+tise in our findings. As such, we align our work with conceptualizations
+of youth participants as protagonists in the design process, which
+frames the objective of participatory work not as the design or testing
+of a particular product, but the "insights, skills, and reflective stance
+that children develop through the process” (Iversen et al., 2017).
+
+3.2. Participants
+
+Over the course of four in-person workshops and one virtual work-
+shop, we worked with teens (ages 14-17) to explore how they use
+Al-powered tools in their daily lives and their concerns about using
+AI technologies. Workshops included adult researchers (investigators
+and undergraduate research assistants) and teen participants (N = 29),
+as described in Table 1. This group of teens is one of our university’s
+youth advisory board (YAB), called (anonymous). Members of the
+(anonymous) work with researchers, graduate students, and undergrad-
+uates on research and design projects and local advocacy initiatives
+throughout the year. We recruited participants from local high schools
+through snowball sampling and word of mouth. Teens who join the
+YAB are usually highly motivated individuals, who seek to learn more
+about research and adolescents’ relationship with digital technologies.
+In each of the sessions, at least two adult facilitators acted as design
+partners with the teens. Participants’ attendance varied throughout the
+workshops, and is indicated in Table 1. Each session included three
+adult facilitators except for DS4, which had two adult facilitators.
+The (anonymous) met over the course of Summer and Fall 2024 to
+conduct the workshops described below, including various activities
+that allowed participants to work within both small and large groups.
+
+The teens in this study represent the voices of engaged, passionate
+youth eager to work on and think about research with adult collab-
+orators during their summer break and throughout the school year.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Their voices do not represent teens as a whole, and offer only an initial
+glimpse into their reasoning processes and uses of AI. Nonetheless, the
+voices represented here are important ones, as they reflect perspectives
+shared through in-depth, scaffolded conversations about AI use in and
+outside school.
+
+3.3. Design sessions
+
+The two-hour design sessions were structured as scaffolded ex-
+plorations of the AI technologies that teens interact with inside and
+outside of school followed by discussions exploring the benefits and
+drawbacks of using AI. The scaffolding that facilitators provided served
+as a guide for the teens to access and express their perceptions of Al.
+This collaborative effort reflects inter-generational partnerships in PD
+contexts, which allows for mixing and generating ideas in a co-design
+group (Yip et al., 2017). The sessions were centered around exploratory
+activities and open-ended discussions, and aimed to support and surface
+teens’ experiences and perspectives related to using Al in their everyday
+lives. Each session was purposely structured as a standalone workshop,
+accounting for the varied attendance of the teens. Participants’ varied
+attendance, alongside the workshops’ standalone nature, led to some
+instances where teens who attended several workshops and built on
+their previous statements had to explain their thinking process more
+elaborately to the group, but ultimately did not impede the activities
+of any one particular session. The first three in-person design sessions
+(DS1, DS2, DS3) were held in July 2024 over the span of two weeks.
+The fourth in-person design session (DS4) was held later in the year
+(December 2024), and the fifth design session (DS5) was held virtually
+later that same month.
+
+Each of the five design sessions began with introductions and an ice-
+breaker (approximately 5 min) so that the group could feel comfortable
+with each other. Each session foregrounded one or two main activities,
+with group-wide discussions following each activity (approximately
+45 min each). At the end of each session, teens completed individual
+research journals (approximately 15 min) to reflect on the session’s
+activities and discussions (see Appendix A.1 for a description of the
+journal questions), which we used in our data analysis. In design
+sessions 1 through 4, which were held in-person, research journals
+were physical pieces of paper participants filled out at the end of the
+session. During design session 5, which was held virtually, participants
+filled out their research journals online by answering the questions in
+a Google slide deck. The sessions described below are also summarized
+in Table 2.
+
+3.3.1. Design Session 1 (DS1)
+
+Tinkering with AI Tools. The first design session focused on exploring
+teens’ preconceptions about AI by tinkering and reflecting on several
+common gen AI applications. The session began by creating a collabo-
+rative word cloud reflecting participants’ initial thoughts and reactions
+when they think of AI. Then, teens split into groups and rotated
+between two stations (45 min each) where they were introduced to
+five different gen AI tools: (1) Google’s verse by verse tool (Verse by
+verse, 2024) which generates a poem in the writing style of famous
+poets, (2) Suno (Suno, 2024) an online song generator, (3) Google
+Gemini (Google gemini, 2024), (4) Microsoft Copilot (Microsoft copilot,
+2024), and (5) ChatGPT (Openai & chatgpt, 2024). We selected the
+specific tools based on their popularity with teens at the time of
+the study (Hasse et al., 2024), accessibility, potential novelty, and
+possible applicability in teens’ everyday lives. Teens used the first two
+applications (station 1) to craft poems and songs, and the three other
+applications (station 2) to generate and compare outputs from both
+visual and text inputs. At each station, teens filled out their research
+journals (See Appendix A.1), as well as a set of end-of-session questions.
+
+===== PDF PAGE 5 =====
+
+R. Landesman et al.
+
+Table 2
+Description of design sessions.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Design Session Design session
+(Ds) goal
+
+Design activities
+
+DS1 General
+(in person) perceptions about
+
+Teens tinkered with various AI tools and
+reflected on their potential uses and limitations
+
+AL in their research journals.
+bs2 ‘Appropriate uses “Teens were presented with two cases about
+(in person) of AL using Al tools, and analyzed them by engaging
+in group discussions and individual reflections.
+Ds3 Using AI in school Participants brainstormed how they could use
+(in person) AL in school, and collaboratively came up with
+guidelines for using AI tools in school settings.
+Ds4 Describing AI Teens were asked to describe AI to someone
+(in person) unfamiliar with it in small groups, and then
+discussed their perceptions in the larger group.
+DSS (virtual) Using AI in Participants mapped out their daily AI uses,
+
+everyday life
+
+and then divided into small groups to
+categorize the uses surfaced in the group.
+
+3.3.2. Design Session 2 (DS2)
+
+AI Case Studies. During the second session, researchers presented
+teens with two case studies to prompt discussions about what they
+thought were appropriate and inappropriate uses of AI tools. The
+first case study was a hypothetical story about a student whose first
+language was not English using Al to improve their writing assignment.
+In the case study, the student was caught and expelled for using AI.
+Participants were asked to reflect on the fairness of the punishment in
+two small groups (approximately 15 min), and then in a larger group
+discussion (approximately 30 min). After discussing with their group,
+students individually recorded their reflections in their research jour-
+nals (See Appendix A.1). In the second half of the session, participants
+read an article about Al being used in an art competition (Roose, 2022).
+Participants discussed the case study in a large group format (approxi-
+mately 45 min), and finally filled out their end-of-session questions in
+their research journals.
+
+3.3.3. Design Session 3 (DS3)
+
+AI Policies in School. The third session engaged teens in designing
+guidelines for using AI tools in school. In the first activity, participants
+were divided into 2 groups and brainstormed (approximately 25 min):
+(1) how they would use AI in school, (2) why they would use AI
+for that purpose, and (3) what others should keep in mind when
+using AI, recording their thoughts on a whiteboard (see 1). The two
+teams then presented their ideas, and all participants then gathered to
+collaboratively create rules for AI use in school (approximately 20 min).
+In the second half of the session, participants looked over recently
+released local guidelines concerning AI use in K-12 (anonymous), and
+compared them to the rules they created. Finally, the teens filled out
+the end-of-session questions in their research journals.
+
+3.3.4, Design Session 4 (DS4)
+
+Describing AI. The fourth session surfaced participants’ definitions
+and common uses of Al-powered technologies. This session was held a
+few months after the prior sessions (in December 2024), and included a
+mix of returning and new members of the group. After an introduction
+(5-10 min), we divided participants into three teams of four or five
+people and asked them to discuss and present their answers to the
+following questions, pretending as if their audience were completely
+unfamiliar with AI and its capabilities: (1) what is AI?, (2) what are
+some common uses of this technology?, (3) how would you use this
+technology inside and outside of school?, and (4) are there any specific
+warnings you would like to mention about using Al-powered tech-
+nologies? Each group was given time to discuss and write down their
+answers, after which they presented their work to the larger group,
+pausing throughout for impromptu discussion (45-60 min). Participants
+did not complete research journals during or after this session due to
+lack of time.
+
+Fig. 1. Participants’ mapping of their AI use during DS4, answering: (1) How
+they would use AI in school, (2) Why they would use AI for that purpose, and
+(3) What others should keep in mind when using AI.
+
+3.3.5. Design Session 5 (DS5)
+
+Mapping AI Uses. The fifth and final session with participants was
+held virtually, and explored how participants use AI in their everyday
+lives. The session began with an ice breaker (5-10 min), and then the
+first activity where facilitators asked participants to individually map
+out their daily AI uses their individual research journal in as much
+detail as possible (15-20 min). For example, participants were asked to
+identify all the ways that AI surfaced during their daily routines, such
+as an alarm clock using Al, using navigation apps in their commute
+to school, and so forth. Then, participants were divided into small
+working groups, where they shared their maps with each other and
+used a virtual whiteboard to collectively categorize the AI uses they
+had identified (5-10 min). After this categorizing exercise, participants
+shared their work with the larger group and discussed notable themes
+and patterns (approximately 45 min). Finally, participants filled out
+there research journals. These research journals were virtual since the
+session was virtual as well.
+
+3.4. Data collection
+We recorded and transcribed all session discussions, collecting a to-
+
+tal of 15 h of audio. Audio recordings included both the large and small
+group discussions throughout the sessions. We focused our analysis
+
+===== PDF PAGE 6 =====
+
+R. Landesman et al.
+
+on the text based sources, namely the audio transcripts and partici-
+pants2019 research journals. Participant artifacts, such as drawings,
+notes, and sketches were used to triangulate our data and refer back
+to what participants spoke about in their discussions. Additionally, the
+undergraduate research assistants who attended the sessions wrote an-
+alytical memos (Birks et al., 2008) during the sessions, and those notes
+were used to cross-check recordings and journal reflections throughout
+the analysis. Since attendance was not consistent among participants,
+our results reflect the group2019s salient ways of thinking throughout
+the workshops. In this way, we aim to foreground participants2019
+collective sensemaking of the topics discussed, rather than individual
+changes in perceptions over time. By surfacing these viewpoints, we
+can build our understanding of the issues teens care about and consider
+how to engage them further in critical exploration of these issues.
+
+3.5. Data analysis
+
+We used a reflexive approach to thematic analysis (TA) to an-
+alyze the data (Braun & Clarke, 2006, 2021; Nowell et al., 2017).
+Reflexive TA is an iterative approach to qualitative data analysis that
+foregrounds the researcher’s interpretations of the data in relation to
+the overarching research questions guiding the study (Braun & Clarke,
+2006; Nowell et al., 2017). This approach differs from more post-
+positivist approaches to coding and theme development that emphasize
+quantifiable measures and inter-rater agreement (e.g., Boyatzis, 1998;
+Guest, 2012). With reflexive TA, researchers generate themes through
+active engagement and interpretation of the data rather than counting
+discrete instances of codes. Our approach to analysis focused on the
+group’s collective sensemaking over the course of five design sessions.
+It is likely-especially in the context of researcher-facilitated conver-
+sations and design activities-that teens’ individual perceptions of AI
+changed during this process. However, in light of our focus on group-
+level sensemaking, our analysis captured the salient themes expressed
+collectively by teen participants rather than changes over time in any
+one individual teen.
+
+The first author transcribed and organized the data in ATLAS.ti (AT-
+LAS.ti, 2024), immersing and familiarizing themselves with the data
+(Braun & Clarke, 2006, 2021; Nowell et al., 2017) and taking notes
+of initial impressions as they did so in light of the study’s research
+questions. The first and second authors met four times over a pe-
+riod of one month to discuss and document theoretical and reflective
+thoughts that emerged from the first author’s initial readings. The
+first author then performed line-by-line open coding of two transcripts
+using ATLAS.ti (ATLAS.ti, 2024), identifying codes such as “using AI
+tools to grade work” and “over-reliance on AI”. The first and second
+authors grouped these codes into broad categories reflecting the study’s
+research questions. These categories included: participants’ uses of Al,
+concerns about Al, and considerations for using AI. The first author
+then created an initial codebook with codes in each of these categories,
+such as ”AI hurts learning” (concerns about AI) and “maintain authen-
+ticity” (considerations for using Al), which they then shared with the
+author team for feedback and reflection.
+
+The author team met weekly over the course of one month to
+discuss and refine the codebook, using their discussions to develop the
+interpretive themes reported in this paper. For example, when coding
+participants’ uses of Al tools, we identified three primary categories of
+use: AI in school, AI for fun, and AI integrated seamlessly into other tools
+and applications. These three categories became the primary organizing
+factor for codes corresponding to RQ1, and are reported as such in
+the results. Within these categories, we further identified distinctions
+between whether teens were using AI for a central or supporting task
+related to their focal activity, as well the level of cognitive effort they
+exerted while using Al in different contexts and for different purposes.
+We draw on the findings reported in Section 4.1 to present a framework
+for understanding teens’ AI use (see Section 5.1).
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+We followed a similar process for coding participants’ concerns
+about AI (RQ2). We identified several reasons why teens chose not to
+use AI tools (such as “following a personal value” or “mistrust of AI”) as
+well as challenges teens saw when using AI (such as “inaccuracy” and
+the “undermining of authenticity”). In total, we identified seven pri-
+mary concerns that teens expressed about Al (see Section 4.2). Through
+discussion of these seven concerns, we identified three groupings,
+ranging from concerns about the quality of AI output (an instrumental
+concern), to Al’s impact on personal well-being (a personal concern),
+and, finally, Al’s threat to humanity (an existential concern) (see 5.2).
+Appendix B (B.3) summarizes our final coding scheme.
+
+Once the research team had agreed that the final codebook faithfully
+reflected the data and addressed the study’s research questions, the
+first author applied the coding scheme to the entirety of the data
+corpus. The second author then reviewed several coded transcripts,
+citing agreement or disagreement. This process ensured that at least
+two members of the research team reviewed each transcript. Once
+all transcripts were coded, the authors met to discuss and resolve
+any coding disagreements. For example, team members clarified the
+code “personalization” to mean specifically teens using AI to seek
+personalized explanations, and the code “entertainment” changed to
+“fun with friends” to specify its social nature. While coding the data,
+disagreements were resolved by surfacing the perceived meaning of
+each code by the author and its subsequent fit to the data, followed
+by a discussion between the authors to refine and clarify the code’s
+meaning and placement within the coding scheme.
+
+4, Results
+
+To answer RQ1, we describe the ways that teens use Al-powered
+technologies in their everyday lives. Then, we describe the concerns
+they surfaced about their AI usage (RQ2).
+
+4.1. RQI: Teens’ AI usage
+
+Participants reflected on how they use Al-powered technologies
+across the different contexts of their daily lives. These uses fell into
+three primary categories: (1) schoolwork, (2) entertainment, and (3)
+interactions with AI that are integrated seamlessly into commonly used
+applications and platforms. Within each of these contexts, we identified
+distinctions between whether teens were using AI for a central or
+supporting task related to their focal activity, as well as the degree of
+cognitive effort that teens applied as they interacted with various Al
+tools.
+
+4.1.1. Al at school
+
+Teens described four primary ways they use AI tools in school: (1)
+as a starting point, (2) for work enhancement, (3) seeking personalized
+explanations, and (4) as a study tool. The first two uses are about gen
+Al’s ability to help teens complete assignments such as an essay or
+a research report, while the second two are about gen Al’s ability to
+support their understanding of concepts.
+
+A starting point. Participants described how they use gen AI to explore
+and brainstorm starting points for school projects. P02 (age 17, female)
+reflected in her DS1 journal that AI “gives humans some inspiration/a
+place to start by helping brainstorm”, while P04 (age 14, male) ex-
+plained during a group discussion in DS2 that “gen Al is so helpful for
+getting your project started or getting ideas. And it is just very easy to
+grab information.” In DS3 (focused on AI use in school), participants
+reflected on using AI to brainstorm when they felt “stuck, and need
+somewhere to start... mostly for writing” (P09, age 17, male), and that
+“ChatGPT is very useful creating ideas that help the mind going” (P11,
+age 16, female). In her DS1 reflection journal, P01 (age 17, female)
+explained that “[AI] can be used to inspire others, or to generate ideas.
+It is also very interesting [to use] and could save time, especially if
+
+===== PDF PAGE 7 =====
+
+R. Landesman et al.
+
+you have to make and show rough drafts”. In each of these instances,
+teens described using gen AI primarily as a starting point and more
+for supporting tasks such as brainstorming; ultimately, they retained
+cognitive control over the process and final product.
+
+However, participants did note that, although they had not done
+so themselves, they had heard about or know peers who have used
+gen Al in a manner that goes beyond brainstorming — sometimes to
+write whole assignments. P28 (age 14, female), for example, recalled
+in a small group discussion in DS4 that “At school, if you’re doing
+assignments, it is very hard to think [that] nobody is using AI for at
+least some sort of assistance with certain assignments. Whether it is
+literally copying your entire essay like from ChatGPT. Like word for
+word. I mean, some people do that”. In such cases, AI is being used
+for a central task (e.g., writing an entire essay word for word) rather
+than a supporting task (e.g., brainstorming ideas for an essay). There
+was general agreement among participants that such uses occurred
+regularly in their schools.
+
+Work enhancement. Teens described ways they use Al tools to boost the
+quality of their work, either by adding visual elements, changing their
+word selection, or supplementing their work with additional media
+components. In a conversation during DS3, P07 (age 17, female), for
+example, recalled using Al in school to make her “presentation look
+better, or add creativity [to it]”, while others reflected in their DS1
+journal that they would use AI tools if “perhaps if I was creating a
+video and I wanted some background music to accompany it” (P05,
+age 16, male). Participants did point to a line that should not be crossed
+between work enhancement, on the one hand, and letting AI take over
+a task, on the other.
+
+In DS3, P06 (age 14, male) explained that “there’s a difference
+between using [AI] with things like Grammarly, [which] has existed for
+a while, where it is just making your writing adhere to strict and set
+grammar rules. That’s different than using it to come up with ideas of
+how your paper can be improved more broadly”. Although participants
+agreed that such a line existed, there appeared to be ambiguity around
+where, exactly, to draw this line. For instance, in contrast to P06, some
+participants described using gen AI specifically as a feedback tool, using
+it to gauge their performance on an assignment before turning it in.
+In a discussion during DS4, P29 (age 14, female) explained that she
+often “put in the rubric and then also put in what [I] wrote for a
+project, and then ask ChatGPT to grade it, and see if [I would] get a
+good grade on that”. The discrepancy in viewpoints between P06 and
+P29 illustrates the challenge of determining which tasks in a particular
+focal activity should be considered supporting and which should be
+considered central.
+
+Seeking personalized explanations. Participants identified personaliza-
+tion as a major benefit of gen AI tools; specifically, when they asked
+tools such as ChatGPT to reiterate and explain school-related concepts
+they did not fully understand. In DS4, teens explained they appreciated
+the “tailored or personalized [explanations]” (P24, age 17, female) they
+received for complex topics or questions they had trouble wording. In
+the same session, P16 (age 15, female), for example, recalled using gen
+Al instead of asking for help in school:
+
+“From personal experience, my 7th grade science teacher was really
+bad, so I wouldn’t learn anything in this class, and I would end up
+ChatGPT-ing [to complete] all the study guides. And then I ended
+up doing good on the test just because of chatting [in] a different
+way, answering questions, it clicked with me.”
+
+In DS4, Teens reflected that they actively engaged with gen Al
+to clarify math problems and history concepts (P24, age 17 female),
+explain complex ideas in physics and economics in a “more digestible
+and less formal language” (P29, age 16, female), and “figure out how
+to (learn) a concept and ask your own variation of questions to figure
+it out your way” (P08, age 16, female). The personalization of AI tools
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+helped participants take control of their learning, since using AI tools
+could “help with like memory and retaining knowledge that you’ve
+learned. You can find specific ways to teach yourself concepts. So,
+for example, if what’s being taught to you in class isn’t really making
+sense to you, you can ask ChatGPT about it and explain what you need
+help with and what you want to focus on more. So it can also be like
+a personalized tutor for areas that you need help that maybe school
+isn’t giving you” (P28, age 14, female). Teens found these accessible,
+personalized explanations especially beneficial for topics they did not
+feel comfortable asking a teacher about, such as topics covered in
+previous courses.
+
+A study tool. Teens often used gen AI as a powerful and efficient study
+tool by creating additional study materials tailored to their specific
+needs. During the large group discussion in DS1, P26 (age 17, female)
+shared that her “Spanish teacher told us to use it to make practice
+tests” while P22 (age 15, female) explained that “many people use
+it as a study resource to make study guides from the content you’re
+learning in a class, and then also free grading or feedback on the
+work you’re doing for something, and also practice tests to help you
+study for something”. Others reflected in their DS5 journal that they
+turned to gen AI to “find common threads between my psych textbook
+notes and my psych podcast notes before seminars” (P16, age 17,
+male), or to “summarize lengthy documents or articles” (P13, age 15,
+female). In each of these instances, teens used gen Al’s processing
+power and synthesizing abilities to actively make their work processes
+more efficient and specific to their needs. In DS4, P08 (age 16, female),
+for example, explained the benefit of using gen AI to synthesize study
+materials since “the internet has so many pages. We cannot go through
+all the pages possible, but [AI] goes to all the pages possible for us, and
+summarizes them”.
+
+4.1.2. AI for fun
+
+Teens described two primary ways they (or other teens) used AI
+outside of school: (1) having fun with friends and (2) interpersonal con-
+nection. Whereas most teens shared personal examples of the former,
+they distanced themselves personally from the latter-describing instead
+how other teens use gen AI to form relationships.
+
+Fun with friends. Participants described using gen AI platforms to
+create content related to their personal lives. They spoke about creating
+humorous and entertaining content intended to be consumed with
+peers or individually. While collaboratively brainstorming in DS2, one
+participant recalled that she “wanted to make a poster for my friend
+for a soccer slogan... And I wanted to incorporate their name into it,
+so I just asked ChatGPT how to do it, what words rhyme... [it came
+out] really cute, actually” (P12, age 16, female). Others reflected in
+their DS1 research journals that they had used gen AI tools to “have
+fun with my friends, making jokes into images” (P01, age 17, female),
+or to use an AI website where “[you] feed it a story and will make like
+endless reels for you to post” (P10, age 17, female). In a small group
+discussion in DS4, P30 (age 16, female) described how she used gen AI
+to create content to use with her friends:
+
+“My friend and I wanted to figure out how to throw [a murder
+mystery dinner]. So we asked AI how to set it up. We had no idea
+where to start, or what websites to go through, and everything had
+a paywall. So we asked it for a detailed guide on how to figure out
+how to set that up, how to build a storyline for that, and work out
+some specific details. And it worked — it helped get [us] started.”
+
+These examples demonstrate a variety of ways that teens seek out AI
+tools to support their ideas for entertainment, especially in the context
+of their peer interactions.
+
+===== PDF PAGE 8 =====
+
+R. Landesman et al.
+
+Interpersonal connection. Participants also discussed using gen AI to
+form interpersonal connections. Tools such as Screen.Al, for example,
+are virtual chatbots that teens used (or recalled their friends using) to
+talk with characters of their choosing. P16 (age 15, female) explained
+this in a conversation with P03 (age 17, female) during DS4:
+
+P16: “If you go to Screen.Al, it gives you Als that are based off of
+characters. They like copy characters2019 mannerisms and texting
+styles, the way [the character] would speak. So [the conversation]
+would be very personalized to a very specific character.”
+
+P03: “Yah, my friend for example had this huge crush on Pedro
+Pascal, and she went to character Al, and she spent 3 h [talking
+to it] - seriously ”
+
+Although participants mentioned that their peers were using these
+AI chatbots to form relationships that could be entertaining and en-
+joyable, they also expressed reservations about doing so. In a separate
+interaction during DS4, P03 (age 17, female) explained that “Some
+people choose to treat it as companions and seek conversations with
+AI instead of humans”. When one of her peers challenged her to ask
+if that is necessarily a bad thing, P29 (age 16, female) reflected that
+“Tt [treating AI as a companion] can be [bad] because at the end, I
+guess Al is still mimicking human intelligence. You do not get all of the
+same benefits that you would from interacting with an actual human,
+because it is not in any sort of physical form, you miss out on things
+that you can do with another physical person.” P08 (age 16, female)
+added that this situation could be compared to having “an imaginary
+friend”. In contrast to the openness with which they described using
+gen AI to create and share content with friends, teens were notably
+conflicted about using AI chatbots to form relationships, with some
+teens expressing concern about the potential for chatbots to replace
+human connection.
+
+4.1.3. Seamless AI integration
+
+In the AI mapping exercise (session 5), we expanded the scope
+of AI beyond generative tools such as ChatGPT and Stable Diffusion
+to include tools that incorporate some form of AI capability, such as
+recommender systems and navigation tools. As participants reflected on
+their daily use of such Al-powered technologies in DS5, they quickly
+realized how many tasks in their daily lives included AI and how
+seamlessly—and invisibly-Al was integrated into them. For instance,
+teens gave several examples of tools they use without thinking as
+they go about their day, such as using a navigation app, checking the
+weather on their phone or with a voice assistant, or setting alarms
+using voice commands. More deliberate uses of Al-integrated tools and
+platforms included “searching different books related to the ones I like”
+(P29, age 16, female), or music services such as “Spotify which uses AI”
+(P22, age 15, female) which they use to play “music through my Alexa
+as I get ready for school each morning” (P03, age 16, female).
+
+None of these seamless integrations, however, were as top of mind
+for teens as Al’s integration into social media. Participants were acutely
+aware of Al’s presence in the algorithms that shape the social media
+platforms they use. P24 (age 17, female), for example, explained in a
+conversation in DS4 that “you can use (AI) on social media: Meta has an
+AI, Snapchat has an AI, there’s character AI, there’s a lot of different Als
+that are specific to certain social medias. A lot of social media uses AI
+just to generate content”. Teens expressed concern about the increase
+of AI generated content overshadowing human made content on their
+social media platforms, and reflected on the increasing difficulty of
+distinguishing between the two as AI blended into their social media
+experiences.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+4.2. RQ2: Concerns regarding AI usage
+
+As the teen participants reflected on their uses of AI inside and
+outside of school, they expressed several concerns about how AI tech-
+nologies are becoming integrated into their lives. Below, we describe
+the seven primary concerns they identified and how they responded to
+them. Through our analysis, we organized these concerns into three
+groupings that reflect increasing levels of existential concern, from
+concerns about the usefulness and quality of AI output (an instrumental
+concern), to Al’s impact on personal well-being (a personal concern),
+and, finally, Al’s threat to humanity (an existential concern).
+
+4.2.1. Concerns about the usefulness and quality of AI output
+
+AI can be inaccurate. Throughout our design sessions, teens frequently
+referred to the possibility that gen AI can sometimes provide false
+or misguided information. Participants shared several personal expe-
+riences where they had caught the AI tool presenting inaccurate infor-
+mation, and were surprised by its inaccuracy. P22 (age 15, female),
+for example, recalled during DS4: “So I speak French, so sometimes
+Yl translate it from English to French, and what we get is not correct,
+but it also doesn’t have a filter. So you have some interesting stuff
+sometimes”. In the same session, P21 (age 15, female) expressed the
+simultaneous benefits and dangers of using gen Al, quoting inaccuracy
+as her main concern:
+
+“Using things like ChatGPT can be really helpful. But you also need
+to keep in mind, you shouldn’t trust it with everything, because it
+is not always going to give you up to date information. And it is not
+really reliable all the time, and it is not always going to give you
+specific information. Like one time, I needed help on how to phrase
+a sentence, and it was about a really niche topic, but ChatGPT just
+like made up some information. So I had to tweak that, and like you
+can tell that it is very made up.”
+
+Ina small group reflection during DS2, P06 (age 14, male) described
+his preference for using traditional search engines over AI tools when
+searching for information, explaining that “a lot of the time, if I’m
+using ChatGPT for something, I have to go back to Google and fact-
+check what it generated for me, so that just wastes my time. I could
+just do the research on Google without using ChatGPT. I don’t really
+trust this credibility”. One method that teens described using to address
+the potential inaccuracies of Al-generated output was to refine their
+prompts with specific and detailed guidance. P05 (age 16, male), for
+example, reflected with the group in DS4 that “you need to give [AI]
+background information...you wanna tell it exactly like what you need
+from it. Just give it all the guidelines that you need to get a good
+response out of it. And it [might still] make a lot of mistakes”. The
+range of techniques teens used to combat the potential inaccuracy of
+AI tools often came down to weighing how much they would benefit
+from using a tool versus the time it took; if the benefit turned out to
+be relatively small, many teens chose not to use Al at all.
+
+AI reflects human bias. Teens were also concerned about the bias
+of the information produced by AI tools. During DS4, P03 (age 17,
+female) explained that gen AI often reflects human biases since “it
+pulls from...data, not just scientific stuff, but also everything people
+have said on the Internet. Yeah, both good and bad, it pulls from that”.
+Teens talked throughout the sessions about different examples of gen
+AI bias they had heard about or experienced themselves. For example,
+in a large group discussion in DS4, P21 (age 15, female) referenced a
+video she saw of an AI model being trained to parse out sentences based
+on court transcripts. She recalled that “[In the video], they started
+filtering [the transcript] with AI [to look for offenses], and depending
+on the keywords they would use, the AI would give out a sentence.
+But they realized, for African American people, and people with darker
+skin color.... They often got a higher sentence, because the models that
+the AI was learning from was our previous stuff, which were all like
+
+===== PDF PAGE 9 =====
+
+R. Landesman et al.
+
+bias”. This concern about AI tools reflecting human biases indicates
+teens’ understanding that LLMs are trained on biased data, as well as
+their desire to avoid contributing to the spread of this bias.
+
+Teens reflected on the need to use gen AI tools cautiously, and
+admitted they sometimes worried about the reliability of information
+they receive given the limited and biased training data they know these
+tools use. In the same session (DS4), P16 (age 17, male) explained that
+“That’s why AI has a lot of bias, because it uses what we’ve done in the
+past and all that stuff, and it doesn’t really have a filter on like, Oh, my,
+gosh What we thought about like when the earth was flat, that’s not
+what we think anymore. Like stuff like that it doesn’t know what’s right
+and what’s wrong, I guess. So that’s where you can get the bias stuff”.
+This concern for bias made teens more distrustful towards gen AI tools,
+and was often the reason participants quoted for not relying exclusively
+on AI for important information or important decision making.
+
+4.2.2. Al’s impact on personal well-being
+
+Al uses you. Participants spoke with apprehension about the ways gen
+AI tools and platforms used them, most commonly for data extraction
+and without their explicit consent. In DS3, for example, teens shared
+advice they had received to not “put in your personal information...be-
+cause if you’re going to use it for your personal information, it can
+store stuff, right? So like, think of your own privacy. Once you put it
+out there, it is going to be out there forever” (P03, age 17, female). This
+concern of being used as a source of personal data resonated beyond
+the need for privacy: participants expressed concern about their data
+being used to characterize them in a specific manner, thereby shaping
+their online experiences in undesirable ways. As P22 (age 14, female)
+explained in DS4:
+
+“The literal chatbot, sometimes it might just, take the informa-
+tion that you’re putting into it. Like I use it for like to study
+for an AP World [exam] - So it might sell that information to
+Amazon....and then Amazon is going to start recommending me AP
+World textbooks.”
+
+This overarching sense of gen AI tools using you was present in
+many participants’ conversations (DS1, DS3, DS5), such as when they
+talked about tools that take creative outputs without the creators’
+consent (P03, age 17, female; P10, age 17, female); tools that are used
+to create deepfake materials that might be harmful to others (P08, age
+16, female; P04, age 14, male); and even instances when AI is used
+to simulate interpersonal connection, leading the human to experience
+a feeling of genuine connection while the AI uses the interaction
+to extract data from the user. P11 (age 16, female) explained this
+phenomenon to the group in DS4 as part of a conversation she was
+having with a friend, who admitted they had developed a small crush
+on the AI agent they had been messaging:
+
+“Tt is also the type of thing - I mean, I guess humans also technically
+do this. But in talking to [an Al agent], you kind of have to be aware
+that anything you say to it, any conversations you have with it, it
+is purely using that to learn more. It is not actually using that for
+any sort of connection... like a one way situation.”
+
+These quotes illustrate teens’ understanding of their personal role in
+producing data to help strengthen and refine LLMs, including the
+privacy implications of this role.
+
+AI takes jobs. Another potential harm that teens identified was the
+threat of AI taking future jobs they desired themselves, or making them
+obsolete. In her DS1 research journal, P03 (age 17, female) recalled
+that “Lots of artists on Instagram are complaining about AI taking their
+work”, and reflected on how Al’s rapid adoption by the workforce has
+caused her to reconsider her own potential career trajectory:
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Fig. 2. Participants’ representation of a brain before and after using AI.
+
+“Like, graphic design, I used to really want to go into the field, but
+then I talked to people, and they were like, well, the field may be
+kind of dying off, or at least branches of it are, because of AI. I mean,
+obviously a lot of people have Canva, but also an Al [tool].”
+
+Similarly, PO7 (age 17, female) observed in a group discussion dur-
+ing DS2 that some career paths may be more affected than others, using
+the contrast between her father’s career path and her own potential
+trajectory as an example:
+
+“When I was younger, I really wanted to be an artist. It’s my dad’s
+career, and I know other artists. But I don’t like the way [my own
+art online] is being used, and the way that AI is being used to
+take over creative fields rather than other fields that maybe are less
+[dependent on] humans — it’s weird to me.”
+
+For these teens, AI threatens to shrink their employment opportunities
+and cut them off from careers to which they aspire.
+
+4.2.3. Al efficiency at the expense of humanity
+
+AI hurts learning. Teens expressed concern that using AI tools could
+hurt their learning by making the task at hand too easy, eliminating the
+effort they thought of as a critical component of the learning process.
+In a DS1 discussion, P08 (age 16, female) explained that using AI in
+school “takes the whole point of school away. You’re supposed to be
+doing schoolwork to learn something, get something out of it. And if
+you're doing different work [using AI], you’re not getting what you’re
+supposed to be getting out of it”. Teens consistently expressed (in DS2,
+DS3, and DS4) that using AI will eventually make you “intellectually
+lazy” (P03, age 17, female), and that using it may “limit, slash, prevent
+more thinking or planning” (P20, age 17, female). In the main activity
+during DS4, one group showed a picture of a brain they had drawn on
+the whiteboard; the brain had an arrow coming out of it, pointing to
+a smaller version of the same brain (see Fig. 2). P22 (age 15, female)
+explained that “here we see this lovely picture of your brain before Al
+and your brain after AI, because you’re not thinking”.
+
+Oftentimes, statements like the ones above turned the conversation
+towards discussing the goal of education more broadly, and why some
+participants felt AI tools could hurt that goal. P03 (age 17, female), for
+example, explained that “Analysis and opinions should always be your
+own because we must learn how to think for ourselves; isn’t that the
+point of education? When AI generates ideas or brainstorms things for
+you, that kind of defeats the purpose of that”. This reflective process
+and the underlying concern it conveys about Al’s potential to hurt
+learning indicates teens’ complex ideas about the nature of learning
+and the way AI tools may undermine it.
+
+AI creates dependency. Similar to the concern of AI endangering learn-
+ing, teens expressed concern about becoming dependent on Al as they
+use it for everyday tasks. In her DS3 reflection journal when asked what
+advice they would give others before deciding to use an AI tool, P07
+(age 17, female) offered: “Don’t completely rely on AI to give you ideas
+or completed work because you won’t always have access to them when.
+you need it”. Others, like P03 (age 17, female), explained in DS3 that
+
+===== PDF PAGE 10 =====
+
+R. Landesman et al.
+
+they feel like “the more you use [AI], the fewer of your own ideas
+[you have]. At least for me. Like if I use it for a long time, then I
+start lacking my own ideas, and I start relying on it more. I try not
+to”. Other participants focused on the idea of humans becoming lazy if
+they start to rely increasingly on Al, since “at some point you just keep
+using [AI] to [do] things that for you... Then you won’t need to like,
+think yourself. And then it is kind of lazy” (P08, age 16, female). Teens
+described this slippery slope of using AI tools to make tasks easier in
+terms of a tempting path that may ultimately make them “lazier” (P05,
+age 16; male) and “less capable” (P16, age 17, male).
+
+AI undermines authenticity. One of the greatest concerns our partici-
+pants expressed when using gen AI tools was the potential to undermine
+authenticity, both in their experience of personal authenticity and in
+the way their authenticity is perceived by others. When talking about
+using gen AI tools in their schoolwork during DS3, for instance, partici-
+pants agreed that “using AI to do your schoolwork is, like, bullying the
+kid into doing it for you” (P06, age 14, male), which “can ultimately
+harm original and credible work” (P13, age 15, female). By asking AI to
+do something it was either not meant to do or by taking advantage of its
+capabilities, teens felt that a shadow was cast over their own credibility
+and authenticity. POS (age 16, male) explained how this blurring of
+what is authentic and is not often drives his peers to avoid using Al all
+together:
+
+“T feel like people are just scared to use it in school. Like they’re
+scared of getting caught. That was definitely my case. I did not use
+it until... ’m not a Luddite, but I was not (going to use AI). Because
+I felt like if I used it, it would not be my own work. It would be
+disingenuous.”
+
+Using gen AI in school specifically brought up the topic of au-
+thenticity and its importance in the context of academic integrity,
+as participants engaged in conversations about the term’s amended
+and changing definition in contemporary times. During a large group
+conversation in DS1, P08 (age 16, female) explained that using gen AI
+tools for a school assignment may not only undermine her own sense
+of authenticity in the work she has done, but also others’ perceptions
+of the work itself:
+
+“[Using AI] also kind of taints the image for the rest of the thing.
+Like, even if, like, you had an assignment and 90% of it you did
+yourself, there’s just, like, 10% you did with Al, and they’re, like,
+oh, my gosh. Like, 10% of it was AI. Oh, wait. And that destroys the
+credibility for the rest of the assignment. I mean, I assume at least
+somewhat. Like, in the background, there’s, like... Is that you?”
+
+These reflections illustrate that teens are not simply trying to avoid
+getting caught cheating if they use gen AI tools; they are concerned
+about the potential for AI to undermine their sense of authenticity.
+
+5. Discussion
+
+As the HCI community works to build tools and frameworks to
+support young people’s ethical and responsible AI use, we see a need
+to develop a more robust understanding of youth’s everyday uses and
+concerns about AI. The current study addressed this need by engaging
+a group of 29 teens in a series of five co-design sessions that explored
+the variety of ways that AI permeates and shapes their daily lives.
+Unlike methods such as interviews and surveys, co-design allows for
+teens’ nuanced explorations of complex topics (Heiervang & Goodman,
+2011; Yip et al., 2023), as well as utilizes the strength of design-
+based research methodologies to surface participants’ tacit and intuitive
+knowledge about their AI use (Obrenovi¢, 2011). Situating these ses-
+sions in an established group of teens and adult facilitators engaging in
+a long-term design partnership provided a supportive context for teens
+to engage in deep reflection and express layered viewpoints. As a result,
+
+10
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+we were able to generate a rich corpus of data with which to examine
+how teens used and viewed AI in their lives at the time of the study. The
+insights derived from this analysis, which we discuss in the following
+sections, will contribute to researchers’ and educators’ efforts to help
+teens become responsible and critically minded users of Al.
+
+5.1. A model for understanding teens’ AI usage
+
+Our analysis of participants’ design session discussions surfaced
+a variety of ways they use AI inside and outside of school, from
+creating study materials to generating jokes and images to share with
+friends (see 4.1). Teens identified uses that played a supporting role
+in relation to their focal activity and others that were more central
+to the activity. Participants also described differing levels of cognitive
+effort they applied while using AI tools. Therefore, in this section, we
+consider teens’ AI uses along two dimensions that describe the centrality
+of the task for which teens use AI and the level of cognitive effort they
+exert while engaging in the task. We present this model of teens’ Al
+usage (shown in Fig. 3) for researchers and educators to help identify
+specific areas where teens may need support to maintain their sense
+of agency while interacting with AI. We define agency in relation to
+self-determination theory (Ryan & Deci, 2000), which emphasizes an
+individual’s capacity to act intentionally and autonomously. In the
+context of our findings, exerting cognitive effort while using AI tools
+would be considered evidence of agency, while cognitive offloading
+would signal a lack of agency.
+
+Our model reflects the possibility-which we observed in our analysis—
+that a particular use of gen AI may not be experienced in the same
+way by all teens and across all contexts. Whether a teen uses AI to
+offload or engage their cognitive effort, or whether they are using
+Al for a central or supporting task depends in part on the individual
+teen and the context in which they are using the Al tool. In the case
+of using AI as a starting point (see 4.1.1), for example, some teens
+described feeling empowered when they used AI to stimulate their
+creative thought processes at the beginning of an assignment. They
+explained that using AI tools to brainstorm ideas helped them to get
+started, but ultimately, they valued the ability to direct the process
+and produce the final product themselves (an example of cognitive
+engagement). Other teens, however, described using AI to brainstorm
+quite differently, stating that turning to AI for help with idea generation
+was a lazy and passive thing to do-evidence of a lack of cognitive
+effort (i.e., cognitive offloading). These differing viewpoints illustrate
+that teens can experience varying levels of agency even when engaging
+in the same AI task, depending on how they interpret the context and
+purpose of their AI use. When teens engage in cognitive offloading,
+their sense of agency is diminished because they are no longer acting
+intentionally or autonomously. Characterizing AI use as more or less
+supportive of teens’ agency, therefore, is dependent on the way a teen
+approaches and experiences the Al-supported task.
+
+The distinction between central and supporting tasks is similarly
+malleable and context-specific. It was evident from our analysis that
+teens considered the centrality of an Al-assisted task when judging
+whether or not it was acceptable to use AI. In the context of school,
+teens agreed that AI should not be used for central tasks such as
+completing a school assignment. However, tasks that support the as-
+signment, such as creating study materials or providing brainstorming
+assistance, were generally (though not unanimously) viewed as more
+benign. In the context of using AI for fun, teens similarly distinguished
+between central and supporting tasks, but their judgments of accept-
+ability were somewhat different. For instance, teens described using
+AI to create entertaining content to share with their friends online. As
+prior work has documented, sharing memes and other cultural artifacts
+with friends is a central activity in teens’ social media use (Landesman
+et al., 2024b). As long as AI was not employed maliciously or surrepti-
+tiously, teens found it acceptable to use for the purpose of augmenting
+
+===== PDF PAGE 11 =====
+
+R. Landesman et al.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Central Task
+
+Teens engage in cognitive
+offloading on a central task
+(e.g., using ChatGPT to write an
+entire essay)
+
+Teens display cognitive
+engagement on a central task
+(e.g., brainstorming ideas for an
+essay, creating memes)
+
+Cognitive
+Offloading
+
+Teens engage in cognitive
+offloading on a supporting task
+(e.g., consuming Al-generated
+content such as music playlists,
+memes)
+
+Cognitive
+Engagement
+
+Teens display cognitive
+engagement on a supporting
+task (e.g., help explain a
+concept in order to complete
+larger assignment)
+
+Supporting Task
+
+Fig. 3. Axis mapping teens’ AI uses on two axes: uses of AI where teens are experiencing cognitive engagement versus uses of AI where teens are experiencing
+cognitive offload on central versus supporting tasks. Each quadrant contains an example of a use a teen may consider to be in that space.
+
+their fun with friends. Teens also described more supporting orienta-
+tions towards their Al-enabled fun, such as listening to Al-generated
+playlists as background music.
+
+We see opportunities for this model to extend existing AI literacy
+frameworks (e.g., Chiu et al. (2021), Druga et al. (2021), Long and
+Magerko (2020), Ng et al. (2021, 2024), Touretzky (2019), Veldhuis
+et al. (2024), Waite et al. (2023)) by adding depth and specificity to the
+concept of youth’s responsible AI use. The two dimensions highlighted
+in our model-cognitive effort and task centrality-underscore both the
+individual and the contextual nature of young people’s Al use. Calling
+attention to each of these dimensions and the ways they interact could
+help youth develop a more nuanced understanding of when and why
+they should or should not use AI. For instance, critical Al literacy
+frameworks that encourage youth to question how AI is integrated into
+their lives (e.g., DiPaola et al. (2020)) could use the central-supporting
+distinction as an entrypoint into discussions with youth about their
+daily AI use and its impact on their sense of agency. This may also
+be important given prior work highlighting how difficult it is for many
+adolescents to experience agency on networked platforms due in part
+to their distinct developmental vulnerabilities (Davis et al., 2023), as
+well as contemporary work being done to give young people agency
+in AI contexts (Tench, 2025). The AI literacy framework developed
+by Long and Magerko (Long & Magerko, 2020) similarly could draw
+on our model to help youth think deeply about the framework’s core
+ethical question “How should AI be used?” by encouraging youth to
+reflect on how various uses of AI situate them along the model’s two
+axes. If a student, for example, notices they mostly use AI to offload
+cognitive effort for central tasks, they could then move on to consider
+whether this state of affairs aligns with their value system and beliefs.
+If it does not, that could signal a worthy point of intervention for
+educators and designers to support AI usage that aligns with youth’s
+values. In this way, our model complements and extends existing AI
+literacy frameworks in their efforts to move beyond a dichotomous
+“good vs. bad” view of AI use to a more flexible, contextual way of
+thinking about youth’s everyday ethical decision making.
+
+Our model has value for a variety of stakeholders concerned with
+supporting youth’s responsible AI use. For instance, HCI researchers
+can use the model’s axes to understand youth’s experiences with gen
+AI and to identify design mechanisms that are likely to engage (rather
+than offload) cognitive effort while using AI. Educators and curriculum
+
+1
+
+designers can use the model to scaffold student reflections on their daily
+use of AI and to plan and prioritize discussions about AI that foreground
+promoting cognitive effort in the context of central tasks.
+
+5.2. Categorizing teens’ AI concerns
+
+Our analysis of teens’ concerns about AI aligns with prior work
+exploring youth perceptions of gen AI technologies (Green et al., 2024).
+Similar to this work, the teens in our study expressed concerns about
+intellectual property theft, privacy, and misinformation (Green et al.,
+2024). However, they also identified concerns that have received less
+attention in the literature, such as the fear of AI undermining authentic-
+ity and creating dependency. Through our analysis, we identified three
+primary groupings of concerns that vary in their weight of ethical and
+existential implications (shown in Fig. 4). The first grouping captures
+youth’s reflections about the usefulness and quality of output from AI
+tools, which we describe as an instrumental concern. The second group-
+ing addresses Al’s threat to personal well-being (a personal concern),
+while the third grouping addresses concerns about the fate of humanity
+more broadly (an existential concern). Each grouping represents an
+important focus of concern; collectively, they follow a progression from
+instrumental concerns to personal concerns, and, finally, existential
+concerns about what it means to be human in an Al-infused world.
+Below, we describe each grouping of concerns, followed by a reflection
+on how the model can be used to scaffold discussions with youth about
+the ethical complexities of living and interacting with AI technologies.
+
+5.2.1. Instrumental concerns: Usefulness/quality of AI output
+
+The first grouping of concerns addresses the usefulness or quality
+of AI output, and includes participants’ concerns about AI tools being
+inaccurate, and AI tools reflecting human bias. At this level, par-
+ticipants reflected on how well AI tools were performing, and talked
+about the drawbacks of using a tool that may not always be accurate
+or neutral with respect to its viewpoint.
+
+5.2.2. Personal concerns: Al’s impact on personal well-being
+
+The next grouping of concerns focuses on Al’s impact on personal
+well being, and includes worries about AI using you and AI taking
+jobs. In this grouping, teens worried about AI tools making them
+intellectually lazy and potentially overusing AI to the point that it
+
+===== PDF PAGE 12 =====
+
+R. Landesman et al.
+
+{
+
+Instrumental
+Concerns:
+Usefulness/
+quality of Al
+output
+
+Al reflects human tin
+Al can be inaccurate
+
+{
+
+Al undermines authenticity
+Al creates dependency
+Al hurts learning
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+j
+
+Existential
+Concerns:
+Al efficiency at
+the expense of
+humanity
+
+Personal
+Concerns:
+Al's impact on
+personal
+well-being
+
+Al takes jobs
+Al uses you
+
+Unieae }
+
+Fig. 4. Participants surfaced concerns about using AI in three groupings of concerns.
+
+hinders their creativity. These concerns had less to do with how well
+the AI tool was performing, as in Grouping 1 concerns, and more about
+the short- and long-term effects of AI on teens’ sense of personal agency,
+intellectual capacity, and even future career paths.
+
+5.2.3. Existential concerns: AI efficiency at the expense of humanity
+
+In the third grouping, teens expressed concerns about AI undermin
+ing authenticity, AI creating dependency, and AI hurting learning
+- all of which point to apprehensions about the tensions between AI
+efficiency at the expense of humanity. For participants, maintaining
+authenticity in their work meant not succumbing to the lure of AI
+efficiency. They emphasized the importance of putting in their own
+effort in order to maintain a claim to authentic ownership of the
+resulting work product. The concerns that teens expressed about au-
+thenticity, dependency, and undermining the learning process illustrate
+their readiness to engage in conversations about the state of humanity
+in a world permeated by gen AI technologies.
+
+Collectively, these concerns demonstrate that teens are prepared
+and eager to move beyond discussions of AI and cheating-which has
+been a dominant focus in public and policy discussions about young
+people and AI (Callie Holtermann, 2025; Hicks, 2025; Lee et al.,
+2024; Tamez-Robledo, 2025)-and engage in a wide range of ethical
+considerations about their use of Al. We propose that our model of
+teens’ AI concerns can be used to scaffold these discussions, helping
+youth to think deeply and systematically about the ethical complexities
+of living and interacting with AI technologies. Whereas the model
+of teens’ AI usage presented in 5.1 focused on teens’ individual AI
+uses and personal sense of agency, the categorization of concerns in
+4 takes a more expansive view, connecting teens’ AI interactions to
+broader societal trends and implications. We envision the two models
+being used together in complementary ways: the first to facilitate teens’
+reflections on the personal implications of their AI use with respect
+to their sense of agency, and the second to help them broaden their
+view and make connections between personal and societal concerns.
+This shift in perspective is particularly important to support in teens,
+as prior work has shown that they sometimes struggle to engage with
+ethical issues beyond the personal sphere (Flores & James, 2013).
+
+Like the model of teens’ AI usage 3, the categorization of con-
+cerns can also be used to complement and extend existing AI literacy
+frameworks. For instance, with respect to Long and Magerko’s (Long
+
+12
+
+& Magerko, 2020) Al literacy framework, instrumental, personal, and
+existential concerns can serve as a lens through which educators help
+their students develop specific Al competencies, such as recognizing
+Al’s strengths and weaknesses and thinking in a systematic way about
+the ethics of AI. And, because these concerns are grounded in youth’s
+perspectives, AI literacy education efforts can more precisely draw on
+teens’ contemporary thoughts and apprehensions about Al, as well as
+what teens may not be taking into consideration as they use AI tools.
+Such an approach is more likely to resonate with teens, as it presents
+authentic entry points to support them in thinking about the everyday
+ethical complexities they experience with gen AI technologies.
+
+Moreover, although many of the concerns represented in the model
+are not unique to teens (Al’s inaccuracy, for example, is a commonly
+cited concern among adults, as well), they take on particular signifi-
+cance when considered from a developmental perspective. For instance,
+teens’ concerns about AI creating dependency is grounded in their
+focus on self-definition during a period of identity development (Davis,
+2023). While a person at any age could be concerned about increasing
+dependency on AI, this concern assumes added importance for teens
+who are newly exploring their own sense of identity and perhaps taking
+steps to establish independence from their family members. Educators
+can therefore make use of this model to scaffold developmentally
+appropriate and resonant conversations with teens.
+
+5.3. Limitations and future work
+
+Our study had some limitations, given our sample of participants
+and methodology choices. The teens in our study were all from sim-
+ilar geographic areas, and were not recruited for their geographic,
+economic, or racial and ethnic diversity. The AI uses and concerns ex-
+pressed by teens in this study are only a temporal snapshot of what our
+participants were thinking at the time of data collection, and may be
+partially attributed to the way we structured our co-design sessions as
+well as participants’ ongoing participation in a Youth Advisory Board.
+Members of the YAB usually seek such opportunities because they
+are interested in research and/or adolescents’ relationship with digital
+technologies; therefore, the views presented in this paper may not be
+generalizable to other teens with different experiences, passions, or life
+experiences. Moreover, we acknowledge that the state and capabilities
+of AI tools is constantly changing, and the ones we mention in this study
+
+===== PDF PAGE 13 =====
+
+R. Landesman et al.
+
+might be outdated by the time other researchers see these results. Since
+our participants’ perceptions are tied to the AI tools commonly used at
+the time of data collection in 2024, we encourage future work to re-
+evaluate these notions alongside changing tools and contexts. However,
+we emphasize the importance of our main line of inquiry, as it is
+continuously important to uncover teens’ everyday uses and concerns
+about Al in its future forms as well.
+
+Future work can dive deeper into some of the topics we briefly men-
+tioned in our work but did not discuss in depth with our participants.
+Youth’s perceptions about academic integrity, for example, may need
+to be revised in light of AI tools, and may intersect with teen’s concerns
+around authenticity, Al’s potential inaccuracy, and the embedded bias
+in AI tools. Future work may also choose to take a more nuanced look at
+the ethical perceptions behind the concerns teens surfaced in this work,
+in order to further explore teens’ critical capabilities as they interact
+with emerging technologies.
+
+6. Conclusion
+
+This study investigated how teens use gen AI tools inside and
+outside of school and the primary concerns they expressed about their
+AI use. We categorized teens’ AI use along two dimensions: (1) whether
+the task for which they are using AI is supportive or central to their
+focal activity, and (2) the level of cognitive effort they exert while using
+AI. We further classified the concerns teens expressed into categories
+ranging from (1) the usefulness/quality of AI output (an instrumental
+concern) and (2) Al’s impact on personal well-being (a personal con-
+cern), to (3) how Al’s efficiency threatens our humanity (an existential
+concern). This work contributes new empirical evidence documenting
+how teens are currently using and reasoning about AI technologies in
+their daily lives, with a particular focus on teens’ reasoning about the
+everyday ethics of gen Al. Our mapping of teens’ AI uses provides new
+insight into the circumstances under which teens’ AI use supports or
+undermines their personal agency, which can be used together with
+the categorization of concerns expressed by teens to offer guidance
+for designing AI tools and educational curricula to support teens’
+responsible and ethical AI use.
+
+Selection and participation of children
+
+We obtained all appropriate parental consent and teen assents, and
+all research conducted was approved by our university’s Institutional
+Review Board for ethics and safety. Participants were recruited through
+word of mouth and snowball sampling. Prior to their participation in
+the Youth Advisory Board, participants received a list of topics we
+would be discussing, as well as an explanation as to what type of
+research we would be doing with the insights from the design work-
+shops we held. In addition, we made sure to remind all participants
+at the beginning of each session the voluntary nature of participation,
+the session length, the ability to end participation at any point and in
+any session, and the procedures in place to assure the confidentiality
+of their participation. We shared the information about the study and
+the consent form itself with participants via email, and they indicated
+their assent by clicking on a button indicating they understood the
+nature of the study and agreed to participate in it. In addition, there
+were at least two researchers certified to work with youth by the
+University present in all interactions with youth. During our virtual
+design sessions, participants were not required to turn on their cameras;
+for some, we only recorded their voices. The university IRB required
+both parental consent and teen assent for participation in this study,
+both of which were obtained in digital form prior to beginning the
+study.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+CRediT authorship contribution statement
+
+Rotem Landesman: Writing - review & editing, Writing — original
+draft, Project administration, Methodology, Formal analysis, Data cu-
+ration, Conceptualization. Larissa Schwartz: Writing - review & edit-
+ing, Formal analysis, Data curation, Conceptualization. Katie Davis:
+Writing - review & editing, Writing — original draft, Project administra-
+tion, Methodology, Investigation, Funding acquisition, Formal analysis,
+Conceptualization.
+
+Declaration of competing interest
+
+The authors declare the following financial interests/personal rela-
+tionships which may be considered as potential competing interests:
+Katie Davis, Larissa Schwartz reports financial support was provided by
+Spencer Foundation. If there are other authors, they declare that they
+have no known competing financial interests or personal relationships
+that could have appeared to influence the work reported in this paper.
+
+Appendix A
+
+A.1. Teen participants research journals
+
+At each design session, participants filled out research journals
+which had set prompts to reflect on the session’s activities:
+
+A.1.1. Design session 1: Experimenting with AI tools
+After each of the stations experimenting with AI tools (see 3.3.1),
+participants answered the following:
+
+1. Where is the AI component in the tool you just used?
+
+2. How can this tool be used for good? How can it be used poorly?
+
+3. Do you think this type of application can show up in your
+everyday life? Where would/could you find it?
+
+A.1.2. Design session 2: AI case studies
+After discussing the case study within their small groups (see 3.3.2
+participants answered the following:
+
+1. What’s the reasoning behind your group’s decision?
+2. What’s the reasoning behind the other group’s argument?
+3. What’s your personal opinion about the case study we discussed?
+
+After examining the second case study (see 3.3.2), participants
+answered these additional questions:
+
+1. Now knowing about this case, does that change your opinion
+about conclusions from the first activity? If so, how did they
+change?
+
+2. Should you be able to sell your generated poem/picture/music
+for profit?
+
+A.1.3. Design session 3: AI case studies
+
+After collaboratively creating guidelines for using AI in school and
+examining existing local guidelines on the same matter (see 3.3.3,
+participants answered the following:
+
+1. What do you think is the most important guideline from the
+policy we created? Why?
+
+2. Acknowledging the changing nature of AI, what do you think
+are the most important guidelines/policies we read today that
+can ensure we use these technologies thoughtfully in the future?
+
+In addition, participants received these same three questions at end
+of every research journal throughout the three design sessions:
+
+1. What is something you learned today?
+
+2. What is something you’d like to learn more about?
+
+3. Is there anything you’d like to dive deeper into in our next
+sessions?
+
+13
+
+===== PDF PAGE 14 =====
+
+R. Landesman et al.
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Ali, S., DiPaola, D., Lee, 1., Sindato, V., Kim, G., Blumofe, R., & Breazeal, C. (2021).
+Children as creators, thinkers and citizens in an ai-driven future. Computers and
+Education: Artificial Intelligence, 2, Article 100040.
+
+American Psychological Association (2025). Health advisory: artificial intelligence and
+adolescent well-being. In Tech. rep. American Psychological Association, avail-
+able at: https://www.apa.org/topics/artificial-intelligence-machine-learning/health-
+advisory-ai-adolescent-well-being.
+
+Antle, A. N., & Hourcade, J. P. (2022). Research in child-computer interaction: Provo-
+cations and envisioning future directions. International Journal of Child-Computer
+Interaction, 32, Article 100374.
+
+Antle, A. N., Murai, Y., Kitson, A., Candau, Y., & Z.M.-T. Dao-Kroeker, A. Adibi (2022).
+There are a lot of moral issues with biowearables... teaching design ethics through
+a critical making biowearable workshop. In Proceedings of the 21st annual ACM
+interaction design and children conference (pp. 327-340).
+
+ATLAS. ti (Accessed: 2024-1-15), URL https://atlasti.com/.
+
+Bilstrup, K.-E. K., Kaspersen, M. H., & Petersen, M. G. (2020). Staging reflections
+on ethical dilemmas in machine learning: A card-based design workshop for
+high school students. In Proceedings of the 2020 ACM designing interactive systems
+conference (pp. 1211-1222).
+
+Birks, M., Chapman, Y., & Francis, K. (2008). Memoing in qualitative research: Probing
+data and processes. Journal of Research in Nursing, 13(1), 68-75.
+
+& Choudhury, S. (2006). Development of the adolescent brain:
+implications for executive function and social cognition. Journal of Child Psychology
+and Psychiatry, 47(3-4), 296-312.
+
+Boyatzis, R. E. (1998). Transforming qualitative information: Thematic analysis and code
+development. Sage.
+
+Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. Qualitative
+Research in Psychology, 3(2), 77-101.
+
+Braun, V., & Clarke, V. (2021). One size fits all? what counts as quality practice in
+(reflexive) thematic analysis? Qualitative Research in Psychology, 18(3), 328-352.
+
+Burgsteiner, H., Kandlhofer, M., & Steinbauer, G. (2016). Proceedings of the AAAI
+conference on artificial intelligence, Vol. 30, Irobot: Teaching the basics of artificial
+
+lligence in high schools.
+
+Table B.3
+Final codebook for thematic analysis.
+Theme Code Description
+A starting point Using AI to get started on tasks by
+brainstorming ideas or testing
+outcomes. It helps explore the
+unknown and ask specific, relevant
+AI Uses questions.
+Work Using AI to enhance work by adding
+enhancement visuals, changing word choices, or
+supplementing with media.
+Seeking ‘Asking AI to explain or reiterate
+personalized concepts not fully grasped.
+explanation
+Study tool Using AI as a tool for studying in
+diverse ways.
+Fun with friends Making humorous Al-generated
+content for fun, not for school.
+Interpersonal Replacing or supplementing human Blakemore, $.-J.,
+connection interaction with Al.
+Seamless AI Using AI that is invisibly embedded
+integration in everyday tools.
+Al can be AI may generate incorrect or
+inaccurate misleading answers.
+Concerns Al reflects ‘AI reproduces societal biases in its
+‘About Al human bias output.
+AL uses you Al extracts personal data without
+giving proportional value in return.
+Al takes jobs Al is replacing jobs teens aspire to
+
+have.
+
+Instant answers from AI can hinder
+meaningful learning.
+
+AI hurts learning
+
+AI creates
+dependency
+
+Overreliance on AI may reduce
+creative independence.
+
+AI undermines
+authenticity
+
+‘AI blurs the boundary between’
+human and machine-generated work.
+
+A.1.4. Design session 5: Mapping AI uses
+
+After mapping out where they encounter AI in their day-to-day lives
+and categorizes those interactions, participants received three questions
+to reflect with in their research journals:
+
+1. What is something you learned today?
+
+2. What is something you'd like to learn more about?
+
+3. Is there anything you’d like to dive deeper into in our next
+sessions?
+
+Appendix B
+
+B.1. Final codebook
+
+See Table B.3.
+
+Data availability
+
+The data that has been used is confidential.
+
+References
+
+Aitken, M., & Briggs, M. (2022). Engaging children with ai ethics. In Proceedings of the
+raspberry pi foundation research seminars, Vol. 13.
+
+Alexandre, F., Becker, J., Comte, M-H., Lagarrigue, A., Liblau, R., Romero, M., &
+Viéville, T. (2021). Why, what and how to help each citizen to understand artificial
+intelligence? KI-Kiinstliche Intelligenz, 35(2), 191-199.
+
+14
+
+Callie Holtermann (2025). A new headache for honest students: proving they didn’t
+use a. i. URL https://www.nytimes.com/2025/05/17/style/ai-chatgpt-turnitin-
+students-cheating-html.
+
+Casal-Otero, L., Catala, A., C. Ferndndez-Morante, M. Taboada, Cebreiro, B., & Barro, S.
+(2023). Ai literacy in k-12: a systematic literature review. International Journal of
+STEM Education, 10(1), 29.
+
+Chiu, T. K., Meng, H., Chai, C.-S., King, I, Wong, S., & Yam, Y. (2021). Creation and
+evaluation of a pretertiary artificial intelligence (ai) curriculum. [EEE Transactions
+on Education, 65(1), 30-39.
+
+Common Sense Media (2023). Common sense ai polling memo. (accessed on january
+26, 2025). URL https://www.commonsensemedia.org/sites/default/files/featured-
+content/files/common-sense-ai-polling-memo-may-10-2023-final. pdf.
+
+Dai, Y., Lin, Z., Liu, A., Dai, D., & Wang, W. (2024). Effect of an analogy-based approach
+of artificial intelligence pedagogy in upper primary schools. Journal of Educational
+Computing Research, 61(8), 159-186.
+
+Daly, A. (2022). Everyday ai ethics: from the global to local through facial recognition.
+In Economies of virtue: the circulation of ‘ethics’ in AI (pp. 83-103). Institute of
+Network Cultures.
+
+Davis, K. (2023). Technology's child: digital media’s role in the ages and stages of growing
+up. MIT Press.
+
+Davis, K., Slovak, P., Landesman, R., Pitt, C., Ghajar, A., Schleider, J. L., Kawas, S.,
+& A.G. Perez Portillo, N. S. Kuhn (2023). Supporting teens’ intentional social
+media use through interaction design: An exploratory proof-of-concept study. In
+Proceedings of the 22nd annual ACM interaction design and children conference (pp.
+322-334).
+
+DiPaola, D., Payne, B. H., & Breazeal, C. (2020). Decoding design agendas: an ethical
+design activity for middle school students. In Proceedings of the interaction design
+and children conference (pp. 1-10).
+
+Druga, S., Yip, J., Preston, M., & Dillon, D. (2021). The 4as: Ask, adapt, author,
+analyze-ai literacy framework for families. In Algorithmic rights and protections for
+children.
+
+Druin, A. (1999). Cooperative inquiry: developing new technologies for children with
+children. In Proceedings of the SIGCHI conference on human factors in computing
+systems (pp. 592-599).
+
+Dwivedi, U., S. Elsayed-Ali, E. Bonsignore, & Kacorri, H. (2024). Exploring ai
+problem formulation with children via teachable machines. In Proceedings of the
+CHI conference on human factors in computing systems (pp. 1-18).
+
+Elsen-Rooney, M. (2023). Nyc education department blocks chatgpt on school de-
+vices, networks, chalkbeat. URL https://ny.chalkbeat.org/2023/1/3/23537987 /nyc-
+schools-ban-chatgpt-writing-artificial-intelligence. Retrieved from January 3, 2023.
+
+Everson, J., Kivuva, F. M., & A.J. Ko” a key to reducing inequities in like, ai (2022).
+Is by reducing inequities everywhere first” emerging critical consciousness in a
+co-constructed secondary cs classroom. In Proceedings of the 53rd ACM technical
+symposium on computer science education-volume 1 (pp. 209-215).
+
+Famaye, T., Bailey, C. S., Adisa, I, & Irgens, G. A. (2024). ” what makes chatgpt
+dangerous is also what makes it special”: High-school student perspectives on the
+integration or ban of artificial intelligence in educational contexts. International
+Journal of Technology in Education, 7(2), 174-199.
+
+===== PDF PAGE 15 =====
+
+R. Landesman et al.
+
+Flores, A., & James, C. (2013). Morality and ethics behind the screen: Young people’s
+perspectives on digital life. New Media Society, 15(6), 834-852.
+
+Forsyth, S., Dalton, B., Foster, E. H., Walsh, B., Smilack, J., & Yeh, T. (2021). Imagine
+a more ethical ai: Using stories to develop teens’ awareness and understanding
+of artificial intelligence and its societal impacts. In 2021 conference on research
+in equitable and sustained participation in engineering, computing, and technology
+(RESPECT) (pp. 1-2). IEEE.
+
+Gazulla, E. Durall, Hirvonen, N., Sharma, S., Hartikainen, H., V. Jylha, N. livari,
+Kinnula, M., & Baizhanova, A. (2024). Youth perspectives on technology ethics:
+analysis of teens’ ethical reflections on ai in learning activities. Behaviour
+Information Technology, 1-24.
+
+Google gemini (Accessed: 2024-07-10) URL https://gemini.google.com.
+
+Green, A., Tench, B., & Weinstein, E. (2024). Teen and young adult perspectives on
+generative ai. In Tech. Rep.. Digital Thriving Center.
+
+Guest, G. (2012). Applied thematic analysis. Sage.
+
+Hasse, A., Madden, M., Calvin, A. & Lenhart, A. (2024). The dawn of the
+ai era: Teens, parents, and the adoption of generative ai at home and
+school. URL https://www.commonsensemedia.org/research/the-dawn-of-the-ai-era-
+teens-parents-and-the-adoption-of-generative-ai-at-home-and-school.
+
+Heiervang, E., & Goodman, R. (2011). Advantages and limitations of web-based surveys:
+evidence from a child mental health survey. Social Psychiatry and Psychiatric
+Epidemiology, 46, 69-76.
+
+Heintz, F. (2021). Three interviews about k-12 ai education in america, europe, and
+singapore. KI-Kiinstliche Intelligenz, 35(2), 233-237.
+
+Hicks, M. (2025). Ai is still an unknown country — and teens are its
+pioneers. URL https://www.edsurge.com/news/2025-06-13-ai-is-still-an-unknown-
+country-and-teens-are-its-pioneers.
+
+Higgs, J. M., & Stornaiuolo, A. (2024). Being human in the age of generative ai: Young
+people’s ethical concerns about writing and living with machines. Reading Research
+Quarterly.
+
+Howley Ill, R. J. (2019). The Effects of Artificial Intelligence on the Youth. Utica College.
+
+Ito, M. (2013). Hanging out, messing around, and geeking out: Kids living and learning
+with new media. MIT Press.
+
+Ito, M. E., Okabe, D. E., & Matsuda, M. E. (2005). Personal, portable, pedestrian: Mobile
+phones in Japanese life. Boston Review.
+
+Iversen, O. S., Smith, R. C., & Dindler, C. (2017). Child as protagonist: Expanding the
+role of children in participatory design. In Proceedings of the 2017 conference on
+interaction design and children (pp. 27-37).
+
+Kasneci, E., K. Se@ler, M. Bannert, Dementieva, D., Fischer, F., Gasser, U., Groh, G.,
+S. Giinnemann, E. Hiillermeier, et al. (2023). Chatgpt for good? on opportunities
+and challenges of large language models for education. Learning and Individual
+Differences, 103, Article 102274.
+
+Kaspersen, M. H., Bilstrup, K-E. K., M. Van Mechelen, A. Hjort, Bouvin, N. O.,
+& Petersen, M. G. (2022). High school students exploring machine learning and
+its societal implications: Opportunities and challenges. International Journal of
+Child-Computer Interaction, 34, Article 100539.
+
+Kohlberg, L. (1981). The philosophy of moral development.
+
+Kumar, P., Vitak, J., Chetty, M., Clegg, T. L., Yang, J., McNally, B., & Bonsignore, E.
+(2018). Co-designing online privacy-related games and stories with children. In
+Proceedings of the 17th ACM conference on interaction design and children (pp. 67-79).
+
+Laird, E., Dwyer, M., & Grant-Chapman, H. (2023). Off task: edtech threats to student
+privacy and equity in the age of ai. URL https://perma.cc/8Q9A-NNNV.
+
+Landesman, R., Salac, J., Lim, J. ©., & Ko, A. J. (2024a). Integrating philosophy
+teaching perspectives to foster adolescents’ ethical sensemaking of computing
+technologies. In Proceedings of the 2024 ACM conference on international computing
+education research-volume 1 (pp. 502-516).
+
+Landesman, R., Yoon, J., Kim, J., D.E. Munoz Lopez, A. Hiniker, & Davis, K. (2024b).
+” {just don’t care enough to be interested”: Teens’ moment-by-moment experiences
+on instagram. In Proceedings of the 23rd annual ACM interaction design and children
+conference (pp. 14-29).
+
+Lechelt, S., Rogers, Y., & Marquardt, N. (2020). Coming to your senses: promoting crit-
+ical thinking about sensors through playful interaction in classrooms. In Proceedings
+of the interaction design and children conference (pp. 11-22).
+
+Lee, I, Ali, S., Zhang, H., DiPaola, D., & Breazeal, C, (2021). Developing middle school
+students’ ai literacy. In Proceedings of the 52nd ACM technical symposium on computer
+science education (pp. 191-197).
+
+Lee, C. H., Gobir, N., Gun, A., & Soep, E. (2022). In the black mirror: Youth
+investigations into artificial intelligence. ACM ‘ransactions on Computing Education,
+22(3), 1-25.
+
+Lee, S., Mott, B., A. Ottenbriet-Leftwich, A. Scribner, Taylor, S., Glazewski, K., Hmelo-
+Silver, C. E., & Lester, J. (2020). Designing a collaborative game-based learning
+environment for ai-infused inquiry learning in elementary school classrooms. In
+Proceedings of the 2020 ACM conference on innovation and technology in computer
+science education (pp. 566-566).
+
+Lee, V. R., Pope, D., Miles, S., & Zarate, R. C. (2024). Cheating in the age of generative
+
+: A high school survey study of cheating behaviors before and after the release
+of chatgpt. Computers and Education: Artificial Intelligence, 7, Article 100253.
+
+Li, E., Li, S., & Yuan, X. (2022). Adoption and perception of artificial intelligence
+technologies by children and teens in education. International conference on
+human-computer interaction (pp. 69-79). Springer.
+
+15
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Liang, C. A., Albertson, K., Williams, F., D. Inwards-Breland, $. A. Munson, Kientz, J.
+A., & Ahrens, K. (2020). Designing an online sex education resource for gender-
+diverse youth. In Proceedings of the interaction design and children conference (pp.
+108-120).
+
+Long, D., & Magerko, B. (2020). What is ai literacy? competencies and design
+considerations. In Proceedings of the 2020 CHI conference on human factors in
+computing systems (pp. 1-16).
+
+Medonald, N., Razi, A., K. Badillo-Urquiola, J. $. Seberger, Agosto, D., & Wisniewski, P.
+J. (2023). Ai through the eyes of gen z: Setting a research agenda for emerging
+technologies that empower our future generation. In Companion publication of the
+2023 conference on computer supported cooperative work and social computing (pp.
+518-521).
+
+Mechelen, M. Van, Baykal, G. E., Dindler, C., Eriksson, E., & Iversen, O. S. (2020).
+18 years of ethics in child-computer interaction research: A systematic literature
+review. In Proceedings of the interaction design and children conference (pp. 161-183).
+
+Melumad, S., & Yun, J. H. (2025). Experimental evidence of the effects of large
+language models versus web search on depth of learning. PNAS Nexus, 4(10).
+
+Microsoft copilot (Accessed: 2024-07-10). URL https://copilot.microsoft.com/.
+
+Morales-Navarro, L., Gao, P., Yang, E., & Kafai, Y. B. (2024). ” it’s smart and it’s stupid:
+" youth’s conflicting perspectives on Ilms’ language comprehension and ethics.
+In Proceedings of the 19th wiPSCE conference on primary and secondary computing
+education research (pp. 1-2).
+
+Morales-Navarro, L., & Kafai, Y. B. (2023). Conceptualizing approaches to critical
+computing education: Inquiry, design, and reimagination. In Past, Present and Future
+of Computing Education Research: A Global Perspective (pp. 521-538). Springer.
+
+Morales-Navarro, L., Kafai, Y. B., Castro, F., Payne, W., Desportes, K., Dipaola, D.,
+Williams, R., Ali, S., Breazeal, C., Lee, C., et al. (2023). Making sense of machine
+learning: integrating youth’s conceptual, creative, and critical understandings of ai.
+arXiv preprint arXiv:2305.02840.
+
+Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing ai
+literacy: An exploratory review. Computers and Education: Artificial Intelligence, 2,
+Article 100041.
+
+Ng, D. T. K., Wu, W., Leung, J. K. L., Chiu, T. K. F., & Chu, S. K. W. (2024). Design
+and validation of the ai literacy questionnaire: The affective, behavioural, cognitive
+and ethical approach. British Journal of Educational Technology, 55(3), 1082-1104.
+
+Nowell, L. S., Norris, J. M., White, D. E., & Moules, N. J. (2017). Thematic analysis:
+Striving to meet the trustworthiness criteria. international Journal of Qualitative
+Methods, 16(1), Article 1609406917733847.
+
+Obrenovié, Z. (2011). Design-based research: what we learn when we engage in design
+of interactive systems. Interactions, 18(5), 56-59.
+
+Openai, & chatgpt (Accessed: 2024-07-10). URL https://chatgpt.com/.
+
+Piaget, J. (2013). The moral judgment of the child. Routledge.
+
+children’s rights, Exploring, & ai (2023). Stage 1 (summary report). In Tech. rep..
+‘The Alan Turing Institue, URL https://www.turing.ac.uk/sites/default/files/{2023}-
+05/exploring childrens rights and _ai.pdf.
+
+Robb, M., & Mann, S. (2025). Talk, trust, and trade-offs: How and why teens use ai
+companions. San Francisco, CA: Common Sense Media.
+
+Roose, K. (2022). An ai generated picture won an art prize. In artists aren’t happy.
+
+Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of
+intrinsic motivation, social development, and well-being. American Psychologist,
+55(1), 68.
+
+Sartori, L., & Bocca, G. (2023). Minding the gap (s): public perceptions of ai and
+socio-technical imaginaries. AI Society, 38(2), 443-458.
+
+Schaper, M.-M., Smith, R. C., Tamashiro, M. A., M. Van Mechelen, M. S. Lunding,
+Bilstrup, K-E. K., Kaspersen, M. H., Jensen, K. L., Petersen, M. G., & Iversen, O. S.
+(2022). Computational empowerment in practice: Scaffolding teenagers’ learning
+about emerging technologies and their ethical and societal impact. International
+Journal of Child-Computer Interaction, 34, Article 100537.
+
+Schaper, M.-M., Tamashiro, M. A., Smith, R. C., & M. Van Mechelen, O. S. Iversen
+(2023). Five design recommendations for teaching teenagers’ about artificial
+intelligence and machine learning. In Proceedings of the 22nd annual ACM interaction
+design and children conference (pp. 298-309).
+
+Snapchat Help (2025). What is my ai on snapchat, and how do i use it? (ac-
+cessed on january 26, 2025). URL https://help.snapchat.com/he/en-us/articles/
+13266788358932-What-is-My-Al-on-Snapchat-and-how-do-I-use-it.
+
+Solyst, J., Xie, S., Yang, E., Stewart, A. E., Eslami, M., Hammer, J., & Ogan, A. (2023a).
+I would like to design: black girls analyzing and ideating fair and accountable ai.
+In Proceedings of the 2023 CHI conference on human factors in computing systems (pp.
+1-14).
+
+Solyst, J., Yang, E., Xie, S., Hammer, J., Ogan, A., & Eslami, M. (2024). Children’s
+overtrust and shifting perspectives of generative ai. arXiv preprint arXiv:2404.
+14511.
+
+Solyst, J., Yang, E., Xie, S., Ogan, A., Hammer, J. & Eslami, M. (2023b). The potential
+of diverse youth as stakeholders in identifying and mitigating algorithmic bias for
+a future of fairer ai. In Proceedings of the ACM on Human-Computer Interaction 7
+(CScW2) (pp. 1-27).
+
+Suno (Accessed: 2024-07-10). URL https://suno.com/.
+
+‘Tamez-Robledo, N. (2025). From english to automotive class, teachers assign projects to
+combat ai cheating. URL https://www.edsurge.com/news/2025-06-10-from-english-
+to-automotive-class-teachers-assign-projects-to-combat-ai-cheating.
+
+===== PDF PAGE 16 =====
+
+R. Landesman et al.
+
+‘TechCrunch (2023). Instagram adds new features, including custom ai_ stickers,
+photo filters, a clip hub, and more. (accessed on january 26, 2025). URL
+https://techcrunch.com/2023/11/15/instagram-adds-new-features-including-
+custom-ai-stickers-photo-filters-a-clip-hub-and-more/.
+
+Tench, B. (2025). Agency-centered framework for ai literacy (working draft). working
+draft.
+
+Thai, K., Tsiandoulas, K. H., Stephenson, E. A., D. Menna-Dack, R. Z. Shaul,
+Anderson, J. A., Shinewald, A. R., Ampofo, A., & McCradden, M. D. (2023).
+Perspectives of youths on the ethical use of artificial intelligence in health care
+research and clinical care. JAMA Network Open, 6(5), €2310659-e2310659.
+
+TikTok Newsroom (2025). Announcing symphony avatars. (accessed on january 26,
+2025). URL https://newsroom.tiktok.com/en-uis/announcing-symphony-avatars.
+
+Youretzky, D. (2019). The ai4k12 initiative: Developing national guidelines for teaching
+ai in k-12. GlobalsWEdu2020_Touretzky. pdf.
+
+Touretzky, D., C. Gardner-McCune, F. Martin, & Seehorn, D. (2019). Proceedings of the
+AAAI conference on artificial intelligence: Vol. 33, Envisioning ai for k-12: What should
+every child know about ai? (pp. 9795-9799).
+
+Turiel, E. (1983). The development of social knowledge: morality and convention.
+Cambridge University Press.
+
+Vakil, S., & de Royston, M. McKinney (2022). Youth as philosophers of technology.
+Mind, Culture, and Activity, 29(4), 336-355.
+
+Vartiainen, H., Toivonen, T., Jormanainen, I., Kahila, J., Tedre, M., & Valtonen, T.
+(2021). Machine learning for middle schoolers: Learning through data-driven
+design. International Journal of Child-Computer Interaction, 29, Article 100281.
+
+Veldhuis, A. Lo, P. Y., Kenny, S., & Antle, A. N. (2024). Critical artificial intelli-
+gence literacy: A scoping review and framework synthesis. International Journal of
+Child-Computer interaction, Article 100708.
+
+Verse by verse (2024). Google ai. URL https://sites.research.google/versebyverse/.
+(Accessed: 2024-07-10).
+
+16
+
+International Journal of Child-Computer Interaction 48 (2026) 100815
+
+Waite, J., 'shukudu, E., Cucuiat, V., Whyte, R., & Sentance, S. (2023). Towards a
+framework for learning content analysis in k-12 ai/ml education. In 2023 IEEE
+frontiers in education conference (pp. 1-5). IEEE.
+
+Walton Family Foundation (2023). Teachers and students embrace chatgpt
+for education, retrieved from walton family foundation website. URL
+https://www.waltonfamilyfoundation.org/learning/teachers-and-students-embrace-
+chatgpt-for-education.
+
+Wei, Y., & Tyson, G. (2024). Understanding the impact of ai-generated content on social
+media: The pixiv case. In Proceedings of the 32nd ACM international conference on
+multimedia (pp. 6813-6822).
+
+Williams, R., Ali, S., Devasia, N., DiPaola, D., Hong, J., Kaputsos, S. P., Jordan, B., &
+Breazeal, C. (2023). Ai+ ethics curricula for middle school youth: Lessons learned
+from three project-based curricula. International Journal of Artificial intelligence in
+Education, 33(2), 325-383.
+
+Yim, I. H. Y. (2024). A critical review of teaching and learning artificial intelligence
+(ai) literacy: Developing an intelligence-based ai literacy framework for primary
+school education. Computers and Education: Artificial Intelligence, Article 100319.
+
+Yip, J. C., Bonsignore, E., Ahn, J., Clegg, T., & Guha, M. L. (2013). Building sciencekit
+through cooperative inquiry. In Workshop paper, CSCL, Vol. 2013.
+
+Yip, J. C., Ello, . M. ‘I, Tsukiyama, ., Wairagade, A., & Ahn, J. (2023). ” money
+shouldn’t be money": An examination of financial literacy and technology for
+children through co-design. In Proceedings of the 22nd annual ACM interaction design
+and children conference (pp. 82-93).
+
+Yip, J. C., Sobel, K., Pitt, C., Lee, K. J., Chen, S., Nasu, K., & Pina, L. R. (2017).
+Examining adult-child interactions in intergenerational participatory design. In
+Proceedings of the 2017 CHI conference on human factors in computing systems (pp.
+5742-5754).
+
+Zhang, H., Lee, L, Ali, S., DiPaola, D., Cheng, Y., & Breazeal, C. (2023). Integrating
+ethics and career futures with technical learning to promote ai literacy for middle
+school students: An exploratory study. International Journal of Artificial Intelligence
+in Education, 33(2), 290-324.

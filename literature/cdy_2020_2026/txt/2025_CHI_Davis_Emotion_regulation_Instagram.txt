@@ -1,0 +1,1790 @@
+SOURCE PDF: ../pdf/2025_CHI_Davis_Emotion_regulation_Instagram.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2026/02/2025.CHI_.davis_.ER-on-IG.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+"You Go Through So Many Emotions Scrolling Through
+Instagram": How Teens Use Instagram To Regulate Their Emotions
+Katie Davis
+
+Rotem Landesman
+
+Jina Yoon
+
+Information School
+University of Washington
+Seattle, Washington, USA
+kdavis78@uw.edu
+
+Information School
+University of Washington
+Seattle, Washington, USA
+roteml@uw.edu
+
+Computer Science & Engineering
+University of Washington
+Seattle, Washington, USA
+jinayoon@cs.washington.edu
+
+JaeWon Kim
+
+Daniela E Munoz Lopez
+
+Lucia Magis-Weinberg
+
+Information School
+University of Washington
+Seattle, Washington, USA
+jaewonk@uw.edu
+
+Psychology
+University of Washington
+Seattle, Washington, USA
+dannyml@uw.edu
+
+Psychology
+University of Washington
+SEATTLE, Washington, USA
+luciamw@uw.edu
+
+Alexis Hiniker
+
+Information School
+University of Washington
+Seattle, Washington, USA
+alexisr@uw.edu
+
+Abstract
+Prior work has documented various ways that teens use social
+media to regulate their emotions. However, little is known about
+what these processes look like on a moment-by-moment basis. We
+conducted a diary study to investigate how teens (N=57, Mage =
+16.3 years) used Instagram to regulate their emotions. We identified
+three kinds of emotionally-salient drivers that brought teens to Instagram and two types of behaviors that impacted their emotional
+experiences on the platform. Teens described going to Instagram
+to escape, to engage, and to manage the demands of the platform.
+Once on Instagram, their primary behaviors consisted of mindless
+diversions and deliberate acts. Although teens reported many positive emotional responses, the variety, unpredictability, and habitual
+nature of their experiences revealed Instagram to be an unreliable
+tool for emotion regulation (ER). We present a model of teens’ ER
+processes on Instagram and offer design considerations for supporting adolescent emotion regulation.
+
+CCS Concepts
+• Human-centered computing → Empirical studies in HCI.
+
+Keywords
+Adolescents, Social Media, Digital Emotion Regulation, Design For
+Well-Being
+ACM Reference Format:
+Katie Davis, Rotem Landesman, Jina Yoon, JaeWon Kim, Daniela E Munoz
+Lopez, Lucia Magis-Weinberg, and Alexis Hiniker. 2025. "You Go Through So
+
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+CHI ’25, Yokohama, Japan
+© 2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1394-1/25/04
+https://doi.org/10.1145/3706598.3713844
+
+Many Emotions Scrolling Through Instagram": How Teens Use Instagram To
+Regulate Their Emotions. In CHI Conference on Human Factors in Computing
+Systems (CHI ’25), April 26–May 01, 2025, Yokohama, Japan. ACM, New York,
+NY, USA, 16 pages. https://doi.org/10.1145/3706598.3713844
+
+1
+
+Introduction
+
+There is considerable public concern about social media’s role in
+the ongoing teen mental health crisis [2, 9, 31, 42, 104]. Prior research shows a link between teens’ social media use and negative well-being, including depressive symptoms, anxiety, and suicidal ideation [26, 51, 68, 74, 89]. Yet, there is also research showing ways that social media can support teen well-being, such as
+through increased social connection and positive identity development [27, 33, 76, 78].
+Currently, we lack sufficient understanding of the proximal processes linking teens’ social media interactions and their emotional
+responses. Such insight will help to inform intervention efforts
+and policy and design decisions intended to support teens’ positive
+experiences with social media. This paper builds on prior work
+addressing social media’s impact on teen well-being by investigating teens’ use of social media to regulate their emotions. Emotion
+regulation (ER) is central to mental health across the lifespan, but
+it is particularly salient during adolescence. The ER strategies that
+teens cultivate during this period of development can set the stage
+for future psychological health or distress [65, 84].
+Today’s teens frequently use social media to regulate their emotions [12, 19, 62, 91, 92, 113]. However, little is known about what
+these processes look like on a granular level, including what drives
+teens to regulate their emotions on social media and with what
+effects on their emotional states. Therefore, we investigated the
+role that Instagram plays in teens’ efforts to regulate their emotions.
+In this diary study, we asked a group of US teens (N=57, Mage = 16.3
+years) to report on their daily Instagram interactions and emotional
+experiences for approximately seven days (Mresponses = 6.5, sd=0.97,
+
+===== PDF PAGE 2 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Davis et al.
+
+min=4, max=9). We chose to focus on Instagram because of the
+platform’s popularity among teens [7] and its prevalence in teen
+mental health research [30, 53, 57].
+Our investigation was guided by the following research questions:
+• RQ1: What kinds of emotional experiences are teens seeking
+when they open Instagram?
+• RQ2: What kinds of emotional experiences are teens having
+while on Instagram?
+Our analysis identified three kinds of emotionally-salient drivers that brought teens to Instagram: they sought to escape (e.g.,
+boredom, school/work obligations, stress), to engage (e.g., connect
+with friends, pursue interests, self-expression), and to manage the
+demands of the platform. Once on Instagram, teens described two
+primary behaviors that impacted their emotional experiences: mindless diversions and deliberate acts. Mindless diversions typically
+provided quick mood boosts, but they could easily slip into mindless
+scrolling (marked by a loss of self-control) and could be thrown
+off course by triggering content. Deliberate acts such as talking
+with friends, searching for specific information, and posting were
+more likely to engender self-actualizing emotions (e.g., gratitude,
+confidence) than the fleeting emotions (e.g., amusement, silliness)
+that typically resulted from mindless diversions.
+The current study contributes empirical evidence showing how
+teens use Instagram to regulate their emotions. Although teens
+reported many positive emotional responses, the variety, unpredictability, and habitual nature of their experiences revealed Instagram to be an unreliable tool for emotion regulation. We offer a
+model that depicts the emotionally-salient drivers to Instagram,
+behaviors while on Instagram, and teens’ emotional responses to
+their Instagram experiences. We use this model to identify pathways
+that support more and less adaptive forms of ER on Instagram. We
+conclude by offering a set of design considerations for supporting
+teens’ ER processes on social media.
+
+Amidst these changes, adolescents typically encounter a greater
+frequency and intensity of emotionally challenging situations than
+they did in childhood, including interpersonal challenges, increased
+academic pressure, and the stress associated with increasing independence [65, 84]. Their heightened emotional reactivity–especially
+to situations involving high social salience [46, 65, 96, 97]–can make
+it difficult for them to manage these challenges successfully, even
+though adolescents’ regulatory capacities are greater than they
+were in childhood [46]. Adolescents’ developing ER skills can help
+them manage emotionally challenging situations, whereas difficulties with ER can result in forms of psychopathology [65, 84]. Indeed,
+adolescence represents a period of increased risk for developing
+mental disorders that involve problems with ER, such as major
+depression, anxiety disorders, eating disorders, and substance use
+disorders [65].
+Friends often play an important role in influencing adolescents’
+ER abilities. Whereas children are heavily reliant on caregivers
+to regulate their emotions [71], adolescents’ ER is influenced to a
+greater degree by peers, in both positive and negative ways. For
+example, by seeking out friends when dealing with stressors, adolescents can derive social support and develop intimacy [85]. Peers
+can also facilitate social reappraisal, helping adolescents view emotional events in a different light [88]. However, co-rumination can
+lead to negative outcomes, and peers can sometimes exacerbate
+stress and negative emotions [65, 85, 88].
+We draw on this body of work from developmental psychology
+to frame the current investigation into teens’ use of Instagram as a
+tool for ER. This framing helps to illuminate the developmentally
+salient dimensions of adolescents’ emotional experiences on Instagram, and contributes a developmental perspective to the relatively
+new body of HCI work investigating digital emotion regulation
+(e.g., [105, 107]).
+
+2 Background
+2.1 Emotion Regulation in Adolescence
+
+Although there is an extensive body of research in HCI exploring
+the effects of technology use on people’s emotions, less is known
+about how people appropriate digital technologies to regulate their
+emotions [93, 95, 106, 107]. Drawing on psychological theories of
+emotion regulation (ER) and placing them in the context of computing research, Wadley et al. [107] define digital emotion regulation as
+the use of digital technology “as a tool for strategically influencing
+our affective states (including emotions, moods, and stress levels).”
+Smith et al. [95] documented a variety of digital emotion regulation
+strategies employed by adults, such as listening to a comforting
+audiobook from childhood, checking email to disengage from an
+unpleasant work situation, listening to music to soothe worries,
+and prolonging a positive feeling by messaging it to others.
+Recent studies have explored the role of ER processes in adolescents’ social media use (e.g., [109]). This empirical work suggests
+that turning to social media represents a common ER strategy for
+adolescents (see [12, 19, 62, 91, 92, 113]). In some cases, the ER goal is
+to down-regulate negative emotions, such as when adolescents use
+social media to alleviate unpleasant feelings (e.g., stress, loneliness,
+homesickness) that they are experiencing in other aspects of their
+lives [22, 45, 52, 62, 67, 92, 109, 112, 113, 115]. For example, Kelly
+
+Developing during childhood and adolescence [65], emotion regulation (ER) is central to psychological health across the lifespan [16, 25]. ER skills include the ability to recognize, understand, and accept one’s emotions, and the ability to employ appropriate coping strategies to modulate emotional arousal and valence [34, 50]. ER is goal-oriented; typically, the goal is to decrease
+negative emotions or increase positive ones [35, 37]. Strategies to
+accomplish such goals can be more or less adaptive. For instance,
+prior research has shown that cognitive reappraisal–an ER strategy
+focused on changing the way one thinks about a situation–can be
+adaptive, resulting in decreased depressive symptoms and more
+positive relationships [37]. Problem solving and acceptance are
+similarly adaptive ER strategies [4]. In contrast, rumination, avoidance, and suppression of emotional responses are considered less
+adaptive due to associations with negative psychological and social
+outcomes [4, 37, 84].
+ER plays an important role during adolescence, helping individuals to navigate the many physical, social, academic, and cognitive changes that occur during this stage of development [37, 65].
+
+2.2
+
+Adolescents’ Use of Social Media to Regulate
+their Emotions
+
+===== PDF PAGE 3 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+
+et al. [51] found that university students turned to social media to
+manage feelings of homesickness. West et al. [112] documented
+how adolescents used social media as a space to vent feelings of
+anger, as well as to find relief from the stress of daily life. Tag et
+al. [99] showed how university students increased their reliance
+on digital technologies to regulate their negative emotions during
+the global COVID-19 pandemic. Sometimes, the negative emotions
+that adolescents seek to down-regulate are induced by social media
+itself, for instance, when adolescents check social media in an attempt to mitigate worries and fears about being judged, ignored, or
+excluded [92, 113]. Adolescents also employ ER strategies following
+negative social media interactions, such as engaging in rumination
+after an unpleasant peer interaction on social media [54].
+In other cases, the ER goal is to up-regulate positive emotions,
+such as when adolescents use social media for entertainment,
+information-seeking, and socializing [8, 12, 92, 113]. West et al. [113]
+described how adolescents deliberately turned to social media to
+put them in a good mood, such as by connecting with friends
+and engaging with amusing content. By connecting on Instagram,
+friends often engage in co-regulation as they share their feelings,
+asking for and receiving emotional support [62]. Adolescents also
+frequently turn to social media to manage a low-arousal emotion
+such as boredom [59, 62, 112]. In their model of teens’ Instagram
+use, for instance, Landesman et al. [59] showed how the desire to
+alleviate boredom served as a common trigger for teens to open
+Instagram, a finding supported by experimental research involving
+undergraduate students using Facebook and Twitter [29].
+The effectiveness of using social media as an ER strategy appears
+to vary across individuals and the types of experiences they have on
+social media [82]. For instance, researchers have shown that using
+social media to connect with others can be an effective ER strategy
+for adolescents, resulting in increased positive mood [12, 92]. In
+contrast, turning to social media to avoid in-person interactions
+or alleviate negative emotions can increase the likelihood of developing problematic social media use (PSMU) [12, 15, 22, 90]. Social
+media can also lead to increased co-rumination in adolescence [77].
+While in-person co-rumination, a co-regulation strategy, has some
+benefits such as increased closeness and support [85], it is unclear
+that co-rumination through online platforms and their associated
+features can confer the same benefits [77].
+This body of work provides a useful foundation for describing
+various ways that adolescents use social media to regulate their
+emotions. However, we lack a more granular view of teens’ direct
+experiences using social media as an ER tool. Studies that use retrospective self-report (e.g., interview and survey studies) are limited
+by their reliance on participants’ memories and their tendency to
+elicit general, rather than specific, experiences with social media.
+Research that uses in-the-moment data collection methods, such as
+log data and screen captures, can provide a more detailed view, but
+these approaches offer limited insight into the meaning that participants ascribe to their social media experiences. Through a daily
+diary study, the current work provides needed insight into adolescents’ emotionally-salient experiences with social media, including
+the proximal causes and consequences of regulating emotions on
+social media and the role of design in shaping ER processes.
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+2.3
+
+Design’s Role in Adolescents’ Emotion
+Regulation on Social Media
+
+Prior work has explored the role of design in shaping people’s
+emotional experiences on social media [106]. Indeed, social media
+platforms are intentionally designed to elicit and enhance emotions
+with the objective of increasing user engagement [6, 83]. In contrast to chronologically ordered feeds, for instance, algorithmically
+curated feeds are programmed to show users content that is more
+likely to elicit an emotional reaction, whether positive or negative [72], due to the fact that emotionally salient content is known
+to be more engaging [14]. Within this context, it can be difficult to
+regulate emotions on platforms that are designed to capture and
+co-opt attention through emotionally manipulative design [27].
+Researchers have documented specific affordances associated
+with social media that affect people’s ability to engage in selfregulatory behavior, including emotion regulation (ER) [79, 82].
+For instance, variable reinforcement (through intermittent positive rewards), attentional demands (from push notifications), and
+ubiquitous availability (through mobile digital devices) promote
+habitual social media use, which can undermine people’s ability
+to self-regulate [82]. On the other hand, some social media features and affordances appear to support people’s ER goals, such
+as the ability to look up information online to reduce anxiety, connect with a friend regardless of temporal or geographic barriers,
+and scroll passively through one’s feed to distract from unpleasant
+thoughts [62, 70, 106]. Even so, it is possible for an initially promising strategy to become ineffective or even damaging. For example,
+researchers demonstrated how youth who show an interest in mental health-related content on TikTok are more likely to encounter
+content that can undermine their mental health, such as videos that
+promote depression and self-harm [1].
+Another body of work exploring design’s role in ER has examined the use of digital technologies to create and deliver ER
+interventions. Some of this work uses digital technologies such as
+smartphones as a delivery mechanism for traditional ER support,
+similar to what one might experience in the context of cognitive
+behavioral therapy [11, 48]. Within the field of HCI, researchers
+are seeking to create new forms of ER support through interaction
+design [24, 56, 87, 94, 106]. For instance, researchers have investigated smart toys that use sensory and physical features and haptic
+feedback to help children down-regulate negative emotions such
+as anger and anxiety (e.g.,[47, 101]). Virtual and augmented reality
+environments have also been explored as a means to support ER
+skills [49, 55, 108]. Kitson et al. [55] proposed a set of design strategies that leverage VR capabilities to help adolescents with the ER
+skill of cognitive reappraisal, including the use of embedded and
+embodied scaffolds, providing different points of view, and externalizing thoughts as virtual objects. Other work has sought to embed
+ER support within commonly used applications, including social
+media platforms [11]. Verma et al. [105] developed a graph-based
+framework for in-the-moment ER support during social media conversations. Their intervention aims to identify online conversations
+in which ER is needed and then provide users with information
+that encourages self-reflection.
+We situate the current study within this body of HCI research to
+help illuminate design’s role in shaping adolescents’ ER processes
+
+===== PDF PAGE 4 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Davis et al.
+
+on social media. Existing work illustrates how specific interaction
+designs can elicit emotions with varying levels of arousal and valence, as well as how design can be used intentionally to support
+ER processes in children and adolescents. Our study draws on this
+work to highlight the role of design in our empirical findings and
+to identify design implications for improving social media’s use as
+an ER tool for adolescents.
+
+3
+
+Methods
+
+All procedures described in this section were approved by our
+university’s institutional review board.
+
+3.1
+
+Participants and Recruitment
+
+We employed snowball sampling to recruit participants. We posted
+details about our study on social media sites, including Instagram
+and Snapchat. To be eligible, participants were required to be between the ages of 13-17 years, possess a smartphone for daily use,
+reside and attend high school in the United States, and self-report
+using Instagram daily for more than 30 minutes. We used 13 as
+the baseline age because that is the minimum age requirement for
+creating an Instagram account. We selected 17 as an upper limit
+to help ensure participants were still in high school, as prior work
+has shown differences in youth’s social media experiences during
+and post high school [27]. Moreover, research indicates that this
+particular age group is at greater risk for negative mental health
+effects associated with increased social media use [51, 74, 104]. In
+total, we recruited 70 Instagram users, 57 of whom completed at
+least four daily surveys (see demographics Table 1). Our sample
+is comparable to the broader demographics of US teen Instagram
+users with respect to race and ethnicity, but it has a greater proportion of girls. We did not collect data about household income
+[7].
+Table 1: Demographics of Participants (N=57)
+
+Gender identity
+
+Age (Years)
+
+Race and Ethnicity
+
+Self-reported Time
+Spent on Instagram
+Per Day (Minutes)
+
+3.2
+
+Boys (19.3%), Girls (66.7%), Nonbinary or third gender (8.8%),
+Other (Prefer to self-describe /
+Prefer not to disclose) (5.3%)
+Mean=16.3, SD=0.9; 13 (1.8%),
+14 (1.8%), 15 (14%), 16 (33.3%),
+17 (49.1%)
+Asian (31.6%), Black or African
+American (17.5%), Hispanic or
+Latine/Latinx (15.8%), White
+(22.8%), Multiple selected (8.9%),
+Other / Not disclosed (3.5%)
+Mean=163, SD=120, Min=24,
+Q1=75, Q2=148.5, Q3=215.75,
+Max=568
+
+Procedure and Data Collection
+
+We conducted a diary study during July-August 2023 in which teens
+reported daily on their experiences and emotions on Instagram for
+
+Figure 1: Mood Meter displayed to participants to help them
+identify their emotional responses while using Instagram.
+approximately one week. This period of time is comparable to previous research using the diary study method to document digital
+emotion regulation [95]. Teens received surveys on their phones at
+the end of each day asking them to report on their Instagram activities and emotional responses for that day. Participants submitted
+a total of 371 daily diary entries (Mresponses = 6.5, sd=0.97, min=4,
+max=9). They were compensated based on the number of surveys
+they completed ($25 for < 7 surveys, $75 for >= 7 surveys, $100 for
+>= 7 surveys plus a longer post-survey, not included in the current
+analysis).
+Survey questions asked participants to document specific activities on Instagram (e.g., posting, talking with a friend, encountering
+funny memes and videos) and the emotions they elicited. They
+were also asked to reflect more generally on what stood out for
+them on Instagram that day and the extent to which their Instagram
+activities impacted the emotions they experienced during the rest
+of their day (see Appendix A A.1 for the full survey).
+We used a Mood Meter (see Figure 1) to aid participants in identifying their emotions. A Mood Meter is a tool designed to help
+with eliciting and identifying one’s emotions [21, 41]. Participants
+were first shown how to find an emotion on the Mood Meter during
+the study orientation (a group zoom meeting conducted prior to
+completing the daily surveys). They were instructed to select emotions based on the ‘pleasantness’ (valence) of the emotion along
+the x-axis and the ‘energy’ (arousal) of the emotion along the yaxis. Introducing and using the Mood Meter with all participants
+helped ensure that they identified and reported their emotions in a
+consistent manner.
+
+3.3
+
+Data Analysis
+
+We analyzed our data using reflexive thematic analysis (TA) [17, 18].
+Reflexive TA is a flexible, iterative approach to qualitative data
+analysis that foregrounds the researcher’s interpretations of the
+data in relation to the overarching research questions guiding the
+study [17, 75]. Reflexive TA differs from more postpositivist approaches to coding and theme development that emphasize quantifiable measures and inter-rater agreement (e.g., [13, 39]).
+
+===== PDF PAGE 5 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+
+We followed the six stages of thematic analysis described in [17].
+To familiarize ourselves with the data (phase one), the study authors
+read through the survey responses, taking reflexive notes as we
+read [17]. We met three times over a period of three months to discuss and document theoretical and reflective thoughts that emerged
+from our readings. In phase two, the first and second authors read
+through the survey data a second time to identify initial codes
+related to our research questions. Example codes from this phase
+of analysis included "escape RL stress," "relieve boredom," "boost
+mood," and "find inspiration." These codes were grouped into the
+broad categories of motivation to open Instagram, experience on
+Instagram, and emotional effect. The first author used ATLAS.ti [3]
+to apply the codes to the entire dataset, with the second and last
+authors reviewing each coded survey.
+In phases three-five, we shared and discussed the codes with
+the larger research team in weekly meetings and asynchronously,
+using these discussions to develop, define, and refine the interpretive themes reported in this paper. For instance, we identified
+three clusters of motivations to open Instagram: escape, engage,
+and IG management. These became the primary themes reported
+under Emotionally-Salient Drivers to Instagram (see Section 4). We
+followed a similar process for coding participants’ reported experiences on Instagram, with codes clustering around two primary
+types of experience: mindless diversions and deliberate acts. These
+became the primary themes reported under Behaviors on Instagram (see 5). We used the codes within each of these clusters in
+conjunction with the emotional effects codes to provide detail and
+nuance to each primary theme. Appendix B (A.2) summarizes our
+final coding scheme.
+Following criteria for rigorous qualitative research [102], we
+strove to establish trustworthiness at each step of the analytic process. These efforts included prolonged and deep engagement with
+the data during the early phases of analysis; documenting theoretical thoughts during individual data review and group discussions;
+researcher triangulation through coding reviews in Atlas.ti; vetting
+themes and sub-themes by team members; and clear documentation
+of all team meetings and peer debriefings [75].
+
+4
+
+Results Part 1: Emotionally-Salient Drivers to
+Instagram
+
+We identified three kinds of emotionally-salient drivers that brought
+teens to Instagram: escape, engage, and manage the demands of the
+platform. In the following sections, we describe each type of driver
+and how it functioned as an emotion regulation strategy for teens.
+
+4.1
+
+Escape
+
+Teens described different forms of escape-seeking that drove them
+to open Instagram. Most commonly, they sought to escape boredom–
+“I don’t usually think of opening Instagram unless I am bored” (P15,
+non-binary, age 16)–and to fill empty time–“I didn’t have anything
+to do and just went on instagram” (P46, girl, age 17). Sometimes,
+escape-seeking came in the form of procrastination, as P34 (boy,
+age 16) reported: “I had things that needed to be done before a certain
+time but I put them off until last moment due to Instagram.” Similarly,
+P20 (girl, age 17) reflected:
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+“I use Instagram the most when I know I need to do something else,
+so I was really stressed about making a commitment on time and
+I could’ve easily put my phone down but I didn’t do I was just like
+aaaaaaaaaaaaaaa cooking videos”
+Often when talking about these forms of escape-seeking (boredom, filling time, procrastination), teens described the drive to open
+Instagram as a reflexive action. For instance, P19 (girl, age 16) reported: “...it almost feels like a reflex when I don’t know what else to
+do or am procrastinating what I should be doing. I did see a cute dog
+though, so that was nice.” P32 (girl, age 16) expressed a similarly
+reflexive orientation to Instagram when she described her motivation for logging on: “I didn’t have any goal in mind and just kind of
+numbly opened the app.” P13 (boy, age 16) observed: “It feels like an
+automatic action at this point if I don’t use it I feel bored.” Here, we
+see that the boredom that drives P13 to open Instagram emanates
+from the habitual nature of his platform use; if he doesn’t use it,
+something feels missing.
+A more intentional form of escape-seeking was teens’ use of
+Instagram to cope with stress in other parts of their lives. For
+instance, P40 (boy, age 15) reported using Instagram to distract
+himself from an approaching hurricane: “I live in Southern California,
+and there is currently a hurricane sweeping through. Instagram helped
+me spend my time entertained, and the content made me feel positive.”
+P35 (girl, age 16) described using Instagram to change her mood on
+a day when she felt low: “sometimes I would get sad and use Insta as
+a distraction.” Similarly, P39 (boy, age 17) observed: “I was scrolling
+through reels and it really calmed me down after a stressful day.” In
+another entry, this participant observed that the relief he sought
+was not from stress but rather fatigue: “School work made me tired,
+and Instagram was just a way to help me relax.” P28 (boy, age 17)
+reported a similar motive for opening Instagram: “I was tired before
+because of a long day, so I just went on insta sometimes to chill.”
+
+4.2
+
+Engage
+
+Teens described a variety of ways they sought more active engagement on Instagram, including to connect with friends, engage
+with information related to an interest, and engage in forms of
+self-work. With respect to connecting with friends, participants
+recorded instances of using Instagram to keep up with friends and
+acquaintances, catch up with friends after time spent apart, and as
+an opportunity to seek and give emotional support. P21 (girl, age
+15) characterized Instagram as “a way for me to keep up with friends
+and acquaintances and share my own personal experiences.” P12 (girl,
+age 16) observed how she was using Instagram to reconnect with
+friends after a summer apart: “During the summer, I didn’t communicate a whole lot with some of my friends, but with the upcoming
+school year, there was a reason to start up a conversation once again.”
+Sometimes, teens used Instagram “to communicate my feelings with
+other people” (P28, boy, age 17), or to reach out to a struggling friend:
+“On my friend’s behalf, sent them posts I knew they’d relate to but just
+isn’t in a good situation right now” (P11, transgender, age 17).
+Several teens reported using Instagram to engage with an interest or passion. For example, P03 (girl, age 17) and P04 (girl/nonbinary, age 17) each described using Instagram to keep up with
+their favorite TV shows, Love Island and Big Brother, respectively.
+P04 experienced a range of emotions (curious, excited, stressed,
+
+===== PDF PAGE 6 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+nervous) as they sought information about the latest person to be
+eliminated from the show: “Instagram had a huge impact on my
+day because of all the big brother news that was going, with a player
+being kicked off and my favorite player being saved.” P16 (girl, age
+16), a soccer player and fan, went on Instagram to stay updated
+about a match between Spain and England: “I kept checking it many
+times throughout the day, I really didn’t want to miss any updates or
+anything.” Other interests that drove teens to Instagram included
+looking for recipes, skateboarding reels, and hair-dyeing methods.
+Teens described a variety of ways they turned to Instagram to
+engage in self-work. Sometimes, self-work was internally focused,
+such as seeking inspiration or motivation, as P36 (boy, age 17)
+described: “I watch reels and posts that motivate [me] to wake up
+early and do something active like exercise and studying.” P27 (age
+17)1 similarly sought inspiration on Instagram, though with a less
+precise focus: “I am hopeful that I’ll come across something new that’ll
+inspire me to do something.” At other times, self-work was more
+externally focused and involved different forms of self-expression.
+P57 (girl, age 15) reported: “I changed my profile picture because I
+wanted to rebrand myself.” P52 (girl, age 16) was driven to post on
+Instagram about her experiences at an internship event: “I had a
+super busy work day for my internship and posted about the event!
+Today marked the first event of the school year, so I was happy to
+share it.” Although few details are provided, this entry indicates
+P52’s excitement and possibly pride about sharing this personal
+experience with others on Instagram.
+
+4.3
+
+IG Management
+
+Several teens alluded to feeling compelled to check Instagram in
+order to stay on top of the platform’s demands. Sometimes, these
+demands were externally driven, coming in the form of platform
+notifications, as P40 (boy, age 15) reported: “Instagram made me
+constantly check my notifications.” P19 (girl, age 16) observed the
+stress she feels when these notifications mount, even if the content
+itself is positive:
+“I have a tendency to get stressed when I see lots of notifications,
+and they end up building up over time. Today I finally opened my
+DMs (which do consist entirely of memes my sibling send me). It’s
+always nice seeing what they send but for some reason the amount
+of notifications can be overwhelming.”
+P57 (girl, age 15) also reported feeling overwhelmed when “Opening
+the app in general, there’s just so many things on the screen, like stories,
+posts, and notifications for DMs and normal ones.” Similarly, P17 (girl,
+age 17) felt overwhelmed by “the amount of posts,” and P25 (girl,
+age 16) felt overwhelmed “by all the stories I had not viewed.”
+At other times, teens seemed to have internalized the platform’s
+demands. For instance, some teens reported feeling like they were
+missing out in some way if they had not checked Instagram: “When
+I don’t use [Instagram] I feel like something is missing and that I
+need to be currently updated” (P36, boy, age 17). P35 (girl, age 16)
+similarly reported: “When I wasnt on Instagram sometimes I would
+get upset or have a longing to be on it.” P52 (girl, age 16) reflected:
+“I just felt bored when I wasn’t on Instagram. Not particularly
+"missing out", but remembering that one post that made me smile
+1 P27 chose not to disclose their gender
+
+Davis et al.
+
+or that one post that made me laugh just made me want to click
+back on the app and scroll for another 2 hours.”
+
+4.4
+
+Summary
+
+Taken together, these three primary drivers to Instagram varied
+in distinct ways. Escape-seeking drivers were typically motivated
+by a reflexive desire to relieve boredom or fill time, although teens
+occasionally reported more intentional attempts to cope with stress
+by distracting themselves on Instagram. In contrast, engagementoriented drivers were consistently more deliberate and included the
+desire to connect with friends, pursue an interest or passion, and
+engage in self-work. Lastly, the third driver to Instagram involved
+managing the demands of the platform, both external demands (push
+notifications) and internal demands (feeling that something is missing if they have not checked Instagram in a while).
+
+5
+
+Results Part 2: Behaviors on Instagram
+
+We identified two types of behaviors that impacted teens’ emotional
+experiences on Instagram: mindless diversions and deliberate acts.
+In the following sections, we describe each type of behavior and
+how it affected teens’ emotional responses. This analysis illustrates
+those circumstances that make Instagram more and less effective
+in supporting teens’ emotion regulation processes.
+
+5.1
+
+Mindless Diversions
+
+Teens frequently reported scrolling through their feed without a
+specific purpose, encountering content such as “funny animals”
+(P02, girl, age 17), “funny reels and memes” (P35, girl, age 16), “silly
+songs and trends” (P30), “disney reels” (P45, non-binary, age 17),
+“dogs doing stupid stuff” (P34, boy, age 16), “dogs in backpacks” (P54,
+boy, age 14), “a person baking chocolate chip cookies” (P56, girl,
+age 15), and “cool photos from photographers” (P46, girl, age 17).
+Mindless diversions were often driven by an escape motive, such
+as filling time, procrastinating, or relieving stress, and they most
+often elicited a positive emotional response from teens. P38 (girl,
+age 17) felt calm “just tapping through stories.” P24 (girl, age 17) felt
+content “Just being able to scroll without interruptions.” P01 (girl, age
+16) felt peaceful “watching nature reels.” Some of the content teens
+encountered appeared to be intentionally designed to generate a
+positive mood, as illustrated by P36’s (boy, age 17) entry: “I was
+feeling serene because I watch good reels about self care and asmr
+that put me in a relaxation mood.” P35 (girl, age 16) reported feeling
+serene “watching calming reels (i.e., “breathe with me” reels).”
+5.1.1 Fleeting (and Sometimes Longer Lasting) Mood Boosts. Often,
+teens characterized the positive effects of mindless diversions as
+fleeting: “To me, seeing those posts that made me happy was like
+eating some candy. It’s great when you have it but then your done,
+you forget about that feeling and move on to other things” (P55, girl,
+age 17). Similarly, P40 (boy, age 15) reflected: “Some content made
+me feel good, but it was only temporary and for that post/reel.” P16
+(girl, age 16) described such experiences as “small happiness boosts.”
+Even on the rarer occasions when mindless diversions elicited a
+negative emotional response, the reaction appeared to be temporary,
+as when P31 (boy, age 13) recorded “annoyance” upon seeing “just
+stupid teenagers doing stupid stuff.” He said that the annoyance had
+“very little” impact on the rest of his day.
+
+===== PDF PAGE 7 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+
+Occasionally, mindless diversions could help set the tone for the
+rest of the day. For instance, P37 (girl, age 15) said of the flower
+videos she watched: “It really set the mood for me today in the fact
+that I’m enjoying the plants and just appreciating life a little more.”
+P41 (girl, age 17) explained that she curates her feed deliberately to
+help put her in a good mood: “It impacted my day greatly, I follow
+positive things so it leads to me seeing positive people/fun things that
+brighten up my day.” When weighing the positive and negative
+content she saw on Instagram, P22 (girl, age 17) determined that
+the net effect was positive: “today, the good things balanced out with
+the bad and kept my emotion stable.”
+5.1.2 To Boost or Not To Boost. Whether or not mindless diversions
+had a positive emotional effect depended in part on what drove
+teens to open Instagram. For instance, boredom as a motivator
+often resulted in more boredom, as P54 (boy, age 14) described: “It
+may have made the time go by quicker but other than that, I still
+was bored. . . I was bored beforehand and Instagram really didn’t cure
+it.” Similarly, P46 (girl, age 17) reflected: “I didn’t have anything to
+do, so I just scrolled because I was bored, but maybe one out of 10
+videos was interesting, which made me even more bored.” However,
+filling a well-defined space of time, such as during a commute, was
+often experienced differently, as P28 (boy, age 17) explained: “I was
+commuting a lot today so using the app helped keep me entertained.”
+There was also a distinction between using mindless diversions
+to procrastinate versus as a reward or quick “brain break.” Having
+recently started a new school year, P48 (girl, age 17) explained: “I
+felt a sense of relief while on Instagram as I was able to give my brain
+a break.” In contrast these quick breaks, going on Instagram to
+procrastinate from a task consistently resulted in negative feelings
+such as stress and guilt. P20 (girl, age 17) reflected: “I use Instagram
+the most when I know I need to do something else, so I was really
+stressed.” P37 (girl, age 15) reported feeling “guilty because instead of
+watching those videos and wasting my time I could’ve been working
+a spanish project I have to do.” In her next entry, however, P37 had
+finished her Spanish project and was using Instagram as a reward
+for completing her work: “I felt joyful because I was enjoying my
+time relaxing and watching some videos.”
+5.1.3 From Mindless Diversions to Mindless Scrolling. Even when
+mindless diversions produced positive emotional effects, participants’ diary entries rarely consisted solely of such experiences.
+For many teens, what may have started as a mindless diversion
+could easily morph into mindless scrolling that lasted far longer
+than they had intended. Participants described feeling "addicted"
+to Instagram as the act of scrolling itself took over and the content
+faded into the background. At the start of one diary entry, for instance, P35 (girl, age 16) reported feeling "amused" and "silly" while
+“Watching funny reels”, but ended the same entry feeling "addicted"
+from “not being able to stop watching reels.” Mindless scrolling was
+most often expressed as a loss of self-control: “I couldn’t break away
+from scrolling through reels.” (P08, girl, age 17). P52 (girl, age 16)
+explained why she felt addicted at the end of a day that featured
+a high level of Instagram use: “Today was a lazy day for the whole
+family and I spent quite a bit of time scrolling on Instagram. Scrolling
+paralysis is very real and sometimes I feel like I can’t tear my eyes off
+of my phone.”
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+For P52, like for many other teens in the study, a sense of shame
+and self-blame accompanied the feeling of being unable to stop
+scrolling: “I feel very self-conscious and almost ashamed that I’m not
+putting my time towards something more productive.” The inverse of
+this feeling was the satisfaction and pride teens reported when they
+managed to spend less time on Instagram: “I felt proud because I
+wasn’t on Instagram all day, I was determined today to be productive
+and focus on school” (P47, girl, age 16). P21 (girl, age 15) said she felt
+"serene" due to “Not feeling bad about my social media use because
+I don’t feel like I was unproductive as a result of spending too much
+time on it.” Similarly, P27 (age 17) reflected: “My Instagram usage
+was very low today, so it did not make me feel guilty/ashamed.” These
+quotes illustrate teens’ daily struggle to resist mindless social media
+use and the feelings of shame and guilt that accompany the failure
+to live up to their productivity ideals.
+5.1.4 When Variable Triggers Disrupt Mindless Diversions. Besides
+devolving into mindless scrolling, mindless diversions could also
+be thrown off course when teens encountered sudden, triggering
+content on their feed. Sometimes, this content involved current
+events, as when P21 (girl, age 15) reported feeling "downhearted"
+after “I stumbled across some reels that briefly discussed war crimes
+that the US had committed and it made me feel a little too introspective
+about things that are out of my control.” P22 (girl, age 17) felt the
+same emotion when “I saw a News post about the amount of people
+who have died due to wildfires around the United States as well as other
+countries.” P19 (girl, age 16) spoke more generally about feeling
+"stressed" after “Seeing stuff from the news - strikes, climate things,
+etc.” Other triggering content included gun violence, the war in
+Ukraine, and legislation affecting LGBTQ+ and abortion rights.
+Part of the jarring nature of such content was the suddenness with
+which teens encountered it.
+Often, triggering content struck a more personal chord for teens,
+such as posts that reminded them about the upcoming school year
+or college applications. P55 (girl, age 17) reported: “I felt nervous
+seeing posts from my school about coming back to school because I
+feel nervous about doing well in some of my senior classes.” P12 (girl,
+age 16) reflected: “Many videos surrounding the topic of college and
+applications for college begin to stress me out.” Sometimes, triggering
+content was associated with friends’ posts. P09 (girl, age 17) said
+she felt "inferior" as a result of “Seeing my friends have fun.” P19
+(girl, age 16) reflected: “seeing other people summers always makes
+me a little jealous. It seems like everyone else is thriving and I’m just
+chilling at home.” P10 (non-binary, age 17) also felt jealous after
+coming across “posts about things my friends were doing without
+me.” Similarly, P25 (girl, age 16) was "annoyed" when “I saw a story
+of my friends hanging out and I knew nothing of it so i felt a little left
+out.” P45 (non-binary, age 17) felt "insecure" when they looked at
+“my mutual friends posts because theyre so pretty.”
+It is difficult to know from our data how triggering content affected teens emotionally beyond the encounter they recorded. We
+did see some evidence that the impact pervaded their day, if not
+longer. P27 (age 17) reported that Instagram had a large impact on
+the rest of their day after they stumbled across “disturbing content
+(death, triggering topics),” explaining that “It made me feel a lot more
+overwhelmed and made me want to use my phone more.” However,
+several participants made a point of noting that they do not let
+
+===== PDF PAGE 8 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Instagram affect them outside of their experience on the platform:
+“I just keep instagram separate from reality” (P49, girl, age 15). Similarly, P22 (girl, age 17) commented: “I usually get on Instagram
+after school and I feel like you go through so many emotions scrolling
+through Instagram, that you learn to not let it affect you for the rest
+of the day.” In response to a prompt asking if anything had stood
+out to her that day on Instagram, P29 (girl, age 15) wrote: “nope,
+just another day of hate.” Comments such as this last one suggest
+that teens approach their encounters with triggering content with
+a level of resignation and emotional dissociation.
+5.1.5 Summary of Mindless Diversions. Overall, the mindless diversions reported in 5.1 were typically motivated by an escapist desire
+and resulted in positive, fleeting emotions. At the same time, the
+positive aspects of mindless diversions could easily be disrupted.
+Teens sometimes felt triggered by unexpectedly encountering upsetting content in their feed, and they reported feelings of guilt
+and shame if they allowed their mindless diversions to slip into
+mindless scrolling. Sometimes, mindless diversions could have a
+more lasting effect by setting the tone for the rest of a teen’s day,
+whether good or bad.
+
+5.2
+
+Deliberate Acts
+
+Deliberate acts typically followed an intentional decision to open
+Instagram for the purpose of active engagement. Thus, these behaviors align with the engagement drivers discussed in Section 4.2
+(e.g., connect with friends, pursue an interest or passion, engage in
+self-work). Here, we focus on the experiences teens reported once
+they opened Instagram, including the emotional effects. As they
+did with mindless diversions, teens more often reported positive
+emotions in conjunction with deliberate acts such as communicating with friends and making posts. However, deliberate acts were
+considerably more likely to engender self-actualizing emotions (e.g.,
+"grateful," "proud," "closeness," "trust") than the fleeting mood boosters (e.g., "silly," "amused," "quick joy") that typically resulted from
+mindless diversions.
+5.2.1 Direct and Ambient Co-Regulation. Sending and receiving
+messages from friends commonly produced feelings such as "closeness," "love," "thankful," and "trust." P08 (girl, age 17) reflected: “When
+I was talking to my friends in the group chat setting I felt like we were
+talking with each other in person and it made me feel really close
+and connected with them.” As teens used Instagram to connect with
+friends, they described ways in which friends impacted each other’s
+emotions. Sometimes, teens reached out to friends explicitly for
+emotional support, as P49 (girl, age 15) did when she was having
+problems with her mother: “I was angry because of my mom and
+was venting to my friend.” She then recorded feeling "peaceful" and
+"encouraged," explaining: “I had lots of good conversations today
+that made me feel peaceful” and “I was encouraged by a pep talk my
+friends said to me in dms.”
+Some teens described the emotional work that went into supporting friends who were struggling. In one entry, P45 (non-binary, age
+17) reported: “a friend of mine posted very sad stories and possibly
+hinting self harm.” They went on to report feeling "overwhelmed"
+when “after looking at her posts i texted her asking if she was okay
+
+Davis et al.
+
+and she didnt respond for a while.” Next, they reported feeling "nervous" and explained: “i was worried because she took too long to
+respond so i called her and was worried she wouldnt pick up but she
+did so it took a weight off my shoulders.” Talking with their friend
+made P45 feel "optimistic" because “i was glad she was okay and i
+talked to her and tried to distract her from whatever was making her
+sad.” They then reported feeling "hopeful" because “she said she was
+going to get help.” This entry concluded with P45 recording feeling
+"alert" as a result of “seeing those post i am more alert of what else
+other people post because it wont hurt to make sure theyre okay.”
+Co-regulation with friends did not always involve deep, oneon-one conversations. Sometimes, exchanges resembled mindless
+diversions as friends sent each other funny memes and reels: “I felt
+amused when looking at the videos my best friend was sending me, we
+often share videos (reels) with each other” (P14, girl, age 17). Teens
+also recorded ways that friends influenced each other’s emotions
+more indirectly as they engaged with their posts. P41 (girl, age 17)
+felt "peaceful" when “I saw a peaceful song that my friend created
+and she shared it on instagram.” P36 (boy, age 17) felt "glad" as he
+was “Looking at friend’s photos on instagram with their girlfriend,
+enjoying life, traveling, etc made me feel glad.” Sometimes, these
+‘ambient’ forms of co-regulation could help teens down-regulate
+arousing emotions such as stress and fear. Looking through friends’
+posts, P45 (non-binary, age 17) was reminded of their final year of
+high school: “Seniors were talking about the last first day of school
+and that put me into perspective that this is my last year in high
+school.” As a result, they reported: “I am much more calm and less
+stressed for this upcoming year.” Ambient forms of co-regulation also
+occurred when teens used Instagram to look back and reminisce.
+For instance, P41 felt "grateful" when “looking at photos of me and
+my bestie.”
+5.2.2 Inspiring Versus Defeatist Content. As teens used Instagram
+to connect with and pursue their interests, they often came across
+aspirational content. Sometimes, they came across such content accidentally while scrolling, such as when they discovered books they
+wanted to read, or recipes, workouts, and dance moves they wanted
+to try. Other times, teens deliberately sought out aspirational content related to an interest or passion. Most commonly, aspirational
+content elicited self-actualizing emotions such as "encouraged,"
+"inspired," and "self-assured." P12 (girl, age 16) felt inspired after “I
+watched cooking videos and actually tried to make one today.” P20
+(girl, age17) also felt inspired by content related to her interest in
+dance: “I was really inspired looking at potential college dance teams
+on Instagram; I love watching content and imagining the kinds of
+things I could do in the future.” P16 (girl, age 16), a soccer fan and
+player, explained how engaging with soccer-related content on
+Instagram impacted her for the rest of the day:
+“Watching the updates from the Spanish soccer team made me
+feel really happy throughout the day, it basically gave me a boost
+of happiness. And when I went to soccer practice and was feeling
+tired and lazy I remembered their posts and decided to continue
+practicing and trying my best because I hope to become like them
+some day.”
+Less frequently (about half as often), teens felt discouraged by
+the aspirational content they came across on Instagram, believing
+they could not live up to the standards they saw online. P50 (boy,
+
+===== PDF PAGE 9 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+
+age 16), who had an interest in graphic design, felt "inferior" when
+looking at the work of “some professional graphic designer so i felt
+like i wasn’t as good.” He also felt "overwhelmed" as he contemplated
+“so much to improve in my graphic designing journey.” Feelings of
+discouragement and jealousy most often related to encountering
+body-related content. P02 (girl, age 17) felt "self-conscious" when
+she saw “A New York girl who is the epitome of my goal body appearance.” P08 (girl, age 17) reported: “I felt a little bit jealous while
+watching a workout routine and seeing the girl’s body, she was very
+pretty and had a nice shape and it made me a little mad that I didn’t
+have a body like that.” Boys reported similar feelings of insecurity
+when engaging with body-related content. For instance, P34 (boy,
+age 16) felt insecure “Seeing gym content of other dudes showcasing
+their peak body.” P23 (boy, age 17) also felt insecure when engaging
+with “Gym and physique content.”
+5.2.3 The Work and Reward of Self-Expression. Compared to other
+deliberate acts such as engaging with friends and interest-related
+content, a relatively smaller number of teen participants (19/57,
+or 33%) reported posting behaviors such as sharing a story or uploading a selfie. When their posts received positive attention from
+friends, teens reported self-actualizing emotions, such as P22 (girl,
+age 17), who felt "uplifted" when “I made a Post and many people
+commented positive things.” After making a post with her boyfriend,
+P21 (girl, age 15) reported: “Seeing more likes on my post made me
+feel happy, like the people I know accept and support my relationship.”
+Acts of self-expression could also elicit negative emotions due to
+the vulnerability associated with being judged by others. P26 (girl,
+age 17), who put considerable effort into preparing and monitoring
+the reactions to her posts, recorded a range of emotions accompanying her posting behaviors. In one diary entry, she reported feeling
+"self-conscious" when recording vlogs: “I was recording vlogs on my
+instagram and I noticed I was self conscious of how I looked and I kept
+recording the videos over and over. I also took time to pick the perfect
+filter for my face.” The next day, she felt "overwhelmed" because
+“I uploaded a touching information on my story and I kept getting
+notifications and this overwhelmed me as I didn’t know if the texts
+and feedbacks I was getting were criticism or not.” The day after that,
+however, she reported feeling "grateful" when “I posted a story of me
+and my siblings and a lot of people interacted with it and that made
+me feel grateful to them.” On the same day, P26 also felt "uplifted"
+because of “People liking my story and sending heart emojis to my
+selfie uplifted me and made me less insecure about my face.” This
+range of emotions expressed by one teen over a three-day period
+illustrates the intertwining of personal characteristics (e.g., selfesteem), platform features and demands (e.g., filters, notifications),
+and social context (e.g., friends’ responses).
+5.2.4 Summary of Deliberate Acts. In contrast to mindless diversions, the deliberate acts described in 5.2 were more intentional
+in nature and more likely to evoke self-actualizing emotions such
+as gratitude, pride, and trust. Such feelings arose in the context of
+connecting with friends, encountering aspirational content, and
+making posts. Teens described instances of co-regulating their emotions with friends, both directly and in a more ambient way as
+they scrolled through their friends’ feeds. These instances of emotional co-regulation were typically characterized positively, but
+some teens reflected on the stress associated with supporting a
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+struggling friend. Teens also reported instances of feeling discouraged by aspirational content they encountered, as well as feelings
+of vulnerability as they waited for and anticipated reactions to their
+posts.
+
+6
+
+Discussion
+
+Our analysis of 371 diary entries (Mresponses = 6.5, sd=0.97, min=4,
+max=9) recorded by 57 US teens (Mage = 16.3 years) provides a granular view of adolescents’ emotionally-salient experiences on Instagram, including the proximal causes and consequences of regulating
+emotions on Instagram and the role of design in shaping these ER
+processes. This study contributes new insight into the temporal arc
+of teens’ ER processes on Instagram, from motivation to emotional
+response, building on prior work investigating teens’ use of social
+media for ER (e.g., [12, 19, 62, 91, 92, 112]). We also expand HCI
+research on digital emotion regulation (e.g., [93, 95, 106, 107]) by
+focusing on a specific developmental period–adolescence–during
+which ER abilities are still developing; individuals are experiencing
+a variety of physical, social, academic, and cognitive changes and
+challenges; and responses to social situations are typically accompanied by heightened emotional reactivity [37, 65]. The insights
+discussed in the following sections contribute to our understanding of the conditions under which social media supports versus
+undermines teens’ mental health, and can inform interventions,
+policies, and designs intended to support teens’ positive emotional
+experiences with social media.
+
+6.1
+
+A Model of Adolescents’ ER Processes on
+Instagram
+
+We identified three themes related to teens’ experiences with
+emotionally-salient drivers to Instagram: escape, engage, and IG
+management. We further identified two themes related to behaviors associated with emotional experiences: mindless diversions
+and deliberate acts. Teens’ emotional responses to their Instagram
+experiences ranged from positive feelings of self-actualization to
+negative feelings of self-doubt and unease, and included many
+fleeting feelings of pleasure and some displeasure. Figure 2 brings
+together the findings reported in Sections 4 and 5 to show the relationship between these drivers, behaviors, and emotional responses.
+We can use this figure to identify pathways that support more and
+less adaptive forms of ER on Instagram, as well as instances when
+ER processes are thrown off course.
+6.1.1 Adaptive Pathways. Teens sometimes turned to Instagram
+with the desire to escape stressors in their daily lives (driver). By
+engaging with mindless diversions such as funny memes, appealing photos, and entertaining reels (behavior), they were able to
+lower their stress as they experienced a boost to their mood (emotional response). This sequence aligns with prior work showing
+the effectiveness of distraction as an ER strategy to down-regulate
+negative emotions [20, 36] and is consistent with prior work on
+digital emotion regulation in adults (e.g., [95]).
+Another adaptive pathway involved more deliberate acts of engagement and was associated with self-actualizing emotions such
+as gratitude, confidence, inspiration, and trust. This pathway aligns
+with prior work exploring how ER strategies can be used to trigger
+positive emotions [37, 38, 98]. For example, the desire to engage
+
+===== PDF PAGE 10 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Davis et al.
+
+Figure 2: A model of adolescents’ ER processes on Instagram.
+with friends was a strong driver to open Instagram, and teens mostly
+described positive feelings as a result of communicating with their
+friends. The self-actualizing emotions they reported, such as love,
+closeness, and trust, stood in contrast to the more fleeting positive
+emotions (amused, silly) they derived from mindless diversions.
+Teens’ diary entries also showed how friends used Instagram
+to co-regulate their emotions. Participants engaged in direct coregulation, which typically occurred through one-on-one and group
+chats and resembled offline forms of co-regulation documented in
+psychological literature [85, 88]. We also identified more ’ambient’ forms of co-regulation that occurred as teens scrolled through
+their feed and encountered friends’ posts. These encounters often
+(though not always) engendered positive emotions as teens saw
+their friends sharing their accomplishments, experiences, and creations. This more indirect form of co-regulation illustrates how
+the affordances of social media (e.g., asynchronicity, publicness)
+can shape teens’ ER processes in distinct ways. Although we did
+not see strong evidence of co-rumination [85, 88], some teens did
+describe the emotional work involved in supporting a struggling
+friend. Consistent with prior research (e.g., [73, 110]), the always-on
+nature of mobile social media seemed to magnify this work.
+6.1.2 Less Adaptive Pathways. Some ER pathways were less adaptive. For example, teens who turned to Instagram to escape boredom
+consistently reported feeling just as bored, or even more so, after
+their time on the platform. The low-energy state with which they
+entered the platform seemed to facilitate their easy slide into mindless scrolling, itself a low-energy, reflexive action. This pathway
+aligns with prior work showing teens’ experiences of ’boredom
+in, boredom out’ on Instagram [59]. It also illustrates how teens’
+personal motivations (e.g., relieve boredom) interacted with platform features (e.g., infinite scroll) to produce an emotional response
+(more boredom) [27]. Another escape-seeking driver to Instagram,
+procrastination, was similarly part of a negative ER pathway. Consistent with psychological literature showing the maladaptiveness
+of avoidance-based ER strategies [4, 36], teens who turned to Instagram to procrastinate typically left feeling greater stress after a
+lengthy time of mindless scrolling.
+
+Managing the demands of the platform created a distinct set of
+ER pathways. Several teens described being driven to Instagram
+to relieve the stress of mounting notifications and the anticipation
+of their content, a finding echoed in a prior study showing that
+teens receive a median of 237 notifications per day from social
+media platforms [81]. The stress of anticipation was particularly
+high after teens made a post, as they wondered and worried about
+how it would be received by their friends. The only way they could
+relieve this stress was to open Instagram and check their notifications, which could result in a variety of emotions depending
+on the content they found. Although adults also feel stress when
+monitoring their social media feeds [5, 44], this stress is likely magnified for teens due to their heightened sensitivity to social feedback
+[46, 65, 96, 97]. Teens also described more internally-driven feelings
+of needing to manage Instagram, saying that they felt like something was missing if they did not check in for a day or more. The
+act of checking and managing the platform functioned as a mood
+stabilizer, but one that could be thrown off course by negative reactions from friends. These dynamics underscore what an emotionally
+salient context social media has become for teens [27, 110].
+6.1.3 Disruptions to ER Pathways. We also saw how easily adaptive
+ER pathways could be disrupted. Mindless diversions frequently
+turned into mindless scrolling as teens lost track of time and felt
+unable to control their scrolling behaviors [10, 62, 103]. This shift
+from experiencing a beneficial mood boost to dysregulated behavior undermines the potential benefits of Instagram as an ER tool.
+Indeed, absent-minded smartphone use has been linked to higher
+depression, anxiety, stress, and negative affect as well as lower positive affect and flow [63]. Such experiences go beyond ER and tap
+into the broader construct of self regulation, which includes not
+only emotion, but also attention and other behaviors [64]. Thus,
+while social media might confer some benefits to ER for teens, design features that promote reflexive behaviors pose challenges to
+teens’ still-developing cognitive control capacities.
+Another type of disruption resulted from the unpredictability of
+teens’ Instagram feeds. This meant that a relaxing scroll through
+amusing reels could quickly and unexpectedly induce negative
+
+===== PDF PAGE 11 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+
+emotions–some fleeting, others more impactful–if they came across
+triggering content such as upsetting news events or body-related
+content that made them feel insecure (see [23]). This unpredictability also meant that a casual scroll could turn into something more
+meaningful if teens came across inspiring or motivational content.
+Overall, the ease with which ER pathways could be disrupted on
+Instagram shows the platform to be an unreliable tool for ER, especially for teens who are still developing their ER skills and who
+exhibit regulatory vulnerabilities related to social situations [96, 97].
+
+6.2
+
+Design Considerations for Supporting
+Teens’ ER Processes on Instagram
+
+Figure 3 uses two axes to organize teens’ emotionally-salient experiences on Instagram. The x-axis shows a continuum from negative (left) to positive (right) emotions, and the y-axis progresses
+from meaningless (bottom) to meaningful (top) experiences. The
+four quadrants depict the main types of emotional experiences
+we identified in our analysis. We use this figure to explore design
+considerations for supporting teens’ ER processes on social media.
+6.2.1 Design for Both Mindless Diversions and Deliberate Acts.
+There is a growing body of work in HCI that explores designing
+to support people’s meaningful technology interactions, including with social media (e.g., [60, 61, 66, 69, 80, 100, 114]. Within
+the sub-field of child-computer interaction (CCI), Davis et al. [28]
+demonstrated how teens’ intentional social media use could be
+encouraged using design features that promote goal-setting, reflection, planning, and self-monitoring. These efforts seek to maximize
+the upper right quadrant of Figure 3, and the current investigation
+affirms that such a focus is valuable for the purposes of supporting
+teens’ ER. However, our analysis also suggests there is value in
+expanding the focus of design to include the bottom right quadrant,
+the location of mindless diversions, since teens derive emotional
+benefits from using social media to relax after a busy day or distract
+themselves from a stressful experience. We see an opportunity for
+social media platforms to allow teens (and other users) to indicate to
+the platform what kind of experience they are seeking, a mindless
+diversion or a more meaningful engagement, and shape the experience they go on to have accordingly. If they opt for a mindless
+diversion, measures should be taken to minimize the likelihood
+of slipping into mindless scrolling, such as the design frictions
+discussed by [86].
+6.2.2 Support In-Situ ER Strategies. Our analysis showed how
+teens frequently encountered content that sent them spiraling into
+the top lefthand quadrant. This was particularly true when engaging with friends’ content. Seeing friends having fun without
+them, looking better than they felt themselves, or otherwise thriving in enviable ways represented forms of digital stress [43] that
+engendered feelings of self-doubt, discouragement, and jealousy.
+As already discussed (see 6.1.3), teens are particularly vulnerable
+to these socially-induced stressors, and the publicness of social
+media only heightens this vulnerability. There are currently schoolfocused efforts to help teens develop positive ER strategies such as
+cognitive reappraisal to cope with the digital stress they experience
+on social media (e.g., [111]). Following other HCI researchers (e.g.,
+[56, 94]), we see opportunity in exploring the use of interaction
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+design to provide in-situ support for teens’ adaptive ER strategies.
+In contrast to psycho-educational approaches that are temporally
+distant from teens’ social media experiences, this type of just-intime intervention has the advantage of appearing at the moment
+when it is most needed [94].
+6.2.3 Reduce the Work of Managing Platform Demands. The teens
+in our study described the considerable emotional labor involved
+in managing platform demands. Consistent with prior research
+[27, 81, 110], our analysis showed that notifications, which are
+frequently tied to tagging, commenting, and liking behaviors, were
+a particular source of anxiety and stress. To help teens shift and
+remain more consistently in the righthand quadrants of Figure 3,
+we join researchers and policymakers in calling for a change to
+the default settings of social media platforms [2, 9], starting with
+disabling notifications by default. Over time, this change would help
+to recalibrate the social norms and expectations that have developed
+around always-on mobile social media use [5, 28, 44, 110]. We
+recognize that disabling notifications by default is not aligned with
+the bottom line of social media companies and that such changes
+will likely need to be compelled by government policies. Recently
+passed legislation has shown that tech companies can be required
+to make meaningful changes and alter the calculus of their bottom
+line by taking user well-being into account [32].
+
+7
+
+Limitations and Future Research
+
+Despite the strengths of the current study, some limitations should
+be considered. Although we prepared teen participants to tune into
+their emotional responses to Instagram by engaging them in an
+orientation on affective labeling at the start of the study, we still
+encountered challenges similar to those faced by others researchers
+studying digital emotion regulation in the wild (e.g., [95]). For one,
+the implicit nature of many ER processes can make it difficult for
+people to report on them even if they are attuned to their emotions
+[40, 58]. Further, as Tag et al. [98] observed, self-report methods can
+disrupt the naturalism of the experience, and even daily surveys,
+though more granular than a one-off survey or interview, still offer
+a relatively limited level of detail regarding participants’ momentby-moment experiences.
+In addition, although Instagram continues to be one of the most
+popular social media platforms among US teens [7], we know that
+teens typically interact with multiple platforms on any given day
+[7, 81]. By focusing on a single platform, we were able to provide
+an in-depth view of ER processes on Instagram, but we were unable
+to place this understanding in the broader context of teens’ social
+media ecology. We recommend that future research investigate how
+ER processes operate the same or differently for teens across social
+media platforms, as well as how site-specific dynamics interact with
+and influence each other. As our sample was limited to US teens,
+we also recommend that future research examine cross-cultural
+similarities and differences in teens’ use of social media as an ER
+tool, including what these processes look like and their outcomes
+on mental health. Future research could also explore how neurodivergent teens and teens with various disabilities use social media
+to regulate their emotions and with what effects.
+
+===== PDF PAGE 12 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Davis et al.
+
+Figure 3: Teens’ emotionally-salient experiences on Instagram, organized by meaningfulness and valence.
+
+8
+
+Conclusion
+
+Although some studies have started to consider the role of social
+media in ER for teens, most research has not yet considered (1)
+emotional drivers to social media, and (2) specific behaviors on
+social media that can impact teens’ emotional experiences. These
+processes might be underlying mechanisms involved in the relationship between social media and internalizing psychopathology
+such as depression and anxiety disorders. The current study reports on findings from a diary study investigating how teens (N=57,
+Mage = 16.3 years) used Instagram to regulate their emotions. We
+identified three kinds of emotionally-salient drivers that brought
+teens to Instagram and two types of behaviors that impacted their
+emotional experiences on the platform. Teens described going to
+Instagram to escape, to engage, and to manage the demands of the
+platform. Once on Instagram, their primary behaviors consisted of
+mindless diversions and deliberate acts. Although teens reported
+many positive emotional responses, the variety, unpredictability,
+and habitual nature of their experiences revealed Instagram to be an
+unreliable tool for emotion regulation. The insights from this work
+contribute to our understanding of the conditions under which
+social media supports versus undermines teens’ mental health, and
+can inform interventions, policies, and designs intended to support
+teens’ positive emotional experiences with social media.
+
+Acknowledgments
+The authors would like to acknowledge the Oread Fund and the
+CERES network, which each provided partial support for this work.
+We would also like to thank the wonderful undergraduate research
+assistants who helped collect and analyze the data for this research
+at the University of Washington: Taylor Mitsuko Ka’omealani Nishimoto, Adriana Lopez, Calvin Trinh, Giovanna Abrahao, Joy Li,
+Sarrah Khan, and Neha Venkatesh. Alexis Hiniker is a special government employee for the Federal Trade Commission. The content
+expressed in this manuscript does not reflect the views of the Commission or any of the Commissioners.
+
+References
+[1] 2023. Driven into Darkness: How TikTok’s ‘For You’ Feed Encourages Self-Harm and
+Suicidal Ideation. Technical Report POL 40/7350/2023. Amnesty International.
+[2] 2023. Social Media and Youth Mental Health: The U.S. Surgeon General’s
+Advisory. https://www.hhs.gov/sites/default/files/sg-youth-mental-healthsocial-media-advisory.pdf
+[3] 2024. ATLAS.ti. https://atlasti.com/. Accessed: 2024-1-15.
+[4] Amelia Aldao, Susan Nolen-Hoeksema, and Susanne Schweizer. 2010. Emotionregulation strategies across psychopathology: A meta-analytic review. Clinical
+psychology review 30, 2 (2010), 217–237.
+[5] Morgan G Ames. 2013. Managing mobile multitasking: The culture of iPhones
+on Stanford campus. In Proceedings of the 2013 conference on Computer supported
+cooperative work. 1487–1498.
+[6] Nazanin Andalibi and Justin Buss. 2020. The human in emotion recognition on
+social media: Attitudes, outcomes, risks. In Proceedings of the 2020 CHI Conference
+on Human Factors in Computing Systems. 1–16.
+[7] Monica Anderson, Michelle Faverio, and Jeffrey Gottfried. 2023. Teens, Social
+Media and Technology 2023. (2023).
+[8] Vanessa Apaolaza, Jiaxun He, and Patrick Hartmann. 2014. The effect of gratifications derived from use of the social networking site Qzone on Chinese
+adolescents’ positive mood. Computers in Human Behavior 41 (2014), 203–211.
+[9] American Psychological Association. 2023. Health Advisory: Adolescent Social
+Media Use. https://www.apa.org/topics/social-media-internet/health-advisoryadolescent-social-media-use
+[10] Amanda Baughan, Mingrui Ray Zhang, Raveena Rao, Kai Lukoff, Anastasia
+Schaadhardt, Lisa D. Butler, and Alexis Hiniker. 2022. “I Don’t Even Remember
+What I Read”: How Design Influences Dissociation on Social Media. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New
+Orleans, LA, USA) (CHI ’22). Association for Computing Machinery, New York,
+NY, USA, Article 18, 13 pages. https://doi.org/10.1145/3491102.3501899
+[11] Alexandra H Bettis, Taylor A Burke, Jacqueline Nesi, and Richard T Liu. 2022.
+Digital technologies for emotion-regulation assessment and intervention: A
+conceptual review. Clinical Psychological Science 10, 1 (2022), 3–26.
+[12] R Bottaro and P Faraci. 2022. The Use of Social Networking Sites and Its Impact
+on Adolescents’ Emotional Well-Being: A Scoping Review. Current Addiction
+Reports, 9 (4), 518-539.
+[13] Richard E Boyatzis. 1998. Transforming qualitative information: Thematic analysis and code development. Sage.
+[14] William J Brady, Ana P Gantman, and Jay J Van Bavel. 2020. Attentional capture
+helps explain why moral and emotional content go viral. Journal of Experimental
+Psychology: General 149, 4 (2020), 746.
+[15] Julia Brailovskaia, Holger Schillack, and Jürgen Margraf. 2020. Tell me why are
+you using social media (SM)! Relationship between reasons for use of SM, SM
+flow, daily stress, depression, anxiety, and addictive SM use–An exploratory
+investigation of young adults in Germany. Computers in human behavior 113
+(2020), 106511.
+[16] Karen Brans, Peter Koval, Philippe Verduyn, Yan Lin Lim, and Peter Kuppens.
+2013. The regulation of negative and positive affect in daily life. Emotion 13, 5
+(2013), 926.
+[17] Virginia Braun and Victoria Clarke. 2006. Using thematic analysis in psychology.
+Qualitative research in psychology 3, 2 (2006), 77–101.
+
+===== PDF PAGE 13 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+[18] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic
+analysis. Qualitative research in sport, exercise and health 11, 4 (2019), 589–597.
+[19] Nausikaä Brimmel, Patricia Bijttebier, and Steven Eggermont. 2024. Associations
+between intentions for affective social media content choices and depressive
+symptoms in adolescence: A cross-sectional investigation of media response
+styles as moderators. Psychology of Popular Media (2024).
+[20] Patricia C Broderick. 2005. Mindfulness and coping with dysphoric mood:
+Contrasts with rumination and distraction. Cognitive therapy and research 29
+(2005), 501–510.
+[21] David R Caruso and Peter Salovey. 2004. The emotionally intelligent manager:
+How to develop and use the four key emotional skills of leadership. John Wiley &
+Sons.
+[22] Yunxiang Chen, Ruoxuan Li, and Xiangping Liu. 2021. Relatedness frustration
+and compensatory behaviors in social networking sites among Chinese college
+students: Role of self-control failure. Current Psychology (2021), 1–10.
+[23] Sophia Choukas-Bradley, Zelal Kilic, Claire D. Stout, and Savannah R. Roberts.
+2023. Perfect Storms and Double-Edged Swords: Recent Advances in Research
+on Adolescent Social Media Use and Mental Health. Advances in Psychiatry and
+Behavioral Health 3, 1 (Sept. 2023), 149–157. https://doi.org/10.1016/j.ypsc.2023.
+03.007 Publisher: Elsevier.
+[24] Sofie Heidenheim Christensen, Michella Heinrichsen, Bo Møhl, Lotte Rubæk,
+Katherine Krage Byrialsen, Olivia Ojala, Clara Hellner, Anne Katrine Pagsberg,
+Johan Bjureberg, and Britt Morthorst. 2024. Internet-delivered emotion regulation therapy for adolescents engaging in non-suicidal self-injury and their
+parents: A qualitative, online focus group study. Psychology and Psychotherapy:
+Theory, Research and Practice (2024).
+[25] Pamela M Cole. 2014. Moving ahead in the study of the development of emotion
+regulation. International Journal of Behavioral Development 38, 2 (2014), 203–
+207.
+[26] Simone Cunningham, Chloe C Hudson, and Kate Harkness. 2021. Social media
+and depression symptoms: a meta-analysis. Research on child and adolescent
+psychopathology 49, 2 (2021), 241–253.
+[27] Katie Davis. 2023. Technology’s Child: digital media’s role in the ages and stages
+of growing up. MIT Press.
+[28] Katie Davis, Petr Slovak, Rotem Landesman, Caroline Pitt, Abdullatif Ghajar,
+Jessica Lee Schleider, Saba Kawas, Andrea Guadalupe Perez Portillo, and Nicole S.
+Kuhn. 2023. Supporting Teens’ Intentional Social Media Use Through Interaction
+Design: An exploratory proof-of-concept study. In Proceedings of the 22nd Annual
+ACM Interaction Design and Children Conference (Chicago, IL, USA) (IDC ’23).
+Association for Computing Machinery, New York, NY, USA, 322–334. https:
+//doi.org/10.1145/3585088.3589387
+[29] Rae D Drach, Natalia C Orloff, and Julia M Hormes. 2021. The emotion regulatory function of online social networking: Preliminary experimental evidence.
+Addictive behaviors 112 (2021), 106559.
+[30] Lien Faelens, Kristof Hoorelbeke, Ruben Cambier, Jill van Put, Eowyn Van de
+Putte, Rudi De Raedt, and Ernst HW Koster. 2021. The relationship between
+Instagram use and indicators of mental health: A systematic review. Computers
+in Human Behavior Reports 4 (2021), 100121.
+[31] 5Rights Foundation. 2023. Disrupted Childhood: The Cost of Persuasive Design,
+version 2. https://5rightsfoundation.com/uploads/Disrupted-Childhood-2023v2.pdf
+[32] Thomas D Grace, Christie Abel, and Katie Salen. 2023. Child-centered design
+in the digital world: investigating the implications of the Age-Appropriate
+design code for interactive digital media. In Proceedings of the 22nd Annual ACM
+Interaction Design and Children Conference. 289–297.
+[33] Isabela Granic, Hiromitsu Morita, and Hanneke Scholten. 2020. Beyond screen
+time: Identity development in the digital age. Psychological Inquiry 31, 3 (2020),
+195–223.
+[34] Kim L Gratz and Lizabeth Roemer. 2004. Multidimensional assessment of emotion regulation and dysregulation: Development, factor structure, and initial
+validation of the difficulties in emotion regulation scale. Journal of psychopathology and behavioral assessment 26 (2004), 41–54.
+[35] James J Gross. 2013. Emotion regulation: taking stock and moving forward.
+Emotion 13, 3 (2013), 359.
+[36] James J Gross. 2015. Emotion regulation: Current status and future prospects.
+Psychological inquiry 26, 1 (2015), 1–26.
+[37] James J Gross et al. 2014. Emotion regulation: Conceptual and empirical foundations. Handbook of emotion regulation 2 (2014), 3–20.
+[38] James J Gross, Gal Sheppes, and Heather L Urry. 2011. Emotion generation and
+emotion regulation: A distinction we should make (carefully). Cognition and
+emotion 25, 5 (2011).
+[39] Greg Guest. 2012. Applied thematic analysis. Sage.
+[40] Anett Gyurak, James J Gross, and Amit Etkin. 2011. Explicit and implicit
+emotion regulation: A dual-process framework. Cognition and emotion 25, 3
+(2011), 400–412.
+[41] Carolin Hagelskamp, Marc A Brackett, Susan E Rivers, and Peter Salovey. 2013.
+Improving classroom quality with the RULER approach to social and emotional learning: Proximal and distal outcomes. American journal of community
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+psychology 51 (2013), 530–543.
+[42] Jonathan Haidt. 2024. The anxious generation: How the great rewiring of childhood
+is causing an epidemic of mental illness. Random House.
+[43] Jeffrey A Hall, Ric G Steele, Jennifer L Christofferson, and Teodora Mihailova.
+2021. Development and initial evaluation of a multidimensional digital stress
+scale. Psychological assessment 33, 3 (2021), 230.
+[44] Ellie Harmon and Melissa Mazmanian. 2013. Stories of the Smartphone in
+everyday discourse: conflict, tension & instability. In Proceedings of the SIGCHI
+conference on human factors in computing systems. 1051–1060.
+[45] Xiang-Ling Hou, Hai-Zhen Wang, Cheng Guo, James Gaskin, Detlef H Rost,
+and Jin-Liang Wang. 2017. Psychological resilience can help combat the effect
+of stress on problematic social networking site usage. Personality and Individual
+Differences 109 (2017), 61–66.
+[46] Grace Icenogle and Elizabeth Cauffman. 2021. Adolescent decision making: A
+decade in review. Journal of research on adolescence 31, 4 (2021), 1006–1022.
+[47] Aisha F Iskanderani, Edgar R Rodríguez Ramírez, Annette ME Henderson, and
+Catherine Caudwell. 2023. Breezy the Calm Monster: Soft Toy Design Combined
+with Pervasive Technology to Teach Deep Breathing. In Adjunct Proceedings
+of the 2023 ACM International Joint Conference on Pervasive and Ubiquitous
+Computing & the 2023 ACM International Symposium on Wearable Computing.
+271–275.
+[48] Ferozkhan Jadhakhan, Holly Blake, Danielle Hett, and Steven Marwaha. 2022.
+Efficacy of digital technologies aimed at enhancing emotion regulation skills:
+Literature review. Frontiers in Psychiatry 13 (2022), 809332.
+[49] Chen Ji and Katherine Isbister. 2022. AR fidget: augmented reality experiences
+that support emotion regulation through fidgeting. In CHI Conference on Human
+Factors in Computing Systems Extended Abstracts. 1–4.
+[50] Erin A Kaufman, Mengya Xia, Gregory Fosco, Mona Yaptangco, Chloe R Skidmore, and Sheila E Crowell. 2016. The Difficulties in Emotion Regulation Scale
+Short Form (DERS-SF): Validation and replication in adolescent and adult samples. Journal of psychopathology and behavioral assessment 38 (2016), 443–455.
+[51] Betul Keles, Niall McCrae, and Annmarie Grealish. 2020. A systematic review:
+the influence of social media on depression, anxiety and psychological distress
+in adolescents. International journal of adolescence and youth 25, 1 (2020), 79–93.
+[52] Ryan M Kelly, Yueyang Cheng, Dana McKay, Greg Wadley, and George
+Buchanan. 2021. “it’s about missing much more than the people”: how students
+use digital technologies to alleviate homesickness. In Proceedings of the 2021
+CHI Conference on Human Factors in Computing Systems. 1–17.
+[53] Dara Kerr. 2024. Under growing pressure, meta vows to make it harder for teens
+to see harmful content. https://www.npr.org/2024/01/09/1223583540/metaharmful-content-instagram-harder-teens-facebook
+[54] Zelal Kilic, Kirsten MP McKone, Claire D Stout, Melanie J Grad-Freilich, Cecile D
+Ladouceur, Sophia Choukas-Bradley, and Jennifer S Silk. 2024. Overthinking
+over Screens: Girls Ruminate More After Negative Social Media Interactions
+with Peers Compared to In-Person Interactions. Affective Science (2024), 1–9.
+[55] Alexandra Kitson, Alissa N Antle, Sadhbh Kenny, Ashu Adhikari, Kenneth
+Karthik, Artun Cimensel, and Melissa Chan. 2024. ’I Call Upon a Friend’:
+Virtual Reality-Based Supports for Cognitive Reappraisal Identified through
+Co-designing with Adolescents. In Proceedings of the CHI Conference on Human
+Factors in Computing Systems. 1–18.
+[56] Alexandra Kitson, Petr Slovak, and Alissa N Antle. 2024. Supporting Cognitive
+Reappraisal With Digital Technology: A Content Analysis and Scoping Review
+of Challenges, Interventions, and Future Directions. In Proceedings of the CHI
+Conference on Human Factors in Computing Systems. 1–17.
+[57] Mariska Kleemans, Serena Daalmans, Ilana Carbaat, and Doeschka Anschütz.
+2018. Picture perfect: The direct effect of manipulated Instagram photos on
+body image in adolescent girls. Media Psychology 21, 1 (2018), 93–110.
+[58] Sander L Koole and Klaus Rothermund. 2011. “I feel better but I don’t know
+why”: The psychology of implicit emotion regulation. Cognition and Emotion
+25, 3 (2011), 389–399.
+[59] Rotem Landesman, Jina Yoon, Jaewon Kim, Daniela E Munoz Lopez, Lucía MagisWeinberg, Alexis Hiniker, and Katie Davis. 2024. " I Just Don’t Care Enough
+To Be Interested": Teens’ Moment-By-Moment Experiences on Instagram. In
+Proceedings of the 23rd Annual ACM Interaction Design and Children Conference.
+14–29.
+[60] Kai Lukoff, Cissy Yu, Julie Kientz, and Alexis Hiniker. 2018. What Makes
+Smartphone Use Meaningful or Meaningless? Proc. ACM Interact. Mob. Wearable
+Ubiquitous Technol. 2, 1, Article 22 (mar 2018), 26 pages. https://doi.org/10.1145/
+3191754
+[61] Ulrik Lyngs, Kai Lukoff, Petr Slovak, William Seymour, Helena Webb, Marina
+Jirotka, Jun Zhao, Max Van Kleek, and Nigel Shadbolt. 2020. ’I Just Want to Hack
+Myself to Not Get Distracted’ Evaluating Design Interventions for Self-Control
+on Facebook. In Proceedings of the 2020 CHI Conference on Human Factors in
+Computing Systems. 1–15.
+[62] Mary Madden, Angela Calvin, and Alexa Hasse. 2024.
+A doubleedged sword: How Diverse Communities of Young People Think
+About the Multifaceted Relationship Between Social Media and Mental Health. San Francisco, CA: Common Sense (2024).
+https://www.
+
+===== PDF PAGE 14 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+commonsensemedia.org/sites/default/files/research/report/2024-doubleedged-sword-hopelab-report_final-release-for-web-v2.pdf Available online at:
+https://www.commonsensemedia.org/sites/default/files/research/report/2024double-edged-sword-hopelab-report_final-release-for-web-v2.pdf.
+[63] Jeremy Marty-Dugas and Daniel Smilek. 2020. The relations between smartphone use, mood, and flow experience. Personality and Individual Differences
+164 (2020), 109966.
+[64] Megan McClelland, John Geldhof, Fred Morrison, Steinunn Gestsdóttir, Claire
+Cameron, Ed Bowers, Angela Duckworth, Todd Little, and Jennie Grammer. 2018.
+Self-regulation. Handbook of life course health development (2018), 275–298.
+[65] Katie A McLaughlin, Megan C Garrad, and Leah H Somerville. 2015. What
+develops during emotional development? A component process approach to
+identifying sources of psychopathology risk in adolescence. Dialogues in clinical
+neuroscience 17, 4 (2015), 403–410.
+[66] Elisa D Mekler and Kasper Hornbæk. 2019. A framework for the experience
+of meaning in human-computer interaction. In Proceedings of the 2019 CHI
+conference on human factors in computing systems. 1–15.
+[67] Minas Michikyan, Kaveri Subrahmanyam, Pamela Regan, Melissa Bessaha, John
+Bartholomew, Miguel A Cano, Alan Meca, and Seth J Schwartz. 2024. Identity
+Distress, Confusion, Synthesis, and Social Media Use for Coping: Implications
+for Identity Development. Identity (2024), 1–20.
+[68] Ramin Mojtabai. 2024. Problematic social media use and psychological symptoms in adolescents. Social psychiatry and psychiatric epidemiology (2024), 1–8.
+[69] Alberto Monge Roffarello and Luigi De Russis. 2023. Nudging users towards
+conscious social media use. In Proceedings of the 25th International Conference
+on Mobile Human-Computer Interaction. 1–7.
+[70] Megan A Moreno and Jonathan D’Angelo. 2019. Social media intervention
+design: applying an affordances framework. Journal of Medical Internet Research
+21, 3 (2019), e11014.
+[71] Amanda Sheffield Morris, Jennifer S Silk, Laurence Steinberg, Sonya S Myers, and
+Lara Rachel Robinson. 2007. The role of the family context in the development
+of emotion regulation. Social development 16, 2 (2007), 361–388.
+[72] Karen Nelson-Field, Erica Riebe, and Kellie Newstead. 2013. The emotions that
+drive viral video. Australasian Marketing Journal 21, 4 (2013), 205–211.
+[73] Jacqueline Nesi, Sophia Choukas-Bradley, and Mitchell J Prinstein. 2018. Transformation of adolescent peer relations in the social media context: Part 1—A
+theoretical framework and application to dyadic peer relationships. Clinical
+child and family psychology review 21 (2018), 267–294.
+[74] Jacqueline Nesi and Mitchell J Prinstein. 2015. Using social media for social
+comparison and feedback-seeking: Gender and popularity moderate associations
+with depressive symptoms. Journal of abnormal child psychology 43 (2015), 1427–
+1438.
+[75] Lorelli S Nowell, Jill M Norris, Deborah E White, and Nancy J Moules. 2017.
+Thematic analysis: Striving to meet the trustworthiness criteria. International
+journal of qualitative methods 16, 1 (2017), 1609406917733847.
+[76] Candice L Odgers, Stephen M Schueller, and Mimi Ito. 2020. Screen time,
+social media use, and adolescent development. Annual Review of Developmental
+Psychology 2, 1 (2020), 485–502.
+[77] Christine McCauley Ohannessian, Tessa Fagle, and Caroline Salafia. 2021. Social
+media use and internalizing symptoms during early adolescence: the role of
+co-rumination. Journal of affective disorders 280 (2021), 85–88.
+[78] Natasha Parent. 2023. Basic need satisfaction through social media engagement:
+A developmental framework for understanding adolescent social media use.
+Human Development 67, 1 (2023), 1–17.
+[79] Lulu Peng, Jinping Wang, Nanxiao Zheng, and Xiaoping Guo. 2024. Traversing
+Emotional Spaces: Social Media Affordances and Emotion Regulation in Times
+of Physical Isolation. Social Media+ Society 10, 1 (2024), 20563051241237273.
+[80] Dorian Peters, Rafael A Calvo, and Richard M Ryan. 2018. Designing for motivation, engagement and wellbeing in digital experience. Frontiers in psychology
+9 (2018), 797.
+[81] J Radesky, HM Weeks, A Schaller, M Robb, S Mann, and A Lenhart. 2023. Constant companion: A week in the life of a young Person’s smartphone use.
+San Francisco, CA: Common Sense. Available online at: https://www. commonsensemedia. org/sites/default/files/research/report/2023-cs-sm artphone-researchreport_final-for-web. pdf (2023).
+[82] Leonard Reinecke, Alicia Gilbert, and Allison Eden. 2022. Self-regulation as
+a key boundary condition in the relationship between social media use and
+well-being. Current Opinion in Psychology 45 (2022), 101296.
+[83] Neil Richards and Woodrow Hartzog. 2024. Against Engagement. BUL Rev. 104
+(2024), 1151.
+[84] Michaela Riediger and Kathrin Klipker. 2014. Handbook of emotion regulation.
+The Guilford Press, New York, NY, Chapter 12, 187–202.
+[85] Amanda J Rose. 2021. The costs and benefits of co-rumination. Child Development Perspectives 15, 3 (2021), 176–181.
+[86] Nicolas Ruiz, Grabriela Molina León, and Hendrik Heuer. 2024. Design Frictions
+on Social Media: Balancing Reduced Mindless Scrolling and User Satisfaction.
+arXiv preprint arXiv:2407.18803 (2024).
+
+Davis et al.
+
+[87] Ofir Sadka and Alissa Antle. 2020. Interactive technologies for emotionregulation training: Opportunities and challenges. In Extended abstracts of the
+2020 CHI conference on human factors in computing systems. 1–12.
+[88] Razia S Sahi, Naomi I Eisenberger, and Jennifer A Silvers. 2023. Peer facilitation
+of emotion regulation in adolescence. Developmental Cognitive Neuroscience 62
+(2023), 101262.
+[89] Arianna Sala, Lorenzo Porcaro, and Emilia Gómez. 2024. Social Media Use and
+adolescents’ mental health and well-being: An umbrella review. Computers in
+Human Behavior Reports 14 (2024), 100404.
+[90] Magdalena Sánchez-Fernández, Mercedes Borda-Mas, Zsolt Horváth, and Zsolt
+Demetrovics. 2024. Similarities and differences in the psychological factors
+associated with generalised problematic internet use, problematic social media
+use, and problematic online gaming. Comprehensive psychiatry 134 (2024),
+152512.
+[91] Riley A Scott, Melanie J Zimmer-Gembeck, Alex A Gardner, Tanya Hawes,
+Kathryn L Modecki, Amanda L Duffy, Lara J Farrell, and Allison M Waters. 2024.
+Daily use of digital technologies to feel better: Adolescents’ digital emotion
+regulation, emotions, loneliness, and recovery, considering prior emotional
+problems. Journal of Adolescence 96, 3 (2024), 539–550.
+[92] Michael Shankleman, Linda Hammond, and Fergal W Jones. 2021. Adolescent social media use and well-being: A systematic review and thematic meta-synthesis.
+Adolescent Research Review 6, 4 (2021), 471–492.
+[93] Yaoxi Shi, Peter Koval, Vassilis Kostakos, Jorge Goncalves, and Greg Wadley.
+2023. “Instant Happiness”: Smartphones as tools for everyday emotion regulation. International Journal of Human-Computer Studies 170 (2023), 102958.
+[94] Petr Slovak, Alissa Antle, Nikki Theofanopoulou, Claudia Daudén Roquet, James
+Gross, and Katherine Isbister. 2023. Designing for emotion regulation interventions: an agenda for HCI theory and research. ACM Transactions on ComputerHuman Interaction 30, 1 (2023), 1–51.
+[95] Wally Smith, Greg Wadley, Sarah Webber, Benjamin Tag, Vassilis Kostakos,
+Peter Koval, and James J Gross. 2022. Digital emotion regulation in everyday
+life. In Proceedings of the 2022 CHI conference on human factors in computing
+systems. 1–15.
+[96] Leah H Somerville. 2013. The teenage brain: Sensitivity to social evaluation.
+Current directions in psychological science 22, 2 (2013), 121–127.
+[97] Laurence Steinberg. 2005. Cognitive and affective development in adolescence.
+Trends in cognitive sciences 9, 2 (2005), 69–74.
+[98] Benjamin Tag, Zhanna Sarsenbayeva, Anna L Cox, Greg Wadley, Jorge
+Goncalves, and Vassilis Kostakos. 2022. Emotion trajectories in smartphone use:
+Towards recognizing emotion regulation in-the-wild. International Journal of
+Human-Computer Studies 166 (2022), 102872.
+[99] Benjamin Tag, Niels van Berkel, Andrew W Vargo, Zhanna Sarsenbayeva, Tyler
+Colasante, Greg Wadley, Sarah Webber, Wally Smith, Peter Koval, Tom Hollenstein, et al. 2022. Impact of the global pandemic upon young people’s use of
+technology for emotion regulation. Computers in Human Behavior Reports 6
+(2022), 100192.
+[100] Nađa Terzimehić, Luke Haliburton, Philipp Greiner, Albrecht Schmidt, Heinrich
+Hussmann, and Ville Mäkelä. 2022. MindPhone: Mindful reflection at unlock can
+reduce absentminded smartphone use. In Proceedings of the 2022 ACM Designing
+Interactive Systems Conference. 1818–1830.
+[101] Nikki Theofanopoulou, Katherine Isbister, Julian Edbrooke-Childs, Petr Slovák,
+et al. 2019. A smart toy intervention to promote emotion regulation in middle
+childhood: feasibility study. JMIR mental health 6, 8 (2019), e14029.
+[102] Sarah J Tracy. 2010. Qualitative quality: Eight “big-tent” criteria for excellent
+qualitative research. Qualitative inquiry 16, 10 (2010), 837–851.
+[103] Jonathan A Tran, Katie S Yang, Katie Davis, and Alexis Hiniker. 2019. Modeling
+the engagement-disengagement cycle of compulsive phone use. In Proceedings
+of the 2019 CHI conference on human factors in computing systems. 1–14.
+[104] Moshe Y Vardi. 2023. Computing, You Have Blood on Your Hands! Commun.
+ACM 67, 1 (2023), 5–5.
+[105] Akriti Verma, Shama Islam, Valeh Moghaddam, and Adnan Anwar. 2023. Encouraging emotion regulation in social media conversations through self-reflection.
+In 2023 IEEE Engineering Informatics. IEEE, 1–8.
+[106] Akriti Verma, Shama Islam, Valeh Moghaddam, and Adnan Anwar. 2024. Digital
+Emotion Regulation on Social Media. Computer 57, 6 (2024), 82–89.
+[107] Greg Wadley, Wally Smith, Peter Koval, and James J Gross. 2020. Digital emotion
+regulation. Current Directions in Psychological Science 29, 4 (2020), 412–418.
+[108] Nadine Wagener, Arne Kiesewetter, Leon Reicherts, Paweł W Woźniak, Johannes
+Schöning, Yvonne Rogers, and Jasmin Niess. 2024. MoodShaper: A Virtual
+Reality Experience to Support Managing Negative Emotions. In Proceedings of
+the 2024 ACM Designing Interactive Systems Conference. 2286–2304.
+[109] Lutz Wartberg, Rainer Thomasius, and Kerstin Paschke. 2021. The relevance of
+emotion regulation, procrastination, and perceived stress for problematic social
+media use in a representative sample of children and adolescents. Computers in
+Human Behavior 121 (2021), 106788.
+[110] Emily Weinstein and Carrie James. 2022. Behind their screens: What teens are
+facing (and adults are missing). MIT Press.
+
+===== PDF PAGE 15 =====
+
+“You Go Through So Many Emotions Scrolling Through Instagram”:
+How Teens Use Instagram To Regulate Their Emotions
+[111] Emily Weinstein and Carrie James. 2022. School-Based Initiatives Promoting
+Digital Citizenship and Healthy Digital Media Use. Handbook of Adolescent
+Digital Media Use and Mental Health; Cambridge University Press: Cambridge,
+UK (2022), 365.
+[112] Monique West, Simon Rice, and Dianne Vella-Brodrick. 2023. Adolescent social
+media use: cultivating and constraining competence. International Journal of
+Qualitative Studies on Health and Well-being 18, 1 (2023), 2277623.
+[113] Monique West, Simon Rice, and Dianne Vella-Brodrick. 2023. Mid-adolescents’
+social media use: Supporting and suppressing autonomy. Journal of Adolescent
+Research (2023), 07435584231168402.
+[114] Mingrui Ray Zhang, Kai Lukoff, Raveena Rao, Amanda Baughan, and Alexis
+Hiniker. 2022. Monitoring Screen Time or Redesigning It? Two Approaches
+to Supporting Intentional Social Media Use. In Proceedings of the 2022 CHI
+Conference on Human Factors in Computing Systems. 1–19.
+[115] Xin-Xue Zhang, Detlef H Rost, Jin-Liang Wang, and Katherine J Reynolds. 2020.
+Active and passive social networking sites usage and negative emotions: A
+reciprocal relationship? Journal of Social and Clinical Psychology 39, 3 (2020),
+195–213.
+
+A Appendix
+A.1 Daily Survey Questions for iOS Instagram
+Users
+1. Please enter your participant ID (found in your email!)
+2. How often did you check Instagram today?
+For example, if you checked Instagram once today, please enter
+[1] below.
+If you checked Instagram twice, please fill in [2] below, and so
+on.
+o Number of times I checked Instagram:
+3. For how long did you use Instagram today?
+For example, if you spent about a half-hour on Instagram, you
+would fill out the boxes like this: [0] Hours [30] Minutes.
+If you spent about two hours on it, you would fill out the boxes
+like this: [2] Hours [0] Minutes.
+If you spent about an hour and 15 minutes on it, you would fill
+out the boxes like this: [1] Hours [15] Minutes. If you spent no time
+yesterday on it, you would fill out the boxes like this: [0] hours [0]
+minutes.
+o Hours: o Minutes:
+4. What features were you interacting with on Instagram today?
+[Select all that apply]
+• Post
+• Short video (e.g. Reels)
+• Live
+• 1:1 messaging
+• Group chat
+• My profile
+• Friend’s profile
+• Friend’s followers/friends list
+• Feed from content with non-friends (e.g.Discover)
+• Other
+4.1 [Question displayed if they selected "Other"] If you selected
+"other", please describe below what you did on Instagram today:
+5. How were you interacting with those features on Instagram:
+[Select all that apply]
+• Checking
+• Creating/writing
+• Sharing
+• Saving
+• Commenting
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+• Liking
+• Editing
+• Deleting
+• Messaging
+• Scrolling
+• Other
+5.1 [Question displayed if they selected "Other"] If you selected
+"other", please describe below how you were interacting with Instagram today:
+6. Did anything stand out to you today from your Instagram use?
+Please describe what stood out and why.
+7. What emotions do you recall feeling while using Instagram
+today? List all the emotions you recall feeling.
+Space for emotion 1: Space for emotion 2: Space for emotion 3:
+Space for emotion 4: Space for emotion 5: Space for emotion 6:
+7.1 [Question displayed if space for emotion 1 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 1.
+7.2 [Question displayed if space for emotion 2 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 2.
+7.3 [Question displayed if space for emotion 3 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 3.
+7.4 [Question displayed if space for emotion 4 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 4.
+7.5 [Question displayed if space for emotion 5 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 5.
+7.6 [Question displayed if space for emotion 6 was not empty.]
+As best you can, please describe what you were looking at/doing
+on Instagram to make you feel emotion 6.
+8. How, if at all, do you think your use of Instagram impacted
+how you felt during the rest of the day, when not using Instagram?
+• 1: Very little
+• 2
+• 3: Neutral
+• 4
+• 5: Very much
+9. Please explain how your use of Instagram did or didn’t impact
+how you felt during the rest of the day, when not using Instagram.
+10. Are you willing to talk through the responses above with the
+research team during your individual interview session?
+• Yes
+• No
+
+A.2
+
+Final Coding Scheme
+
+===== PDF PAGE 16 =====
+
+CHI ’25, April 26–May 01, 2025, Yokohama, Japan
+
+Theme
+
+Davis et al.
+
+Sub-Theme
+
+Escape
+Motivation
+to open
+IG
+
+Engage
+
+IG management
+
+Mindless diversions
+Experiences on IG
+
+Deliberate acts
+
+High/increasing arousal
+Low/decreasing arousal
+Emotional effects
+
+Positive valence
+Negative valence
+Mixed or
+ambiguous
+valence
+Table 2: Code Table
+
+Code
+Escape
+boredom
+Fill Empty
+Time
+Procrastination
+Driven by
+habitual patterns
+of behavior
+Cope with
+IRL stress
+Distraction
+Connect with
+friends
+Seek information
+related to
+interests
+Seeking inspiration
+or motivation
+Self Expression
+Respond to
+platform
+notification
+Keep up with
+IG activity
+Stave off
+FOMO
+Engage with
+escapist &
+entertaining
+content
+Morphing into
+mindless
+scrolling
+Disrupted by
+triggering
+content
+Direct
+co-regulation
+with friends
+Ambient
+co-regulation
+with friends
+Aspirational or
+inspirational
+content
+Aspirational or
+defeatists
+content
+Acts of self-expresssion
+Selfactualizing,
+sustaining
+Fleeting

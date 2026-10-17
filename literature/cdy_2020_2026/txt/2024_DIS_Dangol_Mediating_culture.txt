@@ -1,0 +1,1933 @@
+SOURCE PDF: ../pdf/2024_DIS_Dangol_Mediating_culture.pdf
+SOURCE URL: https://adango26.github.io/assets/pdf/24_dis.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+Mediating Culture: Cultivating Socio-cultural Understanding of
+AI in Children through Participatory Design
+Aayushi Dangol∗
+
+Michele Newman∗
+
+Robert Wolfe
+
+adango@uw.edu
+University of Washington
+Seattle, WA, USA
+
+mmn13@uw.edu
+University of Washington
+Seattle, WA, USA
+
+rwolfe3@uw.edu
+University of Washington
+Seattle, WA, USA
+
+Jin Ha Lee
+
+Julie A. Kientz
+
+Jason C. Yip
+
+jinhalee@uw.edu
+University of Washington
+Seattle, WA, USA
+
+jkientz@uw.edu
+University of Washington
+Seattle, WA, USA
+
+jcyip@uw.edu
+University of Washington
+Seattle, WA, USA
+
+Caroline Pitt
+
+pittc@uw.edu
+University of Washington
+Seattle, WA, USA
+
+Figure 1: Drawings by children of answers to prompts about cats and dogs from Design Session 5
+
+ABSTRACT
+The surge in access to and awareness of Generative Artifcial Intelligence (GenAI) such as ChatGPT has sparked discussion over
+the necessary technological literacies and competencies needed to
+efectively engage with these systems. In this context, we explore
+AI as a tool that mediates cultural understanding and remediates
+human values – that are often infuenced by biases and inequities.
+Using participatory design for learning with a group of 13 children
+(ages 8-13), we engaged in fve co-design sessions featuring different modalities for socio-cultural approaches to AI literacy. We
+found that children were more aware of the cultural mediation
+aspect of AI when the content of the interaction aligned with their
+cultural background and context. This underscored the signifcance
+∗ denotes equal contribution
+
+of aligning the representation of culture in these GenAI systems
+with people’s socio-cultural ecosystems in modern technological
+literacies. We conclude with design principles for a more critical
+and holistic approach to AI literacy.
+
+CCS CONCEPTS
+• Human-centered computing → Empirical studies in HCI; •
+Applied computing → Interactive learning environments.
+
+KEYWORDS
+Cultural mediation, AI Literacy, Participatory design, Generative
+AI
+
+ACM Reference Format:
+Aayushi Dangol, Michele Newman, Robert Wolfe, Jin Ha Lee, Julie A. Kientz,
+Jason C. Yip, and Caroline Pitt. 2024. Mediating Culture: Cultivating Sociocultural Understanding of AI in Children through Participatory Design.
+In Designing Interactive Systems Conference (DIS ’24), July 01–05, 2024, IT
+University of Copenhagen, Denmark. ACM, New York, NY, USA, 18 pages.
+https://doi.org/10.1145/3643834.3661515
+
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+© 2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0583-0/24/07
+https://doi.org/10.1145/3643834.3661515
+
+1805
+
+===== PDF PAGE 2 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+1
+
+Dangol & Newman et al.
+
+INTRODUCTION
+
+Artifcial Intelligence (AI) systems are increasingly integrated into
+our everyday socio-cultural experiences with technology. The increasingly active role Generative AI (GenAI) is playing in crafting
+cultural artifacts such as stories [74], artwork [3], news articles
+[91], and video games [86] is spurring debates on the nature of creativity, remix culture, and intellectual property [25]. Furthermore,
+GenAI systems are being integrated into technology for all ages
+and ability levels, such as the integration of the storytelling tool
+“Create with Alexa,” which allows children to witness GenAI craft
+bespoke narratives refective of the child’s preferences, complete
+with illustrations, background music, and sound efects [47].
+Given that GenAI and AI systems have become refned to a
+point where they are being used increasingly in public, creative,
+and casual ways, there is a need for AI literacy to address how
+these tools operate as part of the larger socio-technical ecosystem
+[10]. New technologies such as GenAI may be understood as what
+Brinkmann et al. [9] describe as machine culture, where AI not only
+interprets culture but also actively changes the way that culture
+evolves, drawing on the values of both the cultural data inputs
+and the designers of the AI model. This in turn can impact our
+ideologies and political policies [6], meaning that AI’s impact on
+culture extends beyond immediate concerns like replications of
+human biases: it also suggests we are actively developing new ways
+to interpret the roles of information, art, and meaning-making
+in our culture, thereby infuencing our collective perception of
+the world [25, 61]. Therefore, a question arises–what role does AI
+play as a cultural tool? In this work, we defne a cultural tool as a
+technology that enables mediation [31], meaning a technology that
+allows for the transmission of symbolic messages between human
+agents and the environment [16]. More specifcally, our work is
+interested in exploring the impact of AI not as a technical tool,
+manipulating cultural media objects, but a psychological one, that
+acts as a symbolic mediator of cultural concepts similar to other
+tools such as language [44]. Furthermore, electronic media has been
+suggested to perform mediation at both the individual level and
+at a mass cultural scale [53]. Therefore, we seek to also explore
+how users understand these larger social systems that create and
+disseminate these technologies.
+From this socio-cultural perspective, Lev Vygotsky’s work suggests that children ofer a particularly apt way to understand cultural transmission, as they are active participants in cultural learning [44]. Children require more explicit scafolding, typically from
+adults, to engage with and build an understanding of the cultural
+signs; yet, AI is unique in that it is a relatively new cultural tool
+that many adults are also still actively learning about and integrating into their lives [48]. Therefore, design methodologies such as
+participatory design (PD) ofer a useful approach to simulate and
+elicit both child and adult perspectives on how AI technologies may
+mediate culture [101] and can inform more inclusive and culturally
+responsive technologies.
+Considering this approach, we propose that the cultural mediation of AI is in dialogue with prior research on AI literacy. Recognizing the potential systemic and long-term impacts that AI systems
+may have on society, experts in AI education have suggested a series
+of essential competencies for navigating this evolving technological
+
+1806
+
+landscape. Notably, Long and Magerko defne these competencies
+as the requisite skills for people to “critically evaluate AI technologies; communicate and collaborate efectively with AI; and use AI as
+a tool online, at home, and in the workplace” [57, p. 2]. While recent
+research has explored methodologies for introducing children to
+the societal implications of AI systems [1, 19, 20, 57, 64] through
+the lens of computational thinking perspectives [17, 43, 46, 90] and
+the fairness aspect of the model’s performance [12, 21, 50, 83], we
+build on prior work to investigate how children engage with AI
+systems as mediators of cultural understanding. With these new
+AI interfaces, it is also possible to draw on children’s own funds of
+knowledge [67] to support their understanding of the inner workings of AI. To that end, we set out to answer the following research
+question:
+• RQ: How do children (ages 8-13) explore their understanding
+of AI as a cultural tool through participation in co-design
+workshops around AI literacy?
+We conducted fve participatory design (PD) sessions [22] with 13
+children (ages 7 - 13) from February 2023 to October 2023. Through
+the PD method of Cooperative Inquiry [22], we drew on adultchild design partnerships to understand how children interpreted
+and articulated the cultural implications of AI. Co-design activities
+ranged from using ChatGPT for creative writing to paper-and-pen
+simulation of AI classifcation, and aimed to elicit how children
+conceptualized ideas of AI as a cultural tool. Our fndings revealed
+that children actively integrated AI into their cultural experiences,
+using it not only for creative endeavors but also as a lens through
+which they critically examined and navigated cultural biases within
+the technology. Furthermore, this suggests that children may understand AI as a tool that mediates cultural signs diferently than
+themselves, critically interpreting these signs when they refected
+on their own cultural experiences and funds of knowledge [67].
+Based on our analysis of children’s conversations, collaborations,
+and creative endeavors in our design sessions, our work contributes
+an empirical understanding of how the interactions of children with
+socio-cultural aspects of AI technologies help them understand AI
+as a cultural tool, connecting their experiences to the theory of remediation [5]. We emphasize AI’s dual role as both a tool enabling
+the manipulation of cultural objects and a simulator of cultural symbols, and based upon our observations and this concept, we present
+a set of design principles for fostering children’s understanding of
+AI as a cultural mediator. Lastly, we discuss design implications for
+AI education across diferent ages and contexts.
+
+2
+
+RELATED WORK
+
+To understand how children (and others) approach and perceive
+the socio-cultural mediation of AI, we frst consider existing theories on mediation and digital cultural tools. This section begins by
+examining these theoretical foundations, followed by a review of
+prior research focusing on AI literacy and design approaches for
+teaching AI competencies.
+
+2.1
+
+Mediation and Digital Cultural Tools
+
+Education scholar Harry Daniels suggested that mediation can be
+understood as a process through which individuals are “acted upon
+through social, cultural and historical factors” [16, p. 36]. This process
+
+===== PDF PAGE 3 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+involves how our interactions with culture and cultural artifacts
+transform our mental models and understanding of the world. The
+concept of mediation traces its roots back to the learning theories of
+Lev Vygotsky [44], who proposed that culture had a central role in
+learning and that one’s understanding of the world was constructed
+based on their interactions with external cultural symbols. These
+symbols are defned as cultural tools. Vygotsky further categorizes
+these tools into two distinct types: “technical tools,” which manipulate the properties of external objects, and “psychological tools,”
+directed towards inner understanding.
+In the context of digital technology, and particularly the sociotechnical systems such as popular social media tools, the distinction
+between technical and psychological tools becomes more complex.
+As an example, the work of the media theorist Lev Manovich explores the concept of “cultural software,” which is a term he uses
+to describe software that support cultural actions such as creating,
+accessing, and sharing cultural artifacts. These technologies also
+include interactive cultural experiences and are, as Henry Jenkins
+posits, participatory in nature [39]. In essence, a cultural software
+is a cultural tool, but is often one that can, due to the nature of
+the digital medium, both manipulate digital objects and impact
+internal cognitive process. For example, a cultural software such
+as Adobe Photoshop operates external to the individual. It allows
+user to enact various technical tasks such as selecting colors or
+changing line thicknesses. Simultaneously, it also prompts a user to
+think about their creative expression and the way certain choices
+will impact a fnal product, efectively supporting their internal
+cognitive processes. These tools then, mediate how concepts such
+as “color” are understood both internally and externally. Software
+such as Photoshop also mediates our interpretations of images we
+view online, as photos can be changed and manipulated through the
+lens of the editor, instilling certain cultural values into the changes
+to the image (skin tone, thinness, removal of blemishes, and so on).
+Continuing along similar lines, AI is seen by some as a mediator
+of cultural understanding but also as an active agent in shaping
+cultural evolution [9]. While historically new technology can often
+lead to cultural change [89], Brinkmann et al. [9] propose that AI’s
+unique capacity lies in its potential to fundamentally transform the
+trajectory of cultural evolution. As an example, they suggest the
+ability of GenAI to recombine cultural concepts, raising questions
+of its potential to support new conceptions of art [9]. However,
+the role of AI in cultural products such as art and music is not
+readily agreed upon amongst technologists, artists, philosophers,
+and scholars [61], nor the general public [42]. Previous work has
+also suggested, that AI-mediated communication may lead to less
+trustworthiness [35, 55] as well as ethical concerns such as privacy
+and misinterpretation [94]. While it is apparent that AI does mediate aspects of broader popular culture in some form, the exact
+avenue for this is still emergent. In this work, we focus instead on
+how to scafold understanding of the cultural mediation through
+participatory design, delving into how children understand AI in
+their own cultural context.
+
+2.2
+
+AI Literacy
+
+AI literacy encompasses an understanding of AI concepts, practices and perspectives that enable learners to critically evaluate
+
+1807
+
+and utilize AI technologies [19, 57] while fostering considerations
+for AI ethics [57, 73, 84, 90]. Touretzky’s fve “big ideas” of AI –
+perception, representation & reasoning, learning, natural interaction and societal impact – provide a strong starting foundation for
+how to foster AI literacy [90]. Here, perception pertains to how
+computers interpret the world through sensors; representation and
+reasoning involve agents maintaining models of the world and
+utilizing them for logical thinking; learning involves computers
+gaining knowledge from data; natural interaction addresses the
+challenge AI developers encounter in creating agents that can interact seamlessly with humans; and societal impact refers to the
+potential efects of AI applications on society, both positive and negative [90]. Long et al. furthers this discussion of competencies by
+outlining AI literacy competencies (e.g. “Recognize that humans play
+an important role in programming, choosing models, and fne-tuning
+AI systems.”[57, p. 6]) and ofering several design considerations
+for fostering AI literacy (e.g. “Consider leveraging learners’ interests
+(e.g. current issues, everyday experiences, or common pastimes like
+games or music”[57, p. 9]) when designing AI literacy interventions.
+Additionally, Long et al. emphasize that from a HCI perspective,
+prioritizing design considerations such as explainability, leveraging learners’ interests and contextualizing data among others can
+enhance the development and implementation of educational programs aimed at cultivating AI literacy [57]. We use the fve “big
+ideas” [90] and Long’s AI literacy competencies/design considerations [58] as guiding frameworks for our design research in this
+paper.
+Furthermore, in recent years, researchers have introduced various educational resources aimed at diferent age groups to raise
+awareness about the societal implications of AI systems [37, 65].
+For example, Melsion et al. [64] introduced an educational platform
+to teach pre-adolescents about gender bias in supervised machine
+learning. Payne [73] worked with young learners to emphasize the
+importance of training data in machine learning algorithms and
+helped them explore the potential repercussions of biased datasets
+on system outputs. Other scholars have addressed this topic from
+the lens of biases and power structures within the context of algorithmic fairness and demonstrated that children are capable of
+recognizing bias in their lives and technologies [14, 21, 50, 83].
+Additionally, several scholars have also used constructionist approaches – where students actively build their own understanding,
+often through project based learning [72] – to integrate the technical concepts of AI systems with discussions about society and
+ethics [26, 75]. By connecting AI curricula with learner’s existing
+expertise, constructionist projects foster a personally meaningful
+learning experience that allow learners to use their existing knowledge to challenge and question AI’s decisions [15]. For example, in
+a study conducted by Castro and Desportes [13], learners examined
+the socio-technical aspects of AI as they created dance moves with
+a creative computing system, danceON. As students participated
+in their creation process with danceON, they discovered the implications of biased cultural assumptions about the human body
+embedded within AI systems [13]. Similarly, Register and Ko [77]
+had learners train basic machine learning models using personal
+data they had collected, followed by refective exercises evaluating
+the applications and limitations of these models.
+
+===== PDF PAGE 4 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+While prior work has demonstrated a need to defne competencies needed for AI literacy and its connection to design, as well as
+a need for educational resources that help children connect these
+competencies to their everyday lives; our work builds on this approach by supporting children to question and recognize the role
+that AI systems play in mediating cultural understanding, including
+drawing a connection to how the amplifcation of certain cultural
+ideologies are mediated through technology.
+
+3
+
+METHODS
+
+Building upon previous literature in both AI literacy and the mediation potentials of digital tools, we use participatory design methods
+to investigate how children comprehend AI and its role as a cultural
+tool. This section details our methodology, including our use of Cooperative Inquiry, participants, descriptions of our design sessions,
+and data analysis.
+
+3.1
+
+Cooperative Inquiry
+
+We employed a participatory design (PD) method called Cooperative Inquiry (CI) [22, 23, 101], which positions children as active
+partners with adult researchers in co-designing new technologies
+[23, 29, 101]. CI has been shown to support constructionist learning
+[22] and foster the development of conceptual models [99] and
+pedagogical strategies [80, 81] that inform design implications. Additionally, prior research suggests that CI empowers children to
+express abstract and complex ideas more concretely by facilitating discussions and prompting refection [22, 81]. CI has proven
+valuable in studying various aspects of children’s experiences, including their perceptions of security and privacy [45, 100], studies
+on gender and sexuality [52], examinations of family fnances [97],
+and investigations into the role of creativity [2]. We similarly employ CI as a means of enabling children to question and recognize
+the role that AI systems play in mediating cultural understanding.
+Additionally, we aim to encourage children to share their thoughts
+about AI through collaborative design processes, fostering dialectical engagement [62] and creative expression [41].
+
+3.2
+
+Participants
+
+We conducted our study with the co-design group KidsTeam UW.
+KidsTeam UW includes adult design team members (researchers,
+graduate and undergraduate research assistants) and � =13 child
+participants living in Seattle, United States. The co-design group
+meets twice a week over the course of the school year, as well as for
+a one week camp in summer. Children who participate may come to
+one or both of these weekly sessions. Due to this, not all participants
+are present in all sessions. For the purposes of this work, child
+participants are denoted with the prefx ‘P’ (e.g., “P7 said...”). The
+demographic information of these participants is included in Table
+1. Child participants were recruited through mailing lists, posters,
+and snowball sampling. Participants, once recruited, participate
+throughout the school year. We obtained parental consent and
+child assent for all participants, and our university’s Institutional
+Review Board reviewed and approved the research.
+
+1808
+
+3.3
+
+Design Sessions
+
+KidsTeam UW meets twice weekly in a designated space on a university campus. Every KidsTeam UW session consists of: Snack
+Time (15 minutes) to foster relationships with the children; Circle Time (15 minutes) with a warm up activity in which adult
+facilitators ask a “Question of the Day” to prime children for the
+design activity; Design Time, wherein children co-design with
+adult facilitators in groups (45 minutes); and fnally, Discussion
+Time (15 minutes), wherein groups present their fnal designs and
+the whole team refects on the design experience. We held fve such
+co-design sessions (denoted with “DS”) over the course of eight
+months, between February to October 2023.
+During these sessions, we adhered to the four dimensions of
+equal and equitable design partnerships [101]. Each group included
+multiple children and two or more adult facilitators, to allow for
+adult and children collaboration and foster a dynamic where children could inspire each other while still receiving individual guidance from the adult facilitators [98, 101]. To mitigate potential
+power imbalances and infuence of children’s responses on each
+other, facilitators were trained to encourage equal participation,
+ensuring that every child felt their input was valued, thereby promoting an environment where children felt comfortable expressing
+unique thoughts without undue infuence from their peers or the
+adults [98, 101]. Adult facilitators were also trained to navigate
+discussions in a way that minimized dominant behavior by any
+single participant and to foster collective idea generation where
+contributions were built upon rather than overshadowed [98, 101].
+The warm-up questions prompted children to share their personal experiences with AI and were intended to create an inclusive
+environment in which all participants felt comfortable voicing their
+perspectives. During the design activities, fve to eight adult facilitators acted as design partners for each 90-minute session. Children
+and adult facilitators collaborated in groups of three to four as they
+participated in four design activities focused on the socio-cultural
+aspects of AI. These activities included: (1) Exploring children’s
+initial experiences with GenAI tools; (2) Examining how children
+interpret the use of AI for classifcation; and (3) Investigating how
+children perceive their thinking in contrast to AI outputs. Table 2
+presents the learning goals of the sessions, along with an overview
+of the design objectives for these interactions.
+3.3.1 DS1 (February 2023): Using ChatGPT 3.5 for Creative Writing.
+We frst introduced kids to ChatGPT 3.5 (henceforth referred to as
+ChatGPT ) as a cultural technology via a familiar school exercise:
+creative writing. Children were encouraged to prompt ChatGPT to
+generate various genres of writing, such as poems, song lyrics, short
+stories, movie scripts, and plays. DS1 aligns with the learning goal
+of understanding AI as cultural tool as it allows children to interact
+with ChatGPT in the context of creating cultural artifacts. Children
+were given the freedom to prompt the AI system in ways that were
+personally meaningful to them, with no specifc topics provided.
+This open-ended approach allows for a more organic interaction
+and also aligns with the design goal of understanding children’s
+initial experiences with GenAI tools. During the session, we used
+a CI activity called Likes, Dislikes, and Design Ideas, in which codesigners wrote out children’s responses to each of these categories
+on a sticky note. This approach has been commonly employed in
+
+===== PDF PAGE 5 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Name
+P1
+P2
+P3
+P4
+P5
+P6
+P7
+P8
+P9
+P10
+P11
+P12
+P13
+
+Gender
+Ethnicity
+Age
+Male
+Asian/White
+8
+Male
+Hispanic/Latino
+10
+Female
+Asian/White
+13
+Female
+White
+9
+Female
+Asian/Black
+9
+Male
+Asian/Black
+9
+Male
+Asian/White
+9
+Male
+Asian/White
+13
+Male
+Black
+10
+Female
+Asian/White
+13
+Male
+White
+10
+Male
+White
+8
+Female
+Black/White
+9
+Table 1: Demographic characteristics of our child participants
+
+Sessions
+1, 2, 3, 4, 5
+1, 2, 3, 4, 5
+1, 2, 3, 4
+1, 4, 5,
+3, 5
+1, 2, 3, 5
+1, 2, 4, 5
+1
+1
+1, 2, 4
+1, 2
+1, 2
+5
+
+Learning Goal
+
+Design Goal
+
+Design Session(s)
+
+Gain an understanding of AI as a cultural tool.
+
+Explore children’s initial experiences with GenAI Tools
+
+DS1; DS2
+
+Investigate how AI makes assumptions about cultural
+concepts.
+
+Examine how children interpret the use of AI for classi- DS3
+fcation
+
+Explore the concept of AI as a model of learning.
+
+Investigate how children perceive their thinking in contrast to human thinking.
+
+DS4; DS5
+
+Table 2: Summary of Goals during Design Sessions
+
+CI to discover children’s perceptions of current technologies and
+their suggestions for changes [29].
+3.3.2 DS2 (March 2023): Creating Storybooks with DALL·E 2 and
+ChatGPT. During our second design session, children co-authored
+digital storybooks using AI-generated visuals and text. We chose
+storybooks as a design activity as prior work in AI literacy indicates that storytelling may be a useful way to engage children in
+their understanding of AI systems [96]. Participants were provided
+with access to DALL·E 2 (henceforth referred to as DALL·E) for
+generating pictures and to ChatGPT for generating text. Adult codesigners explained the capabilities of DALL·E, highlighting the
+ways in which it could be used in tandem with ChatGPT to support
+the creation of storybooks wherein the text was accompanied by
+what the design team of kids and adults deemed a suitable image.
+The design activity began by children brainstorming ideas for their
+stories followed by prompting ChatGPT to initiate the creation of a
+fantasy narrative. Children were encouraged to experiment with
+DALL·E by prompting it with various subjects, descriptions, and art
+styles, such as pixel art. Children then used the images produced by
+DALL·E and the text produced by ChatGPT to create a storybook in
+Google Slides. Adult co-designers encouraged children to refect on
+their decision-making processes, considering whether to use ChatGPT or DALL·E frst, how to determine the selection of a story, and
+select corresponding illustrations. Similar to DS1, the goal was to
+encourage the children to create their own storybooks with a high
+degree of fexibility in constructing narratives and to have them
+consider how AI might intersect with their cultural experiences.
+
+1809
+
+3.3.3 DS3 (March 2023): AI Classification with Word Cloud Interface. During our third design session, children used craft materials
+like modeling clay, pipe cleaners, and construction paper to create
+tangible artifacts to test AI’s adaptability to interpret and classify
+physical inputs across diferent mediums. In contrast to the digital
+artifacts created with ChatGPT and DALL·E in previous sessions,
+the introduction of physical artifacts in this design session serves
+a dual purpose. First, it provides children with the opportunity to
+produce physical objects that carry cultural signifcance for them.
+These tangible artifacts act as unique inputs for the AI model to
+classify, allowing for a more personalized and hands-on interaction
+with technology. Second, it underscores the idea that culture (and
+what might be impacted or interpreted by AI) is not solely confned
+to the digital realm; it extends into the tangible, real-world creations
+of individuals. At the beginning of the session, children and adults
+created their artifacts from the provided craft materials. After creating the artifacts, children then interacted with a real-time word
+cloud interface (Fig.2) which was designed and developed by the
+researchers. This tool allows immediate interaction between the
+participant and an AI model by capturing and processing images in
+real-time as they are received from a webcam’s video stream. The
+tool then uses CLIP,1 an AI model capable of quantifying the association between an image and a corresponding text, to automatically
+retrieve the ten words with the highest probability of matching
+the webcam image. These top words of the model’s classifcation
+
+1 Specifcally CLIP-ViT-Base-Patch32.
+
+===== PDF PAGE 6 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+1 a webcam stream and ○
+2 a collapsible menu for entering metadata
+Figure 2: The wordcloud interface on the left includes ○
+3 On the right side of the interface, a word cloud is displaying the output of the computation.
+such as participant ID. ○
+
+results are then visually presented to the end user in a word cloud,
+as shown in (Fig.2), which refreshes every 2 seconds.
+The association between the image from the webcam stream
+and each of the words in the model’s vocabulary is computed by
+obtaining the matrix-vector product of the normalized image embedding with the normalized text embeddings, which is equivalent
+to the cosine similarity between the image embedding and each
+text embedding corresponding to a word in the vocabulary. Cosine
+similarities are proportional to logits in CLIP [76], such that the
+highest cosine similarities indicate the words the model would be
+most likely to use to classify the image. The system greedily returns the ten largest cosine similarity values and associated words
+and uses them as input to a word cloud function, which renders
+the words visually such that they are proportional in size to their
+cosine similarities. The only form of interaction with this interface
+is through the webcam, which simplifes the process for users by
+eliminating the need to master more complicated input methods.
+DS3 was structured towards the learning goal of understanding
+AI assumptions during classifcation, with the design goal of exploring how children perceive and interpret the use of AI in the
+context of classifying tangible artifacts. The design of this interface
+facilitates fuid experimentation [79] and hypothesis generation,
+as it does not inform users about the reasons behind the displayed
+words in the word cloud. Consequently, users can experiment with
+the interface and formulate their own theories about how the AI
+responds to specifc changes and its underlying mechanisms.
+3.3.4 DS4 (July 2023): Paper and Pen Simulation of AI Classification.
+During our fourth design session, children and adults assumed the
+role of an AI classifcation model to explore the intricacies of bias
+and cultural representation. We elected for this activity to be analog
+(using markers and paper) so that children could refect on how
+their own biases infuenced their choice of rules for the system. The
+design activity was comprised of three parts: generating training
+data, generating rules, and fne-tuning. During the training data
+section, all participants had 20 seconds to draw a dog and then 20
+more seconds to draw a cat. All of the drawn pictures were then
+placed on two parts of a whiteboard, with one part corresponding to
+dog images, and the other corresponding to cat images. During the
+rules generation section, design groups of four children and two or
+three adults then each worked to develop a set of fve classifcation
+rules–a set of characteristics that described the data based on the
+
+1810
+
+children’s observations–that would result in the cat pictures being
+classifed as cats and the dog pictures being classifed as dogs. The
+fne-tuning phase involved an adult who assumed the role of the AI.
+The adult in the simulation could only respond using four distinct
+classifcation options:
+(1) “This is a dog.”
+(2) “This is a cat.”
+(3) “This is a dog or a cat.”
+(4) “I have no idea what this is!”
+The responses were determined based on how well a set of randomly sampled images of dogs and cats matched the classifcation
+rules created by each group during the earlier stages of the activity.
+Three rounds of fne tuning were conducted. The frst round featured images of real animals, the second round included pictures
+of dogs and cats represented by food or drawings, and the third
+round incorporated the most abstract images, such as expressionistic paintings or the cartoon character Catdog. A sample image
+from each round can be viewed in (Fig.3). Following each round
+of fne-tuning, design teams had the opportunity to refne their
+rules. This could involve removing a rule, altering the wording of a
+rule, or adding a new rule, allowing for an iterative process of improvement and adjustment in response to the evolving challenges
+posed by diferent types of images. The use of cultural concepts
+like drawings of dogs and cats in the activity allows participants
+to refect on how cultural factors might infuence the design of AI
+models. This aligns with the learning goal that the data used for
+training AI models often carries cultural connotations and biases,
+and these can impact the system’s outputs.
+3.3.5 DS5 (October 2023): Paper and Pen Simulation of AI Classification with Prompts. In our ffth design session, children were asked
+to put themselves in the shoes of someone using an AI model and
+generate prompts that would reveal potential issues or challenges
+with the established rules. The group started the design session
+by reviewing pictures of cats and dogs from the previous sessions,
+and created a new set of rules. After this, children were asked to
+consider diferent scenarios and create prompts that fell into three
+distinct categories:
+(1) Optimal Rule Application: Create a prompt that demonstrates the efective application of the rules, showcasing how
+well the rules guide the AI in accurately generating an image.
+
+===== PDF PAGE 7 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+(a) Sample Image Round 1
+
+(b) Sample Image Round 2
+
+(c) Sample Image Round 3
+
+Figure 3: Sample Images used for “Fine-Tuning” in DS5
+
+(2) Rule Limitation: Create a prompt that the existing rules
+could not efectively handle or interpret. This could highlight
+limitations in the rule set and provide insights into areas
+that might require improvement.
+(3) Ambiguity Challenge: Create a prompt that intentionally
+makes it challenging to determine if the resulting model
+should depict a dog or a cat. This helps explore potential
+misunderstandings or ambiguities that may arise during the
+AI’s decision-making process.
+By creating prompts and envisioning scenarios, children engage
+with the AI model in a way that refects their understanding of
+cultural nuances and expectations. The design goal was to reveal
+the extent to which children incorporate cultural elements into
+their interactions with AI. The three categories of prompts in the
+simulation directly address potential misclassifcation scenarios.
+It also aligns with the learning goal that misclassifcations and
+limitations may arise from biases present in the rule set, and the
+prompts generated by children can identify these issues.
+
+3.4
+
+Data Collection
+
+For all design sessions, our team utilized built-in webcams on desktop computers to create video and screen recordings of the sessions
+using Zoom, a video conferencing software. Depending on the number of design groups for each session, this resulted in a total of
+one to four cameras recording, and we collected a total of 643
+minutes of video. In addition to the videos, we saved the images,
+text, slide decks, and any other digital artifacts produced by participants during the sessions to serve as triangulating data. We
+also photographed physical artifacts created during the sessions,
+such as those constructed using modeling clay and pipe cleaners
+during DS3. Finally, we collaboratively drafted memos describing
+the thoughts and experiences of children and adult co-designers
+using Google Slides at the end of each session.
+
+3.5
+
+Data Analysis
+
+We employed a combined inductive and deductive qualitative approach for data analysis [87]. As a frst step, we created analytical
+memos through consolidating the videos and design artifacts. This
+process involved undergraduate or master’s student research assistants working with KidsTeam UW who acted as primary and
+secondary reviewers. The analytic memos were created frst by one
+volunteer who watched the assigned recorded video and recorded
+
+1811
+
+a narrative summary of what occurred in 5-minute intervals. The
+primary reviewer was instructed to document collaborations and
+interactions between adults and children, including direct quotes
+related to the study’s research questions. Once the primary reviewers fnished their memos, another research assistant acted as a
+secondary reviewer and replicated the process, ensuring the accuracy of the primary reviewers’ work and adding supplementary
+comments as necessary. After creating and reviewing the analytic
+memos, both the primary and secondary reviewers engaged in
+open coding, suggesting potential codes such as “Human Bias” and
+“Limitations of AI.”
+Based on the suggested codes and a review of relevant literature
+related to AI literacy [12, 57], co-design, mediation, and digital
+cultural tools the frst authors created an initial codebook with
+four main code categories: 1) children’s mental models; 2) mediated learning; 3) afect and emotion; and 4) critical perspectives
+of AI. Each code category had subcategories, as refected in Table
+3. Memos were created in a word processor and then moved to
+Atlas.ti for qualitative coding purposes. Primary coders assigned
+codes to specifc vignettes and interactions, while secondary coders
+checked the codes with +1 for agreements or -1 for disagreements,
+explaining their reasoning. Coding disagreements were raised to
+the group and resolved and the codebook was iteratively discussed
+and updated until consensus was achieved [7, 34].
+
+4
+
+FINDINGS
+
+We present our fndings in three major themes: (1) children’s perspective of AI as a cultural tool for both creation and cultural reinterpretation; (2) children’s understanding of data’s role in AI-mediated
+culture, and (3) the role of human mediation in understanding AI
+as a cultural tool. We present descriptions of co-design sessions
+and direct quotes from the children portraying these themes.
+
+4.1
+
+Children’s Perspective of AI as a Cultural
+Tool
+
+In our design sessions, children recognized GenAI’s capacity to
+generate cultural artifacts, viewing it as a potential tool for cultural
+creation. However, children faced challenges in interpreting AI’s
+role in cultural mediation when the presented cultural concepts
+deviated from their pre-existing understanding.
+
+===== PDF PAGE 8 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+Code
+
+Subcode
+
+Example Coding
+
+Critical Perspective of AI
+
+detection of bias in AI
+
+“AI makes assumptions and sometimes says something is true
+when it is not.”
+“How does it come up with words that are context?
+An adult asks how the AI knew how to draw a bird, and P1 says
+that “it is able to look it up online.”
+They notice that DALL·E prompts have word limits.
+P6 gave ChatGPT thumbs up “because no other technology like
+it exists and it sounded like a 4th grader wrote it.”
+“The images are not in the same style and do not really refect
+the given prompt.”
+“This is technology at its highest peak.”
+
+refection of AI
+production of AI
+
+Afect and Emotion
+
+limitations of AI
+likes
+dislikes
+
+Mediated Learning
+
+strong emotions about
+AI
+use of artifact for learning
+child - child
+child - adult
+
+Mental Model
+
+description of AI
+
+They notice that the grammar and spelling in the art are not
+legible.
+P4 thinks this story is better than the frst one. P1 joins them,
+and they discuss how the stories difer.
+An adult asks about missing DALL·E features: P3 says “appropriateness, also an English dictionary”, P6 wants “a style picker
+to maintain consistency.”
+“AI can detect it’s a Rice Krispies treat because it’s a chip.”
+
+Table 3: Examples of Codes and Subcodes
+
+4.1.1 Using GenAI to Reinterpret Existing Cultural Content. In both
+DS1 and DS2, children actively participated in creative writing exercises and crafting storybooks using GenAI. There were many
+examples of children demonstrating a keen awareness of GenAI’s
+ability to generate responses by combining pre-existing cultural
+content. For instance, during DS1, when asked to generate creative
+writing using ChatGPT, P2 and P1 prompted the system to create a poem by blending two poems—one inspired by The Legend of
+Zelda and another by Minecraft. In a separate example, P7 prompted
+ChatGPT to craft a Mario and Luigi script featuring James Charles,
+an American youtuber and makeup artist, as Mario and Tyler1, an
+American online streamer, as Luigi. Similarly, P2 prompted ChatGPT to create a movie script with Zelda and Dwayne the Rock
+Johnson. The prevalence of video game characters such as Zelda,
+Minecraft, Mario, and Luigi in all these examples indicate how video
+games serve as infuential cultural touchstones for children. These
+instances highlight how children actively chose to merge content
+from popular video games and cultural references that were meaningful to them to reinterpret and generate something entirely new
+and extend it beyond mere consumption.
+The use of GenAI to reinterpret popular culture was also evident
+in DS2, where children used both ChatGPT and DALL·E to create
+their own storybooks. For example, P1 and P2 wanted to create a
+story about the movie Back to the Future, and they used DALL·E
+to generate a picture using the prompt, “A talking Delorean [sic]
+saying in english ‘I have a friends called Marty who drove me [from]
+time to time’ in action style.” However, P2 did not like the results,
+re-prompting DALL·E to prompt “a car says let’s go home but the
+trap was done.” They note that the car in the pictures is not actually
+a Delorean. They continue to prompt, and suggest “The delorean
+becomes president in a digital art style.” The iterative process of
+
+1812
+
+refning the prompt to better match their vision highlights the
+children’s desire to accurately represent and reinterpret a specifc
+cultural reference. Both children liked the results as shown in Figure
+4, with P2 saying “I like the second one since it has like a clock
+in his hand. And that that means the computer understands that
+it’s supposed to be Back to the Future. P2’s comment refects an
+understanding and appreciation for subtle details associated with
+“Back to the Future.” Through their experiences, the children learned
+not only how to refne their prompts, but some of the potential
+limitations of AI systems to interpret their requests.
+4.1.2 Comparison of GenAI Produced Artifacts to Personal Knowledge. During DS1 and DS2, children showed critical refection of
+AI mediated representations by comparing the GenAI produced
+artifacts to their pre-existing cultural knowledge. For example, in
+DS1 when P10 prompted ChatGPT to “write a short story about
+Ayato Kamisato from Genshin Impact” – a popular video game –
+after reading the story, P10 described both factual mistakes and
+misinterpretations of character motivation in the ChatGPT generated text. ChatGPT ’s story stated that Ayato is the youngest son in
+his family (the “Kamisato clan”), which P10 noted is incorrect. More
+fundamentally, P10 noted that ChatGPT ’s story presented Ayato in
+a way that was inconsistent with P10’s expectations of the character, saying “he would never [do that].” P10’s identifcation of factual
+mistakes and misinterpretations in the initial story, such as Ayato
+being the youngest son instead of the only son and the elder sibling,
+highlights her awareness about the model’s vulnerability to inaccuracies and misunderstandings, drawing on her own knowledge.
+When P10 further prompted ChatGPT to revise the story, adding the
+context that Ayato is the only son and the elder sibling, ChatGPT ’s
+output then began with “Ayato Kamisato was the only son of the
+
+===== PDF PAGE 9 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Kamisato clan, and as the elder sibling...” Observing this immediate
+responsiveness to P10’s input, P7 noted that AI models like ChatGPT “change without hesitation, or they change without thinking,”
+refecting how children’s interactions with ChatGPT changed their
+perception of the model from a thinking machine to a technology
+primarily dependent on human input and human preferences.
+Furthermore, in DS2, P3 prompted DALL·E to generate “a detective girl named Lisa with special powers in anime style, specifcally in
+the style of Saiki K” for her storybook. Despite P3’s specifc request
+for images in the style of Saiki K, she realized that the generated images did not resemble that particular anime style. Additionally, P3
+noticed that DALL·E did not remember her previous prompt details.
+This made her realize that DALL·E did not have a “memory” leading
+to potential issues with understanding character references, such
+as the name “Lisa.” Throughout the design session, despite P3’s
+attempts to guide the model by specifying the desired animation
+style, she expressed difculty in keeping image styles consistent
+for her storybook.
+Another example of children’s comparison of their cultural understanding to AI cultural representations occurred during DS1,
+where children were collaborating on creative writing with ChatGPT. P4, P3, and an adult prompted ChatGPT to “write a song about
+Flaming Hot Cheetos.” The lyrics were originally generated in English, to which P3 requested a rendition in Korean, inspiring P4 to
+seek a translation into Russian. Building on this exploration of linguistic representation in ChatGPT, the adult co-designer prompted
+the group to talk through the diferences and similarities both in
+the language and the ways that diferent cultures were represented
+in the song. As the group proceeded compare the resulting songs,
+they noted variations in length and expression of the songs. P4
+pointed out that the song generated is “Russian but they don’t have
+meaning, just random Russian words.” Additionally, P3 says “it’s
+not so good, since it put Japanese and Korean together as the same
+word side by side.” We see this as a form of dialectical engagement
+[62], where children frst identifed how language and cultural
+elements that were represented in ChatGPT difered from their
+pre-existing cultural knowledge, identifed conficting aspects of
+their understandings, and then synthesized their own beliefs via
+these conficts.
+4.1.3 Summary Analysis. In exploring children’s use of GenAI
+for creative processes, we saw that children exhibited a nuanced
+understanding of its potential for generating cultural artifacts as
+well as the potential pitfalls. Children actively utilized GenAI’s
+capabilities to merge and reinterpret pre-existing cultural content.
+Examples from both the creative writing and storybook creation
+sessions demonstrated the children’s adeptness in combining elements from popular video games and cultural references, such
+as Zelda, Minecraft, Mario, and Back to the Future, to create novel
+and personalized narratives. In comparing GenAI produced artifacts to their pre-existing cultural knowledge, children displayed
+discernment and awareness, pointing out issues with the outputs.
+Instances of factual inaccuracies or misinterpretations by GenAI
+prompted critical refections, as seen in the case of Ayato Kamisato
+from Genshin Impact in the creative writing session and the stylistic
+inconsistencies in DALL·E’s anime-style images in the storybook
+creation session.
+
+1813
+
+4.2
+
+Children Understand Data’s Role in
+AI-Mediated Culture
+
+In our study, children emphasized the signifcance of selecting and
+representing cultural data. They engaged in an iterative process of
+refning their understanding of how AI classifcation is infuenced
+by training data. Children also identifed training data as a limiting
+factor in AI-mediated culture, understanding that the choice of
+training data, algorithmic rules, and fne-tuning processes shape
+how AI mediates cultural concepts.
+
+4.2.1 Data Acts as a Limitation in AI-Mediated Representation.
+Over the course of our sessions, children came to see data as a
+limiting factor in what types of cultural concepts AI could represent. For example, during DS4, children were asked to make the
+“classifcation rules” for AI to distinguish between a cat or dog based
+on drawn pictures of cats and dogs by children. When creating the
+rules, the children started with simple observations, like noting that
+cats have a nose and a body. However, as the discussion progressed,
+a more detailed rule was suggested by P10, stating that “cats have
+a round head.” This rule was challenged by P1, who pointed out
+that it might be incorrect because “the ears still connect,” referencing specifc images in Figure 5a. Throughout the discussions, the
+children seemed to refect on the signifcance of having diverse and
+representative training data for AI. They realized that the AI’s ability to grasp cultural concepts, like the distinguishing characteristics
+of cats and dogs, relies on the variety and richness of the data it
+encounters during its training. This growing awareness of data’s
+importance also persisted into DS5. In one instance, when children
+were asked to come up with a prompt that the group generated
+rules for classifcation couldn’t handle (i.e. a prompt that asked for
+a picture of neither a dog nor cat) P13 pointed out to use “a bird
+on a sunny day” as “all [AI] knows is cats and dogs?” This quote
+from P13 emphasizes the understanding of AI’s difculty to classify
+something diferent (like a bird on a sunny day) when their AI
+model has only been trained on examples of cats and dogs.
+Children noted the importance of training data not only included
+what might happen when certain features (such as of cats and dogs)
+get left out, but also how AI might approach biases based on what
+attributes were highlighted. For example, during a group discussion in DS4, an adult raised a question about whether including
+eyelashes in a drawing would inherently imply the gender of the
+bear that P3 was drawing. To this, P3 responded with a simple
+“Yeah,” indicating agreement with the idea that including eyelashes
+could imply the gender of the bear. The adult then extended the
+discussion by drawing a parallel to AI and its ability to distinguish
+between genders. The adult suggested that it might be challenging
+for an AI to diferentiate between a boy and a girl, and seeked P3’s
+input on this matter. In response, P3 expressed the view that it can
+be difcult because “there are always exceptions” to general rules
+or patterns. These moments highlight how children identifed the
+importance of connected bias and training data. When children
+were able to see the process of data creation, selection, and how
+these choices translated into rules, they showed critical understanding around how training data and wording of rules can can lead to
+limitations in AI-mediated representation.
+
+===== PDF PAGE 10 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+Figure 4: Pictures generated by DALL·E for a story about the movie Back to the Future in DS2
+
+(a) Rules about Cats
+
+(b) Rules about Dogs
+
+Figure 5: Rules created for DS5 about how to identify cats and dogs
+4.2.2 Data as a Design Feature for Access to Culturally Mediated
+Representation. While DS4 focused on helping children understand
+how AI models learn from data, DS3 focused on the design aspect
+of enabling AI to respond efectively to end users. During our third
+design session, children engaged in crafting tangible artifacts using
+materials like modeling clay, pipe cleaners, and construction paper.
+These artifacts (Fig.6) served as inputs for the word cloud classifcation interface (Fig.2), displaying the top ten probable words based
+on their inputs in real time. To construct the initial word cloud list,
+we used the Afective Norms for English Words (ANEW) lexicon
+[8], and after manual review by the frst and second authors, we
+curated a fnal list of 300 words. The curation process involved removing words perceived as potentially harmful and retaining those
+with cultural signifcance. Therefore, in this case, regardless of the
+model’s pre-training and envisioned capabilities during theoretical
+sessions, the AI’s outputs were governed by the human-imposed
+restrictions of our word list. For instance, during the design session,
+P10 placed a small spider fgure in front of the camera, expecting
+the word “spider” in the text box. However, the generated words
+included “hand” and “fnger” but not “spider.” Similarly, P1 created
+a “UFO” using blue modeling clay, but the outputs were descriptive
+words such as “green” and “blue’’ instead. This discrepancy occurred
+because the system could not access certain constructs such as UFO
+and spider, as they were not members of our word list.
+During the design session, children recognized the system’s restricted vocabulary, prompting an exploration into how changes
+in the testing environment infuenced AI responses (Fig.7) . P10
+
+1814
+
+exemplifed this process when the word cloud interface mis-classifed
+her yellow fower that she has created using a pipe cleaner. In order
+to eliminate potential distractions in the background, P10 strategically placed a white paper as a background and held her fower
+close to the camera. The system, this time, classifed her artifact
+as a butterfy, sparking curiosity in P10 and P1 about the factors
+infuencing AI’s classifcation. In response, they began questioning how the features of their artifacts such as colors and shapes
+infuenced the recognition process. As a frst step, they decided to
+test if the AI could recognize the color yellow accurately. Through
+trial and error, with adult guidance, they explored various methods,
+from showing yellow paper with the word “yellow” written on it to
+presenting yellow objects such as P1’s yellow jacket and a yellow
+post-it board. Despite their eforts, when the AI failed to output the
+word “yellow,” P10 stated that ‘‘yellow is not in the AI’s output list.”
+When asked, how do you think the AI works?, P10 responded, “It
+has a list of words that are searched. The images from the search are
+then compared to the camera footage and the images that are closest
+appear.”
+4.2.3 Summary Analysis. Our fndings show that children have a
+perceptible understanding of the role of data in AI-mediated culture.
+They recognized the signifcance of diverse and representative
+training datasets in infuencing AI’s capability to accurately refect
+and interpret cultural concepts. For instance, when distinguishing
+between cats and dogs, children demonstrated an awareness of
+the complexity of AI classifcation rules and the potential biases
+that could arise from the choice of data. Furthermore, children
+
+===== PDF PAGE 11 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Figure 6: Physical Artifacts made by children to test diferent classifcations generated by the wordcloud interface in DS3
+
+(a) A child holding a crafted object to test AI’s classifcation.
+
+(b) A child observing the diferences in classifcation when holding up
+a piece of paper instead of a crafted object
+
+Figure 7: Children prompting the wordcloud system with
+diferent types of objects in DS3
+
+understood the impact of data choices on AI responses [13, 15].
+Faced with the human-imposed restrictions of a predefned word list
+for word cloud classifcation, children experimented with creating
+artifacts and explored how changes in the testing environment
+infuenced AI responses.
+
+4.3
+
+Role of Human Mediators in Supporting
+Understanding of AI as a Cultural Tool
+
+During our design sessions, children made use of their peers and
+adults to support their internal understanding of cultural concepts
+and how these concepts were represented by AI systems.
+
+1815
+
+4.3.1 Peer Mediation. Peer mediation often involved children collaborating to either solve a problem or refne their conceptual understanding of AI. For example, during a creative writing session,
+P11 and P7 prompted ChatGPT with, “Recreate the scene in Star Wars
+when Anakin Skywalker says, ‘You underestimate my power’,” but
+in response, ChatGPT only provided an explanation, not a creative
+story. So, P11 and P7 revised the request to, “Can you provide me
+with an alternative version of the scene in Star Wars when Anakin
+Skywalker says, ‘You underestimate my power?’” Despite the clarifcation, ChatGPT still provided “exact summaries” from the movie.
+Recognizing the need for a more novel prompt, the children proposed the idea of placing the Star Wars story on Earth. They all
+agreed on this new approach, thinking it would encourage ChatGPT
+to produce a more creative output. When they prompted ChatGPT
+with, “Write me a story about Star Wars in a new galaxy,” the model
+fnally generated a creative output. In response, P7 said, “This was
+a whole new story, but it seemed like it was in the same world, yet it
+felt like a completely diferent narrative.”
+Children also engaged in peer mediation while exploring AI
+classifcation during the word cloud activity (Fig.2). They collaborated to generate tangible inputs for the word cloud interface using
+materials like modeling clay, pipe cleaners, and construction paper.
+In one instance, to evaluate the AI’s comprehension of emotions,
+P3 and P2 drew emotions on various objects, such as paper cups
+and paper straws. The children labeled the paper cups as a “happy
+smoothie cup” when a smiling face was drawn and a “sad cup” when
+a sad face was drawn. When they tested their “happy cup” and “sad
+cup,” the AI model classifed the paper cups using words such as
+“paper,” “milk,” “beverage,” and “ofce” to which P3 responded with,
+“I think it just goes through a bunch of words in the dictionary or
+something.” To this, P2 responded with his own hypothesis about
+how the emotion recognition would work, stating “the camera takes
+in the facial features and matches it with the emojis....the emojis are
+stored online.” In the group discussion, children further discussed
+how they conceptualised the word cloud classifcation. For example,
+refecting on AI’s outputs, P1 drew an analogy between the AI system and a child stating, “It sometimes did the right thing, sometimes
+didn’t do the right thing. It’s still learning like a kid...frst it gets it
+wrong, and then next it does it right...frst it does it wrong, second
+it does it wrong, third it does it wrong, and fourth it does it wrong...
+and then infnitely does it wrong.” Overall, these examples highlight
+how the children engaged in peer mediation to not only navigate
+and refne their interactions with AI but also to conceptualise the
+inner workings of AI models.
+
+===== PDF PAGE 12 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+4.3.2 Adult-Child Mediation. Adult-child mediation included adult
+co-designers often prompting refection on the cultural implications of interactions with AI. This involved adults asking children
+to assess the quality of AI-generated text, check whether the results
+match the prompts in the way they desire, and refect on the overall
+process of using GenAI. For example, when P11 prompted ChatGPT
+to generate “a sad poem about rocks,” after reading ChatGPT ’s response, an adult asked P11 whether he thought “the poem was sad
+enough” for his expectations. This question allowed P11 to revisit
+the output and realize that he did not fnd the generated poem to
+elicit the desired level of sadness. In response, P11 issued a second
+prompt: “make an even sadder poem about a rock that will make
+other rocks cry” and a third prompt: “make it even sadder and more
+creative.” Despite repeated requests to generate a sadder and more
+creative response from the AI model, P11 noticed a pattern where
+the output remained largely unchanged despite varied prompts.
+His frustration was evident when he remarked, “ChatGPT gives the
+same thing. It just makes it longer. At number 2, it found its limit
+and just repeated stuf.” This observation highlighted his awareness
+that the model struggled to go beyond certain limitations, repeating
+phrases or ideas instead of successfully adapting to the requested
+changes in tone or emotion. During discussion time, where groups
+presented their fnal designs, the entire team refected on the design experience with ChatGPT. When children were questioned,
+“Do you feel that the frst text you received was better than the last
+text you received?” P3, P4, and P12 gave thumbs down, while P2
+gave a thumbs up. P12 explained that, “it gets harder because it’s
+more difcult to explain things,” implying that the initial stages of
+prompting were easier in comparison.
+Adult co-designers also assisted children in navigating the specifc functionalities and constraints of AI systems. For example,
+when children were creating storybooks using DALL·E and ChatGPT, P3 expressed the desire to provide two paragraphs of her story
+at a time to prompt DALL·E. In response, an adult explained to her
+about word limits when prompting the model. Additionally, when
+prompting DALL·E, P3 assumed that the model would know who
+her character “Lisa” is based on her previous interactions with the
+model. The adult then clarifed that DALL·E does not remember
+previous user prompts and, therefore, would not recall who “Lisa”
+is without a full description. In response, they worked together to
+come up with the prompt, that provided a description of the girl
+detective and later discussed the potential challenge of maintaining consistent image styles. P3’s challenge in achieving uniformity
+in image style with DALL·E was similarly shared by P10 and P11.
+P10 expressed dissatisfaction with the image generation process,
+stating she had to “put in the same stuf over and over again, it was
+kinda tedious” while P11 shared his frustration, mentioning that
+“the pictures weren’t turning out the way they wanted.” When an
+adult asked for their feedback on missing DALL·E features, P11 suggested an “English dictionary”, while P10 emphasized the need of a
+“style picker to maintain consistency.” Later in the group discussion,
+when children were asked about, “how they would feel if the stories
+they liked were written by AI ”, P2 expressed that he would lose the
+feeling of being connected to the author and that would “dismantle
+some of the joy of reading.” P1 agreed, stating he wouldn’t like it
+if AI wrote the stories he read. However, P2 argued that AI could
+write books with more information, so he was not sure if he cared.
+
+1816
+
+P7, on the other hand, expressed that he would not like it because
+“it feels too easy to just have the computer write something.” These
+varied responses underscore the role of mediation [16] in enabling
+children to articulate their preferences and challenges with the AI
+system.
+4.3.3 Summary Analysis. In both cases of human mediation, peerto-peer and adult-child, the additional layer of human mediator
+acted as a scafold to interpreting the symbols suggested in interactions with AI [44]. Peer interactions tended to focus on building
+understanding by providing new context that connected the provided cultural symbols. For example, during the creative writing
+session, children collaborated with each other to refne prompts for
+ChatGPT. On the other hand, adult interactions focused more on
+prompting refection or providing new context via questioning of
+assumptions or provided cultural representations, as seen through
+discussions on children’s design experience and their preferences
+for AI-generated content.
+
+5
+
+DISCUSSION
+
+In our discussion, we frst introduce the connection between AI as a
+cultural tool and new digital media, suggesting that this connection
+is an additional competency needed for AI literacy. Second, we introduce a set of three design principles and discuss their implications
+for designing educational tools and AI systems.
+
+5.1
+
+Understanding AI as a Cultural Tool
+
+Our fndings demonstrate that children perceive AI as a technology that mediates cultural signs through the reinterpretation of
+other personally culturally relevant media (4.1), initially informed
+by human selected data (4.2), and subsequently refned through
+human-to-human interactions (4.3). Moreover, the necessity for dialogues with peers and adult co-designers aligns with prior research
+suggesting that children may not inherently grasp the symbolic
+aspects of AI interactions without human mediation [30, 38]. Ultimately, these factors suggest that children may understand AI as a
+tool that mediates through simulation [69], as the children in our
+study were skeptical about AI’s ability to accurately replicate the
+familiar media symbols they knew. The efectiveness of the simulation of culture in Human-AI interactions is in part dependent on
+the ability of both the user and the AI system to interpret cultural
+concepts. We see this as an afordance [70], which we deem an
+afordance of cultural representation. Additionally, this afordance
+may be further understood via the media theory of remediation as
+described by J. David Bolter and Richard A. Grusin [5]. Remediation
+as a theory posits a connection between new and old media, such
+that:
+New digital media are not external agents that come
+to disrupt an unsuspecting culture. They emerge from
+within cultural contexts, and they refashion other media, which are embedded in them or similar contexts.
+[5, p. 19]
+More specifcally, Bolter and Grusin suggest that the “repurposing” [5, p. 50] of media is dualistic. AI revitalizes old cultural
+symbols and is simultaneously constrained in the emergence of
+new ones. If understood through the lens of remediation, the act of
+
+===== PDF PAGE 13 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+comparison children exhibited in the interpretation of the cultural
+signs embedded in their own personal knowledge indicates children
+noted AI’s hypermediacy [5]. That is, AI emphasizes the medium
+itself, exhibiting how AI allows for “random access” [5, p. 31] to
+information via multiple media elements (text, visual, sounds, etc.)
+in one interface bound by the data selected for training as well as
+the ability of the user to mediate their own cultural understanding.
+For example, the images generated by children in Figure 4, are not
+only images of Back to The Future, but they are representations
+mediated through the child, the computer, the data, and the larger
+media and political landscape that lead to their creation. In this way,
+the afordance of cultural representation is akin to Jenkins’ concept
+of participatory culture [39] in that due to the possibility of simulating the creation of new cultural signs, both users and systems are
+encouraged to “make connections among dispersed media content”
+[39, p. 3], creating new meaning through layered remediation of not
+only the production/manipulation of media content but the user
+themselves. Hence, we can understand AI as a technical cultural
+tool that that magnifes remediated versions of cultural symbols, allowing us to refect our own psychological tools [44] in a simulation
+of the larger media ecosystem [69].
+Consequently, we argue that understanding AI as a cultural tool
+necessitates understanding its status as a new medium[60], and in
+turn, AI literacy may be scafolded through other forms of media
+literacy. Positioning AI as a new medium allows for its comprehension through media literacy frameworks, which encompass not
+just practical skills but also a critical understanding of the broader
+social, economic, and cultural implications of these technologies
+[11]. Former exploration into AI mediated communication suggests
+that AI mediated communication can impact how trustworthy and
+potentially impact interpersonal communication [66]. Further approaches to AI literacy and exploration of bias in AI systems may
+beneft from not only defning these cultural representations (i.e.,
+identifying that a system is biased toward one gender or another),
+but highlighting the other cultural media content that leads to that
+interpretation outside the system. Understanding AI’s impact on
+human culture is a foundational competency to critically engage
+with the technology [57, 90]. However, it is important to give more
+focus to discussing the groups of people involved in creating these
+technologies, the social and economic structures that encourage
+them to do so (including digital environments such as the world
+wide web), and how this knowledge may impact a user’s understanding of their own role in socio-political life. AI is not only a
+medium in itself, but is also a producer and interpreter of culture –
+through interactions with people and their cultural productions –
+that is integrated with other forms of media, a foundational concept of defning new media [54, 60]. As designers, researchers, and
+developers contend with these advances and changes in technology, the role that AI will take on in the cultural milieu is a crucial
+consideration.
+
+5.2
+
+Design Principles to Promote
+Understanding of AI as Cultural Tool
+
+Based on our fndings, supporting children’s understanding of the
+way AI mediates cultural signs involves highlighting the afordance
+of cultural representation through: drawing attention to the way
+
+1817
+
+AI remediates cultural signs through repurposing cultural content
+(4.1), emphasizing the way data is chosen by humans (4.2), and
+provide opportunities for children to compare their interpretation
+of the signs identifed in AI-child interactions with other human
+agents (4.3). Based on these insights, we suggest three design principles we think would be helpful in supporting understanding of
+how AI may act as a cultural tool that mediates cultural concepts,
+providing scafolding that can assist young people in understanding
+the complex reciprocal relationships of AI and culture.
+5.2.1 Principle 1: Highlight the Concept of Remediation in AI Systems. We frst suggest that AI literacy education should highlight
+the role that remediation plays in AI systems. This includes developing scafolds that help people understand the ways that AI systems
+are dependent upon changing between other forms of cultural tools,
+such as language into mathematics, as well as as how these systems interpret the cultural signs they are familiar with such as the
+signs that arise from media content (4.1). AI presents a hypermedia
+environment, wherein remediation should be highlighted [5], but
+our fndings suggest a focus on understanding how AI repurposes
+cultural signs diferently than human cognition is essential for critical engagement with AI as a cultural tool. Remediation inherently
+includes transformation. This means that to develop transparent
+AI systems, we must explain the cultural background in which
+these systems were made. This includes not only why certain data
+was chosen but also the reasons behind creating the systems and
+how we, as users, ft into the broader socio-cultural environment.
+Additionally, understanding the role that AI plays as a cultural tool
+includes recognizing that AI is embedded in networked culture,
+encouraging connections and changes between new and old media
+[89]. Furthermore, this remediation in our current digital culture is
+reliant on participatory culture, such that individuals are not only
+consumers, but actively involved in the creation, modifcation, and
+sharing of culture in networked environments with digital tools
+[39].
+5.2.2 Principle 2: Structure Experiences with AI to Align with Personal Cultural Understanding. Building on prior work showing that
+creating learning experiences that bridge AI concepts with familiar cultural contexts allows children to develop a more critically
+informed perspective on AI [32, 68, 92], our work highlights that
+children who critically engage with AI content draw upon their
+prior knowledge and cultural experiences to evaluate AI representations [67]. While engaging with AI technologies for creating
+artifacts can enhance student engagement and learning outcomes
+[32, 68, 92], it is crucial to acknowledge that many AI systems are
+not designed with children as the intended audience, user, creator,
+or consumer, thus making such tools difcult to use and interpret.
+By extension, many novice adults (either by youth or by level of
+technological literacy) do not have the education to help them identify how certain AI tools may support their experiences with AI
+[48]. Additionally, due to the lack of cultural understanding of AI
+systems there is concern that potentially harmful cultural representations found online and elsewhere may be further amplifed via
+the use of AI integration into other technologies by novice users
+(or malicious actors) [51]. In order for these tools to act as cultural
+mediators, they must meet users where they are and users must
+
+===== PDF PAGE 14 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+understand where they are, which also leads to the third design
+principle.
+5.2.3 Principle 3: Recognize that AI Can Serve as a Cultural “Object
+to Think With”. In our design sessions, we observed numerous instances of tinkering [78, 79], as children refned their ideas about
+AI’s capabilities and limitations. As part of this trial and error
+process, children actively engaged in dialogue with their peers
+and adult co-designers, who helped mediate their cultural understanding [82]. The ability to iteratively tinker and mediate through
+discussion with others becomes a powerful opportunity for collaborative exploration. In this way, AI served as what is referred to
+by Seymour Papert, a key fgure in constructionist learning theory, as “objects to think with” [72]. Interactions with AI systems
+and concepts served as as a mediator to allow children to not only
+refect on and refne their ideas about AI but also to adjust their
+ideas about how AI integrates with their understanding of culture.
+Projects like these that involve the revision and development of
+ideas also provide a pathway for learners to “uncover the ’why’
+behind concepts, delve into underlying logic, assumptions, and
+principles rather than accepting them at face value” [p.15] [85].
+This not only equips youth to pose more refned questions but
+also empowers them to identify and challenge AI’s outputs and
+refect critically on AI’s limitations [18]. Furthermore, dialectical
+engagement with their peers enable children to recognize diverse
+approaches to problem-solving in the AI context [36]. In contrast,
+neglecting these opportunities for mediated discussions – such as
+shutting down discussions of AI in the classroom – can hinder the
+development of critical perspectives by limiting the diversity of
+ideas and preventing meaningful engagement with the complexities
+of AI.
+
+peer facilitators can prompt moments of refection [44], enabling
+children to compare their cognitive process with those of AI.
+While we have explored these concepts of mediation with children, we see these principles as useful in supporting AI literacies in
+adults as well. Research has suggested that adults remain wary of
+AI mediated communication [35, 55], which may in part be due to
+the lack of attention paid to adult AI literacy education [95]. This is
+especially true for marginalized communities, whose socio-cultural
+diferences are critical to understanding their trust and use of AI
+[49]. In their literature review on AI Literacy in adult education,
+Wolter et al. [95] suggest a need for relevant professional and sectorbased competencies for adults. This suggests that AI Literacy that
+is culturally relevant – meaning that it is built upon personal cultural context such as a work environment – is a potentially fruitful
+avenue to also help adults contend with the changing technologies
+that are increasingly integrated into their cultural lives. For example, there is already increasing research exploring the perceptions
+and needs of adults using AI in the health feld [71, 88]. Additionally,
+there is discussion around options for public AI literacy that may
+happen in informal learning and inter-generational spaces [56, 59].
+Arts-based representational techniques and media has increasingly
+been used as a strategy to facilitate AI literacy [4, 33, 93], suggesting
+that cultural mediation is one way to promote interest across all
+ages in AI and its societal impacts. Likewise, providing scafolded
+opportunities for understanding AI’s role, applications, and implications in the context of broader digital culture can help to enhance AI
+literacy by encouraging people of all levels and expertise to explore
+how AI interfaces with other technologies, cultural artifacts, and
+their own socio-cultural expectations. [40]
+
+6
+5.3
+
+Applications for Children and Beyond
+
+Overall, we suggest that to understand AI as a cultural tool, and its
+potential impact, we must be aware of the ways that AI continually remediates elements from previous media such as literature,
+photography, or cinema [5], and more broadly consider how AI
+may simulate cultural symbols in a dualistic nature. In Vygotsky’s
+language, children in our study understood AI to function as both a
+technical tool, manipulating forms of media, but also as a psychological tool, helping them understand their own cognitive models [44].
+AI is not only "amplifying bias," it is mediating the ways that we understand what bias is in our own cultural experiences. This implies
+that AI literacy education focusing solely on AI-as-technology may
+not prepare children – or their surrounding adult ecosystems of
+parents, teachers, and beyond – to understand the cultural impact
+of this new technology.
+Our work positions understanding remediation as an important concept for children and other learners with regard to the
+computational aspect of AI literacy, as AI also remediates other
+forms of cultural tools such as language. Moreover, our principles
+suggest that AI literacy activities should be based in personal cultural understanding and provide opportunities to iterate with AI
+tools or concepts [67, 72]. The use of peer discussion emerges as a
+particularly apt way to guide children through refection of their
+own psychological tools, highlighting their own cognitive processes
+in understanding cultural concepts [82]. Subsequently, adults and
+
+1818
+
+LIMITATIONS & FUTURE WORK
+
+While our research was well-grounded in precedent and methodology, we acknowledge several limitations inherent in our study. The
+study’s reliance on a relatively small sample of 13 children was consistent with prior PD sessions with children (e.g., [24, 28, 100]) and
+allowed for an in-depth exploration [27]. However, this may have
+limited the extrapolation of results to a larger and more diverse
+group of children. Additionally, due to the structure of our co-design
+group, not all children were present for each session, potentially
+further limiting the generalizability of our results. Furthermore,
+the children in this study were from a single geographic location,
+somewhat privileged backgrounds, and had existing familiarity
+with technology and co-design methods. While this prior experience resulted in children comfortable with freely sharing their
+opinions with researchers [63], the results may not fully capture the
+diverse perspectives and capabilities of children across a broader
+socio-economic spectrum. Future work could aim to address these
+limitations by expanding the participant pool to include a more
+diverse demographic, especially when conducting remote PD sessions. Additionally, the extended duration of our study–over eight
+months–presented challenges in maintaining consistent participation, potentially afecting data consistency and the evolution of the
+children’s responses over time. Future studies might beneft from
+more frequent sessions or shorter study periods to reduce these
+impacts. Considering the rapid evolution of AI technologies, future
+work could also investigate how children adapt their mental models
+
+===== PDF PAGE 15 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+to keep pace with technological developments and how this, in turn,
+infuences their interactions and decision-making processes with
+the technology. Lastly, the principles and methods presented here
+have strong potential for being adapted to additional populations
+beyond children. Such PD interactions could include understanding the specifc cultural needs of teachers, parents, older adults,
+individuals with accessibility concerns, novices, or others who are
+underserved by current AI literacy practices.
+
+7
+
+CONCLUSION
+
+In this work, we demonstrate how children in co-design workshops
+came to understand AI as a cultural tool. Our fndings revealed that
+children were able to recognize and articulate the infuence of AI
+on culture. The efectiveness of AI in mediating cultural concepts
+depended on its alignment with the child’s personal cultural experiences, the availability of opportunities for iteration, and discussions
+with peers and adults. Based on our fndings, we argue that framing
+AI as a cultural tool situates it within the domain of new media.
+This perspective suggests an afordance of cultural representation,
+highlighting the double role that AI plays as a psychological and
+technical tool. As a result, we propose that foundational competencies in AI literacy for children should include the ability to connect
+AI interactions to personal cultural experiences and a comprehensive understanding of how data intersects with culture, centering
+on how these elements arise via remediation. Additionally, we introduce three design principles to facilitate a nuanced comprehension
+of AI as a cultural tool. First, we advocate for highlighting the
+concept of remediation [5] within AI systems. Second, we propose
+that AI experiences should align culturally with users’ personal
+backgrounds. Third, we contend that AI can function as a cultural
+“object to think with” [72]. We hope that these contributions will
+be useful to scholars and practitioners who aim to help learners
+become informed and critical users of AI technologies.
+
+ACKNOWLEDGMENTS
+We thank our participants for their contributions to the study. We
+would also like to thank our analysis volunteer team (alphabetical):
+Ilena D. Gasperina, Shay Gu, Ritesh Kanchi, Rannie Li, Jan Reginald Lim, Maria Morris, Matthew K. Pedraja, Shammu Meyyappan,
+Swati Sachdeva,Grace Y. Shin, Maia B. Song, Lushan Wang, Xiaoyu
+(Una) Zheng, and Yifang (Yvonne) Zhou. This material is based
+upon work supported under the AI Research Institutes program
+by National Science Foundation and the Institute of Education Sciences, U.S. Department of Education, through Award # 2229873 AI Institute for Transforming Education for Children with Speech
+and Language Processing Challenges or National AI Institute for
+Exceptional Education. Any opinions, fndings and conclusions
+or recommendations expressed in this material are those of the
+author(s) and do not necessarily refect the views of the National
+Science Foundation, the Institute of Education Sciences, or the
+U.S. Department of Education. Additional support was provided by
+the Institute of Museum and Library Services under Award #LG252291-OLS-22, and by the Jacob’s Foundation-funded Center for
+Connecting the EdTech Research EcoSystem (CERES)
+
+1819
+
+REFERENCES
+[1] Safnah Ali, Blakeley H Payne, Randi Williams, Hae Won Park, and Cynthia
+Breazeal. 2019. Constructionism, ethics, and creativity: Developing primary
+and middle school artifcial intelligence education. In International workshop on
+education in artifcial intelligence k-12 (eduai’19) (Palo Alto, California), Vol. 2.
+Proceedings of IJCAI 2019, 1–4. https://www.media.mit.edu/publications/
+constructionism-ethics-and-creativity/
+[2] Patrícia Alves-Oliveira, Patrícia Arriaga, Ana Paiva, and Guy Hofman. 2017.
+YOLO, a Robot for Creativity: A Co-Design Study with Children. In Proceedings
+of the 2017 Conference on Interaction Design and Children (Stanford, California,
+USA) (IDC ’17). Association for Computing Machinery, New York, NY, USA,
+423–429. https://doi.org/10.1145/3078072.3084304
+[3] Refk Anadol. 2022. Refk Anadol on AI Algorithms, and the Machine as Witness.
+The Museum of Modern Art. https://www.moma.org/magazine/articles/821
+[4] Rahul Bhargava, Ricardo Kadouaki, Emily Bhargava, Guilherme Castro, and
+Catherine D’Ignazio. 2016. Data Murals: Using the Arts to Build Data Literacy.
+The Journal of Community Informatics 12, 3 (Oct. 2016). https://doi.org/10.
+15353/joci.v12i3.3285
+[5] J. David Bolter Bolter and Richard A. Grusin Grusin. 1999. Remediation: Understanding New Media. MIT Press, Cambridge, MA.
+[6] Simone Borsci, Ville V. Lehtola, Francesco Nex, Michael Ying Yang, Ellen-Wien
+Augustijn, Leila Bagheriye, Christoph Brune, Ourania Kounadi, Jamy Li, Joao
+Moreira, Joanne Van Der Nagel, Bernard Veldkamp, Duc V. Le, Mingshu Wang,
+Fons Wijnhoven, Jelmer M. Wolterink, and Raul Zurita-Milla. 2019. Embedding
+Artifcial Intelligence in Society: Looking beyond the EU AI Master Plan Using
+the Culture Cycle. AI & SOCIETY 38, 4 (2019), 1465–1484. https://doi.org/10.
+1007/s00146-021-01383-x
+[7] Richard E. Boyatzis. 1998. Transforming Qualitative Information: Thematic
+Analysis and Code Development. Sage Publications, Inc, Thousand Oaks, CA, US.
+xvi, 184 pages.
+[8] Margaret M. Bradley and Peter J. Lang. 1999. Afective norms for English words
+(ANEW): Instruction manual and afective ratings. Technical Report. Technical
+Report C-1, The Center for Research in Psychophysiology, University of Florida.
+[9] Levin Brinkmann, Fabian Baumann, Jean-François Bonnefon, Maxime Derex,
+Thomas F. Müller, Anne-Marie Nussberger, Agnieszka Czaplicka, Alberto Acerbi,
+Thomas L. Grifths, Joseph Henrich, Joel Z. Leibo, Richard McElreath, PierreYves Oudeyer, Jonathan Stray, and Iyad Rahwan. 2023. Machine Culture. Nature
+Human Behaviour 7, 11 (2023), 1855–1868. Issue 11. https://doi.org/10.1038/
+s41562-023-01742-2
+[10] Urie Bronfenbrenner. 1977. Toward an Experimental Ecology of Human Development. American Psychologist 32 (1977), 513–531. https://doi.org/10.1037/0003066X.32.7.513
+[11] David Buckingham. 2003. Media education: literacy, learning, and contemporary
+culture. Polity Press, Malden, MA.
+[12] Lorena Casal-Otero, Alejandro Catala, Carmen Fernández-Morante, Maria
+Taboada, Beatriz Cebreiro, and Senén Barro. 2023. AI Literacy in K-12: A
+Systematic Literature Review. International Journal of STEM Education 10, 1
+(2023), 29. https://doi.org/10.1186/s40594-023-00418-7
+[13] Francisco Enrique Vicente Castro, Kayla DesPortes, William Payne, Yoav
+Bergner, and Kathleen McDermott. 2022. AI + Dance: Co-Designing Culturally
+Sustaining Curricular Resources for AI and Ethics Education Through Artistic
+Computing. In Proceedings of the 2022 ACM Conference on International Computing Education Research - Volume 2 (Lugano and Virtual Event, Switzerland)
+(ICER ’22). Association for Computing Machinery, New York, NY, USA, 26–27.
+https://doi.org/10.1145/3501709.3544275
+[14] Merijke Coenraad. 2022. “That’s what techquity is”: youth perceptions of
+technological and algorithmic bias. Information and Learning Sciences 123, 7/8
+(Jan. 2022), 500–525. https://doi.org/10.1108/ILS-03-2022-0024
+[15] Aayushi Dangol and Sayamindu Dasgupta. 2023. Constructionist approaches to
+critical data literacy: A review. In Proceedings of the 22nd Annual ACM Interaction
+Design and Children Conference (Chicago, IL, USA) (IDC ’23). Association for
+Computing Machinery, New York, NY, USA, 112–123. https://doi.org/10.1145/
+3585088.3589367
+[16] Harry Daniels. 2015. Mediation: An expansion of the socio-cultural gaze.
+History of the Human Sciences 28, 2 (2015), 34–50. https://doi.org/10.1177/
+0952695114559994
+[17] Peter J Denning and Matti Tedre. 2019. Computational thinking. Mit Press,
+Cambridge, MA.
+[18] Catherine D’Ignazio and Rahul Bhargava. 2018. Creative Data Literacy: A Constructionist Approach to Teaching Information Visualization. Digital Humanities
+Quarterly 12, 4 (2018). https://hdl.handle.net/1721.1/123473
+[19] Stefania Druga, Fee Lia Christoph, and Amy J Ko. 2022. Family as a Third Space
+for AI Literacies: How do children and parents learn about AI together?. In
+Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (,
+New Orleans, LA, USA,) (CHI ’22). Association for Computing Machinery, New
+York, NY, USA, Article 225, 17 pages. https://doi.org/10.1145/3491102.3502031
+
+===== PDF PAGE 16 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+[20] Stefania Druga and Amy J Ko. 2021. How do children’s perceptions of machine
+intelligence change when training and coding smart programs?. In Proceedings
+of the 20th Annual ACM Interaction Design and Children Conference (Athens,
+Greece) (IDC ’21). Association for Computing Machinery, New York, NY, USA,
+49–61. https://doi.org/10.1145/3459990.3460712
+[21] Stefania Druga, Jason Yip, Michael Preston, and Devin Dillon. 2021. The 4As:
+Ask, adapt, author, analyze-AI literacy framework for families. Algorithmic
+Rights and Protections for Children (2021). https://wip.mitpress.mit.edu/pub/the4as/release/1
+[22] Allison Druin. 1999. Cooperative inquiry: developing new technologies for
+children with children. In Proceedings of the SIGCHI Conference on Human Factors
+in Computing Systems (Pittsburgh, Pennsylvania, USA) (CHI ’99). Association
+for Computing Machinery, New York, NY, USA, 592–599. https://doi.org/10.
+1145/302979.303166
+[23] Allison Druin. 2002. The role of children in the design of new technology.
+Behaviour and Information Technology 21, 1 (2002), 1–25. https://doi.org/10.
+1080/01449290210147484
+[24] Allison Druin, Benjamin B. Bederson, Juan Pablo Hourcade, Lisa Sherman,
+Glenda Revelle, Michele Platner, and Stacy Weng. 2001. Designing a digital library for young children. In Proceedings of the 1st ACM/IEEE-CS Joint
+Conference on Digital Libraries (Roanoke, Virginia, USA) (JCDL ’01). Association for Computing Machinery, New York, NY, USA, 398–405. https:
+//doi.org/10.1145/379437.379735
+[25] Katalin Feher and Attila I. Katona. 2021. Fifteen Shadows of Socio-Cultural
+AI: A Systematic Review and Future Perspectives. Futures 132 (2021), 102817.
+https://doi.org/10.1016/j.futures.2021.102817
+[26] Casey Fiesler and Natalie Garrett. 2020. Ethical Tech Starts With Addressing
+Ethical Debt. Wired. https://www.wired.com/story/opinion-ethical-tech-startswith-addressing-ethical-debt/
+[27] Greg Guest, Arwen Bunce, and Laura Johnson. 2006. How Many Interviews Are
+Enough?: An Experiment with Data Saturation and Variability. Field Methods
+18, 1 (2006), 59–82. https://doi.org/10.1177/1525822X05279903
+[28] Mona Leigh Guha, Allison Druin, Gene Chipman, Jerry Alan Fails, Sante Simms,
+and Allison Farber. 2004. Mixing ideas: a new technique for working with
+young children as design partners. In Proceedings of the 2004 Conference on
+Interaction Design and Children: Building a Community (Maryland) (IDC ’04).
+Association for Computing Machinery, New York, NY, USA, 35–42. https:
+//doi.org/10.1145/1017833.1017838
+[29] Mona Leigh Guha, Allison Druin, and Jerry Alan Fails. 2013. Cooperative
+Inquiry Revisited: Refections of the Past and Guidelines for the Future of
+Intergenerational Co-Design. International Journal of Child-Computer Interaction
+1, 1 (2013), 14–23. https://doi.org/10.1016/j.ijcci.2012.08.003
+[30] Ariel Han and Zhenyao Cai. 2023. Design implications of generative AI systems
+for visual storytelling for young learners. In Proceedings of the 22nd Annual
+ACM Interaction Design and Children Conference (Chicago, IL, USA) (IDC ’23).
+Association for Computing Machinery, New York, NY, USA, 470–474. https:
+//doi.org/10.1145/3585088.3593867
+[31] Sara Harkness and Charles M. Super. 2021. Why Understanding Culture Is
+Essential for Supporting Children and Families. Applied Developmental Science
+25, 1 (2021), 14–25. https://doi.org/10.1080/10888691.2020.1789354
+[32] Courtney Hattan and Daniel L Dinsmore. 2019. Examining elementary students’
+purposeful and ancillary prior knowledge activation when reading grade level
+texts. Reading Horizons: A Journal of Literacy and Language Arts 58, 2 (2019), 3.
+[33] Drew Hemment, Morgan Currie, SJ Bennett, Jake Elwes, Anna Ridler, Caroline
+Sinders, Matjaz Vidmar, Robin Hill, and Holly Warner. 2023. AI in the Public
+Eye: Investigating Public AI Literacy Through AI Art. In Proceedings of the
+2023 ACM Conference on Fairness, Accountability, and Transparency (Chicago, IL,
+USA) (FAccT ’23). Association for Computing Machinery, New York, NY, USA,
+931–942. https://doi.org/10.1145/3593013.3594052
+[34] Clara E. Hill, Sarah Knox, Barbara J. Thompson, Elizabeth Nutt Williams,
+Shirley A. Hess, and Nicholas Ladany. 2005. Consensual Qualitative Research: An Update. Journal of Counseling Psychology 52, 2 (2005), 196–205.
+https://doi.org/10.1037/0022-0167.52.2.196
+[35] Maurice Jakesch, Megan French, Xiao Ma, Jefrey T. Hancock, and Mor Naaman.
+2019. AI-Mediated Communication: How the Perception that Profle Text
+was Written by AI Afects Trustworthiness. In Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems (Glasgow, Scotland Uk)
+(CHI ’19). Association for Computing Machinery, New York, NY, USA, 1–13.
+https://doi.org/10.1145/3290605.3300469
+[36] Ufe Jankvist, Raimundo Elicer, Alison Clark-Wilson, Hans-Georg Weigand,
+and Marianne Thomsen. 2022. Proceedings of the 15th international conference
+on technology in mathematics teaching (ICTMT 15). Making and strengthening
+“connections and connectivity” for teaching mathematics with technology. Aarhus
+University, Aarhus, Denmark. https://doi.org/10.7146/aul.452
+[37] Sven Jatzlau, Tilman Michaeli, Stefan Seegerer, and Ralf Romeike. 2019. It’s not
+magic after all–machine learning in snap! using reinforcement learning. In 2019
+IEEE blocks and beyond workshop (B&B). IEEE, 37–41.
+
+1820
+
+[38] Jussi S Jauhiainen and Agustín Garagorry Guerra. 2023. Generative AI and
+ChatGPT in School Children’s Education: Evidence from a School Lesson. Sustainability 15, 18 (2023), 14025.
+[39] Henry Jenkins. 2006. Convergence Culture : Where Old and New Media Collide.
+New York University Press, New York, NY.
+[40] Maria Kasinidou. 2023. Promoting AI Literacy for the Public. In Proceedings of
+the 54th ACM Technical Symposium on Computer Science Education V. 2 (Toronto
+ON, Canada) (SIGCSE 2023). Association for Computing Machinery, New York,
+NY, USA, 1237. https://doi.org/10.1145/3545947.3573292
+[41] J. C. Kaufman and V. P. Glăveanu. 2021. Creativity: An Introduction. Cambridge University Press, New York, NY, USA, Chapter An overview of creativity
+theories, 17–30.
+[42] Taenyun Kim, Maria D. Molina, Minjin (MJ) Rheu, Emily S. Zhan, and Wei
+Peng. 2023. One AI Does Not Fit All: A Cluster Analysis of the Laypeople’s
+Perception of AI Roles. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (, Hamburg, Germany,) (CHI ’23). Association
+for Computing Machinery, New York, NY, USA, Article 29, 20 pages. https:
+//doi.org/10.1145/3544548.3581340
+[43] Siu-Cheung Kong and Harold Abelson. 2022. Computational thinking education in K-12: Artifcial intelligence literacy and physical computing. MIT Press,
+Cambridge, MA.
+[44] A. Kozulin, B. Gindis, V. S. Ageyev, and S. M. Miller. 2003. Vygotsky’s educational
+theory in cultural context. Cambridge University Press.
+[45] Priya Kumar, Jessica Vitak, Marshini Chetty, Tamara L. Clegg, Jonathan Yang,
+Brenna McNally, and Elizabeth Bonsignore. 2018. Co-Designing Online PrivacyRelated Games and Stories with Children. In Proceedings of the 17th ACM
+Conference on Interaction Design and Children (Trondheim, Norway) (IDC ’18).
+Association for Computing Machinery, New York, NY, USA, 67–79. https:
+//doi.org/10.1145/3202185.3202735
+[46] WONG Kwong-Cheong. 2020. Computational thinking and artifcial intelligence education: A balanced approach using both classical AI and modern AI.
+CoolThink@ JC (2020), 108.
+[47] Deb Landau. 2022. ‘Alexa, Let’s Make a Story’: Amazon Introduces a New Feature
+That Turns Your Echo Device into a Storytelling Companion. US About Amazon.
+https://www.aboutamazon.com/news/devices/what-is-create-with-alexa
+[48] Matthias Carl Laupichler, Alexandra Aster, Jana Schirch, and Tobias Raupach.
+2022. Artifcial Intelligence Literacy in Higher and Adult Education: A Scoping
+Literature Review. Computers and Education: Artifcial Intelligence 3 (2022),
+100101. https://doi.org/10.1016/j.caeai.2022.100101
+[49] Min Kyung Lee and Katherine Rich. 2021. Who Is Included in Human Perceptions
+of AI?: Trust and Perceived Fairness around Healthcare AI and Cultural Mistrust.
+In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems
+(, Yokohama, Japan,) (CHI ’21). Association for Computing Machinery, New York,
+NY, USA, Article 138, 14 pages. https://doi.org/10.1145/3411764.3445570
+[50] Victor R Lee, Victoria Delaney, and Parth Sarin. 2022. Eliciting High School
+Students’ Conceptions and Intuitions about Algorithmic Bias. In Proceedings of
+the 2022 ACM Conference on International Computing Education Research-Volume
+2. 35–36.
+[51] Kornel Lewicki, Michelle Seng Ah Lee, Jennifer Cobbe, and Jatinder Singh. 2023.
+Out of Context: Investigating the Bias and Fairness Concerns of “Artifcial
+Intelligence as a Service”. In Proceedings of the 2023 CHI Conference on Human
+Factors in Computing Systems (, Hamburg, Germany,) (CHI ’23). Association
+for Computing Machinery, New York, NY, USA, Article 135, 17 pages. https:
+//doi.org/10.1145/3544548.3581463
+[52] Calvin A. Liang, Katie Albertson, Florence Williams, David Inwards-Breland,
+Sean A. Munson, Julie A. Kientz, and Kym Ahrens. 2020. Designing an online sex
+education resource for gender-diverse youth. In Proceedings of the Interaction
+Design and Children Conference (London, United Kingdom) (IDC ’20). Association
+for Computing Machinery, New York, NY, USA, 108–120. https://doi.org/10.
+1145/3392063.3394404
+[53] Leah A. Lievrouw. 2009. NEW MEDIA, MEDIATION, AND COMMUNICATION
+STUDY1. Information, Communication & Society 12, 3 (2009), 303–325. https:
+//doi.org/10.1080/13691180802660651
+Under[54] Tzu-Bin Lin, Jen-Yi Li, Feng Deng, and Ling Lee. 2013.
+standing New Media Literacy: An Explorative Theoretical Framework.
+Educational Technology &amp; Society 16, 4 (2013), 160–171.
+https://go.gale.com/ps/i.do?p=AONE&sw=w&issn=14364522&v=2.1&it=
+r&id=GALE%7CA352490447&sid=googleScholar&linkaccess=abs
+[55] Yihe Liu, Anushk Mittal, Diyi Yang, and Amy Bruckman. 2022. Will AI Console Me when I Lose my Pet? Understanding Perceptions of AI-Mediated
+Email Writing. In Proceedings of the 2022 CHI Conference on Human Factors
+in Computing Systems (, New Orleans, LA, USA,) (CHI ’22). Association for
+Computing Machinery, New York, NY, USA, Article 474, 13 pages. https:
+//doi.org/10.1145/3491102.3517731
+[56] Duri Long, Takeria Blunt, and Brian Magerko. 2021. Co-designing AI literacy exhibits for informal learning spaces. Proceedings of the ACM on Human-Computer
+Interaction 5, CSCW2 (2021), 1–35.
+
+===== PDF PAGE 17 =====
+
+Mediating Culture
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+[57] Duri Long and Brian Magerko. 2020. What Is AI Literacy? Competencies and
+Design Considerations. In Proceedings of the 2020 CHI Conference on Human
+Factors in Computing Systems (2020-04-23) (CHI ’20). Association for Computing
+Machinery, New York, NY, USA, 1–16. https://doi.org/10.1145/3313831.3376727
+[58] Duri Long and Brian Magerko. 2020. What is AI literacy? Competencies and
+design considerations. In Proceedings of the 2020 CHI conference on human factors
+in computing systems. 1–16.
+[59] Duri Long, Sophie Rollins, Jasmin Ali-Diaz, Katherine Hancock, Samnang Nuonsinoeun, Jessica Roberts, and Brian Magerko. 2023. Fostering AI Literacy with
+Embodiment & Creativity: From Activity Boxes to Museum Exhibits. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference
+(Chicago, IL, USA) (IDC ’23). Association for Computing Machinery, New York,
+NY, USA, 727–731. https://doi.org/10.1145/3585088.3594495
+[60] Lev Manovich. 2002. The Language of New Media (paperback edition ed.). The
+MIT Press, Cambridge, MA.
+[61] Lev Manovich and Emanuele Arielli. 2021. Artifcial Aesthetics: Generative AI,
+Art, and Visual Media. gc-cuny.academia.edu/LevManovich.
+[62] Diana Marginean, Sarah Lambert Derian, Joseph LaTorre, and Michael F.
+Mascolo. 2009. Constructing Intercultural Selves: Bridging Cultural Confict
+Through Dialectical Engagement. Psychological Studies 64, 3 (2009), 365–375.
+https://doi.org/10.1007/s12646-019-00528-9
+[63] Brenna McNally, Mona Leigh Guha, Matthew Louis Mauriello, and Allison
+Druin. 2016. Children’s Perspectives on Ethical Issues Surrounding Their Past
+Involvement on a Participatory Design Team. In Proceedings of the 2016 CHI
+Conference on Human Factors in Computing Systems (San Jose, California, USA)
+(CHI ’16). Association for Computing Machinery, New York, NY, USA, 3595–3606.
+https://doi.org/10.1145/2858036.2858338
+[64] Gaspar Isaac Melsión, Ilaria Torre, Eva Vidal, and Iolanda Leite. 2021. Using
+explainability to help children understandgender bias in ai. In Proceedings of the
+20th Annual ACM Interaction Design and Children Conference. 87–99.
+[65] Tilman Michaeli, Ralf Romeike, and Stefan Seegerer. 2022. What students
+can learn about artifcial intelligence–recommendations for K-12 computing
+education. In IFIP World Conference on Computers in Education. Springer, New
+York, NY, 196–208.
+[66] Hannah Mieczkowski, Jefrey T. Hancock, Mor Naaman, Malte Jung, and Jess Hohenstein. 2021. AI-Mediated Communication: Language Use and Interpersonal
+Efects in a Referential Communication Task. Proc. ACM Hum.-Comput. Interact.
+5, CSCW1, Article 17 (apr 2021), 14 pages. https://doi.org/10.1145/3449091
+[67] L. C. Moll, C. Amanti, D. Nef, and N. Gonzalez. 1992. Funds of Knowledge for
+Teaching: Using a Qualitative Approach to Connect Homes and Classrooms.
+Theory Into Practice 31, 2 (1992), 132–141.
+[68] Carly Muetterties and Laura H Darolia. 2020. Considering Diferent Perspectives
+in Children’s Literature: An Inquiry Approach that Promotes Civic Learning.
+Social Studies and the Young Learner 33, 1 (2020), 22–27.
+[69] Bill Nichols. 1988. The Work of Culture in the Age of Cybernetic Systems. Screen
+29, 1 (1988), 22–47.
+[70] Donald A. Norman. 2002. The Design of Everyday Things. Basic Books, Inc.,
+USA.
+[71] Chinasa T. Okolo, Srujana Kamath, Nicola Dell, and Aditya Vashistha. 2021.
+“It cannot do all of my work”: Community Health Worker Perceptions of AIEnabled Mobile Health Applications in Rural India. In Proceedings of the 2021
+CHI Conference on Human Factors in Computing Systems (, Yokohama, Japan,)
+(CHI ’21). Association for Computing Machinery, New York, NY, USA, Article
+701, 20 pages. https://doi.org/10.1145/3411764.3445420
+[72] Seymour Papert. 1980. Mindstorms: Children, Computers, and Powerful Ideas.
+Basic Books, Inc., USA.
+[73] Blakeley H Payne. 2019. An ethics of artifcial intelligence curriculum for middle
+school students. MIT Media Lab Personal Robots Group. Retrieved Oct 10 (2019),
+2019.
+[74] Jordan Pearson. 2024. Winner of Japan’s Top Literary Prize Admits She Used
+ChatGPT. Vice. https://www.vice.com/en/article/k7z58y/rie-kudan-akutagawaprize-used-chatgpt
+[75] Catherine Petrozzino. 2021. Who pays for ethical debt in AI? AI and Ethics 1, 3
+(2021), 205–208. https://doi.org/10.1007/s43681-020-00030-3
+[76] Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, et al.
+2021. Learning transferable visual models from natural language supervision.
+In International conference on machine learning. PMLR, 8748–8763.
+[77] Yim Register and Amy J. Ko. 2020. Learning Machine Learning with Personal
+Data Helps Stakeholders Ground Advocacy Arguments in Model Mechanics. In
+Proceedings of the 2020 ACM Conference on International Computing Education
+Research (Virtual Event, New Zealand) (ICER ’20). Association for Computing
+Machinery, New York, NY, USA, 67–78. https://doi.org/10.1145/3372782.3406252
+[78] Mitchel Resnick, John Maloney, Andrés Monroy-Hernández, Natalie Rusk, Evelyn Eastmond, Karen Brennan, Amon Millner, Eric Rosenbaum, Jay Silver, Brian
+Silverman, and Yasmin Kafai. 2009. Scratch: Programming for All. Commun.
+ACM 52, 11 (2009), 60–67. https://doi.org/10.1145/1592761.1592779
+
+1821
+
+[79] Mitchel Resnick and Eric Rosenbaum. 2013. Designing for tinkerability. In
+Design, make, play. Routledge, 163–181.
+[80] Wendy Roldan, Xin Gao, Allison Marie Hishikawa, Tifany Ku, Ziyue Li, Echo
+Zhang, Jon E. Froehlich, and Jason Yip. 2020. Opportunities and Challenges
+in Involving Users in Project-Based HCI Education. In Proceedings of the 2020
+CHI Conference on Human Factors in Computing Systems (, Honolulu, HI, USA,)
+(CHI ’20). Association for Computing Machinery, New York, NY, USA, 1–15.
+https://doi.org/10.1145/3313831.3376530
+[81] Wendy Roldan, Ziyue Li, Xin Gao, Sarah Kay Strickler, Allison Marie Hishikawa,
+Jon E. Froehlich, and Jason Yip. 2021. Pedagogical Strategies for Refection
+in Project-based HCI Education with End Users. In Proceedings of the 2021
+ACM Designing Interactive Systems Conference (Virtual Event, USA) (DIS ’21).
+Association for Computing Machinery, New York, NY, USA, 1846–1860. https:
+//doi.org/10.1145/3461778.3462113
+[82] Jeremy Roschelle. 1992. Learning by Collaborating: Convergent Conceptual
+Change. The Journal of the Learning Sciences 2, 3 (1992), 235–276. http://www.
+jstor.org/stable/1466609
+[83] Jean Salac, Alannah Oleson, Lena Armstrong, Audrey Le Meur, and Amy J.
+Ko. 2023. Funds of Knowledge used by Adolescents of Color in Scafolded
+Sensemaking around Algorithmic Fairness. Proceedings of the 2023 ACM Conference on International Computing Education Research - Volume 1 (2023), 191–205.
+https://doi.org/10.1145/3568813.3600110
+[84] Jefrey Saltz, Michael Skirpan, Casey Fiesler, Micha Gorelick, Tom Yeh, Robert
+Heckman, Neil Dewar, and Nathan Beard. 2019. Integrating ethics within
+machine learning courses. ACM Transactions on Computing Education (TOCE)
+19, 4 (2019), 1–26. https://doi.org/10.1145/3341164
+[85] Brandon J Sherman and Annela Teemant. 2022. The Critical Space Between:
+Weaving Freirean and Sociocultural Pedagogies 1. In Paulo Freire and Multilingual Education. Routledge, 42–58.
+[86] Jordan Sirani. 2024. Ubisoft and MiHoYo Among Publishers Signing Up for Nvidia’s
+AI-Generated Video Character Tool. IGN. https://www.ign.com/articles/ubisoftand-mihoyo-nvidia-ace-ai-video-character-tool
+[87] Anselm L. Strauss. 1987. Qualitative Analysis for Social Scientists. Cambridge
+university press, Cambridge, UK .
+[88] Colm Sweeney, Courtney Potts, Edel Ennis, Raymond Bond, Maurice D. Mulvenna, Siobhan O’neill, Martin Malcolm, Lauri Kuosmanen, Catrine Kostenius,
+Alex Vakaloudis, Gavin Mcconvey, Robin Turkington, David Hanna, Heidi Nieminen, Anna-Kaisa Vartiainen, Alison Robertson, and Michael F. Mctear. 2021. Can
+Chatbots Help Support a Person’s Mental Health? Perceptions and Views from
+Mental Healthcare Professionals and Experts. ACM Trans. Comput. Healthcare
+2, 3, Article 25 (jul 2021), 15 pages. https://doi.org/10.1145/3453175
+[89] David Thorburn and Henry Jenkins (Eds.). 2004. Rethinking Media Change: The
+Aesthetics of Transition. The MIT Press, Cambridge, MA.
+[90] David Touretzky, Christina Gardner-McCune, Fred Martin, and Deborah Seehorn. 2019. Envisioning AI for K-12: What should every child know about AI?.
+In Proceedings of the AAAI conference on artifcial intelligence, Vol. 33. 9795–9799.
+https://doi.org/10.1609/aaai.v33i01.33019795
+[91] Pranshu Verma. 2023. The Rise of AI Fake News Is Creating a ‘Misinformation
+Superspreader’. Washington Post (2023). https://www.washingtonpost.com/
+technology/2023/12/17/ai-fake-news-misinformation/
+[92] Shirin Vossoughi and Kris D Gutiérrez. 2016. Critical pedagogy and sociocultural
+theory. In Power and privilege in the learning sciences. Routledge, 157–179.
+[93] Benjamin Walsh, Safnah Ali, Francisco Castro, Kayla Desportes, Daniella DiPaola, Irene Lee, William Payne, Scott Sieke, and Helen Zhang. 2022. Making
+Art with and about Artifcial Intelligence: Three Approaches to Teaching AI and
+AI Ethics to Middle and High School Students. In Proceedings of the 53rd ACM
+Technical Symposium on Computer Science Education V. 2 (Providence, RI, USA)
+(SIGCSE 2022). Association for Computing Machinery, New York, NY, USA, 1203.
+https://doi.org/10.1145/3478432.3499157
+[94] Qiaosi Wang, Shan Jing, and Ashok K. Goel. 2022. Co-Designing AI Agents to
+Support Social Connectedness Among Online Learners: Functionalities, Social
+Characteristics, and Ethical Challenges. In Proceedings of the 2022 ACM Designing
+Interactive Systems Conference (Virtual Event, Australia) (DIS ’22). Association
+for Computing Machinery, New York, NY, USA, 541–556. https://doi.org/10.
+1145/3532106.3533534
+[95] Anna Wolters and Dennis M Riehle. 2024. AI Literacy in Adult Education — A
+Literature Review. In Proceedings of the 57th Hawaii International Conference on
+System Sciences. https://hdl.handle.net/10125/107211
+[96] Gary K. W. Wong, Xiaojuan Ma, Pierre Dillenbourg, and John Huan. 2020.
+Broadening Artifcial Intelligence Education in K-12: Where to Start? ACM
+Inroads 11, 1 (2020), 20–29. https://doi.org/10.1145/3381884
+[97] Jason C. Yip, Frances Marie Tabio Ello, Fumi Tsukiyama, Atharv Wairagade, and
+June Ahn. 2023. "Money shouldn’t be money!": An Examination of Financial
+Literacy and Technology for Children Through Co-Design. In Proceedings of the
+22nd Annual ACM Interaction Design and Children Conference (Chicago, IL, USA)
+(IDC ’23). Association for Computing Machinery, New York, NY, USA, 82–93.
+https://doi.org/10.1145/3585088.3589355
+
+===== PDF PAGE 18 =====
+
+DIS ’24, July 01–05, 2024, IT University of Copenhagen, Denmark
+
+Dangol & Newman et al.
+
+[98] Jason C Yip, Kung Jin Lee, and Jin Ha Lee. 2020. Design partnerships for
+participatory librarianship: A conceptual model for understanding librarians co
+designing with digital youth. Journal of the Association for Information Science
+and Technology 71, 10 (2020), 1242–1256. https://doi.org/10.1002/asi.24320
+[99] Jason C. Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofana, Justin Park, and Alexis Hiniker. 2019. Laughing
+is Scary, but Farting is Cute: A Conceptual Model of Children’s Perspectives
+of Creepy Technologies. In Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems (Glasgow, Scotland Uk) (CHI ’19). Association
+for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/
+3290605.3300303
+
+1822
+
+[100] Jason C Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofana, Justin Park, and Alexis Hiniker. 2019. Laughing
+is scary, but farting is cute: A conceptual model of children’s perspectives of
+creepy technologies. In Proceedings of the 2019 CHI Conference on Human Factors
+in Computing Systems. Association for Computing Machinery, New York, New
+York, 1–15.
+[101] Jason C Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, and
+Laura R Pina. 2017. Examining adult-child interactions in intergenerational
+participatory design. In Proceedings of the 2017 CHI conference on human factors
+in computing systems. Association for Computing Machinery, New York, New
+York, 5742–5754. https://doi.org/10.1145/3025453.3025787

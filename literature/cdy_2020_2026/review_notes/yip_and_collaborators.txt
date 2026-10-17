@@ -1,0 +1,83 @@
+# Yip/KidsTeam comparison notes (read-only research; 17 October 2026)
+
+All locators below are 1-based PDF pages, not printed proceedings pages. Six initial PDFs were inspected through full findings sections using web full text plus local Pypdf text; key figures/tables were rendered with pypdfium2 and inspected visually. Purposeful Play Table 2 and Figure 1 were also locally rendered and visually checked. An additional particularly relevant music paper is included because it directly answers the artifact-table question. Distinguish title-page labels and full empirical content from site labels: Metaphor Sandwich is explicitly a pictorial, not a workshop proposal.
+
+## Cross-paper conclusion
+
+Descriptive category headings are normal in these examples. Their credibility comes from interpretive prose, comparison across evidence, and explicit synthesis or models. A paper can use a descriptive category label and still make analytical claims. Neither an artifact-overview table nor an individual artifact figure is inherently preferable. They perform different jobs. The most directly relevant music paper combines both: Table 2 catalogs eight concepts and Figure 1 provides a detailed example, while Section 4 analyzes across them. Avoid claiming that only claim-like subsection headings count as analysis, or that this corpus generally rejects design-overview tables.
+
+## 1. Financial literacy / Money (IDC 2023, full empirical paper)
+
+Citation: Jason C. Yip, Frannie Ello, Fumi Tsukiyama, Atharv Wairagade, and June Ahn (2023). “Money shouldn’t be money!”: An Examination of Financial Literacy and Technology for Children Through Co-Design. Interaction Design and Children (IDC ’23), 12 pages; proceedings pp.82–93. DOI: https://doi.org/10.1145/3585088.3589355
+PDF: https://bigyipper.com/wp-content/uploads/2023/04/idc23-4.pdf
+
+Comparable exploratory co-design: nine sessions with ten children, ages 7–11; mature KidsTeam group. §4 begins p5, themes pp6–8. Exact top headings: §4.1 “The modality of money”; §4.2 “Independence and parental supervision around money in its digital form”; §4.3 “How children learn about money in the digital age.” These are descriptive domains/tensions, not uniformly declarative claims. Within them, prose groups subtopics and ends each with a clearly labeled summary analysis. Those closings turn concrete examples into an interpretation of digital money, family negotiation, and implicit learning. Artifact examples (e.g., persuasion app, sibling +1 requests) appear in prose as evidence for a theme, not standalone design cases.
+
+Visual/table inventory: TWO numbered tables; Table 1 demographics p4, Table 2 nine design sessions/goals/processes p5. ZERO figures. No artifact-overview table. Lesson: an explicit analytic closing can do the interpretive work without forcing every heading to become a strong claim. This is also a useful example of co-design used to elicit understanding rather than report a finished intervention.
+
+## 2. Social robots / Dogs and homework (IDC 2022, full empirical paper)
+
+Citation: Elisa Rubegni, Laura Malinverni, and Jason C. Yip (2022). “Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social robots. Interaction Design and Children (IDC ’22), pp.352–361. DOI: https://doi.org/10.1145/3501712.3529726
+PDF: https://bigyipper.com/wp-content/uploads/2022/06/Rubegni_etal_2022.pdf
+
+Fit is moderate: KidsTeam co-designs/refines fictional scenarios; main empirical study is scenario discussion with children, rather than a collection of child-designed applications. Methods §3.1 p3 reports 12 pilot children age7–11; §3.3 p4 reports 46 main-study children age8–14. Abstract says 60 total; avoid silently harmonizing these inconsistent reported numbers.
+
+§4 pp5–8 is organized as a conceptual model with four broad categories: boundaries/autonomy; cognitive features/comprehension; socioemotional features; materiality/physical/technical features. These top headings are descriptive. Subheadings juxtapose contrary beliefs, while bold fear/hope labels name consequences. Analytical contribution is the ambivalence within the same attribute, not merely four bins. ZERO tables. FIVE numbered figures: Fig1 co-reading scenario strip p4; Figs2–5 p5–7 each diagram one theme with opposed beliefs and hopes/fears. No artifact inventory. Lesson: combine a descriptive top category with explicit contrasts within it, and retain apparently contradictory participant positions rather than flattening them into a feature wishlist.
+
+## 3. Designing Together, Miles Apart (IDC 2023, full empirical paper)
+
+Citation as author PDF reference block: Casey Lee Hunt, Kaiwen Sun, Zahra Dhuliawala, Fumi Tsukiyama, Iva Matkovic, Anastasia Wolf, Zachary Schwemler, Zihao Zhang, Allison Druin, Amanda Huynh, Daniel Leithinger, and Jason Yip (2023). Designing Together, Miles Apart: A Longitudinal Tabletop Telepresence Adventure in Online Co-Design with Children. IDC ’23, 16 pages; pp52–67. DOI: https://doi.org/10.1145/3585088.3589359
+PDF: https://bigyipper.com/wp-content/uploads/2023/05/idc23-8_3.pdf
+Note: some later citation lists reverse Wolf/Schwemler; the above follows this PDF’s ACM reference block.
+
+Thirteen children age8–12; twenty sessions across two years. Less comparable in duration, strong process-reporting exemplar. §6 pp6–9: technology space over time (§6.1); social landscape of long-term online co-design (§6.2); flexibility as a technique (§6.3). Each pairs a subsection on online design processes with one on design innovation, then uses numbered vignettes as bounded evidence. Eleven vignettes bridge setting, interaction, and interpretation. §7/Fig4 p10 integrates the reciprocal influence of process and product. Broad headings range from descriptive to interpretive; analytic claims are in framing paragraphs and vignette interpretations.
+
+FOUR numbered figures: Fig1 activity photo p1; Fig2 setup p5; Fig3 three vignette photos p8; Fig4 conceptual model p10. No numbered main-body tables. TWO unnumbered appendix tables: demographics A.1 p14; twenty sessions A.2 pp15–16, columns session, activity/prompt, robots, physical prototyping, on-screen collaboration. This is a session inventory, not a catalog of resulting designs. Lesson: use selected episodes to substantiate cross-session findings; a detailed session appendix supports transparency without making findings chronological.
+
+## 4. Cloud / Data-process cues (IDC 2024, full empirical paper)
+
+Citation: Kaiwen Sun, Ritesh Kanchi, Frances Marie Tabio Ello, Li-Neishin Co, Mandy Wu, Susan A. Gelman, Jenny Radesky, Florian Schaub, and Jason Yip (2024). “Why is Everything in the Cloud?”: Co-Designing Visual Cues Representing Data Processes with Children. IDC ’24, 16 pages. DOI: https://doi.org/10.1145/3628516.3655819
+PDF: https://bigyipper.com/wp-content/uploads/2024/04/idc24f-sub1205-cam-i16.pdf
+
+Twelve children age7–12, five sessions. Results deliberately split into §4 baseline perceptions pp6–8 and §5 design narrative pp8–12. §4.1 concerns understandings of data; §4.2 perceptions of cues. Cue subsections descriptively categorize loading, user/home, data flow, security, deletion. §5 alternates initial designs (§5.1), child feedback (§5.2), privacy concerns (§5.3), revisions (§5.4), feedback on revisions (§5.5). Local headings mix descriptive names and interpretive propositions; text traces feedback to design decisions.
+
+ONE table: demographics, p5. SEVEN figures: overview of study phases and cue stimuli (Figs1–2 p5); matrix of initial symbolic/concrete designs with three keyframes per cue (Fig3 p8); examples of existing app loading screens (Fig4 p8); AVEE user flow and revised cue matrix (Figs5–6 p10); data dashboard (Fig7 p11). No participant-by-participant artifact catalog, but extensive systematic design comparisons in figures. Lesson: a design narrative works when the actual contribution is iteration; do not impose this structure on one-off exploratory concepts with no equivalent refinement/evaluation trajectory.
+
+## 5. AR headsets / Dinosaurs (CHI 2022, full empirical paper)
+
+Citation: Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason C. Yip, and Jaime Ruiz (2022). “It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design. CHI ’22, 13 pages. DOI: https://doi.org/10.1145/3491102.3501979
+PDF: https://bigyipper.com/wp-content/uploads/2022/02/chi22-ARkids-final.pdf
+
+Especially comparable: four exploratory remote design sessions, ten children age7–12, imaginary AR content, low-tech prototypes; children had not used AR headsets. §4 p5–8 starts with model overview (§4.1), then seven descriptive categories (§4.2): User Feeling; User Input; System Output; Context of Use; System Ability; System Immersion; System Intelligence. Each category mixes examples/quotes from different sessions and designs. Model relationships articulate how feelings, inputs, expected intelligence, output and immersion connect. §5.4 pp9–10 separately derives design recommendations, including present versus future applicability.
+
+ONE table: demographics p4. THREE figures: Fig1 low-tech face-shield and Lego prototype examples p5; Fig2 conceptual-model diagram p6; Fig3 cooking/fire field-of-view sketches p7. No artifact-overview table. Strong lesson: descriptive headings can support a relational model; selected designs serve multiple thematic claims. Fantastical ideas are interpreted for underlying expectations rather than treated as evaluated feasibility or proven benefits. This is the most closely matched immersive-technology example.
+
+## 6. Metaphor Sandwich (IDC 2024, empirical pictorial)
+
+Citation: Casey Lee Hunt, Kaiwen Sun, Kaitlyn Tseng, Priyanka Balasubramaniyam, Allison Druin, Amanda Huynh, Daniel Leithinger, and Jason Yip (2024). Making a Metaphor Sandwich: Analyzing Children’s use of Metaphor During Tabletop Telepresence Robot Supported Participatory Design. IDC ’24, pp173–188. DOI: https://doi.org/10.1145/3628516.3656272
+Preferred PDF with authors: https://bigyipper.com/wp-content/uploads/2024/04/idc24a-sub6959-cam-i16.pdf
+Alternate linked on KidsTeam: https://bigyipper.com/wp-content/uploads/2024/05/idc24a-sub6959-cam-i16.pdf
+DOI verified in coauthor university CV: https://design.osu.edu/sites/default/files/2026-03/amandahuynh_osu-cv_select_20260223.pdf
+
+The PDF explicitly calls itself a pictorial. Empirical analysis of ~100 video hours / seventeen sessions across two years with seventeen children age8–12. Findings p5–8: introductory co-occurrence analysis, then one illustrated page per question/category—capabilities (p6), roles (p7), agency (p8). These pages use concrete illustrated episodes and compact explanatory prose. Their analytic move is that richer engagement coincides with combinations of metaphors; categories alone are not the end contribution. Discussion pp9–11 develops the metaphor-sandwich framework.
+
+ZERO tables. THREE numbered figures (drawing/photo/session structure, pp2,3,5) plus substantial unnumbered illustrations: system setup p4, theme spreads pp6–8, conceptual sandwich p10, small final illustration p16. Do not count only numbered figures and imply the paper has only three visuals. No complete artifact catalog. Lesson: highly visual examples can carry analytic argument, but pictorial format is a distinct publication genre and should not define a conventional IDC full-paper template.
+
+## 7. Purposeful Play (ISMIR 2024, full empirical conference paper; strongest artifact-table precedent)
+
+Citation: Michele Newman, Lidia Morris (conference list uses Lidia J Morris), Jun Kato, Masataka Goto, Jason Yip, and Jin Ha Lee (2024). Purposeful Play: Evaluation and Co-Design of Casual Music Creation Applications with Children. Proceedings of the 25th International Society for Music Information Retrieval Conference, pp529–539.
+Author PDF: https://bigyipper.com/wp-content/uploads/2024/09/Newman_ISMIR24_CR.pdf
+Publisher/deposit PDF: https://zenodo.org/records/14877391/files/000058.pdf
+DOI cataloged as https://doi.org/10.5281/zenodo.14877391 (direct DOI/record read failed in web tool, but official deposited PDF is accessible and accepted-paper list verifies authors/title/venue: https://ismir2024.ismir.net/accepted-papers/ ). Supplemental material cited by paper: https://doi.org/10.17605/OSF.IO/5DNS6 .
+
+Ten children age6–13, TWO 90-minute sessions: evaluation of existing casual music tools, then low-fidelity design. §4 pp3–5 contains four themes: perceptions of casual music creation; visuals connecting to music; interface preferences/interactions; sharing/creative experiences. Descriptive headings coexist with an interpretive one (§4.2). Evidence draws across designs, quotes, sticky notes, and observed sharing. §5 pp5–6 synthesizes the relation of exploration to shareable creative outcomes and derives four principles.
+
+TWO tables: demographics p2; Table2 artifact overview p3 with Child / App Name / Description for eight apps. ONE figure: Jin’s Dreamer app p4. Thus the paper explicitly uses an overview table PLUS a selected individual artifact PLUS cross-artifact thematic analysis. This is a direct positive precedent for retaining a compact overview table, provided prose makes analytical connections rather than repeating every row. It is music-related and a short exploratory workshop series, therefore exceptionally useful to the user despite being ISMIR rather than IDC.
+
+## Suggested implications for the current study (inference, not prescriptions from papers)
+
+- Keep a compact concept overview if it helps readers understand the design space and map claims to concepts. The music paper demonstrates this is compatible with rigorous thematic findings.
+- Use 2–4 selected artifacts/episodes for depth, explaining what feature/interaction/quote warrants the interpretation and whether contrasting concepts support or complicate it.
+- Descriptive categories can remain if they answer the RQ and their prose provides a cross-case pattern, a contrast, and a bounded interpretation. Claim-like headings are one rhetorical option, not a publication requirement.
+- Separate what adolescents imagined or valued from demonstrated usability, efficacy, feasibility, or wellbeing outcomes.
+- For exploratory audio workshops, the best structural pair is Purposeful Play (overview + thematic evidence) and AR Headsets (categories + relationships + bounded recommendations). Money is a useful third model for explicit analytic closings.

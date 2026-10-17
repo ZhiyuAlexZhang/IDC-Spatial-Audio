@@ -1,0 +1,1371 @@
+SOURCE PDF: ../pdf/2023_IDC_Davis_Locus.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2023/08/2023.IDC_.Locus_.davis-et-al.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+Supporting Teens’ Intentional Social Media Use Through
+Interaction Design
+An exploratory proof-of-concept study
+Katie Davis
+
+University of Washington, USA
+kdavis78@uw.edu
+
+Caroline Pitt
+
+Petr Slovak
+
+Department of Informatics, King’s
+College London, UK
+petr.slovak@kcl.ac.uk
+
+Abdullatif Ghajar
+
+University of Washington, USA
+pittc@uw.edu
+
+Hasso Plattner Institute, University of
+Potsdam, Potsdam, Germany
+Abdullatif.ghajar@student.hpi.unipotsdam.de
+
+Saba Kawas
+
+Andrea Guadalupe Perez
+Portillo
+
+Computer Science and Engineering,
+University of Minnesota, USA
+skawas@umn.edu
+
+School of Social Work, University of
+Washington, USA
+andreagp@uw.edu
+
+ABSTRACT
+Prior research indicates that many adolescents struggle to use social media intentionally, with negative impacts on well-being. This
+presents an important but under-researched opportunity to improve youth well-being through interaction design. We developed
+Locus, a mobile application that shapes adolescents’ entry experiences into the social media apps on their phones by prompting
+them to reflect on their social media intentions before they open
+an app and at the end of the day. In designing Locus, we combined
+psychology theories—to identify design targets—with co-design
+approaches—to design around these targets for youth’s lived experiences. Following co-design work with nine teens (M age =15.7 years),
+we conducted an open trial field deployment (N = 54; M age =16.2
+years) to explore how Locus was used and experienced by adolescents during their daily lives. Results provide preliminary evidence
+that in-the-moment interventions for self-regulation skills can support adolescents’ intentional social media use.
+
+CCS CONCEPTS
+• Human-centered computing → Human computer interaction
+(HCI); Empirical studies in HCI.
+
+KEYWORDS
+digital well-being, adolescents, social media, intervention design
+
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+
+Rotem Landesman
+
+Information School, University of
+Washington, USA
+roteml@uw.edu
+
+Jessica Lee Schleider
+
+Department of Psychology, Stony
+Brook University, USA
+jessica.schleider@gmail.com
+
+Nicole S. Kuhn
+
+University of Washington, USA
+nskuhn06@uw.edu
+
+ACM Reference Format:
+Katie Davis, Petr Slovak, Rotem Landesman, Caroline Pitt, Abdullatif Ghajar, Jessica Lee Schleider, Saba Kawas, Andrea Guadalupe Perez Portillo,
+and Nicole S. Kuhn. 2023. Supporting Teens’ Intentional Social Media Use
+Through Interaction Design: An exploratory proof-of-concept study. In
+Interaction Design and Children (IDC ’23), June 19–23, 2023, Chicago, IL, USA.
+ACM, New York, NY, USA, 13 pages. https://doi.org/10.1145/3585088.3589387
+
+1
+
+INTRODUCTION
+
+As many as 25% of adolescents engage in problematic social media
+use (PSMU) [49, 72], characterized by difficulty controlling social
+media behavior, with negative impacts on sleep, academic performance, relationships, and well-being [3]. Even among adolescents
+whose behavior does not meet PSMU criteria, prior work indicates
+that it is common for youth to approach their social media use
+in an unintentional way, mindlessly scrolling through their feeds,
+allowing auto-play to show them video after video, and reacting
+to rather than interacting with the people and content they encounter online [20, 81]. Youth report experiencing these practices
+as unsatisfying but say they struggle to break their habits [20, 81].
+Unintentional social media use is associated with lowered levels of
+subjective well-being among youth [17, 60].
+We developed Locus,1 a mobile application that shapes adolescents’ entry experiences into the social media apps on their phones
+by prompting them to reflect on their social media intentions before they start a session. Locus also delivers end-of-day reflection
+prompts, sent as push notifications to a user’s home screen, that
+encourage adolescents to reflect on their social media use that day
+1 The name Locus comes from the psychological construct ‘locus of control’ [69].
+
+People with a strong internal locus of control have a greater sense of personal agency;
+people who tend toward an external locus of control are more likely to feel that external
+factors such as chance or luck control their experiences. With Locus, we aim to support
+adolescents in shifting from an external to an internal locus of control in their social
+media use.
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+© 2023 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0131-3/23/06.
+https://doi.org/10.1145/3585088.3589387
+
+322
+
+===== PDF PAGE 2 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+and set goals for the next day. To design Locus, we used psychology theories to identify design targets and combined them with
+co-design approaches to design around these targets for youth’s
+lived experiences. We then conducted an open trial field deployment (N = 54; Mage =16.2 years) to explore the Locus intervention’s
+acceptability and uptake, and to understand how it was experienced
+by adolescents during the course of their daily lives.
+The results of our quantitative analysis showed that, on average,
+adolescents’ self-control and autonomy in relation to their social
+media use increased over the two week-period of using Locus, while
+their levels of absentminded social media use decreased. In followup interviews, participants said that Locus helped them to engage
+in self-regulation behaviors around their social media use, which
+they said led to a greater sense of meaning and agency in their
+social media interactions. The Locus design and field deployment
+results contribute new insight into the acceptability and potential effectiveness of design mechanisms that support adolescents’
+intentional social media use.
+
+2 RELATED WORK
+2.1 Well-Being, Agency, and Self-Regulation in
+Adolescents’ Social Media Use
+Although many adolescents derive benefits from their social media
+engagement (e.g., [17, 19, 20, 66, 81]), as many as 25% experience
+problematic social media use (PSMU) [3, 5, 17, 37, 49, 72]. PSMU
+is sometimes encompassed within the more general construct of
+problematic internet use (PIU) and is related to problematic smartphone use (PSU) [3]. Core to definitions of PSMU, PIU, and PSU
+are difficulties controlling one’s behavior in relation to technology
+use, with negative impacts on sleep quality, relationships, academic
+performance, and personal well-being [3, 24, 37, 49].
+Even among those adolescents whose social media use does not
+meet PSMU criteria, many youth nevertheless struggle to maintain
+a sense of purpose and intention when they embark on a social
+media session. Weinstein and James [81] documented the many
+pulls on adolescents’ attention, including alluring personalized content, infinite scroll, the unpredictable rewards and social validation
+associated with features such as the like button and comments,
+and the “quicksand” of social media-based social comparisons (see
+also [54–56]). Adolescents who fall down these social media “rabbit holes” are more likely to report lowered subjective well-being
+[56, 60].
+Although people of all ages experience agency-undermining
+experiences with social media (e.g., [42, 78]), adolescents may find
+it particularly difficult to achieve a sense of personal agency on
+TikTok, Snapchat, and other social media platforms. This is due to
+the gap between adolescents’ heightened emotional responses and
+their lagging self-regulation skills. Compared to children and adults,
+adolescents display an increased sensitivity to social situations and a
+greater tendency toward emotional reactivity when confronted with
+such situations [74, 75]. At the same time, self-regulation skills such
+as reflection, planning, goal-setting, and self-monitoring [4, 7, 51]
+are relatively under-developed during this developmental period
+[9, 10]. Indeed, Van Deursen et al. [22] found that adolescents were
+more likely than adults to have trouble engaging in self-regulation
+behaviors when using their smartphones.
+
+323
+
+To summarize, the fundamentally social nature of social media,
+combined with persuasive designs such as infinite scroll and notifications, regularly place adolescents in situations where their
+tendency toward emotional reactivity overwhelms their still developing self-regulation abilities [20]. This body of work points to the
+value of intervening in adolescents’ social media use at the moment
+when self-regulation skills are most needed and least likely to be
+used.
+
+2.2
+
+Interventions to Support Digital Agency and
+Well-Being
+
+Smartphone overuse is a prevalent target of HCI interventions that
+focus on designing for personal agency and well-being. MyTime
+[29] supports people in setting and achieving goals related to the
+time they spend on their smartphones. TypeOut [84] combines a
+typing-based unlock process with self-affirmation content to support users in reducing smartphone overuse. Both interventions
+target smartphone overuse by supporting people’s sense of personal agency. Other interventions targeting smartphone reduction
+similarly focus on promoting personal agency and well-being (e.g.,
+[33, 38, 40, 57]).
+Increasingly, interventions are targeting the quality of phone
+use in addition to or instead of quantity of use as a core outcome
+(recognizing that these two dimensions are often entwined). For
+instance, Chirp [86] is a mobile Twitter client that researchers developed to increase users’ sense of agency during their Twitter
+use. MindPhone [77] draws on mindfulness techniques to target absentminded smartphone. The intervention’s focus on goal-setting
+and reflection align it with other interventions that target selfregulation skills as a mechanism for supporting personal agency
+in phone use (e.g., [34, 39, 45, 48]). In the current study, we build
+on this work by focusing on self-regulation skills as the primary
+mechanism for promoting adolescents’ sense of agency in their
+phone-based social media use.
+When considered alongside theoretical work (e.g., [43, 45]) and
+empirical investigations of commercial technologies (e.g., [16, 46,
+47]), existing interventions point to some overarching takeaways for
+future research focused on designing for personal agency and wellbeing. Overly restrictive techniques such as lockout mechanisms,
+while sometimes effective, can lead to user frustration and even an
+increase in phone usage [35, 46, 47]. Notification messages and goalsetting features are less restrictive, but some researchers caution
+they can be easily dismissed [41, 84]. Lyngs et al. [46] propose a
+“Goldilocks” level of support for digital self-control interventions
+that target self-regulation. Such design mechanisms should adapt
+to users’ personal goals and usage patterns and provide enough
+support to encourage behavior change without being so restrictive
+that users abandon the intervention altogether.
+A notable gap in this research base is the scarcity of interventions
+that are designed from the beginning with adolescent users in mind
+[28, 68]. In their recent meta-analysis of digital self-control tools,
+Roffarello and De Russis found that only two of the 64 studies
+they reviewed included youth of any age; the vast majority of
+studies involve university students and office workers. Outside of
+HCI, teen-focused interventions have been developed that target
+self-regulation in the context of problematic technology use (e.g.,
+
+===== PDF PAGE 3 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+[32, 36, 72, 79, 80]). However, as school-based interventions [32]
+or clinician-directed exercises [80], these interventions tend to
+be temporally removed from the situations for which the target
+skills are needed, posing a known challenge in skill transfer from
+intervention to everyday use [73].
+Within HCI, research is starting to explore interaction designs
+that support adolescent well-being and address the challenge of
+skill transfer [18]. Some of this work addresses specific areas, such
+as cyberbullying (e.g., [23, 26]), online safety (e.g., [2, 59, 83]), sexual
+health [63], and physical health [82], whereas other interventions
+target adolescent mental health and well-being more generally (e.g.,
+[8, 61, 62, 64, 67]). Chen et al. [15] designed a technology probe
+for adolescents undergoing psychiatric treatment for smartphone
+addiction that includes self-monitoring and parental feedback mechanisms. Results from tracking seven parent-teen dyads over two
+weeks point to the promise of using interaction designs to support
+adolescent self-regulation in the context of their technology use.
+To the best of our knowledge, there is no published work examining interventions that provide in-the-moment support for PSMU
+in adolescents. The closest work is Hou et al. [30], who sought
+to support adolescents’ self-regulation behaviors around their social media use by asking study participants to record and send
+researchers daily reflections about their social media use. However,
+because this intervention centered daily communication with a
+researcher, it did not function as a standalone intervention that is
+embedded directly into adolescents’ daily social media use. There
+is a need to develop and test intervention mechanisms that make
+use of mobile technologies to reach adolescents where they are and
+when they are most in need of intervention [1, 28, 52, 71].
+
+3 LOCUS APP DESIGN PROCESS
+3.1 Identifying Plausible Intervention Targets
+The first step in our design process was to draw on a combination of
+psychology and adolescent social media use literatures to identity
+relevant psychological constructs that we could target. In what
+follows, we discuss the theory and prior empirical work that led us
+to focus on two specific factors: (1) youth self-regulation skills and
+(2) in-the-moment self-monitoring and goal setting.
+3.1.1 Targeting Self-Regulation Skills. As discussed in Section 2.1,
+prior work has shown that many teens routinely experience a lack
+of personal agency in their social media use [20, 60, 81]. Teens who
+experience low levels of social media agency are more likely to
+report lowered subjective well-being [60]. This finding is consistent with self-determination theory (SDT), which underscores the
+relationship between personal agency (also referred to as autonomy) and well-being [21, 70]. Therefore, our overarching goal in
+this work is to support adolescents’ sense of agency in their social
+media experiences.
+A sub-theory of SDT is organismic integration theory (OIT),
+which presents a continuum of motivation and regulated behavior
+[14]. According to OIT, the more self-regulated a behavior is, the
+more self-determined it is felt to be. OIT highlights the central
+role that self-regulation plays in promoting a sense of autonomy
+and agency in one’s actions. Other theories similarly portray selfregulation as the basis for purposeful action and a key ingredient in
+
+324
+
+personal well-being [4, 7, 51]. Recognizing this connection between
+self-regulation and well-being, other HCI researchers encourage
+the use of design mechanisms that target self-regulation skills when
+designing interventions to support digital well-being ([45]).
+As discussed in Section 2.1, self-regulation is a particularly suitable focus for our target population of adolescents in light of the developmental challenges that adolescents face in self-regulating their
+behavior [51]. Prior research implicates self-regulation challenges
+in adolescents’ problematic social media use (PSMU) [3, 5, 22, 37],
+in addition to more benign social media experiences that may not
+rise to the level of PSMU but are nevertheless experienced by adolescents as unsatisfying [60, 81].
+Therefore, our first aim was to envision designs that would target
+the self-regulation skills that adolescents are most likely to disregard
+when faced with an immediately gratifying social media stimulus.
+3.1.2 In-the-Moment Self-Monitoring and Goal-Setting Intervention.
+In describing his social cognitive theory of self-regulation, Bandura
+[4] observed that self-monitoring close in time to the target behavior
+is key to developing a person’s self-regulation skills. This perspective is consistent with digital self-control interventions inspired by
+dual-process theories of cognition [47, 84]. Dual-process theories
+distinguish between two types of cognitive processing: Type 1 processes are intuitive, unconscious, and automatic, whereas Type 2
+processes are reflective, conscious, and controlled [25]. Technology
+interventions that seek to change people’s behavior target Type
+2 processes at the moment when Type 1 processes are typically
+dominant. In the case of smartphone overuse, for instance, justin-time interventions [53] might present notifications, reminders,
+or prompts as a person is using their phone in an effort to stimulate Type 2 processes of cognition and prevent phone overuse (see
+[47, 84]).
+Based on this theoretical work, our second aim was to target Type
+2 processes of cognition by envisioning approaches to prompt adolescents’ self-monitoring and goal setting prior to opening a social
+media app on their phone. Our goal is to help adolescents reframe
+the ensuing social media experience so that it feels intentional and
+purposeful rather than reflexive and devoid of meaning.
+
+3.2
+
+Design of the Preliminary App Prototype
+
+Drawing on the theories outlined in Section 3.1, we identified a set
+of interaction design choices for the design of the preliminary Locus
+app prototype. First, we designed Locus as a wrapper application
+that adolescents use to open the social media apps on their phone.
+This design choice allows us to shape users’ entry experiences into
+their social media apps.
+Second, we generated an initial set of app-entry prompts that appear the first time a teen opens a social media app on any given day.
+Before being taken to their desired app, adolescents are prompted
+to identify and reflect on their goals and intentions for their social
+media session. In this way, the app-entry prompts encourage adolescents to engage Type 2 processes of cognition at the moment
+when their Type 1 processes are typically strongest. Beyond Type
+2 engagement, the prompts are aimed at helping adolescents to
+frame the ensuing social media experience in personally meaningful terms.
+
+===== PDF PAGE 4 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+Figure 1: Theory of change model, outlining intervention, mechanism of change, proximal outcome, and distal outcome. The
+distal outcome is not a focus of the current investigation, which focuses on the intervention design and its acceptability and
+potential effectiveness among adolescents.
+Third, we identified a set of general end-of-day prompts that
+encourage users to reflect on and self-monitor their social media
+use during the course of the day, as well as identify strategies and
+set goals for the following day. These prompts are not designed
+specifically to override Type 1 processes in-the-moment, but rather
+to help adolescents direct their Type 2 processes toward their social
+media use by engaging and exercising key self-regulation skills.
+For both types of prompt (app-entry and general end-of-day),
+users can respond either through text entry or voice recording.
+They can also choose to dismiss the prompt altogether and proceed
+directly to their intended app. Drawing on prior research [46, 84],
+we made these design choices in an effort to strike a balance between being overly restrictive (a danger in requiring a response)
+and not engaging enough (a danger in prompts that do not invite
+a user response). Even if an adolescent chooses not to record a
+response, they will still see the prompt and must actively dismiss it
+in order to enter the desired social media app. Thus, adolescents
+are still receiving the intervention even if they do not record a
+response.
+Figure 1 presents the theory of change associated with our intervention. We hypothesize that the interaction techniques described
+in this section (intervention) will support adolescents’ social mediarelated self-regulation behaviors (mechanism of change), leading to
+a decrease in habitual use and—over time—an associated increased
+sense of control and agency in their social media use (proximal outcome). Because of the links between meaningful technology use and
+well-being [17, 42, 60], we would expect to see eventual increases
+in adolescents’ personal well-being, such as lowered depressive
+symptoms and anxiety levels, if used consistently over a longer
+period (distal outcome).
+
+3.3
+
+Co-Design with Teens to Update and
+Finalize the Prototype
+
+We conducted virtual co-design sessions with nine teens in summer
+2021 following the initial design and development of the prototype
+app. The goals for these sessions were to: (1) gain initial insight
+into how Locus might be taken up in the context of teens’ daily
+social media use; (2) solicit feedback on the app’s core features; and
+(3) identify and fix bugs in the app to improve its usability.
+
+325
+
+Following approval from our university’s institutional review
+board, we recruited teen participants through word of mouth, social
+media announcements, and our university’s research-participant
+pool. We divided the nine participants we recruited into two groups.
+The first group included four teens aged 14-16 years (M age = 15.0
+years; 2 male, 1 female, 1 non-binary; 2 Asian, 2 white). The second
+group included five teens aged 15-18 years (M age = 16.2 years; 3
+male, 2 female; 3 Asian, 2 white).
+Both groups of participants took part in three co-design sessions
+each lasting 2.5 hours. These sessions were structured similarly following best practices for co-designing with teens [6, 31, 65, 85]. All
+sessions took place via Zoom and used Miro boards to engage participants in different forms of hands-on ideation. The sessions were
+led by three PhD student researchers with extensive experience in
+co-design and working with teens in a participatory manner.
+We used teen participants’ feedback to update the app’s prompts
+before deployment. In particular, we attempted to use a more casual,
+colloquial tone that would be appealing to teens, and we varied
+the phrasing of the prompts (e.g., by using a mix of questions and
+statements).
+Teens provided inconsistent feedback on the timing of the
+prompts. Some teens wanted greater frequency, whereas others
+wanted less. Some teens appreciated receiving the questions before
+entering a social media app, whereas others were frustrated by
+having to delay their entry. We decided on one app-entry prompt
+per app per day and one general end-of-day reflection prompt, with
+the goal of encouraging teens to engage in consistent reflection
+while not slowing them down so much that they become annoyed
+and stop using Locus altogether.
+During user testing, we learned that most teen participants entered social media platforms directly from the notifications that
+appeared on their phone’s home screen. As a result, these teens
+rarely entered their social media apps through Locus and therefore
+never encountered the app-entry prompts. We addressed this issue
+by programming Locus to control all social media notifications so
+that clicking on a notification would take the user to Locus first
+(see Figure 2A) instead of directly to the desired social media app.
+Additional bugs that we identified and fixed included incorrectlytimed notifications and recurring notifications that would not go
+away, a misaligned text box and questions, and lags in loading the
+prompts and social media apps.
+
+===== PDF PAGE 5 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Figure 2: Screenshots of the Locus app. A: The application landing page where users access their social media apps; B: An
+app-entry prompt that appears after clicking on a social media app; C: A general end-of-day prompt received every day at 9pm.
+
+3.4
+
+Final Locus Application Taken to Field
+Deployment
+
+Locus is a mobile application available on the Google Play Store for
+Android devices with an Android version above 7.0 (Nougat). It is
+designed as a wrapper application that allows users to open social
+media apps directly through the Locus app. After opening Locus
+on their phone, users see all of their social media apps displayed
+together (see Figure 2A). When they select an app such as TikTok
+or Snapchat, they are shown a text-based reflective prompt before
+being taken to the desired app (see Figure 2B). Entering a response
+is optional and can be done via text or speech recording. The appentry prompts are programmed to appear upon the first daily use
+of a social media app. Users see one prompt per day per app. Locus
+also sends a general prompt in the form of a notification once per
+day at 9pm (see Figure 2C).
+The backend of Locus consists of a Python server that provides
+the list of prompts and stores users’ responses to prompts. This
+means that the prompts can be changed at any time without having
+to update Locus on users’ phones. In addition, the server authenticates registered users with an email and password combination and
+hosts a website with instructions on how to install and use Locus.
+
+RQ1: How do teens interact with the Locus app features over
+the course of the two-week deployment period?
+RQ2: To what extent does Locus engage teens in goal setting,
+self-monitoring, and other self-regulation behaviors related to their
+social media use?
+RQ3: Does using the Locus app help teens experience greater
+self-control and agency in their social media use?
+
+4.1
+
+4.2
+4
+
+OPEN TRIAL FIELD DEPLOYMENT
+
+We conducted an open trial field deployment (N =54) to examine
+the acceptability of Locus and how the app was taken up and experienced by adolescents in their everyday lives. We sought to answer
+the following research questions:
+
+326
+
+Participants
+
+Following approval from our university’s institutional review board,
+we recruited English-speaking participants from the United States
+through a paid Instagram ad that included a link to an initial
+screener survey. To be included in the study, prospective participants had to live in the Unites States, own and use an Android
+phone, be between the ages of 14 and 18, have a reliable internet
+connection, and express an interest in changing their approach to
+social media.
+Sixty-six participants met the inclusion criteria and successfully
+installed the Locus app on their phone. Of those participants, 54
+completed all study procedures, and 26 participated in a post-study
+interview (see Section 4.2). Table 1 includes a summary of participant demographics.
+
+Procedure
+
+Participants who passed the screener were taken directly to a predeployment survey (via Qualtrics) that concluded with a link to the
+tutorial for installing and using Locus. At the end of two weeks
+using Locus, we asked participants to complete a post-deployment
+survey (via Qualtrics) and invited them to participate in a follow-up
+
+===== PDF PAGE 6 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+Table 1: Participant demographics
+Participant
+Demographic
+
+Percentage (N = 54)
+
+Age (years)
+
+15yo: 20.37% (11), 16yo: 37.03% (20),
+17yo: 41.74% (22), 18yo: 1.85% (1)
+Family: M = 6.68 (SD = 1.91),
+Self: M = 7.25 (SD = 1.69)
+Black: 53.7% (29), White: 35.1% (19),
+Asian: 14.8% (8), Hispanic or Latine:
+3.7% (2), Other or mixed ethnicity:
+1.85% (1)
+Female: 24.5% (13), Male: 75.9% (41)
+
+Subjective
+Social Status a
+Race/Ethnicity b
+
+Gender b
+
+• Autonomy in social media use. We adapted the 4-item autonomy sub-scale of the Technology Effects on Need Satisfaction in Life (TENS-Life) [58]. Drawing on self-determination
+theory (SDT) [21], this scale measures the extent to which
+people believe a technology has had an impact on their psychological need for autonomy (a construct that is closely
+aligned and often interchangeable with agency). Peters et
+al. [58] instruct that the TENS-Life can be adapted for any
+technology or platform. Our social media adaptation asked
+participants to think about the social media platforms they
+use most frequently and rate how they have affected them
+(1=not at all; 5=very much). Each item of the sub-scale is
+reverse-scored (e.g., “I feel pressured to use social media more
+often than I’d like.”). The internal consistency of the scale
+was satisfactory (Cronbach’s alpha =0.75).
+
+a MacArthur Scale of Subjective Social Status—a two-item
+
+instrument that measures how a young person perceives their
+family’s (Family) and their own (Self) social standing. For each
+item, respondents provide a rating from 1 (very low) to 10 (very
+high) [27]
+b Participants were able to select multiple options
+
+interview via Zoom. Participants were given a $25 gift card upon
+completing the study.
+The pre-deployment survey asked questions about participants’
+social media use, including which apps they used most frequently,
+how they felt about their use of these apps, and how they felt about
+their social media use more generally. In addition, we included
+three validated scales measuring self-control and agency in social
+media use:
+• Self-control of social media use. Following Lyngs and
+Lukoff [45], we adapted a digital self-control version of the
+Brief Self-Control Scale (BSCS) [76] to measure self-control
+ability in the context of adolescents’ social media use (e.g.,
+“In the past week, I was good at resisting temptation on social
+media”). Participants used a 5-point Likert scale to indicate
+how much each of the 13 statements reflected their experience using social media in the past week (1=not at all; 5=very
+much). The internal consistency of the scale was satisfactory
+(Cronbach’s alpha =0.77).
+• Absentminded social media use. We adapted the 10item Smartphone Use Questionnaire-Absentminded (SUQ-A),
+which measures perceptions of absentminded smartphone
+use [50], to measure participants’ levels of absentminded
+social media use. We chose absentmindedness because of its
+opposition to intentionality, hypothesizing that the Locus
+app would decrease participants’ absentminded social media
+use as they became more intentional in their approach to social media. Participants used a 7-point Likert scale to indicate
+how frequently they had the experiences identified in each
+statement (e.g., “How often do you check social media out of
+habit?”) on a typical day (1=never; 7=always). The internal
+consistency of the scale was satisfactory (Cronbach’s alpha
+=0.89).
+
+327
+
+The post-deployment survey mirrored the questions from the predeployment survey, with the addition of targeted questions about
+participants’ experiences using the Locus app, how consistently
+they used it, and any bugs they encountered. To assess the app’s selfperceived impact on social media use, participants were asked how
+strongly they agreed or disagreed with the following statements:
+“The Locus app helped me to think about my goals for using social
+media” and “The Locus app made me feel more in control of my social
+media use.” Response choices were on a Likert scale from 1 (strongly
+disagree) to 5 (strongly agree).
+At the end of the two weeks, 26 participants took part in a
+follow-up interview. Interview questions included both user experience questions and questions about the Locus app’s self-perceived
+impact on participants’ approach to social media. The interviews
+gave us a qualitative understanding of how teens appropriated and
+experienced Locus and implications for further redesign.
+To analyze the interviews, we used a reflexive thematic analysis
+(TA) approach that emphasizes researcher reflexivity and interpretive depth (in contrast to post-positivist approaches that rely
+on inter-coder agreement) [11–13]. Drawing on theory and prior
+research (see Section 2), and guided by our three research questions, the first author read through the interview transcripts and
+interviewer notes multiple times, highlighting and grouping ideas
+that addressed each research question. For every highlighted idea
+and across each interview transcript, the researcher recorded instances of both confirming and disconfirming evidence. The first
+and third authors used this analysis to frame a series of interpretive
+conversations and construct themes.
+
+5
+
+RESULTS
+
+The results of the deployment study are organized around our three
+research questions, which address teens’ interactions with the Locus app’s features (RQ1); engagement in self-regulation behaviors
+(e.g., goal setting, reflection, self-monitoring) (RQ2); and perceived
+changes in teens’ experiences of self-control and agency in their
+social media use (RQ3). To protect participants’ privacy, we use
+numerical participant identifiers in place of actual names.
+
+===== PDF PAGE 7 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Figure 3: Distribution of responses to the post-deployment survey question asking participants to rate how annoying they
+found it to receive the end-of-day and app-entry prompts (N =54).
+
+5.1
+
+RQ1 – Participants’ Interactions with the
+Locus App’s Features (Acceptability)
+
+Our first research question focused on the acceptability of the Locus
+app to adolescent users. In designing Locus as a wrapper application,
+we were initially concerned that teens would find it cumbersome
+or annoying to hide the social media icons on their phones and
+enter their desired apps instead through Locus. Although some
+participants said they had to remind themselves initially to go
+through Locus, participants said they adapted quickly and found
+it straightforward to access their social media apps in this way.
+80% of participants reported that they opened their social media
+apps through the Locus app most of the time or all of the time
+during the course of the two-week study. Of the 20% who used
+Locus less regularly, they usually said they either forgot or found
+it easier to access their social media apps directly instead of being
+slowed down by an intermediary app. P51 (male, age 16) explained:
+“Sometimes if I really needed to get to an app, I just kind of went to
+that directly, because it was just easier to do that in the moment.”
+We asked participants to reflect on and rate how they experienced receiving each type of prompt. Figure 3 shows the distribution of their responses on a 5-point Likert scale ranging from very
+annoying (1) to totally fine (5). Very few participants rated either
+prompt as very annoying, with the app-entry prompts receiving a
+slightly higher proportion of such ratings than the general end-ofday prompts. Reflecting this general lack of user frustration, P16
+(male, age 17) said of the app-entry prompts: “Having that little bit
+of extra friction was not. . .it wasn’t as annoying as I thought it was
+gonna be. And actually, it was more helpful too, in that it made me
+reflect.”
+The frequency of the prompts and the ability to dismiss them
+without recording a response both appeared to play a role in minimizing user frustration, which is critical to the acceptability of
+the intervention. Participants tended to agree that the number of
+prompts they received each day did not feel onerous. Some participants cautioned that increasing the number of prompts (both
+app-entry and end-of-day) may lead to people abandoning the app
+out of frustration. Others felt that increasing the frequency slightly
+would encourage people to reflect more on their social media use.
+P61 (male, age 16) addressed this tension: “I feel like if you asked a
+
+328
+
+question every single time [you opened a social media app], it’d be
+annoying, but also, it would make you think about [your goals for
+social media] every single time.”
+Several participants appreciated that responding to the prompts
+was optional. P35 (female, age 17) observed: “The app is fairly noninvasive. . .it doesn’t block you every time you get a notification. I
+think that would have been too invasive for me. . .but it was enough
+so that you’re still aware of things.” However, some participants still
+felt compelled to record a response even though it was optional.
+P61(male, age 16) explained:
+“Sometimes it was slightly annoying to use because I
+just needed to go, get into the app. . .I was like, ‘I don’t
+really wanna answer the question right now.’ But I was
+kinda forced to either do it now or it was like, not answer
+at all.”
+This participant started to experience the prompts as a “barrier
+to entry.” He suggested that he would have liked the option to
+postpone answering a prompt until a time when he was in the right
+frame of mind rather than have the prompt disappear altogether.
+Several other participants similarly reflected that they would like
+the ability to customize the app, such as by controlling the timing of
+the prompts, deciding when to answer them, selecting the prompts
+they liked best, adding their own prompts, and being shown their
+responses over time.
+
+5.2
+
+RQ2 – Engagement in Self-Regulation
+Behaviors Related to Social Media Use
+
+To determine the extent to which participants perceived the intervention as having impacted their self-regulation behaviors, we
+analyzed their responses to interview questions about whether and
+how Locus changed their approach (both beliefs and behaviors) to
+social media. We also analyzed responses to a Likert-scale question
+included on the post-survey that asked participants to rate how
+much they agreed or disagreed that Locus helped them to think
+about their goals for using social media.
+81% of participants agreed or strongly agreed that Locus helped
+them to think about their goals for using social media (see Figure 4).
+P16 (male, age 17) observed: “[Locus] helps me to. . .think about what
+I’m going to do on Instagram or whatever social media I’m using and
+
+===== PDF PAGE 8 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+Figure 4: Distribution of participants’ responses when asked if Locus helped them think about their goals and feel more in
+control.
+kind of have that goal in mind.” Some participants, like P51 (male,
+age 16), connected goal setting with clarifying the value they were
+getting from their social media use:
+“I thought of why am I going on this social media app
+and what’s the benefit for me? Most of the time it was
+not great, so I just kind of abandoned [social media]
+and get [sic] to do more important things.”
+In the follow-up interviews, participants’ observations extended
+beyond goal-setting to include other self-regulation behaviors such
+as self-monitoring and reflection. Both types of prompts—app-entry
+and end-of-day—contributed to these self-regulation behaviors. The
+end-of-day prompts helped participants to reflect on the day’s social
+media use generally and then use those reflections to set goals for
+the following day: “I got time to reflect and think about what I did
+on social media and know if I achieved the right goals or I was just
+wasting time on social media and watching videos and having my
+laughs” (P58, female, age 17). The app-entry prompts were more
+targeted than the end-of-day prompts and helped participants to
+focus on the immediate social media session before them. P16 (male,
+age 17) observed: “I felt like having a pause before I actually went in
+[to a social media app], definitely made me reflect a little bit before I
+went on to do what I was doing.”
+Participants’ baseline stance toward social media and motivations for enrolling in the study seemed to affect the value they
+received from the Locus prompts. P28 (male, age 18) came to the
+study motivated to change his social media practices:
+“When we began this whole study, my goal was to use social media less than the way I used it, because I thought
+I was so addicted to social media. . .and checking every
+single notification that pops up on my phone. So Locus
+has a way of making me think of why I want to access
+the app and how long I want to stay on the app.”
+In contrast, P06 (male, age 17) did not see the point in identifying
+goals for his social media use: “It’s a social media app. It’s not meant
+for anything else besides time passing and finding ways to connect to
+other people. So I can’t really think that question [about goal setting]
+really helps too much.”
+
+329
+
+5.3
+
+RQ3 – Perceived Impact on Teens’ Sense of
+Control and Agency in their Social Media
+Experiences
+
+To examine evidence of the intervention’s potential effectiveness, we conducted paired-sample t-tests to compare levels of our
+three outcome measures before and after the two-week intervention. Shapiro tests indicated that none of the measures violated
+the assumption of normality. Figure 5 shows the pre- and postdeployment distributions, means, and confidence intervals for the
+three measures: perceived self-control (BSCS), absentmindedness
+(SUQ-A), and autonomy (TENS-Life) in relation to social media use.
+For all three measures, there was a statistically significant difference between condition means. On average, participants reported
+increased self-control (t(52 )=5.79, p< 0.001), decreased absentmindedness (t(52 )=2.74, p<0.01), and increased autonomy (t(52)=5.12,
+p<0.001) in relation to their social media use from pre- to postdeployment. Table 2 summarizes these results, including effect
+sizes.
+In addition, 74% of participants agreed or strongly agreed with
+the statement “The Locus app helped me feel more in control of my
+social media use” (Figure 4). Taken together, these results provide
+preliminary evidence that the Locus intervention had a positive
+impact, at least in the short-term, on participants’ perceived selfcontrol and agency in their social media use. In the remainder of
+this section, we dig deeper into these aggregate trends by drawing
+on participants’ individual interview responses.
+For some participants, their perceived increased sense of control
+came from being able to reduce the amount of time they were
+spending on social media: “I learned basically self-control. I learned
+that, okay, you would have to minimize time you spend on social
+media and focus more on work and other things” (P58, female, age
+17).
+For other participants, their perceived increased sense of control
+had less to do with the amount of time they used social media
+and more with the quality of their interactions. A common theme
+in participants’ descriptions of their social media use before the
+study was their tendency to use social media “mindlessly” and out
+of habit. For some, Locus helped them to disrupt their habits, at
+
+===== PDF PAGE 9 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Figure 5: Raincloud plots showing distributions of the raw data, means, and confidence intervals for the three pre- and postdeployment measures used in the field deployment (N =53). Left to right: BSCS, SUQ-A, TENS-Life.
+Table 2: Differences between pre- and post-deployment on self-control, absentmindedness, and autonomy in SM use (N =53)*
+Pre-Deployment
+Perceived self-control (BSCS)
+Absentmindedness
+(SUQ-A)
+Autonomy
+(TENS-Life)
+
+Post-Deployment
+
+M
+2.53
+5.05
+
+SD
+0.64
+1.11
+
+M
+3.13
+4.56
+
+SD
+0.62
+1.14
+
+t(52)
+5.79
+2.74
+
+p
+<0.001
+<0.01
+
+Cohen’s d
+- 0.79
+0.38
+
+2.72
+
+0.92
+
+3.45
+
+0.85
+
+5.12
+
+<0.001
+
+- 0.70
+
+*1 participant had incomplete data on these measures and was excluded from the analysis.
+least during the two weeks they used the app. P06 (male, age 17)
+explained: “During the night at like 2AM or something, where you’d
+be mindlessly scrolling through Instagram Reels or TikToks. . .it’s nice
+to have some sort of thing that’s holding you back from wasting your
+time.”
+This effect did not apply to all participants, however. P61 (male,
+age 16) explained that, over the course of the two weeks, responding
+to the Locus prompts itself became as mindless and habitual as his
+social media use: “After a little while, I just kinda, like, auto-pilot
+did the questions.” Unsurprisingly, this participant did not feel that
+Locus helped him to feel more in control of his social media use.
+Although he said he engaged in more reflection than previously,
+his relationship to social media overall remained unchanged after
+the intervention.
+Several participants tied their perceived increased sense of control with a greater intentionality in their social media interactions.
+Locus helped P16 (male, age 17) to clarify his intentions for opening
+social media:
+
+330
+
+“It was really nice to think before I opened a social media
+app, just because normally it’s kind of like an impulse
+thing like, ‘Oh, I’m bored, I’m gonna go on Instagram
+or whatever.’ But now I have to be. . .like actually think
+about what I’m going to do, why I’m on here.”
+This participant went on to observe that he was now less likely
+to engage in social comparison when scrolling through sites like
+Instagram, which had previously been a source of stress for him. By
+the end of the study, he was feeling more satisfied with his social
+media use now that he was using it in a more intentional way.
+
+6 DISCUSSION
+6.1 Extending Digital Well-Being Designs to an
+Adolescent Population
+Adolescents are an under-researched group in HCI interventions
+that target digital well-being even though adolescents struggle
+to control, find meaning, and experience agency in their technology use [60, 68, 81]. Our work provides preliminary evidence that
+
+===== PDF PAGE 10 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+interaction designs that prompt teens to engage in goal setting,
+reflection, planning, and self-monitoring are an acceptable form
+of in-the-moment intervention and can potentially help teens—at
+least in the short-term—to use social media in a more intentional
+way. Results from our open trial field deployment (N =54) showed
+that, on average, teen participants reported perceived increased selfcontrol and autonomy and decreased absentmindedness in their
+social media use over the two week-period of using Locus. The
+results provide a basis for future work investigating adolescents’
+long-term use of and response to digital interventions, such as
+Locus, that provide adolescents with in-the-moment support for
+self-regulating their social media use.
+Our exploratory field deployment provided evidence supporting the initial steps in our theory of change (Figure 1). Interview
+participants discussed how Locus (intervention) prompted them to
+engage in self-regulation behaviors related to their social media use
+(mechanism of change). Over the course of the study, participants
+observed themselves engaging in less habitual social media use
+(characterized by “mindless scrolling”), approaching social media
+with greater intention, and experiencing more meaning in their
+interactions (proximal outcome).
+We would not expect—and therefore did not measure—any longterm changes in well-being (distal outcome) over the course of
+just two weeks. Future work is needed to examine the long-term
+appropriation of Locus, including changes to how youth engage
+with the app over time, and whether it succeeds in influencing their
+well-being. Such an investigation is outside the scope of the current
+work, which focused on the initial design of the Locus intervention
+and an exploratory investigation into its acceptability and potential
+effectiveness with a group of adolescents.
+The current study connects to and extends prior HCI research
+on digital well-being (e.g., [29, 44, 48, 68, 77, 84, 86]). We applied
+insights generated from existing work to a population that is distinctly positioned to benefit from design interventions targeting
+digital well-being. Adolescence represents a sensitive period for
+the development of self-regulation skills [51]; it is also a time of
+intensive social media use, which many youth struggle to manage
+in an intentional way [20, 81]. In light of these challenges, we see
+an opportunity for HCI research to identify interaction designs
+that help build the self-regulation skills and shape the social media
+habits that adolescents will carry with them into adulthood. The
+current study contributes insight into promising interaction designs
+that support adolescents’ intentional social media use, as well as
+the contexts and individual characteristics that shape how they are
+taken up by specific adolescents.
+The results of our deployment study suggest that the set of interaction designs employed by Locus (see Section 3.4 and Figure
+2) are acceptable to adolescents and hold promise for supporting
+intentional social media use in an adolescent population. Overall,
+adolescent participants adopted and used the Locus app with little trouble or annoyance. There was a general consensus among
+interview participants that the frequency of the prompts (one appentry prompt per app per day, one general, end-of-day prompt)
+was not too great to be annoying. In light of prior work showing
+high rates of user frustration and abandonment of self-control tools
+[43, 46], striking a balance between user engagement and frustration is critical. The inclusion of a response entry option (as opposed
+
+331
+
+to requiring users to record a response to every prompt) succeeded
+at engaging participants in the target self-regulation skills without
+producing too much frustration due to the fact that it was optional.
+Overall, it appeared that Locus came close to a “Goldilocks” level
+of self-control support for most participants [46].
+
+6.2
+
+Accounting for Individual Variation when
+Designing for Adolescent Digital Well-Being
+
+We gained useful insight from the few participants who said they
+found little value in using Locus. For instance, P61 (male, age 16)
+observed that, rather than disrupting his social media habits, answering the app-entry prompts themselves became as mindless
+and habitual as his social media interactions. Although a minority
+view, this perspective points to the need for future work to explore
+which adolescents specifically are most likely to benefit from design
+interventions, such as Locus, that target self-regulation skills in the
+context of social media use.
+For example, prior research suggests that problematic social
+media use may be higher among adolescent girls than boys [37].
+Future work could explore the moderating role of demographic
+differences such as gender, age, socioeconomic status, and race,
+as well as the role of individual characteristics such as executive
+function, personality type, levels of existing dissatisfaction with
+social media, and motivation to change one’s social media patterns.
+Even among the majority of participants who perceived benefits from using Locus, several of them identified changes they felt
+would improve the user experience and the intervention’s effectiveness. Moreover, there was considerable variation in their feedback.
+Some participants wanted more frequent prompts, others less. Some
+wanted it to be mandatory to respond to the prompts, others said
+responding already felt mandatory. Some participants wanted to be
+able to customize the app, for instance, by selecting their favorite
+prompts and deciding for themselves when to answer them. Several
+participants offered ideas for new features, such as a visualization
+tool that shows their responses to prompts over time.
+Returning to the concept of a “Goldilocks” level of support [46],
+these findings indicate considerable individual variation across
+adolescents in the “just right” level of support that is most likely to
+be effective in scaffolding their self-regulation behaviors. It is also
+worth exploring designs that are tailored to the environments of
+specific social media platforms (e.g., [86]) and the distinct ways that
+adolescents engage with them. Whereas social comparison may
+be a relevant target of intervention for platforms like Instagram,
+the lure of auto-play may be a more relevant focus for sites like
+YouTube and TikTok (see [20]). Therefore, we recommend further
+design investigations before testing the long-term impacts of Locus
+and other interventions targeting adolescents’ intentional social
+media use.
+
+7
+
+CONCLUSION
+
+Digital well-being is a rapidly growing area of research in HCI.
+There has been relatively little work to date that addresses adolescents as a specific user group, despite the fact that many adolescents struggle to manage and find meaning in their digital media
+experiences. In light of their developmental challenges with selfregulation, adolescents stand to benefit from interventions that are
+
+===== PDF PAGE 11 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+designed for and with them from the start. Drawing on psychology
+theory and co-design practices, we developed Locus, a mobile application that shapes users’ entry experiences into the social media
+platforms on their phones and encourages end-of-day reflection
+about their interactions. Results from an open trial field deployment
+(N = 54; M age =16.2 years) showed that Locus was an acceptable
+intervention for this group of adolescents and showed evidence
+of potential effectiveness. Participants reported engaging in more
+frequent self-regulation behaviors in relation to their social media
+use and perceived increases in their self-control and autonomy
+and decreases in their absentminded social media use. The results
+from the current study point to opportunities for future research,
+such as customization features that allow adolescents to tailor the
+intervention for their individual needs.
+
+8
+
+SELECTION AND PARTICIPATION OF
+CHILDREN
+
+All procedures involving minor participants received approval from
+our university’s institutional review board (IRB). We recruited participants through word of mouth, social media announcements and
+advertisements, and our university’s research-participant pool. All
+procedures were explained to potential participants prior to their
+participation, including the voluntary nature of participation, the
+ability to end participation at any point during the study, and the
+procedures in place to assure the confidentiality of their participation. We shared this information with participants electronically,
+and they indicated their assent by clicking on a button indicating
+they understood the nature of the study and agreed to participate
+in it. For those teens who participated in co-design sessions and
+follow-up interviews in the deployment study, we shared study
+information both electronically and verbally. The university IRB
+designated the study minimal risk and waived the requirement for
+parental consent.
+
+ACKNOWLEDGMENTS
+The authors would like to thank the Committee for Children for
+funds provided to support this work.
+
+REFERENCES
+[1] Elena Agapie, Katherine Chang, Sneha Patrachari, Martha Neary, and Stephen
+M. Schueller. 2022. Understanding Mental Health Apps for Youth: Focus Group
+Study With Latinx Youth. JMIR Formative Research 6, 10: e40726.
+[2] Zainab Agha, Zinan Zhang, Oluwatomisin Obajemu, Luke Shirley, and Pamela
+J. Wisniewski. 2022. A Case Study on User Experience Bootcamps with Teens
+to Co-Design Real-Time Online Safety Interventions. In Extended Abstracts of
+the 2022 CHI Conference on Human Factors in Computing Systems (CHI EA ’22).
+https://doi.org/10.1145/3491101.3503563
+[3] Mustafa Baloğlu, Rukiye Şahin, and Ibrahim Arpaci. 2020. A review of recent
+research in problematic internet use: gender and cultural differences. Current
+Opinion in Psychology 36: 124–129. https://doi.org/10.1016/j.copsyc.2020.05.008
+[4] Albert Bandura. 1991. Social cognitive theory of self-regulation. Organizational
+behavior and human decision processes 50, 2: 248–287.
+[5] Fanni Bányai, Ágnes Zsila, Orsolya Király, Aniko Maraz, Zsuzsanna Elekes, Mark
+D. Griffiths, Cecilie Schou Andreassen, and Zsolt Demetrovics. 2017. Problematic
+Social Media Use: Results from a Large-Scale Nationally Representative Adolescent Sample. PLOS ONE 12, 1: e0169839. https://doi.org/10.1371/journal.pone.
+0169839
+[6] Adam Bell and Katie Davis. 2016. Learning through participatory design: Designing digital badges for and with teens. In Proceedings of the The 15th International
+Conference on Interaction Design and Children, 218–229.
+[7] Elliot T. Berkman. 2016. Self-Regulation Training. In Handbook of Self-Regulation
+(3rd Edition). The Guilford Press, New York, NY, USA, 417–439.
+
+332
+
+[8] Arpita Bhattacharya. 2019. Designing to Support Teen Mental Health Using Asynchronous Online Groups. In Proceedings of the 18th ACM International Conference
+on Interaction Design and Children (IDC ’19), 723–727. https://doi.org/10.1145/
+3311927.3325352
+[9] Sarah-Jayne Blakemore and Suparna Choudhury. 2006. Development of the
+adolescent brain: implications for executive function and social cognition. Journal
+of child psychology and psychiatry 47, 3–4: 296–312.
+[10] Sarah-Jayne Blakemore and Trevor W. Robbins. 2012. Decision-making in the
+adolescent brain. Nature neuroscience 15, 9: 1184–1191.
+[11] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis.
+Qualitative Research in Sport, Exercise and Health 11, 4: 589–597. https://doi.org/
+10.1080/2159676X.2019.1628806
+[12] Virginia Braun and Victoria Clarke. 2021. One size fits all? What counts as quality
+practice in (reflexive) thematic analysis? Qualitative research in psychology 18, 3:
+328–352.
+[13] Virginia Braun and Victoria Clarke. 2022. Conceptual and design thinking for
+thematic analysis. Qualitative Psychology 9, 1: 3.
+[14] Kirk Warren Brown and Richard M. Ryan. 2015. A self-determination theory
+perspective on fostering healthy self-regulation from within and without. Positive
+psychology in practice: Promoting human flourishing in work, health, education,
+and everyday life 2: 139–157.
+[15] Pin-Chieh Chen, Min-Wei Hung, Hsueh-Sung Lu, Chien Wen (Tina) Yuan, Nanyi
+Bi, Wan-Chen Lee, Ming-Chyi Huang, and Chuang-Wen You. 2022. This App is
+not for Me: Using Mobile and Wearable Technologies to Improve Adolescents’
+Smartphone Addiction through the Sharing of Personal Data with Parents. In
+Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+(CHI ’22), 1–15. https://doi.org/10.1145/3491102.3517478
+[16] Hyunsung Cho, DaEun Choi, Donghwi Kim, Wan Ju Kang, Eun Kyoung Choe, and
+Sung-Ju Lee. 2021. Reflect, not Regret: Understanding Regretful Smartphone Use
+with App Feature-Level Analysis. Proceedings of the ACM on Human-Computer
+Interaction 5, CSCW2: 1–36. https://doi.org/10.1145/3479600
+[17] Sarah M. Coyne, Emily Schvaneveldt, and Jane Shawcroft. 2022. An Overview of
+Social Media and Mental Health. In The Social Media Debate, Devan Rosen (ed.).
+Routledge, 152–169.
+[18] Claudia Daudén Roquet, Nikki Theofanopoulou, Jaimie L. Freeman, Jessica Schleider, James J. Gross, Katie Davis, Ellen Townsend, and Petr Slovak. 2022. Exploring
+Situated & Embodied Support for Youth’s Mental Health: Design Opportunities
+for Interactive Tangible Device. In CHI Conference on Human Factors in Computing
+Systems, 1–16.
+[19] Katie Davis. 2013. Young people’s digital lives: The impact of interpersonal
+relationships and digital media use on adolescents’ sense of identity. Computers
+in Human Behavior 29, 6: 2281–2293. https://doi.org/10.1016/j.chb.2013.05.022
+[20] Katie Davis. 2023. Technology’s Child: Digital Media’s Role in the Ages and Stages
+of Growing Up. The MIT Press, Cambridge, MA; London, England.
+[21] Edward L Deci and Richard M Ryan. 2000. The" what" and" why" of goal pursuits:
+Human needs and the self-determination of behavior. Psychological inquiry 11, 4:
+227–268.
+[22] Alexander J. A. M. van Deursen, Colin L. Bolle, Sabrina M. Hegner, and Piet
+A. M. Kommers. 2015. Modeling habitual and addictive smartphone behavior:
+The role of smartphone usage types, emotional intelligence, social stress, selfregulation, age, and gender. Computers in Human Behavior 45: 411–420. https:
+//doi.org/10.1016/j.chb.2014.12.039
+[23] Karthik Dinakar, Birago Jones, Catherine Havasi, Henry Lieberman, and Rosalind
+Picard. 2012. Common Sense Reasoning for Detection, Prevention, and Mitigation
+of Cyberbullying. ACM Trans. Interact. Intell. Syst. 2, 3. https://doi.org/10.1145/
+2362394.2362400
+[24] Aiman El Asam, Muthanna Samara, and Philip Terry. 2019. Problematic internet
+use and mental health among British children and adolescents. Addictive Behaviors
+90: 428–436. https://doi.org/10.1016/j.addbeh.2018.09.007
+[25] Jonathan St BT Evans and Keith E. Stanovich. 2013. Dual-process theories of
+higher cognition: Advancing the debate. Perspectives on psychological science 8, 3:
+223–241.
+[26] Mingyue Fan, Liyue Yu, and Leanne Bowler. 2016. Feelbook: A Social Media App
+for Teens Designed to Foster Positive Online Behavior and Prevent Cyberbullying.
+In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors
+in Computing Systems (CHI EA ’16), 1187–1192. https://doi.org/10.1145/2851581.
+2892398
+[27] Manuel J. Galvan, Keith Payne, Jason Hannay, Alexis Georgeson, and Keely
+Muscatell. 2022. What does the MacArthur Scale of Subjective Social Status
+Measure? Separating Economic Circumstances and Social Status to Predict Health.
+https://doi.org/10.31234/osf.io/e9px3
+[28] Jessica L. Hamilton, Jacqueline Nesi, and Sophia Choukas-Bradley. 2022. Reexamining Social Media and Socioemotional Well-Being Among Adolescents
+Through the Lens of the COVID-19 Pandemic: A Theoretical Review and Directions for Future Research. Perspectives on Psychological Science 17, 3: 662–679.
+https://doi.org/10.1177/17456916211014189
+[29] Alexis Hiniker, Sungsoo Hong, Tadayoshi Kohno, and Julie A. Kientz. 2016.
+MyTime: designing and evaluating an intervention for smartphone non-use. In
+
+===== PDF PAGE 12 =====
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+Katie Davis et al.
+
+Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems,
+4746–4757.
+[30] Yubo Hou, Dan Xiong, Tonglin Jiang, Lily Song, and Qi Wang. 2019. Social media
+addiction: Its impact, mediation, and intervention. Cyberpsychology: Journal of
+Psychosocial Research on Cyberspace 13, 1. https://doi.org/10.5817/CP2019-1-4
+[31] Ole Sejer Iversen and Rachel Charlotte Smith. 2012. Scandinavian participatory
+design: dialogic curation with teenagers. In Proceedings of the 11th International
+Conference on Interaction Design and Children (IDC ’12), 106–115. https://doi.org/
+10.1145/2307096.2307109
+[32] Carrie James, Weinstein, Emily, and Mendoza, Kelly. 2019. Teaching Digital Citizens in Today’s World: Research and Insights Behind the Common Sense K–12
+Digital Citizenship Curriculum. Common Sense Media, San Francisco, CA.
+[33] Inyeop Kim, Gyuwon Jung, Hayoung Jung, Minsam Ko, and Uichin Lee. 2017.
+Let’s focus: location-based intervention tool to mitigate phone use in college
+classrooms. In Proceedings of the 2017 ACM International Joint Conference on
+Pervasive and Ubiquitous Computing and Proceedings of the 2017 ACM International
+Symposium on Wearable Computers, 101–104. https://doi.org/10.1145/3123024.
+3123165
+[34] Jaejeung Kim, Hayoung Jung, Minsam Ko, and Uichin Lee. 2019. GoalKeeper:
+Exploring Interaction Lockout Mechanisms for Regulating Smartphone Use. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies
+3, 1: 1–29. https://doi.org/10.1145/3314403
+[35] Jaejeung Kim, Joonyoung Park, Hyunsoo Lee, Minsam Ko, and Uichin Lee. 2019.
+LocknType: Lockout Task Intervention for Discouraging Smartphone App Use.
+In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems,
+1–12. https://doi.org/10.1145/3290605.3300927
+[36] Sang-Hyun Kim, Hyeon-Woo Yim, Sun-Jin Jo, Kyu-In Jung, Kina Lee, and MinHyeon Park. 2018. The Effects of Group Cognitive Behavioral Therapy on the
+Improvement of Depression and Anxiety in Adolescents with Problematic Internet Use. Journal of the Korean Academy of Child and Adolescent Psychiatry 29, 2:
+73–79. https://doi.org/10.5765/jkacap.2018.29.2.73
+[37] Kagan Kırcaburun, Constantinos M. Kokkinos, Zsolt Demetrovics, Orsolya
+Király, Mark D. Griffiths, and Tuğba Seda Çolak. 2019. Problematic Online
+Behaviors among Adolescents and Emerging Adults: Associations between
+Cyberbullying Perpetration, Problematic Social Media Use, and Psychosocial
+Factors. International Journal of Mental Health and Addiction 17, 4: 891–908.
+https://doi.org/10.1007/s11469-018-9894-8
+[38] Minsam Ko, Seungwoo Choi, Koji Yatani, and Uichin Lee. 2016. Lock n’ LoL:
+Group-based Limiting Assistance App to Mitigate Smartphone Distractions in
+Group Activities. In Proceedings of the 2016 CHI Conference on Human Factors in
+Computing Systems, 998–1010. https://doi.org/10.1145/2858036.2858568
+[39] Minsam Ko, Subin Yang, Joonwon Lee, Christian Heizmann, Jinyoung Jeong,
+Uichin Lee, Daehee Shin, Koji Yatani, Junehwa Song, and Kyong-Mee Chung.
+2015. NUGU: A Group-based Intervention App for Improving Self-Regulation of
+Limiting Smartphone Use. In Proceedings of the 18th ACM Conference on Computer
+Supported Cooperative Work & Social Computing, 1235–1245. https://doi.org/10.
+1145/2675133.2675244
+[40] Markus Löchtefeld, Matthias Böhmer, and Lyubomir Ganev. 2013. AppDetox:
+helping users with mobile app addiction. In Proceedings of the 12th International
+Conference on Mobile and Ubiquitous Multimedia - MUM ’13, 1–2. https://doi.org/
+10.1145/2541831.2541870
+[41] Karina Loid, Karin Täht, and Dmitri Rozgonjuk. 2020. Do pop-up notifications
+regarding smartphone use decrease screen time, phone checking behavior, and
+self-reported problematic smartphone use? Evidence from a two-month experimental study. Computers in Human Behavior 102: 22–30.
+[42] Lucas Silva Lopes, João Pedro Valentini, Thomas Hagemann Monteiro, Marcelo
+Cunha de Freitas Costacurta, Luiza Oliveira Nicastro Soares, Lucy Telfar-Barnard,
+and Paula Villela Nunes. 2022. Problematic Social Media Use and Its Relationship
+with Depression or Anxiety: A Systematic Review. Cyberpsychology, Behavior,
+and Social Networking 25, 11: 691–702. https://doi.org/10.1089/cyber.2021.0300
+[43] K. Lukoff, ULRIK Lyngs, and LIZE Alberts. 2022. Designing to support autonomy and reduce psychological reactance in digital self-Control tools. In SelfDetermination Theory in HCI: Shaping a Research Agenda. Workshop at the ACM
+CHI Conference on Human Factors in Computing Systems (CHI’22), 6.
+[44] Kai Lukoff, Cissy Yu, Julie Kientz, and Alexis Hiniker. 2018. What makes smartphone use meaningful or meaningless? Proceedings of the ACM on Interactive,
+Mobile, Wearable and Ubiquitous Technologies 2, 1: 1–26.
+[45] Ulrik Lyngs and Kai Lukoff. 2022.
+[46] Ulrik Lyngs, Kai Lukoff, Laura Csuka, Petr Slovák, Max Van Kleek, and Nigel
+Shadbolt. 2022. The Goldilocks level of support: Using user reviews, ratings, and
+installation numbers to investigate digital self-control tools. International Journal
+of Human-Computer Studies 166: 102869.
+[47] Ulrik Lyngs, Kai Lukoff, Petr Slovak, Reuben Binns, Adam Slack, Michael Inzlicht,
+Max Van Kleek, and Nigel Shadbolt. 2019. Self-Control in Cyberspace: Applying
+Dual Systems Theory to a Review of Digital Self-Control Tools. In Proceedings
+of the 2019 CHI Conference on Human Factors in Computing Systems, 1–18. https:
+//doi.org/10.1145/3290605.3300361
+[48] Ulrik Lyngs, Kai Lukoff, Petr Slovak, William Seymour, Helena Webb, Marina
+Jirotka, Jun Zhao, Max Van Kleek, and Nigel Shadbolt. 2020. “I Just Want to Hack
+
+333
+
+Myself to Not Get Distracted” Evaluating Design Interventions for Self-Control
+on Facebook. In Proceedings of the 2020 CHI Conference on Human Factors in
+Computing Systems, 1–15.
+[49] Juan Machimbarrena, Joaquín González-Cabrera, Jéssica Ortega-Barón, Marta
+Beranuy-Fargues, Aitor Álvarez-Bardón, and Blanca Tejero. 2019. Profiles of
+Problematic Internet Use and Its Impact on Adolescents’ Health-Related Quality
+of Life. International Journal of Environmental Research and Public Health 16, 20:
+3877. https://doi.org/10.3390/ijerph16203877
+[50] Jeremy Marty-Dugas, Brandon C. W. Ralph, Jonathan M. Oakman, and Daniel
+Smilek. 2018. The relation between smartphone use and everyday inattention.
+Psychology of Consciousness: Theory, Research, and Practice 5, 1: 46–62. https:
+//doi.org/10.1037/cns0000131
+[51] Megan McClelland, John Geldhof, Fred Morrison, Steinunn Gestsdóttir, Claire
+Cameron, Ed Bowers, Angela Duckworth, Todd Little, and Jennie Grammer. 2018.
+Self-regulation. In Handbook of life course health development. Springer, 275–298.
+[52] David C. Mohr, Mi Zhang, and Stephen M. Schueller. 2017. Personal Sensing:
+Understanding Mental Health Using Ubiquitous Sensors and Machine Learning.
+Annual review of clinical psychology 13: 23–47. https://doi.org/10.1146/annurevclinpsy-032816-044949
+[53] Inbal Nahum-Shani, Shawna N. Smith, Bonnie J. Spring, Linda M. Collins, Katie
+Witkiewitz, Ambuj Tewari, and Susan A. Murphy. 2018. Just-in-time adaptive
+interventions (JITAIs) in mobile health: key components and design principles for
+ongoing health behavior support. Annals of Behavioral Medicine 52, 6: 446–462.
+[54] Jacqueline Nesi, Sophia Choukas-Bradley, and Mitchell J. Prinstein. 2018. Transformation of Adolescent Peer Relations in the Social Media Context: Part 1—A
+Theoretical Framework and Application to Dyadic Peer Relationships. Clinical
+Child and Family Psychology Review 21, 3: 267–294. https://doi.org/10.1007/s10567018-0261-x
+[55] Jacqueline Nesi, Sophia Choukas-Bradley, and Mitchell J. Prinstein. 2018. Transformation of Adolescent Peer Relations in the Social Media Context: Part 2—
+Application to Peer Group Processes and Future Directions for Research. Clinical
+Child and Family Psychology Review 21, 3: 295–319. https://doi.org/10.1007/s10567018-0262-9
+[56] Jacqueline Nesi and Mitchell J. Prinstein. 2015. Using Social Media for Social
+Comparison and Feedback-Seeking: Gender and Popularity Moderate Associations with Depressive Symptoms. Journal of Abnormal Child Psychology 43, 8:
+1427–1438. https://doi.org/10.1007/s10802-015-0020-0
+[57] Fabian Okeke, Michael Sobolev, Nicola Dell, and Deborah Estrin. 2018. Good
+vibrations: can a digital nudge reduce digital overload? In Proceedings of the 20th
+International Conference on Human-Computer Interaction with Mobile Devices and
+Services, 1–12. https://doi.org/10.1145/3229434.3229463
+[58] Dorian Peters, Rafael A. Calvo, and Richard M. Ryan. 2018. Designing for motivation, engagement and wellbeing in digital experience. Frontiers in psychology
+9: 797.
+[59] Anthony T. Pinter, Pamela J. Wisniewski, Heng Xu, Mary Beth Rosson, and Jack
+M. Caroll. 2017. Adolescent online safety: Moving beyond formative evaluations
+to designing solutions for the future. In Proceedings of the 2017 Conference on
+Interaction Design and Children, 352–357.
+[60] Caroline Pitt, Ari Hock, Leila Zelnick, and Katie Davis. 2021. The Kids Are / Not
+/ Sort of All Right*. In Proceedings of the 2021 CHI Conference on Human Factors
+in Computing Systems (CHI ’21), 1–14. https://doi.org/10.1145/3411764.3445541
+[61] Kyrill Potapov and Paul Marshall. 2020. LifeMosaic: Co-Design of a Personal
+Informatics Tool for Youth. In Proceedings of the Interaction Design and Children
+Conference (IDC ’20), 519–531. https://doi.org/10.1145/3392063.3394429
+[62] Kyrill Potapov, Asimina Vasalou, Victor Lee, and Paul Marshall. 2021. What do
+Teens Make of Personal Informatics? Young People’s Responses to Self-Tracking
+Practices for Self-Determined Motives. In Proceedings of the 2021 CHI Conference
+on Human Factors in Computing Systems, 1–10.
+[63] Rifat Rahman, Md. Rishadur Rahman, Nafis Irtiza Tripto, Mohammed Eunus
+Ali, Sajid Hasan Apon, and Rifat Shahriyar. 2021. AdolescentBot: Understanding
+Opportunities for Chatbots in Combating Adolescent Sexual and Reproductive
+Health Problems in Bangladesh. In Proceedings of the 2021 CHI Conference on
+Human Factors in Computing Systems (CHI ’21). https://doi.org/10.1145/3411764.
+3445694
+[64] Samira Rasouli, Garima Gupta, Moojan Ghafurian, and Kerstin Dautenhahn.
+2022. Proposed Applications of Social Robots in Interventions for Children and
+Adolescents with Social Anxiety. In Sixteenth International Conference on Tangible,
+Embedded, and Embodied Interaction (TEI ’22). https://doi.org/10.1145/3490149.
+3505575
+[65] Janet Read and Matthew Horton. 2016. Future directions for quality TeenCI
+research. In Perspectives on HCI research with teenagers. Springer, Berlin, 269–278.
+[66] Victoria Rideout and Micheal B Robb. 2018. Social media, social life: Teens reveal
+their experiences. San Francisco, CA: Common Sense Media.
+[67] Pedro Rodrigues, Marija Mitic, Ina Krammer, João Dias, Rui Prada, and Beate
+Schrank. 2022. The HUB: Designing an Interactive Social Space for PreAdolescents’ Well-being. In Interaction Design and Children (IDC ’22), 551–556.
+https://doi.org/10.1145/3501712.3535282
+
+===== PDF PAGE 13 =====
+
+Supporting Teens’ Intentional Social Media Use
+
+IDC ’23, June 19–23, 2023, Chicago, IL, USA
+
+[68] Alberto Monge Roffarello and Luigi De Russis. 2022. Achieving Digital Wellbeing
+Through Digital Self-Control Tools: A Systematic Review and Meta-Analysis.
+ACM Transactions on Computer-Human Interaction.
+[69] Julian B Rotter. 1966. Generalized expectancies for internal versus external control
+of reinforcement. Psychological monographs: general and applied. 80, 1.
+[70] Richard M Ryan and Edward L Deci. 2000. Self-determination theory and the
+facilitation of intrinsic motivation, social development, and well-being. American
+psychologist 55, 1: 68.
+[71] Jessica L. Schleider, Mallory L. Dobias, Jenna Y. Sung, and Michael C. Mullarkey.
+2020. Future Directions in Single-Session Youth Mental Health Interventions.
+Journal of Clinical Child & Adolescent Psychology 49, 2: 264–278. https://doi.org/
+10.1080/15374416.2019.1683852
+[72] Kassondra A. Shoemaker Brino, Anne L. Derouin, and Susan G. Silva. 2022.
+Problematic internet use in adolescents and implementation of a social media
+hygiene protocol. Journal of Pediatric Nursing 63: 84–89. https://doi.org/10.1016/
+j.pedn.2021.10.011
+[73] Petr Slovak, Alissa N. Antle, Nikki Theofanopoulou, Claudia Daudén Roquet,
+James J. Gross, and Katherine Isbister. 2023. Designing for emotion regulation
+interventions: an agenda for HCI theory and research. ACM Transactions on
+Computer-Human Interaction 30, 1: 1–51.
+[74] Leah H. Somerville. 2013. The Teenage Brain: Sensitivity to Social Evaluation.
+Current Directions in Psychological Science 22, 2: 121–127. https://doi.org/10.1177/
+0963721413476512
+[75] Laurence Steinberg. 2005. Cognitive and affective development in adolescence.
+Trends in cognitive sciences 9, 2: 69–74.
+[76] June Tangney, Angie Luzio Boone, and Roy F. Baumeister. 2004. High self-control
+predicts good adjustment, less pathology, better grades, and interpersonal success.
+Journal of Personality 72: 271–322.
+[77] Nađa Terzimehić, Luke Haliburton, Philipp Greiner, Albrecht Schmidt, Heinrich
+Hussmann, and Ville Mäkelä. 2022. MindPhone: Mindful Reflection at Unlock
+Can Reduce Absentminded Smartphone Use. In Designing Interactive Systems
+Conference, 1818–1830. https://doi.org/10.1145/3532106.3533575
+
+334
+
+[78] Jonathan A. Tran, Katie S. Yang, Katie Davis, and Alexis Hiniker. 2019. Modeling
+the engagement-disengagement cycle of compulsive phone use. In Proceedings of
+the 2019 CHI conference on human factors in computing systems, 1–14.
+[79] Petra Vondráčková and Roman Gabrhelík. 2016. Prevention of Internet addiction:
+A systematic review. Journal of Behavioral Addictions 5, 4: 568–579. https://doi.
+org/10.1556/2006.5.2016.085
+[80] Jo Lauren Weaver and Jacqueline M. Swank. 2019. Mindful Connections: A
+Mindfulness-Based Intervention for Adolescent Social Media Users. Journal of
+Child and Adolescent Counseling 5, 2: 103–112. https://doi.org/10.1080/23727810.
+2019.1586419
+[81] Emily Weinstein and Carrie James. 2022. Behind their screens: What teens are
+facing (and adults are missing). MIT Press, Cambridge, MA, US.
+[82] Veronica U. Weser and Kimberly D. Hieftje. 2020. Invite Only VR: A Vaping
+Prevention Game: An Evidence-Based VR Game for Health and Behavior Change.
+In ACM SIGGRAPH 2020 Talks (SIGGRAPH ’20). https://doi.org/10.1145/3388767.
+3407355
+[83] Pamela Wisniewski, Arup Kumar Ghosh, Heng Xu, Mary Beth Rosson, and John
+M. Carroll. 2017. Parental control vs. teen self-regulation: Is there a middle ground
+for mobile online safety? In Proceedings of the 2017 ACM Conference on Computer
+Supported Cooperative Work and Social Computing, 51–69.
+[84] Xuhai Xu, Tianyuan Zou, Han Xiao, Yanzhang Li, Ruolin Wang, Tianyi Yuan,
+Yuntao Wang, Yuanchun Shi, Jennifer Mankoff, and Anind K. Dey. 2022. TypeOut:
+Leveraging Just-in-Time Self-Affirmation for Smartphone Overuse Reduction. In
+CHI Conference on Human Factors in Computing Systems, 1–17.
+[85] Jason C. Yip, Elizabeth Foss, and Mona Leigh Guha. 2012. Co-designing with
+adolescents. In Designing Interactive Technology for Teens Workshop, NordiCHI,
+Copenhagen, Denmark. Retrieved from: http://www. chici. org/ditt2012/papers.
+html.
+[86] Mingrui Ray Zhang, Kai Lukoff, Raveena Rao, Amanda Baughan, and Alexis
+Hiniker. 2022. Monitoring Screen Time or Redesigning It? Two Approaches to
+Supporting Intentional Social Media Use. In CHI Conference on Human Factors in
+Computing Systems, 1–19.

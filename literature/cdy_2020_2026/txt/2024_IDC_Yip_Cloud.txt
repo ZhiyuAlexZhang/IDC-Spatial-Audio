@@ -1,0 +1,1831 @@
+SOURCE PDF: ../pdf/2024_IDC_Yip_Cloud.pdf
+SOURCE URL: https://bigyipper.com/wp-content/uploads/2024/04/idc24f-sub1205-cam-i16.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+“Why is Everything in the Cloud?”: Co-Designing Visual Cues
+Representing Data Processes with Children
+Kaiwen Sun
+
+kwsun@umich.edu
+School of Information
+University of Michigan
+Ann Arbor, Michigan, USA
+
+Li-Neishin Co
+
+lilico7@uw.edu
+The Information School &
+Department of Psychology
+University of Washington
+Seattle, Washington, USA
+
+Jenny Radesky
+
+jradesky@umich.edu
+Department of Pediatrics
+University of Michigan Medical
+School
+Ann Arbor, Michigan, USA
+
+Ritesh Kanchi
+
+Frances Marie Tabio Ello
+
+Mandy Wu
+
+Susan A. Gelman
+
+rkanchi@uw.edu
+School of Computer Science &
+Engineering
+University of Washington
+Seattle, Washington, USA
+rwu1@uw.edu
+Human Centered Design &
+Engineering
+University of Washington
+Seattle, Washington, USA
+
+Florian Schaub
+
+fschaub@umich.edu
+School of Information
+University of Michigan
+Ann Arbor, Michigan, USA
+
+fello@uw.edu
+Human Centered Design &
+Engineering
+University of Washington
+Seattle, Washington, USA
+
+gelman@umich.edu
+Department of Psychology
+University of Michigan
+Ann Arbor, Michigan, USA
+
+Jason Yip
+
+jcyip@uw.edu
+The Information School
+University of Washington
+Seattle, Washington, USA
+
+ABSTRACT
+
+CCS CONCEPTS
+
+Children struggle to understand hidden data processes (e.g., inferences) and related privacy implications (e.g., profiling). Children
+use visual cues to reason about technical processes in digital products, sometimes drawing inaccurate conclusions when interface
+cues are vague or absent. We conducted five consecutive participatory design sessions with children (ages 7–12), probing their
+perceptions of visual cues and data processes; and iteratively designed and reviewed new visual cues with them. We found that
+children conceptualized data collection concretely, lacked awareness of its pervasive nature, expressed limited understanding of data
+inferences, and recognized certain visual cues (e.g., loading, cloud)
+but unable to explain their meanings. We designed visual cues in
+“symbolic” and “concrete” styles using icons and metaphors, which
+helped children understand data flows. Our work contributes to
+developing comprehensible visual cues for children to support their
+data and privacy literacy. We discuss design and policy implications
+of our findings.
+
+• Human-centered computing → Human computer interaction (HCI); Empirical studies in visualization; • Security and
+privacy → Human and societal aspects of security and privacy.
+
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+© 2024 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0442-0/24/06
+https://doi.org/10.1145/3628516.3655819
+
+KEYWORDS
+Visual Cues, Data Literacy, Digital Privacy, Participatory Design,
+Children’s Perceptions.
+ACM Reference Format:
+Kaiwen Sun, Ritesh Kanchi, Frances Marie Tabio Ello, Li-Neishin Co, Mandy
+Wu, Susan A. Gelman, Jenny Radesky, Florian Schaub, and Jason Yip. 2024.
+“Why is Everything in the Cloud?”: Co-Designing Visual Cues Representing
+Data Processes with Children. In Interaction Design and Children (IDC ’24),
+June 17–20, 2024, Delft, Netherlands. ACM, New York, NY, USA, 16 pages.
+https://doi.org/10.1145/3628516.3655819
+
+1
+
+INTRODUCTION
+
+As children engage in various digital devices and activities at an
+increasingly young age [53, 87, 88], they have also become subjects in surveillance capitalism [52, 124]. Even before a child starts
+preschool, approximately five million data points about them have
+been collected for profiling and advertising purposes [90]. There
+are intricate challenges related to children’s understanding of data
+collection, transmission, storage, and the privacy implications as
+their digital footprints are accumulated via digital products and
+services [69, 77, 99, 122]. Simultaneously, as children are developing expectations and practices to navigate the digital world, data
+collection and monitoring practices may become normalized for
+
+===== PDF PAGE 2 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+them [91]. Meanwhile, privacy regulations for children’s data protection have gained importance in places like the European Union
+and the United Kingdom, focusing on digital transparency and
+control. These regulations call for the creation of principles and
+solutions tailored to children’s ages, capacities, and development
+needs, as well as cultivate their data literacy. For instance, the “Age
+Appropriate Design Code” by the UK’s Information Commissioner’s
+Office requires all digital services that are likely to be accessed by
+children to provide transparent, open, and safe experiences [84].
+While practical examples for translating such requirements to
+product design are lacking [43], one approach is to utilize visual
+cues to make hidden data processes visible, as Sun et al. found that
+young children (ages 4–10) rely on interface visual cues to conceptualize how data is remembered, stored, and used in apps [105].
+However, the visual cues in children’s apps and services are often
+borrowed from adult-oriented paradigms (e.g., progress bar) [51]
+and are potentially confusing for young children lacking the necessary cognitive and cultural understanding [96]. Children learn to
+associate symbols to their referents when they understand the simultaneous mental representations of the symbol, the referent, and
+the link between them [25]. This highlights the need to collaborate
+with children and incorporate their insights into the design process
+to create more intuitive visual cues enhancing their understanding
+of data processes.
+Relatedly, the timing to display visual cues of data processes
+is also important. We focus on a specific timing: loading screens,
+commonly encountered as “wait times” in children’s apps to signal
+data processing. Our goal is to design loading visual cues that
+make hidden data flows more transparent, engaging, and integrated
+into the user experience. Therefore we ask the following research
+questions:
+• RQ1: How do children conceptualize data flows and existing
+related visual cues in a co-design setting?
+• RQ2: How might we incorporate children’s co-designed ideas
+when designing visual cues to support children’s understanding of data flows?
+To investigate these questions, we conducted five participatory design (PD) sessions with children (ages 7–12) in an intergenerational co-design setting, using various PD techniques [111]
+to engage discussions on apps’ data collection, review and design
+of data related visual cues, and data privacy implications.
+Our empirical findings reveal that: 1) Our child participants
+conceptualized data collection concretely, lacked awareness of the
+pervasive nature of data, demonstrated selective understanding
+of data inferences, and recognized certain visual cues conveying
+relevant data processing timing and concepts (e.g., loading, cloud)
+but were unable to explain their symbolic meanings. 2) Our design
+narrative describes our iterative process of co-designing two visual
+cues styles with children: a symbolic style that visualizes data flows
+with icons typically used in interfaces (e.g., user profile, cloud); and
+a concrete style utilizing concrete metaphors to directly represent
+the involved data types and entities (e.g., a child’s selected profile
+avatar flowing to the data center building). We found that both
+styles helped children understand data flows among places, but the
+concrete style further clarified for children the specific data types
+and processing locations. Our “data button” visual cue inspired by
+
+Sun, et al.
+
+children’s ideas provides accessible information on companies’ data
+handling practices. We also found that visualizing synchronous data
+deletion (e.g., an account being deleted from the user’s device and
+from the cloud) sparked children’s curiosity about other hidden
+data flow processes.
+Our findings demonstrate the potential for incorporating data
+flow visualizations into apps’ loading screens to better support
+children’s understanding and awareness of data processes. Additionally, we discuss design and policy implications, emphasizing the
+potential of embedded, concrete, and context-specific visual cues in
+children’s digital experiences to address regulatory requirements
+for age-appropriate design.
+
+2 RELATED WORK
+2.1 Children’s Understanding of Data Processes
+and Privacy
+Pervasive tracking and data collection from a young age lead children to view surveillance as normal and data as commodities, since
+children tend to interpret how things are as an indication of how
+things should be [91]. Continuous data collection might lead children to consider digital privacy as less relevant as their “childhood
+becomes datafied” [72, 73]. However, supporting (young) children’s
+understanding of privacy is important because privacy provides
+freedom from being observed [2, 40], is linked to children’s right
+to freedom of expression [108], and plays a critical role in children’s development of identity, autonomy, and psychosocial competency [86, 112].
+Growing research in HCI and child development has examined
+young children’s (under 13) perceptions of data privacy regarding
+data collection, tracking, data ownership, data flow, data storage,
+and usage purposes. Young children predominantly understand
+data privacy as interpersonal, i.e., how children disclose or withhold information from others online, and are less likely to consider
+commercial and institutional privacy dimensions, i.e., how their
+data are collected and used by companies and institutions [64, 67].
+For instance, young children understand that digital tracking of
+another person’s location is unacceptable compared to tracking
+oneself [42], and perceive it as more negative when the information being tracked is private versus public [41]. They are also more
+inclined to believe that individuals own the personal information
+provided to apps [80]. Young children tend to consider data as static,
+stored locally, and primarily used for improving app experiences.
+By contrast, they struggle to understand data flows to places (e.g.,
+company servers, third parties), data aggregation, and data used
+for analytics and inference purposes [3, 8, 46, 105]. Relatedly, children associate data privacy risks with physical harms instead of
+monetization of data or corporate malfeasance [104, 121, 123].
+Understanding data characteristics, such as collection, flow, and
+storage, is critical for cultivating children’s data privacy awareness.
+Children need first to understand how their technology interactions
+create digital footprints, which could be used for other purposes,
+to understand fully and reason about digital privacy risks [47, 105].
+However, even adults may find such data concepts abstract and complex, as they often involve hidden processes. Our study builds on
+prior research on how visual cues can support children’s reasoning
+
+===== PDF PAGE 3 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+of data processes [51, 105]; we examined how to design understandable visual cues with and for children that reveal otherwise hidden
+data processes.
+
+2.2
+
+Privacy Notices, Icons, and Visualizations
+
+Privacy laws, such as Europe’s General Data Protection Regulation (GDPR) [1] and the Children’s Online Privacy Protection Act
+(COPPA) in the U.S. [39], require companies to clearly communicate
+data practices for children’s understanding of what will happen to
+their personal data, and what rights they have [56]. While privacy
+policies and notices are common forms of communication, they can
+be difficult to understand and navigate [34, 49, 74, 97]. Limited work
+in the HCI and child-computer interaction fields also shows that
+children lack an understanding of privacy policies [47], and find privacy policies intimidating to read and challenging to comprehend
+due to their obscure language, structure, and length [78].
+Meanwhile, existing efforts developing privacy icons and visualizations are mainly designed for adults to ease recognition and
+understanding, such as Mozilla’s Privacy Icons for conveying companies’ handling of users’ data [79], the data protection icon set
+(DaPIS) for data transparency under the GDPR [93], and the CCPA
+do-not-sell opt-out icon utilizing a stylized toggle to convey the concept of privacy choice to users [50]. Other forms of visualizations
+of data practices and processes include comics [62, 63, 106, 120], interactive privacy policies [89], ebooks [119], and privacy nutrition
+labels [60, 61]. These efforts have shown that it is challenging but
+possible to effectively convey complex data practices and privacy
+concepts visually to adults [33, 98]. Doing the same for children
+adds further complexity considering their developing cognition, literacy level, and skills as we describe next in Section 2.3). We chose
+to explore designing effective data flow visual cues for children
+through co-design, a method used in prior work to study children’s
+digital privacy [65, 76]. This method allows us to directly integrate
+children’s input and feedback into the design of visual cues.
+
+2.3
+
+Visual Cue Design and Child Development
+
+Visual cues such as symbols and images are inherent parts of graphical user interfaces, communicating app functionalities, aiding users’
+interactions, and shaping a digital product’s visual identity [54, 70].
+In particular, a symbol is “something that someone (humans) intends
+to represent something other than itself (the referent)” [21, 22]. The
+design of visual symbols varies between two poles: (1) similar or
+identical to the represented real-world objects, or (2) arbitrarily or
+conventionally designed to be abstract [45]. More concrete symbols
+(similar to the real-world object) are often easier to comprehend;
+whereas abstract visual representations have to be learned or require prior knowledge of specific social agreement [17, 85] but can
+result in clearer and simpler representations.
+Children begin to develop an understanding of what symbolic
+visual representations mean by early preschool age (2–3 years old).
+Symbolic representations are a fundamental aspect of human communication and cognition that allow individuals to represent and understand complex ideas beyond direct sensory experience [20, 110].
+Children learn to understand symbols through social and cultural
+interactions and shared meaning-making, fostering their understanding of the world and facilitating knowledge acquisition [81].
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+However, young children often focus on a symbol’s concrete object,
+missing the represented referent. For example, in Deloache et al.’s
+experiment, children at 2.5 years of age failed to recognize that a
+scale model could represent an identical larger room, instead focusing on the concrete and immediate features of the small model [25].
+By 3 years of age, children develop dual representations—the ability
+to understand that symbols are objects in their own right while also
+representing something other than itself [22]. Older children may
+continue to have difficulties distinguishing between what a symbol
+is intended to represent and the symbol’s physical properties, a skill
+that is necessary to use a symbolic object effectively [10, 109]. Factors that contribute to children’s attainment of dual representations
+include age, prior experiences with symbols, the salience of the symbolic artifact, the degree of physical similarity between symbol and
+referent, and information/instruction about the symbol-referent
+relation [20, 23, 24]. However, the ability to recognize symbolic representations of a concept does not automatically ensure children’s
+grasp of the concept, nor does it necessarily increase the likelihood
+of understanding [27]. Therefore, symbols might not aid learning
+if children do not comprehend how the symbol connects to what it
+represents [27].
+In digital contexts, many common visual symbols have been
+created based on people’s familiarity with the represented concepts
+in the form of icons [9], such as a floppy disc representing ‘save,’ or
+a thumb-up symbol representing ‘like’ or ‘approve.’ Tech companies
+also develop their own design guidelines for symbols and iconography, such as the Apple SF Symbols library [29] and the Google
+Material Design Symbols [37] that consider conventional symbols
+while adding variations to differentiate their visual identities. However, designers of commonly used symbolic graphics may have
+overestimated the clarity of these representations, particularly for
+child users, whose comprehension of symbols’ intended meaning
+is still developing [7]. For instance, the symbolic representations
+for play/pause (a triangle-shaped arrow pointing right; two vertical lines) are abstract and thus the meaning is not transparent
+for children [102]; the symbolic mapping of the progress bar (an
+expanding line) to its referent (loading progress) poses challenges
+for preschoolers [51]. Children require learning and experiences
+over time [26] to eventually comprehend a symbol’s visual representation and its referent [11].
+Our study builds on existing theories of children’s understanding
+of symbols such as dual representations [22], to examine how 1)
+children perceive data flow visual symbols, their referents, and
+the mapping between them; and 2) how to create visual cues that
+support children’s understanding of hidden data processes.
+
+3
+
+METHOD
+
+To answer our research questions, we worked with KidsTeam UW,
+an established inter-generational co-design team consisting of children (7–12 years old) and adult researchers (investigators and undergraduates) to conduct five participatory design (PD) sessions. We
+used the Cooperative Inquiry method which focuses on equal and
+equitable design partnerships between children and adults [31, 118].
+Cooperative Inquiry has been used in prior child-computer interaction and HCI work to understand children’s perceptions of abstract
+or complex topics such as digital privacy and security [65, 76],
+
+===== PDF PAGE 4 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+online safety [4, 5, 16], augmented reality [115], and financial technologies [116]. Cooperative Inquiry is an effective and engaging
+method to help elicit and interpret children’s responses about abstract and complex concepts; especially considering that conducting
+research with children takes time and effort to build relationships
+and children’s design expertise [118].
+During our sessions, which lasted about 90 minutes each, we
+elicited children’s feedback on their perceptions of data flows, related cues, and their design ideas. The study was conducted from
+Fall 2022 to Spring 2023 at the University of Washington, with full
+compliance with parental consent, child assent, and Institutional
+Review Board approval.
+
+3.1
+
+The Co-Design Team and Our Participants
+
+Our child participants, recruited in the Seattle area with diverse
+age, gender, socioeconomic status, and ethnic backgrounds, had
+been part of the co-design team for 0.25 to 4 years when our project
+started in October 2022. In total, 12 children participated across five
+co-design sessions; see Table 1 for demographics. In each session, a
+team of four to six adult facilitators acted as design partners, establishing rapport with children, facilitating the sessions, collaborating
+in design activities, and assisting in generating and interpreting
+ideas related to children’s perceptions of data flows and related
+visual cues.
+
+3.2
+
+Design Sessions
+
+Each of the five sessions had self-contained topics, and adhered
+to a general structure that evolved from experiences in running
+the co-design team. The initial 10 minutes of each session were
+dedicated to informal interactions (e.g. snack time and ice-breaking
+games) that aimed at building relationships. The next 15 minutes
+(circle time) introduced a “Question of the Day” that helped stimulate children’s thoughts relevant to the session theme, followed
+by explaining the context, and sometimes recapping previous session ideas to connect to the activity of the day. This format helps
+children, including those who may have missed a previous session,
+to quickly understand the session’s goals and its connection to
+previous sessions. The following 45 minutes (design time) were
+dedicated to a specific design activity, during which children and
+adult facilitators were divided into smaller groups, each consisting
+2-3 children and 2 adults. The final 15 minutes (discussion time)
+allowed each group to present their design concepts, consolidating all ideas for collective discussion and reflection. All sessions
+were video and audio recorded, capturing teams’ conversations and
+interactions. We also photographed children’s sketches and adult
+facilitators’ notes.
+We designed the five design sessions (DS) in three phases, each
+building on findings from the previous phase (see Figure 1). Phase
+1 included DS1 and DS2 designed to gauge children’s baseline understanding of data concepts and related existing cues (see Figure 2).
+In phase 2, we analyzed children’s responses from DS1 and DS2
+to develop version 1 visual cues and elicited children’s feedback in
+DS3. Phase 3 included DS4, which engaged children in a discussion
+about data collection, inferences, and privacy implications; and DS5
+to elicit children’s feedback on the revised visual cues building on
+their DS3 and DS4 ideas.
+
+Sun, et al.
+
+Design Session 1 (DS1, Oct 2022): understanding how children conceptualize companies’ data collection. We asked children what apps they liked to use, what these apps might know about
+children, and how they envisioned data collection during digital
+activities (e.g. playing games, watching videos) through drawings.
+Utilizing the Big Papers PD technique [48], by drawing on large
+papers as the design medium, children contributed design ideas for
+apps that transparently communicate data collection practices.
+Design Session 2 (DS2, Oct 2022): understanding children’s
+perception of data process-related cues. We presented 10 visual
+cue examples, each conveying different data process-related timings
+and/or concepts (see Figure 21 ). We asked children’s interpretation
+of each cue, where they had seen them before, and likes, dislikes,
+and design ideas [30]. The 10 examples included cues inspired
+by those in mainstream children’s apps (e.g., NickJr, YTKids) and
+visualizations representing different data processing concepts.
+Design Session 3 (DS3, Mar 2023): children’s feedback of the
+data flow cues. We asked children’s feedback of the developed
+data flow visual cues via the Stickies PD technique [30, 111], in
+which children write down one idea per sticky note of likes, dislikes, and design ideas to iterate on the visual cues. We discuss the
+rationale of the visual cue designs in more detail in Section 5.1 as
+they followed directly from our findings from DS1 and DS2.
+Design Session 4 (DS4, May 2023): discussion of data processes and privacy implications. We elicited children’s perceptions of data (the broad term) and specific commercial data collection processes by discussing a scenario: two children searched for
+the same Teddy Bear toy on Amazon but received different product
+results based on the Amazon website’s prior data collection and
+inferences about children and their families. The design activity
+used the Comicboarding [111] PD technique, which integrates the
+design prompt into a story for children to create a character (chosen
+by the child) set on a journey to find their data footprint and make
+it more visible.
+Design Session 5 (DS5, May 2023): children’s feedback of the
+revised data flow cues. We asked children to try a fictitious video
+streaming app called AVEE that contained the revised visual cues
+(see the supplemental video for the app). Children shared feedback
+using the Stickies PD technique [30, 111] by writing down likes and
+dislikes, and design ideas for the fictitious app and visual cues.
+
+3.3
+
+Data Analysis
+
+We used an inductive analysis approach [36]. We began with an indepth analysis of 349 minutes of video footage from the co-design
+sessions. For each session video, a primary transcriber transcribed
+the speech and relevant visual data (e.g., a child searched something
+on a computer screen), and linked the corresponding children’s
+sketches and adult facilitators’ notes to the transcribed texts. Then,
+a secondary transcriber checked the transcribed data for accuracy.
+During this process, both transcribers created analytical memos.
+The first author went through the analytical memos of all five sessions and created an initial codebook including preliminary codes,
+such as what is data, how do companies collect children’s data, and
+1 See the supplemental video for some of the animated cues.
+
+===== PDF PAGE 5 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+Table 1: Demographic characteristics of our child participants
+Name
+Namjoon#
+
+Jimin#
+Isaiah
+Erin
+Daniel
+Leora
+Manny
+Aiden*
+Cole*
+Ren&
+Yuki&
+Tariq
+
+Age
+
+Gender
+
+Ethnicity
+
+DS1
+
+DS2
+
+DS3
+
+DS4
+
+DS5
+
+YearInDesignTeam
+
+8
+12
+8
+7
+7
+8
+10
+8
+10
+8
+10
+10
+
+Female
+Female
+Male
+Female
+Male
+Female
+Male
+Male
+Male
+Male
+Male
+Male
+
+Asian / White
+Asian / White
+Black / Asian
+White
+Asian / White
+Black / Asian
+Latin American
+White
+White
+Asian / White
+Asian / White
+Black
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+
+2
+2
+0.25
+0.25
+0.25
+2
+2
+0.25
+0.25
+2
+4
+2
+
+•
+•
+•
+
+•
+•
+•
+
+•
+•
+•
+
+All names are pseudonyms. Siblings are denoted by *, & , and # . DS1 to DS5 represents the five design sessions. The Year In Design Team shows how long the child had been a part of
+the co-design team before the start of this project in October 2022 (e.g., Isaiah, Erin, Daniel, Aiden, and Cole all joined the team in summer 2022, so they had been in the co-design
+team for 3 months when our project started.)
+
+Figure 1: An overview of the three phases and the five design sessions and their goals.
+
+Figure 2: The ten visual cue examples used in Design Session 2.
+perceptions of data symbols. Through multiple collaborative discussion meetings among the co-authors, we refined our preliminary
+codebook into broader themes. Then, a primary coder was assigned
+for each of the session transcripts to start the coding process with
+
+the codebook. We continued to iteratively refine the codebook via
+team discussions during the primary coding process. Once a primary coder finished their initial coding, a secondary coder reviewed
+the codes and identified instances of disagreement that the group
+
+===== PDF PAGE 6 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+would discuss in meetings to achieve consensus. We focused on
+qualitative discussions during the whole data analysis process instead of calculating inter-rater reliability, since our research goal is
+to uncover concepts and themes [75]. Through axial coding [95], we
+identified overarching inductive themes on children’s perception
+of data, design ideas, feedback for the visual cues, and how they
+changed our design iterations of the visual cues.
+Next, in Section 4, we present findings from phase 1 (DS1 and
+DS2), answering RQ1 regarding children’s baseline understanding
+of data flow related concepts and existing visual cues. Section 5
+presents the design narrative of findings from phases 2 (DS3) and
+3 (DS4 and DS5), describing how we built on phase 1 insights to
+iteratively incorporate children’s feedback into the data flow visual
+cues design process (answering RQ2).
+
+4
+
+PHASE 1 FINDINGS: PERCEPTIONS OF DATA
+AND RELATED VISUAL CUES
+
+In this section, we discuss children’s perceptions of data and the
+related visual cues. Overall, children discussed “data” on broad and
+specific levels (DS1). They somewhat understood different data
+collection types such as explicitly given data and data traces, as
+well as implicitly inferred data in specific contexts (e.g., watching
+videos, online shopping). Children thought that the app usage data
+and content preferences companies knew about them could not
+reveal who or how old they are. They also somewhat understood
+that new search results could be influenced by previous searches
+and user analytics from other online activities. For the data process
+visual cue examples discussed in DS2 (see Figure 2), children could
+recognize some symbols’ names, appearances, and use contexts,
+but struggled to explain the specific symbolic referents (i.e., data
+flow and storage processes).
+
+4.1
+
+Phase 1: Understandings of Data (DS1)
+
+4.1.1 Data is information. Broadly defining “data,” our child participants considered it as information with properties such as universality, ubiquity, formality, and sometimes secrecy. For instance,
+Erin thought “data is just a fancy way of saying information.” Isaiah
+described the ubiquity of data: “pretty much everything collects your
+information.” Similarly, Jimin noted data “is a collection of information, can be stats, properties. Data is used for more technology
+things, while information is more general and broad.” Daniel thought
+data was connected to the internet “data is like information from
+[the] internet.” And Erin recognized that people use data to learn
+things: “data can be information from anywhere ... to do science,
+teach, make videos ... engineer jellybeans, make Pokémon cards. Data
+is used to get knowledge ... Or maybe learn how to use a computer ...
+make a computer ... or learn the color?” This shows that our child
+participants conflated data, information, and knowledge, potentially leading them to overlook times when data about children is
+collected, thinking they had not actively shared any information.
+4.1.2 Understandings of explicit versus implicit data collection and
+use. As we continued discussing data collection during children’s
+digital activities such as watching videos, playing games, and online shopping, we found that their understanding primarily focused
+on them explicitly providing data and some data traces, consistent with prior findings [67, 105]. Explicitly given data includes
+
+Sun, et al.
+
+general information children provide voluntarily (e.g., user name,
+search keywords). Data traces are left-behind behavioral data from
+children’s in-app activities, which our children somewhat understood, e.g., that their time spent and preferred content are tracked.
+For other nuanced metadata, they struggled to conceptualize the
+granularity of trace data collections. For example, Isaiah thought
+Minecraft would not know if he failed a challenge 26 times. Previous
+studies show that children have very little knowledge of inferred
+data [67, 105], which are inferences drawn from analyzed given
+data and data traces. Next, we present key themes in how our child
+participants understood inferred data.
+What I did is not who I am. Contextualizing children’s understanding of inferred data in their digital activities, our child participants believed YouTube could infer content preferences and
+language spoken, but not who they are as a person. They did not
+realize that what they watch could reveal personal preferences,
+essentially who they are. So they thought how they use the app
+(data trace) is different from who they are as a person (personal
+information). For instance, Erin, a 7-year-old who loved watching
+teen shows, said “YTKids does not know anything about me but that I
+like [teen titans].” Leora was negative about apps collecting personal
+data versus data about what she did in the app:“I would be super
+mad [if apps collected my personal information], and I would tell
+people that they are stealing your personal information, and I would
+tell everybody to never go there [use the app]... [For data about what I
+did in the app] I wouldn’t care. It’s just stuff I am searching up, it’s not
+gonna be like people gonna see [who I am].” This shows that children
+found companies’ collection of personal information problematic
+but were unaware of how data traces could reveal more aspects
+about a person and pose potential risks [64].
+Search Results (Un)Related to Inferences. Children’s answers from
+DS1 in the Youtube context show that they understood content
+recommendation based on in-app activities, such as what Ren
+said:“[when searching videos, Youtube] just recommend more videos
+of that [topic]”. In contrast, in DS 4, we asked how children understand search results in an Amazon shopping example. We displayed
+various sponsored search results using the same search term, ‘teddy
+bear,’ and assessed children’s understanding of data collection and
+inferences. Most children did not understand that search results
+were targeted, like Isaiah:“I can just scroll down [past the recommended results]. It’s simple. OK, so it’s fine. It’s not me [that caused
+the search result difference].” Namjoon thought “There isn’t just one
+teddy bear in the whole world” and that is why people get different
+search results. Daniel thought that item price and popularity affect
+which items are displayed to people: “It says that this one [more
+expensive teddy bear search result] has no sale but that one, it’s 35%
+off so maybe it was at that price and then it dropped because people
+did not want to buy it.”
+Two children recognized that varying search results could be
+influenced by companies’ inferences. They discussed how past
+searches and purchases resulted in different outcomes for different
+users. Leora said “I mean, it could just be like what you’ve been searching [that made you get different search results than other people].”
+Jimin had a more articulate explanation: “I wouldn’t be surprised.
+Search results are often changed to fit the users’ past experiences on
+the Internet. So it probably just means I bought something from the
+
+===== PDF PAGE 7 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+same or similar brand or my friend Sam [can afford] more expensive
+[things] than me, and the app alters the result to fit a larger budget.”
+Moreover, since buying something from Amazon often involves
+parents, we asked whether children believed Amazon had information about their families. While Leora believed “No because I don’t
+tell it things [about my family];” Erin thought “It just kind of looks
+at your private data. Yes [it knows a lot about my family].”
+From being certain about YouTube video recommendations based
+on previous searches to being unaware that Amazon shopping
+results work in similar ways, children’s inconsistent perceptions
+indicated their incomplete understanding of how data inferences
+might manifest in different digital contexts.
+
+4.2
+
+Phase 1: Perceptions of Data Process Cues
+(DS2)
+
+In DS2, we showed children visual cues and symbols (see Figure 2)
+representing various data processes, indicating data flow timings
+and related concepts. Overall, they recognized the cues and linked
+them to familiar contexts, but had difficulty articulating the specific
+data processes they represented, as we discuss next.
+4.2.1 Cues for loading. Both the loading spinner and loading bar
+signal that content is being loaded. Children could immediately call
+out the spinner symbol and mostly associated it with issues such as
+“no WiFi” (Namjoon), “no Internet connection” (Erin), or “something
+needs to be fixed” (Cole), rather than a normal part of the operation.
+They considered loading as an “annoying wait time” that delayed
+their access to content. Only Aiden understood loading as “the app
+is still processing,” but could not explain what is being processed.
+None of the children associated loading with data exchange or flow.
+The loading bar was not consistently recognizable for children
+without further context. They thought it could be “loading ... might
+be volume or charging” (Namjoon). Children’s seeming familiarity
+but actual incomprehension of the loading cues shows how even a
+commonly used cue failed to convey consistent meaning to children.
+4.2.2 Cues for user and home. We showed children a user symbol
+inside a house symbol to represent “user’s homepage.” However, the
+combined cue confused children as they did not understand what a
+person is doing in a house. Yet, children understood each symbol
+individually: they associated the house symbol with “home/desk
+screen” (Erin and Isaiah) or “destination” (Leora); and that in a digital
+context the person-shaped symbol represented a“user” (Isaiah) or
+“profile” (Jimin). However, they did not express that a standard
+user profile symbol could represent themselves and their data. This
+suggests that a generic profile icon might be insufficient to convey
+its reference to specifically children’s account/profile and data.
+4.2.3 Cues for data flow. The data flow-related cues we presented
+to children have two main components. First, in apps, locations
+like the sender and recipient are typically represented by devices
+and clouds. Second, data flow is often symbolized using lines, dots,
+and arrows. All child participants recognized the cloud symbol, and
+intuitively associated it with the app or internet cloud, not with
+a weather symbol. Some explained the cloud’s purposes such as
+“the thing you could use to transfer/transport stuff” (Namjoon); and
+“cloud is huge, it’s like they are downloading new data when they get
+huge” (Aiden). Jimin shared how the cloud is related to the internet:
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+“the internet cloud ... the thing on the internet that people put stuff
+in.” However, most children were unable to explain what the cloud
+actually is.
+Two cloud-related cues showed uploading to or downloading
+from the cloud (see Examples 3 and 4 in Figure 2). These arrows
+helped children to understand the data flow directions related to
+the cloud. Interestingly, children found downloading more intuitive
+than uploading, as they understood that digital files or content
+were retrieved from the cloud. Namjoon said “I think it’s downloading something and when the check-mark comes in, it’s downloaded.”
+For uploading, most could not tell the difference from downloading, but a few either knew or came to realize through facilitators’
+scaffolding to observe the reversed arrow direction: “uninstalling,
+un-downloading? ... uploading, if you want to upload a picture to your
+thing.” These findings suggest that arrows can help indicate data
+flows involving the cloud but on their own might be insufficient to
+fully convey respective processes.
+Examples 8 and 9 in Figure 2 showed data transfer linking multiple devices to and through the cloud to each other, highlighting the
+cloud’s role as the intermediary for information exchange. Children
+understood that the cloud is “the place” that facilitates information
+sharing and transferring, as Cole said: “it means sending things to
+the cloud ... sending information to the people.” Namjoon also explained“this [the cloud] is transferring data ... the lines going there
+... the same cloud would connect them [the devices]... If it’s another
+person’s device, I think it should use a different cloud. Because maybe
+that person is transporting to that device. I mean if they want the
+same thing ... if they don’t there should be multiple clouds.”
+Overall, the cloud symbol was both a familiar and unfamiliar concept for our children as they recognized its appearance, prevalence,
+and role in data exchange. However, they could not explain the
+cloud’s symbolic referent (e.g., its physicality), or its relationship
+with different parties such as users and devices.
+4.2.4 Cues for data security. Data security is often demonstrated
+via a lock symbol [19, 32]. Example 7 in Figure 2 symbolized network/cloud security through a cloud shape of connected lines with
+a lock in the middle. All children recognized the lock symbol, but
+only a few understood its representation. For instance, Erin thought
+the lock is used to “lock the app or the game” in a more concrete
+way; whereas Jimin understood it more abstractly: “ locking your
+information...it’s not selling your information...it’s locking your cloud
+stuff, it means people can’t steal it.” For the cloud of connected dots
+and lines, some children recognized it as representing “connection”
+but varied in their interpretations of what the dots and lines symbolized. For instance, Namjoon said the cloud-shaped points and lines
+made her associate the lock with data. Aiden said they represent
+“our info ... It’s like millions of people are connecting and putting their
+things (on the cloud).” Jimin explained the lines and dots are used to
+“show you all these places of the (people’s) stuff.” This signaled that
+although the lock symbol is often used to represent data security,
+children find it challenging to articulate its represented meaning.
+4.2.5 Cues for deletion. We showed a trashcan in a cloud background representing a synced deletion process happening both on
+the device and in the cloud to see if children recognize that data
+might exist in and be deleted from multiple places. Children found
+
+===== PDF PAGE 8 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+Sun, et al.
+
+the deletion symbol straightforward “it looks like this man is trashing everything [in the computer]. A cloud trashcan” (Cole) or “You
+delete files on the cloud” (Namjoon). However, they did not articulate an understanding that the deletion happened in parallel both
+on the cloud and the local device, which motivated us to explore
+more how children perceive the synchronized deletion process in
+the visual cue designs.
+
+5
+
+DESIGN NARRATIVE (PHASES 2 & 3)
+
+Based on insights from phase 1, we iteratively developed new data
+flow visual cues with children over three design sessions in phases
+2 and 3. We present the design narrative next.
+
+5.1
+
+Phase 2: Initial Design of Concrete and
+Symbolic Visual Cues
+
+Phase 1 findings (see Section 4) showed that our child participants
+grasped data flow concepts like collection, storage, and use, and
+identified symbols like loading spinner, cloud, and trashcan. However, they were unclear about the purpose and data processes behind
+these symbols when the context is lacking, i.e., children were unable to explain the cloud purpose with only the symbol and arrows
+in Examples 3 and 4 in Figure 2. When putting common abstract
+symbols (e.g., cloud, device, lines) together (e.g., in Examples 8
+and 9), children noticed the data sender, recipient, and flow direction. This finding inspired us to create a symbolic style visual cue
+design by incorporating widely-used symbols from company guidelines [29, 37] into data flow-oriented representations, recognizing
+the value of widely-used symbols for aiding recognition.
+Other insights from phase 1 showed that children (1) saw the
+cloud as a separate location for data activities (uploading, downloading, and transferring data), but were unclear about its relationship
+with the app company or the internet; (2) understood data flow
+among devices but were uncertain about the cloud’s role; and (3) described “data” using concrete terms, such as images and files, while
+the broader data concept was abstract and complex to them. These
+insights led to two key design goals for our visual cues: (1) clearly
+depict the relationships among device, cloud, and company in data
+flows; and (2) use more concrete representations of data. Building
+on existing research showing that children better understand symbols resembling their actual referents [17, 85], we therefore also
+explored a concrete style visual cue design using detailed illustrations for the user’s device, a company’s server/cloud infrastructure,
+and the exchanged data.
+We elicited children’s feedback on both styles to understand their
+preferences and whether simpler symbolic cues might be sufficient
+to foster children’s understanding of data processes, or if more
+detailed concrete cues might better aid comprehension.
+5.1.1 Embedding visual cues in loading screens. To contextualize
+the visual cues, we focused on three specific data processes in
+the video-watching context—a popular digital activity among our
+child participants—to emphasize deeper design exploration: creating a user profile, loading a video, and deleting a user profile. We
+embedded visual cues into loading screens as a part of the user
+experience flow without introducing additional wait times or steps.
+
+Figure 3: Initial visual cue design: Symbolic and concrete
+visual cue styles for loading screens when creating a profile,
+loading a video, and deleting a profile. Each cue was animated,
+the figure shows three keyframes per cue.
+
+Figure 4: Examples of engaging loading screen designs in
+children apps: Minecraft loading screen with game hint (left)
+and Crayola Create and Play building user’s anticipation by
+communicating what the app is preparing (right).
+
+This approach was also inspired by existing loading screens in children’s apps that build anticipation or provide hints during loading
+time [28] (see Figure 4 for examples).
+Figure 3 shows our initial symbolic and concrete styles for the
+three data processes. All cues in both styles were animated to convey the type of data flowing, directional movement of data (e.g., a
+created profile flows from the device to the cloud/company), data
+sender and recipient, and data removal in deletion. The animated
+cues are shown in the supplemental video.
+5.1.2 Symbolic style. We used the cloud symbol to represent the
+app server, a profile icon for the user, and a play/pause symbol for
+
+===== PDF PAGE 9 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+video clips. A dotted line with an arrow depicted data movement
+and its direction. While children struggled in phase 1 to explain
+the data processes associated with individual symbols (see Section
+4.2), responses to more data process-oriented visualizations in DS2
+suggested that presenting these abstract symbols together to create
+animated cues in a specific context might potentially help children
+understand data flow processes. For deletion, we avoided using the
+trashcan symbol as it is a concrete representation, and we aimed
+to clearly delineate the symbolic and concrete styles. Thus, we
+represented data deletion by having data disappear first on the
+phone and then in the cloud in the animated cues, supported with
+a wiggling effect to guide children’s attention.
+5.1.3 Concrete style. The concrete style included cues that could
+more concretely resemble the data concepts, such as a building with
+the company logo to represent the company’s server or data center,
+a profile avatar image to reference the user as children associate
+it with their online representation [105], and a video thumbnail
+to represent the actual data type being loaded. Our concrete cues
+showed either the user avatar or the video thumbnail traveling
+along the dotted line to indicate the actual piece of information
+flowing to or from the building. We used the trashcan to signify
+the concrete deletion of the avatar, which then led to the profile
+avatar stored in the company data center vanishing in the sky to
+indicate its complete removal.
+
+5.2
+
+Phase 2: Children’s Feedback of Initial Cue
+Designs and Design Ideas (DS3)
+
+In DS3, we presented children the initial concrete and symbolic
+designs for feedback and prompt their design ideas. Generally, the
+symbolic style, while simple, resulted in children’s diverse interpretations; whereas the concrete style more clearly depicted what and
+how data was flowing. Both styles caused some ambiguity about the
+cloud/building representation and how to represent the company’s
+data center. We also found that merely showing data vanishing did
+not effectively convey deletion.
+5.2.1 Neither the cloud nor the building clearly represented the data
+center. In both design styles, we showed the relationship of two
+locations connected by the data flow processes: the local device
+and the company’s server. Children easily identified the cloud in
+the symbolic style as Erin said “”it’s [the cloud] so simple ... they
+are everywhere.” However, they did not conceive of the cloud as a
+physical or digital place. Conversely, the building in the concrete
+style was seen as a physical location, Manny said: “The other [concrete] one shows the building and it says MeTube, and the profile that
+goes into MeTube. I kind of understand that it is a place.” However,
+children thought the building did not signal data-related activities
+and distinguished the app company from the cloud or its data center like Aiden said “what are those buildings? ... [if the buildings
+represent] Metube data center? ... there is supposed to be a bunch of
+buildings [to represent data center], maybe the town sending stuff.”
+To better represent the data center, Manny suggested to design the
+cues more literally by involving servers/computers: “maybe just
+show the reality that there’s [a] big computer.”
+5.2.2 What and how data is being loaded. The concrete depictions
+of data (profile avatar, video thumbnail) in the concrete style helped
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+our children recognize what exact data was flowing in a given scenario. Aiden said “it looks like whoever the profile is that is going
+into the town.” Manny mentioned it was the video data that came
+from the building: “Well the data center ... send an image to be on
+that [phone] thing.” In the symbolic style, children did not recognize
+the profile symbol as representing user information. Instead, they
+perceived it as communication between two individuals or uploading content to the cloud:“maybe someone is trying to call or text
+someone. Because there’s two humans” (Tariq); and “that is going up,
+so let’s say that head was like a video, video is the upload to the cloud”
+(Namjoon). Children liked the simplicity of the symbolic style but
+found it less engaging than the concrete style. They favored colorful
+and entertaining elements, like a character delivering mail during
+loading. This suggests that concrete cues might captivate children’s
+attention better than symbolic ones.
+5.2.3 Trashed and erased for deletion. For data deletion in the
+symbolic style, children did not intuitively associate the disappearance with profile deletion. They suggested the trashcan symbol to
+represent deletion, as they were familiar with it. The wiggle movement made children think the phone was being called or getting
+a notification, signaling urgency/alert: “Virus! Why is the phone
+shaking” (Jimin); “it just shakes it, it doesn’t say delete” (Daniel).
+Despite this confusion, the profile symbol’s disappearance from the
+cloud/building conveyed to children that data could be removed
+beyond just the local device. Erin said: “looks like the cloud deleting
+something.” For the concrete cue, the data being gone from the building further suggested permanence:“using paint to erase it” (Isaiah)
+or “little cloud sucking the profile up and exploding” (Erin). Building
+on the concept of erasing your data which came up in discussion,
+Namjoon shared her idea of visualizing it with a “pencil eraser ...
+erasing an account.”
+
+5.3
+
+Phase 3: Probing Children About Digital
+Footprints (DS4)
+
+During DS3, besides sharing input for the cues, children also asked
+“why do kids need to know what the cloud is ... I don’t think a child
+would care [about the data processes represented by the cues]...they
+would just want their video” (Jimin). To address this question, we
+designed DS4 to inform children about the relevance of understanding data processes, emphasizing privacy and data collection risks,
+as well as encouraged children to share design ideas through comicboarding a story to “visualize the journey of data footprints” (see
+Section 5.3.1).
+5.3.1 Communicating data processes and practices. Since “data” is a
+complex concept for children (see Section 4.1.1), we introduced the
+idea of data footprints—the trail of data one leaves online—to probe
+children’s considerations of how companies might use and communicate data footprint collection to children. As the co-design team
+discussed, companies use data footprints to infer children’s product preferences or content recommendations to boost engagement
+and spending. Children viewed such profiling to enhance usage or
+sales “a bad thing” (Isaiah) and “because you will become poor and
+you die” as Daniel described the corresponding negative implications. Children also voluntarily brought up app privacy policies
+as the primary communication method companies use, like Jimin
+
+===== PDF PAGE 10 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+Sun, et al.
+
+Figure 5: The AVEE prototype supported a user flow that involved creating an account/profile in the app, a home screen
+with multiple videos to choose from, as well as a ‘your profile’
+screen that included the option to delete the profile and the
+‘view-your-data button.’
+
+described: “when you set up the account, it [the app] will ask you to
+sign a couple of documents that explain what data they would need
+to collect.” However, children found these documents unclear and
+ineffective because “people don’t read it a lot of the time” (Jimin); and
+thought better design that considers children’s level of understanding would be helpful by “offer[ing] a shorter and more summarized
+version” (Jimin) or having the app “read it out loud for you” (Erin)
+as some might not know how to read.
+Notably, recognizing that these policies often pop up during an
+app’s initial launch, a time when users may rush to access content,
+Namjoon suggested in her comic-boarding story that “it [privacy
+policies] should have its own separate slide in the app [to make it more
+accessible], there should be like a little button on the top, that says
+‘data,’ the button tells you what data they are taking from you.” The
+proposed data button idea demonstrated our participants’ desire
+for readily accessible information on apps’ handling of their data,
+instead of a one-time notification. Thus, we included a “data button”
+cue in our redesign (more details in Section 5.4.4).
+
+5.4
+
+Phase 3: Revised Visual Cue Designs in
+Context
+
+Based on children’s input in DS3 and DS4, we revised the concrete
+and symbolic cue designs (see Figure 6). To put these loading cues
+into context and integrate them as a part of an app’s user flow,
+we created an interactive video app prototype, AVEE (see Figure 5
+and the supplemental video), to naturally include the three loading
+contexts (profile creation, video loading, and profile deletion).
+5.4.1 Data center representation combining the cloud and the building. Responding to children’s feedback that neither the cloud nor
+the building effectively symbolized the company’s data center in
+either design style, we combined a building with the app logo and a
+cloud above it for a clearer representation of the data center. We also
+tried various designs incorporating computer or server elements
+(e.g., hard disks next to the building, etc.) but ultimately rejected
+
+Figure 6: Revised visual cue design: Symbolic and concrete
+visual cue styles for loading screens when creating a profile,
+loading a video, and deleting a profile in the context of the
+fictitious video streaming app AVEE. Each cue was animated,
+the figure shows three keyframes per cue.
+
+them as they required a prior understanding of what servers look
+like, which we could not assume for children.
+5.4.2 Connecting data representations in visual cues with user actions. To address children’s concerns that the profile avatar might
+be misunderstood as a user uploading a picture, we provided children with colorful avatars in the AVEE app to choose from during
+profile setup, thus personalizing their avatar and mirroring features
+in other video streaming apps (e.g., Netflix). In the concrete style,
+the chosen avatar, representing the data being transferred, was
+displayed in visual cues to help children realize the symbol-referent
+mapping. For the symbolic style, we kept a generic profile icon to
+prompt children to compare the effect of personalizing it in the concrete style. Similarly, for video loading, we designed the concrete
+cue to show the selected video preview turning into a thumbnail
+moving from the data center to the user’s device.
+5.4.3 Eraser representing data deletion. Given that our participants
+had difficulty associating the data disappearance with deletion, we
+followed their suggestion to visualize deletion as erasing the data.
+Specifically, in the concrete style, we designed an eraser animation
+that first removes the profile from the user’s device and then from
+the data center. For the symbolic style, we removed the wiggle
+animation, which was perceived as confusing, and added a red glow
+to the item being deleted to indicate where activity is occurring.
+
+===== PDF PAGE 11 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+again underlines how the cloud might not be a meaningful symbol
+to children, and that they may need a more physical analog to
+establish understanding.
+
+Figure 7: After clicking “view your data” button in the AVEE
+app (see Figure 5), the screen shows three types of data collection regarding time spent, the number of videos watched,
+and location.
+5.4.4 View your data button. Following children’s suggestion in
+DS4 for an accessible way to learn about what data an app has
+gathered about them (see Section 5.3.1), we added a “View your
+data” button in the user profile (see Figure 7). It demonstrates the
+collected trace and usage data, including users’ time spent on the
+app, number of videos watched, and user location; each with a
+short explanation of how this data might be used by the company,
+mimicking how companies might typically describe data collection
+purposes and practices (e.g., “we collect your data to improve app
+service or recommend content you like”). This approach aimed to
+elicit whether children found such statements helpful, and how
+children might suggest improving them.
+
+5.5
+
+Phase 3: Children’s Feedback on Visual Cues
+in AVEE App (DS5)
+
+In DS5, children tried out the AVEE app and shared feedback on the
+revised cues. Overall, we found that combining the cloud symbol
+with a physical entity (i.e., data center building) in the concrete cues
+helped children understand that it is a data storage place. Children
+also wanted clearer company communication regarding the data
+collection types and purposes. Without being prompted, they even
+asked for an opt-out option for certain data collection. The data
+eraser helped children understand that the profile avatar is deleted
+both on the device and in the data center. Children also noted that
+our cues did not indicate if companies stored other types of data
+elsewhere, demonstrating that the cues prompted them to think
+more broadly about data collection, storage, and data retention.
+5.5.1 Tethering the cloud to physical entities. By the fifth session,
+our child participants understood that the cloud symbol signifies
+data centers, which are physical locations, not just a digital concept.
+The concrete cues clarified for them that a building with a cloud
+on top represented “the cloud of information” (Daniel), “data cloud”
+(Isaiah), and that it is a place that “has data on us” (Namjoon). They
+also suggested labeling the cloud symbol with the word ‘data’ for
+quick association, like Erin said: “[add] something that says data [to
+the cloud].” However, we purposefully avoided the use of text in
+the visual cues so that they might work independently of a child’s
+reading ability. Children also discussed alternatives to representing
+the data center concept. For instance, Jimin said: “I think if you
+want a kid to understand it better, it shouldn’t be a cloud, it should
+be more of a book to show this is how we keep data.” Jimin’s example
+
+5.5.2 Making data items explicit in cues. As children were presented with the profile selection page, they immediately understood
+the purpose of the colored smiley faces “these are icons with the
+profile. I like the red one” (Namjoon). Using the selected profile icon
+in the concrete visual cues appeared to help children understand
+data processes and relate them to themselves and their data. For
+instance, after selecting a colored profile icon and then seeing the
+icon travel along the arrow line from the device to the data center,
+Manny understood that the loading screen represented that “it [device] is sending the profile to the cloud”. When a video was being
+loaded, children also understood that “the building [is] sending us the
+video” (Namjoon). Interestingly, Namjoon associated herself with
+her selected avatar, referring to ‘us’ as the recipients of the video.
+Similarly, for erasing the profile, it was clear to our participants that
+‘they [profiles] got deleted from your phone and the cloud” (Jimin).
+The explicit demonstration of data processes in the concrete style
+helped children understand what data was being loaded, as well as
+from and to which places.
+5.5.3 More transparent communication and control in “View My
+Data”. Besides finding the loading visual cues helpful, children also
+discussed how the “view my data” screen explained data collection
+and even prompted them to question what and why the app collects data. Namjoon explained what she learned: “it’s like collecting
+how long you’ve watched ... and where you are. It’s tracking you and
+recommending you videos you like and even your location”; whereas
+Jimin questioned the vague descriptions: “‘We use this data to improve our app service’ – what service? ‘We collect this data to help
+you track your progress’ – progress towards what?” Jimin also found
+certain data collection unnecessary and wanted to have control
+over it:“there should also be some areas where some data collection
+can be optional.” This shows that children found the “view my data”
+design helpful and desired a more detailed explanation and control
+over their data collection and usage, indicating the promise of data
+dashboards for children to explore their collected app data.
+5.5.4 Eraser successfully represents deletion, but is the data really gone? Both re-designed symbolic and concrete deletion cues
+showed children that their profile avatar was deleted in two locations. With the symbolic cue, the red glow indicated data deletion,
+as Erin said: “the thing [cue] goes red because it’s deleted.” The concrete cue, using an eraser to represent deletion, was even clearer
+as Daniel said “it erases your information. Well, basically kids will
+understand it better [with the concrete cues].” Erin mentioned how
+the pencil erasing visualization “has to do with stuff we liked to do,
+I thought the pencil was funny.” This demonstrates that a pencil
+eraser is a relatable and fun metaphor. Interestingly, after seeing
+the profile avatar removed from the data center in the concrete
+cue, Namjoon questioned if all data was completely gone since the
+profile avatar only represented one specific type of data and the app
+company might have other data: “they [the app company] still have
+it [your data]. Just because you deleted your account [off the data
+center building] it doesn’t mean you deleted the data they have on you.
+Probably, like, other buildings [still have your data]. So if [you are]
+
+===== PDF PAGE 12 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+like really into music right now, they [the company] will send it [your
+data] to SoundCloud so they can recommend you like music from all
+these other apps that you have been listening to.” This demonstrates
+that our cues and DS4 discussions may prompt children to think
+more about data storage in and transfer to other places, which is a
+promising example for developing digital literacy.
+
+6
+
+DISCUSSION
+
+Our findings revealed that our child participants 1) tended to conceptualize data collection in concrete and specific rather than abstract
+and broad contexts, lacking awareness of the pervasive and multifaceted nature of data; 2) demonstrated some understanding of
+data inferences in certain contexts (e.g., YouTube but not Amazon
+shopping) but were unaware that data traces could reveal personal
+details without direct personal information input; and 3) recognized the data process visual cues’ appearances — that something
+is happening to the data — but could not explain their symbolic
+meanings, such as data flow (loading), data storage (cloud), user
+data (profile), and simultaneous data deletion on both the device
+and the server.
+Through the design narrative in Sections 5.1 to 5.5, we presented
+our process co-designing visual cues with children through five
+design sessions, each serving different goals (see Section 3.2). As
+part of the design narrative outcome, we also gained insights that
+the 1) commonly used abstract cues (e.g., cloud, profile) could be
+concretely visualized to support children’s understanding of what
+they are and what roles they play in data processes; 2) the concrete
+style helped children understand what data was being loaded, and
+from/to what places; children desired a view of companies’ collected data, and our “data button” visual cue offered an accessible
+way to inform children about data collection and use; and 4) our
+children found the pencil eraser metaphor amusing and helpful
+for understanding synchronous data deletion, leading to curiosity
+about other hidden data flow processes not depicted in our cues.
+Based on these findings, we discuss research, design, and policy
+implications next.
+
+6.1
+
+Implications for Supporting Children’s Data
+and Privacy Literacy
+
+6.1.1 Leveraging visual cues to foster data literacy. Children’s data
+and privacy literacy is a broad construct that encompasses an understanding of how online data is collected, processed, shared, and the
+implications of these activities on privacy [8, 47, 66, 67, 103, 114].
+Our child participants understood certain data processes such as
+explicit data collection for content recommendations, but struggled with the implicit collection of data traces, which represents
+one of many pervasive, complex, and hidden data processes that
+even adults do not understand the magnitude and implications
+of [55, 82, 107]. While conventional visual cues representing data
+processing (e.g., loading spinner, cloud symbol) exist, they could
+still be very abstract and not designed for children. Even though
+children can comprehend a symbol’s visual representation and its
+referent with experiences and learning over time [26], and indeed
+our participants were familiar with some of the existing cues shown
+in DS2, they mostly did not understand the cues’ symbolic referents,
+i.e., the hidden data processes, at the beginning of our study.
+
+Sun, et al.
+
+While previous research on understanding and supporting children’s data and privacy literacy has focused on formal educational
+settings [12, 13, 18], a “just in time” approach to delivering data
+literacy is lacking [13], which we explored through our embedded
+cues. In the symbolic style (see Figure 3), familiar data process
+symbols like flow, storage, and deletion helped our child participants notice data relationships among devices, users, and the cloud,
+even without fully understanding each symbol’s meaning (e.g., the
+cloud’s representation). This highlights how familiar and intentionally organized visual cues can aid children’s understanding
+of data movements and relationships. Additionally, the concrete
+style clarified what data was being loaded and its related locations,
+demonstrating the potential of using concrete depictions to enhance
+children’s understanding of data processes.
+6.1.2 Including commercial privacy aspects in teaching data literacy.
+While leveraging visual cues to enhance children’s data privacy literacy is promising, achieving a universal interpretation is challenging due to individuals’ diverse backgrounds and characteristics like
+culture, age, and prior experiences [92, 94]. Relatedly, facilitating
+cue recognition and understanding through supportive initiatives
+could raise awareness and develop a shared culture around data
+and privacy practices for users [92, 94]. This aligns with our aim to
+enhance children’s understanding of commercial privacy through
+educational efforts [92, 94].
+When examining children’s perception of data processes, they
+initially questioned the importance of understanding data concepts,
+indicating a lack of awareness about the privacy implications of
+companies collecting, analyzing, and profiling user data, potentially
+leading to consumer manipulation, such as tailored product search
+results [124]. Thus, we designed DS4 to discuss with children how
+tailored product search results are based on user profiles and inferences. Then, they realized that such profiling for increased usage
+or sales could be “a bad thing” (Isaiah, Daniel). This indicates that
+carefully designed activities can help children comprehend and
+reflect on the outcomes of commercial data collection, whereas the
+educational prompts used in many existing work has mainly focused on interpersonal privacy risks of hackers or strangers gaining
+children’s information [64, 67, 123]. Our emphasis was on helping
+children better understand how companies collect, process, and
+utilize their data for marketing purposes, raising their awareness
+of datafication, dataveillance, and privacy implications [38, 68, 71].
+
+6.2
+
+Implications for Designing Visual Cues for
+Hidden Data Processes
+
+6.2.1 Embedding visual cues in children’s user experience. Our findings in Sections 5.2 and 5.4 showed that both cue styles aided
+children in understanding data flow and storage locations; though
+the concrete cues provided clearer information about collected data
+types and the cloud’s reference. Incorporating these visual cues
+into app loading screens, which children typically saw as “annoying waiting,” effectively informed and entertained them without
+disrupting their app usage. In essence, using loading visual cues can
+normalize the communication and education of data processes during “loading,” especially since many children’s apps already make
+loading screens engaging with creative elements (see Figure 4). Our
+designs highlight the potential for designers to incorporate such
+
+===== PDF PAGE 13 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+visual cues into loading screens, making data processes visible and
+helping children better understand how data flow works in apps.
+Our child participants also wanted a dedicated place displaying
+data collected about them, including their purposes and practices.
+This manifested in our design as the “view my data” button (see
+Figure 7). Our simple data dashboard sparked their curiosity, suggesting potential for age-appropriate data exploration tools that
+educate children about data practices using their actual data.
+6.2.2 Design concrete and context-dependent visual cues. Our concrete visual cues linked symbols to real-world referents, enhancing
+children’s understanding of hidden data processes and sparking
+curiosity about additional data storage locations. Associating the
+cloud with a tangible data center improved children’s grasp of its
+storage role, supporting previous findings that children understand
+symbols resembling their actual referents more easily [24, 51]. Iteratively designed with children’s feedback, our cues employed
+age-appropriate analogies and metaphors to scaffold children’s understanding of complex concepts [100]. However, these cues are not
+designed to be universally applicable; tailoring them to a specific
+app context was key for children to connect cues with underlying
+processes. Thus, our findings expand on prior work suggesting that
+linking contexts and visual cues can support individuals’ sensemaking and comprehension processes [59, 93, 113].
+Our approach, using concrete, context-specific visual cues in
+apps, can be valuable for designers of children’s digital products
+and services. Companies can also consider using short textual cues,
+depending on children’s reading literacy, to provide additional explanations, as prior research found that accompanying text can support icon comprehension [50]. Together, this could make otherwise
+hidden data processes more transparent and enhance children’s
+understanding of data concepts with relatively minimal changes to
+app interaction flows.
+
+6.3
+
+Implications for Regulatory Requirements
+on Age-Appropriate Design
+
+Amid stringent global laws and regulations for children’s data
+privacy and safety, the UK and California have introduced “ageappropriate design codes (AADC)” [83, 84] emphasizing transparent, child-friendly communication of data handling practices. Despite this, the prevalent notice and choice/consent method for communicating data practices, often filled with vague and jargon-filled
+language, remains problematic for both adults [14, 15, 35, 44, 101]
+and children [47]. Even our child participants unpromptedly noted
+the ineffectiveness of lengthy, complex privacy policies. The UK
+AADC suggests tailoring privacy notices for children with ‘bitesize’ and ‘just-in-time’ explanations, as well as creative formats
+integrated into their digital experiences and interactions [57, 58].
+Yet, translating these guidelines into practical design solutions
+remains a challenge [43]. Our co-design study suggests promising
+approaches like embedding clear data process cues and creating
+data dashboards for children. A key recommendation for regulators to determine whether data privacy notices and cues might
+be age-appropriate is to require companies to provide evidence
+(e.g., research approach and results) of involving children in design
+processes and demonstrate that the resulting designs are indeed
+understandable by children of different ages.
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+6.4
+
+Limitations and Future Work
+
+We discuss the limitations of our work and the generalizability of
+our findings. First, we had 12 child participants, which might seem
+to be a small number; however, this is consistent with prior participatory design research with children (e.g., [6, 115, 117]). Some
+children in our study have been on the co-design team for a few
+years (see Table 1), so they might have relatively more experience
+discussing technology-related topics and are familiar with using
+PD techniques to express their ideas, compared to child participants
+who were relatively new to the co-design team. Despite the mixed
+age and experiences, we observed few if any differences among
+children’s engagement in discussions and activities. Second, the
+findings from our exploratory and qualitative study are not meant
+to be generalizable; further studies and confirmatory research are
+needed to evaluate the effect of specific visual cues in a quantitative
+manner. However, our qualitative findings and design ideas still
+provide rich and useful insights into how this group of children
+conceptualized data concepts and related visual cues. We consider
+our data flow visual cue designs a starting point for further exploration of the design of other child-friendly visual cues that could
+aid children’s comprehension of data flow concepts.
+
+7
+
+CONCLUSION
+
+By collaboratively co-designing with children, we gained insights
+on how they perceive data flow concepts and the related visual
+cues, and visual cues design ideas supporting children’s digital
+literacy. We found that our child participants had some understanding of data inferences and could recognize popular visual cues
+(e.g., loading, cloud), but often did not understand the symbolic
+referents and corresponding data concepts behind the visual cues
+(e.g., what data is flowing, what are the places involved). Our design narrative demonstrated the iterative process to create concrete,
+context-specific, and engaging visual cues embedded as a part of the
+user experience to help children understand hidden data processes
+like data collection types, storage locations, and usage purposes.
+Our results provide implications for research, design, and public
+policy by highlighting the promising approach to support children’s
+data and privacy literacy through concrete, easily accessible, and
+age-appropriate visual cues.
+
+8
+
+SELECTION AND PARTICIPATION OF
+CHILDREN
+
+The child participants in our study were already participating in
+KidsTeam UW co-design team, and were originally recruited to
+the co-design team through posters, mailing lists, and snowball
+sampling. When joining the co-design team, parents sign an IRBapproved consent form, along with child assent. During the consent
+process, we indicated to families that they could withdraw at any
+time. Each child participant is compensated with a one-time $150
+gift card when joining the team. Annually, participating children
+and families are asked if they want to continue or leave the codesign team. All adult facilitators completed ethics and safety training for children at our institutions, and ensured that children felt
+comfortable to participate in the study activities. We anonymized
+all children’s data for the analysis.
+
+===== PDF PAGE 14 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+ACKNOWLEDGMENTS
+We thank all the participating children and families involved in
+KidsTeam UW. This work was supported in part by Institute of
+Museum and Library Services grant number LG-252291-OLS-22.
+Kaiwen Sun has been supported by a Meta Research PhD Fellowship.
+
+REFERENCES
+[1] Council Directive 95/46/EC. 2016. Regulation (EU) 2016/679 of the European
+Parliament and of the Council of 27 April 2016 on the protection of natural
+persons with regard to the processing of personal data and on the free movement
+of such data, and repealing Directive 95/46/EC. https://eur-lex.europa.eu/eli/
+reg/2016/679/2016-05-04
+[2] Irwin Altman and Martin M Chemers. 1984. Culture and environment. Number 2.
+CUP Archive.
+[3] Adam J Andreotta, Nin Kirkham, and Marco Rizzi. 2022. AI, big data, and the
+future of consent. Ai & Society 37, 4 (2022), 1715–1728. https://doi.org/10.1007/
+s00146-021-01262-5
+[4] Karla Badillo-Urquiola, Zachary Shea, Zainab Agha, Irina Lediaeva, and Pamela
+Wisniewski. 2021. Conducting risky research with teens: co-designing for the
+ethical treatment and protection of adolescents. Proceedings of the ACM on
+Human-Computer Interaction 4, CSCW3 (2021), 1–46. https://doi.org/10.1145/
+3432930
+[5] Karla Badillo-Urquiola, Diva Smriti, Brenna McNally, Evan Golub, Elizabeth
+Bonsignore, and Pamela J Wisniewski. 2019. Stranger danger! social media app
+features co-designed with children to keep them safe online. In Proceedings of
+the 18th ACM international conference on interaction design and children. 394–406.
+https://doi.org/10.1145/3311927.3323133
+[6] Mathilde Bekker, Julie Beusmans, David Keyson, and Peter Lloyd. 2003.
+KidReporter: a user requirements gathering technique for designing with children. Interacting with computers 15, 2 (2003), 187–202. https://doi.org/10.1016/
+S0953-5438(03)00007-9
+[7] Jean-Michel Boucheix, Richard K Lowe, and Jean-Pierre Thibaut. 2020. A developmental perspective on young children’s understandings of paired graphics
+conventions from an analogy task. Frontiers in Psychology 11 (2020), 2032.
+https://doi.org/10.3389/fpsyg.2020.02032
+[8] Leanne Bowler, Amelia Acker, Wei Jeng, and Yu Chi. 2017. “It lives all around
+us”: Aspects of data literacy in teen’s lives. Proceedings of the association for
+information science and technology 54, 1 (2017), 27–35. https://doi.org/10.1002/
+pra2.2017.14505401004
+[9] Daniel Bühler, Fabian Hemmert, and Jörn Hurtienne. 2020. Universal and
+intuitive? Scientific guidelines for icon design. In Proceedings of Mensch und
+Computer 2020. 91–103. https://doi.org/10.1145/3404983.3405518
+[10] Tara Callaghan. 2020. The origins and development of a symbolic mind: The
+case of pictorial symbols. Interchange 51 (2020), 53–64. https://doi.org/10.1007/
+s10780-020-09396-z
+[11] Ewa Callahan. 2005. Interface design and culture. Annual review of information
+science and technology 39, 1 (2005), 255–310. https://doi.org/10.1111/j.10836101.2006.tb00312.x
+[12] Javier Calzada Prado and Miguel Ángel Marzal. 2013. Incorporating data literacy
+into information literacy programs: Core competencies and contents. Libri 63,
+2 (2013), 123–134. https://doi.org/10.1515/libri-2013-0010
+[13] Jake Carlson and Lisa Johnston. 2015. Data information literacy: Librarians, data,
+and the education of a new generation of researchers. Purdue University Press.
+https://doi.org/stable/j.ctt6wq2vh
+[14] Fred H Cate. 2010. The limits of notice and choice. IEEE Security & Privacy 8, 2
+(2010), 59–62. https://doi.org/10.1109/MSP.2010.84
+[15] Fred H Cate. 2016. The failure of fair information practice principles. In
+Consumer Protection in the Age of the’Information Economy’. Routledge, 341–
+377.
+[16] Neeraj Chatlani, Zachary Shea, and Pamela Wisniewski. 2020. Teenovate: using
+intergenerational participatory design to teach students about adolescent online
+safety. In Chatlani, Neeraj and Shea, Zachary and Wisniewski, Pamela, Teenovate:
+Using Intergenerational Participatory Design to Teach Students about Adolescent
+Online Safety (June 18, 2020). Teaching CCI Workshop of the 2020 ACM Interaction
+Design and Children Conference. https://doi.org/10.2139/ssrn.3786322
+[17] Martin B Curry, Siné JP McDougall, and Oscar De Bruijn. 1998. The effects of
+the visual metaphor in determining icon efficacy. In Proceedings of the human
+factors and ergonomics society annual meeting, Vol. 42. SAGE Publications Sage
+CA: Los Angeles, CA, 1590–1594. https://doi.org/10.1177/15419312980420221
+[18] Erica Deahl. 2014. Better the data you know: Developing youth data literacy in
+schools and informal learning environments. Available at SSRN 2445621 (2014).
+[19] Sarah Delgado Rodriguez, Anh Dao Phuong, Franziska Bumiller, Lukas Mecke,
+Felix Dietz, Florian Alt, and Mariam Hassib. 2023. Padlock, the Universal
+
+Sun, et al.
+
+Security Symbol?-Exploring Symbols and Metaphors for Privacy and Security.
+In Proceedings of the 22nd International Conference on Mobile and Ubiquitous
+Multimedia. 4–18. https://doi.org/10.1145/3626705.3627770
+[20] Judy S DeLoache. 2000. Dual representation and young children’s use of scale
+models. Child development 71, 2 (2000), 329–338. https://doi.org/10.1111/14678624.00148
+[21] Judy S DeLoache. 2002. The symbol-mindedness of young children. Child
+psychology in retrospect and prospect: In celebration of the 75th anniversary of the
+Institute of Child Development 32, 2002 (2002), 73–101.
+[22] Judy S DeLoache. 2004. Becoming symbol-minded. Trends in cognitive sciences
+8, 2 (2004), 66–70. https://doi.org/10.1016/j.tics.2003.12.004
+[23] Judy S DeLoache. 2011. Early development of the understanding and use
+of symbolic artifacts. The Wiley-Blackwell handbook of childhood cognitive
+development 2 (2011), 312–336. https://doi.org/10.1002/9780470996652.ch10
+[24] Judy S DeLoache, Olga A Peralta de Mendoza, and Kathy N Anderson. 1999.
+Multiple factors in early symbol use: Instructions, similarity, and age in understanding a symbol-referent relation. Cognitive development 14, 2 (1999), 299–312.
+https://doi.org/10.1016/S0885-2014(99)00006-4
+[25] Judy S DeLoache, Kevin F Miller, and Karl S Rosengren. 1997. The credible shrinking room: Very young children’s performance with symbolic and nonsymbolic relations. Psychological Science 8, 4 (1997), 308–313. https://doi.org/10.1111/j.14679280.1997.tb0044
+[26] Judy S DeLoache, Sophia L Pierroutsakos, and David H Uttal. 2003. The origins
+of pictorial competence. Current Directions in Psychological Science 12, 4 (2003),
+114–118. https://doi.org/10.1111/1467-8721.01244
+[27] Judy S DeLoache, David H Uttal, and Sophia L Pierroutsakos. 1998. The development of early symbolization: Educational implications. Learning and Instruction
+8, 4 (1998), 325–339. https://doi.org/10.1016/S0959-4752(97)00025-X
+[28] Apple Developer. 2023. Loading. https://developer.apple.com/design/humaninterface-guidelines/loading
+[29] Apple Developer. 2023. SF Symbols 5. https://developer.apple.com/sf-symbols/
+[30] Allison Druin. 1999. Cooperative inquiry: developing new technologies for
+children with children. In Proceedings of the SIGCHI conference on Human Factors
+in Computing Systems. 592–599. https://doi.org/10.1145/302979.303166
+[31] Allison Druin. 2002. The role of children in the design of new technology.
+Behaviour and information technology 21, 1 (2002), 1–25. https://doi.org/10.
+1080/01449290110108659
+[32] Zohar Efroni, Jakob Metzger, Lena Mischau, and Marie Schirmbeck. 2019. Privacy icons: A risk-based approach to visualisation of data processing. Eur. Data
+Prot. L. Rev. 5 (2019), 352. https://doi.org/10.21552/edpl/2019/3/9
+[33] Serge Egelman, Raghudeep Kannavara, and Richard Chow. 2015. Is this thing
+on? Crowdsourcing privacy indicators for ubiquitous sensing platforms. In
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing
+Systems. 1669–1678. https://doi.org/10.1145/2702123.2702251
+[34] Benjamin Fabian, Tatiana Ermakova, and Tino Lentz. 2017. Large-scale readability analysis of privacy policies. In Proceedings of the international conference
+on web intelligence. 18–25. https://doi.org/10.1145/3106426.3106427
+[35] Rys Farthing, Katina Michael, Roba Abbas, and Genevieve Smith-Nunes. 2021.
+Age appropriate digital services for young people: Major reforms. IEEE Consumer
+Electronics Magazine 10, 4 (2021), 40–48. https://doi.org/10.1109/MCE.2021.
+3053772
+[36] Jennifer Fereday and Eimear Muir-Cochrane. 2006. Demonstrating rigor using
+thematic analysis: A hybrid approach of inductive and deductive coding and
+theme development. International journal of qualitative methods 5, 1 (2006),
+80–92. https://doi.org/10.1177/160940690600500107
+[37] Google Fonts. 2023. Introducing Material Symbols. https://fonts.google.com/
+icons
+[38] 5 Rights Foundation. 2021. Playful by Design: Free play in a digital
+world. https://digitalfuturescommission.org.uk/wp-content/uploads/2021/11/AVision-of-Free-Play-in-a-Digital-World.pdf
+[39] FTC. 2013.
+Children’s Online Privacy Protection Rule.
+https:
+//www.ftc.gov/enforcement/rules/rulemaking-regulatory-reformproceedings/childrens-online-privacy-protection-rule
+[40] Ruth Gavison. 1980. Privacy and the Limits of Law. The Yale law journal 89, 3
+(1980), 421–471. https://doi.org/10.2307/795891
+[41] Susan A Gelman, Nicole Cuneo, Sanika Kulkarni, Sarah Snay, and Steven O
+Roberts. 2021. The roles of privacy and trust in children’s evaluations and
+explanations of digital tracking. Child Development 92, 5 (2021), 1769–1784.
+https://doi.org/10.1111/cdev.13572
+[42] Susan A Gelman, Megan Martinez, Natalie S Davidson, and Nicholaus S Noles.
+2018. Developing digital privacy: Children’s moral judgments concerning mobile
+GPS devices. Child development 89, 1 (2018), 17–26. https://doi.org/10.1111/
+cdev.12826
+[43] Thomas D Grace, Christie Abel, and Katie Salen. 2023. Child-Centered Design
+in the Digital World: Investigating the Implications of the Age-Appropriate
+Design Code for Interactive Digital Media. In Proceedings of the 22nd Annual
+ACM Interaction Design and Children Conference. 289–297. https://doi.org/10.
+1145/3585088.3589370
+
+===== PDF PAGE 15 =====
+
+Co-Designing Visual Cues Representing Data Processes with Children
+
+[44] Thomas D Grace, Ian Larson, and Katie Salen. 2022. Policies of Misconduct:
+A Content Analysis of Codes of Conduct for Online Multiplayer Games. Proceedings of the ACM on Human-Computer Interaction 6, CHI PLAY (2022), 1–23.
+https://doi.org/10.1145/3549513
+[45] Gabriel Greenberg. 2013. Beyond resemblance. Philosophical review 122, 2 (2013),
+215–287. https://doi.org/10.1215/00318108-1963716
+[46] Sara M Grimes. 2014. Child-generated content: Children’s authorship and
+interpretive practices in digital gaming cultures. , 336–45 pages. https://doi.
+org/10.3138/9781442665613-028
+[47] Sara M Grimes. 2021. Digital playgrounds: The hidden politics of children’s online
+play spaces, virtual worlds, and connected games. University of Toronto Press.
+[48] Mona Leigh Guha, Allison Druin, Gene Chipman, Jerry Alan Fails, Sante Simms,
+and Allison Farber. 2004. Mixing ideas: a new technique for working with young
+children as design partners. In Proceedings of the 2004 conference on Interaction
+design and children: building a community. 35–42. https://doi.org/10.1145/
+1017833.1017838
+[49] Hana Habib, Sarah Pearman, Jiamin Wang, Yixin Zou, Alessandro Acquisti,
+Lorrie Faith Cranor, Norman Sadeh, and Florian Schaub. 2020. " It’s a scavenger
+hunt": Usability of Websites’ Opt-Out and Data Deletion Choices. In Proceedings
+of the 2020 CHI Conference on Human Factors in Computing Systems. 1–12. https:
+//doi.org/10.1145/3313831.3376511
+[50] Hana Habib, Yixin Zou, Yaxing Yao, Alessandro Acquisti, Lorrie Cranor, Joel
+Reidenberg, Norman Sadeh, and Florian Schaub. 2021. Toggles, dollar signs, and
+triangles: How to (in) effectively convey privacy choices with icons and link
+texts. In Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems. 1–25. https://doi.org/10.1145/3411764.3445387
+[51] Alexis Hiniker, Kiley Sobel, Hyewon Suh, Julie A Kientz, et al. 2016. Hidden
+symbols: how informal symbolism in digital interfaces disrupts usability for
+preschoolers. International Journal of Human-Computer Studies 90 (2016), 53–67.
+https://doi.org/10.1016/j.ijhcs.2016.03.006
+[52] Donell Holloway. 2019. Surveillance capitalism and children’s data: the Internet
+of toys and things for children. Media International Australia 170, 1 (2019), 27–36.
+https://doi.org/10.1177/1329878X19828205
+[53] Donell Holloway, Lelia Green, and Sonia Livingstone. 2013. Zero to eight: Young
+children and their internet use. London School of Economics and EU Kids Online
+January 2013 Edition (2013), 10–13.
+[54] Steven Hoober and Eric Berkman. 2011. Designing mobile interfaces: Patterns for
+interaction design. " O’Reilly Media, Inc.".
+[55] Duha Ibdah, Nada Lachtar, Satya Meenakshi Raparthi, and Anys Bacha. 2021.
+“Why Should I Read the Privacy Policy, I Just Need the Service”: A Study on
+Attitudes and Perceptions Toward Privacy Policies. IEEE access 9 (2021), 166465–
+166487. https://doi.org/10.1109/ACCESS.2021.3130086
+[56] ICO. 2018. GDPR and Children. https://ico.org.uk/media/for-organisations/
+guide-to-the-general-data-protection-regulation-gdpr/children-and-thegdpr-1-0.pdf
+[57] ICO. 2020. Age appropriate design: a code of practice. https://ico.org.uk/media/
+for-organisations/guide-to-data-protection/key-data-protection-themes/ageappropriate-design-a-code-of-practice-for-online-services-2-1.pdf
+[58] ICO. 2021. Designing data transparency for children. https://ico.org.uk/media/
+2620177/designing-data-transparency-for-children.pdf
+[59] Sarah J Isherwood, Siné JP McDougall, and Martin B Curry. 2007. Icon identification in context: The changing role of icon characteristics with user experience.
+Human Factors 49, 3 (2007), 465–476. https://doi.org/10.1518/001872007X200102
+[60] Patrick Gage Kelley, Joanna Bresee, Lorrie Faith Cranor, and Robert W Reeder.
+2009. A "nutrition label" for privacy. In Proceedings of the 5th Symposium on
+Usable Privacy and Security. 1–12. https://doi.org/10.1145/1572532.1572538
+[61] Patrick Gage Kelley, Lucian Cesca, Joanna Bresee, and Lorrie Faith Cranor. 2010.
+Standardizing privacy notices: an online study of the nutrition label approach.
+In Proceedings of the SIGCHI Conference on Human factors in Computing Systems.
+1573–1582. https://doi.org/10.1145/1753326.1753561
+[62] Agnieszka Kitkowska, Mark Warner, Yefim Shulman, Erik Wästlund, and
+Leonardo A Martucci. 2020. Enhancing privacy through the visual design
+of privacy notices: Exploring the interplay of curiosity, control and affect. In
+Sixteenth Symposium on Usable Privacy and Security (SOUPS 2020). 437–456.
+[63] Bart Knijnenburg and David Cherry. 2016. Comics as a medium for privacy
+notices. In Twelfth Symposium on Usable Privacy and Security (SOUPS 2016).
+[64] Priya Kumar, Shalmali Milind Naik, Utkarsha Ramesh Devkar, Marshini Chetty,
+Tamara L Clegg, and Jessica Vitak. 2017. ’No Telling Passcodes Out Because
+They’re Private’ Understanding Children’s Mental Models of Privacy and Security Online. Proceedings of the ACM on Human-Computer Interaction 1, CSCW
+(2017), 1–21. https://doi.org/10.1145/3134699
+[65] Priya Kumar, Jessica Vitak, Marshini Chetty, Tamara L Clegg, Jonathan Yang,
+Brenna McNally, and Elizabeth Bonsignore. 2018. Co-designing online privacyrelated games and stories with children. In Proceedings of the 17th ACM conference on interaction design and children. 67–79. https://doi.org/10.1145/3202185.
+3202735
+[66] Priya C Kumar, Mega Subramaniam, Jessica Vitak, Tamara L Clegg, and Marshini
+Chetty. 2020. Strengthening children’s privacy literacy through contextual
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+integrity. Media and Communication 8, 4 (2020), 175–184. https://doi.org/10.
+17645/mac.v8i4.3236
+[67] Sonia Livingstone, Mariya Stoilova, and Rishita Nandagiri. 2019. Children’s
+data and privacy online: growing up in a digital age: an evidence review. (2019).
+[68] Deborah Lupton and Ben Williamson. 2017. The datafied child: The dataveillance
+of children and implications for their rights. New media & society 19, 5 (2017),
+780–794.
+[69] Mary Madden, Amanda Lenhart, Sandra Cortesi, and Urs Gasser. 2013. Teens
+and mobile apps privacy. Pew Internet and American Life Project. https:
+//www.pewresearch.org/internet/2013/08/22/teens-and-mobile-apps-privacy/
+[70] Aaron Marcus and Aaron Marcus. 2015. Icons/symbols and more: visible languages to facilitate communication. HCI and User-Experience Design: FastForward to the Past, Present, and Future (2015), 53–61.
+[71] Giovanna Mascheroni. 2020. Datafied childhoods: Contextualising datafication
+in everyday life. Current Sociology 68, 6 (2020), 798–813.
+[72] Giovanna Mascheroni and Donell Holloway. 2019. The quantified child: Discourses and practices of dataveillance in different life stages. In The Routledge
+Handbook of Digital Literacies in Early Childhood. Routledge, 354–365.
+[73] Giovanna Mascheroni, Andra Siibak, et al. 2021. Datafied childhoods: Data
+practices and imaginaries in children’s lives. Peter Lang.
+[74] Aleecia M McDonald and Lorrie Faith Cranor. 2008. The cost of reading privacy
+policies. Isjlp 4 (2008), 543.
+[75] Nora McDonald, Sarita Schoenebeck, and Andrea Forte. 2019. Reliability and
+inter-rater reliability in qualitative research: Norms and guidelines for CSCW
+and HCI practice. Proceedings of the ACM on human-computer interaction 3,
+CSCW (2019), 1–23. https://doi.org/10.1145/3359174
+[76] Brenna McNally, Priya Kumar, Chelsea Hordatt, Matthew Louis Mauriello, Shalmali Naik, Leyla Norooz, Alazandra Shorter, Evan Golub, and Allison Druin.
+2018. Co-designing mobile online safety applications with children. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 1–9.
+https://doi.org/10.1145/3173574.3174097
+[77] Marisa Meyer, Victoria Adkins, Nalingna Yuan, Heidi M Weeks, Yung-Ju Chang,
+and Jenny Radesky. 2019. Advertising in young children’s apps: A content
+analysis. Journal of Developmental & Behavioral Pediatrics 40, 1 (2019), 32–39.
+https://doi.org/10.1097/DBP.0000000000000622
+[78] Anca Micheti, Jacquelyn Burkell, and Valerie Steeves. 2010. Fixing broken doors:
+Strategies for drafting privacy policies young people can understand. Bulletin
+of Science, Technology & Society 30, 2 (2010), 130–143. https://doi.org/10.1177/
+0270467610365355
+[79] Mozilla. 2020. Privacy Icons. https://wiki.mozilla.org/Privacy_Icons
+[80] Shaylene E Nancekivell and Jason B Fahey. 2022. Who owns your information?
+Young children’s judgments of who owns the general and personal information
+users share with apps.. In Proceedings of the Annual Meeting of the Cognitive
+Science Society, Vol. 44.
+[81] Katherine Nelson. 2010. Young minds in social worlds: Experience, meaning, and
+memory. Harvard University Press. https://doi.org/10.4159/9780674041400
+[82] Anne Oeldorf-Hirsch and Jonathan A Obar. 2019. Overwhelming, important,
+irrelevant: Terms of service and privacy policy reading among older adults.
+In Proceedings of the 10th International Conference on Social Media and Society.
+166–173. https://doi.org/10.1145/3328529.3328557
+[83] State of California 2022. 2022. The California Age-Appropriate Design Code
+Act (AB- 2273). https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?
+bill_id=202120220AB2273
+[84] Information Commissioner’s Office. 2020. Age appropriate design: a code of
+practice for online services. https://ico.org.uk/media/for-organisations/guideto-data-protection/ico-codes-of-practice/age-appropriate-design-a-code-ofpractice-for-online-services-2-1.pdf
+[85] Preethy Pappachan and Martina Ziefle. 2008. Cultural influences on the comprehensibility of icons in mobile–computer interaction. Behaviour & Information
+Technology 27, 4 (2008), 331–337. https://doi.org/10.1080/01449290802228399
+[86] Jochen Peter and Patti M Valkenburg. 2011. Adolescents’ online privacy: Toward
+a developmental perspective. In Privacy online. Springer, 221–234. https:
+//doi.org/10.1007/978-3-642-21521-6_16
+[87] Jenny S Radesky, Jayna Schumacher, and Barry Zuckerman. 2015. Mobile and
+interactive media use by young children: the good, the bad, and the unknown.
+Pediatrics 135, 1 (2015), 1–3. https://doi.org/10.1542/peds.2014-2251
+[88] Jenny S Radesky, Heidi M Weeks, Rosa Ball, Alexandria Schaller, Samantha Yeo,
+Joke Durnez, Matthew Tamayo-Rios, Mollie Epstein, Heather Kirkorian, Sarah
+Coyne, et al. 2020. Young children’s use of smartphones and tablets. Pediatrics
+146 (2020), 1–10. https://doi.org/10.1542/peds.2019-3518
+[89] Daniel Reinhardt, Johannes Borchard, and Jörn Hurtienne. 2021. Visual Interactive Privacy Policy: The Better Choice?. In Proceedings of the 2021 CHI Conference
+on Human Factors in Computing Systems. 1–12. https://doi.org/10.1145/3411764.
+3445465
+[90] Harris Richard. 2017. 72M data points collected on children in spite of
+COPPA. https://appdevelopermagazine.com/72m-data-points-collected-onchildren-in-spite-of-coppa/
+
+===== PDF PAGE 16 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+[91] Steven O Roberts, Susan A Gelman, and Arnold K Ho. 2017. So it is, so it shall be:
+Group regularities license children’s prescriptive judgments. Cognitive Science
+41 (2017), 576–600. https://doi.org/10.1111/cogs.12443
+[92] Arianna Rossi and Gabriele Lenzini. 2021. Which Properties Has an Icon? A
+Critical Discussion on Data Protection Iconography. In Socio-Technical Aspects
+in Security and Trust: 9th International Workshop, STAST 2019, Luxembourg City,
+Luxembourg, September 26, 2019, Revised Selected Papers 9. Springer, 211–229.
+https://doi.org/10.1007/978-3-030-55958-8_12
+[93] Arianna Rossi and Monica Palmirani. 2019. DaPIS: A data protection icon set to
+improve information transparency under the GDPR. Knowledge of the Law in
+the Big Data Age 252, 181-195 (2019), 5–5.
+[94] Arianna Rossi and Monica Palmirani. 2020. Can visual design provide legal
+transparency? the challenges for successful implementation of icons for data
+protection. Design Issues 36, 3 (2020), 82–96. https://doi.org/10.1162/desi_a_
+00605
+[95] Johnny Saldaña. 2021. The coding manual for qualitative researchers. sage.
+[96] Gavriel Salomon. 2012. Interaction of media, cognition, and learning: An exploration of how symbolic forms cultivate mental skills and affect knowledge
+acquisition. Routledge.
+[97] Florian Schaub, Rebecca Balebako, and Lorrie Faith Cranor. 2017. Designing
+Effective Privacy Notices and Controls. IEEE Internet Computing 21, 3 (2017),
+70–77. https://doi.org/10.1109/MIC.2017.75
+[98] Florian Schaub, Rebecca Balebako, Adam L Durity, and Lorrie Faith Cranor.
+2015. A design space for effective privacy notices. In Eleventh symposium on
+usable privacy and security (SOUPS 2015). 1–17.
+[99] Neil Selwyn and Luci Pangrazio. 2018. Doing data differently? Developing personal data tactics and strategies amongst young mobile media users. Big Data &
+Society 5, 1 (2018), 2053951718765021. https://doi.org/10.1177/2053951718765021
+[100] Robert S Siegler. 1991. Children’s thinking. Prentice-Hall, Inc.
+[101] Daniel J Solove. 2012. Introduction: Privacy self-management and the consent
+dilemma. Harv. L. Rev. 126 (2012), 1880.
+[102] Nikita Soni, Aishat Aloba, Kristen S Morga, Pamela J Wisniewski, and Lisa Anthony. 2019. A framework of touchscreen interaction design recommendations
+for children (tidrc) characterizing the gap between research evidence and design
+practice. In Proceedings of the 18th ACM international conference on interaction
+design and children. 419–431. https://doi.org/10.1145/3311927.3323149
+[103] Mariya Stoilova, Sonia Livingstone, and Rishita Nandagiri. 2020. Digital by
+default: Children’s capacity to understand and manage online data and privacy.
+Media and Communication 8, 4 (2020), 197–207. https://doi.org/10.17645/mac.
+v8i4.3407
+[104] Mariya Stoilova, Rishita Nandagiri, and Sonia Livingstone. 2021. Children’s
+understanding of personal data and privacy online–a systematic evidence mapping. Information, Communication & Society 24, 4 (2021), 557–575. https:
+//doi.org/10.1080/1369118X.2019.1657164
+[105] Kaiwen Sun, Carlo Sugatan, Tanisha Afnan, Hayley Simon, Susan A Gelman, Jenny Radesky, and Florian Schaub. 2021. “They See You’re a Girl
+if You Pick a Pink Robot with a Skirt”: A Qualitative Study of How Children Conceptualize Data Processing and Digital Privacy Risks. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems. 1–34.
+https://doi.org/10.1145/3411764.3445333
+[106] Madiha Tabassum, Abdulmajeed Alqhatani, Marran Aldossari, and Heather
+Richter Lipford. 2018. Increasing user attention with a comic-based policy. In
+Proceedings of the 2018 chi conference on human factors in computing systems.
+1–6. https://doi.org/10.1145/3173574.3173774
+[107] Jenny Tang, Hannah Shoemaker, Ada Lerner, and Eleanor Birrell. 2021. Defining
+privacy: How users interpret technical terms in privacy policies. Proceedings on
+Privacy Enhancing Technologies 2021, 3 (2021). https://doi.org/10.2478/popets2021-0038
+[108] Unicef et al. 2018. Children’s online privacy and freedom of expression.
+[109] David H Uttal, Katherine O’Doherty, Rebecca Newland, Linda Liu Hand, and
+Judy DeLoache. 2009. Dual representation and the linking of concrete and
+symbolic representations. Child Development Perspectives 3, 3 (2009), 156–159.
+https://doi.org/10.1111/j.1750-8606.2009.00097.x
+[110] Lev Semenovich Vygotsky and Michael Cole. 1978. Mind in society: Development
+of higher psychological processes. Harvard university press. https://doi.org/10.
+2307/j.ctvjf9vz4
+[111] Greg Walsh, Elizabeth Foss, Jason Yip, and Allison Druin. 2013. FACIT PD: a
+framework for analysis and creation of intergenerational techniques for participatory design. In proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems. 2893–2902. https://doi.org/10.1145/2470654.2481400
+[112] Alan F Westin. 1968. Privacy and freedom. Washington and Lee Law Review 25,
+1 (1968), 166.
+[113] Michael S Wogalter, N Clayton Silver, S David Leonard, and Helen Zaikina. 2006.
+Warning symbols. Handbook of warnings 1 (2006). https://doi.org/10.1201/
+9781482289688
+[114] Annika Wolff, Michel Wermelinger, and Marian Petre. 2019. Exploring design
+principles for data literacy activities to support children’s inquiries from complex
+data. International Journal of Human-Computer Studies 129 (2019), 41–54. https:
+
+Sun, et al.
+
+//doi.org/10.1016/j.ijhcs.2019.03.006
+[115] Julia Woodward, Feben Alemu, Natalia E. López Adames, Lisa Anthony, Jason
+C. Yip, and Jaime Ruiz. 2022. “It Would Be Cool to Get Stampeded by Dinosaurs”:
+Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design. In
+Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems.
+1–13. https://doi.org/10.1145/3491102.3501979
+[116] Jason C Yip, Frannie Ello, Fumi Tsukiyama, Atharv Wairagade, and June Ahn.
+2023. " Money shouldn’t be money!": An Examination of Financial Literacy
+and Technology for Children Through Co-Design. In Proceedings of the 22nd
+Annual ACM Interaction Design and Children Conference. 82–93. https://doi.org/
+10.1145/3585088.3589355
+[117] Jason C Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofiana, Justin Park, and Alexis Hiniker. 2019. Laughing
+is scary, but farting is cute: A conceptual model of children’s perspectives of
+creepy technologies. In Proceedings of the 2019 CHI Conference on Human Factors
+in Computing Systems. 1–15. https://doi.org/10.1145/3290605.3300303
+[118] Jason C Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu, and
+Laura R Pina. 2017. Examining adult-child interactions in intergenerational
+participatory design. In Proceedings of the 2017 CHI conference on human factors
+in computing systems. 5742–5754. https://doi.org/10.1145/3025453.3025787
+[119] Leah Zhang-Kennedy. 2017. Multimedia Approaches for Improving Children’s
+Privacy and Security Knowledge and Persuading Behaviour Change. Ph. D. Dissertation. Carleton University. https://doi.org/10.22215/etd/2017-11979
+[120] Leah Zhang-Kennedy, Khadija Baig, and Sonia Chiasson. 2017. Engaging children about online privacy through storytelling in an interactive comic. Electronic
+Visualisation and the Arts (EVA 2017) (2017), 1–11. https://doi.org/10.14236/
+ewic/HCI2017.45
+[121] Leah Zhang-Kennedy, Christine Mekhail, Yomna Abdelaziz, and Sonia Chiasson.
+2016. From nosy little brothers to stranger-danger: Children and parents’ perception of mobile threats. In Proceedings of the The 15th International Conference
+on Interaction Design and Children. 388–399. https://doi.org/10.1145/2930674.
+2930716
+[122] Fangwei Zhao, Serge Egelman, Heidi M Weeks, Niko Kaciroti, Alison L Miller,
+and Jenny S Radesky. 2020. Data collection practices of mobile applications
+played by preschool-aged children. JAMA pediatrics 174 (2020), e203345–
+e203345. https://doi.org/10.1001/jamapediatrics.2020.3345
+[123] Jun Zhao, Ge Wang, Carys Dally, Petr Slovak, Julian Edbrooke-Childs, Max
+Van Kleek, and Nigel Shadbolt. 2019. I make up a silly name’ Understanding
+Children’s Perception of Privacy Risks Online. In Proceedings of the 2019 CHI
+Conference on Human Factors in Computing Systems. 1–13. https://doi.org/10.
+1145/3290605.3300336
+[124] Shoshana Zuboff. 2015. Big other: surveillance capitalism and the prospects
+of an information civilization. Journal of information technology 30, 1 (2015),
+75–89. https://doi.org/10.1057/jit.2015.5

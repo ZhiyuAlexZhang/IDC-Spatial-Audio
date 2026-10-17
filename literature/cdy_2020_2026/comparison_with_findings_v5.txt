@@ -1,0 +1,314 @@
+Comparing the updated spatial-audio findings with recent CDY-related papers
+17 October 2026
+
+Review target: ../../sections/4-findings.tex, labeled Findings v5 (2026-10-16).
+Draft SHA-256: 3985d25c0163addf9b0d6ae22f64f3f9db585bd9b8e03f3f6d5beac0a60eb720
+All draft line numbers below refer to the snapshot read on 17 October 2026.
+This report reviews writing and interpretation against 18 public empirical papers.
+It does not redo the full audio/transcript audit or predict an IDC acceptance decision.
+References below name entries in bibliography.txt; locators are downloaded PDF pages.
+Detailed headings and figure/table inventories are in review_notes/.
+
+OVERALL ASSESSMENT
+
+The draft has stronger empirical material than its headings and presentation currently
+communicate. It already contains substantive interpretations: hearing a difference does
+not necessarily change appreciation; separating voices also changes felt proximity;
+recording at the mouth differs from recording a listening perspective; and the same
+vibration can be welcome for passengers but questionable for drivers. These are more
+informative than an application list. The next revision should foreground and substantiate
+these relationships, while retaining the evidence that complicates them.
+
+The comparison does NOT support two categorical rules: remove all design tables, or turn
+every heading into a declarative claim. Relevant papers use multiple formats. Their better
+passages explain relationships among observations, reasons, contexts and consequences.
+Some make that meaning visible in headings; others develop it in subsection openings,
+interaction sequences, contrasts, closing analyses, or Discussion models.
+
+My recommendation: keep a thematic account; greatly simplify the large team table;
+present selected designs individually inside the themes; sharpen the analytical work,
+especially the second part of 4.1 and the classification in 4.3. Do not replace the whole
+section with six design descriptions. A modest change in architecture plus stronger
+paragraphs is more justified than another complete reorganization.
+
+1. SHOULD THE TABLE OF DESIGNS GO?
+
+The user is right about the current table's burden, but an individual narrative for every
+design is not automatically the stronger alternative.
+
+A direct counterexample is Newman et al., Purposeful Play (ISMIR 2024), an unusually useful
+match because it involves children's evaluation and co-design of music applications in two
+short sessions. Table 2 on PDFp3 summarizes eight child-designed apps in three columns:
+child, app name, description. Figure 1 onp4 then shows one design, Dreamer. Findingspp3-5
+analyze patterns across the designs and earlier app experiences. The table provides a map;
+the selected figure makes an example inspectable; the thematic prose explains meaning.
+This is not IDC, so it demonstrates a viable matched approach rather than an IDC mandate.
+
+Woodward et al., AR Headsets (CHI 2022), uses selected low-tech artifacts (Figures1 and3,
+PDFpp5 and7) and a conceptual model (Figure 2,p 6), without cataloguing every final design.
+Dangol et al., AI Toys (IDC 2026), refers to individual participant comics within a thematic
+account (section 4.4,p 10; Figure 5,p 11), with fuller comics in an appendix. Hunt et al.,
+Designing Together (IDC 2023), uses selected interaction vignettes and an appendix of
+sessions. These are different solutions to different evidentiary problems.
+
+Absence of design inventories in the Instagram studies is weak evidence against your
+inventory: those studies did not generate a comparable set of six final co-design boards.
+Likewise, session, demographic, codebook, and outcome tables are not design tables. They
+must not be counted together to claim that this community prefers or avoids tables.
+
+Your table (draft lines59-80) currently combines at least four jobs:
+- orienting the reader to six teams and their concepts;
+- describing format and prompts;
+- cataloguing almost every feature and alternative;
+- documenting adult/teen origins, drawing roles, timestamps and attribution uncertainty.
+
+That makes it closer to a compressed audit record than a useful reader overview. Much of
+its most important content is repeated in the prose. The generic six-board placeholder
+(lines49-57) adds no readable evidence yet. Neither issue is solved by eliminating tables
+as a format.
+
+Recommended presentation:
+- If needed, retain a very small overview: team; concept/intended activity; distinctive
+  spatial feature. A short provenance note can flag mixed authorship. Put format/prompt
+  details in Methods and the detailed origin/feature record in an appendix or supplement.
+- Show selected original artifact crops alongside the paragraphs that interpret them:
+  ear versus mouth microphones in the hoodie; positions at the virtual table; driver
+  versus passenger placement in the car. The practice app can be a fourth example if
+  its room-acoustics choices cannot be explained clearly in prose.
+- Preserve handwritten/typed evidence where legible. Label any cleaned redraw as a
+  researcher reconstruction, retaining the original in the supplement.
+- Give each caption an evidentiary purpose: what feature the reader should inspect,
+  whose design it is, and what the prose uses it to establish. Avoid just “six boards.”
+- Do not give all six concepts equal narrative space. Select for analytical contribution,
+  a useful contrast, or a challenging case. Keep the full corpus discoverable elsewhere.
+
+If the annotated figures and a short orientation paragraph supply all necessary navigation,
+there is no obligation to retain even the small table. The recommendation is functional,
+not a requirement for a table-plus-figure formula.
+
+2. ARE THE THEMES ONLY CATEGORIES?
+
+Some of the headings are weak, but “category” does not mean “meaningless.” A descriptive
+heading can locate a substantial finding. Nor does a claim-shaped heading guarantee
+analysis. The problem is whether the reader learns a pattern, relationship or distinction
+that goes beyond the topic and the quotations themselves.
+
+Actual comparators:
+
+- Yip et al., Money (IDC 2023), uses descriptive headings such as “The modality of money.”
+  Each thematic section closes with an explicit summary analysis (section 4,PDFpp5-8).
+  It does not require every heading to be a sentence claiming an effect.
+- Rubegni et al., Robots (IDC 2022), uses broad attribute categories but pairs opposing
+  beliefs and the hopes/fears associated with them (section 4,pp 5-8). The analytical
+  contribution lies in that ambivalence and relation, not simply the category names.
+- Landesman et al., Instagram (IDC 2024), combines RQ headings with both topical labels
+  and interpretive ones. “Boredom In, Boredom Out” (4.1.2,p 6) explains boredom as entry,
+  ongoing experience and exit trigger. “Moments of Connection” is more descriptive.
+  The prose connects the two; Discussion develops the interaction cycle (Figure 3,p 10).
+- Dangol et al., AI Toys (IDC 2026), has broad headings about sensemaking and interaction,
+  then more interpretive subheadings about repair and abandonment (section 4,pp 7-10).
+  Its strongest passages trace changing actions and expectations within episodes.
+- Landesman et al., Teen AI (IJCCI 2026), groups findings by contexts and levels of concern
+  (section 4,pp 6-10), while interpreting central/supporting tasks and cognitive effort.
+  The two-axis synthesis appears in Discussion (5.1,pp 10-11). It does not force every
+  context into a separate novel theoretical construct.
+
+A reviewer-facing distinction: findings should interpret the empirical material; Discussion
+can connect those interpretations to prior literature, wider implications and a more general
+model. Keeping interpretation out of Findings would make this draft weaker. Demanding the
+entire theoretical contribution in every Findings heading would also be excessive.
+
+APPLICATION TO EACH PART OF THE CURRENT DRAFT
+
+4.1 Making Sense of the Presentation (lines82-100)
+
+This is a defensible umbrella, but it names an activity more than an insight. The prose
+already has a more useful argument: locating the effect took work and involved the visual
+presentation; noticing the effect did not settle its value. Make those distinctions visible.
+
+“Working to hear a difference” is already a meaningful process heading. Retain it or refine
+it lightly. “What the difference did, and what teens brought to it” is substantially weaker:
+it bundles attention to musical components, enjoyment, prior gaming/headphone experience,
+familiarity, and expectations of concerts. A reader cannot anticipate the finding.
+
+A more informative heading is “Hearing more detail did not necessarily change appreciation.”
+Use the contrasting familiarity accounts to establish that distinction. Prior experience
+then explains how participants judged the demonstration; it need not become a separate
+subtheme unless there is enough analysis to support one. A short final paragraph can say
+that the demonstration was interpreted against existing experiences of games, concerts and
+8D audio, rather than treated as a completely unfamiliar technology.
+
+Do not turn the audiovisual episode into proof that visuals caused perception. The current
+facilitator sequence is important because reassurance changed the conversational context.
+The useful claim concerns how participants articulated the experience under these study
+conditions. It is not a sensory-isolation or learning result.
+
+4.2 Putting Spatial Relationships to Use (lines102-129)
+
+This is the strongest part. Its purposes are legitimate organizing categories, but the
+writer must keep explaining what is distinctively spatial and what that enables in the
+participants' reasoning. The alternative is a feature wishlist organized into three bins.
+
+The FaceTime passage should distinguish the proposal's anticipated benefit from a tested
+one: Nadia expected separation to help communication and also remarked on the unfamiliar
+proximity. “Weird” can express ambivalence or novelty; it does not alone establish intrusion,
+rejection, or a privacy concern. Do not force her into the “intrusive” category later.
+
+The hoodie episode is strongest when it explains the contrast between capturing a voice
+and capturing how an event was heard. That is more informative than saying teens wanted
+to make/keep music. Its boundedness matters: this developed within one team, partly from
+adult facilitation. A rich single case can be valuable without becoming a pervasive cohort
+preference. Fix the visibly broken concert quotation before relying on it.
+
+The virtual table is strongest when spatial placement becomes a social choice. Seat-claiming,
+muting and timeout raise questions about whose choice changes whose listening. The artifact
+and conversation did not specify enough interaction rules to show actual exclusion,
+negotiation, conflict, or a demonstrated gain in agency. Frame these as possibilities and
+unresolved implications of the concepts.
+
+For each purpose, use one rich episode plus one supporting or contrasting case. This is
+already partly achieved. The revision should strengthen the connections rather than add
+more examples indiscriminately. “Table 2 lists the rest” currently implies exhaustive
+coverage; confirm it or use narrower wording.
+
+4.3 Deciding When It Is Worth It (lines131-150)
+
+The top heading is useful, but desirable/unnecessary/intrusive is a less convincing analytic
+partition than the actual evidence. Payment is not a form of intrusion. Wanting a choice is
+not the same as wanting the effect; finding a proposal interesting is not endorsement of
+its implementation. A single participant can occupy multiple positions, which the draft
+acknowledges but does not yet resolve structurally.
+
+Organize the material around conditions, not fixed participant positions. Three workable
+local groupings are:
+- fitting existing practices and equipment (including leaving satisfactory practices alone);
+- placing or limiting the effect for a particular listener/activity;
+- qualifying access and payment.
+
+These are organizing options, not claims that must become three equally long subsections.
+The passenger/driver case is strong enough to carry a main analytic paragraph; payment can
+be a short qualification if less developed. Privacy is thin and intertwined with playful
+premium features, so it should not become a large standalone theme without further evidence.
+
+The supported interpretation is that valuation depends on what a spatial feature does in a
+situation and who experiences its consequences. This can include refusing unnecessary change,
+not merely fine-tuning an otherwise desirable upgrade. Separate this broader design judgment
+from 4.1's narrower distinction between noticing a demonstration and appreciating the song.
+
+3. OTHER IMPORTANT DIFFERENCES FROM THE BETTER COMPARATOR PASSAGES
+
+A. Make the analytical relationship explicit before asking quotations to carry it.
+
+Several paragraphs already do this. The draft needs consistency, not an arbitrary quote
+quota. A productive paragraph moves from a bounded proposition to an inspectable episode,
+explains the relevant detail, then compares a case or exception. A closing sentence should
+add meaning rather than paraphrase the quote or announce “This answers RQ1/RQ2.”
+
+Footprint (IDC 2026,5.1.3,pp 9-10) provides a useful model: two groups connect answer length
+with resource cost but give different explanations. The shared feature is not itself the
+finding; the reasoning differentiates the cases. Your analogous question is why similar
+spatial arrangements matter differently in communication, musical practice and social play.
+
+B. Keep youth contributions specific; do not manufacture empowerment.
+
+Mediating Culture (DIS 2024,4.3,pp 11-12) and AI Toys show adults, peers and research materials
+shaping the encounter. Your attention to adult origins is a strength. Keep the crucial
+origin and response within the episode, but move repeated general qualification into Methods
+and detailed audit information into an appendix. This should make the prose clearer while
+preserving provenance, not erase adult influence to make the contribution sound stronger.
+
+Describe the choice sought: selecting a listening position, moving sources, choosing a
+recording perspective, or limiting the effect. These are evidence-backed proposals.
+“Agency,” “ownership” and “empowerment” need an explicit meaning and evidence beyond the
+presence of a switch. No deployed system or demonstrated change in these constructs exists
+in this study. A youth-centered account can be valuable without claiming such outcomes.
+
+C. Let play, jokes and refusal remain substantive.
+
+Do not justify every idea by productivity, musical improvement or serious communication.
+The prank, seat claim, Wrapped and social-gimmick episodes show that spatial relationships
+can be material for play. At the same time, humorous premium features do not establish
+stable willingness to pay or a worked-out governance model. The contextual detail matters.
+The participants who already like their listening practices also contribute to what youth
+want; they should not be treated as failed adopters or merely counterweights to enthusiasm.
+
+D. Use the artifacts as evidence, not decoration.
+
+Selected visuals in AR Headsets, AI Toys and Teen AI are tied to claims. Your actual boards
+are still a placeholder in this file. Reading the original marks can help distinguish what
+was drawn, what was spoken, and what the authors infer. A gallery of six illegible thumbnails
+would offer less than three readable crops, linked to intact originals in the supplement.
+This is a substantive presentation gap, not a cosmetic one.
+
+E. Preserve the distinction between experienced, reported and imagined.
+
+Purrble (CHI 2022,sections 4-5,pp 9-17) separates deployment accounts from workshop suggestions;
+AI Toys separates enacted interaction from imagined futures. Your opening already makes
+this distinction. Maintain it locally where readers might infer an outcome: the call would
+not be shown to improve communication, the hoodie did not preserve memories in use, and the
+car features were not evaluated for safety. General wording belongs in Methods; local verbs
+such as proposed, expected, imagined and questioned often provide the needed precision.
+
+F. Do not confuse a compelling local case with a general youth preference.
+
+Some comparators offer longitudinal or larger deployed evidence. Their strength cannot be
+borrowed simply by imitating their heading or conceptual model. Your workshop supports a
+situated account of what these adolescents proposed and reasoned about. A one-team case
+may deserve space because it reveals a distinction, while broader claims need evidence
+across the relevant corpus. Frequency of features is not automatically analytical importance.
+
+G. Finish the credibility work before polishing the pitch.
+
+The draft still contains red VERIFY markers, uncertain speakers, an apparently malformed
+concert quote and an unverified sticky-to-participant assumption. Resolve these against
+the records or remove/narrow the dependent claims. Ensure the Methods explain the listening
+setup, demonstration, prompts, facilitation and analysis. The comparison papers do not
+remove this obligation, and a stronger story cannot compensate for unstable quotations.
+This report has not independently re-audited every source timestamp.
+
+4. A PRACTICAL REVISION TARGET
+
+Keep the overall movement from encountering the effect, to proposing uses, to qualifying
+its place. Make the three central empirical propositions clear early:
+
+1. Noticing a spatial difference did not necessarily change appreciation; the demonstration
+   was interpreted through visual cues, comparison and existing listening experiences.
+2. In their proposals, teens used spatial arrangements to shape attention, listening
+   perspective and social presence, with different purposes attached to similar choices.
+3. The value they anticipated depended on the activity, listener and conditions of use;
+   some qualified or declined the change altogether.
+
+These propositions are working interpretations to test against the full evidence, not
+new discoveries established by this literature comparison. The current data excerpts
+support parts more strongly than others. Do not imply each participant or design supports
+all three.
+
+Possible broad headings (optional wording, not a required framework):
+4.1 Hearing a Difference Did Not Necessarily Change Appreciation
+4.2 Shaping What Is Heard, From Where, and With Whom
+4.3 Qualifying Where Spatial Effects Belong
+
+Keep descriptive subheadings where they help navigation. Give “Making and keeping music”
+a specific opening about voice versus listening perspective; retain “Being somewhere, with
+someone” if the prose explains what being-with adds to immersion. Avoid another wholesale
+reorganization before these claims and evidence links are secure.
+
+The likely contribution is an account of the spatial choices adolescents proposed, the
+purposes they attached to those choices, and the conditions they raised around them.
+That is a credible direction for IDC. It is more specific than “teens want control” and
+more defensible than claiming that spatial audio has historically only been playback or
+that this workshop demonstrated empowerment. Establish the domain gap separately through
+spatial-audio literature; these CDY comparators cannot establish it for you.
+
+WHAT THIS CORPUS DOES AND DOES NOT ESTABLISH
+
+It establishes several viable published ways to organize evidence and interpretation.
+It does not establish a single IDC house style, the reviewers' reasons for accepting any
+paper, or an acceptance probability for this manuscript. Published examples themselves
+vary in analytical quality. Borrow the move that fits the evidence, not their authority.
+
+Priority reading: Purposeful Play for overview-plus-selected-artifact presentation;
+Instagram IDC 2024 for relationships across themes; Money IDC 2023 for summary analysis;
+AI Toys IDC 2026 for interaction sequences and imagined futures; Teen AI IJCCI 2026 for
+adolescent co-design and contextual valuation. AR Headsets CHI 2022 is the closest immersive
+technology comparator. Detailed notes cover all 18 papers.

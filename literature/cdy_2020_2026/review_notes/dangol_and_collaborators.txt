@@ -1,0 +1,101 @@
+# Aayushi Dangol empirical comparator review
+
+Reviewed 17 October 2026. These are primary empirical papers, not workshop proposals. Page locators below use the downloaded PDF page count unless a proceedings page is explicitly supplied. Full findings text was read; the artifact/caption pages were also rendered and inspected. This review treats substantive analytical work separately from whether headings sound like claims.
+
+## Source corrections and bibliography
+
+1. **Aayushi Dangol, Robert Wolfe, Daeun Yoo, Arya Thiruvillakkat, Ben Chickadel, and Julie A. Kientz. 2025. “If anybody finds out you are in BIG TROUBLE”: Understanding Children’s Hopes, Fears, and Evaluations of Generative AI.** In *Proceedings of the 24th Interaction Design and Children* (IDC ’25), Reykjavík, Iceland, June 23–26, 2025, 872–877. DOI: [10.1145/3713043.3731498](https://doi.org/10.1145/3713043.3731498). **Type: empirical work-in-progress poster/pilot paper, 6 pages, not a full research paper.** Coauthor [Robert Wolfe’s current CV](https://wolferobert3.github.io/assets/pdf/robert-wolfe-cv.pdf) explicitly identifies “ACM IDC 2025 - WIP Poster.” Correct public PDF: [arXiv author manuscript](https://arxiv.org/pdf/2505.16089). Local verified PDF: `pdf/2025_IDC_Dangol_Hopes_fears.pdf`; text: `txt/2025_IDC_Dangol_Hopes_fears.txt`. **Do not use Dangol’s website link `/assets/pdf/25_idc3.pdf`: its actual contents are the 30-page AI Puzzlers manuscript, despite its link appearing beside BIG TROUBLE.**
+
+2. **Aayushi Dangol, Meghna Gupta, Daeun Yoo, Robert Wolfe, Jason Yip, Franziska Roesner, and Julie A. Kientz. 2026. Toys that listen, talk, and play: Understanding Children’s Sensemaking and Interactions with AI Toys.** In *Proceedings of the 25th Interaction Design and Children Conference* (IDC ’26), Brighton, United Kingdom, June 22–25, 2026, 818–834. DOI: [10.1145/3773077.3806142](https://doi.org/10.1145/3773077.3806142). **Type: full empirical conference research paper, 17 pages.** Dangol and Gupta contributed equally. Best public PDF is the [coauthor-hosted final manuscript](https://bigyipper.com/wp-content/uploads/2026/05/idc26-aitoys.pdf), verified CC BY 4.0 with correct ACM metadata. Local `pdf/2026_IDC_Dangol_AI_toys.pdf`, `txt/2026_IDC_Dangol_AI_toys.txt`. Dangol’s [own PDF](https://adango26.github.io/assets/pdf/26_idc1.pdf) is the earlier 16-page arXiv v1 with an erroneous Conference’17 template footer. **All locators here use the final 17-page version.** Yip’s [publication list](https://bigyipper.com/articles-publications/) independently verifies both 2026 papers as refereed conference proceedings and links the correct DOIs.
+
+3. **Aayushi Dangol, Robert Wolfe, Nisha Devasia, Mitsuka Kiyohara, Jason Yip, and Julie A. Kientz. 2026. Where Does AI Leave a Footprint? Children’s Reasoning About AI’s Environmental Costs.** In *Proceedings of the 25th Interaction Design and Children Conference* (IDC ’26), Brighton, United Kingdom, June 22–25, 2026, 19–33. DOI: [10.1145/3773077.3806144](https://doi.org/10.1145/3773077.3806144). **Type: full empirical conference research paper, 15 pages.** Wolfe and Devasia contributed equally. [Author PDF](https://adango26.github.io/assets/pdf/26_idc2.pdf); [coauthor PDF](https://bigyipper.com/wp-content/uploads/2026/05/idc26-environment.pdf). Author PDF is correct and CC BY 4.0. Local `pdf/2026_IDC_Dangol_AI_footprint.pdf`, `txt/2026_IDC_Dangol_AI_footprint.txt`. Proceedings range verified against the [IDC2026 bibliography](https://dblp.org/db/conf/acmidc/idc2026.html).
+
+4. **Aayushi Dangol, Michele Newman, Robert Wolfe, Jin Ha Lee, Julie A. Kientz, Jason C. Yip, and Caroline Pitt. 2024. Mediating Culture: Cultivating Socio-cultural Understanding of AI in Children through Participatory Design.** In *Proceedings of the 2024 ACM Designing Interactive Systems Conference* (DIS ’24), Copenhagen, Denmark, July 1–5, 2024, 1805–1822. DOI: [10.1145/3643834.3661515](https://doi.org/10.1145/3643834.3661515). **Type: full empirical conference research paper, 18 pages.** Dangol and Newman contributed equally. [Author PDF](https://adango26.github.io/assets/pdf/24_dis.pdf); [NSF public-access copy](https://par.nsf.gov/servlets/purl/10573547). CC BY 4.0. Local `pdf/2024_DIS_Dangol_Mediating_culture.pdf`, `txt/2024_DIS_Dangol_Mediating_culture.txt`. The extracted text needed `errors='replace'` for invalid surrogate characters; ordinary section text is readable.
+
+## BIG TROUBLE: concise pilot comparator
+
+37 children aged 9–10; three classroom sessions. §4.1 “Hope for AI to Enrich Everyday Experiences” (pp.2–3), §4.2 “Fear of Losing Learning Opportunities and Impact on Future Success” (pp.3–4), §4.3 “Children’s Criteria for Evaluating Generative AI” (p.4). These are descriptive thematic headings. Analysis nevertheless orders imagined assistance by degree of involvement; interprets feared failure without AI as implicit trust in its accuracy; contrasts opposite judgments of the same output; and relates evaluation preferences to earlier concerns. The strongest cross-theme tension appears in §5: dependence concerns coexist with usability-focused criteria. Some paragraph endings merely recap examples, so this is useful precedent, not flawless analysis. Fig.3 (p.4) illustrates two child drawings; Fig.2 (p.3) shows researcher-created agents derived from Session 1 ideas. No tables, feature inventory, or claim matrix. Its main transferable lesson is to explain relations among observations and preserve disagreement without enlarging the scope beyond an exploratory pilot.
+
+## Toys: interaction sequences support analytical interpretations
+
+Eight children aged 6–11; two Cooperative Inquiry sessions in October 2025 combining free play, likes/dislikes/design ideas, and researcher-seeded comicboarding. §3.4 (pp.6–7) specifies video, artifacts, and toy conversation logs, analytic memos, open coding, counter-examples, and thematic refinement.
+
+Exact findings hierarchy:
+
+- §4.1 **Sense-making around the AI toys** (p.7): §4.1.1 **Profiling the toy’s social identity** (p.7); §4.1.2 **Probing the toy’s physical and embodied capabilities** (pp.7–8).
+- §4.2 **Children’s Interactions with AI Toys** (p.8): §4.2.1 **Why Communication Breakdowns Happen** (p.8); §4.2.2 **Children’s Repair Strategies** (pp.8–9).
+- §4.3 **Boundary Testing in Children’s Interactions with AI Toys** (p.9): §4.3.1 **Testing the toy’s intelligence** (p.9); §4.3.2 **Adversarial Play without Repercussions** (pp.9–10).
+- §4.4 **Envisioning Future Scenarios with AI Toys** (p.10): §4.4.1 **Repair through persistence, negotiation, and intervention** (p.10); §4.4.2 **When repair fails: betrayal and abandonment** (p.10).
+
+The main headings are mostly topics or processes. They do not all assert findings. Several lower-level headings foreground a relation or condition, especially 4.3.2 and 4.4.2. The paragraph-level work is stronger than the headline style suggests:
+
+- §4.1.1 interprets ordinary questions about names, birthdays, friends, and phone numbers as attempts to locate the toy in familiar social relationships. §4.1.2 reads tickling and attempted toy-to-toy exchanges as tests of embodied and coordinated responsiveness. It connects observed action to the expectation behind it.
+- §4.2.2 follows changing strategies within episodes: repeating requests, changing proximity and volume, physical attempts, direct commands, and eventual accommodation to the toy’s offerings. The Alexa comparison is analytically useful because the child accepts the prospect of Alexa inside a stuffed toy, which complicates an explanation based only on embodiment. Timing and responsiveness become more precise explanatory dimensions.
+- §4.3.1 distinguishes factual correctness from socially appropriate intelligence: a toy’s mathematical ability can feel incongruous with its soft form, while failures to recognize teasing expose another kind of limit. §4.3.2 interprets continued affirming replies as enabling escalation. That is an interpretation of observed sequences, not an experimentally established causal effect.
+- §4.4 uses different responses to the same scenario: some children pursue persistence, negotiation, or help; others imagine distancing or disposal. The paper explicitly separates imagined futures from enacted interactions. This is particularly valuable for a spatial-audio paper combining experience and co-design.
+
+**Artifacts and tables:** Table 1 (p.5) is demographics/prior AI use, the only table. Fig.2 (p.6) documents session activities, Fig.3 (p.6) the researcher-created comic prompts, Fig.4 (p.9) actual interactions, and Fig.5 (p.11) five participant comic sequences referred to individually in §4.4. Appendix A (pp.15–17) shows fuller comicboards. The designs function as situated evidence for how children imagine breakdown and repair, not as a catalogue whose rows independently constitute findings. Some images are documentary; others are evidential, and the prose does the interpretive work.
+
+**Applicable lesson:** retain activity context and action sequences when they explain how adolescents came to an expectation or design proposal. Compare alternatives and exceptions, rather than repeatedly paraphrasing isolated quotations. Do not import this paper’s social-relationship categories into spatial audio without supporting data.
+
+## Footprint: descriptive subheadings, strong contrasts between interpretations
+
+16 children aged 6–12; two sessions using EcoPrompt’s footprint calculator and farming simulation. The paper separates system rationale (§3), study (§4), findings (§5), and implications (§6.1). Systems thinking structures the design, while qualitative coding is described as inductive (§4.4, p.8). It distinguishes initial codes from higher-level themes.
+
+Exact findings hierarchy:
+
+- §5.1 **Children’s Evolving Understanding of Generative AI’s Resource Consumption** (p.8).
+- §5.1.1 **GenAI in Everyday Devices and Electricity Use** (pp.8–9).
+- §5.1.2 **Data Centers and Cooling** (p.9).
+- §5.1.3 **Prompt Complexity, Output Verbosity & Perceived Resource Use** (pp.9–10).
+- §5.2 **Children’s Reasoning About Value, Agency, and Responsibility in GenAI Use** (p.10).
+- §5.2.1 **Using Numeric Limits to Reason About Whether AI Use Was “Worth It”** (p.10).
+- §5.2.2 **Negotiating Agency and Responsibility Over AI’s Resource Use** (pp.10–11).
+
+§5.1 and 5.2 identify processes/domains; the lower-level headings range from plain topics (Data Centers and Cooling) to relations between actions and reasoning (Using Numeric Limits…). Analytical quality comes from the body:
+
+- §5.1.1 distinguishes children locating energy in physical devices from describing AI computation as information processing. This organizes apparently inconsistent statements around two explanatory levels.
+- §5.1.2 neither labels an evaporation explanation simply wrong nor treats it as full understanding. It identifies a correct mechanism, an overextended water-cycle inference, and attempts to reconcile new material with an existing explanation.
+- §5.1.3 contrasts two groups that both associate longer answers with greater costs but explain that association differently: avoidable verbosity versus the necessary demands of difficult questions. This is an excellent model of analysis beyond shared code occurrence.
+- §5.2.1 interprets judgments of waste in relation to the informational return of a prompt, not merely its resource cost. §5.2.2 distinguishes limited control over collective outcomes from children’s willingness to act locally, sometimes at a cost in convenience or output quality.
+
+**Artifacts and tables:** Table 1 (p.7) contains participant details; no design-space or recommendation table. Figs.1–7 (pp.4–6) explain the researcher-built interface and game. Fig.8 (p.8) documents the setting. Fig.9 (p.9), two children’s drawings with digitized original explanations, supplies evidence for device-centred models of energy use. The simulation creates opportunities to express tradeoffs; it is not evidence of real-world conservation behavior or durable learning.
+
+**Applicable lesson:** distinguish a shared surface preference from the different reasons supporting it. For immersive audio, two adolescents might request the same feature for different purposes; demonstrate that from their evidence rather than treating a feature count as the interpretation. Preserve partial understanding and uncertainty. Do not turn in-session reasoning into a claim of educational effectiveness.
+
+## Mediating Culture: a mixed heading system and explicit synthesis
+
+13 children aged 8–13 in five design sessions. The sessions span creative writing, storybooks, a word-cloud classifier, and pen-and-paper classification simulations. §3.5 (p.7) describes coding and memo analysis; the theoretical framing is cultural mediation/remediation.
+
+Exact findings hierarchy and locators:
+
+- §4.1 **Children’s Perspective of AI as a Cultural Tool** (p.7 / proceedings p.1811).
+- §4.1.1 **Using GenAI to Reinterpret Existing Cultural Content** (p.8 / 1812).
+- §4.1.2 **Comparison of GenAI Produced Artifacts to Personal Knowledge** (pp.8–9 / 1812–1813).
+- §4.1.3 **Summary Analysis** (p.9 / 1813).
+- §4.2 **Children Understand Data’s Role in AI-Mediated Culture** (p.9 / 1813).
+- §4.2.1 **Data Acts as a Limitation in AI-Mediated Representation** (p.9 / 1813).
+- §4.2.2 **Data as a Design Feature for Access to Culturally Mediated Representation** (p.10 / 1814).
+- §4.2.3 **Summary Analysis** (pp.10–11 / 1814–1815).
+- §4.3 **Role of Human Mediators in Supporting Understanding of AI as a Cultural Tool** (p.11 / 1815).
+- §4.3.1 **Peer Mediation** (p.11 / 1815); §4.3.2 **Adult-Child Mediation** (p.12 / 1816); §4.3.3 **Summary Analysis** (p.12 / 1816).
+
+§4.2 and 4.2.1 make explicit claims. Most other headings name topics, activities, or concepts. The presence of Summary Analysis subsections is distinctive but not a universal prescription. Their effectiveness differs: §4.1.3 largely gathers earlier examples; §4.3.3 makes a useful comparative distinction between peers introducing context and adults prompting reflection or questioning assumptions.
+
+The strongest analyses are inside episodes. §4.1.2 explains how personal knowledge of fictional characters, anime style, and language lets children notice mismatches and question AI representations; it does more than report liking/disliking. §4.2.2 explains how an experiment with tangible objects is constrained by the researchers’ preselected vocabulary. The writing makes the designed research apparatus part of the explanation instead of attributing every response to children or “AI” in general. §4.3 includes disagreements and mediator prompts that show how interpretations were jointly produced.
+
+**Artifacts and tables:** Table 1 (p.5/1809), demographics; Table 2 (p.5/1809), goals and activities across sessions; Table 3 (p.8/1812), codes, subcodes, and examples. **Table 3 is a coding transparency table, not a design recommendation table.** Fig.4 (p.10/1814), generated movie-inspired images; Fig.5 (p.10/1814), child-created classification rules; Figs.6–7 (p.11/1815), physical artifacts and their testing. These are tied to interpretive episodes. The paper does not lay out every proposed feature in a claim-evidence table.
+
+**Applicable lesson:** account for how prior cultural/technological experiences and peer/adult contributions shaped the proposals. A spatial-audio response elicited by a demo, prompt, or example should retain that elicitation context. A descriptive concept overview can orient readers, while the findings explain meaning, conditions, tensions, and contrasts across examples.
+
+## Transfer to the current exploratory adolescent spatial-audio findings
+
+The evidence does **not** support a rule that all headings must become assertive claims, that exploratory co-design must deliver a new theory, or that a claim/design table is necessary. All four studies use some descriptive headings; the more substantive writing supplies an interpretation beyond the raw utterance or artifact, then shows what in the evidence warrants it. The best reusable moves are:
+
+1. Start a subsection with the pattern being explained, preserving its scope. Show an episode or artifact, interpret its relevant feature, and compare another case or exception. Do not add generic interpretation sentences that merely restate a quote.
+2. Trace what an experience made salient and how that informed imagined use, while distinguishing experienced affordances from speculative benefits. Where the data show multiple routes, preserve them.
+3. Use concrete conditions and contrasts: when a quality becomes valuable, for whom, for what activity, and at what possible cost. Do not manufacture a tension when participants simply report compatible interests.
+4. Keep artifacts inspectable and connect them to evidence in the prose. A compact design overview is reasonable when readers need to understand what was made; it is an orientation device, not an automatic substitute for thematic findings or a demand imposed by these comparators.
+5. Use restrained language for exploratory observations. The studies provide situated accounts from modest groups, not estimates of adolescent preference prevalence, validated learning effects, or proof that imagined applications will work.
+
+Closest match by purpose: BIG TROUBLE for a compact exploratory account (with its WIP status stated); Toys for combining enacted experience with future scenarios; Footprint for distinguishing reasoning behind similar reactions; Mediating Culture for linking artifacts, prior knowledge, and mediation. None is a direct spatial-audio domain precedent, and most participants are younger than adolescents.

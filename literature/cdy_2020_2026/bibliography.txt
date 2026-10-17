@@ -1,0 +1,165 @@
+CDY-RELATED EMPIRICAL PAPER CORPUS, 2020-2026
+Collected 17 October 2026. See README.txt for selection and interpretation limits.
+
+1. “Otter this World”: Can a Mobile Application Promote Children’s Connectedness to Nature?
+Saba Kawas; Nicole S. Kuhn; Mina Tari; Alexis Hiniker; Katie Davis
+IDC 2020 | full research paper | 14 PDF pages
+https://doi.org/10.1145/3392063.3394434
+Source: https://katiedavisresearch.com/wp-content/uploads/2021/05/2020.IDC_.Kawas_.NatureCollections.3wek-study.pdf
+PDF: pdf/2020_IDC_Kawas_NatureCollections.pdf
+Text: txt/2020_IDC_Kawas_NatureCollections.txt
+
+
+2. When Screen Time Isn’t Screen Time: Tensions and Needs Between Tweens and Their Parents During Nature-Based Exploration
+Saba Kawas; Nicole S. Kuhn; Kyle Sorstokke; Emily E. Bascom; Alexis Hiniker; Katie Davis
+CHI 2021 | full research paper | 14 PDF pages
+https://doi.org/10.1145/3411764.3445142
+Source: https://katiedavisresearch.com/wp-content/uploads/2021/05/2021.CHI_.NatureCollections-when-screentime-isnt-screentime.pdf
+PDF: pdf/2021_CHI_Kawas_NatureCollections.pdf
+Text: txt/2021_CHI_Kawas_NatureCollections.txt
+
+
+3. Exploring Situated & Embodied Support for Youth’s Mental Health: Design Opportunities for Interactive Tangible Device
+Claudia Daudén Roquet; Nikki Theofanopoulou; Jaimie L. Freeman; Jessica Schleider; James J. Gross; Katie Davis; Ellen Townsend; Petr Slovak
+CHI 2022 | full research paper | 24 PDF pages
+https://doi.org/10.1145/3491102.3502135
+Source: https://katiedavisresearch.com/wp-content/uploads/2022/06/CHI-22-Purrble-Youth.pdf
+PDF: pdf/2022_CHI_Davis_Purrble.pdf
+Text: txt/2022_CHI_Davis_Purrble.txt
+Author manuscript uses title ending Devices (plural), indexed publication uses Device (singular). Locators refer to 24-page author copy.
+
+4. “It Would Be Cool to Get Stampeded by Dinosaurs”: Analyzing Children’s Conceptual Model of AR Headsets Through Co-Design
+Julia Woodward; Feben Alemu; Natalia E. López Adames; Lisa Anthony; Jason C. Yip; Jaime Ruiz
+CHI 2022 | full research paper | 13 PDF pages
+https://doi.org/10.1145/3491102.3501979
+Source: https://bigyipper.com/wp-content/uploads/2022/02/chi22-ARkids-final.pdf
+PDF: pdf/2022_CHI_Yip_AR_headsets.pdf
+Text: txt/2022_CHI_Yip_AR_headsets.txt
+
+
+5. “Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social robots
+Elisa Rubegni; Laura Malinverni; Jason C. Yip
+IDC 2022 | full research paper | 10 PDF pages
+https://doi.org/10.1145/3501712.3529726
+Source: https://bigyipper.com/wp-content/uploads/2022/06/Rubegni_etal_2022.pdf
+PDF: pdf/2022_IDC_Rubegni_Robots_walk_our_dogs.pdf
+Text: txt/2022_IDC_Rubegni_Robots_walk_our_dogs.txt
+
+
+6. Designing Together, Miles Apart: A Longitudinal Tabletop Telepresence Adventure in Online Co-Design with Children
+Casey Lee Hunt; Kaiwen Sun; Zahra Dhuliawala; Fumi Tsukiyama; Iva Matkovic; Anastasia Wolf; Zachary Schwemler; Zihao Zhang; Allison Druin; Amanda Huynh; Daniel Leithinger; Jason Yip
+IDC 2023 | full research paper | 16 PDF pages
+https://doi.org/10.1145/3585088.3589359
+Source: https://bigyipper.com/wp-content/uploads/2023/05/idc23-8_3.pdf
+PDF: pdf/2023_IDC_Hunt_Designing_together_miles_apart.pdf
+Text: txt/2023_IDC_Hunt_Designing_together_miles_apart.txt
+
+
+7. Supporting Teens’ Intentional Social Media Use Through Interaction Design
+Katie Davis; Petr Slovak; Rotem Landesman; Caroline Pitt; Abdullatif Ghajar; Jessica L. Schleider; Saba Kawas; Andrea Guadalupe Perez Portillo; Nicole S. Kuhn
+IDC 2023 | full research paper | 13 PDF pages
+https://doi.org/10.1145/3585088.3589387
+Source: https://katiedavisresearch.com/wp-content/uploads/2023/08/2023.IDC_.Locus_.davis-et-al.pdf
+PDF: pdf/2023_IDC_Davis_Locus.pdf
+Text: txt/2023_IDC_Davis_Locus.txt
+
+
+8. “Money shouldn’t be money!”: An Examination of Financial Literacy and Technology for Children Through Co-Design
+Jason C. Yip; Frannie Ello; Fumi Tsukiyama; Atharv Wairagade; June Ahn
+IDC 2023 | full research paper | 12 PDF pages
+https://doi.org/10.1145/3585088.3589355
+Source: https://bigyipper.com/wp-content/uploads/2023/04/idc23-4.pdf
+PDF: pdf/2023_IDC_Yip_Money_shouldnt_be_money.pdf
+Text: txt/2023_IDC_Yip_Money_shouldnt_be_money.txt
+
+
+9. Mediating Culture: Cultivating Socio-cultural Understanding of AI in Children through Participatory Design
+Aayushi Dangol; Michele Newman; Robert Wolfe; Jin Ha Lee; Julie A. Kientz; Jason C. Yip; Caroline Pitt
+DIS 2024 | full research paper | 18 PDF pages
+https://doi.org/10.1145/3643834.3661515
+Source: https://adango26.github.io/assets/pdf/24_dis.pdf
+PDF: pdf/2024_DIS_Dangol_Mediating_culture.pdf
+Text: txt/2024_DIS_Dangol_Mediating_culture.txt
+
+
+10. Making a Metaphor Sandwich: Analyzing Children’s use of Metaphor During Tabletop Telepresence Robot Supported Participatory Design
+Casey Lee Hunt; Kaiwen Sun; Kaitlyn Tseng; Priyanka Balasubramaniyam; Allison Druin; Amanda Huynh; Daniel Leithinger; Jason Yip
+IDC 2024 | empirical pictorial | 16 PDF pages
+https://doi.org/10.1145/3628516.3656272
+Source: https://bigyipper.com/wp-content/uploads/2024/04/idc24a-sub6959-cam-i16.pdf
+PDF: pdf/2024_IDC_Yip_Metaphor_sandwich.pdf
+Text: txt/2024_IDC_Yip_Metaphor_sandwich.txt
+
+
+11. “I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+Rotem Landesman; Jina Yoon; JaeWon Kim; Daniela E. Muñoz Lopez; Lucía Magis-Weinberg; Alexis Hiniker; Katie Davis
+IDC 2024 | full research paper | 16 PDF pages
+https://doi.org/10.1145/3628516.3655812
+Source: https://katiedavisresearch.com/wp-content/uploads/2024/07/2024.IDC_.teens-instagram.pdf
+PDF: pdf/2024_IDC_Landesman_Instagram.pdf
+Text: txt/2024_IDC_Landesman_Instagram.txt
+
+
+12. “Why is Everything in the Cloud?”: Co-Designing Visual Cues Representing Data Processes with Children
+Kaiwen Sun; Ritesh Kanchi; Frances Marie Tabio Ello; Li-Neishin Co; Mandy Wu; Susan A. Gelman; Jenny Radesky; Florian Schaub; Jason Yip
+IDC 2024 | full research paper | 16 PDF pages
+https://doi.org/10.1145/3628516.3655819
+Source: https://bigyipper.com/wp-content/uploads/2024/04/idc24f-sub1205-cam-i16.pdf
+PDF: pdf/2024_IDC_Yip_Cloud.pdf
+Text: txt/2024_IDC_Yip_Cloud.txt
+
+
+13. Purposeful Play: Evaluation and Co-Design of Casual Music Creation Applications with Children
+Michele Newman; Lidia Morris; Jun Kato; Masataka Goto; Jason Yip; Jin Ha Lee
+ISMIR 2024 | full research paper | 11 PDF pages
+https://doi.org/10.5281/zenodo.14877391
+Source: https://bigyipper.com/wp-content/uploads/2024/09/Newman_ISMIR24_CR.pdf
+PDF: pdf/2024_ISMIR_Newman_Purposeful_play.pdf
+Text: txt/2024_ISMIR_Newman_Purposeful_play.txt
+DOI identifies ISMIR paper deposit on Zenodo; author list/title/venue cross-checked with official ISMIR 2024 accepted paper list.
+
+14. “You Go Through So Many Emotions Scrolling Through Instagram”: How Teens Use Instagram To Regulate Their Emotions
+Katie Davis; Rotem Landesman; Jina Yoon; JaeWon Kim; Daniela E. Munoz Lopez; Lucia Magis-Weinberg; Alexis Hiniker
+CHI 2025 | full research paper | 16 PDF pages
+https://doi.org/10.1145/3706598.3713844
+Source: https://katiedavisresearch.com/wp-content/uploads/2026/02/2025.CHI_.davis_.ER-on-IG.pdf
+PDF: pdf/2025_CHI_Davis_Emotion_regulation_Instagram.pdf
+Text: txt/2025_CHI_Davis_Emotion_regulation_Instagram.txt
+
+
+15. “If anybody finds out you are in BIG TROUBLE”: Understanding Children’s Hopes, Fears, and Evaluations of Generative AI
+Aayushi Dangol; Robert Wolfe; Daeun Yoo; Arya Thiruvillakkat; Ben Chickadel; Julie A. Kientz
+IDC 2025 | empirical work-in-progress poster paper | 6 PDF pages
+https://doi.org/10.1145/3713043.3731498
+Source: https://arxiv.org/pdf/2505.16089
+PDF: pdf/2025_IDC_Dangol_Hopes_fears.pdf
+Text: txt/2025_IDC_Dangol_Hopes_fears.txt
+
+
+16. Toys that listen, talk, and play: Understanding Children’s Sensemaking and Interactions with AI Toys
+Aayushi Dangol; Meghna Gupta; Daeun Yoo; Robert Wolfe; Jason Yip; Franziska Roesner; Julie A. Kientz
+IDC 2026 | full research paper | 17 PDF pages
+https://doi.org/10.1145/3773077.3806142
+Source: https://bigyipper.com/wp-content/uploads/2026/05/idc26-aitoys.pdf
+PDF: pdf/2026_IDC_Dangol_AI_toys.pdf
+Text: txt/2026_IDC_Dangol_AI_toys.txt
+
+
+17. Where Does AI Leave a Footprint? Children’s Reasoning About AI’s Environmental Costs
+Aayushi Dangol; Robert Wolfe; Nisha Devasia; Mitsuka Kiyohara; Jason Yip; Julie A. Kientz
+IDC 2026 | full research paper | 15 PDF pages
+https://doi.org/10.1145/3773077.3806144
+Source: https://adango26.github.io/assets/pdf/26_idc2.pdf
+PDF: pdf/2026_IDC_Dangol_AI_footprint.pdf
+Text: txt/2026_IDC_Dangol_AI_footprint.txt
+
+
+18. “When AI generates ideas for you, that kind of defeats the purpose”: An exploration of teens’ uses and concerns about AI
+Rotem Landesman; Larissa Schwartz; Katie Davis
+IJCCI 2026 | journal research paper | 16 PDF pages
+https://doi.org/10.1016/j.ijcci.2026.100815
+Source: https://katiedavisresearch.com/wp-content/uploads/2026/04/2026.IJCCI_.Teen_AI_uses_and_concerns.pdf
+PDF: pdf/2026_IJCCI_Landesman_Teen_AI.pdf
+Text: txt/2026_IJCCI_Landesman_Teen_AI.txt
+
+

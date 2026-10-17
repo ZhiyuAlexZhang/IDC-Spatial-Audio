@@ -1,0 +1,1770 @@
+SOURCE PDF: ../pdf/2024_IDC_Landesman_Instagram.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2024/07/2024.IDC_.teens-instagram.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’
+Moment-By-Moment Experiences on Instagram
+Rotem Landesman
+
+Jina Yoon
+
+University of Washington
+Seattle, WA, USA
+roteml@uw.edu
+
+University of Washington
+Seattle, WA, USA
+jyoon963@uw.edu
+
+Daniela E. Muñoz Lopez
+
+Lucía Magis-Weinberg
+
+University of Washington
+Seattle, WA, USA
+dannyml@uw.edu
+
+University of Washington
+Seattle, WA, USA
+luciamw@uw.edu
+
+JaeWon Kim
+
+University of Washington
+Seattle, WA, USA
+jaewonk@uw.edu
+
+Alexis Hiniker
+
+University of Washington
+Seattle, WA, USA
+alexisr@uw.edu
+
+Katie Davis
+
+University of Washington
+Seattle, WA, USA
+kdavis78@uw.edu
+
+ABSTRACT
+Prior research links teens’ social media use to a reduction in their
+sense of well-being. The current study investigates how design mediates this link, with an overarching goal of designing better social
+media experiences for teens. We conducted a mixed-method study
+with teens (N=25, Mage = 16.5 years) to investigate their moment-bymoment experiences and emotional states while using Instagram.
+Our analysis showed that teens’ experiences on Instagram often
+entailed sifting through a content soup dominated by uninteresting,
+irrelevant content. Boredom served as a reason to enter Instagram,
+a justification to leave, and as a dominant feeling during a session.
+The promise of social connection was the main motivator for teens
+to use Instagram. Teens developed strategies to maintain a state
+of emotional equilibrium as they sought moments of connection
+with friends: (1) Feed gatekeeping, (2) Backpedaling away from
+negative content, (3) Choosing to hide like-counts, and (4) Avoiding
+notification whiplash.
+
+CCS CONCEPTS
+• Human-centered computing → Empirical studies in HCI.
+
+KEYWORDS
+Digital Well-Being, Adolescents, Social media, Design For WellBeing
+ACM Reference Format:
+Rotem Landesman, Jina Yoon, JaeWon Kim, Daniela E. Muñoz Lopez, Lucía
+Magis-Weinberg, Alexis Hiniker, and Katie Davis. 2024. “I Just Don’t Care
+Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on
+
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+© 2024 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0442-0/24/06
+https://doi.org/10.1145/3628516.3655812
+
+Instagram. In Interaction Design and Children (IDC ’24), June 17–20, 2024,
+Delft, Netherlands. ACM, New York, NY, USA, 16 pages. https://doi.org/10.
+1145/3628516.3655812
+
+1
+
+INTRODUCTION
+
+There is mounting public concern about social media’s impact on
+teen mental health [4, 8, 30, 88]. Studies have found that teens’
+social media use is associated with depressive symptoms, anxiety,
+and psychological distress [41, 61]. Other studies, however, have
+explored positive dimensions of teens’ experiences on social media
+platforms and identified developmental benefits such as social connection and identity formation [22, 32, 58]. Amidst this conflicting
+evidence, there is a growing recognition among researchers that
+aggregate-level data and blunt measures such as screen time are unlikely to provide the kind of nuanced insight needed to understand
+the complexities of teens’ social media interactions [32, 45, 75]. In
+response, many researchers have turned to person-specific study
+designs that capture individual variation over time and measures
+that go beyond quantifying time on platform and look instead at
+the quality of teens’ experiences [39, 67, 69, 83, 89].
+The HCI field has an important role to play in understanding and
+addressing social media’s complex relationship to teens’ well-being.
+HCI is uniquely positioned to contribute insight into how design
+mediates this relationship, as well as design-based interventions
+that can support teens’ sense of agency while interacting with social
+media. This area of focus fits well with the field’s growing interest
+in designing for well-being [14, 49, 52, 65, 74]. However, teens are
+a distinct population with specific developmental vulnerabilities,
+such as a still-developing executive function system and increased
+sensitivity to social feedback [77, 78, 87]. Prior work in HCI has
+explored using design mechanisms to support these developmental vulnerabilities by helping reorient teens from a reactive to an
+intentional engagement with social media [25]. However, we still
+lack an understanding of teens’ moment-by-moment interactions
+with the designed environment of social media platforms and how
+these interactions affect their emotional states.
+
+===== PDF PAGE 2 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+The current investigation addresses this gap by exploring the
+following research questions: RQ1: How do teens describe their
+moment–by-moment interactions and emotional states on Instagram?
+RQ2: What real-time strategies do teens use to manage their emotions
+when navigating Instagram?
+We conducted a mixed-method study exploring the momentby-moment experiences of 25 U.S. teens (Mage =16.5 years) as they
+used Instagram. We chose Instagram because it is one of the most
+popular social media platforms among teens [7] and has elicited
+both public and scholarly attention regarding its impact on teen
+mental health research [28, 42, 43]. In the first part of the study,
+teens participated in a virtual training session that introduced them
+to mindfulness practices and emotion labeling techniques. This
+training prepared them to attend to their interactions on Instagram
+and the emotions these interactions elicited. In the second phase,
+participants responded to daily ecological momentary assessments
+(EMAs) as they used Instagram on at least seven different days. The
+final stage was a virtual think-aloud interview in which a researcher
+asked teens to narrate their actions, thoughts, and emotions as they
+interacted with specific Instagram features (e.g., Stories, Reels, posts,
+direct messages, etc.).
+We found that teens spent much of their time on Instagram
+sifting through irrelevant, uninteresting content, which we called
+content soup. This dominant experience formed part of a typical
+interaction flow characterized by a pattern of boredom in, boredom
+out. Teens opened Instagram to relieve their boredom but ended up
+getting lost in the content soup. This often led to more boredom, and
+teens would end their Instagram sessions as a result. The promise
+of social connection through the exchange of cultural artifacts (e.g.,
+memes, interesting posts) kept teens on the platform despite the
+chore of wading through the content soup.
+We identified four primary strategies that teens use to help them
+maintain a state of equanimity on the platform. These strategies
+included: (1) feed gatekeeping, (2) backpedaling away from negative
+content, (3) hiding like-counts, and (4) disabling push notifications.
+We describe two dimensions along which these strategies can be
+understood: (1) in-the-moment vs. settings-level and (2) thoughtful
+vs. reflexive. We explore how teens demonstrated varying levels
+of awareness of the designed environment depending on which
+combination of dimensions their strategies engaged. Using the
+insights from our empirical investigation, we propose a set of design
+opportunities for empowering teens on Instagram.
+The empirical findings, conceptual insights, and design opportunities contributed by this work add to our understanding of teens’
+real-time experiences on Instagram and how design mediates the
+relationship between teens’ moment-by-moment platform interactions and emotional states. Our work identifies a path forward
+for future HCI research that aims to support teen well-being in the
+context of social media use.
+
+2 BACKGROUND
+2.1 The Relationship Between Social Media
+Usage and Teen Mental Health
+Recent review articles indicate significant interest in the relationship between teens’ social media usage and mental health outcomes [16, 35, 38, 39, 41, 57, 62, 75, 84]. Aggregate-level studies
+
+Landesman et al.
+
+have produced mixed results; some are negative [11, 82], others are
+positive [23], and still others suggest little to no effect [19, 39, 63].
+These conflicting findings are partly attributable to variation in how
+researchers measure social media use and mental health outcomes
+[41, 75, 84]. Additionally, adolescents bring different motivations,
+skills, and vulnerabilities to their social media use that can produce
+a range of experiences [24]. Researchers have also found considerable variation across demographic groups such as gender, sexuality,
+and race [10, 18, 53, 61]. Theoretical frameworks such as the differential susceptibility to media effects model [85] and neo-ecological
+theory [56] illustrate the person- and context-specific quality of
+teens’ social media experiences by describing how individual dispositions, developmental level (i.e., the specific characteristics and
+vulnerabilities of adolescence as a developmental period), socialcontextual factors, and cultural or societal norms shape adolescents’
+experiences on social media.
+In light of this recognition, there has been a shift away from
+studying aggregate-level trends towards person-specific analyses
+that capture individual variation [39, 67, 83, 89]. Using methods
+such as experience sampling through ecological momentary assessments (EMA) has allowed researchers to identify more nuanced
+fluctuations between teens’ emotional states and social media usage
+on a variety of outcomes such as self-esteem, friendship closeness,
+and distraction [54, 69, 76, 83]. Research has also moved away from
+using screen time as a dominant metric of usage [19, 39, 63] to measuring the quality of teens’ social media experiences [16, 58, 59].
+Pitt et al. [67] found that teens’ self-reported satisfaction with their
+social media experiences predicted greater subjective well-being,
+whereas time on social media did not. Other research has similarly
+identified differential relationships to well-being depending on how
+teens engage with social media [68].
+Thanks to this diversity of approaches, researchers now have a
+stronger understanding of the nuances associated with adolescents’
+social media experiences [16, 41] and recognize the need for more
+contextual, focused methods [38, 57, 62, 75, 84, 86]. For example,
+researchers are exploring ways to achieve a more granular view
+of teens’ social media interactions in real-time using log data [71]
+and screen capture methods [73]. Although these methods provide
+highly detailed views of teens’ social media patterns, they cannot
+provide insight into teens’ emotional states as they interact with
+specific content and features. Moreover, given the tendency of
+social media apps to steer the user’s awareness away from their
+ongoing emotional experience[25, 47] , prior findings regarding
+teens’ experiences tend to surface the more extreme cases of social
+media’s impact (like cyber bullying [31] or exposure to hate speech
+[18]) rather than the everyday emotional states that interacting
+with social media causes. Our work contributes to this literature
+by studying teens’ emotional states at an individual, moment-bymoment level and with greater detail in relation to specific features
+on Instagram.
+
+2.2
+
+The Role of Design in Teens’ Social Media
+Experiences
+
+There is a growing body of work in HCI that examines how technology design can influence personal well-being [9, 14, 48, 49, 52,
+65, 74, 75, 81]. Researchers have explored the manipulative effects
+
+===== PDF PAGE 3 =====
+
+of dark patterns [55], cycles of compulsive phone use [81], and the
+phenomenon of dissociative scrolling (i.e., normative dissociative
+states characterized by diminished self-awareness and a reduced
+sense of agency) [9]. Recent studies from psychology confirm that
+factors such as mindfulness, self-regulation, and non-judgmental
+awareness are associated with better control over problematic social
+media usage [26, 44, 64]. To that end, HCI researchers have begun to
+explore opportunities to use design mechanisms to empower users
+and enhance their sense of agency (e.g., [96, 97]). Although much
+of this work focuses on adults, a growing number of studies involve
+younger populations, including adolescents (e.g., [21, 25, 67, 93]).
+During adolescence, teens experience significant changes in their
+social structures and contexts, such as their relationships with parents and friends. They also develop executive function skills like
+self-regulation and become more sensitive to social stimuli and
+feedback [77]. These factors shape adolescents’ experiences with
+social media in distinct ways [24, 90]. Nesi et al. detailed how certain features on social media (e.g., notifications, likes, infinite scroll)
+give rise to affordances that uniquely affect adolescents’ peer experiences such as asynchronicity, publicness, visualness, availability,
+permanence, cue absence, and quantifiability [58, 59]. Examples include the potential for frequent, immediate social support; increased
+expectations for relationship maintenance and accessibility; and
+peer victimization that can occur at any time or place.
+Research indicates that many teens are aware of how the features
+and affordances of social media platforms shape their experiences in
+particular ways. In one study, teens reflected that the high frequency
+of daily notifications they receive from social media platforms
+(Median = 237 notifications per day) can be disruptive and stressful
+depending on the type of notification [71]). Teens in other studies
+have reflected on the stress of monitoring metrics such as views,
+likes, and comments; the feeling of missing out (FOMO) when they
+see on social media that their friends have gathered without them;
+and the anxiety associated with the unpredictability of the content
+in their feeds [60, 90]. These studies offer valuable insight into teens’
+relationship to the designed environment of social media platforms.
+However, their reliance on teens’ retrospective accounts of their
+social media experiences through interviews and surveys limits
+the insight that can be gained about teens’ real-time experiences
+and emotional reactions as they engage with specific features. Our
+study addresses this limitation by eliciting teens’ responses while
+they are using social media.
+We focus our study on Instagram because of the platform’s popularity among teens, the variety of features it offers [51], its prevalence in teen mental health research [28, 42, 43], and its role as “an
+icon and avatar for understanding and mapping visual social media
+cultures" [46]. 68% of U.S. teens ages 15 to 17 and 45% of teens ages
+13 and 14 reported using Instagram in 2023 [7]. The platform offers
+an all-in-one place for features from almost all major social platforms including direct messaging, posts, profiles, Stories (similar to
+Snapchat), and Reels (similar to TikTok).
+The present study examines real-time actions that teens take
+to modify their digital environments. By doing so, we seek to promote more agentic and self-directed social media design, which
+is key for healthy youth development [24]. Increased autonomy
+may also increase teens’ awareness of the designed—and sometimes
+manipulative—environments of social media platforms that tend to
+
+undermine user agency [47]. This echoes recent calls for computing professionals to “accept responsibility for computing’s current
+state” [88] and reconsider what it means for digital well-being tools
+to be truly positive [92].
+
+2.3
+
+Strategies for Managing and Supporting
+Teens’ Social Media Experiences
+
+Studies have identified a variety of strategies that teens employ to
+manage their social media experiences, such as disabling (select)
+notifications; putting their phone on do not disturb during certain
+periods of the day; managing multiple accounts for different audiences; providing varying degrees of access within a single account;
+employing privacy controls; and curating their feed based on who
+they follow and the content they like [24, 37, 60, 71, 90, 98]. These
+strategies can be stressful, anxiety-provoking, and sometimes unsuccessful for teens [90]. We know from these studies that such
+work can be stressful and anxiety-provoking for teens, and they do
+not always feel successful in their efforts. Because prior research
+relies primarily on retrospective accounts, we know less about how
+teens draw on their social media strategies in real-time, and with
+what effects on their emotional state. This poses a challenge since
+emotional memory recall is biased by frequency and intensity [79].
+Past studies have also found that prompting participants on different levels of temporal granularity (i.e., daily, weekly, monthly)
+can produce widely varying responses [13]. We seek to address
+this shortcoming by leveraging think-aloud interviews in which
+teens articulate their thoughts and emotions as they interact with
+Instagram in real-time.
+There is an opportunity within the HCI community to leverage
+interaction design to support teens’ well-being in social media environments. For instance, recent work has explored using design
+mechanisms in the context of social media to support self-regulation
+skills that tend to be especially challenging for adolescents, such
+as reflection, self-monitoring, and goal-setting [25]. Davis et al.
+designed Locus, a mobile app intervention that promotes teens’
+intentional social media use by prompting them to engage selfregulation strategies before they enter a social media session [25].
+Other efforts to leverage design for teen well-being have focused
+on cyberbullying [29], online safety [6, 66], and sexual and reproductive health [72].
+To advance this work, we need a better understanding of how
+design mediates the relationship between well-being and mental
+health as teens interact in real-time with social media. Specifically,
+we need a better understanding of teens’ moment-by-moment interactions with their designed environments; how these interactions
+affect teens’ emotional states; and what strategies they employ in
+real-time to manage their emotional responses. Such insights will
+increase our ability to detect when teens are being supported or
+harmed on social media platforms as well as strengthen our ability
+to design solutions to promote teen well-being in the context of
+their social media use.
+
+3
+
+METHODS
+
+We conducted a mixed-method study that involved (1) introductory Zoom sessions to establish non-judgmental self-awareness
+techniques, (2) a diary study using a mobile app, and (3) individual
+
+===== PDF PAGE 4 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+Landesman et al.
+
+Figure 1: The overall study procedure.
+think-aloud interviews. We approached our study design with the
+intent of capturing teens’ in-the-moment emotional experiences
+as they used Instagram on a daily basis. To that end, we utilized
+self-awareness techniques to better equip participants to articulate
+their emotions as they interacted with Instagram. We designed the
+diary study app to capture these moment-by-moment experiences
+and emotional states. The study flow is illustrated in Figure 1.
+
+3.1
+
+Procedure and Data Collection
+
+3.1.1 Session 1 Interview. We began with an introduction to nonjudgmental self-awareness, using videos and short meditations to
+help participants practice noticing their emotions without judgment.
+The next phase introduced emotion labeling, where participants
+were introduced to the Mood Meter, a tool designed to help with
+eliciting and identifying their emotions [15, 34]. We then asked
+participants to use Instagram and observe their emotional reactions while using the platform by employing the techniques of
+self-awareness and emotion labeling learned earlier. The session
+concluded with participants summarizing their observations and
+sharing their insights on individual, private digital whiteboards.
+Finally, we instructed teens how to download and install AppMinder, the Android app we developed and used for the diary study
+procedure.
+3.1.2 Diary Study using AppMinder. AppMinder was designed and
+implemented by our research team to help participants practice the
+concepts they learned in Session 1 as they engaged with Instagram
+throughout the week. The app captured ecological momentary assessment (EMA) data, allowing us to gather in-the-moment, real-life
+data as participants used their phones. AppMinder leveraged app
+usage tracking data to detect when a user starts using Instagram.
+Five minutes into the Instagram session, AppMinder sends a notification that prompts users to fill out a short survey. Participants
+received no more than one survey notification every three hours
+and no more than five survey notifications within a single day. The
+survey asked users to identify their emotions from a list identical to
+the one on the Mood Meter. It also inquired about their activity on
+Instagram at the time, the reasons behind their emotions, and the
+extent to which their social media activity impacted their feelings.
+Participants were instructed to use AppMinder for approximately
+one week until their Session 2 interview and were required to submit a minimum of one response a day on seven unique days, though
+many submitted multiple each day. Participants submitted a mean
+of 16.4 responses (sd=8.0, min=7.0, max=42) between Session 1 and
+2 interviews. A screenshot of the app can be found in Figure 2.
+
+(a) EMA survey shown in
+AppMinder.
+
+(b) EMA survey shown in
+AppMinder (cont.)
+
+Figure 2: Screenshots of AppMinder.
+3.1.3 Session 2 Interview. The Session 2 interview was an extension
+of stimulated recall [33] and contextual inquiry interview [36]. The
+primary objective of the interview was to delve into participants’
+responses from the diary study in greater detail and engage them
+in synchronous reflection of their emotions as they used Instagram
+during the interview. The session was divided into four main parts:
+(1) an initial discussion based on previous AppMinder responses,
+(2) a mindfulness exercise to enhance self-awareness, (3) a practical
+exercise involving Instagram usage, and (4) a detailed exploration
+of specific Instagram features and user experiences. The Session 2
+interviews were also conducted over Zoom by the second author
+and a team of trained research assistants.
+In part (1), we ask participants about their most salient AppMinder responses from the week of the diary study. The interviewers
+reviewed the diary study data before the interviews and selected
+responses where participants indicated their emotions were highly
+affected by their social media activity (i.e., rated a 4 or 5 out of 5 in
+response to “How much did your activity impact your emotions?”)
+and were substantive enough for deeper exploration during the Session 2 interviews. This was followed by a mindfulness practice in
+part (2) that included a Mood Meter reintroduction and a grounding
+technique to prepare participants for the more introspective parts
+of the interview. Part (3) was a freestyle session where participants
+were asked to use Instagram as they typically would while verbalizing their thoughts and emotions. The fourth and final stage, the
+35-minute “Guided Tour,” involved guiding participants to specific
+Instagram features in detail, such as opening Reels, saving posts,
+and revisiting them, as well as stopping scrolling. We asked participants to reflect on their emotions and experiences during these
+interactions. For example, we asked them to label their emotions
+as they scrolled through their own profiles or to explain potential
+
+===== PDF PAGE 5 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+reasons why they might not engage much with an existing feature.
+The interview protocol is available in Appendix 10.
+
+3.2
+
+Participants and Recruitment
+
+We employed snowball sampling to recruit participants. We posted
+details about our study on social media sites, including Instagram
+and Snapchat. To be eligible, participants were required to be between the ages of 13-17, possess an Android device for daily use,
+reside in the United States, and self-report using Instagram daily for
+more than 30 minutes. This particular age group was chosen based
+on previous research indicating that they are especially susceptible
+to the effects of increased social media use, which is often linked
+to a decreased sense of well-being [41, 61, 88]. Although research
+indicates that a majority of teens in the United States use iPhones
+[2], our diary study app (i.e., AppMinder) required external app
+usage tracking, which was not feasible on iOS devices. In total, we
+recruited 45 Instagram users, 25 of whom completed all procedures
+of the study (see demographics Table 1).
+Table 1: Demographics of Participants (N=25)
+Gender identity
+
+Age (Years)
+Race and Ethnicity
+
+Self-reported Time Spent on
+Instagram Per Day (Minutes)
+
+3.3
+
+Boys (40%), Girls (36%), Nonbinary or third gender (16%),
+Other (Prefer to self-describe /
+Prefer not to disclose) (8%)
+Mean=16.5, SD=0.59; 17 (52%),
+16 (44%), 15 (4%)
+Asian (28%), White (28%), Black
+or African American (20%),
+Black or African American &
+White (8%), Black or African
+American & Hispanic or Latine/Latinx (8%) & Hispanic or
+Latine/Latinx, White & Other
+(4%)
+Mean=131.8, SD=103.7, Min=0,
+Q1=61,
+Q2=122,
+Q3=244,
+Max=305
+
+Data Analysis
+
+We conducted a reflexive thematic analysis [12] of the 25 interview
+transcripts of Session 2 interviews, which were transcribed verbatim
+from the interview data. We focused on Session 2 interviews during
+our data analysis stage, given that the primary goal of Session 1 was
+to introduce teen participants to non-judgmental self-awareness
+and emotion-labeling techniques, laying the groundwork for the
+rest of the study. The process began with six phases of open coding
+over 10 weeks. All of the authors performed line-by-line coding
+of two transcripts in each phase using ATLAS.ti [5]. Examples of
+codes identified during this phase include “value beyond immediate
+session” and “feeling pulled to continue using IG.”
+Following this initial open coding phase, the first author synthesized the codes from all authors and created an initial codebook
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+with codes such as “Intentionality” and “Connectedness.” All authors then iteratively coded transcripts using this codebook, refined
+the codes, discussed any disagreements, and adjusted the codebook
+as necessary to produce the final codebook with 19 codes. The first
+author took the lead in coding all transcripts. Trained research assistants then conducted a second pass on these transcripts to ensure
+a comprehensive and nuanced analysis of the data. This process ensured that at least two members of the research team reviewed each
+transcript. Once all transcripts were coded, the authors who had
+coded the same transcripts met to discuss and resolve any coding
+disagreements. Concurrently, the co-authors met weekly to review
+the ongoing coding process and discuss the evolution of definitions,
+emergent codes, and specific applications of the codebook.
+
+4 RESULTS
+4.1 RQ1: How do teens describe their
+moment–by-moment interactions and
+emotional states on Instagram?
+Teens’ time on Instagram was dominated by scrolling through
+uninteresting and irrelevant content. They tried to avoid content
+that triggered negative emotions while searching for meaningful
+content to share with friends and make the experience more positive
+overall. Teens turned to Instagram when they were bored, described
+feeling bored while scrolling through the app, and cited boredom
+as one of the main reasons they left the platform. Most of the time
+teens spent on Instagram was characterized by a mild emotional
+state with little fluctuation.
+4.1.1 Wading Through Content Soup.
+Teens described using Instagram as a series of interactions with
+unimportant, uninteresting, and personally irrelevant content and
+features. Participants expressed dissatisfaction with the bulk of
+what they were seeing on Instagram, describing it as “just a lot of
+random stuff” (P089, girl, age 16), and “. . . a whole lot of just uninteresting” (P188, boy, age 16). P188 elaborated that the content he saw
+“tries to portray itself as interesting enough to where you watch it. It’s
+really annoying—that’s why I call it fluff. Because I get distracted
+watching it.” Sifting through a large amount of meaningless and uninteresting content, a process that we refer to as wading through
+content soup, was the overarching experience of our participants.
+Participants consistently scrolled past content that they were
+“not really interested in” (P055, boy, age 17), and described an overarching experience of dissatisfaction as representative of their experience on Instagram. Teens often opened the app in search of
+content or interactions that would make them feel good, but instead felt dissatisfied, bored, and apathetic. During the think-aloud
+interview, we saw participants switch between Stories, Reels, posts,
+and messages to find an appealing piece of content. In P099’s (boy,
+age 17) description of his scrolling experience, for example, he expressed disappointment with the Instagram experience because of
+the irrelevant content he encountered:
+“I sort of notice a whole lot of things [I don’t care about]. . . say
+some celebrity I’ve never heard of, or like something I have no
+knowledge about just show up on my feed, and I just scroll past it
+like always ... .Scrolling through some people and stuff going past.
+More ads, more birthday stuff. . . .Back to school stuff ....I’m going
+
+===== PDF PAGE 6 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+to skip past that stuff. . . .Scrolling past some stuff that I don’t really
+care about [in the] Stories. Now, we’re just gonna randomly. . . .
+I don’t really know. Let’s go to Reels, because nothing is on my
+feed.”
+Similarly, P142 (girl, age 17) and P079 (non-binary, age 15) described
+how they scrolled without interest, alluding to the mediocrity of
+the content they encountered, which often made them “scroll past
+it. . . . [since] I don’t really care about some of the stuff I look through”
+(P142) and “quickly scroll through this. . . cause I don’t know or care
+enough to know” (P079).
+A few participants placed responsibility on the platform for
+creating the experience of wading through content soup. P164 (age
+17)1 reflected:
+”You’d think that they’re [Meta] like paying a lot more attention
+to what they’re doing, especially as like a multi-billion dollar
+company. Sometimes I wonder if it’s like a purposeful thing to
+keep people engaged or something, because it’s just something that
+happens so often, like, there’s no way that it’s not purposeful.”
+Most participants, however, did not display this kind of awareness
+of the designed environment and how it manufactured the content
+soup they encountered.
+4.1.2 Boredom In, Boredom Out.
+Boredom was evident in every stage of teens’ Instagram experiences but were especially apparent in three distinct instances: as a
+trigger to open the app, as an ever-present feeling while scrolling
+on the platform, and as a trigger to close the app. As a trigger to
+open Instagram, participants such as P142 (girl, age 17) said she
+usually opened Instagram to “catch up and keep up with friends. . .
+But it’s also like a good time pass(er); like, if I’m bored I’ll go scroll
+on Instagram, or if I’m waiting for someone”. Others like P104 (boy,
+age 17) described using Instagram “whenever I don’t have much else
+going on. . . so I need a mental distraction”, or to “create background
+sound ... because I am not a fan of silence.”
+Once participants were in the app, boredom was consistently
+reflected in almost all of their interactions. For example, after viewing Reels for three minutes during the think-aloud interview, P188
+(boy, age 16) expressed that he felt “a bit bored? Not really gonna
+lie to you. I’m feeling a little bored.” Within the app, participants
+like P015 (girl, age 16) tried to combat this boredom by switching
+between the spaces within Instagram, explaining that “70% or 50%
+of the times that I start by [scrolling through my] home[page], but I
+get bored a bit easily from there. So then I go to Explore.” Participants
+saw similarities between the boredom they felt before opening the
+app and the boredom they felt while scrolling, describing the experience as an act of “sitting here scrolling, seeing what’s going on;
+not much else” (P095, boy, age 16). P115 (girl, age 17) contrasted her
+feeling of being on ”autopilot” while scrolling through Instagram
+with how she typically felt offline:
+”When I’m doing things in real life, I feel more emotions. I don’t
+know how to describe, or select [specific] emotions, but I just know
+that I feel neutral [on Instagram]. So it’s not. . . . It’s not like changing anything. Because for me [Reels are] kind of boring, even when
+I find it funny.”
+1 P164 chose not to disclose their gender
+
+Landesman et al.
+
+Boredom was also consistently quoted as the reason participants
+decided to close Instagram, pointing to an ironic "boredom in, boredom out" experience. P164 (age 17) described that they decide to
+close Instagram whenever they “get bored, or decide that I want to
+do something else with my time, because it’s a very passive activity. I
+don’t have to put a whole lot of thought into it.” P142 (girl, age 17)
+described her decision to leave the app as being based on a combination of becoming aware of the time she had spent on the platform
+and feeling bored. She explained that she made her decision by:
+”mostly checking [the] time, I guess. If I spend like a really long time
+already, or find myself literally just scrolling through everything,
+and not stopping. I’m just feeling really bored overall, then I’ll
+usually just stop [scrolling on Instagram].”
+4.1.3 Moments of Connection.
+Connecting with peers through direct messaging or “talking to
+friends about something important or just catching up in general”
+(P008, girl, age 16) kept participants coming back and using Instagram. Seeking, curating, and looking forward to moments of connection motivated teens to cut through the content soup they encountered on the platform. Indeed, several participants foregrounded
+connection when reflecting on what time well spent meant to them
+on Instagram. P177 (boy, age 16), for instance, reflected that time
+well spent for him was “well, mainly talking to friends. If it’s something random that I’m just doing like scrolling through memes... I
+don’t feel like that’s really interesting, or it’s really time well spent,
+so mainly just talking to friends.”
+The opportunity to connect with peers was often the impetus
+for teens to open Instagram, especially when they received a notification that a friend had sent them a message or a Reel, or had
+interacted with content they had uploaded. These notifications
+prompted momentary positive emotions, as P018 (girl, age 17) explained she felt “happy and curious. very curious. of what they sent
+me” when she received a notification from a peer. Even without
+receiving a direct prompt from a peer, a majority of participants
+opened Instagram to check in with friends. Reflecting on their
+daily screen time, P164 (age 17) expressed that they used Instagram
+“mainly for the messaging ... .If I didn’t use Instagram for messaging,
+or if I used a different platform, I definitely wouldn’t use it half as
+much.” P120 (boy, age 17) also reflected that he usually opened the
+app to
+”see my friends’ Stories and see what they’re doing. I think
+my daily screen time on Instagram isn’t really that high right
+now. . . [because I] mostly [open Instagram] just to see what my
+friends send me and every once in a while, just to stay connected
+with my friends over the summer.”
+Teens’ persistent search for and exchange of digital cultural
+artifacts such as memes, fashion inspiration, and jokes was often
+quoted as the goal and reason for scrolling through the content
+soup. Teens scrolled through hundreds of posts and Reels to identify
+a single cultural artifact they deemed worthy of sharing with their
+friends. As P164 (age 17) explained, this search for valuable content
+made the experience seem worth it:
+”[it’s a waste of time]... if I’m scrolling for no particular reason,
+just like [to] kill time. But I find something that I know that a
+certain person will enjoy, and I, like, send the post to them. Then I
+
+===== PDF PAGE 7 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+feel like I’ve done something good, because I’ve spread joy to other
+people.”
+Most of the positive emotional responses that teens described
+during their think-aloud interview related to connecting with friends
+on the platform through direct messaging, forwarding content to
+each other, or showing appreciation for peers’ content through
+follows and likes. For instance, P141 (girl, age 17) described feeling “alert” when sending memes to her friends, as she “want[s]
+to make sure I’m not sending anything that doesn’t interest them.”
+P104 (boy, age 17) described feeling “proud” about the content he
+found, reflecting: “Oh, my God! Look at the content I found, and now
+I get to share it with my friend.” P108 (boy, age 16) described feeling
+“happy” about the prospect of sharing memes he encountered with
+his friend: “There’s a couple of capybara memes which are pretty
+cute. So that makes me happy. . . .I like sending them to my friend.
+It’s kind of our thing.” However, these positive experiences were
+often expressed mildly and sometimes accompanied by a tone of
+ambivalence. For instance, P142 (girl, 17) explained that “[texting
+my friend] makes me feel a little bit more happier, I guess, but not by
+much.”
+Notably, some participants reflected that their participation in
+the study had had a positive effect on their emotional experience
+of Instagram. They referenced being trained in mindfulness and
+emotion labeling techniques and being prompted daily by AppMinder to reflect on their real-time Instagram use. For instance, P111
+(non-binary, age 16) reflected: “I feel like it’s [my Instagram use]
+more positive, because, like, I’m becoming more aware of how I’m
+feeling.” Similarly, P099 (boy, age 17) observed: “I thought about like
+what I was feeling [while using Instagram] a little bit more, and most
+of the time those were positive thoughts.”
+
+4.2
+
+RQ2: What real-time strategies do teens use
+to manage their emotions when navigating
+Instagram?
+
+As teens navigated Instagram, they employed a range of strategies
+to maintain a state of emotional equanimity, rejecting content that
+would get them into a negative headspace while seeking moments
+of connection and entertainment. We identified four primary strategies used by participants: (1) Feed gatekeeping, or policing the
+boundaries of their feed to make sure the right content showed up
+and the wrong content stayed out; (2) Backpedaling, or getting out
+of negative spaces if they ended up there inadvertently; (3) Choosing to hide like-counts, acknowledging the effect doing so might
+have on their own or others’ emotional wellness; and (4) Avoiding notification whiplash, or actively shutting down the emotional
+roller coaster that notifications prompted. Within these strategies,
+we observed variations among participants’ awareness of the designed environment they were engaging with, often articulated
+by where they placed responsibility for specific interactions they
+encountered (i.e., themselves or the platform).
+4.2.1 Feed Gatekeeping.
+The first strategy teens used to maintain their emotional composure
+while using Instagram was to employ a series of feed gatekeeping
+techniques. By gatekeeping, we specifically mean that teens used
+strategies—such as following and hiding content, or being stingy
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+with their likes—to attract content that invoked positive feelings
+from their feed and to keep out content that made them feel bad.
+Gatekeeping took on two primary forms: (1) follow, hide, unfollow
+and (2) stingy liking.
+Follow, Hide, Unfollow.
+While scrolling through Instagram during their think-aloud interview, teens highlighted the importance of and thought they put
+into who they associated with, or followed, and who they actively
+avoided, often reporting or blocking them and their content. P164
+(age 17), in the moment of running into a Reel that made them feel
+“angry”, said that they then “check the account to see if they post that
+kind of stuff a lot, and if they do, I’ll block them, and if I don’t I’ll just
+say that I’m not interested in that post” in order to not see that type
+of content again. Similarly, P188 (boy, age 16) described that when
+he encountered a Reel he was not interested in, he would “usually
+click to hide it. . . it’s more of a recent thing. But I have started to do
+that when I just blatantly dislike a Reel.”
+Other participants described attracting content to their feed
+that made them feel good by “following people that I admire or,
+like, trying to do something good with social media. . . because I try
+to follow people that inspire me” (P115, girl, age 17). P115 further
+explained that she liked to curate her feed to a fault, since at times
+the algorithm over-corrected itself:
+”I do that [follow/like certain content] so much, that Instagram
+keeps recommending this to me, and I just want them to go a
+little bit away because I want to watch funny memes, and not just
+animals and inspiration.”
+Stingy Liking.
+Participants spoke about thinking carefully before liking content
+to maintain an even-keeled emotional experience on Instagram.
+They described being “stingy with my likes” (P079, non-binary, age
+15) in an attempt to change what they saw, only liking content
+when it “makes me laugh, something that I’d want to see more of”
+(P164, age 17). P108 (boy, age 16) reflected that he usually did not
+encounter content that upset him on the platform, since he avoided
+“interact[ing] with posts that make me unhappy. So I guess it. . . . the
+algorithm doesn’t really care about them.” Participants reflected that
+they tended to “like pleasant videos more so they show up more”
+(P098, non-binary, age 17), and often saved content, rather than
+like it, to “tweak my algorithm. So I don’t want to look at it again
+because most of the time I’m focused on consuming new stuff” (P118,
+non-binary, age 16).
+Participants who spoke about their efforts to shape the algorithm
+displayed an awareness of the designed environment, and they often
+conveyed frustration with their limited ability to control it. As an
+example, P164 (age 17) explained:
+”I think the content that I see, the algorithm is so convoluted about
+what it gives to you that it’s kind of hard to actually like wrangle
+it and be like, I don’t want to see that, because it’s very easy to
+be like, oh, I like this thing, and I want to see more of it, cause
+you know it tracks like how long you look at the post for and
+like how you interact with it. Because the more you interact with
+something, the more it’s gonna show you like that specific thing.
+But there isn’t really a way to like, to make certain content. . . . Go
+
+===== PDF PAGE 8 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+away. I mean, like, there’s the ’not interested’ button. But from
+my experience, that doesn’t really do a whole lot.”
+Some participants spoke about curating their likes as a method
+of managing their personal impression on Instagram, explaining
+that:
+”Instagram tells all the people that I like something, but I know that
+Instagram also tells people about if you commented on something.
+So I don’t like or comment [on something I don’t like] - for the
+fear of people knowing that I liked it. That’s what I think at that
+moment” (P115, girl, age 17).
+As these examples demonstrate, teens used the act of liking (or
+withholding likes) to communicate on two levels: (1) they communicated with the platform by tweaking the algorithm to shape
+what they saw, and (2), they communicated with their peers by
+conveying a certain image of themselves through the content they
+liked. P120 (boy, age17) described this duality as a double-edged
+sword, explaining that:
+”Obviously [I want to like content] show that [I] enjoy the content
+cause, I think in a way it does support whoever is making it. But
+also because I think the app suggests Reels to other people that
+you’ve liked and shows [that] you’ve liked them. . . . That’s definitely like something that you think about before liking something,
+too, because I guess you wouldn’t want to like something that’s a
+little out there, and then show the other people that you support
+or enjoy a certain type of thing when yeah, you don’t. Maybe you
+don’t, or you don’t want to show that you do.”
+4.2.2 Backpedaling.
+As participants encountered content they found unpleasant or
+in some way triggering while scrolling through Instagram, they
+changed their behavior to avoid it. We characterized this strategy
+as backpedaling after hearing participants like P108 (boy, age 16)
+explain how, when he realized he had come across “a sad reel, or if
+I generally don’t care about it or like it, or it’s like it’s humiliating or
+disgraceful, or something that I won’t like”, he would “quickly scroll
+up” and push that content out of sight. During their think-aloud
+interview, participants described how they “skipped a couple of Reels
+which I didn’t really like the starting vibe of” (P076, girl, age 16),
+as well as “dislik[ing] [a Reel] if a lot of the comments are offensive”(P141, girl, age 17). P104 (boy, age 17) described encountering
+content he thought looked fine at first, only to experience disillusionment when he found out it was not so and he backpedaled away
+from the post: ““I remember the other video started out fine. But I
+don’t remember all the details, but I do remember the end of the video
+was kind of like making fun of disabled people, and I didn’t really
+appreciate it.”” In some cases, P104 explained, he would decide to
+stop scrolling through Instagram as a strategy to avoid negative
+emotions. When asked what made him stop scrolling, he recalled
+that “if I come across something negative that I don’t really appreciate
+and just want to take a step away from the app” - literally backing
+away from content that made him feel bad.
+Backpedaling was implemented with a certain unawareness of
+the designed platform. When teens backpedaled away from perceived negative content, they tended to blame bad actors on the
+platform, referencing the content creators, or blaming themselves
+
+Landesman et al.
+
+as actors who drew negative content. P141 (girl, age 17), for example, expressed her disappointment as she scrolled through the
+comments of a video she liked, noting that “There are a lot of negative comments on Instagram, no matter how positive the video is.
+It is sometimes sad to see that people find something negative in
+everything.” P121 (girl, age 17) reflected on how she would:
+”get rid of hateful comments, especially those designed to attack
+people on posts that they’re just sharing because they love doing
+what they do ... .I wish there was some way to protect against that
+rather than having to individually report all of them.”
+These examples illustrate how participants often directed blame
+towards the users of the platform, and not the platform itself, as
+they backed away from negative content.
+4.2.3 Choosing To Hide Like-Counts.
+Some participants used Instagram’s hide like-counts feature to
+hide the exact number of likes they received on their posts, as well
+as the number of likes on the posts of others. Teens cited the desire
+to avoid negative emotions as the primary reason for using this
+feature. P142 (girl, age 17) explained:
+”So, I usually turn off my like-count, because like I don’t really
+take the time to go look at how many people have liked my post,
+but I, like, in the past, when I’ve had it on, I’ve been, like, a little
+bit self-conscious about how many likes I’ve gotten, saw myself
+kind of, like, comparing it with others and this would not make
+me feel good.”
+Similarly, P115 (girl, age 17) explained that she:
+”Compare(s) a lot, and it’s really negative. . . Since I activated this
+option [hide likes], I don’t see people that I follow as: ‘this is more
+popular,’ ‘this is less popular.’ Also, if I don’t see the likes, I don’t
+get tempted mentally to like something just because many other
+people liked it. So it’s a great feature.”
+P118 (non-binary, age 16) also described using this feature to prevent themselves from mindlessly following the crowd, saying: “I’m
+not just gonna like something, because a lot of other people have done
+that. And I have noticed that I’ve done that a couple of times, but
+that’s why, but I turned it off.”
+More than half of our participants said they knew about but did
+not use the hide like-counts feature for a variety of reasons. P141
+(girl, age 17) said she was aware of the hide like-counts feature but
+just “don’t think I need it,” while P121 (girl, age 17) observed that the
+feature was “great for other people who compare and stuff” but not
+for her. P008 (girl, age 16) explained why she didn’t hide like counts:
+“I don’t really mind who views my story or post, or who can view who
+viewed it? Because, you know. I’m not really secretive.” P096 (boy,
+age 16) described his choice as a way to develop resistance against
+the negative emotional experience of receiving a small number of
+likes from others:
+Interviewer: have you ever used the hide like and view count
+settings?
+P096: “Yeah, I actually have a few times. But I actually recently
+turned it off. So the likes will show. Because at first I was like - I
+don’t like seeing a low number of likes [on my posts]. But then
+I was like, you know, does it really matter? I just tried to see the
+effects of it and tested it out.”
+
+===== PDF PAGE 9 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+Collectively, these quotes suggest that teens may believe hiding
+like counts is evidence of some form of social weakness, such as
+having something to hide or caring too much about what others
+think.
+4.2.4 Avoiding Notification Whiplash.
+The fourth strategy that participants described was choosing to
+turn off some or all Instagram notifications in order to avoid notification whiplash. Most commonly, teens limited notifications
+from the app to those that facilitated connecting with peers, such
+as direct messages or replies to Stories and posts. P098 (non-binary,
+age 17) decided to keep only those notifications related to when
+their friends messaged them since they were “getting too many
+notifications and I didn’t care as much about them.” P008 (girl, age
+16) explained that she felt having the default set of notifications
+turned on was “too much, and I don’t really like to open the app all
+the time and view things that are not important to me at the time.”
+Receiving a notification from a friend was a common trigger that
+prompted them to open the app and start scrolling; therefore, they
+selected their notifications carefully as a strategy to control the
+amount and frequency of their Instagram use.
+Notifications often generated unpredictable emotions in teens.
+For instance, P121 (girl, age 17) explained that when she received a
+notification, she felt:
+”sometimes anxious. Other times, it’s more positive and exciting,
+or like anticipatory in a good way. But it depends on whether it’s
+like a DM that’s bad or a post notification that’s bad. Or if it’s
+something that I know is gonna be more positive.”
+Some teens chose to turn off notifications altogether to avoid such
+unpredictable emotions and regain control over their attention.
+P141 (girl, age 17) reflected that when she did have notifications
+on, “it made me addicted for awhile, because it kept opening and
+opening and opening [Instagram].” P115 (girl, age 17) described why
+she chose to turn off notifications, because they “are catching my
+attention from things that I’m actually doing. . . .it’s...a distraction
+from the other things.”
+
+5
+
+DISCUSSION
+
+Amidst growing public concern about social media’s impact on teen
+mental health [4, 8, 30], the HCI community is poised to contribute
+much-needed insight into how design mediates the relationship between teens’ social media use and negative mental health outcomes
+identified by prior research. The current work addresses this need
+through a mixed-method study that documented teens’ moment-by
+moment experiences as they interacted with specific features on Instagram. We combined mindfulness training, daily EMAs delivered
+to teens’ phones, and an in-depth think-aloud interview to elicit
+teens’ real-time responses as they engaged with Instagram. Because
+we trained participants in emotion labeling techniques, they were
+particularly attuned to and able to describe their emotional states
+while using Instagram. As a result, we were able to provide a rich
+analysis of teens’ emotions as they interacted with different features (e.g., Reels, Stories, likes, comments), as well as how teens
+responded in real-time with strategies to regulate their emotions.
+The insights derived from this analysis, which we discuss in the
+following sections, will contribute to the HCI community’s efforts
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+to use interaction design to support teens’ positive experiences on
+social media platforms.
+
+5.1
+
+Archetypal Interaction Flow
+
+As shown in Figure 3 (entry trigger, left), we found that the teens
+in our study turn to Instagram in response to both internal urges
+(boredom) and external nudges (including genuine outreach from
+friends). Sometimes external nudges were manufactured by the
+platform, such as a push notification with recommendations for new
+people to follow on Instagram. Once on the platform, teens typically
+find themselves wading through a content soup that is dominated by
+uninteresting, irrelevant, and often boring content. The teens in our
+study employ several strategies to manage the emotional experience
+of encountering this mix of content (see Figure 3, wading through
+content soup). Wading also leads teens to get lost scrolling on the
+app—a phenomenon described in previous work as dissociative
+scrolling [9]. Teens’ dissociative scrolling is most often disrupted
+when they become aware of their persistent boredom, after which
+they typically close Instagram. The cycle continues when they
+receive new nudges to connect with friends or find themselves in
+another state of boredom outside of Instagram.
+Our analysis reveals a mismatch between the connection that
+Instagram promises (and teens desire) on one hand, and the experience that the platform actually delivers on the other. The promise
+of social connection was a major motivation for teens to engage on
+the platform despite the drudgery of wading through the content
+soup. The hunt for cultural artifacts (e.g., memes, interesting or
+relevant posts) to share with friends kept teens scrolling through
+their feed until they entered a state of dissociative scrolling [9],
+which extended their time on the platform beyond what they had
+intended. This pattern demonstrates how navigating the content
+soup functions by design to keep teens on the platform [1].
+These findings contribute to our understanding of design’s role
+in mediating the relationship between teens’ social media use and
+well-being. Both researchers and the public have paid considerable
+attention to teens’ extreme experiences on social media, such as
+cyberbullying (e.g., [31]), body image concerns (e.g., [17, 50]), and
+problematic social media use (e.g., [80]). Our work points to the
+value of paying attention to the mundane but likely more common experiences that arise from the platform’s design, such as the
+drudgery of wading through content soup and the effort required to
+find shareable cultural artifacts, experience moments of connection,
+and avoid negative and triggering content. Such experiences may
+not rise to the level of cyberbullying or problematic social media
+use, but make it difficult for teens to experience agency in their
+social media interactions.
+
+5.2
+
+Type 1 vs. Type 2 strategies
+
+We identified a series of strategies that teens employed to avoid extreme emotions and assert some degree of agency as they navigated
+the content soup on Instagram. Some of these strategies, such as
+feed gatekeeping and turning off notifications, have been explored
+in prior research on teens’ social media use (e.g., [71, 90]), but our
+study provides new insight into how teens used these strategies
+in real-time. We are not aware of prior work that has discussed
+backpedaling as a strategy to avoid negative emotions on social
+
+===== PDF PAGE 10 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+Landesman et al.
+
+Figure 4: Dimensions of Teen Strategies on Instagram
+Figure 3: Archetypal Interaction Flow on Instagram
+media. Such a strategy is unlikely to surface during a retrospective
+interview or even during an EMA survey because it is an action
+that teens use reflexively as they react to specific content in their
+feed. Our methodological approach—which combined mindfulness
+techniques with EMAs and a think-aloud interview—allowed us
+to observe how teens used these strategies in real-time, offering a
+more granular view of teens’ interactions with specific features of
+the platform.
+Our analysis suggests two categories of distinction among teens’
+Instagram strategies (see Figure 4). The first distinction is between
+settings-level and in-the-moment strategies. Strategies such as hiding
+likes and turning off notifications require teens to know about these
+feature manipulations and navigate to the platform’s settings to
+alter them. In contrast to in-the-moment strategies such as feed
+gatekeeping and backpedaling, which are employed while teens
+are scrolling through their feed, settings-level strategies require
+forethought and deliberate action. However, our analysis (as well
+as prior work, see [25]) showed that teens do not typically enter an
+Instagram session with such an intentional orientation; they are
+more likely to open the platform as a habitual reaction to boredom
+or in response to a notification from or about a peer (see Section 5.1).
+Instagram promotes their settings-level features as evidence of their
+efforts to support user well-being [3], but our research suggests that
+these features may not be used widely, may violate social norms (i.e.,
+exposing the teen user as someone who is bothered by like-counts),
+and do not fully address the challenge of navigating content soup.
+The second distinction is between thoughtful in-the-moment
+strategies and reflexive in-the-moment strategies (see Figure 4).
+Teens employed feed-gatekeeping and backpedaling strategies as
+they engaged with Instagram in real-time, but they did so with
+varying levels of intentionality. Teens’ stingy liking behaviors, for
+instance, involved a thoughtful weighing of how choosing to like a
+post would influence the algorithm—–and, by extension, the content they would be exposed to in the future—–as well as how others
+might interpret a decision to like or not like a post. This proved
+to be a complicated calculus, as teens found themselves simultaneously communicating with the algorithm and with their friends. In
+contrast, backpedaling away from potentially triggering content
+was done in a more reflexive, automatic way.
+Dual process theories of cognition illuminate the distinction between these two types of in-the-moment strategies [27]. Type 1
+processes of cognition are intuitive, unconscious, and automatic and
+align with reflexive in-the-moment strategies such as backpedaling.
+
+Type 2 processes, by contrast, are reflective, conscious, and controlled, and align more with thoughtful in-the-moment strategies
+such as feed gatekeeping. Settings-level strategies also align with
+Type 2 processes because of the deliberate planning required to
+enact them. Because teens are highly sensitive to social rewards and
+their cognitive control system is still developing [20, 77, 78], Type
+2 strategies might be less available to them in certain social and
+affectively-charged situations (e.g., when scrolling through photos
+of a party they were not invited to).
+This framework holds implications for designing supports for
+teen well-being online. For instance, interventions currently being employed in schools (e.g., [91]) focus primarily on strategies
+that engage Type 2 processes of cognition. Students are taught
+how to change their default settings, and they are given strategies to curate their feeds based on how they engage with certain
+content. But teens’ use of reflexive in-the-moment strategies such
+as backpedaling, as well as their pattern of getting lost scrolling
+(Figure 3), suggests there is further opportunity to intervene during
+their social media use, when they are engaging Type 1 processes of
+cognition.
+
+5.3
+
+Design opportunities for empowering teens
+on Instagram
+
+Our analysis points to the value of helping teens experience a
+greater sense of agency as they interact with the platform, particularly as they navigate content soup, get lost scrolling through their
+feed, and find themselves backing away from triggering content.
+We offer three design opportunities for supporting teens’ sense of
+agency on Instagram that target disrupting the cycle we identified
+in Fig. 3 and supporting teens’ in-the-moment agency.
+Support in-the-moment reflection. Because we trained participants in mindfulness and emotion labeling techniques, they
+were better prepared to tune into and describe their emotional
+state and relate it to their interactions on Instagram. Participants
+used these skills when responding to AppMinder prompts while
+using Instagram. Teens told us that this helped them to become
+more aware of how they were engaging with the platform and
+how their engagement affected their emotions. Moreover, teens
+said that this shift had positively affected their experience on Instagram. Interventions that support in-the-moment reflection such as
+this have the potential to disrupt the cycle we observed in Figure
+3 by pulling teens out of the dissociative scrolling they so often
+fell into. Prompting teens to reflect on their intentions for using
+Instagram upon entering and during a session could help reorient
+them away from habitual and towards more reflective interactions.
+Prior work has begun to explore using design mechanisms similar
+
+===== PDF PAGE 11 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+to the pop-up prompts we designed in AppMinder to scaffold teens’
+self-regulation behaviors (e.g.,goal-setting, self-monitoring, reflection) in an attempt to trigger Type 2 (i.e., deliberative) thinking at
+the moment when Type 1 (i.e., reflexive) thinking is most dominant
+(see [25]).
+Make feed curation easier. Our findings suggest an opportunity to make it less onerous for teens to avoid falling into dissociative scrolling. This objective could be met by making it easier
+for teens to “thin out” the content soup as well as reducing the
+amount of triggering content they back away from. For instance,
+we envision a “This is good for me” button that helps teens curate
+their feed based on what they feel is positive for their well-being.
+They could use the button throughout their session to signal to the
+platform what kind of content they are hoping to engage with. In
+contrast to existing strategies such as stingy liking, hiding posts,
+and unfollowing people, this design mechanism would allow teens
+to explicitly curate their feed in a more proactive and specific way.
+It would also solve the problem of having to communicate on two
+fronts (with the algorithm and with friends) when deciding whether
+to like, hide, or report content. By making content curation easier,
+this design strategy would address calls to lessen the burden placed
+on individuals to manage their technology use [70], shifting more
+responsibility to the platform. A “This is good for me” button would
+also support the goal of in-the-moment reflection as a visual reminder that calls teens’ attention to their reactions to content. Users
+could also employ feed curation systems for content moderation to
+promote positive feeds [40].
+Use trace data for well-being detection. We see an opportunity to use the current insights to build on existing efforts to use
+trace data to detect signs of ill- or well-being (e.g., [94, 95]). For
+instance, the behavioral trace data produced when teens employ
+the backpedaling strategy could be used to develop real-time indicators of well-being. Ideally, evidence of backpedaling would be
+paired with other trace data (e.g., the type of content engaged) to
+distinguish between instances when teens are backpedaling away
+from uninteresting versus triggering content. The resulting indicators could then be used to signal opportune moments to deliver
+just-in-time interventions that are tailored to a teen’s individual
+experiences on Instagram. Well-being indicators would be valuable
+to tech companies such as Meta (the parent company of Instagram)
+as a way to detect whether changes to their platform support or
+undermine user well-being. Incorporating well-being indicators
+into their business practices would help tech companies address
+increasing public calls to demonstrate how they are addressing the
+potential negative mental-health effects of teens’ social media use
+[4].
+
+6
+
+LIMITATIONS AND FUTURE RESEARCH
+
+Our methodological approach provided a granular look at teens’
+moment-by-moment experiences and emotional states as they interacted with Instagram. Despite the strengths of this approach, it
+also had limitations. For instance, it is possible that training teens
+in mindfulness and emotion labeling techniques at the beginning
+of the study functioned as a type of intervention in itself, making participants more aware of their motivations and responses
+to Instagram than they otherwise would have been. Interrupting
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+their Instagram sessions with AppMinder notifications may have
+had a similar effect and could have shortened the length of time
+they spent on the platform by calling attention to their app use.
+In addition, because we did not measure participants’ emotional
+states prior to opening Instagram, we have limited insight into how
+much their reported in-app emotional states were affected by their
+Instagram use relative to external circumstances (e.g., an argument
+with a parent). Nevertheless, we believe that the benefits of eliciting
+teens’ real-time responses justify our methodological approach.
+Focusing on Instagram and not other platforms introduced another potential limitation to the ecological validity of our study.
+Teens often engage in media multi-tasking behaviors, switching
+between different platforms constantly [71]. Their offline contexts
+also have bearing on when and why they start and end a social
+media session [24]. Future work could extend the current research
+by examining how teens cycle through social media platforms and
+how their platform experiences interact with their offline experiences. This work could also explore in greater depth the internal,
+external, genuine, and manufactured triggers that prompt teens to
+enter and exit a social media session.
+The teens in our study were diverse with respect to gender identity and race. However, we did not explore how teens’ identities
+(and their intersections) played a role in their moment-by-moment
+experiences on Instagram. In light of prior research showing variation in teens’ social media experiences across socio-cultural dimensions of identity [10, 18, 53, 61], we see an opportunity for
+future research to examine this topic on a granular level by employing our methodological approach. We also see an opportunity
+to combine our approach with longitudinal methods to explore
+how teens’ moment-by-moment social media experiences influence
+their longer-term well-being. This work should also look at both
+iOS and Android users, as our study was limited to Android users
+only.
+
+7
+
+CONCLUSION
+
+The current study investigated teens’ moment-by-moment interactions with and emotional responses to the designed environment of
+Instagram. Using daily EMAs and a think-aloud interview protocol
+with 25 teens (Mage =16.5 years), we identified a typical interaction
+flow on Instagram characterized by wading through content soup, a
+phenomenon that involved sifting through irrelevant, uninteresting
+content and backing away from potentially triggering content. This
+experience was often accompanied by a feeling of boredom and
+punctuated by moments of social connection as teens found and
+shared cultural artifacts (e.g., memes) with their friends. The strategies that teens used to maintain a state of emotional equilibrium on
+the platform included: (1) feed gatekeeping, (2) backpedaling away
+from negative content, (3) hiding like-counts, and (4) disabling push
+notifications. Our investigation contributes new insight into the
+role of design in mediating social media’s complex relationship to
+teens’ well-being, as well as to the HCI field’s broader interest in designing for well-being. The design opportunities that we proposed
+provide direction for future efforts to design interventions aimed
+at supporting teens’ sense of agency on social media.
+
+===== PDF PAGE 12 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+8
+
+SELECTION AND PARTICIPATION OF
+CHILDREN
+
+All procedures involving minor participants received approval from
+our university’s institutional review board (IRB). Participants were
+recruited through ads and announcements on social media (including Instagram and Snapchat) and word of mouth, and snowball
+sampling. All procedures were explained to potential participants
+prior to their participation, including the voluntary nature of participation, the study length and compensation structure, the ability
+to end participation at any point during the study, and the procedures in place to assure the confidentiality of their participation.
+We shared the information about the study and the consent form
+itself with participants via email, and they indicated their assent
+by clicking on a button indicating they understood the nature of
+the study and agreed to participate in it. Study procedures and the
+voluntary nature of the study were reiterated before each interview,
+both of which were conducted remotely over Zoom. In addition,
+there were at least two researchers certified to work with youth by
+the University present in all interactions with youth. During our
+interviews, participants were not required to turn on their cameras;
+often, we only recorded their voices. The university IRB designated
+the study minimal risk and waived the requirement for parental
+consent.
+
+ACKNOWLEDGMENTS
+The authors would like to acknowledge the Oread Fund and the
+CERES network, which each provided partial support for this work.
+We would also like to thank the wonderful undergraduate research
+assistants who helped collect and analyze the data for this research
+at the University of Washington: Taylor Mitsuko Ka’omealani Nishimoto, Adriana Lopez, Calvin Trinh, Giovanna Abrahao, Joy Li, Sarrah Khan, and Neha Venkatesh.
+
+REFERENCES
+[1] [n.d.]. Social Media and the Teen Mental Health Crisis. https://www.judiciary.
+senate.gov/imo/media/doc/2023-11-07_-_testimony_-_bejar.pdf
+[2] [n.d.]. Taking Stock With Teens. https://www.pipersandler.com/teens. Accessed:
+2024-1-21.
+[3] 2023.
+https://about.fb.com/news/2023/05/raising-awareness-about-youthsafety-tools-on-instagram/
+[4] 2023. Social Media and Youth Mental Health: The U.S. Surgeon General’s Advisory. https://www.hhs.gov/sites/default/files/sg-youth-mental-health-socialmedia-advisory.pdf
+[5] 2024. ATLAS.ti. https://atlasti.com/. Accessed: 2024-1-15.
+[6] Zainab Agha, Zinan Zhang, Oluwatomisin Obajemu, Luke Shirley, and Pamela
+J. Wisniewski. 2022. A case study on user experience bootcamps with teens to
+co-design real-time online safety interventions. In CHI Conference on Human
+Factors in Computing Systems Extended Abstracts. 1–8.
+[7] Monica Anderson, Michelle Faverio, and Jeffrey Gottfried. 2023. Teens, Social
+Media and Technology 2023. (2023).
+[8] American Psychological Association. 2023. Health Advisory: Adolescent Social
+Media Use. https://www.apa.org/topics/social-media-internet/health-advisoryadolescent-social-media-use
+[9] Amanda Baughan, Mingrui Ray Zhang, Raveena Rao, Kai Lukoff, Anastasia
+Schaadhardt, Lisa D. Butler, and Alexis Hiniker. 2022. “I Don’t Even Remember
+What I Read”: How Design Influences Dissociation on Social Media. In Proceedings
+of the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans,
+LA, USA) (CHI ’22). Association for Computing Machinery, New York, NY, USA,
+Article 18, 13 pages. https://doi.org/10.1145/3491102.3501899
+[10] Matthew N Berger, Melody Taba, Jennifer L Marino, Megan SC Lim, and S Rachel
+Skinner. 2022. Social media use and health and well-being of lesbian, gay, bisexual,
+transgender, and queer youth: systematic review. Journal of medical Internet
+research 24, 9 (2022), e38449.
+
+Landesman et al.
+
+[11] Elroy Boers, Mohammad H Afzali, Nicola Newton, and Patricia Conrod. 2019.
+Association of screen time and depression in adolescence. JAMA pediatrics 173,
+9 (2019), 853–859.
+[12] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic analysis.
+Qualitative research in sport, exercise and health 11, 4 (2019), 589–597.
+[13] Anne Bülow, Savannah Boele, Jessica P. Lougheed, Jaap J. A. Denissen, Eeske
+Van Roekel, and Loes Keijsers. [n.d.]. A Matter of Timing? Effects of ParentAdolescent Conflict on Adolescent Ill-being on Six Timescales. https://doi.org/
+10.31234/osf.io/k2d5s
+[14] Rafael A Calvo and Dorian Peters. 2014. Positive computing: technology for
+wellbeing and human potential. MIT press.
+[15] David R Caruso and Peter Salovey. 2004. The emotionally intelligent manager:
+How to develop and use the four key emotional skills of leadership. John Wiley &
+Sons.
+[16] Sophia Choukas-Bradley, Zelal Kilic, Claire D. Stout, and Savannah R. Roberts.
+2023. Perfect Storms and Double-Edged Swords: Recent Advances in Research
+on Adolescent Social Media Use and Mental Health. Advances in Psychiatry and
+Behavioral Health 3, 1 (Sept. 2023), 149–157. https://doi.org/10.1016/j.ypsc.2023.
+03.007 Publisher: Elsevier.
+[17] Sophia Choukas-Bradley, Jacqueline Nesi, Laura Widman, and Brian M Galla.
+2020. The appearance-related social media consciousness scale: Development
+and validation with adolescents. Body Image 33 (2020), 164–174.
+[18] Matthew Costello, Rebecca Barrett-Fox, Colin Bernatzky, James Hawdon, and
+Kelly Mendes. 2020. Predictors of viewing online extremism among America’s
+youth. Youth & Society 52, 5 (2020), 710–727.
+[19] Sarah M Coyne, Adam A Rogers, Jessica D Zurcher, Laura Stockdale, and McCall
+Booth. 2020. Does time spent using social media impact mental health?: An eight
+year longitudinal study. Computers in human behavior 104 (2020), 106160.
+[20] Eveline A Crone and Ronald E Dahl. 2012. Understanding adolescence as a period
+of social–affective engagement and goal flexibility. Nature reviews neuroscience
+13, 9 (2012), 636–650.
+[21] Claudia Daudén Roquet, Nikki Theofanopoulou, Jaimie L Freeman, Jessica Schleider, James J Gross, Katie Davis, Ellen Townsend, and Petr Slovak. 2022. Exploring
+Situated & Embodied Support for Youth’s Mental Health: Design Opportunities
+for Interactive Tangible Device. In Proceedings of the 2022 CHI Conference on
+Human Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22). Association for Computing Machinery, New York, NY, USA, Article 331, 16 pages.
+https://doi.org/10.1145/3491102.3502135
+[22] Katie Davis. 2012. Friendship 2.0: Adolescents’ experiences of belonging and
+self-disclosure online. Journal of adolescence 35, 6 (2012), 1527–1536.
+[23] Katie Davis. 2013. Young people’s digital lives: The impact of interpersonal
+relationships and digital media use on adolescents’ sense of identity. Computers
+in Human Behavior 29, 6 (2013), 2281–2293.
+[24] Katie Davis. 2023. Technology’s Child: digital media’s role in the ages and stages of
+growing up. MIT Press.
+[25] Katie Davis, Petr Slovak, Rotem Landesman, Caroline Pitt, Abdullatif Ghajar,
+Jessica Lee Schleider, Saba Kawas, Andrea Guadalupe Perez Portillo, and Nicole S.
+Kuhn. 2023. Supporting Teens’ Intentional Social Media Use Through Interaction
+Design: An exploratory proof-of-concept study. In Proceedings of the 22nd Annual
+ACM Interaction Design and Children Conference (Chicago, IL, USA) (IDC ’23).
+Association for Computing Machinery, New York, NY, USA, 322–334. https:
+//doi.org/10.1145/3585088.3589387
+[26] Jie Du, Peter Kerkhof, and Guido M van Koningsbruggen. 2021. The reciprocal relationships between social media self-control failure, mindfulness and wellbeing:
+A longitudinal study. PloS one 16, 8 (2021), e0255648.
+[27] Jonathan St BT Evans and Keith E Stanovich. 2013. Dual-process theories of
+higher cognition: Advancing the debate. Perspectives on psychological science 8, 3
+(2013), 223–241.
+[28] Lien Faelens, Kristof Hoorelbeke, Ruben Cambier, Jill van Put, Eowyn Van de
+Putte, Rudi De Raedt, and Ernst HW Koster. 2021. The relationship between
+Instagram use and indicators of mental health: A systematic review. Computers
+in Human Behavior Reports 4 (2021), 100121.
+[29] Mingyue Fan, Liyue Yu, and Leanne Bowler. 2016. Feelbook: A social media app
+for teens designed to foster positive online behavior and prevent cyberbullying.
+In Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in
+Computing Systems. 1187–1192.
+[30] 5Rights Foundation. 2023. Disrupted Childhood: The Cost of Persuasive Design,
+version 2. https://5rightsfoundation.com/uploads/Disrupted-Childhood-2023v2.pdf
+[31] Gary W Giumetti and Robin M Kowalski. 2022. Cyberbullying via social media
+and well-being. Current Opinion in Psychology 45 (2022), 101314.
+[32] Isabela Granic, Hiromitsu Morita, and Hanneke Scholten. 2020. Beyond screen
+time: Identity development in the digital age. Psychological Inquiry 31, 3 (2020),
+195–223.
+[33] Nastasia Griffioen, Marieke MJW Van Rooij, Anna Lichtwarck-Aschoff, and
+Isabela Granic. 2020. A stimulated recall method for the improved assessment of
+quantity and quality of social media use. Journal of Medical Internet Research 22,
+1 (2020), e15529.
+
+===== PDF PAGE 13 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+[34] Carolin Hagelskamp, Marc A Brackett, Susan E Rivers, and Peter Salovey. 2013.
+Improving classroom quality with the RULER approach to social and emotional
+learning: Proximal and distal outcomes. American journal of community psychology 51 (2013), 530–543.
+[35] Jessica L Hamilton, Jacqueline Nesi, and Sophia Choukas-Bradley. 2022. Reexamining social media and socioemotional well-being among adolescents through the
+lens of the COVID-19 pandemic: A theoretical review and directions for future
+research. Perspectives on Psychological Science 17, 3 (2022), 662–679.
+[36] Karen Holtzblatt and Sandra Jones. 1995. Conducting and analyzing a contextual
+interview (excerpt). In Readings in Human–Computer Interaction. Elsevier, 241–
+253.
+[37] Silas Hsu, Kristen Vaccaro, Yin Yue, Aimee Rickman, and Karrie Karahalios. 2020.
+Awareness, Navigation, and Use of Feed Control Settings Online. In Proceedings
+of the 2020 CHI Conference on Human Factors in Computing Systems (<conf-loc>,
+<city>Honolulu</city>, <state>HI</state>, <country>USA</country>, </confloc>) (CHI ’20). Association for Computing Machinery, New York, NY, USA, 1–13.
+https://doi.org/10.1145/3313831.3376583
+[38] Mizuko Ito, Candice Odgers, Stephen Schueller, Jennifer Cabrera, Evan Conaway,
+Remy Cross, and Maya Hernandez. 2020. Social media and youth wellbeing:
+What we know and where we could go. Connected Learning Alliance (2020).
+[39] Michaeline Jensen, Madeleine J George, Michael R Russell, and Candice L Odgers.
+2019. Young adolescents’ digital technology use and mental health symptoms:
+Little evidence of longitudinal or daily linkages. Clinical Psychological Science 7,
+6 (2019), 1416–1433.
+[40] Shagun Jhaver, Alice Qian Zhang, Quan Ze Chen, Nikhila Natarajan, Ruotong
+Wang, and Amy X. Zhang. 2023. Personalizing Content Moderation on Social
+Media: User Perspectives on Moderation Choices, Interface Design, and Labor.
+Proc. ACM Hum.-Comput. Interact. 7, CSCW2, Article 289 (oct 2023), 33 pages.
+https://doi.org/10.1145/3610080
+[41] Betul Keles, Niall McCrae, and Annmarie Grealish. 2020. A systematic review:
+the influence of social media on depression, anxiety and psychological distress
+in adolescents. International journal of adolescence and youth 25, 1 (2020), 79–93.
+[42] Dara Kerr. 2024. Under growing pressure, meta vows to make it harder for teens
+to see harmful content. https://www.npr.org/2024/01/09/1223583540/metaharmful-content-instagram-harder-teens-facebook
+[43] Mariska Kleemans, Serena Daalmans, Ilana Carbaat, and Doeschka Anschütz.
+2018. Picture perfect: The direct effect of manipulated Instagram photos on body
+image in adolescent girls. Media Psychology 21, 1 (2018), 93–110.
+[44] Katarzyna Kostyrka-Allchorne, Mariya Stoilova, Jake Bourgaize, Miriam Rahali,
+Sonia Livingstone, and Edmund Sonuga-Barke. 2023. Digital experiences and
+their impact on the lives of adolescents with pre-existing anxiety, depression,
+eating and nonsuicidal self-injury conditions–a systematic review. Child and
+Adolescent Mental Health 28, 1 (2023), 22–32.
+[45] Natalia I Kucirkova, Sonia Livingstone, and Jenny S Radesky. 2023. Faulty screen
+time measures hamper national policies: here is a way to address it. Frontiers in
+Psychology 14 (2023).
+[46] Tama Leaver, Tim Highfield, and Crystal Abidin. 2020. Instagram: Visual social
+media cultures. John Wiley & Sons.
+[47] Kai Lukoff, Ulrik Lyngs, Himanshu Zade, J. Vera Liao, James Choi, Kaiyue Fan,
+Sean A. Munson, and Alexis Hiniker. 2021. How the Design of YouTube Influences User Sense of Agency. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (<conf-loc>, <city>Yokohama</city>, <country>Japan</country>, </conf-loc>) (CHI ’21). Association for Computing Machinery, New York, NY, USA, Article 368, 17 pages. https://doi.org/10.1145/3411764.
+3445467
+[48] Kai Lukoff, Cissy Yu, Julie Kientz, and Alexis Hiniker. 2018. What Makes Smartphone Use Meaningful or Meaningless? Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 2, 1, Article 22 (mar 2018), 26 pages. https://doi.org/10.1145/3191754
+[49] Ulrik Lyngs. 2019. Putting self-control at the centre of digital wellbeing. In 2019
+ACM CHI Conference on Human Factors in Computing Systems [Position paper]),
+Glasgow, UK.
+[50] Anne J Maheux, Savannah R Roberts, Jacqueline Nesi, Laura Widman, and Sophia
+Choukas-Bradley. 2022. Longitudinal associations between appearance-related
+social media consciousness and adolescents’ depressive symptoms. Journal of
+Adolescence 94, 2 (2022), 264–269.
+[51] Joanne Mattern. 2016. Instagram. ABDO.
+[52] Elisa D Mekler and Kasper Hornbæk. 2019. A framework for the experience of
+meaning in human-computer interaction. In Proceedings of the 2019 CHI conference
+on human factors in computing systems. 1–15.
+[53] Simangele Mkhize and Nirmala Gopal. 2021. Cyberbullying perpetration: Children and youth at risk of victimization during Covid-19 lockdown. International
+Journal of Criminology and Sociology 10 (2021), 525–537.
+[54] Martina E. Mölsä, Mikael Lax, Johan Korhonen, Thomas P. Gumpel, and Patrik
+Söderberg. 2022. The Experience Sampling Method in Monitoring Social Interactions Among Children and Adolescents in School: A Systematic Literature
+Review. Frontiers in Psychology 13 (2022), 844698. https://doi.org/10.3389/fpsyg.
+2022.844698
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+[55] Arvind Narayanan, Arunesh Mathur, Marshini Chetty, and Mihir Kshirsagar.
+[n.d.]. Dark patterns: past, present, and future. 63, 9 ([n. d.]), 42–47. https:
+//doi.org/10.1145/3397884
+[56] Jessica L Navarro and Jonathan RH Tudge. 2023. Technologizing Bronfenbrenner:
+neo-ecological theory. Current Psychology 42, 22 (2023), 19338–19354.
+[57] Jacqueline Nesi. 2020. The impact of social media on youth mental health:
+challenges and opportunities. North Carolina medical journal 81, 2 (2020), 116–
+121.
+[58] Jacqueline Nesi, Sophia Choukas-Bradley, and Mitchell J Prinstein. 2018. Transformation of adolescent peer relations in the social media context: Part 1—A
+theoretical framework and application to dyadic peer relationships. Clinical child
+and family psychology review 21 (2018), 267–294.
+[59] Jacqueline Nesi, Sophia Choukas-Bradley, and Mitchell J Prinstein. 2018. Transformation of adolescent peer relations in the social media context: Part 2—application
+to peer group processes and future directions for research. Clinical child and
+family psychology review 21 (2018), 295–319.
+[60] Jacqueline Nesi, S. Mann, and M. Robb. [n.d.].
+Teens and Mental Health: How Girls Really Feel About Social Media.
+https:
+//www.commonsensemedia.org/sites/default/files/research/report/howgirls-really-feel-about-social-media-researchreport_web_final_2.pdf
+[61] Jacqueline Nesi and Mitchell J Prinstein. 2015. Using social media for social
+comparison and feedback-seeking: Gender and popularity moderate associations
+with depressive symptoms. Journal of abnormal child psychology 43 (2015),
+1427–1438.
+[62] Candice L Odgers and Michaeline R Jensen. 2020. Annual research review:
+Adolescent mental health in the digital age: Facts, fears, and future directions.
+Journal of Child Psychology and Psychiatry 61, 3 (2020), 336–348.
+[63] Amy Orben and Andrew K Przybylski. 2019. The association between adolescent
+well-being and digital technology use. Nature human behaviour 3, 2 (2019),
+173–182.
+[64] Bradford Owen, Brian Heisterkamp, Annabell Halfmann, and Peter Vorderer.
+2018. Trait mindfulness and problematic smartphone use. In Empirical studies of
+contemplative practices. Nova Science Publishers, Hauppauge, NY, US, 181–205.
+[65] Dorian Peters, Rafael A Calvo, and Richard M Ryan. 2018. Designing for motivation, engagement and wellbeing in digital experience. Frontiers in psychology
+(2018), 797.
+[66] Anthony T Pinter, Pamela J Wisniewski, Heng Xu, Mary Beth Rosson, and Jack M
+Caroll. 2017. Adolescent online safety: Moving beyond formative evaluations
+to designing solutions for the future. In Proceedings of the 2017 Conference on
+Interaction Design and Children. 352–357.
+[67] Caroline Pitt, Ari Hock, Leila Zelnick, and Katie Davis. 2021. The kids are/not/sort
+of all right. In Proceedings of the 2021 CHI conference on human factors in computing
+systems. 1–14.
+[68] Anjali Popat and Carolyn Tarrant. 2023. Exploring adolescents’ perspectives on
+social media and mental health and well-being–A qualitative literature review.
+Clinical child psychology and psychiatry 28, 1 (2023), 323–337.
+[69] J Loes Pouwels, Patti M Valkenburg, Ine Beyens, Irene I van Driel, and Loes
+Keijsers. 2021. Social media use and friendship closeness in adolescents’ daily
+lives: An experience sampling study. Developmental Psychology 57, 2 (2021), 309.
+[70] Jenny Radesky and Alexis Hiniker. [n.d.]. From moral panic to systemic change:
+Making child-centered design the default. 31 ([n. d.]), 100351. https://doi.org/10.
+1016/j.ijcci.2021.100351
+[71] J Radesky, HM Weeks, A Schaller, M Robb, S Mann, and A Lenhart. 2023. Constant
+companion: A week in the life of a young Person’s smartphone use. San Francisco, CA: Common Sense. Available online at: https://www. commonsensemedia.
+org/sites/default/files/research/report/2023-cs-sm artphone-research-report_finalfor-web. pdf (2023).
+[72] Rifat Rahman, Md Rishadur Rahman, Nafis Irtiza Tripto, Mohammed Eunus Ali,
+Sajid Hasan Apon, and Rifat Shahriyar. 2021. AdolescentBot: Understanding
+opportunities for chatbots in combating adolescent sexual and reproductive
+health problems in Bangladesh. In Proceedings of the 2021 CHI Conference on
+Human Factors in Computing Systems. 1–15.
+[73] Nilam Ram, Xiao Yang, Mu-Jung Cho, Miriam Brinberg, Fiona Muirhead, Byron
+Reeves, and Thomas N Robinson. 2020. Screenomics: A new approach for observing and studying individuals’ digital lives. Journal of Adolescent Research 35,
+1 (2020), 16–50.
+[74] Giuseppe Riva, Rosa M Baños, Cristina Botella, Brenda K Wiederhold, and Andrea
+Gaggioli. 2012. Positive technology: using interactive technologies to promote
+positive functioning. Cyberpsychology, Behavior, and Social Networking 15, 2
+(2012), 69–77.
+[75] Arianna Sala, Lorenzo Porcaro, and Emilia Gómez. 2024. Social Media Use and
+adolescents’ mental health and well-being: An umbrella review. Computers in
+Human Behavior Reports 14 (2024), 100404.
+[76] Teun Siebers, Ine Beyens, J Loes Pouwels, and Patti M Valkenburg. 2022. Social
+media and distraction: An experience sampling study among adolescents. Media
+Psychology 25, 3 (2022), 343–366.
+[77] Leah H Somerville. 2013. The teenage brain: Sensitivity to social evaluation.
+Current directions in psychological science 22, 2 (2013), 121–127.
+
+===== PDF PAGE 14 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+[78] Laurence Steinberg. 2005. Cognitive and affective development in adolescence.
+Trends in cognitive sciences 9, 2 (2005), 69–74.
+[79] David L Thomas and Ed Diener. 1990. Memory accuracy in the recall of emotions.
+Journal of personality and social psychology 59, 2 (1990), 291.
+[80] Samuel Tomczyk and Frances Hoferichter. 2022. Associations between social media use, psychological stress, well-being, and alpha-amylase levels in adolescents.
+Journal of Stress, Trauma, Anxiety, and Resilience (J-STAR) 1, 2 (2022), 26–37.
+[81] Jonathan A Tran, Katie S Yang, Katie Davis, and Alexis Hiniker. 2019. Modeling
+the engagement-disengagement cycle of compulsive phone use. In Proceedings of
+the 2019 CHI conference on human factors in computing systems. 1–14.
+[82] Jean M Twenge, Thomas E Joiner, Megan L Rogers, and Gabrielle N Martin. 2018.
+Increases in depressive symptoms, suicide-related outcomes, and suicide rates
+among US adolescents after 2010 and links to increased new media screen time.
+Clinical Psychological Science 6, 1 (2018), 3–17.
+[83] Patti Valkenburg, Ine Beyens, J Loes Pouwels, Irene I van Driel, and Loes Keijsers.
+2021. Social media use and adolescents’ self-esteem: Heading for a person-specific
+media effects paradigm. Journal of Communication 71, 1 (2021), 56–78.
+[84] Patti M Valkenburg, Ine Beyens, Adrian Meier, and Mariek MP Vanden Abeele.
+2022. Advancing our understanding of the associations between social media
+use and well-being. , 101357 pages.
+[85] Patti M Valkenburg and Jochen Peter. 2013. The differential susceptibility to
+media effects model. Journal of communication 63, 2 (2013), 221–243.
+[86] Amber Van Der Wal, Patti M. Valkenburg, and Irene Ingeborg Van Driel. [n.d.].
+In Their Own Words: How Adolescents Differ in Their Social Media Use and
+How it Affects Them. https://doi.org/10.31234/osf.io/mvrpn
+[87] Alexander JAM Van Deursen, Colin L Bolle, Sabrina M Hegner, and Piet AM
+Kommers. 2015. Modeling habitual and addictive smartphone behavior: The role
+of smartphone usage types, emotional intelligence, social stress, self-regulation,
+age, and gender. Computers in human behavior 45 (2015), 411–420.
+[88] Moshe Y Vardi. 2023. Computing, You Have Blood on Your Hands! Commun.
+ACM 67, 1 (2023), 5–5.
+[89] Tim Verbeij, J Loes Pouwels, Ine Beyens, and Patti M Valkenburg. 2022. Experience
+sampling self-reports of social media use have comparable predictive validity to
+digital trace measures. Scientific Reports 12, 1 (2022), 7611.
+[90] Emily Weinstein and Carrie James. 2022. Behind their screens: What teens are
+facing (and adults are missing). MIT Press.
+[91] Emily Weinstein and Carrie James. 2022. School-Based Initiatives Promoting
+Digital Citizenship and Healthy Digital Media Use. Handbook of Adolescent
+Digital Media Use and Mental Health; Cambridge University Press: Cambridge, UK
+(2022), 365.
+[92] Kelly Widdicks. 2020. When the good turns ugly: Speculating next steps for digital
+wellbeing tools. In Proceedings of the 11th Nordic Conference on Human-Computer
+Interaction: Shaping Experiences, Shaping Society. 1–6.
+[93] Pamela Wisniewski, Arup Kumar Ghosh, Heng Xu, Mary Beth Rosson, and
+John M Carroll. 2017. Parental control vs. teen self-regulation: Is there a middle
+ground for mobile online safety?. In Proceedings of the 2017 ACM Conference on
+Computer Supported Cooperative Work and Social Computing. 51–69.
+[94] Xuhai Xu, Xin Liu, Han Zhang, Weichen Wang, Subigya Nepal, Yasaman Sefidgar,
+Woosuk Seo, Kevin S Kuehn, Jeremy F Huckins, Margaret E Morris, et al. 2023.
+GLOBEM: Cross-Dataset Generalization of Longitudinal Human Behavior Modeling. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
+Technologies 6, 4 (2023), 1–34.
+[95] Xuhai Xu, Jennifer Mankoff, and Anind K Dey. 2021. Understanding practices
+and needs of researchers in human state modeling by passive mobile sensing.
+CCF Transactions on Pervasive Computing and Interaction 3 (2021), 344–366.
+[96] Xuhai Xu, Tianyuan Zou, Han Xiao, Yanzhang Li, Ruolin Wang, Tianyi Yuan,
+Yuntao Wang, Yuanchun Shi, Jennifer Mankoff, and Anind K Dey. 2022. TypeOut:
+leveraging just-in-time self-affirmation for smartphone overuse reduction. In
+Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems.
+1–17.
+[97] Mingrui Ray Zhang, Kai Lukoff, Raveena Rao, Amanda Baughan, and Alexis
+Hiniker. 2022. Monitoring Screen Time or Redesigning It? Two Approaches to
+Supporting Intentional Social Media Use. In Proceedings of the 2022 CHI Conference
+on Human Factors in Computing Systems. 1–19.
+[98] Dorothy Zhao, Mikako Inaba, and Andrés Monroy-Hernández. 2022. Understanding Teenage Perceptions and Configurations of Privacy on Instagram.
+Proc. ACM Hum.-Comput. Interact. 6, CSCW2, Article 550 (nov 2022), 28 pages.
+https://doi.org/10.1145/3555608
+
+9
+
+APPMINDER EMA SURVEY
+
+These questions were part of the EMA survey shown in the AppMinder app. Screenshots of the app can be found in Figure 2.
+• How would you describe the emotion you are feeling? (Select
+all that apply)
+
+Landesman et al.
+
+• What made you feel that way?
+• How do you feel that the activity/interaction you described
+above impacts your digital well-being?
+• Do you feel that you want to experience more or less of the
+activity/interaction you described above?
+• Do you feel that you should experience more or less of the
+activity/interaction you described above?
+• Are you willing to share your screenshot with the research
+team?
+
+10 INTERVIEW PROTOCOLS
+10.1 Think-Aloud Interviews
+Note that these interviews were semi-structured, leaving space
+between questions for elaboration. Some of the questions were
+evolved over time; the following is only a final version of the procedure.
+10.1.1 AppMinder Retrospectives. Parameters marked with square
+brackets are placeholders for data derived from select AppMinder
+responses for each participant.
+• I see that on [date], you marked that you felt [emotion] while
+doing [activity]. You said that [explanation], and that your
+activity impacted your feelings [rating].
+– Do you remember this moment?
+– Can you elaborate on this response more?
+– Would you want to experience this activity more often or
+less often?
+– Did you go back to doing this activity after filling out the
+AppMinder survey?
+10.1.2 Mindfulness Practice & Grounding Technique.
+• The second part of this is a mindfulness exercise. I’m going
+to share my screen to show you the Mood Meter that was
+introduced in the first session, and I will leave it open during
+the rest of the call so that you can refer to it when asked to
+label your emotions. Also, you aren’t limited to the words on
+this chart, you can use any other emotion labels that come
+to mind whenever. Just remember, we are not judging these
+emotions as good or bad, but simply noting their names and
+reflecting on why they might’ve come up in our minds.
+• The first thing we’ll use this chart for today is for something
+called a grounding technique. The purpose is to “ground”
+you in your senses to increase self-awareness, which will be
+useful for the next part of this interview.
+• I will ask you four questions. Please say your answers out
+loud after each one.
+– First, can you name 4 objects that you can see around you?
+– Then, can you name 3 things you can hear?
+– Now, can you name2 things you can physically feel? An
+example might be the back of your chair.
+– And finally, what’s 1 emotion you feel right now?
+10.1.3 Freestyle Scrolling & General Instagram Questions.
+• I am going to ask you to use Instagram for 3 minutes the way
+you normally would. Please try to use it naturally, trying to
+pretend you are not in an interview, except while you do so,
+
+===== PDF PAGE 15 =====
+
+“I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram
+
+we’ll need you to talk out loud about what you are doing.
+I can’t see your screen so I need you to describe things in
+real-time.
+• If there is anything interesting that you spend more time
+on, please also describe a) what it is, b) who it’s from, and c)
+what emotions you feel.
+• I will time you for 3 minutes and also give you a heads up
+when there is 1 minute left. For most of the time, it will
+be just you talking out loud by yourself. Do you have any
+questions before we begin?
+• (Participant is timed for 3 minutes and thinks out loud as they
+use Instagram on their own.)
+• Can you name an emotion you feel right now after using
+Instagram for 3 minutes?
+• Do you feel different now, compared to before you opened
+Instagram?
+• When did you first start using Instagram, and what motivated
+you to sign up?
+• What would you say are the reasons you use Instagram now?
+• If you could get rid of one thing on Instagram, what would
+it be? This can be anything like a feature, but it can also be
+a person or type of content.
+• If you could add one thing to Instagram, what would it be?
+• Is there anywhere inside Instagram where you wish you had
+more control?
+• In your opinion, what does time well spent mean to you on
+Instagram?
+10.1.4 Guided Instagram Think-Aloud Tour. Follow-up questions
+were only asked if applicable to the participant’s initial response.
+• Please pick up your phone and go to your phone’s home
+screen. When do you usually open Instagram?
+– What emotions do you feel in that scenario when you are
+about to open Instagram?
+• Do you have notifications turned on for Instagram?
+– What are the most common types of notifications you get?
+– What emotions do you feel for each of those types of
+notifications?
+– What made you turn notifications off?
+• Please go to Reels by tapping on the Reel icon at the bottom
+of the screen.
+– Do you ever open Reels this way?
+– When do you usually go to the Reels tab?
+– How do you usually start watching Reels instead?
+• Next, I am going to ask you to scroll through Reels until
+you find a Reel that makes you feel high energy + high
+pleasantness. While you are scrolling to find one, please
+very briefly describe the Reels that you are scrolling past,
+like “a cooking video”, or “standup comedy”.
+– (Participant spends up to 3 minutes to identify a Reel)
+– Does it usually take a long time for you to find something
+that makes you feel high energy + high pleasantness? Why
+do you think that is?
+– What is the Reel about? Who is it posted by? Can you
+name the exact emotion you feel?
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+– Would you typically press like on this Reel? What is your
+thought process when deciding to press like something
+on Instagram?
+– What emotions do you feel when you read the comments
+on this Reel?
+– Would you typically leave a comment on this Reel?
+– When do you usually comment on anything on Instagram?
+– (The same is repeated but for a high energy + low pleasantness Reel)
+• What emotions do you feel now after viewing lots of Reels?
+• Do you ever save things on Instagram?
+– Can you go to your Profile and then go to your Saved
+collection?
+– What emotions do you feel when you scroll through your
+Saved?
+– How often do you look at your saved posts? Why do you
+think that is?
+– Is this something you would like to do more often, less
+often, or about the same?
+– Is there a reason you don’t save things on Instagram?
+• Okay. Do you ever use the Explore tab at the bottom?
+– When do you go to Explore?
+– (Participant is asked to open and scroll through Explore for
+a few seconds.)
+– What emotions do you feel while using this page?
+– Is there a reason why you don’t use it?
+• How do you usually decide when to stop scrolling on Instagram?
+– What emotions do you feel when you stop?
+• Please go to Home and then open your Messages and scroll
+through your Messages for a bit to refresh your memory.
+– What types of conversations do you typically use Instagram Messages for?
+– What types of people do you Message the most?
+• Do you ever send posts or Reels to other people?
+– Can you find the most recent post you sent to someone?
+– What was your thought process when you sent this to
+them?
+– What emotions do you feel when you are about to send a
+post to someone?
+– Do people ever send posts or Reels to you?
+– What emotions do you feel when you see a notification or
+preview text that someone sent you a post or Reel?
+• Let’s go to your Profile. As a reminder, you don’t have to
+answer any questions you don’t want to answer. Is your
+profile public or private?
+– What made you choose to make it public/private?
+– What emotions do you feel imagining if your profile were
+the opposite (public or private)?
+– Have you ever switched your profile between private or
+public?
+– Why? What emotions did you feel when switching?
+• Can you scroll through your Profile and as you do so, what
+emotions do you feel?
+– Do you have any Story Highlights on your Profile?
+– What would you say are the reasons you create Highlights?
+
+===== PDF PAGE 16 =====
+
+IDC ’24, June 17–20, 2024, Delft, Netherlands
+
+– What do you hope people will know about you after viewing your Highlights?
+– What emotions do you feel while you are choosing which
+Stories to Highlight?
+• Next we’re going to go to your archives. As a reminder, you
+are allowed to skip any questions if you feel uncomfortable
+answering them. On your profile, tap the menu icon at the
+top right, then tap Archive. At the top, does it say Stories
+archive or Posts archive?
+– Have you ever archived a post? What are some reasons
+why you have archived a post/posts before?
+– What emotions do you feel when deciding to archive a
+post
+– What emotions do you feel as you scroll through your
+Posts archive now?
+– How often do you look back at your post archives?
+– Is this something you would like to do more often, less
+often, or about the same?
+– (The same is repeated for the Stories archive.)
+• Now, I want to ask you some questions about how you create
+Posts. I’m going to ask you to pretend you are creating a new
+post, but we’re not going to actually post anything. This is
+just to walk through the process. Please click on the “plus"
+icon at the bottom.
+
+Landesman et al.
+
+– When do you decide to create a new Post?
+– What emotions do you feel when choosing what photos
+or videos to post?
+• Do you have any Drafts saved?
+– If so, why did you create them but not post them?
+• Please tap next. Do you ever edit your photos or videos?
+– What kinds of photo editing tools or apps do you use?
+– What emotions do you feel while you are editing your
+photos or videos?
+– Do you think any of the people you follow edit their appearance in their posts significantly?
+– What emotions do you feel when you see that?
+• What types of captions do you usually write for your posts?
+– What emotions do you feel while you’re writing a caption?
+• Have you ever used the Hide like and view counts setting?
+– What made you decide to use it?
+– What do you think about that option?
+– Is there a reason you don’t use it?
+• What emotions do you feel right after posting a new post?
+10.1.5 Conclusion.
+• Is there something you want to add that we didn’t get to talk
+about yet today?
+• Do you have any other questions for me?

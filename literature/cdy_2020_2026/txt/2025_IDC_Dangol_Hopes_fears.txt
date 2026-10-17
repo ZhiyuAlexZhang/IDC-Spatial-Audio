@@ -1,0 +1,586 @@
+SOURCE PDF: ../pdf/2025_IDC_Dangol_Hopes_fears.pdf
+SOURCE URL: https://arxiv.org/pdf/2505.16089
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+“If anybody finds out you are in BIG TROUBLE”: Understanding
+Children’s Hopes, Fears, and Evaluations of Generative AI
+Aayushi Dangol
+
+University of Washington
+Seattle, WA, USA
+adango@uw.edu
+
+arXiv:2505.16089v1 [cs.HC] 22 May 2025
+
+Arya Thiruvillakkat
+
+George Mason University
+George Mason, VA, USA
+athiruvillakkat@gmail.com
+
+Robert Wolfe
+
+University of Washington
+Seattle, WA, USA
+rwolfe3@uw.edu
+
+Ben Chickadel
+
+University Child Development School
+Seattle, WA, USA
+benc@ucds.org
+
+ABSTRACT
+As generative artificial intelligence (genAI) increasingly mediates
+how children learn, communicate, and engage with digital content, understanding children’s hopes and fears about this emerging
+technology is crucial. In a pilot study with 37 fifth-graders, we explored how children (ages 9–10) envision genAI and the roles they
+believe it should play in their daily life. Our findings reveal three
+key ways children envision genAI: as a companion providing guidance, a collaborator working alongside them, and a task automator
+that offloads responsibilities. However, alongside these hopeful
+views, children expressed fears about overreliance, particularly in
+academic settings, linking it to fears of diminished learning, disciplinary consequences, and long-term failure. This study highlights
+the need for child-centric AI design that balances these tensions,
+empowering children with the skills to critically engage with and
+navigate their evolving relationships with digital technologies.
+
+CCS CONCEPTS
+• Human-centered computing → Empirical studies in HCI.
+
+KEYWORDS
+Child Computer Interaction, Hopes and Fears, Children’s Perceptions, Generative AI
+ACM Reference Format:
+Aayushi Dangol, Robert Wolfe, Daeun Yoo, Arya Thiruvillakkat, Ben Chickadel, and Julie A. Kientz. 2025. “If anybody finds out you are in BIG TROUBLE”: Understanding Children’s Hopes, Fears, and Evaluations of Generative
+AI. In Interaction Design and Children (IDC ’25), June 23–26, 2025, Reykjavik,
+Iceland. ACM, New York, NY, USA, 6 pages. https://doi.org/10.1145/3713043.
+3731498
+
+1
+
+INTRODUCTION
+
+Generative AI (genAI) is increasingly shaping children’s digital experiences, from personalized learning tools to AI-assisted creative
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+© 2025 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-1473-3/2025/06.
+https://doi.org/10.1145/3713043.3731498
+
+Daeun Yoo
+
+University of Washington
+Seattle, WA, USA
+daeunyoo@uw.edu
+
+Julie A. Kientz
+
+University of Washington
+Seattle, WA, USA
+jkientz@uw.edu
+
+platforms. Yet, its role is fraught with both promise and peril. On the
+one hand, genAI is hailed as a revolutionary force that can democratize education, enhance creativity, and provide adaptive learning
+experiences [7, 12, 16, 36]. On the other hand, concerns arise over
+genAI’s potential to diminish critical thinking and foster over reliance on machine-generated content [1, 10, 18]. As generative AI
+systems become more embedded in children’s lives, discussions
+surrounding its impact remain deeply ambivalent. However, much
+of the discourse about its benefits and risks is framed from an adultcentric perspective, often emphasizing technical safeguards and
+guidelines without incorporating children’s voices.
+While prior studies have explored children’s perceptions of AI
+from a hopes and fears lens, they have largely focused on embodied AI such as robots and voice assistants [6, 30]. However, unlike
+embodied AI, which provides clear boundaries between human
+and machine interaction, genAI can be embedded into creative,
+educational, and social platforms in ways that blur the distinction
+between human and algorithmic contributions. Given children’s
+hopes and fears shape their interactions with technology [3, 37]
+understanding their perspectives on genAI is essential for designing child-centered AI experiences that align with their cognitive,
+emotional, and social needs. Thus, to understand how children
+conceptualize genAI’s use in their everyday lives, we conducted a
+three-session pilot study with 37 fifth-grade students (ages 9–10) at
+a local elementary school in the United States. Our findings capture
+children’s excitement about genAI’s potential to foster creativity,
+motivation, and play, as well as their fears on over reliance on genAI
+leading to diminished skills and negative academic consequences.
+
+2
+
+RELATED WORK
+
+While research on children’s use of generative AI is emerging, early
+surveys suggest that children and youth are engaging with genAI at
+increasing rates, often surpassing adult adoption [4, 24]. Given this
+trend, studies within HCI research are exploring how genAI can
+support children’s creativity [22, 25, 28], storytelling [13, 16, 38, 39],
+and learning [1, 26, 33, 36], while also examining biases within
+genAI models that affect children and teenagers [19, 34, 35]. Studies
+of children’s understanding of genAI suggest that children (ages
+5–12) primarily view it as a tool for producing content [17] and are
+capable of understanding and articulating the cultural implications
+of its use [8]. However, research also indicates that children tend
+to overestimate genAI’s capabilities [9, 11] and without structured
+
+===== PDF PAGE 2 =====
+
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+
+guidance they may struggle to discern errors, particularly when
+genAI presents information in a coherent yet misleading way [10,
+32].
+Thus, it is essential to examine not only how children use and
+understand generative AI but also what they consider important
+in a technological society [30]. Our study draws on the “hopes
+and fears” model, which provides a framework for understanding
+user perceptions of emerging technologies within the dichotomy of
+optimism and apprehension [3]. This model has been successfully
+applied in Child-Computer Interaction research to examine how
+children’s hopes and fears shape their engagement with technology [20]. For example, research by Yip et al. highlights that children
+often find technologies “creepy” when they provoke fears related
+to physical safety or emotional discomfort [37]. Similarly, studies
+have explored children’s hopes and fears of embodied AI such as
+social robots [6, 30], as well as how these perceptions influence their
+interactions with intelligent toys and shape parental views on such
+technologies [20, 23]. Expanding this perspective beyond children
+and families, Smakman et al. examined how various stakeholders
+navigate the integration of social robots into primary education,
+shedding light on the broader societal concerns surrounding these
+technologies [31]. While much of the existing discourse has focused
+on children’s hopes and fears regarding embodied AI, prior research
+also suggests that the form of AI matters in shaping children’s perceptions [11, 14, 27]. Given the non-embodied nature of generative
+AI, our work seeks to understand children’s hopes and fears in this
+context.
+
+3
+
+METHODS
+
+We conducted our pilot study in two fifth-grade classrooms at a
+local U.S. elementary school. A total of 37 students (ages 9–10)
+participated during their regular Technology class, taught by their
+Technology teacher. Children reported varying levels of AI use, with
+76.3% of participants having used voice assistants (e.g., Alexa, Siri),
+68.4% have used video game AIs, 23.7% have engaged with chatbots,
+and 5.3% having no direct AI experience. We obtained parental
+consent and child assent for all participants, and our university’s
+Institutional Review Board (IRB) reviewed and approved all research
+related activities.
+
+3.1
+
+Classroom Sessions
+
+We conducted three sessions each with two fifth grade classrooms
+between April and May 2024 (see Figure 1). Each classroom session lasted 60 minutes, consisting of Warm-Up Time (10 minutes),
+Activity Time (30 minutes), and Reflection Time (20 minutes). To
+mitigate potential power imbalances and the influence of children’s
+responses on each other, the teacher navigated the discussions in a
+way that minimized dominant behavior of any single participant
+and promoted collective idea generation, where contributions were
+built upon rather than overshadowed.
+In the first session, the Technology Teacher introduced children
+to genAI through ChatGPT-4o, demonstrating its core functionalities, including image generation, voice-based interactions, and
+question-answering capabilities. Afterward, students created a story
+and drawing, illustrating potential applications of genAI in their
+daily lives. Based on student narratives and drawings from Session
+
+Dangol et al.
+
+1, the research team developed six distinct genAI agents using the
+OpenAI GPT-Store1 for students to explore in Session 2 (see Figure
+2). These agents assisted with cooking, homework, sports, games,
+songwriting, and theatre. Working in groups of 5–6, students took
+turns interacting with different genAI agents and completed a worksheet exploring situations where human judgment was preferable
+over AI-generated support. In Session 3, students developed their
+own evaluation criteria to assess the genAI agents they explored
+in Session 2. After establishing their evaluation framework, students revisited the six genAI agents, interacting with them again
+while applying their newly developed criteria. They then rated each
+agent using a three-tiered system: Best, Average, or Worst, based on
+how well genAI met their expectations in different areas. Following
+the evaluation process, students engaged in a group discussion to
+compare their ratings and reflect on the perceived benefits and
+drawbacks of AI assistance.
+During the classroom sessions, we collected worksheets and artifacts produced by the students, along with observational notes from
+the research team. We transcribed students’ written responses from
+their worksheets and analyzed the data using a thematic analysis
+approach [2]. The authors developed inductive codes by reviewing and open-coding the data, then collaboratively discussed and
+refined the codes throughout the process to resolve discrepancies,
+reach a consensus, and organize findings into high-level themes.
+
+4 FINDINGS
+4.1 Hope for AI to Enrich Everyday Experiences
+In Session 1, children expressed hope that genAI could be integrated into their daily lives, envisioning its role at varying levels of
+involvement: 1) as an advisor providing guidance, 2) as a collaborative assistant working alongside them, and 3) as a task automator
+handling responsibilities on their behalf. At the most minimal level
+of involvement, children framed genAI as a support system, helping them stay organized, make decisions, or sustain motivation
+without directly taking over tasks. For example, Mira (all names are
+pseudonyms) viewed genAI as a planner that could help her with
+time management,“I usually procrastinate, so this could help space
+out my work. Also, when my dad is busy, I cannot ask for help. AI can
+help me schedule planning to manage my time.” Similarly, Sophie
+envisioned genAI simplifying decision-making, “Because I have a
+hard time cleaning my room, it would help me make decisions on what
+to keep and where to put things. I would follow the instructions that
+it gives me.” Children also hoped for genAI to serve as a motivator,
+offering encouragement as they completed their tasks. For example,
+Jude noted, “By picking me up when things are hard and making me
+laugh, while Noah mentioned, “every time I have to do my laundry,
+it helps me fold it by playing music and talks to me while I fold.”
+A step further, several children viewed genAI as a collaborator in their creative and recreational activities, working alongside
+them to extend their capabilities. Clara imagined genAI assisting
+in songwriting, “My AI helper would make songwriting easier by
+suggesting relevant adjectives, lyrics, sounds, etc. It would come up
+with a tune to go with the lyrics whenever inspiration strikes me.”
+Similarly, Roe shared, “When I have an audition or a play that I have
+1 https://chatgpt.com/gpts
+
+===== PDF PAGE 3 =====
+
+Understanding Children’s Hopes, Fears, and Evaluations of Generative AI
+
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+
+Figure 1: Fifth grade students engaging with generative AI during their Technology class.
+
+Cooking Helper
+
+Helps with finding and creating new
+recipes
+
+Figure 2: Examples of genAI agents used by students, assisting with songwriting, video game development, and cooking.
+to memorize lines for I have no one to practice my lines with. It would
+be so much easier and would be more fun when the AI can play the
+other character in the script. It will help me get more emotions and
+won’t have to worry about others lines.” Children also saw genAI as
+a partner in gaming, with Owen noting, “If I’m playing video games
+Zelda or Minecraft and I don’t know what to do, AI would help me
+identify facts or other things that appear in game that I don’t know.
+[So] I would always know where to go and how to do it.” Similarly,
+Lena positioned AI as a playmate, stating, “If no one is home, AI
+could play with or against me so I wouldn’t have to play by myself.”
+At the deepest level of involvement, some children envisioned
+genAI fully taking over certain responsibilities. Ava, for example,
+envisioned genAI completing her homework, “I often spend a lot of
+my time doing my homework, but my AI helper would make this task
+easier by doing it for me so I can practice my hobbies and languages.
+I would [instead] watch a movie, videos, or make DIY projects.” Similarly, Ora described, “I wouldn’t have to play piano, which would
+free up 30 minutes of my time. I would read, paint, write, sculpt, or do
+homework. I would probably be less stressed.” While earlier forms of
+genAI involvement were described in terms of shared participation,
+these examples suggest that children also see value in genAI’s ability to offload tasks that feel burdensome, allowing them to pursue
+activities they find more meaningful.
+
+4.2
+
+Fear of Losing Learning Opportunities and
+Impact on Future Success
+
+In Session 2, children shared their fears that relying on genAI for
+answers could undermine their ability to develop problem-solving
+skills, ultimately jeopardizing their learning, academic integrity,
+and future success. This fear was especially evident when children
+discussed using genAI for completing homework. As Ava stated,
+”Your homework won’t have any wrong answers, but if the AI did
+your homework for you, then you won’t get any practice.” Similarly,
+Max emphasized, ”You would get most of your homework right but
+
+would not learn important skills and fail most tests because you would
+not have the AI to do it for you.” Their fear of failing tests without
+genAI support highlights an implicit trust in its accuracy, despite
+acknowledging the drawbacks of dependence. Children also had a
+general belief that answer-generation without guidance from genAI
+could significantly hinder learning. For example, Tessa cautioned,
+If you don’t do it yourself [and] if [AI] doesn’t explain what it’s doing,
+you don’t learn, and you fall behind.” These reflections highlight
+that children recognize the importance of productive struggle in
+learning rather than simply receiving correct answers from genAI.
+Children also expressed fears about potential academic and disciplinary consequences of AI-assisted homework. For example, they
+noted that teachers could detect inconsistencies in students’ work
+and that they could “get into BIG trouble”. As Ora speculated, “You
+will learn very little, and most likely will be questioned by teachers
+about your high homework grades but low test grades, and might have
+to go down a few grades–or get expelled!” Similarly, Harper remarked,
+“If you get caught, you might have to retake middle and high school.”
+Children’s emphasis on detection and punishment highlight fears
+that children view AI use in schoolwork as a high-risk behavior,
+underscoring the perception that genAI is more of a shortcut than
+a learning tool.
+Beyond immediate disciplinary concerns, children also expressed
+fears about the long-term consequences of genAI reliance, particularly regarding future academic and career success. Some envisioned genAI use as a slippery slope that could negatively impact
+their ability to succeed in college or the workplace. As Finn speculated, “You probably won’t get into high school. Since you fail all of
+the tests. You won’t get a job and you will die of starvation because
+you did not graduate.” Similarly, Hazel stated, “You will be missing
+out on a lot of stuff because you don’t know how to do anything, and
+you won’t get into some colleges.” Some children also framed their
+concerns in terms of cognitive decline, expressing fears that genAI
+use would make them less intelligent. For example, Sophie stated,
+
+===== PDF PAGE 4 =====
+
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+
+Dangol et al.
+
+A
+
+B
+
+Figure 3: Children’s conceptualization of generative AI as a supportive tool in their daily life. The drawings depict genAI as a
+homework assistant (A) and as a helper in organizing a room (B), offering suggestions on what to keep and discard.
+“You get dumb because you have no practice,” while Yuki reflected, “I
+won’t have to do anything. I become lazy.” These statements highlight children’s fear that dependence on genAI reduces the need
+for personal effort, ultimately leading to failure in life.
+
+4.3
+
+Children’s Criteria for Evaluating
+Generative AI
+
+In Session 3, children developed their own evaluation criteria to
+assess their interactions with genAI. This process provided a tangible way for children to explore whether using genAI aligned with
+their hopes and fears, helping shape their understanding of genAI’s
+potential role in their lives. While children’s individual criteria
+varied, common themes emerged across the group. Specifically,
+children consistently prioritized accuracy, speed, clarity, creativity,
+and social-emotional engagement as key qualities in their evaluation. However, children’s ratings for each quality varied, reflecting
+both enthusiasm and disappointment. For example, when evaluating genAI’s creativity, Mira gave the rating “best” stating, “It
+came up with designs I would never think off.” In contrast, Tessa
+for the same output rated it as “worse” noting “Its responses were
+boring because it gave really standard response, did not add any cultural references, it was bland.” Similarly, while children expressed a
+strong preference for genAI to interact in a socially engaging and
+emotionally responsive way, they differed in their evaluations of
+how well it met these expectations. For example, while Ava praised
+genAI’s friendliness, stating, “The AI was so friendly, almost like a
+real person,” Yuki noted “It sounded like a rad person saying stuff
+but could not show emotion. It was descriptive but was emotionless.”
+Children’s mixed evaluations indicate that their hopes for genAI
+were not always met. While some were excited by its creativity
+and friendliness, others were disappointed by its lack of cultural
+references, emotional depth, or engaging responses.
+Children’s evaluation of genAI was also closely linked to their
+fears about over-reliance and its potential academic consequences.
+When assessing genAI’s clarity, children critiqued how information
+was presented and expressed the importance of step-by-step explanations that facilitated guided problem-solving rather than simply
+providing direct answers. For example, Theo articulated this need,
+
+stating, “Explain how to do it step by step, then I can start working
+on my homework.” Similarly, Jude, when encountering difficulty
+with a division problem (457 ÷ 9), noted, “I [want] a refresher on
+how to do long division rather than just the exact answer, because
+that would be cheating.” Additionally, children also found that excessively verbose AI-generated responses impeded comprehension.
+Hazel critiqued the clarity of genAI’s output, explaining, “It was
+giving so much information, so it was hard to understand because it
+gave a six-paragraph response,” while Clara echoed this sentiment,
+stating, “it generates long paragraphs that were very intimidating.”
+Ultimately, the process of evaluating genAI encouraged children to
+reflect on what they value in digital interactions and how technology could be designed to better support their needs.
+
+5
+
+DISCUSSION & FUTURE WORK
+
+Children’s perceptions of genAI are shaped by a complex interplay
+of curiosity, excitement, and concern. While children expressed
+optimism about genAI’s potential to help them in their everyday
+lives, they also recognized the uncertainties and risks it presents.
+This duality highlights a crucial challenge: how can genAI systems
+be designed to engage with both their hopes and fears in a meaningful way? Rather than suppressing fears or amplifying enthusiasm,
+designing genAI-enabled technologies for children should acknowledge these tensions to equip children with the tools to navigate
+their evolving relationships with AI [30]. Encouraging thoughtful
+engagement with genAI, rather than passive adoption, can foster
+resilience, critical inquiry, and a more nuanced understanding of
+genAI’s role in children’s lives.
+A key finding from our study is that while children envision
+genAI as a companion, a collaborator, and a task automator, they
+often view genAI-assisted schoolwork as a high-risk behavior, associating it with punitive consequences rather than as a learning
+aid. Additionally, while children acknowledged fears about over
+reliance, their evaluation criteria did not reflect an emphasis on human control or autonomy. Instead, their criteria prioritized genAI’s
+immediate usability, indicating that while children recognize the
+risks of dependence, they may not yet possess the critical AI literacy skills necessary to evaluate these risks meaningfully. Thus, as
+
+===== PDF PAGE 5 =====
+
+Understanding Children’s Hopes, Fears, and Evaluations of Generative AI
+
+genAI becomes increasingly integrated into educational settings
+[1, 5, 15, 29], the challenge lies not only in setting clear guidelines
+for responsible genAI use but also in ensuring that children develop
+the AI literacy skills needed to critically evaluate, communicate,
+and collaborate with AI in their daily lives [21]. In future studies, we
+aim to explore the agency of children in child-AI collaboration to
+understand the extent to which children want and need assistance
+from genAI. Additionally, since our themes are based on observations of 37 children in two fifth-grade classrooms from a single
+school, our future goal is to explore the hopes and fears across a
+more diverse group of children to assess the robustness of these
+themes. Furthermore, while this study focused solely on children’s
+perspectives, we plan to expand this work to include parents and
+educators, as their insights could provide valuable perspectives on
+their hopes, concerns, and experiences with children’s use of genAI.
+
+ACKNOWLEDGMENTS
+This material is based upon work supported under the AI Research
+Institutes program by the National Science Foundation and the Institute of Education Sciences, U.S. Department of Education, through
+Award #DRL-2229873 - AI Institute for Transforming Education
+for Children with Speech and Language Processing Challenges
+(or National AI Institute for Exceptional Education). Any opinions,
+findings, and conclusions or recommendations expressed in this
+material are those of the author(s) and do not necessarily reflect the
+views of the National Science Foundation, the Institute of Education
+Sciences, or the U.S. Department of Education. This work was also
+partially funded by the Jacob’s Foundation CERES Network.
+
+REFERENCES
+[1] Eman A Alasadi and Carlos R Baiz. 2023. Generative AI in education and research:
+Opportunities, concerns, and solutions. Journal of Chemical Education 100, 8
+(2023), 2965–2971.
+[2] Virginia Braun and Victoria Clarke. 2022. Conceptual and design thinking for
+thematic analysis. Qualitative Psychology 9, 1 (2022), 3.
+[3] Stephen Cave and Kanta Dihal. 2019. Hopes and fears for intelligent machines in
+fiction and reality. Nature machine intelligence 1, 2 (2019), 74–78.
+[4] Pew Research Center. 2025. About a Quarter of US Teens Have Used ChatGPT
+for Schoolwork, Double the Share in 2023. https://www.pewresearch.org/shortreads/2025/01/15/about-a-quarter-of-us-teens-have-used-chatgpt-forschoolwork-double-the-share-in-2023/
+[5] Liuqing Chen, Shuhong Xiao, Yunnong Chen, Yaxuan Song, Ruoyu Wu, and
+Lingyun Sun. 2024. ChatScratch: an AI-Augmented System Toward Autonomous
+Visual Programming Learning for Children Aged 6-12. In Proceedings of the 2024
+CHI Conference on Human Factors in Computing Systems (Honolulu, HI, USA)
+(CHI ’24). Association for Computing Machinery, New York, NY, USA, Article
+649, 19 pages. https://doi.org/10.1145/3613904.3642229
+[6] Gail Collyer-Hoar, Elisa Rubegni, Laura Malinverni, and Jason Yip. 2024. " It’s
+kind of weird talking to a sphere": Exploring Children’s Hopes and Fears on
+Social Robot Morphology Using Speculative Research Methods. In Proceedings of
+the 2024 ACM Designing Interactive Systems Conference. 276–288.
+[7] Aayushi Dangol, Aaleyah Lewis, Hyewon Suh, Xuesi Hong, Hedda Meadan,
+James Fogarty, and Julie A Kientz. 2025. “I Want to Think Like an SLP”: A Design
+Exploration of AI-Supported Home Practice in Speech Therapy. In Proceedings of
+the 2025 CHI Conference on Human Factors in Computing Systems. 1–21.
+[8] Aayushi Dangol, Michele Newman, Robert Wolfe, Jin Ha Lee, Julie A Kientz,
+Jason Yip, and Caroline Pitt. 2024. Mediating Culture: Cultivating Socio-cultural
+Understanding of AI in Children through Participatory Design. In Proceedings of
+the 2024 ACM Designing Interactive Systems Conference. 1805–1822.
+[9] Aayushi Dangol, Robert Wolfe, Runhua Zhao, JaeWon Kim, Trushaa Ramanan,
+Katie Davis, and Julie A. Kientz. 2025. Children’s Mental Models of AI Reasoning:
+Implications for AI Literacy Education. In Proceedings of the Interaction Design and
+Children Conference (IDC ’25). Association for Computing Machinery, Reykjavik,
+Iceland, 18. https://doi.org/10.1145/3713043.3728856
+[10] Aayushi Dangol, Runhua Zhao, Robert Wolfe, Trushaa Ramanan, Julie A. Kientz,
+and Jason Yip. 2025. “AI just keeps guessing”: Using ARC Puzzles to Help Children
+
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+
+Identify Reasoning Errors in Generative AI. In Proceedings of the Interaction
+Design and Children Conference (IDC ’25). Association for Computing Machinery,
+Reykjavik, Iceland. https://doi.org/10.1145/3713043.3728836
+[11] Griffin Dietz, Joseph Outa, Lauren Lowe, James A Landay, and Hyowon Gweon.
+2023. Theory of AI Mind: How adults and children reason about the“mental
+states”of conversational AI. In Proceedings of the Annual Meeting of the Cognitive
+Science Society, Vol. 45.
+[12] Riddhi Divanji, Aayushi Dangol, Ella J Lombard, Katharine Chen, and Jennifer D
+Rubin. 2024. Togethertales RPG: Prosocial skill development through digitally
+mediated collaborative role-playing. In Proceedings of the 23rd Annual ACM
+Interaction Design and Children Conference. 1012–1015.
+[13] Min Fan, Xinyue Cui, Jing Hao, Renxuan Ye, Wanqing Ma, Xin Tong, and Meng
+Li. 2024. StoryPrompt: Exploring the Design Space of an AI-Empowered Creative
+Storytelling System for Elementary Children. In Extended Abstracts of the CHI
+Conference on Human Factors in Computing Systems. 1–8.
+[14] Teresa Margaret Flanagan. 2023. GROWING UP IN THE DIGITAL AGE: INVESTIGATING CHILDREN’S USE, JUDGMENT, AND ENGAGEMENT WITH INTERACTIVE TECHNOLOGIES. Ph. D. Dissertation. Cornell University.
+[15] Shuchi Grover. 2024. Teaching AI to K-12 Learners: Lessons, Issues, and Guidance. In Proceedings of the 55th ACM Technical Symposium on Computer Science
+Education V. 1 (Portland, OR, USA) (SIGCSE 2024). Association for Computing Machinery, New York, NY, USA, 422–428. https://doi.org/10.1145/3626252.3630937
+[16] Ariel Han and Zhenyao Cai. 2023. Design implications of generative AI systems
+for visual storytelling for young learners. In Proceedings of the 22nd Annual ACM
+Interaction Design and Children Conference. 470–474.
+[17] Eliza Kosoy, Soojin Jeong, Anoop Sinha, Alison Gopnik, and Tanya Kraljic. 2024.
+Children’s Mental Models of Generative Visual and Text Based AI Models. arXiv
+preprint arXiv:2405.13081 (2024).
+[18] Hao-Ping Hank Lee, Advait Sarkar, Lev Tankelevitch, Ian Drosos, Sean Rintel,
+Richard Banks, and Nicholas Wilson. 2025. The Impact of Generative AI on
+Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence
+Effects From a Survey of Knowledge Workers. (2025).
+[19] Aaleyah Lewis, Aayushi Dangol, Hyewon Suh, Abbie Olszewski, James Fogarty,
+and Julie A. Kientz. 2025. Exploring AI-Based Support in Speech-Language
+Pathology for Culturally and Linguistically Diverse Children. In CHI Conference
+on Human Factors in Computing Systems (CHI ’25) (Yokohama, Japan). Association
+for Computing Machinery, ACM, New York, NY, USA. https://doi.org/10.1145/
+3706598.3714131
+[20] Sonia M Livingstone and Alicia Blum-Ross. 2020. Parenting for a digital future:
+How hopes and fears about technology shape children’s lives. Oxford University
+Press.
+[21] Duri Long and Brian Magerko. 2020. What is AI Literacy? Competencies and
+Design Considerations. In Proceedings of the 2020 CHI Conference on Human
+Factors in Computing Systems (Honolulu, HI, USA) (CHI ’20). Association for
+Computing Machinery, New York, NY, USA, 1–16. https://doi.org/10.1145/
+3313831.3376727
+[22] Duri Long, Sophie Rollins, Jasmin Ali-Diaz, Katherine Hancock, Samnang Nuonsinoeun, Jessica Roberts, and Brian Magerko. 2023. Fostering AI Literacy with
+Embodiment & Creativity: From Activity Boxes to Museum Exhibits. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference (Chicago,
+IL, USA) (IDC ’23). Association for Computing Machinery, New York, NY, USA,
+727–731. https://doi.org/10.1145/3585088.3594495
+[23] Emily McReynolds, Sarah Hubbard, Timothy Lau, Aditya Saraf, Maya Cakmak,
+and Franziska Roesner. 2017. Toys that listen: A study of parents, children, and
+internet-connected toys. In Proceedings of the 2017 CHI conference on human
+factors in computing systems. 5197–5207.
+[24] Common Sense Media. 2025.
+New Report Shows Students Are Embracing Artificial Intelligence Despite Lack of Parent Awareness.
+https:
+//www.commonsensemedia.org/press-releases/new-report-shows-studentsare-embracing-artificial-intelligence-despite-lack-of-parent-awareness-and
+Accessed: 2025-01-26.
+[25] Michele Newman, Kaiwen Sun, Ilena B Dalla Gasperina, Grace Y Shin,
+Matthew Kyle Pedraja, Ritesh Kanchi, Maia B Song, Rannie Li, Jin Ha Lee, and
+Jason Yip. 2024. " I want it to talk like Darth Vader": Helping Children Construct Creative Self-Efficacy with Generative AI. In Proceedings of the 2024 CHI
+Conference on Human Factors in Computing Systems. 1–18.
+[26] Junaid Qadir. 2023. Engineering education in the era of ChatGPT: Promise and
+pitfalls of generative AI for education. In 2023 IEEE Global Engineering Education
+Conference (EDUCON). IEEE, 1–9.
+[27] Kai Quander, Tanzila Roushan Milky, Natalie Aponte, Natalia Caceres Carrascal,
+and Julia Woodward. 2024. “Are you smart?”: Children’s Understanding of
+“Smart” Technologies. In Proceedings of the 23rd Annual ACM Interaction Design
+and Children Conference. 625–638.
+[28] Mitchel Resnick. 2024. Generative AI and creative learning: Concerns, opportunities, and choices. (2024).
+[29] Kevin Roose. [n. d.]. Don’t Ban ChatGPT in Schools. Teach With It. The New
+York Times ([n. d.]). https://www.nytimes.com/2023/01/12/technology/chatgptschools-teachers.html
+
+===== PDF PAGE 6 =====
+
+IDC ’25, June 23–26, 2025, Reykjavik, Iceland
+
+[30] Elisa Rubegni, Laura Malinverni, and Jason Yip. 2022. “Don’t let the robots walk
+our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears,
+and hopes in social robots.. In Proceedings of the 21st Annual ACM Interaction
+Design and Children Conference. 352–361.
+[31] Matthijs Smakman, Paul Vogt, and Elly A Konijn. 2021. Moral considerations
+on social robots in education: A multi-stakeholder perspective. Computers &
+Education 174 (2021), 104317.
+[32] Jaemarie Solyst, Ellia Yang, Shixian Xie, Jessica Hammer, Amy Ogan, and Motahhare Eslami. 2024. Children’s Overtrust and Shifting Perspectives of Generative
+AI. arXiv preprint arXiv:2404.14511 (2024).
+[33] Jiahong Su and Weipeng Yang. 2023. Unlocking the power of ChatGPT: A
+framework for applying generative AI in education. ECNU Review of Education 6,
+3 (2023), 355–366.
+[34] Robert Wolfe, Aayushi Dangol, Alexis Hiniker, and Bill Howe. 2024. Dataset Scale
+and Societal Consistency Mediate Facial Impression Bias in Vision-Language
+AI. In Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society, Vol. 7.
+1635–1647.
+[35] Robert Wolfe, Aayushi Dangol, Bill Howe, and Alexis Hiniker. 2024. Representation Bias of Adolescents in AI: A Bilingual, Bicultural Study. In Proceedings of the
+
+Dangol et al.
+
+AAAI/ACM Conference on AI, Ethics, and Society, Vol. 7. 1621–1634.
+[36] Yi Wu. 2023. Integrating generative AI in education: how ChatGPT brings
+challenges for future learning and teaching. Journal of Advanced Research in
+Education 2, 4 (2023), 6–10.
+[37] Jason C Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofiana, Justin Park, and Alexis Hiniker. 2019. Laughing
+is scary, but farting is cute: A conceptual model of children’s perspectives of
+creepy technologies. In Proceedings of the 2019 CHI conference on human factors
+in computing systems. 1–15.
+[38] Chao Zhang, Cheng Yao, Jianhui Liu, Zili Zhou, Weilin Zhang, Lijuan Liu, Fangtian Ying, Yijun Zhao, and Guanyun Wang. 2021. StoryDrawer: A Co-Creative
+Agent Supporting Children’s Storytelling through Collaborative Drawing. In
+Extended Abstracts of the 2021 CHI Conference on Human Factors in Computing
+Systems. 1–6.
+[39] Yijun Zhao, Yiming Cheng, Shiying Ding, Yan Fang, Wei Cao, Ke Liu, and Jiacheng
+Cao. 2024. Magic Camera: An AI Drawing Game Supporting Instantaneous Story
+Creation for Children. In Proceedings of the 23rd Annual ACM Interaction Design
+and Children Conference. 738–743.

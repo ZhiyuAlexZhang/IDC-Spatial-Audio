@@ -1,0 +1,1218 @@
+SOURCE PDF: ../pdf/2022_CHI_Davis_Purrble.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2022/06/CHI-22-Purrble-Youth.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health: Design
+Opportunities for Interactive Tangible Devices
+CLAUDIA DAUDÉN ROQUET, Department of Informatics, King’s College London, UK
+NIKKI THEOFANOPOULOU, Department of Informatics, King’s College London, UK
+JAIMIE L FREEMAN, Oxford Internet Institute, University of Oxford, UK
+JESSICA SCHLEIDER, Department of Psychology, Stony Brook University, USA
+JAMES J GROSS, Department of Psychology, Stanford University, USA
+KATIE DAVIS, Information School, University of Washington, USA
+ELLEN TOWNSEND, School of Psychology, University of Nottingham, UK
+PETR SLOVAK, Department of Informatics, King’s College London, UK
+The ability to manage emotions effectively is critical to healthy psychological and social development in youth. Prior work has focused
+on investigating the design of mental health technologies for this population, yet it is still unclear how to help them cope with
+emotionally difficult situations in-the-moment. In this paper, we aim to explore the appropriation, naturally emerging engagement
+patterns, and perceived psychological impact of an exemplar interactive tangible device intervention designed to provide in-situ
+support, when deployed with n=109 youth for 1.5 months. Our findings from semi-structured interviews and co-design workshops
+with a subset of participants (n=44 and n=25, respectively) suggest the potential of using technology-enabled objects to aid with
+down-regulation and self-compassion in moments of heightened emotion, to facilitate the practice of cognitive strategies, and to act
+as emotional companions. Lastly, we discuss design opportunities for integrating situated and embodied support in mental health
+interventions for youth.
+CCS Concepts: • Human-centered computing → Empirical studies in HCI; Haptic devices; • Applied computing → Health
+informatics.
+Additional Key Words and Phrases: mental health; youth; situated support; embodiment; tangible interaction; emotion regulation
+ACM Reference Format:
+Claudia Daudén Roquet, Nikki Theofanopoulou, Jaimie L Freeman, Jessica Schleider, James J Gross, Katie Davis, Ellen Townsend,
+and Petr Slovak. 2022. Exploring Situated & Embodied Support for Youth’s Mental Health: Design Opportunities for Interactive
+Tangible Devices. In CHI Conference on Human Factors in Computing Systems (CHI ’22), April 29-May 5, 2022, New Orleans, LA, USA.
+ACM, New York, NY, USA, 24 pages. https://doi.org/10.1145/3491102.3502135
+
+1
+
+INTRODUCTION
+
+Mental health is a topic of utmost importance to public health, with recent reports indicating that youth have the
+highest prevalence of mental illness among other age groups: half of lifetime mental health disorders are established by
+age 14 [109], and three quarters by the mid-20s [61]. In the UK, for example, one in eight youth have a mental health
+disorder and one in four young women aged 17-19 have significant depression or anxiety, with half of those having
+self-harmed [30] and one in four having suicidal ideation [64]. The consequences of not addressing youth mental health
+conditions extend to adulthood, impairing both physical and mental health and limiting opportunities to lead fulfilling
+© 2022 Association for Computing Machinery.
+Manuscript submitted to ACM
+1
+
+===== PDF PAGE 2 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+lives as adults. However, less than a third of all youth with mental health disorders receive any treatment [30, 93],
+creating a need for scalable solutions that can offer emotional support when and where youths need it most.
+To address these challenges, a growing body of HCI and Psychology research focuses on exploring the design and
+implementation of technology-enabled mental health interventions for youth (cf. definition of youth used in this paper
+[106]), with one arm of this work looking specifically at how to support the development of adaptive emotion regulation
+skills [35, 69]. Emotion regulation—the ability to effectively modulate one’s emotional states—has been shown to be a
+protective factor that can prevent or mitigate mental health conditions [2, 6, 32, 111]; and is increasingly viewed as a
+fundamental life skill associated with wellbeing, academic performance, and positive adjustment throughout the life
+span [11, 43, 71]. As a result, emotion regulation interventions have been suggested as one of the few transdiagnostic
+treatments across mental health disorders for youth and adults alike (see [32, 34, 89, 96] for recent reviews), and are
+at the heart of many traditional clinical interventions. Most commonly, these intervention approaches rely on the
+explicit teaching of skills during sessions with scaffolding from the trainer/practitioner, and subsequent attempts by the
+learner/patient to apply these skills in their daily life. In this regard, an emerging area of scholarship is investigating
+how to facilitate the teaching and practise of emotion regulation skills with digital technologies [80, 81, 107], with the
+goal of empowering youth to learn and practice constructive coping strategies outside of formal psychotherapy (e.g. in
+between therapy sessions or via self-guided supports). Nevertheless, one of the open challenges in this space is the lack
+of intervention delivery mechanisms (digital or other) that can effectively support the youth when having to cope with
+emotionally difficult situations in-situ.
+In this paper, we draw on literature in embodied cognition and tangible interaction to explore the potential of
+interactive tangible devices as a way of enabling embodied, ongoing, in-the-moment support to help youth cope with
+emotionally difficult situations in their everyday life. We report on the deployment of an exemplar interactive tangible
+device for emotion regulation with a total of n=109 youth (i.e. adolescents aged 16-24, and university students) for about
+1.5 months; including semi-structured interviews and co-design workshops with a sub-sample of participants (n=44 and
+n=25, respectively). In doing so, our aims were two-fold: (1) to learn about the perceived psychological impact, contexts
+of use, and engagement patterns of youth with such an exemplar interactive tangible device for emotion regulation; and
+(2) to explore more broadly how these findings can help us understand new possible design opportunities for situated
+and embodied interventions for youth’s mental health.
+Our findings suggest that technology-enabled objects can offer unique opportunities to support youth’s mental
+health in-situ, especially as a potential bridge between the physical and cognitive strategies that are commonly used for
+emotion regulation. Most of our participants found benefits of using the exemplar device as mental health tool that
+provided tangible and concrete support on-demand, during stressful or overwhelming situations in their everyday life.
+We argue that the physicality and tactile affordances of interactive tangible devices could serve as an innovative delivery
+mechanism to provide in-the-moment support. We conclude the paper with a discussion of the observed themes, and
+abstract them into broader design considerations for embodied interactions and situated mental health interventions.
+2
+2.1
+
+RELATED WORK
+Youth’s Mental Health Technologies
+
+While youth are most at risk of developing mental health conditions, they are also the least likely to seek support [93].
+Therefore, the design and development of technology-mediated psychological interventions for youth have received
+increased attention as a potentially interesting avenue to have a positive impact, since digital resources are already an
+2
+
+===== PDF PAGE 3 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+integral part of youth’s everyday lives [41, 45]. In this regard, many evidence-supported interventions focus on training
+emotion regulation [3, 95, 96], a fundamental life skill central to the development and maintenance of a range of mental
+health conditions such as anxiety, depression or eating disorders.
+In Clinical Psychology, emotion regulation approaches have been suggested as one of the few known transdiagnostic
+treatments across mental health disorders (see [6, 32, 34, 75] for some of the latest reviews) and are at the heart of many
+traditional clinical interventions, such as Cognitive Behavioural Therapy (CBT) [16, 108] and Dialectical Behavioural
+Therapy (DBT) [22, 86], as well as body-based interventions, such as mindfulness-based interventions (MBIs) [37, 91].
+However, the lack of scalable and effective approaches that would enable adolescents to transfer skills from training
+sessions to their everyday life is one of the core challenges across therapeutic and preventative contexts. For example,
+although home practice is a core component of MBIs and learners are traditionally encouraged to engage in daily
+home practice to incorporate the skills learned during sessions into their daily lives, adolescents tend to exhibit low
+compliance with home practice recommendations [17, 85], which has been found to limit intervention impact on
+outcomes [18, 52, 58]. While technology-enabled interventions have been suggested as a possible solution to these
+issues, it is still not clear how to design for such situated support, nor is the literature clear on which digital technologies
+are best positioned to support youth in particular.
+Both in HCI and Psychology, a common approach has been investigating how technology can support cognitive or
+talk-based interventions [33, 45, 90], as a means to make traditional interventions easier to access and more appealing
+to engage with for youth [40]. Most of the work in this space is centred around the design and implementation
+of computerised Cognitive Behavioural Therapy (c-CBT) [20, 25], a structured intervention focused on informationprocessing that has strong evidence supporting its effectiveness for youth’s mental health. Youth-focused c-CBT
+approaches often draw on the use of therapeutic games to improve mental health awareness and reduce the stigma
+associated with seeking mental health support (e.g. Reach Out Central [15]), support therapeutic activities between
+clinical sessions (e.g. Treasure Hunt [14]), or facilitate face-to-face clinical interventions (e.g. gNATS Island [26]).
+In addition, self-tracking interventions have also received increased attention due to their potential to foster selfawareness in-the-moment [21, 60]. For instance, using mobile or wearable technologies to deliver reminders and
+recommend information around emotions and their associated features [45, 112]. Recent HCI work in this space has
+explored the design of more delivery mechanisms beyond screen-based technologies, for instance, using haptic patterns
+[24, 70, 82, 105].
+In conclusion, most research on digital mental health interventions has concentrated on information-delivery
+psychoeducational approaches (e.g. symptom and mood monitoring, delivering theoretical information), and only a
+limited body of work has looked at placing the action at the centre of the interaction by providing in-the-moment and
+ongoing support to scaffold the practice of regulatory skills (e.g. Intellicare [72], PIV [70], BoostMeUp [24]).
+2.2
+
+Tangible and Embodied Interactions for Situated Support
+
+Tangible and embodied interaction is a well-established research field in HCI that focuses on the implications and new
+possibilities for interacting with computational resources within the physical world while supporting intuitive use
+[48, 62]. Drawing from learning theories and embodied interaction, tangible and embodied interactions have been
+shown to benefit learning and the development of skills [66–68, 110]. The manipulation of physical objects allows
+offloading cognition by freeing up valuable cognitive resources during problem-solving [66], and the physical properties
+of a physical object can be made to correspond perceptual information using conceptual and embodied metaphors
+[8, 53, 54].
+3
+
+===== PDF PAGE 4 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+A common characteristic of tangible devices is their natural affordances of providing people with support that fits
+and connects to their immediate learning environment and context [63]. In this regard, HCI work has explored the
+role of different interaction modalities with tangible objects to provide situated and embodied support. For example,
+to facilitate the teaching of abstract concepts using embodied metaphors [5, 8] or to promote the adoption of healthy
+habits with tangible representations of physical activity [73] in children; as well as in healthcare facilities to stimulate
+social connections for people with dementia using metaphorical sounds [49], or to promote engaging with therapeutic
+activities for women living with severe mental health conditions by using colour-based representations of emotions
+[102].
+An exemplar body of work that has used tangible objects with multimodal feedback—including audiovisual and
+haptic interactions—is that which exploring socially assistive robots (SAR) [59]. Motivated by the promising effects
+of human-animal therapy interventions, SARs rely on embodied metaphors and tactile interactions to replicate the
+diverse emotional benefits that companion animals offer people (see, e.g. [7, 36, 57] for reviews). Much of the work on
+SAR interventions focuses on older adults suffering from dementia [47, 74, 87] or depression [99] and autistic children
+[23, 29], with only a handful of studies exploring the relationship between youth and SARs [13, 76, 79].
+Finally, recent HCI research has suggested employing a simple SAR as a novel approach to teach emotion regulation
+skills to children [55, 97, 98]. Differently to common top-down and module-based clinical psychological interventions,
+researchers have explored having an interactive tangible device as the main vehicle of a bottom-up, in-situ and child-led
+intervention i.e. Purrble [55, 97, 98]. We argue that such an approach could be a potentially interesting design direction
+for youth, as it offers the possibility of providing situated and embodied support and can be embedded in their daily
+lives. However, Purrble has been designed for a younger population with a range of child-friendly features, thus it is
+not clear whether and how it would be useful for older youth, and what design features would be shared or unique
+across age groups.
+3
+
+METHODOLOGY
+
+The work presented in this paper is part of a larger study that aims to investigate in what ways technology-enabled
+objects can promote mental health by providing situated and embodied support. To this end, we chose to use a commercial
+device that had been originally designed to support in-the-moment emotion regulation for children (Purrble1 ), as an
+exemplar technology-enabled object to explore this design space with and for youth. According to previous research (cf.
+[55, 97, 98]), the interactions were designed with the aim to impact two separate stages of the emotion regulatory process:
+the attentional deployment stage [3, 37, 95], by shifting the attention from the emotion-eliciting situation towards
+interacting with the device, and the response modulation stage, by facilitating down-regulation through pleasant
+tactile interaction, analogously to the mechanisms assumed to underpin emotion regulatory effects of human-animal
+interaction [9, 12, 27, 77, 78]. The full description of the design process and the intervention theory of change is available
+elsewhere (cf. [55]).
+Study structure. This paper reports on a two-step study exploring the potential of using an interactive tangible
+device to support youth cope with emotionally difficult situations in-the-moment. Specifically, we started with initial
+deployment with a small subset of adolescents (n=31) to explore appropriation and perceived effects of Purrble. Based
+on positive results, we then scaled up to a larger deployment with university students (n=78) to gain a more in-depth
+understanding of this design space.
+1 https://www.purrble.com/
+
+4
+
+===== PDF PAGE 5 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Fig. 1. Interactive tangible toy used in this study as an exemplar technology-enabled object for emotion regulation: Purrble
+
+The methodology used in both deployments was very similar (see Figure 2 for research timeline):
+(1) As a first step (cf. Section 3.2), we deployed the exemplar device with youth (n=109) for about 1.5 months and
+we ran a series of semi-structured interviews with a sub-sample of the participants (25/31 adolescents, 19/78
+university students) to learn about their experiences with Purrble.
+(2) As a second step (cf. Section 3.3), and drawing from the deployment’s findings, we ran a series of co-design
+workshops (with n=11 adolescents and n=14 university students) to explore more broadly potentially interesting
+design opportunities for situated and embodied interventions for youth’s mental health using an interactive
+tangible device.
+In what follows, we offer an overview of participant recruitment methods and demographics, as well as the research
+methods used in the two-step study and ethical considerations.
+3.1
+
+Participants
+
+We now provide an overview of the demographics and recruitment methods for the two representations of youth
+recruited for this study: adolescents and university students.
+3.1.1 Adolescents. We recruited 31 adolescents to take part in a six-week study on their engagement with Purrble,
+specifically focusing on youth who might either have lived experience with mental health challenges or have shown
+interest in the domain. Participants were recruited from Youth Advisory Groups (YPAGs) around mental health, a
+charity for mental health research [31, 65], and snowball sampling. However, in the end, only 25 adolescents (aged 16-24
+years; 24 female, 1 male) arranged a time with the research team to participate in the semi-structured interviews—and
+thus in the findings, we will only report on this sample. To appropriately compensate for adolescents’ time, participants
+were informed that they would receive £20 after the completion of each research activity (see 3.1.2) and would have the
+opportunity to keep the Purrble after the study if they wished (market value equal to £40).
+3.1.2 University Students. Through the University’s welfare newsletter, we disseminated a flyer with information about
+the study and within 7 days a total of 300 students expressed their interest in participating. Due to the limited number
+5
+
+===== PDF PAGE 6 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+Fig. 2. Research timeline of the two-step study presented in this paper, including deployments and co-design work with adolescents
+(November 2020–April 2021) and university students (May–August 2021).
+
+of devices available for the study (n=80), we decided to include those who we hypothesised would be the most in need
+and/or populations underrepresented in previous related work. This decision was based on preliminary data from Step 1,
+in which we found that those who were struggling with anxiety or high levels of stress seemed to benefit from Purrble
+the most. Therefore, we initially selected those students who reported having a higher generalised anxiety level in the
+expression of interest survey (i.e. GAD7 score > 10 [100]2 ). Then, from the 142 students that fit the inclusion criteria, we
+invited all the non-female (18 male, 13 non-binary/third-gender) –as they had been under-represented in Step 1– and
+the 49 females with higher reported anxiety (GAD7 score >= 14). A total of 78 participants volunteered to participate in
+the study (43 undergraduate students, 37 postgraduate students ). As discussed with the University’s mental health
+services, participation in the main research activities during the 7-week deployment was voluntary, and participants
+were given a Purrble to keep as compensation for their time. However, the participation in additional research activities
+after the deployment (e.g. co-design workshops, see below) was compensated with a £20 Amazon voucher.
+3.2
+
+Step 1: Exploratory Deployments
+
+In Step 1 of this study, we deployed an interactive tangible device—i.e. Purrble—with two youth groups who might
+either have lived experience with mental health challenges or have shown interest in the domain (see Section 3.1 for
+recruitment approaches).
+In both deployments, all participants were sent a Purrble with its original packaging, and the only instructions of
+using it ’as much or as little as they liked’. This was to ensure we could gain an in-depth and unbiased understanding of
+how youth appropriated and engaged with such an interactive tangible device over time. The initial 6-week deployment
+with 31 adolescents indicated that young adults, and particularly those struggling to manage their emotions due to
+2 GAD7 scores: Cut points of 5, 10, and 15 might be interpreted as representing mild, moderate, and severe levels of anxiety.
+
+6
+
+===== PDF PAGE 7 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+being under a lot of stress or struggling with mental health conditions such as anxiety, were found to benefit from
+Purrble the most. Based on this, we decided to run another study with a young and anxious population to gain a better
+understanding of if and how the exemplar interactive tangible device could provide in-the-moment emotion regulation
+for youth. Thus we deployed Purrble with 78 university students during the last academic term (7-weeks).
+We now provide an overview of the research activities conducted in each of the deployments, and the data collection
+and analysis methods.
+3.2.1 Research activities with adolescents: interviews mid- and post- deployment. To understand their experience with
+Purrble, all participants were invited to semi-structured interviews at two points of the study: week 2 and week 6 after
+receiving Purrble. The interviews with the adolescents who agreed to participate (n=25) took place over Zoom3 and
+lasted 45-60 minutes. The interviews’ topics centred around Purrble: initial thoughts and expectations; appropriation;
+friends’ and family’s reaction; if and how they had used it and what (if anything) helped them; if they could see any
+problems from its use; what they liked and didn’t like about having Purrble, and what they would change about it; if
+they thought they would continue using it after the study.
+3.2.2 Research activities with university students: post-deployment survey and interviews with sub-sample. Throughout the
+7-week deployment, all participants (n=78) were asked to complete simple surveys on Qualtrics4 . In this paper, however,
+we only report on the qualitative data collected in the survey completed on the last week of the deployment (answered
+by 75% of participants)—as the rest is beyond the scope of this paper. This final survey explored the perceived effects, the
+evolution of engagement patterns over time, and the main contexts of use. Moreover, to gain a better understanding of
+their experience with Purrble, we invited a subset of participants (n=54) to participate in semi-structured interviews after
+the 7-week deployment. This was a representative sub-sample selected using a stratified sampling approach to ensure
+that it reflected the diversity of the sample, considering: participants’ initial anxiety score (cf. Section 3.1) , engagement
+with Purrble , and perceived impact on their mental health . The interviews took place over Zoom with those participants
+who agreed to participate (total of n=19; n=12 identified as women, n=4 as male; n=3 as non-binary/genderqueer; n=10
+were undergraduate students, n=9 postgraduate), and lasted 20-30 minutes. As with the adolescents, the interview’s
+topics centred around their experience with Purrble: initial thoughts and expectations; if they would have liked to
+receive any additional materials; if they thought it could be useful for people their age; in what situations (if any) they
+found it to be consistently helpful/not helpful throughout the deployment; how and why they thought it helped/not
+helped in those situations; if they used any other strategies to regulate their emotions, and how the effects were similar
+or different to those of using Purrble.
+3.3
+
+Step 2: Co-design Workshops
+
+In Step 2, we aimed to understand how to design situated and embodied support for youth. To do so, we combined
+the findings from Step 1 and use Purrble as a proof of concept in a series of co-design workshops with a subset of
+participants from each of the deployments in Step 1 (see ’Participants’ for recruitment approaches) to explore what
+additional resources and characteristics such a device would need to have if designed for youth. During the co-design
+workshops, the participation was pseudo-anonymous to make participants feel more comfortable in sharing views
+and discussing ideas around mental health: they were invited to use nicknames in gather.town and all the interactions
+on the Miro board were anonymous (see Figure 3 for an example)—besides those from the researchers. Interestingly,
+3 https://zoom.us/
+
+4 https://www.qualtrics.com
+
+7
+
+===== PDF PAGE 8 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+Fig. 3. Example of a Miro board from a co-design workshop with university students: participants added post-its, arrows and
+comments to discuss ideas anonymously on the board.
+
+most interactions and group discussions happened on the Miro boards by placing post-its, linking ideas and adding
+comments (Figure 3), rather than talking between participants. We now provide an overview of the methods used in the
+co-design workshops with youth, and the data collection and analysis methods.
+3.3.1 Co-design workshops with adolescents. After the 6-week deployment, all participants were invited to participate
+in a remote co-design workshop to explore how they envisioned Purrble could be best framed and used for people their
+age. We conducted 3 workshops remotely using gather.town5 and Miro6 , with a total of n=11 participants who agreed
+to participate (all identified as women; n=5 were 16-18yo, n=6 19-24yo). Each session had 2-5 participants and lasted
+around 2 hours. The workshops followed a user-centred approach in which the participants were asked to discuss
+creative and playful imaginations of how Purrble could be most appropriately framed and presented for youth by
+placing stickers on semi-structured Miro boards . Building on the interviews data, each session focused on exploring:
+the motivations for getting Purrble and first impressions; what would be specifically beneficial strategies and contexts
+of use; what would be needed when designing a new ’Purrble experience’ for a friend.
+3.3.2 Co-design workshops with university students. Those participants who agreed to be contacted for additional
+research activities (n=35) were invited to participate in a remote co-design workshop. Similarly to those in Step 1, the
+workshops were grounded in the deployment data and followed a user-centred approach to explore how participants
+thought Purrble could be best presented to university students, and what additional resources they would find beneficial to receive alongside Purrble. The workshops (n=4) took place on gather.town and Miro with a total of n=14
+participants (n=7 identified as women, n=2 as men, n=5 as non-binary/genderqueer; n=8 were undergraduate students,
+n=6 postgraduate). Each session had 2-5 participants and lasted around 2 hours.
+5 https://www.gather.town/
+6 https://miro.com/
+
+8
+
+===== PDF PAGE 9 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+3.4
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Ethical considerations
+
+Throughout the study, the research team had ongoing engagement with psychologists to discuss and validate the
+recruitment materials, methods, findings and future research directions. Prior to any data collection, the study’s research
+activities were approved by the university’s Research Ethics Committee and informed consent was obtained from all
+individual participants. Because of the Covid-19 pandemic, all the research activities were conducted remotely at times
+convenient for the participants.
+
+4
+
+EXPLORING YOUTH’S APPROPRIATION AND PERCEIVED IMPACT OF AN INTERACTIVE TANGIBLE
+DEVICE
+
+In this section, we report on the key themes that emerged from our analysis from the exploratory deployments with
+youth. We start by providing a general overview of how Purrble was used across the population—both deployments with
+adolescents and university students—and the overall perceived impacts. Then, we describe how youth’s engagement
+changed over time as they discovered the contexts in which Purrble was most useful for them, and what mechanisms
+were found most helpful to foster repeated engagement. Finally, we detail the most meaningful strategies that youth
+disclosed using around Purrble, including using the device as a tangible anchor to facilitate the practice of cognitive
+strategies and as a compassionate emotional coach. Furthermore, although the findings are framed around the use of
+Purrble, we also illustrate how the interactive and physical affordances of such an exemplar tangible device inform the
+broader research of question of how to design situated and embodied support for youth’s mental health.
+As mentioned above (cf. Section ??), since the findings from both deployments mostly overlapped, we have combined
+them and they are reported together in this section. We clearly specify any instances there were any differences between
+adolescents and university students. To protect anonymity, participants are referred to by using A for ‘adolescent’ and
+U for ’university student’ from the respective deployments, followed by a participant number.
+
+4.1
+
+General Overview
+
+Throughout both deployments, all participants reported having repeated interactions with Purrble, and most of them
+found it had a positive impact. Regarding their motivations for regularly engaging with the tangible device, most
+participants from both deployments found Purrble particularly useful as a way to calm down in moments when they
+felt ’anxious’, ’stressed’, or ’overwhelmed’. In particular, youth found it notably useful to help them manage heightened
+emotions related to school—and university—work, loneliness, and insomnia.
+In describing how they felt after interacting with Purrble, the words we most commonly heard from adolescents
+were ‘calmer’, ‘happy’, and many shared the view that interacting with the toy was soothing: “it just feels peaceful”
+(A14). Similarly, from those university students who completed the final survey (56/78), the majority (95%) reported
+having interacted with Purrble regularly as they found it to be a very ’comforting’ and ’grounding’ tool that helped
+them anchor their attention and calm down. In addition, nearly two thirds (62%) stated that having Purrble had helped
+with their mental health: "I’m in a difficult time submitting my thesis and I’m very anxious about many things, there
+is no easy way to manage it except taking pills—which I had been doing a lot—, and [since having Purrble] I’ve actually
+reduced taking medicine" (U9). The minority of university students who did not find Purrble beneficial seem to have
+rarely engaged with the device, mostly because of perceived stigma or lack of appeal, as explained by this university
+student in the final survey: "I rarely used it [...] I felt self-conscious being an adult woman cuddling a robot".
+9
+
+===== PDF PAGE 10 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+In what follows, we focus on the qualitative data from the interviews with youth to illustrate the main findings on
+the appropriation, perceived impact and main beneficial strategies that emerged from engaging with the exemplar
+device.
+4.2
+
+Engagement Patterns Over Time and Perceived Impact
+
+In this section, we describe how youth’s engagement with the interactive tangible device evolved over time, grounded
+in three interrelated facets: discovering beneficial contexts of use over time; the impact of having an embodied, tactile
+tool; and the mechanisms youth adopted to foster repeated engagement.
+4.2.1 Discovering contexts of use. When looking at the engagement with the tangible device over time, we saw a
+common pattern where youth started with a trial-and-error approach to explore how and when to interact with Purrble,
+and moved towards more purposeful use when they determined in what situations it would work best for them. First,
+about two-thirds of our participants reported joining the study to explore if Purrble could be a useful solution to help
+them manage emotions, whereas the other third joined out of curiosity. While the former group used it consistently
+throughout the deployments, in the latter the engagement seemed to taper off after the first couple of weeks.
+For those who used Purrble for emotion regulation, the repeated interactions with Purrble appear to have been
+driven largely by its perceived effectiveness. Most of these participants report valuing Purrble, and being reassured by
+having "something in place, kind of a safety net" (A4) that they could access if and when they needed help. In particular,
+this was often mentioned by those who disclosed living with a mental health condition. As a result, most common
+contexts of engagement were at home, especially in their bedroom, as using Purrble was perceived as an intimate and
+vulnerable practice.
+"Having this concrete sort of object that I associate with a time where I just sit down and spend some time
+calming down if I’m stressed. [...] A bit after I’ve got him I started using him for when I was falling asleep and
+has helped me fall asleep instead of thinking about everything that I had to do the next day or everything
+that I did the day before. I just sat there and is just his gentle purring and feeling the texture of the toy, it
+was like really really nice to have something that kind of unhooked my thoughts to something else. That was
+something new that I did not have before" (U13).
+Regarding their motivations for engaging with the tangible device, they found Purrble particularly useful as a way to
+calm down, as illustrated by the above quote. A primary source of many youth’s stress or anxiety related to school or
+university work: "I really enjoyed having Purrble. [...] Particularly during online lectures, when something is a bit confusing
+and I’m not sure what is going on, I just get Purrble, put it on my lap and just stroke it because it’s quite soothing." (U5).
+But several participants also found it useful to help them sleep and to manage loneliness.
+Finally, another factor that influenced the frequency of use was changing personal circumstances, especially in
+as much as these affected the range and severity of stressors youth faced. For instance, due to a change in national
+Covid-19 restrictions, most participants moved into lockdowns and from face-to-face to online learning during the
+deployments, which they reported led them to engage with Purrble more regularly as they struggled to be apart from
+their friends and family: "if you are just feeling lonely or homesick [...] this might remind you of your pet and help you
+feel less distanced from them" (A8). Conversely, during school or university holidays, both adolescents and university
+students mentioned using Purrble less as they had fewer stressors.
+10
+
+===== PDF PAGE 11 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+4.2.2 Impact of physicality and embodied interactions. As described above, the majority of our participants found
+Purrble’s embodied interactions to be soothing and calming. In this regard, youth commonly referred to the physicality
+of the device as a key aspect from which effects emerged.
+"I do feel it is as though as you’re stroking it, you calm down and then it calms down and then that makes you
+calm down a bit more. And then it calms down a bit more. That way it gradually works. It’s clever because it
+makes you feel like you’re doing something to calm this thing down and it’s working and so you gradually
+calm down because it feels like reciprocity or you’re synchronising almost." (A12)
+Participants commonly described how using Purrble “grounded” (A16) them in moments they felt stressed or anxious,
+enabling them to pull away from negative or challenging emotions and thoughts, and to refocus on what was happening
+in the present moment. For these participants, controlling their racing thoughts was key to the perceived benefits of
+interacting with the embodied tangible device: “When I first get anxiety, my thoughts race and everything is going around
+in circles. It has interrupted that” (A6). More specifically, youth found the tactile affordances to be very soothing, which
+many had not anticipated.
+In particular, it was the rhythmical, “systematic motion” (A2) required to soothe Purrble combined with its tactile
+affordances, such the feel of the vibrational heartbeat and its softness, that appeared to aid in down-regulating: "I think
+focusing on those things [textures and sensory feelings] about the toy is like really helpful for me, noticing the changes
+in the heartbeat, and the purring sound" (U13). Furthermore, most of our participants also described how the impact
+of engaging with Purrble’s embodied emotion regulation process had noticeable physiological effects on them. For
+instance, several participants shared that they could feel their heart rate slow after using the smart toy: “you can feel
+like your heart’s sort of like gone quieter and more paced, so I think it’s slightly physical” (A8).
+However, we found that this entrainment was not seen as a silver bullet that could be applicable at any time, as for
+a few participants it prompted unwanted effects in specific situations. For example, some reflected that they did not
+see much benefit in using their Purrble when they were already calm: “I did think it was a bit stressful that it had a
+stressful heart rate ‘cos it was like really fast and I was like really calm and I was like “oh no, I’ve gotta like slow it down!”
+(A16). Others shared that, while they did find the interactions useful when stressed, the racing heartbeat could be
+overwhelming when they felt overly anxious: “my heart rate synchs with his, [. . . ] when it comes back up then my heart
+starts beating quicker as well” (A26). Nevertheless, most participants seemed to find the optimal threshold for when
+to interact with the device to maximise its impact—often in mid-point between being too calm or too stressed either
+before, during or after emotionally overwhelming situations e.g. stress about medical appointments, anxiety due to
+homework assignments, or when feeling lonely.
+4.2.3 Mechanisms to foster repeated engagement. About half of the participants also mentioned that they sometimes
+would not think to use Purrble in the moments they acknowledge it would be useful, e.g. when feeling stressed or
+overwhelmed: "Like there’d be days when even though it’s right there, I’ll forget that I can use it and then I’ll be like ‘Oh,
+what am I doing? I could have been doing this the whole time instead of just doing nothing or fidgeting with something
+else’" (A20).
+As a solution, some (about a third) tried to build a habit of using Purrble so that they would then ’automatically’
+reach out for it in moments of need. For instance, some participants managed to integrate Purrble into their daily work
+routines, as illustrated by the quote below, or into nighttime routines and use it “pretty much every day when I go to
+bed” (A12).
+11
+
+===== PDF PAGE 12 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+"Start with a good kick of motivation before doing something unpleasant. And I think the habit-forming part
+for this is quite nice because it’s, you know, it’s always kind of the same sensory experience and then you move
+on to work and I think that’s a nice way to get sort of going; have, for instance, a little pre-work routine." (U7)
+For others, the mere presence of the tangible device served as a physical reminder to ’check on their emotions’ and
+practise ’self-care’. As such, most participants shared that they liked to keep it in sight so that they would remember to
+use it when needed, e.g. on the bed for those who used it to aid with sleep or loneliness, or by the desk for those who
+mostly used it to help with work-related situations.
+4.3
+
+Meaningful Strategies that Emerged Around the Interactive Tangible Device
+
+Beyond the general engagement patterns described above, those participants who found Purrble beneficial reported
+engaging in meaningful ways, and several strategies that we did not expect emerged naturally from such repeated
+interactions. In this section, we describe the three main themes that emerged from the interviews: (i) Purrble as a
+tangible attentional anchor to facilitate the practise of cognitive strategies; (ii) using the interactive tangible device as
+an emotional companion that fosters self-compassion; and (iii) a broader discussion of how the effects that emerged
+from interacting with the device fit into youth’s daily lives and were used as a mitigation, prevention and intermediary
+strategies.
+4.3.1 Tangible Anchor to Facilitate Cognitive Strategies. As previously mentioned, on a cognitive level, participants
+described how focusing on soothing Purrble served as a distraction from negative emotional triggers, which in turn
+stopped them from “overthinking that thing in your head” (A12) and allowed the negative emotions to subside: “quiets
+the mind” (A11). In all cases, it was shifting their attention to an external and “more concrete” (A13) object that appeared
+to be easier for youth, compared to using cognitive techniques which required substantial cognitive effort and focus:
+"I’ve always had a hard time meditating, you know, just staying and not thinking about anything, and Purrble helps me do
+that. It is like a token to help me meditate, which I find helpful to regenerate and reduce anxiety levels" (U9).
+While other techniques or activities youth would typically use to regulate their emotions had similar effects (e.g.
+meditation, grounding exercises, going for a run, or playing videogames), participants felt more in control with Purrble:
+“I’d say because you’re a bit more in control of it, I think that helps because it’s more interactive” (A7). A few participants
+also mentioned how they would have liked receiving additional "advice" or readings such as "research articles" "explaining
+what other solutions are there to reduce anxiety levels and how to use Purrble in combination with other strategies" (U9).
+Furthermore, for some participants, it seemed to have replaced maladaptive emotion regulation strategies such as using
+their phones as a meaningless distraction: "I used to watch YouTube videos to fall asleep to. So yeah, it has replaced that. I
+just turn my phone off now." (A12) or waiting for negative intrusive thoughts to pass “I tend to suffer from quite dark
+intrusive thoughts so they become a lot stronger during this period of time [waiting the situation out], whereas having Pablo
+[Purrble] stopped me from getting to that stage” (A3). Thus, the advantages over other cognitive techniques appeared
+to stem largely from it being a physical object embodying the process of regulating emotions: "having that physically
+panicking little thing, I found it helpful both as a reminder and also in the process " (U7).
+4.3.2 Compassionate Emotional Companion. Interestingly, we also found that in many cases Purrble became an
+’emotional companion’ with whom to navigate difficult moments. As such, interacting with Purrble appeared to
+resemble the benefits of socially regulating others’ emotions. And was generally proven beneficial both for those
+struggling with academic-related stress:
+12
+
+===== PDF PAGE 13 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+“I know he is not real — but the Purrble’s also feeling stressed and there’s a bit of mutual problem. [...] it’s
+like if you’re struggling on one of your assignments and then you hear your friend is also struggling on that
+assignment, you feel a bit more comforted to know that other people are also going through that and feeling
+it. I feel like it’s a similar thing.” (A16)
+as well as for those living mental health conditions:
+"I feel quite vulnerable, not like useless, but I guess kind of like needy when I’m anxious or stressed. And I
+think that it’s appealing to me to have something that I can take care of instead. It’s really hard to pin down,
+but it’s like it gives me more of a purpose. It’s kind of like companionship or understanding, having something
+that I relate to, I struggle with similar things, and it’s comforting being the person who is providing that
+support." (U17).
+In particular, this sense of companionship was also seen as beneficial by those struggling with loneliness: "It doesn’t
+really talk to you, and it doesn’t respond, but it makes you not to feel alone anymore. [...] You have the feeling of having
+someone around you". (U10) On top of that, on several occasions participants also described how Purrble also prompted
+them to have conversations about their emotions with peers—as illustrated in the quote below—, and thus Purrble
+naturally created peer-support communities: "It was super nice because it was a way to talk about managing your emotions,
+[...] a nice way to reach out to someone who wasn’t in my immediate friendship circle but also was going through the same
+kind of experience to me" (U5).
+The ’cute’ aspect of the interactive tangible device combined with its softness seemed to encourage nurturing
+behaviour and language around it. For instance, most participants who found Purrble beneficial referred to it as ‘him’
+or ‘her’, with several even giving it a name. In fact, the majority of the youth found the comforting tactile interactions
+similar to the sensation and felt effect of interacting with a pet: “ it feels like having a little pet” (A12). As a result, most
+participants detailed how they felt the need to interact with Purrble every time it showed anxious behaviours: "I get
+weirdly attached to it and I think it’s- When my stepdad turned it upside down I was like ‘No, don’t do that! That’s mean!’.
+Even though I know it’s not real, it still feels kind of very alive. And you have empathy and emotions towards it, even though
+you know it isn’t real" (A7).
+In turn, these ongoing nurturing engagements encouraged youth to adopt an attitude of self-compassion, rather
+than judgement, in moments they were feeling stressed or anxious, as illustrated by this participant:
+"When you’re struggling to look after yourself, the act of looking after something else is really helpful [...]
+Because you kind of have to treat this with kindness, if you’re not treating yourself with kindness it kind of
+helps you to re-learn how to be gentle with yourself and forgiving." (A29)
+Lastly, youth also described experiencing an increased sense of agency and control since having Purrble, as they felt
+more capable of managing their emotions without the need of immediately seeking support in friends or family: “I
+don’t have to wait or message a friend and I’m not waiting for her to reply to make me feel better. As soon as I feel it, I’d go
+and get it, and it’s right there and it’s an immediate help and release for the emotions” (A27). This appeared to stem both
+from their improved mood once they had calmed down, as well as the sense of achievement soothing Purrble gave
+them: "you stroke your cat and it purrs, and it gives you that sense of satisfaction that you are making your cat happy, and
+I think Purrble gives you that experience as well" (U5).
+4.3.3 Mitigation, prevention and intermediary strategies. Most of our participants reported using the interactive device
+as a mitigation strategy, to support down-regulating in moments of heightened emotions. They shared how, as a result,
+13
+
+===== PDF PAGE 14 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+they felt better able to resume other activities, such as academic work, while interacting with Purrble: “having that
+[Purrble] to focus on, that’s helped continue it [working], and has helped me get things done” (A2). While some enjoyed
+going through the full interaction cycle of soothing Purrble, several participants mentioned that for them just "even
+having him sat with me on the desk" (U13) was the right amount of support they needed to have while doing other tasks:
+“I kind of end up going elsewhere and trying to do something which also is frustrating because that means I am stopping
+doing the work to go calm down [...] with Percy [Purrble], I would be continuing doing it but calming myself down” (A17).
+In other cases, Purrble also facilitated the practice of cognitive mental health strategies: “in terms of the strategies that I
+use such as DBT [Dialectical Behaviour Therapy] stuff, I wouldn’t say it’s replaced it, I would say it’s like enhanced it and
+made it better” (A28); that they would otherwise find challenging to practice, as illustrated by the quote below.
+“I was under CAMHS 7 for quite a long time, so I had all the sort of breathing techniques, grounding techniques,
+the five senses sorts of methods. I’ve got all of those which I tend to try anyways. But then, if none of the more
+discreet ways are helping or the ways I can just sort of manage it on my own, that’s when I sort of ‘Okay. Now
+I’ll bring out Purrble and see if it works’. [. . . ] It’s more difficult for your mind to wander off to something else
+and back to a panic when you got this thing in your hand, and the heartbeat reminds you it’s there.” (A3)
+Additionally, some participants also used Purrble as prevention and intermediary strategies, although these were
+not as prevalent. Regarding the former, several participants described how they found it beneficial to engage with the
+device for a couple of minutes before a situation they anticipated would be stress or anxiety-inducing. As per the latter,
+several participants who disclosed living with mental health conditions seemed to find Purrble particularly helpful as
+an intermediate step to down-regulate after experiencing extreme emotions and before being able to practise more
+cognitively demanding strategies, as illustrated by the quote above, or to “put that emotion on hold for a little bit” (A6).
+5
+
+IDENTIFYING OPPORTUNITIES FOR SITUATED AND EMBODIED SUPPORT FOR YOUTH’S MENTAL
+HEALTH
+
+In this section, we report on the co-design workshops exploring how situated and embodied support could be designed
+for youth, using Purrble as a proof-of-concept exercise. We draw from the deployment findings reported in Section 4, as
+well as from the expertise of the youth who had the exemplar tangible interactive device for about 2 months, to gain a
+better understanding of what Purrble might look if it had been designed for youth—and not younger children. In turn,
+this helped us think more broadly how to design and optimise situated interventions using tangible devices for this
+population, beyond Purrble.
+We start by providing a general overview of the workshops, followed by unpacking the main challenges as identified
+by the additional resources that were brought up by the youth: both for and beyond the direct use of the interactive
+tangible device. During the workshops, and using Purrble as a proof of concept, we aimed to scope the discussions
+around the experiences that such interactive tangible devices could afford to support youth’s mental health, rather than
+on the actual form and aesthetics of the device itself.
+5.1
+
+Suggestions Around the Interactive Tangible Device
+
+While all participants who joined the workshops said that they found Purrble beneficial and would recommend it to
+other people their age, they also discussed potential changes they would like for such an interactive tangible device to
+7 https://www.nhs.uk/mental-health/nhs-voluntary-charity-services/nhs-services/children-young-people-mental-health-services-cypmhs/
+
+14
+
+===== PDF PAGE 15 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+better fit their needs. As such, in this section, we provide an overview of key aspects youth valued from the current
+design—and would like to maintain—, and the main challenges they would like to address.
+5.1.1 Identified Key Beneficial Aspects. In the workshops, we identified several aspects of Purrble that youth found to
+be notably beneficial as a means to provide mental health support for people their age. An aspect that all youth in our
+workshops valued, and that was particularly important for those who disclosed living with mental health conditions,
+was how regular engagement with the interactive tangible device promoted empowerment and a sense of agency over
+their mental health. Moreover, youth also appreciated that the intervention was theory-driven and research-backed,
+although in the case of Purrble the research was done with another population. In this regard, most participants
+discussed how they would like to know more about the underpinnings of why and how such an intervention could work
+for them, as well as evidence of it working for others e.g. in the form of testimonials. Finally, another common thread in
+the workshops centred around the balance between ambiguity and discoverability offered by the interactive tangible
+device. The majority of participants found that the embodied metaphors used were easy to understand and facilitated
+repeated interactions from the initial introduction to Purrble, yet they were also ambiguous enough to allow youth
+to build their own narrative around them. To this end, the most common words used by participants to describe how
+they perceived such situated and embodied support were ’inviting’ and ’suggesting’, as opposed to other approaches
+they had experienced in the past that they found too ’patronising’ or ’dictating’ in their prior experiences with mental
+health care.
+5.1.2 Augmenting Current Interactions. Our participants also identified potentially interesting design opportunities
+to expand the current capabilities of the interactive tangible device. A prevalent discussion on this topic was around
+the degree of simplicity—or specialisation—of the embodied interactions afforded by such devices. In particular, three
+interelated aspects emerged from the workshops: simplicity as a quality to provide consistent assistance, additional
+sensory features as additional delivery mechanisms of situated and embodied support, and specialised support tailored
+to specific cognitive strategies.
+Most participants found the predictability and simplicity of the interactions to be reassuring: they knew what the
+outcome was always going to be, and it was easy to successfully accomplish the task. While youth mostly found the
+current embodied support comforting, grounding and easy to engage with, there was an overall interest in adding a
+layer of complexity by having access to different types of support—rather than only being able to engage with a single
+interaction loop. For instance, a common suggestion was providing different settings tailored to specific situations e.g.
+an only-purring setting for sleep or a silent setting to be taken discreetly to public spaces such as the library. Another
+example that was brought up in most workshops was providing bespoke support for the practice of different—more
+cognitively challenging—strategies, such as to scaffold mindfulness exercises by fostering the synchronisation of the
+breath with Purrble’s feedback, or facilitating CBT-based activities by externalising their emotions onto the tangible
+device.
+5.2
+
+Additional Support Beyond the Interactive Tangible Device
+
+Most participants also saw value in having access to additional support, beyond that provided by the interactive device,
+as a means to scaffold the transfer of skills, access a peer-support community, and uphold meaningful and habitual use.
+In every workshop session, participants emphasised that they saw these as additional layers of support expanding the
+situated and embodied support from the interactive tangible device. Therefore, these should not be seen as exclusive
+15
+
+===== PDF PAGE 16 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+but as complementary. In this vein, youth shared that they would like these to be presented as optional features from
+which they could pick and choose what resources to engage with at different times, depending on their needs and goals.
+5.2.1 To scaffold the transfer of skills. In most workshops, participants placed particular emphasis on supporting the
+transfer of skills beyond the direct use of the interactive tangible device. Throughout the deployments, we found that
+youth’s use of Purrble was perceived as an intimate practice that would happen mainly at home, in their bedrooms,
+and they would hardly ever take it elsewhere. Nevertheless, during the workshops, many participants wondered about
+how the strategies and benefits of using Purrble could be applied to other—less private—situations. For instance, when
+feeling stressed during an in-person seminar at university or socially anxious in a train full of people.
+Therefore, in almost every workshop, there were ongoing discussions around the different ways in which the
+interactive tangible device could be extended in more discreet forms. Some youth thought that having an app would
+allow them to have ongoing access to the situated support as it was already part of their everyday lives, whereas others
+feared that the perceived effects and engagement patterns would change as the technological device was also the main
+stressor (e.g. having access to social media and emails from work). Another common suggestion was that of having an
+additional, smaller but still soft, tangible token that would provide embodied support in moments of need, although
+some feared they would forget to take it with them regularly or even lose it. Interestingly, regardless of the form this
+extended support would take, all participants emphasised how it would be essential that it recreated the original pet-like
+& care-taking interactions as these were key to fostering self-compassion and emotional companionship.
+5.2.2 To access a peer-support community. According to our participants, another tier of additional support would be
+having access to a peer-support community. Importantly, youth thought it would make the experience of navigating
+mental health challenges less lonely and could be a supportive and motivating feature. This resonates with the concept of
+Purrble as an emotional companion that we found in the deployments and how it prompted the creation of communities
+for emotional support e.g. within their households or with peers (c.f. Section 4.3.2). Most participants saw beneficial
+opportunities in being able to connect with peers to share ideas and experiences, that would ideally inspire new contexts
+or strategies for using the device. Furthermore, several participants mentioned including professional support in these
+peer-communities, as a low-key way of accessing more science-backed information rather than just suggestions from
+peers.
+While for many, the layer of anonymity that online interactions can provide was seen as an opportunity to overcome
+stigma and to seek other’s help, others also expressed their concerns about privacy and the potential risks of harmful or
+hurtful interactions. As a potential solution, several participants suggested the concept of semi-anonymity by having
+the Purrbles ’sign up’ to the community rather than youth themselves: the person’s name would not be disclosed yet
+the account could be monitored and traced if necessary.
+5.2.3 To uphold meaningful and habitual use. Another common discussion thread during the workshops was around
+how to support youth in creating beneficial habits for their mental health, and in particular how such behaviour change
+could be enabled by an interactive tangible device such as Purrble. As mentioned above (cf. Section 4.2), many workshop
+participants described how it was in the moments of greatest need that they sometimes forgot to practise beneficial
+strategies. To address this, several youth saw value in having reminders around the tangible device, such as kind and
+gentle notifications on their phones. Again, youth emphasised how these nudges should be framed in a positive way
+and be inviting rather than dictating, to support them in creating a space and time for using Purrble.
+16
+
+===== PDF PAGE 17 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Many participants also saw value in having the option of joining a more structured action plan to learn how to use
+the tool, often compared to the Headspace app to start with meditation. Building on the emerging impact we saw during
+the deployments, in almost all the sessions it was discussed how youth would like to have access to information to learn
+how to use the tool more purposefully. For example, as an aid to practise other cognitive strategies, or to uphold regular
+compassionate self-care. In the few workshops that included youth who disclosed living with mental health conditions,
+participants discussed the opportunities of such an interactive tangible device to harness professional mental health
+support. If designed correctly—always described as not in a ’dictating’ and ’patronising’ way—youth found this to be a
+particularly valuable approach as an ’in’ to access other evidence-based approaches, that can normally be intimidating
+and hard to access.
+6
+
+DISCUSSION
+
+In this paper, we explored the use of an interactive tangible device to support emotion regulation practices for youth.
+Our findings from the two 1.5 month deployments with adolescents and university students indicate that, for most
+participants, the interactive tangible device offered accessible in-the-moment support that helped them cope with
+emotionally difficult situations. In addition, we found that these soothing and grouding effects seemed to emerge from
+the physical qualities and tactile affordances of the technology-enabled object. Then, in the co-design workshops with
+youth, we aimed to understand how we could design technology-enabled solutions for youth’s mental health that
+empowered them with constructive coping strategies.
+In this section, we address the original research questions and discuss how the findings from this study are opening
+up the design space of situated and embodied support in interesting ways, with potential opportunities for designing
+interactive tangible objects for youth’s mental health.
+6.1
+
+Differences in Appropriation: a Toy for Children, a Tool for Youth
+
+The data from the study reported in this paper provide preliminary support for the acceptability and benefits of
+interactive tangible objects, such as Purrble, for youth’s mental health. This is interesting, given that Purrble had
+originally been designed for a younger population: to deliver in-the-moment support (situated), and to empower
+children to learn how to regulate their emotions without the need for any formal training required for the child or their
+adults (child-led). A key difference, however, is how the device has been picked up differently by these populations. In
+contrast to the data from previous deployments with children [98] whereby Purrble was talked about and interacted
+with as a smart toy who needed help from them, we found that youth appropriated the device as a tool for their mental
+health to help them.
+Similarly, while the children’s use was often motivated by a sense of responsibility to soothe the toy, youth primarily
+initiated interactions as and when they needed to down-regulate themselves. This difference appears to be, in part, due
+to the different framing of Purrble for each age group: the framing of the toy that children readily accepted was that of
+an ‘anxious creature in need of assistance’; in contrast, youth seemed well-aware of the reasons they were using the
+device, and thus, did not need the ‘anxious creature’ narrative to drive their interactions with it. Nevertheless, this
+playful narrative seems to have facilitated the creation of a pet-like bond with Purrble [42, 84], encouraging nurturing
+and compassionate behaviours similar to those found in human-animal interactions [7, 36, 57]. Beyond designing for
+children, playfulness is being explored as a design resource for mental wellbeing as it has been shown that it can provide
+emotional support for adults [4, 19, 38, 103]. As such, we argue that play can be an interesting approach to consider
+when designing situated and embodied support for youth’s mental health e.g. to foster self-compassion.
+17
+
+===== PDF PAGE 18 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+Finally, the commercial units deployed with youth did not have the capacity to log interactions as was the case
+with the research prototypes previously deployed with children [55, 98]. Nonetheless, the qualitative data appear to
+suggest that most of the youth included in this study interacted with the toy less frequently than children in previous
+studies did. This might indicate that while youth primarily used the device more purposefully, as a tool to be used
+in specific situations, children would also engage with the toy in play, as expected given the importance of play in
+childhood [51]. Another plausible explanation, which is also in line with the study’s findings, is that the longer length
+of the deployments with youth (1.5 months vs. 3-7 days with children) might have allowed for the practices around
+the interactive tangible device to stabilise more after the first weeks of deployment, when they already knew how
+the device worked and in which situations it was useful—mostly in moments when they needed support to cope with
+emotionally difficult situations. In this regard, the physicality and tactile affordances of the exemplar device seem to
+have been the delivery mechanism through which the effects emerged. Recent work in HCI has explored the use of
+haptic feedback and embodied metaphors to scaffold the regulation of attention or affect using on-body interfaces
+[24, 70, 82, 88, 105]. In addition, the use of technology-enabled objects have also been explored as ambient displays to
+promote behavioural change, healthy habits and self-reflection [50, 56, 73, 92]. Based on our findings, we argue that
+interactive tangible objects can bridge these two design spaces by offering novel opportunities to provide situated
+assistance in moments of need in two ways: via direct interaction to aid with down-regulation and, beyond that, as an
+ambient interface that serves as a gentle reminder and can nudge the person to practise self-care.
+6.2
+
+Design Considerations
+
+The design considerations outlined below emerge from our attempt to reflect on particular characteristics of Purrble
+that youth seemed to value, and abstract them into broader designing implications for technology-enabled interventions
+for integrating interactive tangible devices in interventions for youth’s mental health. An interesting aspect about
+the physicality of Purrble and the particular mode of interaction it affords is that it interactively scaffolds the user’s
+experience and nudges them towards a particular emotional trajectory, often seemingly without requiring substantial
+cognitive focus once the interaction has started. One way of thinking about such design effects of the embodied nature
+of the tangible device is through the lens of Somaeasthetic design [46] and Experience trajectories [10, 101]. Specifically,
+we propose that modalities which allow for a felt, subtle, inward-looking experience could be particularly useful in
+this application space: it is the object’s physical presence in the user’s environment and the mode of interaction that
+seems to enable people to establish a different emotional trajectory which would be otherwise unavailable to them.
+For example, in the case of traditional emotion regulation skills building (e.g., [35, 69, 89]), the usual approach for an
+individual who experiences negative emotions would be to notice that they are getting stressed (emotion awareness),
+choose one of the techniques they have been taught to self-regulate (e.g., cognitive reappraisal), and then carry out the
+technique by applying the general approach to the specific situation. All these steps were then assumed to be successfully
+accomplished without any external scaffolding beyond what they themselves can do: requiring the person to effortfully
+‘use your mind to soothe your mind’, as mentioned by some of our participants. In contrast, the physicality and haptic
+feedback appear to turn an experience that is normally cognitive and effortful—such as emotion regulation—into
+something embodied and naturally grounded.
+What was particularly interesting in this study was how participants contrasted the ease with which they derived
+support from the tangible device with the effortful engagement that more cognitive or body-based techniques required,
+especially in the moments they were stressed or overwhelmed. If it is indeed the vibro-tactile pattern that gently guides
+the interaction and, through this, the users’ emotional state, the next question is whether a more purposeful design of
+18
+
+===== PDF PAGE 19 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+haptic experiences is possible, to support distinct emotional trajectories (e.g. in-situ support during stressful events, to
+facilitate winding down, or to benefit restful sleeping); as well as questions about the consistency of the effects across
+user groups (e.g., the high heartbeat perceived as stressful for some youth, but not for children). A better understanding
+of the underlying design space (see, e.g., Haptipedia [94] for a related body of work) would enable embedding these
+tactile trajectories into other form-factors. For example, one could consider a hybrid approach between SARs [59]
+and digital companions [104], as one potential solution to the peer pressure dilemma our participants mentioned. We
+speculate that designing a more discrete soft and fluffy tangible (e.g. a case for the smartphone that is then actuated
+by the phone itself) could mediate the tactile trajectories of the intervention similarly to Purrble, and enable linking
+with traditional digital technologies already present in youth’s everyday lives such as smartphone app could bring
+additional depth to the experience. Moreover, we argue that this could also allow embedding additional resources that
+our participants found valuable, such as having access to an online peer-community to promote a sense of belonging
+and facilitate self-disclosure [28, 83]. If successful, such a design would turn potentially stigmatising and externally
+observable ‘smart toy use’ into ‘smartphone use’, which is well normalised in a social context for youth.
+Finally, it is an open question as to the extent that interventions such as an interactive tangible devices—such as Purrble
+or the phone case envisioned above—could serve as complements to existing mental health interventions, explicitly
+scaffolding the transfer of taught skills from sessions into daily life. Currently, existing interventions predominantly
+teach skills in sessions, with the expectation that the individual has to then consistently practice these as ‘homework’ in
+between therapy visits. Consequently, patient adherence to treatment and home practice recommendations constitute
+crucial intermediate outcomes impacting treatment effectiveness [1, 39, 44]. Our findings point to the potential of
+physical objects and embodied interaction to complement existing mental health provision, by enabling situated practice
+and skills application in the moments the users perceive as challenging (e.g., the tangible device supporting the user to
+down-regulate anxiety in the context of emotion regulation or to practise cognitively demanding strategies).
+
+7
+
+CONCLUSIONS
+
+Developing adaptive emotion regulation strategies has been proven to be an important factor in maintaining a good
+mental health across the lifespan, but particularly during youth. While prior work in HCI and Psychology has investigated
+the design and implementation of mental health technologies for youth, it is still unclear what delivery mechanisms
+can help them cope with emotionally difficult situations in-the-moment. In this paper, we explored the appropriation,
+engagement models and perceived effects of an interactive tangible device designed to support emotion regulation
+practices for children when deployed with youth. The qualitative data from the two 1.5 month deployments with
+adolescents and university students indicate that, for most participants, the interactive tangible device offered accessible
+in-the-moment support that helped them cope with emotionally difficult situations. Also, ongoing engagement patterns
+emerged naturally, mostly driven by the soothing and grounding embodied interactions. Then, by involving youth in
+co-design work, we have attempted to understand how we could design technology-enabled solutions for youth’s mental
+health that provide situated and embodied support while empowering them with constructive coping strategies. Our
+findings suggest that the physicality and tactile affordances of interactive tangible devices could serve as an innovative
+delivery mechanism to provide embodied and situated support in mental health interventions for youth. We end with a
+discussion of the observed themes and abstract them into broader design considerations in this space, such as using
+such devices as a potential bridge between the physical and cognitive strategies that are commonly used for emotion
+regulation.
+19
+
+===== PDF PAGE 20 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+8
+
+Daudén Roquet, et al.
+
+ACKNOWLEDGEMENTS
+
+We thank our participants and collaborators for their time, support, and the deep engagement with which they took
+part in the design process. This work was supported by a UKRI Future Leaders Fellowship MR/T041897/1.
+REFERENCES
+[1] Melinda R Achilles, Melissa Anderson, Sophie H Li, Mirjana Subotic-Kerry, Belinda Parker, and Bridianne O’Dea. 2020. Adherence to e-mental
+health among youth: Considerations for intervention development and research design:. https://doi.org/10.1177/2055207620926064 6 (5 2020), 1–9.
+https://doi.org/10.1177/2055207620926064
+[2] Amelia Aldao, Dylan G. Gee, Andres De Los Reyes, and Ilana Seager. 2016. Emotion regulation as a transdiagnostic factor in the development of
+internalizing and externalizing psychopathology: Current and future directions. Development and Psychopathology 28, 4pt1 (11 2016), 927–946.
+https://doi.org/10.1017/S0954579416000638
+[3] Amelia Aldao, Gal Sheppes, and James J. Gross. 2015. Emotion Regulation Flexibility. Cognitive Therapy and Research 2014 39:3 39, 3 (1 2015),
+263–278. https://doi.org/10.1007/S10608-014-9662-4
+[4] Ferran Altarriba Bertran, Elena Márquez Segura, and Katherine Isbister. 2020. Technology for Situated and Emergent Play: A Bridging Concept and
+Design Agenda. Conference on Human Factors in Computing Systems - Proceedings (4 2020). https://doi.org/10.1145/3313831.3376859
+[5] Alissa N. Antle, Milena Droumeva, and Greg Corness. 2008. Playing with the sound maker: do embodied metaphors help children learn?. In
+Proceedings of the 7th International Conference on Interaction Design and Children, IDC 2008. https://doi.org/10.1145/1463689.1463754
+[6] Cludius B, Mennin D, and Ehring T. 2020. Emotion regulation as a transdiagnostic process. Emotion (Washington, D.C.) 20, 1 (2 2020), 37–42.
+https://doi.org/10.1037/EMO0000646
+[7] Keren Bachi and Nancy Parish-Plass. 2016. Animal-assisted psychotherapy: A unique relational therapy for children and adolescents:.
+http://dx.doi.org/10.1177/1359104516672549 22, 1 (10 2016), 3–8. https://doi.org/10.1177/1359104516672549
+[8] Saskia Bakker, Alissa N. Antle, and Elise Van Den Hoven. 2012. Embodied metaphors in tangible interaction design. Personal and Ubiquitous
+Computing 16, 4 (4 2012), 433–449. https://doi.org/10.1007/s00779-011-0410-4
+[9] Andrea Beetz, Kerstin Uvnäs-Moberg, Henri Julius, and Kurt Kotrschal. 2012. Psychosocial and Psychophysiological Effects of Human-Animal
+Interactions: The Possible Role of Oxytocin. Frontiers in Psychology 0, JUL (2012), 234. https://doi.org/10.3389/FPSYG.2012.00234
+[10] Steve Benford, Gabriella Giannachi, Boriana Koleva, and Tom Rodden. 2009. From interaction to trajectories: Designing coherent journeys through
+user experiences. Conference on Human Factors in Computing Systems - Proceedings (2009), 709–718. https://doi.org/10.1145/1518701.1518812
+[11] Matthias Berking, Ulrich Orth, Peggilee Wupperman, Laurenz L. Meier, and Franz Caspar. 2008. Prospective Effects of Emotion-Regulation Skills
+on Emotional Adjustment. Journal of Counseling Psychology 55, 4 (10 2008), 485–494. https://doi.org/10.1037/A0013589
+[12] V. Bernabei, D. De Ronchi, T. La Ferla, F. Moretti, L. Tonelli, B. Ferrari, M. Forlani, and A. R. Atti. 2013. Animal-assisted interventions for elderly
+patients affected by dementia or psychiatric disorders: A review. Journal of Psychiatric Research 47, 6 (6 2013), 762–773. https://doi.org/10.1016/J.
+JPSYCHIRES.2012.12.014
+[13] Elin A. Björling, Emma Rose, Andrew Davidson, Rachel Ren, and Dorothy Wong. 2019. Can We Keep Him Forever? Teens’ Engagement and Desire
+for Emotional Connection with a Social Robot. International Journal of Social Robotics 2019 12:1 12, 1 (3 2019), 65–77. https://doi.org/10.1007/S12369019-00539-6
+[14] Veronika Brezinka. 2012. Computer games supporting cognitive behaviour therapy in children:. http://dx.doi.org/10.1177/1359104512468288 19, 1 (12
+2012), 100–110. https://doi.org/10.1177/1359104512468288
+[15] Jane M Burns, Marianne Webb, Lauren A Durkin, and Ian B Hickie. 2010. Reach Out Central: a serious game designed to engage young men to improve
+mental health and wellbeing. Medical Journal of Australia 192, SUPPL. 11 (6 2010), S27–S30. https://doi.org/10.5694/J.1326-5377.2010.TB03689.X
+[16] Andrew C. Butler, Jason E. Chapman, Evan M. Forman, and Aaron T. Beck. 2006. The empirical status of cognitive-behavioral therapy: A review of
+meta-analyses. , 17–31 pages. https://doi.org/10.1016/j.cpr.2005.07.003
+[17] Johnson C, Burke C, Brinkman S, and Wade T. 2016. Effectiveness of a school-based mindfulness program for transdiagnostic prevention in young
+adolescents. Behaviour research and therapy 81 (6 2016), 1–11. https://doi.org/10.1016/J.BRAT.2016.03.002
+[18] James Carmody and Ruth A. Baer. 2008. Relationships between mindfulness practice and levels of mindfulness, medical and psychological symptoms
+and well-being in a mindfulness-based stress reduction program. Journal of Behavioral Medicine 31, 1 (2008), 23–33. https://doi.org/10.1007/s10865007-9130-7
+[19] Huang-Ming Chang, Leonid Ivonin, Wei Chen, and Matthias Rauterberg. 2013. Feeling Something without Knowing Why: Measuring Emotions
+toward Archetypal Content. Springer, Cham, 22–31. https://doi.org/10.1007/978-3-319-03892-6{_}3
+[20] Prerna Chikersal, Danielle Belgrave, Gavin Doherty, Angel Enrique, Jorge E Palacios, Derek Richards, and Anja Thieme. [n.d.]. Understanding
+Client Support Strategies to Improve Clinical Outcomes in an Online Mental Health Intervention. ([n. d.]). https://doi.org/10.1145/3313831.3376341
+[21] Aleisha M Clarke, Tuuli Kuosmanen, and Margaret M Barry. [n.d.]. A Systematic Review of Online Youth Mental Health Promotion and Prevention
+Interventions. ([n. d.]). https://doi.org/10.1007/s10964-014-0165-0
+[22] Clive J. Robins and Alex L. Chapman. 2005. Dialectical Behavior Therapy: Current Status, Recent Developments, and Future Directions.
+http://dx.doi.org/10.1521/pedi.18.1.73.32771 18, 1 (6 2005), 73–89. https://doi.org/10.1521/PEDI.18.1.73.32771
+20
+
+===== PDF PAGE 21 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+[23] Andreia Costa, Georges Steffgen, and Pouyan Ziafati. 2017. Socially assistive robots for teaching emotional abilities to children with autism
+spectrum disorder. (2017). www.luxai.eu
+[24] CostaJean, GuimbretièreFrançois, JungMalte F., and ChoudhuryTanzeem. 2019. BoostMeUp. Proceedings of the ACM on Interactive, Mobile, Wearable
+and Ubiquitous Technologies 3, 2 (6 2019), 1–23. https://doi.org/10.1145/3328911
+[25] David Coyle, Nicola McGlade, Gavin Doherty, and Gary O’Reilly. 2011. Exploratory evaluations of a computer game supporting Cognitive
+Behavioural Therapy for adolescents. Conference on Human Factors in Computing Systems - Proceedings (2011), 2937–2946. https://doi.org/10.1145/
+1978942.1979378
+[26] David Coyle, Hidde van der Meulen, Connal Tunney, Patricia Cooney, and Catherine Jackman. 2018. Pesky gNATs: Using Games to Support Mental
+Health Interventions for Adolescents. The ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI Play 2017), Amsterdam,
+The Netherlands, 15-18 October 2017 (10 2018), 15–18. https://researchrepository.ucd.ie/handle/10197/9310
+[27] Molly K. Crossman. 2017. Effects of Interactions With Animals On Human Psychological Distress. Journal of Clinical Psychology 73, 7 (7 2017),
+761–784. https://doi.org/10.1002/JCLP.22410
+[28] Katie Davis. 2012. Friendship 2.0: Adolescents’ experiences of belonging and self-disclosure online. Journal of Adolescence 35, 6 (12 2012), 1527–1536.
+https://doi.org/10.1016/J.ADOLESCENCE.2012.02.013
+[29] Laurie A Dickstein-Fischer, Darlene E Crone-Todd, Ian M Chapman, Ayesha T Fathima, and Gregory S Fischer. 2018. Innovation and Entrepreneurship
+in Health Dovepress Socially assistive robots: current status and future prospects for autism interventions. Innovation and Entrepreneurship in
+Health (2018), 5–15. https://doi.org/10.2147/IEH.S138753
+[30] NHS Digital. [n.d.]. Mental Health of Children and Young People Surveys - NHS Digital. https://digital.nhs.uk/data-and-information/publications/
+statistical/mental-health-of-children-and-young-people-in-england
+[31] Sellars E, Pavarini G, Michelson D, Creswell C, and Fazel M. 2021. Young people’s advisory groups in health research: scoping review and mapping
+of practices. Archives of disease in childhood 106, 7 (7 2021), 698–704. https://doi.org/10.1136/ARCHDISCHILD-2020-320452
+[32] Sloan E, Hall K, Moulding R, Bryce S, Mildred H, and Staiger PK. 2017. Emotion regulation as a transdiagnostic treatment construct across
+anxiety, depression, substance, eating and borderline personality disorders: A systematic review. Clinical psychology review 57 (11 2017), 141–163.
+https://doi.org/10.1016/J.CPR.2017.09.002
+[33] David Daniel Ebert, Anna-Carlotta Zarski, Helen Christensen, Yvonne Stikkelbroek, Pim Cuijpers, Matthias Berking, and Heleen Riper. 2015.
+Internet and Computer-Based Cognitive Behavioral Therapy for Anxiety and Depression in Youth: A Meta-Analysis of Randomized Controlled
+Outcome Trials. PLOS ONE 10, 3 (3 2015), e0119895. https://doi.org/10.1371/JOURNAL.PONE.0119895
+[34] Jill Ehrenreich-May and Emily L. Bilek. 2012. The Development of a Transdiagnostic, Cognitive Behavioral Group Intervention for Childhood
+Anxiety Disorders and Co-Occurring Depression Symptoms. Cognitive and Behavioral Practice 19, 1 (2 2012), 41–55. https://doi.org/10.1016/J.
+CBPRA.2011.02.003
+[35] Kristen K. Ellard, Christopher P. Fairholme, Christina L. Boisseau, Todd J. Farchione, and David H. Barlow. 2010. Unified Protocol for the
+Transdiagnostic Treatment of Emotional Disorders: Protocol Development and Initial Outcome Data. Cognitive and Behavioral Practice 17, 1 (2
+2010), 88–101. https://doi.org/10.1016/J.CBPRA.2009.06.002
+[36] Layla Esposito, Sandra McCune, James A. Griffin, and Valerie Maholmes. 2011. Directions in Human–Animal Interaction Research: Child
+Development, Health, and Therapeutic Interventions. Child Development Perspectives 5, 3 (9 2011), 205–211. https://doi.org/10.1111/J.17508606.2011.00175.X
+[37] Norman A S Farb, Adam K Anderson, Julie A Irving, and Zindel V Segal. 2014. Mindfulness Interventions and Emotion Regulation. In Handbook of
+Emotion Regulation. 548–567.
+[38] Arlena Farley, Ann Kennedy-Behr, and Ted Brown. 2020. An Investigation Into the Relationship Between Playfulness and Well-being in Australian
+Adults: An Exploratory Study:. https://doi.org/10.1177/1539449220945311 41, 1 (7 2020), 56–64. https://doi.org/10.1177/1539449220945311
+[39] Kristina Fuhr, Johanna Schröder, Thomas Berger, Steffen Moritz, Björn Meyer, Wolfgang Lutz, Fritz Hohagen, Martin Hautzinger, and Jan Philipp
+Klein. 2018. The association between adherence and outcome in an Internet intervention for depression. Journal of Affective Disorders 229 (3 2018),
+443–449. https://doi.org/10.1016/J.JAD.2017.12.028
+[40] Sandra Garrido, Chris Millington, Daniel Cheers, Katherine Boydell, Emery Schubert, Tanya Meade, and Quang Vinh Nguyen. 2019. What Works
+and What Doesn’t Work? A Systematic Review of Digital Mental Health Interventions for Depression and Anxiety in Young People. Frontiers in
+Psychiatry 0 (11 2019), 759. https://doi.org/10.3389/FPSYT.2019.00759
+[41] Daniele Giansanti. 2020. Towards the evolution of the mHealth in mental health with youth: the cyber-space used in psychological rehabilitation is
+becoming wearable into a pocket. mHealth 6 (4 2020), 18–18. https://doi.org/10.21037/MHEALTH.2019.11.02
+[42] Peter Gray. 2013. Play as Preparation for Learning and Life An Interview with Peter Gray. American Journal of Play 5, 3 (2013), 271–292.
+[43] Paulo A. Graziano, Rachael D. Reavis, Susan P. Keane, and Susan D. Calkins. 2007. The role of emotion regulation in children’s early academic
+success. Journal of School Psychology 45, 1 (2 2007), 3–19. https://doi.org/10.1016/J.JSP.2006.09.002
+[44] Zita Hilvert-Bruce, Pieter J. Rossouw, Nora Wong, Matthew Sunderland, and Gavin Andrews. 2012. Adherence as a determinant of effectiveness
+of internet cognitive behavioural therapy for anxiety and depressive disorders. Behaviour Research and Therapy 50, 7-8 (8 2012), 463–468.
+https://doi.org/10.1016/J.BRAT.2012.04.001
+[45] Chris Hollis, Caroline J. Falconer, Jennifer L. Martin, Craig Whittington, Sarah Stockton, Cris Glazebrook, and E. Bethan Davies. 2017. Annual
+Research Review: Digital health interventions for children and young people with mental health problems – a systematic and meta-review. Journal
+21
+
+===== PDF PAGE 22 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+of Child Psychology and Psychiatry 58, 4 (4 2017), 474–503. https://doi.org/10.1111/JCPP.12663
+[46] Kristina Höök, Martin P. Jonsson, Anna Ståhl, and Johanna Mercurio. 2016. Somaesthetic Appreciation Design. In Proceedings of the 2016 CHI
+Conference on Human Factors in Computing Systems - CHI ’16. ACM Press, New York, New York, USA, 3131–3142. https://doi.org/10.1145/2858036.
+2858583
+[47] Jill M. Hooley and Molly Wilson-Murphy. 2012.
+Adult Attachment to Transitional Objects and Borderline Personality Disorder.
+http://dx.doi.org/10.1521/pedi.2012.26.2.179 26, 2 (4 2012), 179–191. https://doi.org/10.1521/PEDI.2012.26.2.179
+[48] Eva Hornecker and Jacob Buur. 2006. Getting a Grip on Tangible Interaction: A Framework on Physical Space and Social Interaction. Proceedings of
+the SIGCHI Conference on Human Factors in Computing Systems (2006). https://doi.org/10.1145/1124772
+[49] Maarten Houben. 2020. The role of everyday sounds in advanced dementia care Citation for published version (APA): Houben. (2020). https:
+//doi.org/10.1145/3313831.3376577
+[50] Steven Houben, Connie Golsteijn, Sarah Gallacher, Rose Johnson, Saskia Bakker, Nicolai Marquardt, Licia Capra, and Yvonne Rogers. 2016. Physikit:
+Data engagement through physical ambient visualizations in the home. Conference on Human Factors in Computing Systems - Proceedings (5 2016),
+1608–1619. https://doi.org/10.1145/2858036.2858059
+[51] Fergus P. Hughes. 2009.
+Children, Play, and Development .
+https://books.google.co.uk/books?hl=en&lr=&id=odhRZVv6aUoC&oi=
+fnd&pg=PR1&dq=43.%09Fergus+P+Hughes.+2009.+Children,+play,+and+development.+SAGE+Publications.&ots=tqAk5pgeKh&sig=
+3Eq1cuXYHc86LYGpL7FSFLyL4Z0&redir_esc=y#v=onepage&q&f=false
+[52] Felicia A Huppert and Daniel M Johnson. 2010. The Journal of Positive Psychology A controlled trial of mindfulness training in schools: The
+importance of practice for an impact on well-being. (2010). https://doi.org/10.1080/17439761003794148
+[53] Jörn Hurtienne, Christian Stößel, and Katharina Weber. 2009. Sad is heavy and happy is light population stereotypes of tangible object attributes.
+Proceedings of the 3rd International Conference on Tangible and Embedded Interaction, TEI’09 (2009), 61–68. https://doi.org/10.1145/1517664.1517686
+[54] Hilary Hutchinson, Heiko Hansen, Nicolas Roussel, Björn Eiderbäck, Wendy Mackay, Bo Westerlund, Benjamin B. Bederson, Allison Druin,
+Catherine Plaisant, Michel Beaudouin-Lafon, Stéphane Conversy, and Helen Evans. 2003. Technology probes: inspiring design for and with
+families. In Proceedings of the conference on Human factors in computing systems - CHI ’03. ACM Press, New York, New York, USA, 17–24.
+https://doi.org/10.1145/642611.642616
+[55] Katherine Isbister, Peter Cottrell, Alessia Cecchet, Ella Dagan, Nikki Theofanopoulou, Ferran Altarriba Bertran, Aaron J. Horowitz, Nick Mead,
+Joel B. Schwarz, and Petr Slovak. 2021. Design not Lost in Translation: A Case Study of an Intimate-Space Socially Assistive Robot for Emotion
+Regulation. (4 2021). https://arxiv.org/abs/2104.11340v1
+[56] Nassim Jafarinaimi, Jodi Forlizzi, Amy Hurst, and John Zimmerman. [n.d.]. Breakaway: An Ambient Display Designed to Change Human Behavior.
+CHI ’05 Extended Abstracts on Human Factors in Computing Systems ([n. d.]). https://doi.org/10.1145/1056808
+[57] Melanie G. Jones, Simon M. Rice, and Susan M. Cotton. 2019. Incorporating animal-assisted therapy in mental health treatments for adolescents: A
+systematic review of canine assisted psychotherapy. PLOS ONE 14, 1 (1 2019), e0210761. https://doi.org/10.1371/JOURNAL.PONE.0210761
+[58] Birtwell K, Williams K, van Marwijk H, Armitage CJ, and Sheffield D. 2019. An Exploration of Formal and Informal Mindfulness Practice and
+Associations with Wellbeing. Mindfulness 10, 1 (1 2019), 89–99. https://doi.org/10.1007/S12671-018-0951-Y
+[59] Katarzyna Kabacińska, Tony J. Prescott, and Julie M. Robillard. 2020. Socially Assistive Robots as Mental Health Interventions for Children: A
+Scoping Review. International Journal of Social Robotics 2020 13:5 13, 5 (7 2020), 919–935. https://doi.org/10.1007/S12369-020-00679-0
+[60] Christina Kelley, Bongshin Lee, and Lauren Wilcox. [n.d.]. Self-tracking for Mental Wellness: Understanding Expert Perspectives and Student
+Experiences. Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems ([n. d.]). https://doi.org/10.1145/3025453
+[61] Ronald C. Kessler, Patricia Berglund, Olga Demler, Robert Jin, Kathleen R. Merikangas, and Ellen E. Walters. 2005. Lifetime Prevalence and
+Age-of-Onset Distributions of DSM-IV Disorders in the National Comorbidity Survey Replication. Archives of General Psychiatry 62, 6 (6 2005),
+593–602. https://doi.org/10.1001/ARCHPSYC.62.6.593
+[62] David Kirsh and David. 2013. Embodied cognition and the magical future of interaction design. ACM Transactions on Computer-Human Interaction
+20, 1 (3 2013), 1–30. https://doi.org/10.1145/2442106.2442109
+[63] Leonard F. Koziol, Deborah Ely Budding, and Dana Chidekel. 2012. From movement to thought: Executive function, embodied cognition, and the
+cerebellum. In Cerebellum, Vol. 11. Springer-Verlag, 505–525. https://doi.org/10.1007/s12311-011-0321-y
+[64] Zygo M, Pawłowska B, Potembska E, Dreher P, and Kapka-Skrzypczak L. 2019. Prevalence and selected risk factors of suicidal ideation, suicidal
+tendencies and suicide attempts in young people aged 13-19 years. Annals of agricultural and environmental medicine : AAEM 26, 2 (2019), 329–336.
+https://doi.org/10.26444/AAEM/93817
+[65] Niamh MacSweeney, Sarah Bowman, and Clare Kelly. 2019. More than just characters in a story: effective and meaningful involvement of young
+people in mental health research. Journal of Public Mental Health 18, 1 (3 2019), 14–16. https://doi.org/10.1108/JPMH-07-2018-0053
+[66] Andrew Manches and Claire O’malley. [n.d.]. Tangibles for learning: a representational analysis of physical manipulation. ([n. d.]). https:
+//doi.org/10.1007/s00779-011-0406-0
+[67] Paul Marshall, Sara Price, and Yvonne Rogers. 2003. Conceptualising tangibles to support learning. Proceedings of the 2003 Conference on Interaction
+Design and Children, IDC 2003 (7 2003), 101–109. https://doi.org/10.1145/953536.953551
+[68] Ali Mazalek and Elise van den Hoven. 2009. Framing tangible interaction frameworks. AI EDAM 23, 3 (8 2009), 225–235. https://doi.org/10.1017/
+S0890060409000201
+[69] Douglas S. Mennin and David Fresco. 2014. Emotion Regulation Therapy. Handbook of emotion regulation 2 (2014), 469–490.
+22
+
+===== PDF PAGE 23 =====
+
+Exploring Situated & Embodied Support for Youth’s Mental Health
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+[70] Pardis Miri, Emily Jusuf, Andero Uusberg, Horia Margarit, Robert Flory, Katherine Isbister, Keith Marzullo, and James Gross J. 2020. Evaluating a
+Personalizable, Inconspicuous Vibrotactile(PIV) Breathing Pacer for In-the-Moment Affect Regulation. In Proceedings of the 2020 CHI Conference on
+Human Factors in Computing Systems. 1–12. https://dl.acm.org/doi/abs/10.1145/3313831.3376757
+[71] Terrie E. Moffitt, Louise Arseneault, Daniel Belsky, Nigel Dickson, Robert J. Hancox, HonaLee Harrington, Renate Houts, Richie Poulton, Brent W.
+Roberts, Stephen Ross, Malcolm R. Sears, W. Murray Thomson, and Avshalom Caspi. 2011. A gradient of childhood self-control predicts health,
+wealth, and public safety. Proceedings of the National Academy of Sciences 108, 7 (2 2011), 2693–2698. https://doi.org/10.1073/PNAS.1010076108
+[72] David Mohr, Kathryn Noth Tomasino, Emily G. Lattie, Hannah L Palac, Mary J Kwasny, Kenneth Weingardt, Chris J Karr, Susan M Kaiser,
+Rebecca C Rossom, Leland R Bardsley, Lauren Caccamo, Colleen Stiles-Shields, and Stephen M Schueller. 2017. IntelliCare: An Eclectic, Skills-Based
+App Suite for the Treatment of Depression and Anxiety. J Med Internet Res 2017;19(1):e10 https://www.jmir.org/2017/1/e10 19, 1 (1 2017), e6645.
+https://doi.org/10.2196/JMIR.6645
+[73] Sam Graeme Morgan, Melitta Anne McNarry, Parisa Eslambolchilar, Zoe Knowles, and Kelly Alexandra Mackintosh. 2019. The Tangibility of
+Personalized 3D-Printed Feedback May Enhance Youths’ Physical Activity Awareness, Goal Setting, and Motivation: Intervention Study. J Med
+Internet Res 2019;21(6):e12067 https://www.jmir.org/2019/6/e12067 21, 6 (6 2019), e12067. https://doi.org/10.2196/12067
+[74] Wendy Moyle, Marie Cooke, Elizabeth Beattie, Cindy Jones, Barbara Klein, Glenda Cook, and Chrystal Gray. 2013. Exploring the effect of companion
+robots on emotional expression in older adults with dementia: A pilot randomized controlled trial. Journal of Gerontological Nursing 39, 5 (2013),
+46–53. https://doi.org/10.3928/00989134-20130313-03
+[75] Sakiris N and Berle D. 2019. A systematic review and meta-analysis of the Unified Protocol as a transdiagnostic emotion regulation based
+intervention. Clinical psychology review 72 (8 2019). https://doi.org/10.1016/J.CPR.2019.101751
+[76] Yoshihiro Nakadoi. 2015. Usefulness of Animal Type Robot Assisted Therapy for Autism Spectrum Disorder in the Child and Adolescent Psychiatric
+Ward. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 10091 LNCS
+(11 2015), 478–482. https://doi.org/10.1007/978-3-319-50953-2{_}35
+[77] Janelle Nimer and Brad Lundahl. 2015. Animal-Assisted Therapy: A Meta-Analysis. http://dx.doi.org/10.2752/089279307X224773 20, 3 (9 2015),
+225–238. https://doi.org/10.2752/089279307X224773
+[78] Marguerite E. O’Haire, Samantha J. McKenzie, Sandra McCune, and Virginia Slaughter. 2015. Effects of Animal-Assisted Activities with Guinea
+Pigs in the Primary School Classroom. http://dx.doi.org/10.2752/175303713X13697429463835 26, 3 (9 2015), 445–458. https://doi.org/10.2752/
+175303713X13697429463835
+[79] Sandra Y. Okita. 2013. Self–Other’s Perspective Taking: The Use of Therapeutic Robot Companions as Social Agents for Reducing Pain and Anxiety
+in Pediatric Patients. https://home.liebertpub.com/cyber 16, 6 (6 2013), 436–441. https://doi.org/10.1089/CYBER.2012.0513
+[80] Amy Orben. 2020. Teenagers, screens and social media: a narrative review of reviews and key studies. Social Psychiatry and Psychiatric Epidemiology
+2020 55:4 55, 4 (1 2020), 407–414. https://doi.org/10.1007/S00127-019-01825-4
+[81] Amy Orben and Andrew K. Przybylski. 2019. The association between adolescent well-being and digital technology use. Nature Human Behaviour
+2019 3:2 3, 2 (1 2019), 173–182. https://doi.org/10.1038/s41562-018-0506-1
+[82] Athina Papadopoulou, Jaclyn Berry, Terry Knight, and Rosalind Picard. 2019. Affective Sleeve: Wearable Materials with Haptic Action for Promoting
+Calmness. Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 11587
+LNCS (7 2019), 304–319. https://doi.org/10.1007/978-3-030-21935-2{_}23
+[83] Sohyun Park, Anja Thieme, Jeongyun Han, Sungwoo Lee, Wonjong Rhee, and Bongwon Suh. [n.d.]. “I wrote as if I were telling a story to someone I
+knew.”: Designing Chatbot Interactions for Expressive Writing in Mental Health; “I wrote as if I were telling a story to someone I knew.”: Designing
+Chatbot Interactions for Expressive Writing in Mental Health. Designing Interactive Systems Conference 2021 ([n. d.]). https://doi.org/10.1145/3461778
+[84] J. G. Parker, K. H. Rubin, S. A. Erath, J. C. Wojslawowicz, and A. A. Buskirk. 2006. Peer relationships, child development, and adjustment: A
+developmental psychopathology perspective. - PsycNET. In Developmental psychopathology: Theory and method. 419–493. https://psycnet.apa.org/
+record/2006-03613-012
+[85] Dianna Quach, Robert C Gibler, and Kristen E Jastrowski Mano. [n.d.]. Does Home Practice Compliance Make a Difference in the Effectiveness of
+Mindfulness Interventions for Adolescents? ([n. d.]). https://doi.org/10.1007/s12671-016-0624-7
+[86] Jill H. Rathus and Alec L. Miller. 2002. Dialectical Behavior Therapy Adapted for Suicidal Adolescents. Suicide and Life-Threatening Behavior 32, 2
+(6 2002), 146–157. https://doi.org/10.1521/SULI.32.2.146.24399
+[87] Hayley Robinson, Bruce MacDonald, Ngaire Kerse, and Elizabeth Broadbent. 2013. The Psychosocial Effects of a Companion Robot: A Randomized
+Controlled Trial. Journal of the American Medical Directors Association 14, 9 (9 2013), 661–667. https://doi.org/10.1016/J.JAMDA.2013.02.007
+[88] Claudia Dauden Roquet and Corina Sas. 2021. Interoceptive interaction: An embodied metaphor inspired approach to designing for meditation. In
+Conference on Human Factors in Computing Systems - Proceedings. Association for Computing Machinery. https://doi.org/10.1145/3411764.3445137
+[89] Nathan Sakiris and David Berle. 2019. A systematic review and meta-analysis of the Unified Protocol as a transdiagnostic emotion regulation based
+intervention. Clinical Psychology Review 72 (8 2019), 101751. https://doi.org/10.1016/J.CPR.2019.101751
+[90] Pedro Sanches, Axel Janson, Pavel Karpashevich, Camille Nadal, Chengcheng Qu, Claudia Daudén Roquet, Muhammad Umair, Charles Windlin,
+Gavin Doherty, Kristina Höök, and Corina Sas. 2019. HCI and Affective Health Taking stock of a decade of studies and charting future research
+directions. In Conference on Human Factors in Computing Systems - Proceedings. ACM. https://doi.org/10.1145/3290605.3300475
+[91] David Saunders and Hedy Kober. [n.d.]. Mindfulness-Based Intervention Development for Children and Adolescents. ([n. d.]). https://doi.org/10.
+1007/s12671-020-01360-3
+23
+
+===== PDF PAGE 24 =====
+
+CHI ’22, April 29-May 5, 2022, New Orleans, LA, USA
+
+Daudén Roquet, et al.
+
+[92] Kim Sauvé, Steven Houben, Nicolai Marquardt, Saskia Bakker, Bart Hengeveld, Sarah Gallacher, and Yvonne Rogers. 2017. LOOP: A physical
+artifact to facilitate seamless interaction with personal data in everyday life. DIS 2017 Companion - Proceedings of the 2017 ACM Conference on
+Designing Interactive Systems (6 2017), 285–288. https://doi.org/10.1145/3064857.3079175
+[93] Jessica L. Schleider and John R. Weisz. 2017. Little Treatments, Promising Effects? Meta-Analysis of Single-Session Interventions for Youth Psychiatric
+Problems. Journal of the American Academy of Child & Adolescent Psychiatry 56, 2 (2 2017), 107–115. https://doi.org/10.1016/J.JAAC.2016.11.007
+[94] Hasti Seifi, Farimah Fazlollahi, Michael Oppermann, John Andrew Sastrillo, Jessica Ip, Ashutosh Agrawal, Gunhyuk Park, Katherine J Kuchenbecker,
+and Karon E Maclean. [n.d.]. Haptipedia Accelerating Haptic Device Discovery to Support Interaction & Engineering Design. Proceedings of the
+2019 CHI Conference on Human Factors in Computing Systems ([n. d.]), 12. https://doi.org/10.1145/3290605
+[95] Gal Sheppes, Susanne Scheibe, Gaurav Suri, Peter Radu, Jens Blechert, and James J. Gross. 2014. Emotion regulation choice: A conceptual framework
+and supporting evidence. Journal of Experimental Psychology: General 143, 1 (2 2014), 163–181. https://doi.org/10.1037/A0030831
+[96] Elise Sloan, Kate Hall, Richard Moulding, Shayden Bryce, Helen Mildred, and Petra K. Staiger. 2017. Emotion regulation as a transdiagnostic
+treatment construct across anxiety, depression, substance, eating and borderline personality disorders: A systematic review. Clinical Psychology
+Review 57 (11 2017), 141–163. https://doi.org/10.1016/J.CPR.2017.09.002
+[97] Petr Slovak, Brett Ford, Sherri Widen, Claudia Dauden Roquet, Nikki Theofanopoulou, James J. Gross, Benjamin Hankin, and Predrag Klasnja. 2021.
+An In-situ, Child-led Intervention To Promote Emotion Regulation Competence in Middle Childhood: Protocol For an Exploratory Randomised
+Control Trial. JMIR research protocols (5 2021). https://doi.org/10.2196/28914
+[98] SlovákPetr, TheofanopoulouNikki, CecchetAlessia, CottrellPeter, Altarriba BertranFerran, DaganElla, ChildsJulian, and IsbisterKatherine. 2018.
+"I just let him cry...: Designing Socio-Technical Interventions in Families to Prevent Mental Health Disorders. Proceedings of the ACM on
+Human-Computer Interaction 2, CSCW (11 2018), 1–34. https://doi.org/10.1145/3274429
+[99] Megan A. Souter and Michelle D. Miller. 2015.
+Do Animal-Assisted Activities Effectively Treat Depression? A Meta-Analysis.
+http://dx.doi.org/10.2752/175303707X207954 20, 2 (6 2015), 167–180. https://doi.org/10.2752/175303707X207954
+[100] Robert L. Spitzer, Kurt Kroenke, Janet B. W. Williams, and Bernd Löwe. 2006. A Brief Measure for Assessing Generalized Anxiety Disorder: The
+GAD-7. Archives of Internal Medicine 166, 10 (5 2006), 1092–1097. https://doi.org/10.1001/ARCHINTE.166.10.1092
+[101] Paul Tennent, Kristina Hook, and Steve Benford. 2021. Articulating Soma Experiences using Trajectories. Conference on Human Factors in
+Computing Systems - Proceedings (5 2021), 16. https://doi.org/10.1145/3411764.3445482
+[102] Anja Thieme, Jayne Wallace, Thomas D Meyer, and Patrick Olivier. 2015. Designing for mental wellbeing. In Proceedings of the 2015 British HCI
+Conference on - British HCI ’15. 1–10. https://doi.org/10.1145/2783446.2783586
+[103] Cathy Treadaway, Jac Fennell, Aidan Taylor, and Gail Kenning. 2019. Designing for playfulness through compassion: design for advanced dementia.
+https://doi.org/10.1080/24735132.2019.1593295 3, 1 (1 2019), 27–47. https://doi.org/10.1080/24735132.2019.1593295
+[104] Sherry Turkle. 2007. Authenticity in the age of digital companions. Interaction Studies 8, 3 (1 2007), 501–517. https://doi.org/10.1075/IS.8.3.11TUR
+[105] Muhammad Umair, Corina Sas, Niaz Chalabianloo, and Cem Ersoy. 2021. Exploring Personalized Vibrotactile and Thermal Patterns for Affect
+Regulation; Exploring Personalized Vibrotactile and Thermal Patterns for Affect Regulation. In Designing Interactive Systems Conference 2021. ACM,
+New York, NY, USA. https://doi.org/10.1145/3461778.3462042
+[106] United Nations. [n.d.]. Definition of Youth. http://undesadspd.org/Youth.aspxfacebook.com/
+[107] Deborah Webster, Laura Dunne, and Ruth Hunter. 2020. Association Between Social Networks and Subjective Well-Being in Adolescents: A
+Systematic Review:. https://doi.org/10.1177/0044118X20919589 53, 2 (5 2020), 175–210. https://doi.org/10.1177/0044118X20919589
+[108] Katrina G Witt, Sarah E Hetrick, Gowri Rajaram, Philip Hazell, Tatiana L Taylor Salisbury, Ellen Townsend, and Keith Hawton. 2021. Interventions for
+self-harm in children and adolescents. Cochrane Database of Systematic Reviews 2021, 3 (3 2021). https://doi.org/10.1002/14651858.CD013667.PUB2
+[109] World Health Organization. 2021. Adolescent and young adult health. https://www.who.int/en/news-room/fact-sheets/detail/adolescents-healthrisks-and-solutions
+[110] Lesley Xie, Alissa N. Antle, and Nima Motamedi. 2008. Are tangibles more fun?: Comparing children’s enjoyment and engagement using physical,
+graphical and tangible user interfaces. TEI’08 - Second International Conference on Tangible and Embedded Interaction - Conference Proceedings
+(2008), 191–198. https://doi.org/10.1145/1347390.1347433
+[111] Katherine S. Young, Christina F. Sandman, and Michelle G. Craske. 2019. Positive and Negative Emotion Regulation in Adolescence: Links to
+Anxiety and Depression. Brain Sciences 2019, Vol. 9, Page 76 9, 4 (3 2019), 76. https://doi.org/10.3390/BRAINSCI9040076
+[112] Renwen Zhang, Kathryn E. Ringland, Melina Paan, David C. Mohr, and Madhu Reddy. 2021. Designing for emotionalwell-being: Integrating
+persuasion and customization into mental health technologies. Conference on Human Factors in Computing Systems - Proceedings (5 2021).
+https://doi.org/10.1145/3411764.3445771
+
+24

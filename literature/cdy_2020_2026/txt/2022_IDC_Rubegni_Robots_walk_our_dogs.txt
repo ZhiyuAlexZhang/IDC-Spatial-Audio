@@ -1,0 +1,1135 @@
+SOURCE PDF: ../pdf/2022_IDC_Rubegni_Robots_walk_our_dogs.pdf
+SOURCE URL: https://bigyipper.com/wp-content/uploads/2022/06/Rubegni_etal_2022.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+“Don’t let the robots walk our dogs, but it’s ok for them to do our
+homework”: children’s perceptions, fears, and hopes in social
+robots.
+Elisa Rubegni
+
+Lancaster University
+e.rubegni@lancaster.ac.uk
+
+Laura Malinverni
+
+Visual Art and Design, Department
+University of Barcelona
+malinverni.laura@gmail.com
+
+ABSTRACT
+Children’s fears and hopes regarding technology play a crucial
+role in influencing its development, impact, and social acceptance.
+Although studies investigate children’s perceptions of social robots,
+there is a need to better understand how hopes and fears influence
+children’s views of the future. In this paper, we present the outcomes of a study in which we explored 60 children’s (aged 8-14)
+perceptions of social robots using ten fictional scenarios. From data
+analysis, we elicited four major themes that become the pillars
+of a model that represent children’s perception of social robots
+(agency, comprehension, socioemotional features, and physicality).
+The model shows the complex and often paradoxical nature of children’s acceptance (hope) and rejection (fear) of social robots in
+their lives. Our outcome provides the foundations of a new responsible approach in analyzing and designing social robots for children
+using hopes and fear as a lens.
+
+CCS CONCEPTS
+• Human-centered computing; • Human computer interaction (HCI); • HCI design and evaluation methods; • User models;
+
+KEYWORDS
+Child-Robot Interaction, Social Robots, children user model, ChildComputer Interaction, fears and hope, children’s perceptions
+ACM Reference Format:
+Elisa Rubegni, Laura Malinverni, and Jason C. Yip. 2022. “Don’t let the
+robots walk our dogs, but it’s ok for them to do our homework”: children’s
+perceptions, fears, and hopes in social robots.. In Interaction Design and
+Children (IDC ’22), June 27–30, 2022, Braga, Portugal. ACM, New York, NY,
+USA, 10 pages. https://doi.org/10.1145/3501712.3529726
+
+1
+
+INTRODUCTION
+
+Social robots [2] are gaining increasing attention in the design of experiences for children. Several studies focus on evaluating whether
+and how social robots can be applied to facilitate different processes
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.
+IDC ’22, June 27–30, 2022, Braga, Portugal
+© 2022 Association for Computing Machinery.
+ACM ISBN 978-1-4503-9197-9/22/06. . . $15.00
+https://doi.org/10.1145/3501712.3529726
+
+352
+
+Jason C. Yip
+
+The Information School, University of
+Washington
+jcyip@uw.edu
+
+such as learning [15], therapy [38] and children’s wellbeing [18].
+However, Serholt et al. [29] explains that such research should also
+broaden its scope beyond the focus on technological advancements
+and viability, to instead also encompass a broader and more critical
+understanding on the impact of the use of robots in social contexts. A key dimension of this understanding is represented by
+reflecting on the possible concerns, assumptions, and unintended
+consequences that arise from the design and deployment of robots
+in different social situations. Within this line, an increasing number
+of researchers are shedding light on the social, moral, and ethical
+concerns related to this research area.
+However, most of these studies are framed around an adultcentric perspective, which poorly considers children’s voices and
+opinions on these topics. Although we have studies on children’s
+perceptions of robots, most of them focus on understanding how
+children broadly conceptualize the notion of robots (e.g. [20]) or
+their attitudes and beliefs when interacting with one of them. A
+few of these studies narrowed down the scope by looking at a specific issue (e.g. creepiness [35]), while others explicitly addressed
+children’s concerns about robots when they are presented as partners in daily life situations (e.g., school environment [30]). Starting
+from this perspective, our research aims at investigating how children conceptualize benefits and drawbacks of using robots in social
+situations.
+To this end, we employed the lens of “fears and hopes” as a
+key cornerstone to support this understanding. People’s fears and
+hopes regarding technology play a crucial role in influencing their
+development, impact, social acceptance and regulation [8]. Furthermore, as Livingstone and Blum-Ross [17] point out, parents’ fears
+and hopes about technology shape children’s lives and their usage
+and experience of digital devices. Hence, understanding children’s
+own fears and hopes can add a further dimension to this panorama
+and help to uncover gaps between adult-centric perspectives and
+children’s lived experiences. We have designed and implemented an
+empirical study aimed at understanding how children conceptualize
+social robots using hopes and fear as a lens. We co-designed [27] a set
+of fictional scenarios where robots, in a potential future, cover different tasks in daily contexts. These scenarios were used as prompts
+to open the dialogue with children. By presenting children with
+potentially realistic scenarios, we can tap into both what they wish
+for (hope) and what they are averse about (fear). The study was
+organized in two main phases that involved more than 60 children
+online and in-person. During COVID-19, we collected data over a
+series of workshops conducted within six months. We developed
+our outcomes from empirical evidence of children’s hopes and fears
+about social robots around a set of four main dimensions: agency
+
+===== PDF PAGE 2 =====
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Elisa Rubegni et al.
+
+and boundaries, comprehension and cognition, socioemotional features, and physicality and materiality.
+The main contribution of our work concerns a better
+knowledge about children’s beliefs, fears, and hopes in
+interacting with robots in their daily lives. Additionally,
+we will provide a theoretical model that conceptualizes
+what children think about robots through a hope/fear
+lens. Finally, we will provide some thoughts on how these
+can be valuable resources for thinking about child-robot
+interaction in social context.
+
+2 RELATED WORKS
+2.1 Children’s conceptions and general beliefs
+about robots
+The use of social robots [2] has gained attention in designing interactive experiences for children. As a result, an increasing amount
+of research addresses children’s perceptions, beliefs, and opinions
+about social robots as a means to better guide design (e.g. [1] [4]
+[5] [7] [20] [25] [33]). Research in this area has shown some consistent results regarding children’s understanding of social robots.
+First, several studies [12] [20] note that children’s conceptions of
+social robots are often influenced by fictional works from audiovisual mainstream culture. Examples include children’s tendency to
+depict robots as a combination of advanced technologies, anthropomorphic bodies, and human-like skills; in the reproduction of
+gender’s stereotypes in children’s representations of robots and in
+the tendency to associate robots with violence-related imaginaries
+(e.g. weapons and war-like machines [5] [20]). Second, several studies show that children tend to anthropomorphize robots in their
+physical appearance and abilities [7] [5] [33]. Studies consistently
+show how children tend to attribute mental state, abilities to feel
+emotions and understand humans to robots that have humanoid or
+animal characteristics [1]. For instance, Beran and Ramirez-Serrano
+[4] show how, after interacting with a robot, 50% of children think
+that this robot has cognitive human-like characteristics over 60%
+believe that this robot has affective characteristics and over 80%
+find the robot capable of human-like behavior. Similarly, Di Dio et
+al. [9] demonstrate how children aged 5-6 years old can attribute
+mental and physical properties to robots as they would do in interacting with humans. Finally, children’s drawings of robots tended
+to anthropomorphize them, combining the use of human characteristics with geometric elements [5] [7]. Although we know what
+external factors influence what children think about social robots, we
+do not yet understand children’s ideas of potential futures with robots.
+We believe the use of hopes and fears can help us understand how
+children make sense of technologies.
+
+2.2
+
+Fears and hopes as a lens to think about
+smart technologies.
+
+Cave and Dihal [8] offer a relevant contribution by using the lens of
+fears and hopes to analyze people’s imaginaries around smart technologies and their role in influencing technological development,
+impact, social acceptance and regulation. The authors highlighted
+how media discourses tend to portray intelligent technologies either in tones of great optimism (hope) or equally great pessimism
+
+353
+
+(fear). Furthermore, they identify a set of key parallel hopes and
+fears that form part of people’s fantasies about AI and robotics: (1)
+the dichotomy between the hope for immortality and the fear that
+such improvements can end up dehumanizing us; (2) the dichotomy
+between the hope of having the machines making our life easier
+and the fear of humans becoming obsolete, useless and unskilled; (3)
+the dichotomy between the hope of having machines as smart and
+compliant companions and the fear of having human beings becoming redundant to each other; (4) the dichotomy between the hope of
+dominating technology and the fears of a dystopian technological
+uprising against humans. Portions of the fears and hopes perspective also show up in empirical research. Enz et al. [10] conducted an
+examination of people’s expectations, fears, and hopes regarding
+social robots and their role in society. Overall results report a higher
+acceptance of roles where robots relieve human beings from pressing or dangerous tasks, and negative attitudes toward roles that
+implies equity between robots and humans or where robots may
+end up substituting humans. Both Cave and Dihal [8] and Enz et
+al. [10] offer interesting starting points to think about the relation
+between people’s imaginaries about intelligent machines, robots,
+and people’s fears, hopes, and acceptance. However, both studies
+examine adults only, which makes it hard to extrapolate whether the
+same fears and hopes are also shared by the younger generations.
+Therefore, it is important to consider children’s views of hopes and
+fears to understand what nuances exist that may not be seen with
+adults.
+
+2.3
+
+Fears and hopes in Child-Robot Interaction
+(CRI)
+
+Research on the development of social robots for children is intrinsically motivated by the hope of using these technologies to improve
+different aspects of children’s lives, such as learning outcomes [15],
+well-being and therapeutic treatments [38]. However, the emerging perspectives offered by research fields such Critical Robotics
+[29] and Critical Research in Child-Computer Interaction [14] are
+shedding light on the possible concerns related to the design and
+use of robots in social contexts, i.e. ethical issues surrounding children’s use of educational robots [28], use of robotic toys in families
+[11], and the potential impact of social robots in children’s social
+and emotional [22] development [32]. For instance, Tolksdorf et al.
+[31] highlights the legal and ethical concerns related to safety and
+privacy protections when employing social robots in kindergarten
+settings. McBride [21] points out several ethical considerations regarding the use of social robots for therapy with autistic children
+such as the issues of autonomy, community, transparency, identity,
+value, and empathy. Boada et al. [6] in their systematic analysis of
+ethical issues about assistive robots, stress the concerns related to
+how these technologies in care settings may end up dehumanizing
+care and affecting the quality of the practice. Pashevich [22] warns
+against the poorly understood impact of social robots in children’s
+development of empathy. Moreover, Howard [13] highlights the
+needs of reducing negative biases perpetrated by robots on children
+that can be also solved by designing embodied social agents with
+the purpose of making children aware of gender biases [26]. On
+the other hand, research that directly addresses children’s fears
+and hopes about robots is much scarcer. For instance, research on
+
+===== PDF PAGE 3 =====
+
+“Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social
+robots.
+
+children’s conceptions about robots pointed out a polarized and
+ambiguous perceptions that children have about robots. Malinverni
+et al. [20] found that children depict robots as autonomous beings,
+capable of feeling and taking decisions and, at the same time they
+describe robots as functional machines created and dependent by
+humans. Smakman et al.’s [30] study on the use of social robots
+in education and point out how the different stakeholders (parents, teachers, children) demonstrate hopes and concerns regarding
+robots in education. These findings point out the dialectic nature of
+children’s conceptions about robots, where something is not clearly
+“good or bad”, but dynamically moves between these two polarities,
+leading eventually to apparently contradictory beliefs.
+Some studies focus on the fear perspective of robots for children. For instance, Yip et al. [36] employed the lens of creepiness
+to investigate children’s fears about intelligent technologies. Often
+children’s concerns about intelligent technologies do not necessarily correspond to adult concerns about child-robot interaction (e.g.,
+surveillance and online safety). Yip et al. [36] identify how the children’s main fears regarding technology address the possible threat
+to their physical safety (e.g. having a technology causing physical
+and bodily harm) and concerns related to having a technology intruding or even dismantling their trusted network and attachment
+relationships (e.g. family and friends). Livingstone and Blum-Ross
+[17] point out parent’s fears and hopes that technology has a major
+role in determining parenting styles and in mediating children’s
+usage and experience of digital devices. Looking at fears and hopes
+can constitute a meaningful lens to better understand child’s relationships with technology. These works offer relevant standpoints
+to frame research in CRI beyond the focus on technological advancements to instead also take into account the critical analysis of
+technological innovations and the possible ethical, moral and social
+consequences of using robots [19]. However, much of the research
+in CRI in hopes and fears addresses the physical design perspective
+for children. For example, Pearson and Borstein [23] consider design ethics in terms of aesthetics around robots for children. They
+note that designers of children’s robotics need to consider whether
+robots ought to be made to appear or act humanlike, and whether
+robots should be gendered for children [16]. We believe there is also
+importance to look at what children perceive as the attitudes and
+behaviors of robots within possible realistic social contexts to better
+consider the deeper core of design robotics for children.
+
+3
+
+THE STUDY
+
+Our research aims at investigating how children conceptualize social
+robots using hopes and fear as a lens. We conducted a study in which
+we used fictional scenarios [10] to directly involve children in an
+open discussion about robots’ role in their lives in social contexts.
+These scenarios represent fictional situations in which children
+interact with a robot and/or an adult in everyday contexts. In the
+study, each scenario was the starting point to prompt children’s
+reflections about their relationship with the technology represented.
+The scenario was represented as a comic strip with three or four
+instances of the same activity (e.g., reading). For instance, in the
+“Reading at school” (Fig. 1) scenario there are four instances: in
+the first the child is reading to the robot, in the second the robot
+is reading to the child, in the third they read together, and in the
+
+354
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+fourth an adult reads to both. We presented each scenario/strip as a
+unique situation to the child who could see all the instances at the
+same time. In the scenarios, we were mindful about representing
+diversity and used the robot “Nao” since past studies considered it
+as the one that causes less troubles in interacting with children [3].
+The main study had two main phases. In the first phase, we ran an
+online pilot with the purpose of co-designing and testing several
+scenarios and assessing the feasibility of the protocol. In the second
+phase we performed two instances of the study in presence.
+
+3.1
+
+Phase One: The pilot study.
+
+The aim of the pilot was to evaluate several scenarios and select
+those that would be used in the following phase. We designed a
+set of ten scenario for the pilot. The pilot was conducted online
+due to COVID-19 restrictions during January 2021 and lasted three
+months. We involved an intergenerational co-design team with
+adult facilitators (including one of the authors) and 12 children
+aged 7-11 years old in the USA [36] (7 years old = 4. F=2 M=2; 8
+years old =2, F=1, M=1; 9 years old = 1, F=1; 10 years old = 2, M=2;
+11 years old = 3, F=1, M=2). This team is known as KidsTeam UW
+[37]. We chose to work with KidsTeam UW in the USA because we
+would be able to work with the same children for several weeks to
+garner feedback on the social robot scenarios. Children participated
+in the KidsTeam Uw pilot through a videoconference platform. We
+grouped children into teams of three or four led by an adult. During
+the activity, the facilitator presented the scenario to the children,
+asked them to rate the scenarios and facilitated the discussion
+among them. The pilot aimed at fine tuning the procedure, and
+better understanding the children’s initial reactions to the scenarios
+and picking those that would be tested in the following phase: the
+in-person study. The pilot lasted three sessions in which children
+were asked to comment and reconfigure the ten scenarios, with
+three to four in each session:
+• Session 1: Co-reading at home, Co-reading at school, and
+Playing football (soccer);
+• Session 2: Doing homework, Online teaching, Playing on
+swing, and Tidying the room;
+• Session 3: Listening problems/thoughts/opinions, Cooking,
+and Walking the family dog
+3.1.1 Data collection, analysis and results. Data analysis has the
+purpose of understanding children’s reactions to the scenarios to
+select these that we used subsequently in the in-person session.
+We collected data by recording each session that we observed afterwards. We based the selection on two main factors: avoiding
+redundancy and keeping those that stimulate a more polarised reaction (negative and positive). To avoid redundancy, we use a set
+of three criteria:
+Represent robots’ different levels of responsibility and engagements with the context, the adult and the child: physical (e.g., tidying the room, cooking, walking the dog), cognitive (e.g., co-reading,
+homework, online teaching), caring (e.g. dog walking, cooking,
+listening), and play (e.g., swing, football).
+Include different types of locations such as private (e.g., such as
+children’s home), public (e.g., classroom), as well as outdoor (e.g.,
+dog public path) and indoor spaces (e.g. the studio).
+
+===== PDF PAGE 4 =====
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Elisa Rubegni et al.
+
+Figure 1: An example of scenario strip: the co-reading
+Represent a set of activities that are competitive (e.g., football)
+as well as collaborative (e.g., homework, tidying the room).
+Regarding the polarised reactions, we observed children’s responses to the scenarios as we envision that an intense reaction
+could stimulate deeper thoughts also in the in-person study. We
+searched for both verbal and non-verbal evidence of children’s responses by looking at both the notes of the facilitators and the
+videos recorded during the sessions. For instance, the scenario
+“Walking the dog” was the one towards which children had the
+strongest negative reaction. Children expressed dislike that the
+robot was walking alone with the dog, as they envisioned that the
+robot could harm the animal (e.g., “they are going to die”). While
+the “Playing football” one produced a positive response towards the
+robot’s presence as children thought that it could help to win (e.g.,
+“the robot is strong and we will win”). Based on the results of the
+analysis we selected four fictional scenarios for the next phase of the
+study: 1. Co-reading at home, 2. Playing football, 3. Listening
+to problems, and 4. Walking the dog. Regarding the procedure
+we have refined it by considering the change of context from online
+to in-person. Thus, we adapted the protocol considering that children would participate in-person and by including also COVID-19
+safety rules.
+
+3.2
+
+Phase Two: The in-person study
+
+The second phase of the study was organized in person as COVID19 restrictions were lowered in the summer 2021. We were allowed
+to engage children in local workshops. We organized two instances
+of the same study and run it in two different locations in a country
+in the European Union. This was an opportunistic choice as one
+of the authors could run a study in-person their hometown. Two
+facilitators lead two sessions in parallel. One of them was one of the
+authors and the other one was a person with previous experience
+in running study with children. Each session lasted 50 minutes and
+it was organized as follows:
+1. Introduction (10 minutes): The facilitator introduced the
+activity, explained to the children what they have to do and
+the main purpose of the study.
+2. Individual rating of each scene (10 minutes): children autonomously provided a score to each instance of the scenario
+on a five-point Likert scale (1- I don’t like it to 5 - I really
+like it)
+3. Group discussion (20 minutes): the facilitator engaged children in a group discussion asking them to share their rates
+and talk about their thoughts. During the group discussion
+the facilitator used a set of prompts to stimulate children
+
+355
+
+to talk about their thoughts, such as: what do you think is
+happening here? What would you feel if you were that child?
+How would you change this scenario?
+4. Wrap up and conclusion.
+
+3.3
+
+Participants
+
+We recruited the participants through a local association
+(Ated4Kids) committed to disseminate STEM-based culture by organizing events and other learning opportunities for children. They
+hosted our study within a bigger event in which other members of
+the Ated4Kids programs were offered (e.g., Scratch). We involved
+46 children aged 8-14 years old (F = 9, M = 36; 8 years old =7, F=2
+M=5; 9 years old = 8, F=1 M=7, 10 years old = 13, F=3, M=10; 11
+years old = 6, F=1, M=5; 12 years old = 5, M=5; 13 years old = 5,
+F=2, M=3; 14 years old = 2, M=2). The higher percentage of male
+is due to these STEM events being usually more attended by male
+than female children. We randomly grouped children in teams of
+four, and two facilitators separately conducted the activity on each
+group.
+
+3.4
+
+Data collection and analysis
+
+We recorded the discussion (∼13 hours) and the audio was transcribed by two researchers (two authors) who also performed a
+thematic analysis in a blind mode using the software NVivo. We
+first used an automatic speech-to-text software, and then the text
+was refined by each researcher to be sure the transcription of dialogues was correct. In the first round, we used an inductive analysis
+[24] approach to code the transcripts independently and in a second
+one we agreed on the coding scheme and created a unique code
+book that was used to analyze the entire transcript. Afterwards,
+within a few cycles they refined the codes until we got 49 codes
+that were collected in four themes that act as the four pillars of a
+conceptual model that we build to depict children’s conceptions of
+robots using fears and hope lenses:
+1. Boundaries and autonomy;
+2. Cognitive features and comprehension skill;
+3. Socioemotional features; and
+4. Materiality, physical and technical features.
+We conducted a final round of coding of the four themes using
+a deductive method [24] of hopes and fears [8]. We denoted hope
+as statements around robots that appeared positive, optimistic,
+or beneficial to the children. In contrast, we coded fears as any
+statement that seemed anxious, worried, or unhappy about the use
+of social robots.
+
+===== PDF PAGE 5 =====
+
+“Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social
+robots.
+
+Figure 2: Boundaries and autonomy, represented by showing
+the main hopes (on the left in blue) and fears (on the right in
+orange), the dichotomy of beliefs are the boxes that on the
+top and the bottom.
+
+4
+
+FINDINGS: THE CONCEPTUAL MODEL
+
+Our research aims at investigating how children conceptualize social
+robots using hopes and fear as a lens. In reporting the findings,
+we describe each theme as a dimension that is included in the
+conceptual model. For each theme we provide a description and
+highlight children’s conceptions, fears, and hopes. We will add
+some quotes from the transcriptions as evidence and explanation of
+each theme. Quite often children showed ambivalence in the way
+they perceive robots in their lives. To represent this ambivalence,
+our model aims at using a dichotomous lens based on hopes and
+fears to make sense of children’s perspectives of robots. The model
+shows the high level of complexity of children’s thoughts about
+robots with the purpose of supporting the community to better
+understand how to challenge this topic.
+
+4.1
+
+Theme 1: Boundaries and autonomy
+
+In most scenarios, children consider robots as systems that are
+programmed and designed by somebody (a software developer) who
+decides the level of autonomy of the robots. In some circumstances,
+they also expressed beliefs related to situations in which robots
+may display their own intentions and agency. These contradictions
+evoked different fears and hopes related to the robot’s perceived
+agency.
+4.1.1 Robots do not have agency because their behavior is fully
+pre-defined by humans. Fear: Human errors in robots’ programming make the robot unreliable. Children worried about robots’
+software having bugs and errors. For instance, in the dog scenario:
+Id8: “I am worried about the dog. Because if you leave the robot alone
+with the dog, and there is something wrong with the robot’s software
+then it could be broken, and the dog will run away from you”.
+Fear: Robots may be programmed to misbehave. Children
+assigned the responsibility of the robot’s behavior to the people
+who created it and wrote its software. Most children believe that
+robots are not responsible for their misconduct as their behavior
+is decided by a human being (the developer). In relation to this
+idea, they expressed fears related with robots that are intentionally
+developed by somebody to do something bad. E.g., Id 39: “So who’s
+to blame if the robot is bad?” and Id40: “Those who created it, but it
+is also the fault of the robots that must execute commands”.
+Fear: Lack of transparency. Children also expressed their fears
+regarding the lack of transparency on the way robots have been
+programmed and worked: “I don’t like the robot as it is suspicious...he
+can always hide something. I don’t know what it has in its mind” Id35.
+Finally, concerns regarding the robot’s cognition also addressed the
+lack of transparency of its reasoning process. One child commented
+
+356
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+that they trust more people than robots because Id36 “You can
+understand people better, as you don’t know how robots think” and
+that they trust only a programmable robot that they have at school
+since “I can program it” Id40. On the other hand, children feel
+trustful and confident in robots when they have control over it and
+can properly understand its functioning.
+Hope: Being in control of the robot agency. Children expressed positivity that robots can have limited agency established
+by the developers, and that the robots only act upon the instructions
+given by the owner. Most children reported the possible advantages
+of robots that do not have agency. The children were pleased that
+the robots could potentially execute unpleasant tasks, e.g., Id9:
+“Robots are machines, and they try to help us, we create them to make
+life easier for us, it would be better if the robot reads to the child
+instead of the other way round.”
+Likewise, a robot that is acting like a slave made the children
+feel safer and more comfortable:
+Facilitator: “So the robot doesn’t decide for itself... the others decide
+for him”
+Id17: “Yes it receives commands from the owner. If they ask the
+robot to crash against the wall, it will do it”.
+Id 15: “So the robot takes orders like a slave?”
+Id 17: “Yes, it (the robot) is a slave
+4.1.2 Robots can have their agency that go beyond human’s prepredefined tasks. Fear: Unpredictable behavior. Although children consider robots as functional machines that respond to humans’ commands, they are also worried that robots do not follow
+the human’s willingness. The unpredictability of the robot’s behavior is perceived as lack of control over it: “You can’t know how
+the robot will react as it has robot things to do like bullying you or
+killing you”, Id 26. These fears were particularly evident in the dog’s
+scenario. Several children expressed worries related to the unpredictability of the robot’s behavior and the risks for the dog. For
+example, a child noted: “Maybe the robot can take the initiative and
+throw the dog in the river” Id12; “I prefer that the girl also accompany
+the dog and the robot so she can protect the dog if the robot decides to
+do something bad to it” Id27.
+
+4.2
+
+Theme 2: Cognitive features and
+comprehension skills
+
+Children tended to construct their cognitive concepts of robots
+by comparing them with human comprehension. In particular, the
+reading, the listening to problems, and the dog walking scenarios
+elicited several comments from the children regarding the robots’
+cognition. Regarding the tasks in which the robot may be skillful,
+children reported a diversified spectrum of opinions. Children expressed that social robot are skilled in executing scientific tasks but
+are not so good in comprehension. In most cases, children considered that the robot can carry out these humans given tasks, but it
+will not be able to truly understand a book or somebody’s feelings.
+4.2.1 Robots lack comprehension. Fear: Robots are unsuitable
+for comprehension tasks. Some children noted that robots are
+unsuitable for tasks that require comprehension. The children
+pointed out that humans are better at comprehension tasks than
+robots. These concerns were particularly elicited in the “reading
+
+===== PDF PAGE 6 =====
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Elisa Rubegni et al.
+
+Figure 3: Cognitive features and comprehension skills, represented by showing the main hopes (on the left in blue) and
+fears (on the right in orange), the dichotomy of beliefs are
+the boxes that on the top and the bottom.
+scenario” and in the “listening to problems” scenario. In the “listening to problem scenario”, children pointed out that robots can listen
+to you, but they are not able to truly understand you. Similarly in
+the reading scenario they suggested that even if a robot may be able
+to read a book, it will not truly understand the information: “There
+is no point in reading a robot because it is not a person, it cannot
+understand” Id22.
+Fear: robots are not able to take care of humans and loved
+ones. Children in the study also expressed that robot are lacking
+in understanding others’ needs in taking care of them. For instance,
+the robot would be too slow in being engaged in any teaching task
+(including reading) as it would hardly properly comprehend any
+child’s issues. This emerged also in the dog walking scenario as
+children believed that the robot could not perceive the dog’s needs
+and, eventually, could not take care of it properly. Participants
+noted:
+Id17: “I don’t trust him because if you ask him to feed the dog, he
+could give him poisoned food by mistake”.
+Id18: “Not by accident, but because he is a donkey/stupid.”
+Id17: “No they do not know, and you have to be very specific”.
+Fear: Robots may act too literal. The cognitive differences can
+raise fears related to possible misunderstandings between the robot
+and the child and the potential negative outcomes. For instance,
+in the listening to the problems scene, some children pointed out
+that the robot may be too literal in understanding what the child is
+saying, leading to unintended consequences. Id27 noted: “if the child
+says, "I would kill this person" the robot can take it as an order and
+actually kills that person”. Similarly, in the dog scene the robot may
+misunderstand situations or dog’s behavior ending up in provoking
+harm to the dog.
+Hope: Robots’ lack of knowledge can make them good
+peers in learning. Some children have a positive attitude towards
+robots that are not designed as smart and still need to learn: Id13:
+“I liked that the robot and the girl are training together. It means that
+the robot has not been programmed to be strong at football and it has
+to learn.”
+4.2.2 Robots can have valuable knowledge. Fear: Disrupting human learning. In the cases where children considered that robots
+can have valuable knowledge, some of them expressed concerns
+related to how these skills can be detrimental for humans. The children pointed out how delegating cognitive tasks to the robot can
+cause humans to lose their capabilities in these areas. For instance,
+one child imagined that if the robot gives you all the answers, then
+you will not be able to learn anymore. Similarly, a girl in the “reading scenario” reported: “I don’t like that the robot reads to the child,
+because the child should learn to read by himself ”. Another one,
+
+357
+
+Figure 4: Socioemotional features, represented by showing
+the main hopes (on the left in blue) and fears (on the right
+in orange), the dichotomy of beliefs are the boxes that on
+the top and the bottom.
+
+pointed out that if the robot and the child read together, they may
+run the risk that the robot reads everything too fast, and the child
+doesn’t have the time for reading.
+Hope: Robots can do large calculations. Children conceptualized the robot as provided with some form of intelligence, which
+nonetheless is substantially different from humans’ intelligence.
+Robots therefore are considered as particularly skillful in scientific
+tasks (e.g., computing and math) “he’s good at calculating because if
+you tell him 26 billion times 8 billion, he’ll give you the result straight
+away” Id15. According to children, these skills came from the robot’s advanced technical features that allow it to make complex
+reasoning, relate to a big source of data, huge memory storage, etc.:
+“they are very intelligent because they have the hard disk” Id33.
+Hope: Knows how to do homework. Children hope that
+robots would imply these skills to help them: “I give him my homework and he does it or at least he can make corrections of my homework” Id6. Similarly, they imagined that the robot may be helpful
+in school to solve tasks.
+
+4.3
+
+Socioemotional features
+
+The scenario related to “listening problems” elicited the most
+amount of children’s considerations regarding robots’ socioemotional features. Most children agreed that robots do not have
+emotions or feelings. In the scenarios where robots show some
+emotional reactions, these are behaviors that are artificially programmed to demonstrate they can feel it. In other scenarios, where
+the socioemotional components of the situation were not so evident,
+children showed more nuanced understandings of robots’ emotions.
+In particular, when children imagined emotional reactions that go
+beyond “the artificially programmed ones”, the output of these reactions was always associated with negative consequences (e.g.,
+the robot gets angry and hurts somebody).
+4.3.1 Robots as completely incapable of feeling emotions and empathizing. Fear: Robots substituting humans in tasks that involve caring for others. In the “listening problems” scenario, children mainly considered that the robot’s lack of emotional capabilities makes the robot unskilled for listening to one’s problems since
+they are not capable of empathizing and understanding human’s
+feelings:
+Id30 “The robot does not feel emotions so he cannot be sad about his
+problems and understand how he can help him. Although he is very
+intelligent, in these situations he is not very useful”. Similarly, when
+faced with a situation that requires a certain sensitivity, robots
+are perceived as inadequate with respect to humans. For instance,
+in the reading scenario they consider that humans could better
+
+===== PDF PAGE 7 =====
+
+“Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social
+robots.
+
+support children in terms of empathy as suggested by the following
+extracts: Id2: “I would prefer having my mum reading instead of a
+robot. Even if she doesn’t listen to you, she will never tell you that she
+is bored.”
+Id3: “And if you read something wrong my mother would correct
+me in a nicest and more expressive way”.
+4.3.2 Robots as capable of having emotional reactions and supporting human dealing with emotions. Fear: Unpredictable and
+inadequate at emotional reaction. Although the understanding
+of robot’s as lacking emotions was dominant, nonetheless children
+showed fears regarding possible unpredictable and inadequate emotional reactions by the robots. For instance, Id41 speaking about a
+robot that they use in school reported: “we have a Thymio who is
+fearful. It has some artificial emotions ... the fearful Thymio, if you
+clap your hands, it turns red ... if you stay still, it turns green”. In
+some cases, when they imagined robots as actors in social situations, they described possible emotional reactions that go beyond
+pre-programmed behaviors. For instance, in the football (soccer)
+and in the dog scenarios, some children imagined that the robot
+would get angry and hurt somebody:
+Facilitator: “Thus, who does program the robots?”
+Id15: “The one who invented it”
+Facilitator: “And can they be programmed to be happy or sad?”
+Id15: “No.”
+Id17: “It can be programmed to be violent.”
+This distinction highlights relevant considerations between what
+children know about robots and how they think about them as
+agents in social context. It seems that, even if they rationally explain
+that “robots don’t have emotions but just fake them” Id23. Nonetheless, the children used the emotional lens as a way of thinking about
+robot behavior in social contexts.
+Hope: Robots as companion. Some children pointed out that,
+even if robots are not capable of empathizing with feelings and emotions, they nonetheless could offer meaningful support if somebody
+is sad or angry. For instance, one child claimed that “even if the
+robot doesn’t understand you, it can help you feel better by telling you
+a joke or proposing to you some playful activity” Id25. Others also
+mentioned that the robot could be helpful to relieve the loneliness
+of some children. Although children considered that robots are not
+as good as humans in coping with emotions, they suggested that
+robots may be helpful companions, helping humans in dealing with
+unpleasant emotions (e.g., anger, sadness) or eventually filling some
+socio-emotional gap when it is needed.
+
+4.4
+
+Materiality, physical and technical features.
+
+The role of robot’s materiality, physical and technical features has
+been a key topic in the children’ conversations, especially in the
+football and dog scenarios. Children described robots as made of
+metal, steel, iron, cables, sensors, memory cards and electronic components. Nonetheless, they showed more ambiguous conceptions
+regarding how the material and physical features of robots can
+affect other beings. On the one hand, the strength of materials can
+configure robots as stronger than humans and specific configurations can make them more agile. On the other hand, however,
+they also described robots as easily breakable and fragile. Children
+described robots as provided with different physical capabilities
+
+358
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Figure 5: Materiality, physical and technical features, represented by showing the main hopes (on the left in blue) and
+fears (on the right in orange), the dichotomy of beliefs are
+the boxes that on the top and the bottom.
+with respect to humans. These can vary from enhanced skills to
+reduced capabilities and mobility.
+4.4.1 Robots are fragile. Fear: Easily broken and unreliable.
+Several children, building on their experience with other electronic
+devices, considered some robots as unreliable due to their high susceptibility to easy breakage. For instance, in the dog scenario, one
+child (Id14) imagined that the robot might overheat under the sun,
+melt, and make a hole in the planet. Others imagined the possibility
+of sand or water getting into the robot and short-circuiting it, hence
+making the robot unreliable for this task. The ambivalent nature of
+robot’s materiality as both resistant and fragile configure different
+fears and hopes. The supposed mobility issues make the robots inappropriate for certain tasks. Some children expressed the concern
+that the dog may run away and the robot, due to its slowness, will
+not be able to chase it.
+Fear: Break could harm people and others. Some children
+also reported concerns regarding the robots’ fragility. For instance,
+they considered that during the football match the robot might fall
+and break. Similarly, they imagined that the robots may suddenly
+explode or lose some part and cause some damage to somebody.
+Also, in the dog scenario, some children are worried that the robot
+could have unpredictable behavior and kill the dog because the rain
+damaged it e.g. the rain Id3 “...maybe with the rain the robot breaks
+and throws the dog in the river”. This perceived easy breakability
+evokes, at the same time, fears related to hurting others or concerns
+regarding the reliability of robots for certain tasks (e.g. walking the
+dog).
+Hope: Sharing fragility and problems. In the listening to the
+problem scenario emerged that robots could have problems and be
+fragile. However, some children see this as valuable and positive.
+The fragility allows the opportunity for children and robots to share
+these issues:
+Id31: “The robot and the child are listening to each other’s problems,
+and I think that’s a great thing because then they can confront each
+other.”
+Id32: “Yes, from listening to the robots’ problems you can understand the good things you have. Therefore, it is good
+4.4.2 Robots are stronger and more agile than humans. Fear: Physical harm / Unintentional strength without control. Some children generally described robots as stronger than humans. This
+strength evoked fears related to physically harming somebody or
+producing damages. For example, a child noted: Id7 “But I can’t
+punch him because he’s made of steel, and I’ll break my hand...”. This
+perceived strength elicited concerns related to the fear of “strength
+without control”, according to which robots can eventually harm
+
+===== PDF PAGE 8 =====
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Elisa Rubegni et al.
+
+other living creatures or provoke different kinds of damages. For
+instance, in the football scenario, some children expressed their concerns regarding having the robot hurting other players or breaking
+the ball due to its physical strengths. Similarly, in the dog scenario, two children imagined that, when walking the dog, the robot,
+due to its strengths, could unintentionally pull the dog too hard
+and strangle it. Another one, imagined that if the robot helps in
+some domestic duties, it may end up breaking something due to its
+strength.
+Fear: Provoking inequality of conditions. The potential enhanced capabilities of the robots with respect to humans evoked
+fears related to provoking inequality of conditions. For instance, children imagined that, in the football scenario, the robot’s physical
+features could make it a effective goalkeeper since it may be able
+to extend its arms to save goals. Nonetheless, some children mentioned that these skills can generate unfair situations. For instance,
+thanks to its certain skills, the robot can always make its team win.
+Id19 talking about the football scenario claimed: “if the robot is
+programmed for being an experienced football player it would be very
+challenging for the other children’s team to win”.
+Hope: Relieving humans from heavy duties. The perceived
+strength of the robot makes children think about the opportunities
+and hopes related to having robots relieving humans from some
+heavy duties such as cutting wood or carrying heavy stuff.
+Hope: Helpful for self-defense. The robot strength was also
+considered positively in tasks related to self-defense. For instance,
+some children imagined robots as potential helpers in defending
+them from bullying and one child stated that he would like to have
+a robot “as a bodyguard”.
+
+5
+
+DISCUSSION AND CONCLUSION
+
+Consistent with previous research, our study confirms the role of
+fiction in shaping children’s beliefs about robots [12], their tendency
+to understand robots through an anthropomorphic lens [20] and
+the moral dualities that thinking about robots in social context
+may elicit [30]. Furthermore, our conceptual model expands on
+prior work documenting how children conceptualize social robots
+through a fear/hope perspective [8]. Moreover, our model suggests
+four important dimensions to consider with children and social
+robots: agency and boundaries, cognition and comprehension, social
+emotional features, physicality and materiality.
+
+5.1
+
+Connection within model and related
+works
+
+Our model suggests that designers have a responsibility to reflect on
+how robots can trigger hopes and fears. The findings demonstrate
+that children have an easier time conceptualizing fear, rather than
+the hope of robots. Fear of robots has been linked to other studies
+noting childhood fears of technology (e.g., [36]). We argue there
+is a need for design ethics around robots that includes children’s
+fears and hopes. As mentioned before, Pearson and Borstein [23]
+consider design ethics mostly in terms of physical aesthetics and
+presentation (e.g., act more human, represent a gender). Our model
+extends Pearson and Borstein’s [23] design ethics concerns by also
+considering fears and hopes beyond the aesthetics. Our four dimensions of agency, cognition and comprehension, socioemotional
+
+359
+
+features, and materials/physicality go beyond the aesthetics, but
+the central core of what robotics might mean for children. Evidence
+shows that children’s concern is about robots’ attitude and behavior based on their knowledge and comprehension of the context
+(cf. sect. 4). Additionally, the children worried about the robot’s
+beliefs and moral attitude (cf. sect. 4). Second, there is a need to
+look at hopes and fears specifically as it pertains to children. Cave
+and Dival’s [8] model of hope (immortality, ease, gratification, and
+dominance) vs. fear (inhumanity, obsolescence, alienation, uprising) suggests that a series of dichotomies can help designers show
+the actual power and purpose of robotics and intelligent machines.
+However, their model is the start, particularly as it was based on a
+review of 300+ pieces of fiction and nonfiction works.
+Our work extends Cave and Dival’s [8] hope/fear model. Our
+findings are aligned with [8] as we are using a dichotomous lens
+to make sense of children’s perspectives of robots, however our
+innovative focus on children allowed to highlight other aspects
+that didn’t emerged in previous works. Hence, our work generates
+new knowledge on the social interactions in specific contexts: responsibility and engagements, private/public and indoor/outdoor
+locations, and competitive activities. Compared to Cave and Dival’s
+[8] model our research produces a better understanding of children’
+reactions to the presence of robots that can lead to develop a new
+approach to design a child-robots’ relationship. We argue invoking
+the positives and negative feelings that robots raise, we may consider more deeply the purpose of designing children’s robotics. If
+robotics can generate hope for children, it can also generate fear. We
+do not suggest designers suppress children’s fears around robots,
+while only promoting children’s hopes. Rather, in design, we need
+to consider the tensions of how our designs invoke both paradoxical feelings simultaneously in children and help them make sense
+of complex emotions. Finally, understanding how robots generate
+hope and fear in children can also help us understand the family expectations and situations that children may someday situate
+themselves in. Livingstone and Blum-Ross [17] argue that parents
+are living in a time of unprecedented changes around technology
+and the world. With digital parenting, Livingstone and Blum-Ross
+[17] note the same fear (resist), hope (embrace), and balance needed
+to make sense of the world. Digital is now the medium on which
+we negotiate who we are – our identities, relationships, values,
+and our children’s life chances. With social robotics and intelligent
+machines, families will need to make sense of the hope/fears both
+they and their children will have.
+
+5.2
+
+The contribution of the model
+
+The model’s theoretical contributions introduce ways in how characteristics and features trigger both hope and fear in children. Our
+model allows researchers, educators, and designers to consider the
+deeper structures of robotics for children and families. We developed the conceptual model through situations in which we placed
+the robot, sometimes alone with the children, but in many cases
+with other adults (teachers, parents) and family members (siblings,
+pets). The hopes and fears of the children and the robots are not
+about the child’s general perception of robots, but also about their
+ideas about the robots’ relationship to the context and the social interactions. The hopes and fears surfaced around these robot scenarios
+
+===== PDF PAGE 9 =====
+
+“Don’t let the robots walk our dogs, but it’s ok for them to do our homework”: children’s perceptions, fears, and hopes in social
+robots.
+
+are also noteworthy. Children expressed much sentiment about the
+hope of robots as “slaves” and “servants” with no agency but did not
+consider the ethics of such perspectives. Yip et al. [36] noted that
+children often looked at the visual interface and other overt signals
+in technology to determine its creepiness. However, the children in
+the Yip et al. [36] study did not mention as much about the behind
+the scenes of the technology (e.g., design of technology, back-end
+processes). For this study, we found that children did consider more
+about the back-end design of the robots. By focusing on specific scenarios that they put themselves in, we were able to elicit thoughts
+and expressions around designer responsibility of agency, the comprehension and cognition of the robots, and what socioemotional
+aspects are embedded or not embedded. Using a hope and fear lens
+may allow us teachable moments with children to consider what
+is important as a technological society. How does a hope/fear lens
+[8] [17] help us understand other areas in child-computer interaction,
+such as privacy and security, intelligent tutors, smart toys, and the
+metaverse?
+
+5.3
+
+Implications for designers and educators
+
+Implication 1: The design of activities and scenarios around
+robots. Our study provides insights to think about children’s levels
+of acceptance of social robots in their life. The different scenarios
+pointed out how, in certain situations, the robot can be more acceptable than in others as well as how certain social and contextual
+configurations may elicit specific fears and hopes. For instance,
+scenarios that involve a caring relationship were poorly accepted
+by children and elicited the greatest number of fears. In the dog scenario almost, all children found completely unacceptable that the
+robot walks the dog, since they consider the robot as unreliable and
+not trustworthy for this task. Similarly, children poorly accepted
+the scenarios that involved more complex relational patterns. For
+instance, the children accepted having a robot reading them the
+story, but they expressed several fears when the adult was reading
+to both. The children were especially not happy with a potential
+emotional bond among the robot and the parent. Some children
+showed a certain reluctance of having the robot in their private
+spaces, unless given limited agency tasks decided by the child (e.g.,
+reading a book that the child does not want to bother to read). In
+contrast, scenarios that imply a play dimension, such as the football
+one, were more positively accepted as the advantage of having a
+robot in the team was clearly perceived from different perspectives.
+We believe that using the dimensions of agency, comprehension,
+socioemotional features, and materiality, we can derive better watts
+to consider the situations in which children encounter social robots
+in diverse settings. Designers can use our conceptual model to
+conduct an analysis of potential scenarios that could affect how
+children’s hopes and fears of robots can emerge. By placing the
+same robotic design instance in different scenarios (e.g., care/play,
+collaborative/competitive), we can elicit and have children express
+different potential hopes and fears around the robot. This can be
+a valuable tool for the design of activities as well as child-robot
+interactions.
+Implication 2: The design of educational robotics. A better
+knowledge on children’s perception of robots in their daily lives can
+provide valuable insights and thoughts in designing educational
+
+360
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+activities, experiences, and policies. In the study, children showed
+a high interest in the conversations around the ethical, moral, and
+social dilemmas of implementing robots in everyday contexts. Additionally, they demonstrated an interest in better understanding
+how robots could be programmed to have feelings and understand
+emotions as a starting point to comprehend themselves the concept
+of emotions. Nonetheless, most educational robotics projects tend
+to focus on technical competences. Hence, spaces for philosophical discussion around fears and hopes are neglected or limited.
+We consider that both at a pragmatic level as well as at a policy
+level, competencies related to critically reflecting on technologies
+and spaces for having children expressing their concerns about
+technology should be much more numerous. At least, activities
+addressed to thoughtful reflections on robots’ role should have
+the same space as those that reflect on the more technical aspects.
+Designers can create heuristic analysis around the four dimensions
+children consider for the design. Robotics is not about the physical
+and material of the robot, but also considering the perception of
+children in comprehension, socioemotional features, and agency in
+learning settings.
+
+5.4
+
+Limitations and future work
+
+We developed our model through scenarios validated in two studies.
+The first portion occurred in the USA through co-design sessions
+with 12 children in a single geographic location. All the children in
+the co-design sessions have extensive experience with technology
+and design. The second one, in which we used outcomes from the
+pilot to create new scenarios, was conducted in one country in
+Switzerland. Thus, our model has stronger internal validity, and
+less on external validity. Therefore, our scenarios generated are focused on theoretical generalizations, not statistical generalizations
+[34]. The scenarios were also developed and grounded on literature.
+Future work remains on the model to try to come up with and apply
+the scenarios from different countries, socioeconomic groups, age
+groups, and other demographics we were unable to try out. In this
+dataset, the fear portion of the model was much easier to support.
+Hope portions of this model may need future research. We suggest
+different activities and scenarios that could elicit more hopes than
+fears. We recommend researchers use our model to see if hope portions can be elicited better. Future work around creating different
+scenarios needs to be presented to diverse children. For instance,
+in the scenarios we presented children with a strongly anthropomorphic robot (i.e. Nao) [3]. We believe that the anthropomorphic
+nature of the robots could have played a major role in determining
+children’s acceptance of robot roles. For instance, it is quite common to have a voice assistant reading a story or to play football
+against virtual agents in video games. However, these roles seem
+to be poorly accepted when the agent has a strong embodiment
+such as Nao. These considerations point out the need for further
+research aimed at exploring the intersection between embodiment
+and acceptability of intelligent agents in our lives. Additionally, the
+group of participants have most male children. We acknowledge
+it would be better to have a more balanced gender group in the
+future, however, COVID-19 made it difficult for further recruitment
+purposes.
+
+===== PDF PAGE 10 =====
+
+IDC ’22, June 27–30, 2022, Braga, Portugal
+
+Elisa Rubegni et al.
+
+ACKNOWLEDGMENTS
+
+[14] Netta Iivari, Sumita Sharma, Leena Ventä-Olkkonen, Tonja Molin-Juustila, Kari
+Kuutti, Jenni Holappa, and Essi Kinnunen. 2021. Critical agenda driving child–
+computer interaction research—Taking a stock of the past and envisioning the
+future. International Journal of Child-Computer Interaction: 100408.
+[15] James Kennedy, Paul Baxter, and Tony Belpaeme. 2017. The impact of robot tutor
+nonverbal social behavior on child learning. Frontiers in ICT 4: 6.
+[16] Theresa Law, Meia Chita-Tegmark, and Matthias Scheutz. 2021. The Interplay
+Between Emotional Intelligence, Trust, and Gender in Human-Robot Interaction.
+Int. J. Soc. Robotics 13, 2: 297–309.
+[17] Sonia Livingstone and Alicia Blum-Ross. 2020. Parenting for a digital future: How
+hopes and fears about technology shape children’s lives. Oxford University Press,
+USA.
+[18] Deirdre E Logan, Cynthia Breazeal, Matthew S Goodwin, Sooyeon Jeong, Brianna
+O’Connell, Duncan Smith-Freedman, James Heathers, and Peter Weinstock. 2019.
+Social robots for hospitalized children. Pediatrics 144, 1.
+[19] Maria Luce Lupetti, Cristina Zaga, and Nazli Cila. 2021. Designerly ways of
+knowing in HRI: broadening the scope of design-oriented HRI through the concept of intermediate-level knowledge. In Proceedings of the 2021 ACM/IEEE
+International Conference on Human-Robot Interaction, 389–398.
+[20] Laura Malinverni, Cristina Valero, Marie Monique Schaper, and Isabel Garcia de
+la Cruz. 2021. Educational Robotics as a boundary object: Towards a research
+agenda. International Journal of Child-Computer Interaction 29: 100305.
+[21] Neil McBride. 2020. Robot enhanced therapy for autistic children: An ethical
+analysis. IEEE Technology and Society Magazine 39, 1: 51–60.
+[22] Ekaterina Pashevich. 2021. Can communication with social robots influence how
+children develop empathy? Best-evidence synthesis. AI & SOCIETY: 1–11.
+[23] Yvette Pearson and Jason Borenstein. 2014. Creating “companions” for children:
+the ethics of designing esthetic features for robots. AI & society 29, 1: 23–31.
+[24] D F Polit and C T Beck. 2014. Qualitative research. In Essentials of Nursing
+Research: Appraising Evidence for Nursing Practice. 8th ed. Wolters Kluwer
+Health, Philadelphia, 265–300.
+[25] Karen Precel and David Mioduser. 2012. The effect of constructing a robot’s
+behavior on young children’s conceptions of behaving artifacts and on their
+Theory of Mind (ToM) and Theory of Artificial Mind (ToAM). Children, Youth,
+Environments Journal: 1–47.
+[26] Elisa Rubegni, Monica Landoni, Laura Malinverni, and Letizia Jaccheri. 2022. Raising Awareness of Stereotyping Through Collaborative Digital Storytelling: Design
+for Change with and for Children. International Journal of Human-Computer
+Studies 157: 102727. https://doi.org/10.1016/j.ijhcs.2021.102727
+[27] Douglas Schuler and Aki Namioka. 1993. Participatory design: Principles and
+practices. CRC Press.
+[28] Neil Selwyn. 2019. Should robots replace teachers?: AI and the future of education.
+John Wiley & Sons.
+[29] Sofia Serholt, Sara Ljungblad, and Niamh Ní Bhroin. 2021. Introduction: special
+issue—critical robotics research. AI & SOCIETY. https://doi.org/10.1007/s00146021-01224-x
+[30] Matthijs Smakman, Paul Vogt, and Elly A Konijn. 2021. Moral considerations
+on social robots in education: A multi-stakeholder perspective. Computers &
+Education 174: 104317.
+[31] Nils F Tolksdorf, Scarlet Siebert, Isabel Zorn, Ilona Horwath, and Katharina J
+Rohlfing. 2021. Ethical considerations of applying robots in kindergarten settings:
+Towards an approach from a macroperspective. International Journal of Social
+Robotics 13, 2: 129–140.
+[32] Sherry Turkle. 2017. Alone together: Why we expect more from technology and
+less from each other. Hachette UK.
+[33] Sarah Woods. 2006. Exploring the design space of robots: Children’s perspectives.
+Interacting with Computers 18, 6: 1390–1418.
+[34] Robert K Yin. 2009. How to do better case studies. The SAGE handbook of applied
+social research methods 2, 254–282.
+[35] Jason C Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofana, Justin Park, and Alexis Hiniker. 2019. Laughing is
+Scary, but Farting is Cute.
+[36] Jason C Yip, Kiley Sobel, Xin Gao, Allison Marie Hishikawa, Alexis Lim, Laura
+Meng, Romaine Flor Ofiana, Justin Park, and Alexis Hiniker. 2019. Laughing is
+Scary, but Farting is Cute: A Conceptual Model of Children’s Perspectives of
+Creepy Technologies. In Proceedings of the 2019 CHI Conference on Human
+Factors in Computing Systems, 1–15.
+[37] Jason C Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee, Sijin Chen, Kari Nasu,
+and Laura R Pina. 2017. Examining adult-child interactions in intergenerational
+participatory design. In Proceedings of the 2017 CHI Conference on Human
+Factors in Computing Systems, 5742–5754.
+[38] Yaoxin Zhang, Wenxu Song, Zhenlin Tan, Huilin Zhu, Yuyin Wang, Cheuk Man
+Lam, Yifang Weng, Sio Pan Hoi, Haoyang Lu, and Bella Siu Man Chan. 2019.
+Could social robots facilitate children with autism spectrum disorders in learning
+distrust and deception? Computers in Human Behavior 98: 140–149.
+
+We would like to thank all the children and families involved in
+the studies. A special acknowledgement to Ated4Kids that always
+welcomes innovative activities related to STEM and makes the
+study possible in Ticino (CH). This work was funded in part by the
+Jacobs Foundation Research Fellowship Program.
+Selection and Participation of Children.
+Prior to the study, all the parents/guardians of children who
+participated in the study (both pilot and implementation) signed
+a consent form. Children were informed about the aims of the
+study, and they were free to withdraw at any time. Researchers
+acted as facilitators and made sure children did not feel under any
+pressure and were comfortable with the activities in the study.
+Children’s data were anonymized for the analysis and stored on
+a secure server. In the second study the event was free of charge,
+and it was promoted by an association Ated4Kids that took care of
+the organization and logistic including the children’s recruitment.
+The Ated4Kids informed parents and obtained their consent. All
+participants and their parents/guardians were informed about the
+goal of the activity and gave their consent to participate.
+
+REFERENCES
+[1] Brendan Bartlett, Vladimir Estivill-Castro, and Stuart Seymon. 2004. Dogs or
+robots: why do children see them as robotic pets rather than canine machines?
+In Proceedings of the fifth conference on Australasian user interface-Volume 28,
+7–14.
+[2] C Bartneck and J Forlizzi. 2004. A Design-centred Framework for Social Human–
+robot Interaction, RO-MAN 2004: 13th IEEE International Workshop on Robot
+and Human Interactive Communication. IEEE. https://doi. org/10.1109/roman.
+[3] Tony Belpaeme, James Kennedy, Aditi Ramachandran, Brian Scassellati, and
+Fumihide Tanaka. 2018. Social robots for education: A review. Science robotics 3,
+21: eaat5954.
+[4] Tanya Beran and Alejandro Ramirez-Serrano. 2010. Do children perceive robots
+as alive? Children’s attributions of human characteristics. In 2010 5th ACM/IEEE
+International Conference on Human-Robot Interaction (HRI), 137–138.
+[5] Maria Blancas, Vasiliki Vouloutsi, Samuel Fernando, Martí Sánchez-Fibla, Riccardo Zucca, Tony J Prescott, Anna Mura, and Paul F M J Verschure. 2017. Analyzing children’s expectations from robotic companions in educational settings.
+In 2017 IEEE-RAS 17th International Conference on Humanoid Robotics (Humanoids), 749–755.
+[6] Júlia Pareto Boada, Begoña Román Maestre, and Carme Torras Genís. 2021. The
+ethical issues of social assistive robotics: A critical literature review. Technology
+in Society 67: 101726.
+[7] K Bumby and Kerstin Dautenhahn. 1999. Investigating children’s attitudes towards robots: A case study. In Proc. CT99, The Third International Cognitive
+Technology Conference, 391–410.
+[8] Stephen Cave and Kanta Dihal. 2019. Hopes and fears for intelligent machines in
+fiction and reality. Nature Machine Intelligence 1, 2: 74–78.
+[9] C Di Dio, F Manzi, S Itakura, T Kanda, H Ishiguro, D Massaro, and A Marchetti.
+2020. It Does Not Matter Who You Are: Fairness in Pre-schoolers Interacting
+with Human and Robotic Partners. International Journal of Social Robotics 12, 5:
+1045–1059. https://doi.org/10.1007/s12369-019-00528-9
+[10] Sibylle Enz, Martin Diruf, Caroline Spielhagen, Carsten Zoll, and Patricia A
+Vargas. 2011. The social role of robots in the future—explorative measurement of
+hopes and fears. International Journal of Social Robotics 3, 3: 263.
+[11] Ylva Fernaeus, Maria Håkansson, Mattias Jacobsson, and Sara Ljungblad. 2010.
+How do you play with a robotic toy animal? A long-term study of Pleo. In Proceedings of the 9th international Conference on interaction Design and Children,
+39–48.
+[12] Leopoldina Fortunati, Anna Esposito, Mauro Sarrica, and Giovanni Ferrin. 2015.
+Children’s knowledge and imaginary about robots. International Journal of Social
+Robotics 7, 5: 685–695.
+[13] Ayanna Howard and Jason Borenstein. 2018. The ugly truth about ourselves and
+our robot creations: the problem of bias and social inequity. Science and engineering ethics 24, 5: 1521–1536. Retrieved from https://doi.org/10.1007/s11948017-9975-2
+
+361

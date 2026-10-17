@@ -1,0 +1,164 @@
+[
+  {
+    "id": "2023_IDC_Yip_Money_shouldnt_be_money",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2023/04/idc23-4.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2023/04/idc23-4.pdf",
+    "bytes": 482734,
+    "sha256": "ff5727e5a29995779c4a6267e0310578a2080b9768e2b5b7b10c20dcbdf2f333",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2022_IDC_Rubegni_Robots_walk_our_dogs",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2022/06/Rubegni_etal_2022.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2022/06/Rubegni_etal_2022.pdf",
+    "bytes": 1014980,
+    "sha256": "6685bb3d37e6a4c50430d3b128a8610482a5bfa1bd87a3b6bc68a39ae25d3fd1",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2023_IDC_Hunt_Designing_together_miles_apart",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2023/05/idc23-8_3.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2023/05/idc23-8_3.pdf",
+    "bytes": 4719626,
+    "sha256": "6a14bfd9acef011242c537dd4c649c7ea4bb87dafba2df810bda0b803b304318",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2024_IDC_Yip_Cloud",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2024/04/idc24f-sub1205-cam-i16.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2024/04/idc24f-sub1205-cam-i16.pdf",
+    "bytes": 8300419,
+    "sha256": "b3a931d51a0e6f5ba68ea7d041dc290935a85c568384b2269b3f790888992360",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2024_IDC_Yip_Metaphor_sandwich",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2024/04/idc24a-sub6959-cam-i16.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2024/04/idc24a-sub6959-cam-i16.pdf",
+    "bytes": 2039110,
+    "sha256": "5904856b9bd5e6b206f6175208e13c9e15917837a3043a12828b43a608105d1f",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2022_CHI_Yip_AR_headsets",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2022/02/chi22-ARkids-final.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2022/02/chi22-ARkids-final.pdf",
+    "bytes": 2056188,
+    "sha256": "569a5003277d4042f7c37a13f00e677759af941bcf879e8f02eec46f5468373c",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2023_IDC_Davis_Locus",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2023/08/2023.IDC_.Locus_.davis-et-al.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2023/08/2023.IDC_.Locus_.davis-et-al.pdf",
+    "bytes": 1170426,
+    "sha256": "1f240ecd50b6dec097b28caf4fef29f5f3352a8fdfc1f08c6e2522f0caf9d3f7",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2024_IDC_Landesman_Instagram",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2024/07/2024.IDC_.teens-instagram.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2024/07/2024.IDC_.teens-instagram.pdf",
+    "bytes": 1275104,
+    "sha256": "dfb421b1a534cc411b03e03b98e30aaa0a7a600806e891f869d088a9c688b827",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2025_CHI_Davis_Emotion_regulation_Instagram",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2026/02/2025.CHI_.davis_.ER-on-IG.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2026/02/2025.CHI_.davis_.ER-on-IG.pdf",
+    "bytes": 1141397,
+    "sha256": "900e85fb98f89b7950c59c3451226bb2639ffb8df08670c808f08a05fc3d602f",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2026_IJCCI_Landesman_Teen_AI",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2026/04/2026.IJCCI_.Teen_AI_uses_and_concerns.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2026/04/2026.IJCCI_.Teen_AI_uses_and_concerns.pdf",
+    "bytes": 3163053,
+    "sha256": "4abe0d21e98f6449cb0400f9197a0051812e3a13cd6fbc58705d0ae6a70ee9c7",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2022_CHI_Davis_Purrble",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2022/06/CHI-22-Purrble-Youth.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2022/06/CHI-22-Purrble-Youth.pdf",
+    "bytes": 1172202,
+    "sha256": "583cf14f5534307e65f78b403cac0546a6664ba0c060567fbf6e47a8ff2fb0a5",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2020_IDC_Kawas_NatureCollections",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2021/05/2020.IDC_.Kawas_.NatureCollections.3wek-study.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2021/05/2020.IDC_.Kawas_.NatureCollections.3wek-study.pdf",
+    "bytes": 581408,
+    "sha256": "06e632aa99b31d591534804ad226c4c4905681097532c685facb5a328ab300e4",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2021_CHI_Kawas_NatureCollections",
+    "pdf_url": "https://katiedavisresearch.com/wp-content/uploads/2021/05/2021.CHI_.NatureCollections-when-screentime-isnt-screentime.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://katiedavisresearch.com/wp-content/uploads/2021/05/2021.CHI_.NatureCollections-when-screentime-isnt-screentime.pdf",
+    "bytes": 1158019,
+    "sha256": "39afb0fb5cf1d98ef5f61a61bf1f45c42d45fc6fb5f430c2c32619a585d77227",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2026_IDC_Dangol_AI_toys",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2026/05/idc26-aitoys.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2026/05/idc26-aitoys.pdf",
+    "bytes": 15349620,
+    "sha256": "f23f109591720999e5d9fda6afe0b41aa19e17db5615c2bc31eb06190d653f5b",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2026_IDC_Dangol_AI_footprint",
+    "pdf_url": "https://adango26.github.io/assets/pdf/26_idc2.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://adango26.github.io/assets/pdf/26_idc2.pdf",
+    "bytes": 443516,
+    "sha256": "b0d5b8595df8ca353277096d69b0d5f233be06bd7b5a583fdc5fdd5337c32bbb",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2025_IDC_Dangol_Hopes_fears",
+    "pdf_url": "https://arxiv.org/pdf/2505.16089",
+    "status": "downloaded",
+    "resolved_url": "https://arxiv.org/pdf/2505.16089",
+    "bytes": 4971572,
+    "sha256": "2494c216d5a5348a73e37a9794e9182264d5c557cf0a787b05a9d1d4ee4bf3f4",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2024_DIS_Dangol_Mediating_culture",
+    "pdf_url": "https://adango26.github.io/assets/pdf/24_dis.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://adango26.github.io/assets/pdf/24_dis.pdf",
+    "bytes": 21016699,
+    "sha256": "34dbdc9e2428d48ac6772e0de8ee13144190b0623b541c304f1958f4ec3e88b2",
+    "downloaded_on": "2026-10-17"
+  },
+  {
+    "id": "2024_ISMIR_Newman_Purposeful_play",
+    "pdf_url": "https://bigyipper.com/wp-content/uploads/2024/09/Newman_ISMIR24_CR.pdf",
+    "status": "downloaded",
+    "resolved_url": "https://bigyipper.com/wp-content/uploads/2024/09/Newman_ISMIR24_CR.pdf",
+    "bytes": 276711,
+    "sha256": "2c88af2b4a5a870a3f65ae5d2838f74997611093c7686ee32bbc9990255da55a",
+    "downloaded_on": "2026-10-17"
+  }
+]

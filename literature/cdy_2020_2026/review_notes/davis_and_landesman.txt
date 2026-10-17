@@ -1,0 +1,93 @@
+# Davis / Landesman empirical comparison notes
+
+Reviewed full methods where needed, results/findings, discussion, and figure/table captions for six requested papers plus 2021 temporal comparison. Locators below are 1-based PDF pages in downloaded author copies. Findings are study-specific; transfer advice is my inference, not a venue rule. Files are indexed in ../bibliography.txt; PDF/text paths below are relative to the corpus root.
+
+## Bibliographic register and download provenance
+
+1. Kawas, Saba; Kuhn, Nicole S.; Tari, Mina; Hiniker, Alexis; Davis, Katie. (2020). “Otter this World”: Can a Mobile Application Promote Children’s Connectedness to Nature? *Proceedings of the Interaction Design and Children Conference (IDC ’20)*, 444–457. DOI: https://doi.org/10.1145/3392063.3394434 . Author PDF (14 pp): https://katiedavisresearch.com/wp-content/uploads/2021/05/2020.IDC_.Kawas_.NatureCollections.3wek-study.pdf . Primary university metadata confirms page range: https://natureandhealth.uw.edu/publications/otter-this-world-can-a-mobile-application-promote-childrens-connectedness-to-nature/ . Empirical research paper; experimental field deployment with qualitative analysis, not a workshop publication.
+2. Kawas, Saba; Kuhn, Nicole S.; Sorstokke, Kyle; Bascom, Emily E.; Hiniker, Alexis; Davis, Katie. (2021). When Screen Time Isn’t Screen Time: Tensions and Needs Between Tweens and Their Parents During Nature-Based Exploration. *CHI ’21*, 14 pp. DOI: https://doi.org/10.1145/3411764.3445142 . PDF: https://katiedavisresearch.com/wp-content/uploads/2021/05/2021.CHI_.NatureCollections-when-screentime-isnt-screentime.pdf . Empirical conference research paper; qualitative analysis of parent interviews and in-app audio from field deployment. It explicitly belongs to the larger experiment reported in 2020 (§3.1 pp4–5); do not count these as independent replications.
+3. Daudén Roquet, Claudia; Theofanopoulou, Nikki; Freeman, Jaimie L.; Schleider, Jessica; Gross, James J.; Davis, Katie; Townsend, Ellen; Slovak, Petr. (2022). Exploring Situated & Embodied Support for Youth’s Mental Health: Design Opportunities for Interactive Tangible Devices. *CHI ’22*. DOI: https://doi.org/10.1145/3491102.3502135 . Author manuscript (24 pp): https://katiedavisresearch.com/wp-content/uploads/2022/06/CHI-22-Purrble-Youth.pdf . NOTE: ACM indexed published title ends singular “Device”; author PDF title ends plural “Devices.” Empirical conference research article; deployments, interviews and co-design. Page locators here refer to 24-page manuscript.
+4. Davis, Katie; Slovak, Petr; Landesman, Rotem; Pitt, Caroline; Ghajar, Abdullatif; Schleider, Jessica L.; Kawas, Saba; Perez Portillo, Andrea Guadalupe; Kuhn, Nicole S. (2023). Supporting Teens’ Intentional Social Media Use Through Interaction Design. *IDC ’23*, 322–334. DOI: https://doi.org/10.1145/3585088.3589387 . PDF: https://katiedavisresearch.com/wp-content/uploads/2023/08/2023.IDC_.Locus_.davis-et-al.pdf . Empirical research paper (13 pp), theory-led intervention design, co-design, mixed-method open trial. Author website adds subtitle “An exploratory proof-of-concept study,” absent from PDF title and publisher citation.
+5. Landesman, Rotem; Yoon, Jina; Kim, JaeWon; Muñoz Lopez, Daniela E.; Magis-Weinberg, Lucía; Hiniker, Alexis; Davis, Katie. (2024). “I Just Don’t Care Enough To Be Interested”: Teens’ Moment-By-Moment Experiences on Instagram. *IDC ’24*, 14–29. DOI: https://doi.org/10.1145/3628516.3655812 . PDF (16 pp): https://katiedavisresearch.com/wp-content/uploads/2024/07/2024.IDC_.teens-instagram.pdf . Empirical conference research paper; mixed-method protocol, qualitative think-aloud interview findings; not co-design.
+6. Davis, Katie; Landesman, Rotem; Yoon, Jina; Kim, JaeWon; Munoz Lopez, Daniela E.; Magis-Weinberg, Lucia; Hiniker, Alexis. (2025). “You Go Through So Many Emotions Scrolling Through Instagram”: How Teens Use Instagram To Regulate Their Emotions. *CHI ’25*, 16 pp. DOI: https://doi.org/10.1145/3706598.3713844 . PDF: https://katiedavisresearch.com/wp-content/uploads/2026/02/2025.CHI_.davis_.ER-on-IG.pdf . Empirical conference research paper; qualitative diary study, not co-design.
+7. Landesman, Rotem; Schwartz, Larissa; Davis, Katie. (2026). “When AI generates ideas for you, that kind of defeats the purpose”: An exploration of teens’ uses and concerns about AI. *International Journal of Child-Computer Interaction* 48, 100815. DOI: https://doi.org/10.1016/j.ijcci.2026.100815 . PDF (16 pp): https://katiedavisresearch.com/wp-content/uploads/2026/04/2026.IJCCI_.Teen_AI_uses_and_concerns.pdf . Journal research paper, cooperative inquiry with teens. Accepted 4 March 2026; online 7 March 2026 (p1), verified publisher metadata https://www.sciencedirect.com/science/article/abs/pii/S2212868926000139 .
+
+## 2020 Otter: theory organizes comparison
+
+N=28 children aged 9–12 plus parents, three-week experiment (15 NatureCollections; 13 Photo). Results pp7–9 are organized by two RQs: time outside and connectedness. Exact qualitative headings include “Being IN Nature: Showing Curiosity About Nature” (p7) and “Being IN Nature: Feeling Comfortable With Natural Elements” (p8); each compares app groups. These are theory-derived ability categories, not novel claim sentences. Analytic work connects observations and children’s accounts to attention, curiosity, comfort, and child-directed exploration. Discussion pp9–10 connects app features to those processes. This is useful as a deductive comparison, less close to adolescent co-design workshops.
+
+Table1 p5 demographics; Table2 p6 assignment/start dates. Neither is a design overview. Fig1 p1 illustrates close observation in use; Fig2 p4 presents three app screens. No multi-concept design catalogue. Quotations supply concrete behavioral examples under the theory’s categories, with explicit group comparison. For spatial audio, a stable conceptual vocabulary may organize findings if the prose demonstrates how different designs enact it.
+
+## 2021 Screen time: descriptive organization supports a relational argument
+
+15 parents, 23 children/siblings aged 8–12; parent interviews and 704 in-app audio recordings. Results §4 pp6–10: §4.1 family experiences during nature exploration, with §4.1.1 parent/sibling engagement and §4.1.2 parent engagement needs; §4.2 “Tweens’ Transitional Tech Use,” with §4.2.1 screen-time rules and §4.2.2 negotiated independence. The main analytic insight is a tension: parents valued independence and joint exploration while also seeking monitoring, control, and contextual information. Long multi-person interaction excerpts demonstrate family meaning-making, alongside retrospective parent accounts. Discussion §5 pp10–12 connects these patterns to joint media engagement and parental mediation before proposing designs. Table1 p4 is demographics, Figure1 p5 app screenshots; no design catalogue, no participant-design figures. The useful lesson is that descriptive headings can contain explanatory analysis, but the cross-cutting tension must remain visible.
+
+## 2022 Purrble: separate experienced effects from workshop suggestions
+
+N=109 deployments; interviews n=44; workshop participants n=25. Youth includes 16–24-year-olds and university students; not solely adolescents. §4 pp9–14 reports appropriation: general overview (§4.1), engagement over time (§4.2), meaningful strategies (§4.3). Selected exact subheadings: “Tangible Anchor to Facilitate Cognitive Strategies” (§4.3.1 p12); “Compassionate Emotional Companion” (§4.3.2 pp12–13). §5 pp14–17 reports workshop suggestions, distinguishing device interactions from additional support; §6 pp17–19 abstracts design considerations. Quotes are long but framed by interpretations, contrasts, and exceptions: a fast heartbeat could worsen distress (§4.2.2 p11). Workshops are mostly synthesized prose with explicit reference back to deployment evidence. No numbered tables/design catalogue; Fig1 p5 device, Fig2 p6 study timeline, Fig3 p8 sample Miro board (method illustration). Strong comparator for embodied audio: distinguish what was experienced, what participants proposed, and what researchers infer; related workshop ideas can be grouped by the support they provide without suppressing design details.
+
+## 2023 Locus: RQ headings are a legitimate mixed-method structure
+
+Nine teens co-designed; N=54 two-week deployment; n=26 interviews. Results §5.1–5.3 pp7–9 are organized by RQs: acceptability, engagement in self-regulation, perceived control/agency. Descriptive RQ headings work because results connect scales, usage accounts, tensions and disconfirming cases. In §5.3 p9, P61’s prompt responses become habitual themselves; §6.2 p10 uses this minority case to motivate customization and individual variation. Discussion separates short-term perceived changes from unmeasured long-term well-being.
+
+Table1 p6 demographics; Table2 p9 pre/post outcome statistics. Figure1 p4 theory-of-change; Figure2 p5 three app screens; Figures3–5 pp7–9 outcome charts. No overview of distinct participant designs. Co-design adaptations are summarized in §3.3 p4, rather than presented as a catalogue. Transfer: support a claim through converging evidence and explicit variation; do not rename every section as a claim if a clear RQ structure better matches the study. Interviews interpret and qualify measured patterns rather than merely decorate them.
+
+## 2024 Instagram: categories become relationships
+
+N=25, diary prompts plus think-aloud interviews; reflexive thematic analysis (§3.3 p5). Results §4 pp5–9 divide by two RQs. Exact headings: “Wading Through Content Soup” (§4.1.1 p5), “Boredom In, Boredom Out” (§4.1.2 p6), “Moments of Connection” (§4.1.3 pp6–7), “Feed Gatekeeping” (§4.2.1 pp7–8), “Backpedaling” (§4.2.2 p8). Remaining strategies concern hiding likes (§4.2.3 pp8–9) and notifications (§4.2.4 p9). Participant excerpts establish actions, then authors interpret relationships: likes communicate simultaneously to peers and algorithm (p8); apparently protective settings may signify social weakness (p9). Discussion §5 pp9–11 consolidates an interaction cycle and strategy dimensions, then proposes interventions.
+
+Table1 p5 demographics only. Figures1–2 p4 methods/app. Figure3 p10 interaction cycle; Figure4 p10 is a 2×2 matrix drawn as a figure (thoughtful/reflexive × moment/settings), not a design inventory. Strong evidence for analytical synthesis beyond category lists, but no co-designed artifact corpus to compare directly with spatial-audio designs.
+
+## 2025 Emotions: modest headings can support a substantial model
+
+N=57 US teens, 371 diary entries. §4 pp5–6 groups drivers as “Escape,” “Engage,” “IG Management.” §5 pp6–9 contrasts “Mindless Diversions” and “Deliberate Acts.” Subsections trace fleeting benefits, conditions, drift into uncontrolled scrolling, disruptions, co-regulation, inspiration/defeat, and self-expression. Especially useful evidence move: P37’s contrasting diary entries show procrastination and a reward after work producing different emotions (§5.1.2 p7); P26’s three-day sequence shows unstable responses to posting (§5.2.3 p9). This is more than a list of feelings. §6.1 pp9–11 models pathways and disruptions; §6.2 pp11–12 derives design considerations while acknowledging beneficial distraction.
+
+Table1 p4 demographics; Table2 p16 final coding scheme. Figure1 p4 mood-meter instrument; Figure2 p10 process model; Figure3 p12 meaningfulness/valence matrix. No design catalogue or individual participant artifact figures. For spatial audio, retain topic headings if the prose shows conditions, contrasting cases, mechanisms, and consequences; do not equate every descriptive category with a completed theme.
+
+## 2026 AI: most directly relevant workshop comparator
+
+29 teens aged 14–17, five cooperative-inquiry sessions; analysis explicitly targets collective sensemaking rather than individual longitudinal change (§3.5 p6). §4.1 pp6–8 uses descriptive contexts: school, fun, seamless integration. Within these, central/supporting tasks and cognitive engagement/offloading explain variation. §4.2 pp8–10 groups seven concerns under output quality, personal well-being, and humanity. Example evidence move: P06/P29 disagreement over feedback marks ambiguity about whether a task is central (§4.1.1 p7); §5.1 pp10–11 turns this into a contextual model. §5.2 pp11–12 develops concern levels and educational implications.
+
+Table1 p4 demographics/attendance; Table2 p5 session goals/activities; TableB.3 p14 codebook. None is a design catalogue. Figure1 p5 displays participant mapping; Figure2 p9 brain drawing is tied directly to learning concern. Figures3–4 pp11–12 are researcher synthesis models. This shows both selective artifact evidence and descriptive categories can coexist with analysis. Cannot infer that every design needs an individual figure, or that an overview table should be removed.
+
+## Cross-paper advice
+
+- These are empirical research papers, not conference workshop abstracts. Keep age/method differences visible; the 2020/2021 sample is younger, 2022 wider than teens, and 2024/2025 are not co-design studies.
+- None of these seven supplies a direct positive precedent for a table cataloguing many participant-generated final concepts. Absence is weak evidence against such a table because most studies examine one deployed app/device or reported practices. Other IDC co-design papers in your corpus should decide the actual table recommendation.
+- A useful spatial-audio overview table can give readers the corpus/map (design ID, intended activity, interaction, spatial-audio role, participants/session) while findings explain cross-design patterns, trade-offs, exceptions, and conditions. Those are different jobs; deleting the map does not produce analysis.
+- There is no universal quote/prose ratio. Better examples make a proposition, locate an excerpt/interaction/artifact, interpret it, and compare another case. Do not mechanically append a paraphrase after every quotation; explain what it changes in the argument.
+- Findings can include researcher interpretation. Discussion ordinarily connects that interpretation to literature, wider scope and design consequences. Participant wishes are evidence of priorities, not demonstrated effectiveness; workshop imagined benefits should remain labeled as proposals.
+- Strongest reading priorities for this task: 2026 AI (collective co-design), 2022 Purrble (embodied experience plus co-design), 2024 Instagram (explicit analytic synthesis), then 2023 Locus (RQ structure counterexample).
+
+## Text extraction note
+
+The Katie Davis 2026 PDF has faulty text encoding: pypdf layout gives empty pages, default pypdf/Poppler/pdfplumber produce systematically shifted characters. `ocr_source/2026_IJCCI_Landesman_Teen_AI.ocr.txt` is readable OCR of all 16 pages (117,765 characters), generated via bundled Poppler at 180 dpi and Tesseract English `--psm 3`. Keep original PDF; label this text OCR, and verify quotations on PDF images. Figures and session table visually inspected on pp5 and9; 2024 pp10 synthesis figures also visually inspected. Alternate author copy at https://rotem.land/wp-content/uploads/When-AI-generates-ideas-for-you-that-kind-of-defeats-the-purpose_-An-exploration-of-teens-uses-and-concerns-about-AI-1-s2.0-S2212868926000139-main.pdf is searchable through web but direct download returned 403.
+
+## Exact IDC 2024 findings/discussion hierarchy for structural comparison
+
+Transcribed and checked against full PDF text; page numbers are PDF pages (publication pages 14–29, so PDF p5 = proceedings p18).
+
+- §4 RESULTS (p5).
+- §4.1 “RQ1: How do teens describe their moment–by-moment interactions and emotional states on Instagram?” (p5).
+  - §4.1.1 “Wading Through Content Soup” (pp5–6).
+  - §4.1.2 “Boredom In, Boredom Out” (p6).
+  - §4.1.3 “Moments of Connection” (pp6–7).
+- §4.2 “RQ2: What real-time strategies do teens use to manage their emotions when navigating Instagram?” (p7).
+  - §4.2.1 “Feed Gatekeeping” (pp7–8), with unnumbered “Follow, Hide, Unfollow” and “Stingy Liking” (p7).
+  - §4.2.2 “Backpedaling” (p8).
+  - §4.2.3 “Choosing To Hide Like-Counts” (pp8–9).
+  - §4.2.4 “Avoiding Notification Whiplash” (p9).
+- §5 DISCUSSION (p9).
+  - §5.1 “Archetypal Interaction Flow” (p9).
+  - §5.2 “Type 1 vs. Type 2 strategies” (pp9–10).
+  - §5.3 “Design opportunities for empowering teens on Instagram” (pp10–11).
+
+Table/figure roles (exact captions):
+
+- Table 1, p5: “Demographics of Participants (N=25)” — sample description; NOT a design overview.
+- Figure 1, p4: “The overall study procedure.” — method timeline.
+- Figure 2, p4: “Screenshots of AppMinder.” — research instrument.
+- Figure 3, p10: “Archetypal Interaction Flow on Instagram” — explanatory synthesis; places content soup between entry triggers and renewed awareness of boredom, then exit/re-entry.
+- Figure 4, p10: “Dimensions of Teen Strategies on Instagram” — table-shaped conceptual matrix labeled as a figure. Columns Thoughtful / Reflexive; rows In-the-moment / Settings-level. Feed gatekeeping is thoughtful/in-the-moment; backpedaling reflexive/in-the-moment; hiding like-counts and avoiding notification whiplash thoughtful/settings-level; reflexive/settings-level N/A.
+
+Interpretive comparison: “Moments of Connection” remains a topical label, “Feed Gatekeeping” names a strategy, and “Boredom In, Boredom Out” expresses a temporal relationship. Their coexistence is deliberate. Analytical coherence arises from prose relating motive, experience, agency and designed platform; the later cycle and matrix synthesize those relations. Do not claim this paper demonstrates universal sentence-shaped findings headings or a ban on summary tables.

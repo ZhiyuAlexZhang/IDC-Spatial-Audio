@@ -1,0 +1,1717 @@
+SOURCE PDF: ../pdf/2020_IDC_Kawas_NatureCollections.pdf
+SOURCE URL: https://katiedavisresearch.com/wp-content/uploads/2021/05/2020.IDC_.Kawas_.NatureCollections.3wek-study.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+"Otter this World": Can a Mobile Application Promote
+Children’s Connectedness to Nature?
+Saba Kawas, Nicole S. Kuhn, Mina Tari, Alexis Hiniker and Katie Davis
+The Information School | DUB Group
+University of Washington
+Seattle, WA 98195 USA
+{skawas, nskuhn06, minatari, alexisr, kdavis78}@uw.edu
+ABSTRACT
+
+Can a mobile application encourage children to spend more
+time outdoors and promote their connectedness to nature? In
+this paper, we present results from a three-week
+experimental deployment study of NatureCollections, a
+mobile application that allows users to build, curate, and
+share nature photo collections. Twenty-eight children (aged
+9-12) and their parents participated in the study; 15 used the
+NatureCollections app, and 13 used a basic Photo app. We
+found that the NatureCollections app significantly increased
+the time children spent outdoors compared to the Photo app.
+Children in both groups said they felt happy and excited
+about spending time in nature. However, children in the
+NatureCollections group reported that time spent outside
+with the app increased their curiosity about the types of
+species and plants they saw and photographed. Children in
+the NatureCollections group also engaged in nature-based
+conversations with their parents, and even sought to look up
+information online about the plants and animals they
+observed. In contrast, children in the basic Photo app group
+did not display this level of curiosity about what they saw in
+nature, and the photos they took were driven largely by the
+aesthetic qualities of nature elements. Our results suggest
+that NatureCollections promotes and supports children’s
+connectedness to nature.
+Author Keywords
+
+Child-computer interaction; Outdoor mobile technologies;
+Nature-based exploration; Human-nature connection.
+CSS CONCEPTS
+
+•Human-centered computing~Human computer interaction
+(HCI)~HCI design and evaluation methods~Field studies
+INTRODUCTION
+
+Prior work shows that spending regular time in nature
+benefits children’s overall health and wellbeing [5,20,35,57].
+Time in nature positively supports children’s learning,
+attention, physical health, and mental and emotional
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from Permissions@acm.org.
+IDC '20, June 21–24, 2020, London, United Kingdom
+© 2020 Copyright is held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 978-1-4503-7981-6/20/06 $15.00
+https://doi.org/10.1145/3392063.3394434
+
+Figure 1: Example of close observation: A child directs her attention to
+the tree leaves in the process of making a classification of the type of tree.
+
+wellbeing [3,5,11,15,20,28,55]. Moreover, children's direct
+experiences with nature increase their feelings of connection
+to and concern for nature [8,12,36,37,41,58]. This is
+important, because children who feel connected to nature
+have lower stress levels, reduced aggression, and they feel
+happier [5,15,39,57]. They are also more likely to take
+positive actions towards the environment as adults
+[4,36,54,59]. In light of the extreme weather patterns we are
+currently witnessing across the globe as a result of climate
+change, efforts to promote the next generation’s
+connectedness to and stewardship of nature take on an added
+urgency [39,65,66].
+Unfortunately, children today are spending less and less time
+in contact with the natural world than previous generations
+[33,52,64,67]. Factors contributing to children’s decreased
+time in nature include busy schedules, fewer opportunities to
+access outdoor spaces in urban areas, parental safety
+concerns, and increased screen time [29,33,52,64,67,68].
+One survey of youth across the United States found that 80%
+of children reported feeling uncomfortable being outside due
+to weather conditions or bugs, and 49% of children are
+simply not interested in spending time in nature [64,68].
+Although common wisdom places blame on interactive
+technologies for keeping children indoors [36,53], the
+current study explores how these very technologies might be
+
+===== PDF PAGE 2 =====
+
+leveraged to get children outside and engaging in
+meaningful, enjoyable experiences in nature.
+This work joins a growing body of prior research in ChildComputer Interaction exploring the potential for mobile
+interactive technologies to engage children in outdoor
+experiences. Prior research recognizes that, although
+technologies are often seen as the culprit, keeping children
+indoors and sedentary in front of a screen, they can also be
+used to encourage active experiences outside [2,47,60].
+Researchers have explored ways to design interactive
+experiences that mirror traditional game-play patterns,
+encourage children’s social interactions, and increase their
+physical activity [1,13,19,30,48,49,56,60]. Another body of
+work has explored ways to leverage mobile technologies and
+augmented reality in an effort to support children’s
+engagement in outdoor science inquiry [17,25,31,43,61,62].
+We could find only one exploratory study that examined
+what motivates children to connect with nature and the
+possible role of technology in promoting greater connection
+to nature [14]. To the best of our knowledge, no prior work
+has systematically designed and evaluated a mobile
+application’s ability to get children outside and increase their
+connectedness to nature.
+We designed NatureCollections, a mobile application that
+allows children to build and curate photo collections, and
+classify and describe their nature photos [27]. In an initial
+pilot study of NatureCollections, we found evidence that the
+app encouraged child-directed engagement with and close
+attention to the natural elements in their surroundings–a key
+component of child-nature connectedness [23]. The current
+study examines children’s longer-term engagement with
+NatureCollections, focusing specifically on how the app
+impacted children’s time spent outside and their interactions
+with nature. Our aim in designing NatureCollections is to
+influence children’s connectedness to and positive
+interactions with nature. We ask the following research
+questions—RQ1: Does the NatureCollections app succeed at
+getting children to spend more time outside? RQ2: Does
+NatureCollections impact children’s connectedness to
+nature?
+We conducted a three-week experimental deployment study
+with 28 children (aged 9-12 years) and their parents. We
+asked parents to record their child’s daily time outside for the
+first week, after which we randomly assigned equal childparent pairs to either receive the NatureCollections app or a
+basic Photo app (allowing children to take still photos and
+view them in a photo gallery) to use for two weeks. Parents
+continued to record their child’s daily time spent outside with
+the app for the duration of the study. We used a multiple
+baseline experimental design, where the start date of the
+study was staggered over two weeks across three groups of
+families divided equally between conditions. During the two
+weeks, while children used the apps, we employed ecological
+momentary assessments (surveys pushed directly to
+participants’ devices) to solicit real-time feedback about
+
+children’s app and outdoor experiences. Children had the
+option to record an audio reflection further explaining their
+responses. At the end of the study, children participated in an
+outdoor activity on the campus of the research team’s
+university, which provided further opportunity for them to
+share their thoughts about and experiences with the app.
+Children in both groups said they felt happy and excited
+about spending time in nature. However, children in the
+NatureCollections group reported that time spent outside
+with the app increased their curiosity about the types of
+species and plants they saw and photographed. We observed
+evidence of this curiosity in the post-intervention activity
+with the children in the NatureCollections group. Children in
+the NatureCollections group also engaged in nature-based
+conversations with their parents and even sought to look up
+information online about the plants and animals they
+observed. In contrast, children in the basic Photo app group
+did not display this level of curiosity about what they
+observed in nature, and the photos they took were driven
+largely by the aesthetic qualities of natural elements.
+This work contributes empirical evidence from an in-situ
+deployment of NatureCollections showing that the app
+succeeded at getting children outside and interacting with
+nature in a positive, curious, and engaged way. This is the
+only work we know of that examines the potential for a
+mobile application to increase children’s time spent outdoors
+and promote their connectedness to nature.
+RELTAED WORK
+Children’s Connection to Nature
+
+In the last few decades, environmental psychologists and
+scientists have become increasingly interested in
+understanding how people form and experience a connection
+to nature, what is often referred to as a human-nature
+connection (HNC). HNC broadly refers to a sense of
+interconnectedness between one’s self and nature. Some
+researchers have offered an evolutionary explanation (i.e.
+humans have an innate tendency to seek connections with
+nature) [63]. Other researchers have focused on
+psychological dimensions of HNC, including constructs such
+as inclusion with nature [45], environmental identity [10],
+and nature relatedness [41]. Research using a variety of HNC
+measures consistently finds that the amount and frequency of
+time spent in nature plays a critical role in fostering a sense
+of connection between humans and nature, e.g.[24,41,51].
+Across the diverse approaches to understanding HNC in
+environmental and conservation psychology, all approaches
+agree on (1) the importance of repeated direct nature
+interactions and experiences during childhood, and (2) the
+essential role that HNC plays in establishing proenvironmental choices and behaviors in adulthood
+[18,21,51]. Direct experiences with nature during childhood
+represent fundamental moments for creating a long-term
+connection with nature, and, ultimately, becoming
+committed stewards of the environment.
+
+===== PDF PAGE 3 =====
+
+Although childhood is recognized as a critical period for
+developing a connection to nature, most existing work
+exploring HNC does not focus specifically on children
+[18,21]. One exception is Giusti et al.’s framework [18],
+assessing where and how children connect to nature. In
+addition to its focus on children, this framework
+distinguishes itself from other work by characterizing the
+specific kind of experiences that people tend to connect to
+while in nature, as well as a recognition of the connection
+between children’s mind, body, and nature experiences [18].
+Giusti’s framework depicts HNC as an ability and identifies
+a group of specific abilities displayed by children who are
+connected to nature. Examples include “being curious about
+nature” and “knowing about nature.” In Giusti et al.’s terms,
+one would say that a child connected to nature is capable of
+being curious about nature (first ability) and capable of
+knowing about nature (second ability).
+Closely related to HNC abilities are specific qualities of
+nature-based activities that have a high potential to connect
+children to nature. They include nature-based experiences
+that are child-driven (i.e., chosen by the child), engage
+children’s senses (e.g. touch, hearing), and fun, joyful, or
+amusing. If children’s nature-based experiences exhibit these
+qualities, they are more likely to demonstrate HNC-related
+abilities. In other words, abilities reside in children, whereas
+qualities are aspects of the nature-based experience.
+
+animals, and drawing children’s attention. These experiences
+are often accompanied by a sense of awe or “wow effect.”
+Being WITH Nature
+
+Child-related abilities: Children’s HNC-related abilities
+include acting in natural spaces (e.g. nature play), feeling
+attached to natural spaces, reading natural spaces, knowing
+about nature (like animals or plants), and recalling memories
+with nature.
+Qualities of nature-based experiences: Significant naturebased activities in this phase are characterized by being
+child-driven, engaging children’s senses, as well as
+involving creative expression and physical activity.
+Being FOR Nature
+
+Child-related abilities: Children’s HNC-related abilities
+include caring about nature, taking care of nature, and being
+one with nature.
+Qualities of nature-based activities: Significant nature-based
+activities in the third phase of the framework are
+characterized by thought-provocation, structure/instruction,
+and social/ cultural endorsement.
+In our current study, we focused specifically on the first
+phase of children’s HNC-related abilities: being IN nature.
+The abilities that children develop during this phase are a
+necessary precursor to their development of all subsequent
+abilities. Therefore, they represent a critical aspect of humannature connection. Our decision was also guided, in part, by
+logistical considerations, which limited the study period to
+three weeks (one pre-intervention week and two intervention
+weeks). According to Giusti et al., it takes at least two weeks
+of direct nature interactions and experiences to develop
+children’s HNC-related abilities beyond the first phase of
+being IN nature [18].
+
+A key principle to Giusti’s framework is that children’s HNC
+abilities progress over time and as they engage with nature.
+The framework divides this progression into three
+consecutive phases: (1) being IN nature, (2) being WITH
+nature, and (3) being FOR nature. Each phase is marked by
+a distinct set of HNC abilities. For instance, during the first
+phase—being IN nature—children demonstrate a curiosity to
+explore their natural surroundings. Each of the three phases
+in the framework is sequential in its order of development
+and progress. For children to feel motivated to act FOR
+nature (the 3rd phase), they must first develop the abilities to
+(1) feel comfortable being in the natural elements of the
+outdoors, i.e., being IN nature during the 1st phase, and (2)
+feel concern for the environment, i.e., being WITH nature
+during the 2nd phase. Therefore, children’s ability to be
+curious about nature is key to developing a profound humannature connection [18]. Below, we identify the child-related
+abilities associated with each phase of Giusti et al.’s HNC
+framework, as well as the qualities of nature-based activities
+that support these abilities.
+
+The Child-Computer Interaction field has a long-standing
+research tradition of harnessing the affordances of interactive
+technologies—including mobile technologies, tangibles,
+sensors, and augmented reality—to engage children in
+outdoor social play and to support children’s science inquiry.
+However, there is little work that specifically explores the
+role of interactive technologies in connecting children to
+nature. Informed by prior research in outdoor settings, our
+work aims to fill this gap through the design of a mobile
+application, NatureCollections, that supports children’s
+nature explorations and connects them to nature.
+
+Being IN Nature
+
+Designing Technologies For Outdoor Play
+
+Child-related abilities: Children’s HNC-related abilities
+include feeling comfortable in natural spaces (e.g. with dirt,
+mud or bugs) and being curious about nature.
+
+Interaction design projects for outdoor settings have focused
+on encouraging children’s physical and social play by
+leveraging a variety of technologies, including mobile,
+augmented reality, tangibles, and sensor-based devices.
+Heads-up games like Camelot [56], RaPIDO [49], and
+Scratch Node [19] promote outdoor gaming with the support
+of screenless digital devices with the aim of keeping the
+
+Qualities of nature-based experiences: Significant naturebased activities in this phase of the framework are
+characterized by being child-driven, enjoyable, engaging
+children’s senses (e.g. touch, hearing), involvement of
+
+Technology Design for Outdoor Settings
+
+===== PDF PAGE 4 =====
+
+player’s head "up" (i.e., not looking down at a screen) for
+physical activity, outdoor social play, and embodied
+interactions. Pervasive games such as Geocaching [42] and
+PacMap [7] harness location-awareness capabilities with the
+aid of GPS and/or WiFi devices to allow players to collect
+rewards or treasures hidden in the physical world. Other
+pervasive games, such as Ingress [26] and Pokémon Go [47],
+use mobile devices with augmented reality features that
+overlay a co-located game landscape and characters onto the
+physical surrounding. For example, Pokémon Go makes use
+of just-in-time, location-based prompts of relevant content,
+such as the existence of a nearby raid battle. Across these
+efforts, researchers aim to support social interaction, creative
+thinking, and physical activity in outdoor game play.
+Designing Technologies For Outdoor Learning
+
+Projects that support environmental and science inquiry,
+such as iBeacons [61], Tree Investigators [62], GeoTagger
+[17], and EcoMOBILE [25], aimed at leveraging mobile and
+augmented reality (AR) capabilities to guide learners during
+outdoor field explorations. In several of these projects,
+mobile devices augment real-world locations with an overlay
+of virtual information and narratives to support scientific
+observations in the learner’s physical setting [25,61,62]. For
+example, Tree Investigators and EcoMOBILE researchers
+reported that AR design elements enhanced learners’
+engagement in their scientific inquiry and observations of
+their surroundings. Other projects, such as iBeacons and
+Tangible Flags, presented learning activities to children
+based on their proximity to relevant nature elements or
+places [9,61]. Researchers across these projects designed
+features to support children’s scientific data collection and
+analysis, as well as features that increased children’s
+interactions with peers during a field trip [9,17,43,61,62].
+Beyond this focus on embodied physical play and learning
+outcomes, designing technologies that promote children’s
+interactions with and connectedness to nature remains a new
+and underexplored area of child-computer interaction
+research. Harnessing the capabilities of mobile technologies,
+NatureCollections contributes new insights into designing
+interactive technologies that support children’s nature
+interactions and explorations.
+NatureCollections App
+
+Guided by an interest-centered design framework and codesign sessions with children [27], we designed the features
+of the NatureCollections app to promote children’s interest
+in and engagement with nature. NatureCollections allows
+children to take photographs of things they see in nature,
+classify the plants and animals in their photographs, and
+organize them into themed photo albums such as birds,
+insects, and trees. The app lets children personalize and
+customize their app experience. For instance, during the
+NatureCollections onboarding process, a friendly moose
+character addresses children by their first name, introduces
+himself as their nature app guide, and prompts them to enter
+their interests. These interests are used to tailor the
+
+Figure 2: Screens of the NatureCollections app 1: HomePage
+showing interest-based challenges 2: My Challenges. 3:
+Classification details.
+
+“Challenges” presented to children on the app home page to
+support child-driven interactions with nature (Figure 2.1,
+2.2). Children can create and organize their photographs into
+customized “My Collections” that reflect their specific blend
+of interests. In addition, the app includes a personalized
+“Profile Page” where children can track their
+accomplishments, including photos taken, badges earned,
+and challenges completed.
+Our primary goal with a number of designed NC features is
+to direct children’s interactions and provide opportunities for
+sparking curiosity as well as prolonged engagement with
+nature. For instance, the “Add Details” feature allows
+children to enter descriptive information about their photo
+into text fields using conversational prompts (e.g., “How
+would you describe this photo?”). This feature encourages
+children’s curiosity to examine the subject of their photo
+carefully and reflect on specific elements. The “Photo
+Classification” feature similarly encourages children to
+direct their attention to details of the natural element by
+providing simple classification schemes for each preset
+photo collection (See Figure 2.3). These schemes guide users
+through a series of stepped prompts containing visual
+silhouettes to facilitate classification. Challenge types span
+multiple seasons and locations to promote app engagement
+across nature settings and over time. Children can view their
+photos taken for challenges and track their progress toward a
+challenge goal on the “Detail Page.”
+Photo App
+
+We developed a second, basic Photo app (also titled
+NatureCollections with the same app icon) to test whether
+the behaviors we observed in this study were due to the
+NatureCollections app features, or whether they were instead
+attributable to the novelty of being given a smartphone and
+prompted to photograph one’s natural surroundings [14,24].
+The Photo app consisted of two main features: (1) a camera
+feature with only a single shot (no other photo capture
+modes, filters, or video capabilities), and (2) a photo gallery
+displaying a grid of all photos taken.
+
+===== PDF PAGE 5 =====
+
+METHOD
+
+We recruited 32 children between the ages of 9 and 12, and
+one of their parents (one child-parent pair per family) to
+participate in the study. Twenty-eight families (15 = NC app;
+13 = Photo app) completed all the procedures and were
+included in our final sample. Of the families who dropped
+out of the study, one (Photo app) did so in the first week
+before the child received the phone. The second family
+dropped out after receiving the phone and the child never
+used the app (Photo app). The last two families (Photo app,
+NC app) did not complete the final interviews and dropped
+out in the last week of the study after their children used the
+app (Table 2).
+Demographic Variable
+
+NC
+N
+
+Photo
+N
+
+Female
+Male
+
+9
+6
+
+9
+4
+
+Age
+
+Age 9
+Age 10
+Age 11
+Age 12
+
+8
+5
+0
+2
+
+3
+5
+2
+3
+
+Race
+
+White or Caucasian
+Black or African American
+Asian / Pacific Islander
+Mixed
+
+8
+1
+1
+5
+
+8
+0
+1
+4
+
+Household
+Income
+(US$)
+
+Less than $25,000
+$25,000 to $49,999
+$50,000 to $74,999
+$75,000 to $99,999
+$100,000 to $149,999
+$150,000 or more
+
+1
+0
+2
+1
+4
+7
+
+0
+0
+5
+1
+2
+5
+
+Parent’s
+Education
+
+High school graduate
+Trade /Vocational
+Associate's degree
+Bachelor's degree
+Graduate degree
+
+1
+3
+2
+5
+4
+
+0
+1
+0
+8
+4
+
+Child Lives
+with Parent
+
+Yes, Full-Time
+Yes, Part-Time
+
+14
+1
+
+13
+0
+
+Gender
+
+Table 1: Demographic characteristics of participants
+
+We used a variety of strategies to recruit participants. We
+posted the study announcement on the authors’ school
+website, and it was shared via a campus-wide news post as
+well as email listserv. Authors posted the announcement on
+their personal social media accounts and on local parent
+Facebook groups. We also distributed flyers at local libraries,
+schools, and community centers throughout the metropolitan
+region where the study took place.
+Once interested families (a total of 164) signed up for the
+study, we divided them into two groups: those children who
+
+reported having their own handheld smart device (e.g.
+smartphone or iPod touch) and children who did not own a
+smart device. We then emailed an equal number of families
+from each group in the order in which they signed up to
+schedule the initial interview. Our initial data sample
+included equal numbers of children from each group. We
+gave families the option of coming to campus or meeting at
+their neighborhood library for their initial interview. It took
+3 weeks to schedule and complete these initial interviews.
+We attempted to recruit a diverse sample with respect to race,
+household income, and education level. Our final sample
+skewed towards upper- and middle-class families; however,
+it mirrors the race distribution of the city [69]. Table 1 shows
+participants’ demographics. Families received a $25 gift card
+after completing the initial interview and the first week of the
+study, and a $50 gift card once they completed the final
+interviews.
+Study Design
+
+We conducted a three-week experimental study in which we
+used a stratified random sampling approach to assign an
+equal number of participants to one of two conditions: (1) the
+intervention group, who received the NatureCollections
+(NC) app (NC condition), or (2) the active control group,
+who received a basic Photo app (Photo condition). Within
+each condition, children were equally distributed based on
+the following factors: (1) whether they had their own
+handheld device; (2) whether they were an only child or had
+siblings; and (3) their birth order in the family.
+Of the participants who finished the study, 15 were in the NG
+condition and 13 were in the Photo condition. We chose to
+include an active control group to determine whether the
+novelty of being given a smartphone and being prompted to
+take pictures of nature would, on its own, impact children’s
+time outside and interactions with nature [22].
+To eliminate any recorded changes or differences between
+app conditions due to chance, we used a multiple baseline
+experimental design, where the start date of the three-week
+study was staggered over two weeks across three groups of
+families (10, 10, and 8 families who completed the study in
+each group). The app condition was randomly assigned to
+equal numbers of families within each of the three groups.
+See Table 2 for details on condition assignment and group
+start dates.
+The experiment was a 2x2 mixed factorial design with the
+following factors and levels:
+•
+•
+
+Condition: NC, Photo
+Intervention: Pre, Post
+
+The between-subjects factor was the app condition (either
+NC or Photo), and the within-subjects factor was the
+intervention period, as both groups submitted journal entries
+during baseline and intervention phases. We also collected
+three measures of children’s behaviors during both baseline
+and intervention periods: (1) time spent outside, (2) time
+
+===== PDF PAGE 6 =====
+
+spent on technology (both measured by self-reported diary
+entries from parents [44]), and (3) during the intervention
+period, we collected time spent on the assigned app
+(measured by app log data from children’s devices).
+Group
+
+NG
+N
+
+Ph
+N
+
+W
+N
+
+Total
+N
+
+Week 1
+
+5
+
+4
+
+2/Ph
+
+12
+
+Week 2
+
+5
+
+5
+
+Week 3
+
+4
+
+4
+
+1/Ph, 1NC
+
+10
+
+Total
+
+15
+
+13
+
+4
+
+32
+
+10
+
+Note. NC: NatureCollections, Ph: Photo app, W: Withdrew.
+Table 2: Group start dates
+Study Procedures
+
+Parent diary entries: During the first week, we asked
+parents, with the help of their child, to fill out a daily journal
+of their child’s total time outside and type of outdoor
+activities, as well as time spent using screen-based
+technologies, and type of tech-based activity. The goal was
+to establish a stable baseline of these activities for each child
+in our sample before introducing the app condition. In the
+second week, families received (either in person or in the
+mail) a phone with either the NatureCollections or the Photo
+app installed.
+Parent-child pairs were asked to continue filling out the daily
+journal throughout the second and third weeks. In addition to
+recording children’s total time outdoors, they were asked to
+report instances of using the NatureCollections/Photo app,
+including time, location, and a brief description of the
+context of use. We collected 21 diary entries per parent-child
+pair, for a total of 588 entries from all participants. Five
+parent-child pairs missed a total of 25 entries.
+Log data: Both the NC app and the Photo app logged all of
+the children’s interactions and input into the phone. These
+data included time on app, features used, and geo- and timestamped photos taken by each child. Our NC app has a
+backend server to store user data once the device is
+connected to WiFi. We used Firebase to store the data from
+the Photo app.
+Ecological momentary assessment (EMA): EMA involves
+repeated sampling of participants’ in-situ, real-time
+behaviors and experiences [44]. Over the two-week period,
+children were asked to periodically complete two short
+surveys, detailed below, using the study phone at specific
+times: after their first app use, then twice during the twoweek app use period and one final time on the last day of the
+study. We used the Snap Mobile Anywhere Survey app,
+
+which captures audio responses to questions and does not
+require cell phone data to submit. The two surveys we
+administered were:
+(1) audio reflections: The first survey had three audio
+reflection questions asking children to (a) describe what
+photos they had taken and why; (b) things they liked about
+the app; and (c) things they disliked.
+(2) outdoor experiences: The second survey asked children
+about their outdoor time using the app. We asked (a) if they
+feel happy or less happy to go outside, (b) if they’d like More
+time or Less time in nature, and (c) if they feel very excited
+or not excited to use the app in nature. For each of these
+questions, children had the option to record an audio
+reflection further explaining their answers.
+Children’s post-experiment outdoor activity: After
+completing all experimental procedures, parents and children
+were invited to participate in a final, audio-recorded
+interview held at the university campus. Parents were asked
+about their family experiences having their child use the
+assigned app and clarifying questions about their daily
+journal entries. While parents were being interviewed,
+children participated in an outdoor activity in which they
+showed a researcher how they used the app and shared their
+thoughts and experiences around their app engagement.
+Those activities were audio- and video-recorded. The final
+interviews were completed within a few days of the
+experimental phase of the study and over a total period of 5
+weeks due to participants’ staggered start dates and to
+accommodate families’ commitments and travel dates.
+Data Analysis
+
+Parent diary entries & log data: We used the parent diary
+entries and phone usage logs to construct a dataset of app use
+for each child. We used these datasets to conduct an analysis
+of children’s total time spent outside during the baseline and
+intervention periods (pre- and post-app use). For the missing
+data entries (discussed above), we utilized multiple
+imputations using the expectation-maximization algorithm
+to substitute those data points [40]. Because the data were
+not normally distributed, we first performed a log
+transformation. We used block ANOVA to account for nonindependence of our data points (multiple data points per
+child across the study period), with condition (NC and Photo
+app) as the independent variable and intervention period
+(pre- and post-app use) as the blocking factor.
+Children’s post-experiment outdoor activity: We completed
+28 post-child outdoor activities and interviews that were
+video- and audio-recorded (ranging from 25 to 45 minutes).
+One researcher transcribed 4 post-child activity videos from
+each app condition verbatim and added descriptions of the
+non-verbal actions of the child with their surroundings (total
+of 8 post-child activity videos). Using a grounded theory
+approach [6], two researchers then openly coded two
+transcripts from each app condition (total of four transcripts)
+to identify emergent themes. The researchers came together
+
+===== PDF PAGE 7 =====
+
+to review their coding, combine themes where appropriate,
+and come to consensus on an initial list of themes (e.g. nature
+captures child’s attention; child demonstrates curiosity about
+nature; child-directed nature exploration). They applied this
+consensus list of themes to the remaining four transcripts (2
+from each group) and checked whether any new themes
+emerged. The researchers came together once more to
+discuss and come to consensus on the newly identified
+themes. They divided the remaining videos and coded them
+separately, checking in regularly to ensure consensus was
+maintained [46].
+Following this open coding process, researchers organized
+the emergent codes into hierarchical themes aligned with
+Giusti et al.’s framework. We focused in particular on
+themes related to abilities and qualities associated with the
+first phase of being IN nature. [18]. For example, emergent
+codes that focused on child-initiated app use in nature
+aligned with the “child-driven” quality of significant naturebased activities.
+Ecological momentary assessment (EMA): Children
+completed a combined total of 198 audio surveys with a total
+of 534 individual audio files, with a response duration
+ranging from a few seconds to 2.6 minutes. In 50 surveys
+(115 audio recordings), the participant IDs were not
+captured, and one audio file was corrupted. However, we
+were able to identify the app condition (NC or Photo) for 34
+of these 50 surveys (67 recordings). 56% of the total surveys
+came from the NC app condition, and 43% came from the
+Photo app condition.
+We transcribed all audio clips before analyzing them. Two
+researchers individually coded the same 30 audio clips
+selected randomly from each app condition (a total of 60
+audio clips) using the same coding scheme developed for the
+post-experiment outdoor activity. We met to discuss and
+achieve consensus on code definition and application,
+resolve disagreements of any coded clips, and assess interrater agreement. Inter-rater agreement was satisfactorily high
+(κ = 0.81) [32]. After this process, one researcher coded the
+remaining 474 audio clips.
+RESULTS
+RQ1.: Does the NatureCollections app succeed at getting
+children to spend more time outside?
+Children’s Time Spent Outside
+
+During the first week of the study, before receiving the app
+(pre-intervention), children in the NG app group spent an
+average of 2 hours 7 minutes outside per day (sd = 105.38
+mins). Children in the Photo app group spent an average of 2
+hours 4 minutes outside per day (sd = 129.15 mins). This
+difference was not statistically significant (p = .482).
+We used block ANOVA to account for the nonindependence of our data points (multiple data points per
+child across the study period), with condition (NC and Photo
+app) as the independent variable and baseline and
+
+intervention periods (pre- and post-app use) as the blocking
+factor. Children in the Photo app group averaged 2 hours 6
+minutes per day outside during the intervention period. This
+amount of time did not differ to a statistically significant
+degree from the average amount of time this group of
+children spent outside during the baseline period (F (1,193)
+= 10.551 p= .657). However, there was a statistically
+significant difference in the average amount of time that
+children in the NC app group spent outside between the
+baseline and intervention periods (mean = 2h 48min, sd
+=132.67, F (1, 389) = 12.153, p < .001, η2 = .026). In other
+words, the NC app group spent more time outside, on
+average, after they received the app.
+During the post-intervention outdoor activity, children in the
+NC app group explained that having the app encouraged
+them to go outside more often. One 12-year-old girl reflected
+on her experience using the NC app: “It’s pretty fun to use,
+it really gets you outside, too.” Another child, when asked
+how often he went outside during the study, responded:
+“Every day actually, yes this app brought me outside more”
+(boy, age 10). In the NC group, 86% of the children used the
+app frequently over the two-week intervention period,
+particularly at the beginning of the study and at the end.
+In contrast, the Photo app group did not express similar
+motivation to spend time outside during the intervention
+period. Approximately 75% of the children in this group
+stopped using the app after the first couple of times. One tenyear-old girl described her experience with the Photo app:
+“Usually I would spend about three hours a day outside
+without even using the app. The app didn't really help me
+spending more time outside.”
+RQ 2.: Does the NatureCollections app impact children’s
+connectedness to nature?
+
+We present the results of our qualitative analysis of
+children's in-situ audio responses during the two-week
+period of app use, as well as children’s responses during the
+post-intervention outdoor activity. Results are organized
+thematically around the abilities and qualities from Giusti et
+al.’s framework that we identified in our data. We focus on
+the first phase of the framework, being IN nature.
+Being IN Nature
+
+We present our results for each app condition, organized by
+children’s HNC-related abilities related to the first phase of
+Giusti et al.’s framework, being IN nature. The abilities in
+this phase include being curious about nature and feeling
+comfortable in natural spaces (e.g., with dirt, mud or bugs).
+We include discussion of the specific qualities of naturebased experiences that supported each of these abilities.
+Being IN Nature: Showing Curiosity About Nature
+
+NatureCollections app group. In addition to encouraging
+children to go outside, the NC app sparked children’s
+curiosity about natural spaces and motivated them to learn
+about and explore nature. One 12-year-old boy explained: “I
+like using the app because it motivates me to go outside and
+
+===== PDF PAGE 8 =====
+
+learn more about what I'm taking photos of.” With respect to
+the qualities of children’s nature-based experiences that
+supported their curiosity, the NC app succeeded in drawing
+children’s attention to nature and encouraging them to
+engage in child-driven explorations of nature.
+The NC app helped draw children’s attention to the natural
+elements in their surroundings. For instance, one 10-year-old
+boy reflected on his app experience during the postintervention outdoor activity: “I notice things differently
+since I started using the app, like types of animals and trees.”
+NC app features like “Add Details,” “Classifications,” and
+“More Information” drew children’s attention to different
+types of nature elements. One 10-year-old girl reflected on
+her connection to nature while using the app: “When I use the
+NC app, I feel pretty connected to nature because I'm taking
+pictures of nature and identifying them and placing them into
+groups and learning more about the plants. Because I have
+to observe it and really try to understand more about it.”
+During the post-intervention outdoor activity, one 9-year-old
+girl noted that she liked how the classification feature drew
+her attention to details in nature: “I like the classify part, like
+what type is it, how many pairs of wings does it have
+[referring to bug classification], what do the leaves look
+like.” Another 10-year-old boy commented: “I look at things
+more and notice more things, like animals, bugs and stuff.”
+In a similar manner, one 9-year-old girl excitedly shared her
+app experience: “It was pretty great, I liked how you were
+trying to get kids to nature…to..to figure out what it is more.”
+When we asked her what she meant by more, she explained:
+“How I was trying to figure out what leaves that tree had. I
+wouldn't have looked really close at the leaves before.”
+In addition to drawing their attention to nature elements, the
+NC app sparked children’s interest in learning more about
+nature. For instance, while showing us the photos he took
+during the post-intervention outdoor activity, one 10-yearold boy explained enthusiastically: “I feel like I know more
+like that tree is called a pine tree, that tree has like this kind
+of shape. It makes me want to like show my friends, like, take
+a picture of this and show them, ‘Oh you see that shape in
+the tree? That means it’s this tree. See this bird of this?
+That’s a song bird. This is a bird of prey.’”
+Children in the NC group expressed a desire to learn more
+about nature even after being outside. Children initiated
+conversations with their parents and siblings around different
+nature photos they had taken, and some even searched online
+to learn more about nature elements they observed. One 12year-old boy explained: “I would go on the computer or the
+phone and be like what’s a cedar bark tree [referencing the
+app tree classification option]?”
+Photo app group. In contrast, the Photo app did not appear
+to draw children’s attention to natural elements or motivate
+them to interact with nature. Instead of focusing on the
+specific details of a nature element (e.g., leaf type), their
+photos were more likely to be driven by a focus on the
+
+aesthetics of the photo composition (e.g. shape, color). For
+example, one 10-year-old girl was asked during the postintervention outdoor activity: “What are you normally
+thinking of when you take pictures?” The girl explained
+“Just how it looks, like that [points to a spider web near the
+building entrance]: I like how spider webs look. It captures
+the water droplets, it keeps it like that, it doesn't spread out,
+when it catches it like the ground, it doesn't disappear.”
+Children in this group mentioned taking photos for personal
+relevance like their backyard, pets, or selfies of themselves
+and their peers for fun. When asked to explain why he took
+the photos he did, one 9-year-old boy said: “Anytime I
+wanted to see our frontyard without having to walk away
+from my show or my toys.” He went on to show some of his
+photos and commented: “I also really like this selfie by the
+beach…I think this one's funny.”
+Being IN Nature: Feeling Comfortable With Natural Elements
+
+NatureCollections app group. Enjoying one’s time in nature
+is one indication of feeling comfortable in nature. We
+therefore looked for evidence that children were engaging in
+nature-based activities that they found fun and joyful. Both
+the NC and Photo app children reported feeling happy and
+enjoying nature when they were outside with their app.
+Children in the NC app group reported being more excited
+and passionate about nature after using the app. One 9-yearold girl described her feelings about nature during the postintervention activity interview: “I’m more passionate about
+nature now, just by using the app and being outside more.”
+Similarly, another 12-year-old girl explained her experience
+using the app: “I also think it's easy and it works its goal of
+using technology to help you appreciate nature. I kind of
+noticed a trend in my audio recordings: at first, I was simply
+talking about what I took a photo of and why, and later when
+I was using the app I started talking more about how I feel
+about nature in general and why I took a photo in more
+detailed reasoning.”
+Beyond simply enjoying nature, children in the NC app
+group expressed amazement and awe, which appeared to
+heighten their connection to nature during their outdoor
+exploration with the app. One 10-year old boy explained his
+surprise upon learning that trees are living things: “Before, I
+thought that trees were pretty boring cause they're just trees.
+But then when I started taking pictures with them, they’re not
+just trees, they’re actually living! So they’re like us, but
+they’re not moving around. They’re staying put. They don’t
+have faces, but they're alive and we have to take care of
+them... like trees are living things!” Similarly, a 9-year-old
+girl expressed her wonder about nature while showing us a
+photo of close-up leaves: “I think nature is really really
+fascinating, like skeletal leaves: those are really really cool.”
+Lastly, interacting with animals is another indication that
+children feel comfortable in nature. In our analysis, we found
+that children who used the NC app were more likely to
+describe interacting with wild animals. For example, one 9year-old girl narrated the story behind a close-up photo she
+
+===== PDF PAGE 9 =====
+
+took of baby birds: “I took a photo of a bird, a bird and its
+mama and babies at my grandma’s house. There's a mama
+bird nest. And so, my grandma tried to take care of it and
+told me to get water and I tried to get close to the birds. But
+sometimes it’s weird when they open their mouths, the
+babies! Cause it’s black and looks like a little hole.”
+Photo app group. Children who enjoyed using the Photo app
+told us that they liked photography, or that they took pictures
+of things that were personally meaningful to them. For
+example, one boy explained while showing us the photos he
+had taken: “I like trees cause I can climb them. ... these are
+the trees I’ve climbed before.” He also talked about liking
+how the trees looked at certain times of the day, for example,
+during sunset: “I’m not sure what trees those are. [They are
+the] tallest trees in neighborhood. I like their colors
+[referring to the sunset lighting].”
+Unlike children in the NatureCollections group, children in
+the Photo app group did not exhibit evidence that the app
+facilitated their direct interaction with nature, and they did
+not express amazement related to nature elements. When we
+asked these children if the app helped them notice things
+differently in their surroundings, one 11-year-old girl said: “I
+don’t think so, it was the same before and after. I don't really
+pay attention to how much I notice and how much I don't.”
+Although children in the Photo app group were often drawn
+to aesthetic qualities of their natural surroundings, this focus
+was not typically accompanied by an expressed interest in or
+enjoyment of nature. One 10-year-old girl explained:
+“Sometimes I see something and think ‘Oh, that's pretty,’ but
+I'm never like ‘I want to take a picture of that or get close.”
+DISCUSSION
+
+In light of the critical role of nature exposure during
+childhood, researchers and educators are increasingly
+motivated to create nature-based experiences for children
+that promote nature exploration, curiosity, and direct
+engagement with natural elements. Nature kindergartens and
+school programs that focus on direct child-nature
+interactions have increased markedly in recent years. In the
+United States alone, such programs increased from around
+25 programs in 2012 to more than 250 programs spanning 43
+states in 2017 [16,54]. In this work, we explored the potential
+for using mobile technologies to encourage children to spend
+more time outside and engage directly with nature.
+The primary contribution of this work is empirical evidence
+from an in-situ, three-week experimental deployment of the
+NatureCollections app, showing that the app significantly
+increased the time children spent in nature, compared to
+children in the Photo app group. Prior research has found that
+direct nature interaction and spending time in nature play a
+pivotal role in children’s nature connectedness and
+willingness to perform pro-environmental behaviors during
+adulthood [18,21,36,38,51]. In this study, we observed key
+qualities of children’s nature interactions suggesting that the
+NatureCollections app promotes and supports the
+
+development of children’s abilities of Human-Nature
+Connection [18].
+Our results showed that for children in the NatureCollections
+app group, the app succeeded in promoting child-driven
+exploration and attention to natural elements, in contrast to
+children in the Photo app group. Specifically, we observed
+evidence that, while using the NatureCollections app,
+children directed their attention to their natural
+surroundings, such as pointing to birds, bunnies and bugs,
+and they engaged in tactile interactions with nature elements,
+such as feeling tree trunks, reaching for tree leaves, and
+touching dirt. They also interacted with nature in a way that
+was child-driven, even seeking to extend their learning after
+their time in nature by engaging their parents in
+conversations about what they had seen and photographed
+with the app. These observed qualities of significant naturebased experiences in the NatureCollections app group
+supported children’s curiosity about nature, one of the HNC
+abilities associated with being IN nature described in the
+Giusti et al. framework [18].
+Children in the NatureCollections group also showed
+indicators of feeling comfortable in nature—another HNCrelated ability associated with being IN nature [18]. Children
+in this group expressed being happy, excited, and passionate
+about nature after using the NatureCollections app during
+their outdoor experiences. Those experiences were often
+accompanied by a sense of awe and amazement. During our
+post-intervention outdoor activity, children who used the
+NatureCollections app recalled positive nature memories
+about their nature experiences as they showed us the photos
+they had taken during the study. Children also felt
+comfortable interacting with wild life while using the NC
+app, getting close to animals and bugs in order to photograph
+them. In contrast, the children in the Photo app group
+engaged considerably less with their natural surroundings,
+taking photos indiscriminately with no clear subject or
+purpose beyond the aesthetic composition of the photograph.
+Although these children showed excitement about being
+outdoors and engaged in play, these interactions rarely
+centered on direction interaction with nature elements.
+Several features of the app contributed to these results. First,
+children’s experiences with the app were highly childdirected experiences. Children could choose what to
+photograph, which collections to build, and which challenges
+to pursue. Features such as ““Add Details,”
+“Classifications,” and “More Information” also facilitated
+children’s direct nature interactions and enjoyment of their
+time in nature. For example, in the process of making
+classification decisions for a nature element, children often
+expressed amazement and drew their attention to a natural
+element while making close observations of its details.
+Similarly, the “Add Details” feature of the app allowed
+children to reflect on their choices of what they had
+photographed and articulate in their own terms how to
+describe the nature element. When children engaged with
+
+===== PDF PAGE 10 =====
+
+this feature, they showed curiosity and inspected the natural
+element closely, especially when attempting to classify it.
+After learning more about the different species using the
+“More Information” feature, several children reported
+feeling comfortable getting closer to a variety of natural
+elements, such as bugs and other animals, in order to
+photograph them. Children who used the NatureCollections
+app also engaged in conversations with peers and parents
+about the nature elements that they photographed.
+LIMITATIONS AND FUTURE WORK
+
+There are several limitations to the claims we can make from
+our data. We conducted this study with children and parents
+who were mostly from middle-to upper-class backgrounds.
+Although other demographic characteristics are reflective of
+the study location, our sample is not representative of the
+general population. Prior work has shown that geographic
+region, culture, and socio-economic status influence people’s
+relationship to nature and their motivation to spend time
+outdoors [34,36]. This work suggests that users’ experiences
+with NatureCollections might also vary systematically along
+these demographic dimensions. Future work could look at
+designing for the complex ecologies associated with
+children’s lived experiences, for instance, by designing to
+include family members in children’s nature explorations.
+Another distinction to our sample is the fact that it took place
+in one of the greenest urban cities in the US, where spending
+time outdoors in nature is generally highly valued. Children
+living in other areas of the country may experience the
+NatureCollections app in quite a different way depending on
+their prior relationship with and experiences in nature. Future
+work could deploy the app in different geographic regions of
+the US to explore whether children engage with the app in
+systematically different ways [12].
+Almost all of our participants in both app groups expressed
+feeling a burden from carrying the device while being
+outside. Our team’s decision to design for mobile
+technologies was driven by their widespread and easy access
+for children, [70]. Future work can draw from the heads-up
+prior research [48,50] and explore other form factors, such
+as wearables, spectacles, and non-screen-based technologies
+that leverage cameras along with voice interfaces,
+projections, and sensors.
+CONCLUSION
+
+In the current work, we have shown how the design of the
+NatureCollections app supports children’s increased time in
+nature—a critical factor to increasing children’s
+connectedness to nature. The features of the app promote key
+qualities associated with significant nature-based
+experiences, which in turn supports the development of
+children’s abilities to connect with nature. These features
+strike a balance between supporting child-directed
+exploration while also providing external scaffolding (e.g.,
+supports for identifying a plant or bird). Although the app
+successfully harnesses the capabilities of mobile
+technologies, we believe that future work should leverage
+
+these insights and explore non-screen-based technologies
+that might be even more successful at connecting children to
+nature.
+ACKNOWLEDGMENTS
+
+We thank both children and their parents, for participating in
+our 3-week study. Special thanks to Monica Posluszny,
+Jimmy Nguyen, Josh Duffy, Emilia Gan, Coreen Callister,
+Sara Hastings and Julian Boss for helping our team recruit
+familes and collect data. We also would like to thank Sarah
+Chase for reviewing earlier versions of the theoretical
+framework of human-nature connection section. This
+material is based upon work supported by the University of
+Washington Innovation Award. This project was approved
+by the Institutional Review Board at the University of
+Washington (IRB ID: STUDY00002801).
+SELECTION AND PARTICIPATION OF CHILDREN
+
+We recruited through university listservs, social media posts,
+and flyers at local libraries. Each child and their parent that
+agreed to participate in the study met with a researcher
+separately to go over the 3-week research study details and
+review the IRB polices. Children and their parents were told
+that their participation was voluntary and that could stop
+using the app or choose to withdraw from the study at any
+time. Written consent and assent were obtained from each
+parent (consent) and child (assent). Each family received a
+$25 gift-card after the first week and an additional $50 when
+completing the study interview at the end of the third week.
+REFERENCES
+
+1. Tetske Avontuur, Rian de Jong, Eveline Brink, Yves
+Florack, Iris Soute, and Panos Markopoulos. 2014. Play
+It Our Way: Customization of Game Rules in Children’s
+Interactive Outdoor Games. In Proceedings of the 2014
+Conference on Interaction Design and Children (IDC
+’14),
+95–104.
+https://doi.org/10.1145/2593968.2593973
+2.
+
+Jon Back, Caspar Heeffer, Susan Paget, Andreas Rau,
+Eva Lotta Sallnäs Pysander, and Annika Waern. 2016.
+Designing for Children’s Outdoor Play. In Proceedings
+of the 2016 ACM Conference on Designing Interactive
+Systems
+(DIS
+’16),
+28–38.
+https://doi.org/10.1145/2901790.2901875
+
+3.
+
+Tina Braun and Paul Dierkes. 2017. Connecting
+students to nature – how intensity of nature experience
+and student age influence the success of outdoor
+education programs. Environmental Education
+Research
+23,
+7:
+937–949.
+https://doi.org/10.1080/13504622.2016.1214866
+
+4.
+
+Catherine Broom. 2017. Exploring the Relations
+Between Childhood Experiences in Nature and Young
+Adults’ Environmental Attitudes and Behaviours.
+Australian Journal of Environmental Education 33, 1:
+34–47. https://doi.org/10.1017/aee.2017.1
+
+===== PDF PAGE 11 =====
+
+5.
+
+6.
+
+7.
+
+Colin A. Capaldi, Holli-Anne Passmore, Elizabeth K.
+Nisbet, John M. Zelenski, and Raelyne L. Dopko. 2015.
+Flourishing in nature: A review of the benefits of
+connecting with nature and its application as a
+wellbeing intervention. International Journal of
+Wellbeing 5, 4. https://doi.org/10.5502/ijw.v5i4.449
+Kathy Charmaz and Linda Liska Belgrave. 2015.
+Grounded Theory. In The Blackwell Encyclopedia of
+Sociology.
+American
+Cancer
+Society.
+https://doi.org/10.1002/9781405165518.wbeosg070.pu
+b2
+Thomas Chatzidimitris, Damianos Gavalas, and Vlasios
+Kasapakis. 2015. PacMap: Transferring PacMan to the
+Physical Realm. In Internet of Things. User-Centric IoT
+(Lecture Notes of the Institute for Computer Sciences,
+Social
+Informatics
+and
+Telecommunications
+Engineering), 139–144. https://doi.org/10.1007/978-3319-19656-5_20
+
+8.
+
+Louise Chawla and Victoria Derr. 2012. The
+Development of Conservation Behaviors in Childhood
+and Youth. The Oxford Handbook of Environmental
+and
+Conservation
+Psychology.
+https://doi.org/10.1093/oxfordhb/9780199733026.013.
+0028
+
+9.
+
+Gene Chipman, Allison Druin, Dianne Beer, Jerry Alan
+Fails, Mona Leigh Guha, and Sante Simms. 2006. A
+Case Study of Tangible Flags: A Collaborative
+Technology to Enhance Field Trips. In Proceedings of
+the 2006 Conference on Interaction Design and
+Children
+(IDC
+’06),
+1–8.
+https://doi.org/10.1145/1139073.1139081
+
+10. Susan Clayton. 2003. Environmental Identity: A
+Conceptual and an Operational Definition. In Identity
+and the natural environment: The psychological
+significance of nature. MIT Press, Cambridge, MA, US,
+45–65.
+11. Silvia Collado, José A. Corraliza, Henk Staats, and
+Miguel Ruiz. 2015. Effect of frequency and mode of
+contact with nature on children’s self-reported
+ecological behaviors. Journal of Environmental
+Psychology
+41:
+65–73.
+https://doi.org/10.1016/j.jenvp.2014.11.001
+12. Silvia Collado, Henk Staats, and José A. Corraliza.
+2013. Experiencing nature in children’s summer camps:
+Affective, cognitive and behavioural consequences.
+Journal of Environmental Psychology 33: 37–44.
+https://doi.org/10.1016/j.jenvp.2012.08.002
+13. Bronwyn J. Cumbo, Brent C. Jacobs, Tuck W. Leong,
+and Anne Marie Kanstrup. 2014. What motivates
+children to play outdoors? potential applications for
+interactive digital tools. In Proceedings of the 26th
+Australian Computer-Human Interaction Conference
+on Designing Futures: the Future of Design (OzCHI
+
+’14),
+https://doi.org/10.1145/2686612.2686637
+
+168–171.
+
+14. Bronwyn J. Cumbo, Jeni Paay, Jesper Kjeldskov, and
+Brent C. Jacobs. 2014. Connecting Children to Nature
+with
+Technology:
+Sowing
+the
+Seeds
+for
+Proenvironmental Behaviour. In Proceedings of the
+2014 Conference on Interaction Design and Children
+(IDC
+’14),
+189–192.
+https://doi.org/10.1145/2593968.2610449
+15. Raelyne L. Dopko, Colin A. Capaldi, and John M.
+Zelenski. 2019. The psychological and social benefits of
+a nature experience for children: A preliminary
+investigation. Journal of Environmental Psychology 63:
+134–138. https://doi.org/10.1016/j.jenvp.2019.05.002
+16. North American Association for Environmental
+Education (NAAEE). 2017. Nature Preschools and
+Forest Kindergartens: 2017 National Survey. NAAEE
+Washington, DC.
+17. Jerry Alan Fails, Katherine G. Herbert, Emily Hill,
+Christopher Loeschorn, Spencer Kordecki, David
+Dymko, Andrew DeStefano, and Zill Christian. 2014.
+GeoTagger: A Collaborative and Participatory
+Environmental Inquiry System. In Proceedings of the
+Companion Publication of the 17th ACM Conference on
+Computer Supported Cooperative Work & Social
+Computing (CSCW Companion ’14), 157–160.
+https://doi.org/10.1145/2556420.2556481
+18. Matteo Giusti, Ulrika Svane, Christopher M. Raymond,
+and Thomas H. Beery. 2018. A Framework to Assess
+Where and How Children Connect to Nature. Frontiers
+in
+Psychology
+8.
+https://doi.org/10.3389/fpsyg.2017.02283
+19. Tom Hitron, Idan David, Netta Ofer, Andrey Grishko,
+Iddo Yehoshua Wald, Hadas Erel, and Oren
+Zuckerman. 2018. Digital Outdoor Play: Benefits and
+Risks from an Interaction Design Perspective. In
+Proceedings of the 2018 CHI Conference on Human
+Factors in Computing Systems (CHI ’18), 284:1–
+284:13. https://doi.org/10.1145/3173574.3173858
+20. Andrew J. Howell, Raelyne L. Dopko, Holli-Anne
+Passmore, and Karen Buro. 2011. Nature
+connectedness: Associations with well-being and
+mindfulness. Personality and Individual Differences 51,
+2: 166–171. https://doi.org/10.1016/j.paid.2011.03.037
+21. Christopher D Ives, Matteo Giusti, Joern Fischer, David
+J Abson, Kathleen Klaniecki, Christian Dorninger,
+Josefine Laudan, Stephan Barthel, Paivi Abernethy,
+Berta Martín-López, Christopher M Raymond, Dave
+Kendal, and Henrik von Wehrden. 2017. Human–nature
+connection: a multidisciplinary review. Current
+Opinion in Environmental Sustainability 26: 106–113.
+https://doi.org/10.1016/j.cosust.2017.05.005
+
+===== PDF PAGE 12 =====
+
+22. Danielle E Jake-Schoffman, Valerie J Silfee, Molly E
+Waring, Edwin D Boudreaux, Rajani S Sadasivam,
+Sean P Mullen, Jennifer L Carey, Rashelle B Hayes,
+Eric Y Ding, Gary G Bennett, and Sherry L Pagoto.
+2017. Methods for Evaluating the Content, Usability,
+and Efficacy of Commercial Mobile Health Apps. JMIR
+mHealth
+and
+uHealth
+5,
+12.
+https://doi.org/10.2196/mhealth.8758
+23. Peter H. Kahn and Stephen R. Kellert. 2002. Children
+and nature: psychological, sociocultural, and
+evolutionary investigations. MIT Press, Cambridge,
+Mass.
+Retrieved
+January
+19,
+2020
+from
+http://search.ebscohost.com/login.aspx?direct=true&sc
+ope=site&db=nlebk&db=nlabk&AN=70947
+24. Elisabeth Kals, Daniel Schumacher, and Leo Montada.
+1999. Emotional Affinity toward Nature as a
+Motivational Basis to Protect Nature. Environment and
+Behavior
+31,
+2:
+178–202.
+https://doi.org/10.1177/00139169921972056
+25. Amy marie Kamarainen, Shari Metcalf, Tina Ann
+Grotzer, Allison Browne, Diana Mazzuca, M. Shane
+Tutwiler, and Christopher J. Dede. 2013. EcoMOBILE:
+Integrating augmented reality and probeware with
+environmental education field trips. Computers &
+Education.
+https://doi.org/10.1016/j.compedu.2013.02.018
+
+design and children (IDC ’14),
+https://doi.org/10.1145/2593968.2610483
+
+325–328.
+
+31. Susan M. Land, Heather T. Zimmerman, Gi Woong
+Choi, Brian J. Seely, and Michael R. Mohney. 2015.
+Design of Mobile Learning for Outdoor Environments.
+In Educational Media and Technology Yearbook.
+Springer, Cham, 101–113. https://doi.org/10.1007/9783-319-14188-6_8
+32. J. Richard Landis and Gary G. Koch. 1977. The
+Measurement of Observer Agreement for Categorical
+Data.
+Biometrics
+33,
+1:
+159–174.
+https://doi.org/10.2307/2529310
+33. Lincoln R. Larson, Rachel Szczytko, Edmond P.
+Bowers, Lauren E. Stephens, Kathryn T. Stevenson, and
+Myron F. Floyd. 2018. Outdoor Time, Screen Time, and
+Connection to Nature: Troubling Trends Among Rural
+Youth?:
+Environment
+and
+Behavior.
+https://doi.org/10.1177/0013916518806686
+34. V.I. Lohr and C.H. Pearson-Mims. 2004. THE
+RELATIVE INFLUENCE OF CHILDHOOD
+ACTIVITIES AND DEMOGRAPHICS ON ADULT
+APPRECIATION FOR THE ROLE OF TREES IN
+HUMAN WELL-BEING. In Acta Horticulturae, 253–
+259. https://doi.org/10.17660/ActaHortic.2004.639.33
+35. Richard Louv. 2008. Last Child in the Woods: Saving
+Our Children from Nature-deficit Disorder. Algonquin
+Books.
+
+26. Pavel Karpashevich, Eva Hornecker, Nana Kesewaa
+Dankwa, Mohamed Hanafy, and Julian Fietkau. 2016.
+Blurring Boundaries Between Everyday Life and
+Pervasive Gaming: An Interview Study of Ingress. In
+Proceedings of the 15th International Conference on
+Mobile and Ubiquitous Multimedia (MUM ’16), 217–
+228. https://doi.org/10.1145/3012709.3012716
+
+36. Richard Louv. 2008. Last Child in the Woods: Saving
+our Children from Nature Deficit Disorder. Algonquin
+Books. Retrieved September 10, 2017 from
+http://edrev.asu.edu/edrev/index.php/ER/article/view/1
+196
+
+27. Saba Kawas, Sarah Chase, Jason Yip, Joshua Lawler,
+and Davis Katie. 2019. Sparking Interest: A Design
+Framework for Mobile Technologies to Promote
+Children’s Interest in Nature. . International Journal of
+Child-Computer Interaction.
+
+37. Ryan Lumber, Miles Richardson, and David Sheffield.
+2017. Beyond knowing nature: Contact, emotion,
+compassion, meaning, and beauty are pathways to
+nature connection. PLOS ONE 12, 5: e0177186.
+https://doi.org/10.1371/journal.pone.0177186
+
+28. Lucy E. Keniger, Kevin J. Gaston, Katherine N. Irvine,
+and Richard A. Fuller. 2013. What are the Benefits of
+Interacting with Nature? International Journal of
+Environmental Research and Public Health 10, 3: 913–
+935. https://doi.org/10.3390/ijerph10030913
+
+38. F. Stephan Mayer and Cynthia McPherson Frantz. 2004.
+The connectedness to nature scale: A measure of
+individuals’ feeling in community with nature. Journal
+of Environmental Psychology 24, 4: 503–515.
+https://doi.org/10.1016/j.jenvp.2004.10.001
+
+29. Rachel Tolbert Kimbro, Jeanne Brooks-Gunn, and Sara
+McLanahan. 2011. Young children in urban areas:
+Links among neighborhood characteristics, weight
+status, outdoor play, and television watching. Social
+Science
+&
+Medicine
+72,
+5:
+668–676.
+https://doi.org/10.1016/j.socscimed.2010.12.015
+
+39. F. Stephan Mayer, Cynthia McPherson Frantz, Emma
+Bruehlman-Senecal, and Kyffin Dolliver. 2009. Why Is
+Nature Beneficial?: The Role of Connectedness to
+Nature. Environment and Behavior 41, 5: 607–643.
+https://doi.org/10.1177/0013916508319745
+
+30. Susanne Lagerström, Iris Soute, Yves Florack, and
+Panos Markopoulos. 2014. Metadesigning interactive
+outdoor games for children: a case study. In
+Proceedings of the 2014 conference on Interaction
+
+40. Geert Molenberghs and Geert Verbeke (eds.). 2005.
+Multiple Imputation and the Expectation-Maximization
+Algorithm. In Models for Discrete Longitudinal Data.
+Springer,
+New
+York,
+NY,
+511–529.
+https://doi.org/10.1007/0-387-28980-1_28
+
+===== PDF PAGE 13 =====
+
+41. Elizabeth K. Nisbet, John M. Zelenski, and Steven A.
+Murphy. 2008. The Nature Relatedness Scale: Linking
+Individuals’ Connection With Nature to Environmental
+Concern and Behavior. Environment and Behavior.
+https://doi.org/10.1177/0013916508318748
+42. Kenton O’Hara. 2008. Understanding geocaching
+practices and motivations. In Proceedings of the
+SIGCHI Conference on Human Factors in Computing
+Systems
+(CHI
+’08),
+1177–1186.
+https://doi.org/10.1145/1357054.1357239
+43. Y. Rogers, S. Price, G. Fitzpatrick, R. Fleck, E. Harris,
+H. Smith, C. Randell, H. Muller, C. O’Malley, D.
+Stanton, M. Thompson, and M. Weal. 2004. Ambient
+Wood: Designing New Forms of Digital Augmentation
+for Learning Outdoors. In Proceedings of the 2004
+Conference on Interaction Design and Children:
+Building a Community (IDC ’04), 3–10.
+https://doi.org/10.1145/1017833.1017834
+44. John Ross, Igor Schreiber, Audie Atienza, Linda
+Nebeling, Saul Shiffman, and Arthur Stone. 2007. The
+Science of Real-Time Data Capture: Self-Reports in
+Health Research. Oxford University Press,
+Incorporated, Cary, UNITED STATES. Retrieved
+January
+17,
+2020
+from
+http://ebookcentral.proquest.com/lib/washington/detail.
+action?docID=415966
+45. P. Wesley Schultz. 2002. Inclusion with Nature: The
+Psychology Of Human-Nature Relations. In Psychology
+of Sustainable Development, Peter Schmuck and
+Wesley P. Schultz (eds.). Springer US, Boston, MA,
+61–78. https://doi.org/10.1007/978-1-4615-0995-0_4
+46. Peter Smagorinsky. 2008. The Method Section as
+Conceptual Epicenter in Constructing Social Science
+Research Reports. Written Communication 25, 3: 389–
+411. https://doi.org/10.1177/0741088308317815
+47. Kiley Sobel, Arpita Bhattacharya, Alexis Hiniker, Jin
+Ha Lee, Julie A. Kientz, and Jason C. Yip. 2017. It
+wasn’t really about the Pokémon: Parents’ Perspectives
+on a Location-Based Mobile Game. In Proceedings of
+the 2017 CHI Conference on Human Factors in
+Computing Systems
+- CHI ’17, 1483–1496.
+https://doi.org/10.1145/3025453.3025761
+48. Iris Soute. 2007. HUGs: head-up games. In Proceedings
+of the 6th international conference on Interaction
+design and children (IDC ’07), 205–208.
+https://doi.org/10.1145/1297277.1297330
+49. Iris Soute, Susanne Lagerström, and Panos
+Markopoulos. 2013. Rapid prototyping of outdoor
+games for children in an iterative design process. In
+Proceedings of the 12th International Conference on
+Interaction Design and Children (IDC ’13), 74–83.
+https://doi.org/10.1145/2485760.2485779
+
+50. Iris Soute and Panos Markopoulos. 2007. Head Up
+Games: The Games of the Future Will Look More Like
+the Games of the Past. In Human-Computer Interaction
+– INTERACT 2007 (Lecture Notes in Computer
+Science), 404–407. https://doi.org/10.1007/978-3-54074800-7_35
+51. Kim-Pong Tam. 2013. Concepts and measures related
+to connection to nature: Similarities and differences.
+Journal of Environmental Psychology 34: 64–78.
+https://doi.org/10.1016/j.jenvp.2013.01.004
+52. Pooja S. Tandon, Chuan Zhou, and Dimitri A.
+Christakis. 2012. Frequency of Parent-Supervised
+Outdoor Play of US Preschool-Aged Children. Archives
+of Pediatrics & Adolescent Medicine 166, 8: 707–712.
+https://doi.org/10.1001/archpediatrics.2011.1835
+53. Sherry Turkle. 2011. Alone together: why we expect
+more from technology and less from each other. Basic
+Books, New York. Retrieved December 14, 2018 from
+http://public.eblib.com/choice/publicfullrecord.aspx?p
+=684281
+54. Christina Turtle, Ian Convery, and Katie Convery. 2015.
+Forest Schools and environmental attitudes: A case
+study of children aged 8–11 years. Cogent Education 2,
+1:
+1100103.
+https://doi.org/10.1080/2331186X.2015.1100103
+55. Vidar Ulset, Frank Vitaro, Mara Brendgen, Mona
+Bekkhus, and Anne I. H. Borge. 2017. Time spent
+outdoors during preschool: Links with children’s
+cognitive and behavioral development. Journal of
+Environmental
+Psychology
+52:
+69–80.
+https://doi.org/10.1016/j.jenvp.2017.05.007
+56. Janneke Verhaegh, Iris Soute, Angelique Kessels, and
+Panos Markopoulos. 2006. On the design of Camelot,
+an outdoor game for children. In Proceedings of the
+2006 conference on Interaction design and children
+(IDC
+’06),
+9–16.
+https://doi.org/10.1145/1139073.1139082
+57. Joyce Weeland, Martine A. Moens, Femke Beute, Mark
+Assink, Janneke P. C. Staaks, and Geertjan Overbeek.
+2019. A dose of nature: Two three-level meta-analyses
+of the beneficial effects of exposure to nature on
+children’s self-regulation. Journal of Environmental
+Psychology
+65:
+101326.
+https://doi.org/10.1016/j.jenvp.2019.101326
+58. Nancy M. Wells and Kristi S. Lekies. 2006. Nature and
+the Life Course: Pathways from Childhood Nature
+Experiences to Adult Environmentalism. Children,
+Youth and Environments 16, 1: 1–24.
+59. Nancy M. Wells and Kristi S. Lekies. 2006. Nature and
+the Life Course: Pathways from Childhood Nature
+Experiences to Adult Environmentalism. Children,
+Youth and Environments 16, 1: 1–24.
+
+===== PDF PAGE 14 =====
+
+60. Gavin Wood, Jon Back, Jaz Hee-jeong Choi, Thomas
+Dylan, and Marti Louw. 2019. Designing for Outdoor
+Play. In Extended Abstracts of the 2019 CHI Conference
+on Human Factors in Computing Systems (CHI EA
+’19), 1–8. https://doi.org/10.1145/3290607.3299026
+61. Heather Toomey Zimmerman, Susan M. Land, Chrystal
+Maggiore, Robert W. Ashley, and Chris Millet. 2016.
+Designing Outdoor Learning Spaces With iBeacons:
+Combining Place-Based Learning With the Internet of
+Learning Things. Retrieved September 4, 2017 from
+https://repository.isls.org/handle/1/349
+62. Heather Toomey Zimmerman, Susan M. Land, Michael
+R. Mohney, Gi Woong Choi, Chrystal Maggiore, Soo
+Hyeon Kim, Yong Ju Jung, and Jaclyn Dudek. 2015.
+Using Augmented Reality to Support Observations
+About Trees During Summer Camp. In Proceedings of
+the 14th International Conference on Interaction
+Design and Children (IDC ’15), 395–398.
+https://doi.org/10.1145/2771839.2771925
+63. 1995. The Biophilia Hypothesis, Stephen R. Kellert and
+Edward O. Wilson. 1993. Island Press, Washington,
+DC. 484 pages. ISBN: 1-55963-148-1. $27.50. Bulletin
+of Science, Technology & Society 15, 1: 52–53.
+https://doi.org/10.1177/027046769501500125
+64. 2011. Kids These Days: Why Is America’s Youth
+Staying Indoors? Children & Nature Network.
+Retrieved
+January
+13,
+2020
+from
+https://www.childrenandnature.org/2011/09/12/kids_th
+ese_days_why_is_americas_youth_staying_indoors/
+65. UNITED NATIONS Climate Change Summit.
+Retrieved
+January
+16,
+2020
+from
+https://www.un.org/en/climatechange/reports.shtml
+66. AR6 Synthesis Report: Climate Change 2022 — IPCC.
+Retrieved
+January
+16,
+2020
+from
+https://www.ipcc.ch/report/sixth-assessment-reportcycle/
+67. Monitor of Engagement with the Natural Environment
+pilot study: visits to the natural environment by
+children. GOV.UK. Retrieved January 13, 2020 from
+https://www.gov.uk/government/statistics/monitor-ofengagement-with-the-natural-environment-pilot-studyvisits-to-the-natural-environment-by-children
+68. The Nature Conservancy Connecting America’s Youth
+to Nature. The Nature Conservancy. Retrieved January
+13,
+2020
+from
+https://www.evols.org/wpcontent/uploads/2018/10/youth-and-nature.pdf
+69. About Seattle - OPCD | seattle.gov. Retrieved January
+14,
+2020
+from
+https://www.seattle.gov/opcd/population-anddemographics/about-seattle#raceethnicity
+70. The Common Sense Census: Media Use by Tweens and
+Teens. 104.

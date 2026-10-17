@@ -1,0 +1,1395 @@
+SOURCE PDF: ../pdf/2024_IDC_Yip_Metaphor_sandwich.pdf
+SOURCE URL: https://bigyipper.com/wp-content/uploads/2024/04/idc24a-sub6959-cam-i16.pdf
+DOWNLOADED: 2026-10-17
+EXTRACTION: Poppler pdftotext default reading order, UTF-8.
+PAGE NUMBERS: PDF pages, not printed proceedings pages.
+NOTE: Text may contain OCR, column-order, ligature, hyphenation or figure-label errors. Consult the PDF for quotations and layout.
+
+===== PDF PAGE 1 =====
+
+Making a Metaphor Sandwich: Analyzing Children’s use of Metaphor During
+Tabletop Telepresence Robot Supported Participatory Design
+Casey Lee Hunt1, Kaiwen Sun2, Kaitlyn Tseng3, Priyanka Balasubramaniyam1, Allison Druin3, Amanda Huynh3, Daniel Leithinger1, Jason Yip4
+1ATLAS Institute, University of Colorado, Boulder, Colorado, USA, 2School of Information, University of Michigan, Ann Arbor, Michigan, USA 3Pratt
+Institute, Brooklyn, New York, USA 4Information School, University of Washington, Seattle, Washington, USA
+ABSTRACT
+Strengthening telepresence for children can improve their
+educational and socio-emotional outcomes. Meanwhile,
+understanding how children conceptualize new technologies
+supports designers to create engaging and intuitive interactions
+for them. In this pictorial, we explore children’s relationship to
+a promising and emerging approach to telepresence–tabletop
+robots. We analyze metaphors children used to describe a
+tabletop telepresence robot platform during 2-years (~100
+hours) of online participatory design with this technology. We
+use illustrations to convey and contextualize how children
+imagined the tabletop telepresence robots. We find that
+children used three categories of metaphor in their imaginings:
+(1) robot capabilities (magic/fragile), (2) robot roles
+(competitive/play-acting/creative), (3) robot agency (remote
+controlled/autonomous). We discuss these metaphors in the
+context of existing child-robot interaction, tangible interaction,
+and telepresence literature. Finally, we contribute the
+theoretical framework of a “metaphor sandwich” to describe
+children’s use of mixed metaphors during high engagement
+with the tabletop telepresence robots.
+Authors Keywords
+Physical telepresence; Online Collaboration; Participatory design;
+Children; Child-Robot Interaction; Metaphor analysis
+
+This work is licensed under a Creative Commons Attribution International
+4.0 License.
+IDC ’24, June 17-20, 2024, Delft, South Holland, Netherlands
+© 2024 Copyright held by the owner/author(s)
+
+CSS Concepts
+• Human-centered computing
+~ Human computer interaction (HCI) ~ Interaction devices
+~ Haptic devices
+
+INTRODUCTION
+Telepresence refers to technology supported remote
+communication and collaboration [11]. In schools,
+telepresence empowers children facing disability or geographic
+constraints by providing inclusive, peer-centered education to
+homebound learners [18, 75]. Telepresence also supports
+children’s socio-emotional well-being [20, 31, 61], connecting
+them with faraway family and friends [77, 78]. However,
+mainstream approaches to telepresence (i.e. video calls and coworking software) limit participation in valuable off-screen
+activities such as craft [6] and play [2, 7, 58].
+Past research has explored how task-space video projection
+[77, 78] and roving telepresence robots [1, 72] can improve
+telepresence for children. Task-space video projection gives
+children a view of faraway tabletops to support shared play
+and making [77, 78]; and roving telepresence robots enable
+playful touch and spatial interaction [18, 71]. However, each
+of these approaches also face limitations. Task-space video
+systems tether children to a stationary device and lack tactile
+interaction [78]. Whereas roving telepresence robots face
+navigational challenges because of their size and leave child
+users out of tabletop activities [23, 27, 72].
+Tabletop telepresence robots are an emerging approach to
+telepresence which enable tactile engagement with faraway
+tabletop activities [42]. They are portable, small, lightweight,
+and represent a promising avenue for remote creative
+collaboration [41, 42]. Early research has also explored the use
+of tabletop telepresence robots to support play and making for
+
+children [73, 35]. However, little is known about how children
+interpret or relate to these systems.
+As a result, despite the promising capabilities of tabletop
+telepresence robots, there is a gap in understanding about how
+to produce engaging and intuitive experiences for child-users
+of these platforms. To learn more about how children
+conceptualize tabletop telepresence robots, this pictorial
+analyzes a longitudinal online design effort with KidsTeam
+UW–an intergenerational participatory design group–to create
+a tabletop telepresence robot system for children. Specifically,
+this work considers the metaphors used by our 17 child design
+partners (aged 8 - 12 years) during the 2-year (17 session)
+participatory design effort.
+Metaphors reveal people’s thinking process by illuminating
+how they connect unfamiliar concepts to existing frames of
+reference [16, 40, 49]. Through an analysis of video collected
+during our intergenerational participatory design (PD) effort,
+we identify three thematic categories composed of seven total
+sub-themes addressing children’s use of metaphors to describe
+their interactions with and via the robots. This analysis
+provides insights into how designers might create tabletop
+telepresence robot activities that children can personally
+connect to and find familiar [4, 5].
+Our approach is inspired by previous research in human robot
+interaction (HRI), which evaluated participants' use of
+metaphors to understand how they employed existing
+cognitive models to make sense of robots [3, 81]. For instance,
+Fanny et al. analyzed the metaphors children used during
+educational robotics activities to gain a deeper understanding
+of factors shaping their robot literacy and inform future
+educational robotics materials for them [26].
+
+===== PDF PAGE 2 =====
+
+From our analysis, we find that children used metaphors to
+describe: robot capabilities (magical and futuristic, or helpless
+and needing care), robot roles (competitors, characters, or
+creative partners), and robot agency (representation of
+collaborator or autonomous agent). In this pictorial, we present
+illustrated examples of each category of metaphor, adapted
+from our video data. These illustrations allow us to convey a
+cohesive picture of how children imagined the robots in the
+context of our platform, instead of relying on written
+description to attempt to capture this dynamic.
+In addition to these three thematic categories, we also find that
+children frequently mixed metaphors from several themes
+while they used the platform to its full capacity (supporting
+crafting or play via remote control and direct manipulation).
+We consider how mixing metaphors during tabletop
+telepresence robot activities enables children to interpret
+tabletop telepresence robots by: addressing their preconceived
+ideas about robots [7, 50, 62, 63], overlaying familiar activities
+onto the robots [32, 33], and considering their tendency to
+interpret tele-operated robots as autonomous [28, 74].
+
+Building on this, we introduce the theoretical framework of a
+“metaphor sandwich,” to describe the complementary mix of
+metaphors children used while deeply engaged with our
+platform. With this metaphor sandwich model, we propose a
+“recipe” for designing tabletop telepresence robot activities
+which consider the expectations and prior experiences shaping
+children’s interactions with these platforms.
+RELATED WORK
+Children’s Conceptual Models of Robots
+
+Understanding how children conceptualize robots is crucial for
+developing child-robot interactions that align with their
+intuition and assumptions, to make platforms that are easy to
+learn and use. For example, Rubegni et al. delved into
+children's interpretations of scenes involving a social robot,
+shedding light on their fears and hopes regarding the future of
+robotics to inform the design of social robots for children [62].
+Similarly, Fortunati et al. investigated children's imaginings of
+robots, offering insights into the foundation of their cognitive
+models (largely shaped by popular media) and the
+characteristics they attribute to robots, such as
+anthropomorphism [28].
+
+While previous studies have explored various aspects of
+children's perspectives of robots [10, 28, 63] such as analyzing
+their drawings of robots [29, 50, 53, 56, 68], or their
+interpretations of images or stories about robots [14, 47, 62,
+76]; it is less common to explore children’s conceptual models
+of functioning systems [8-10, 24, 26, 74], especially during
+long-term use [36]. Instead, research about functioning robot
+systems more commonly focuses on how children use robots
+[34, 39, 61], instead of how they conceptualize their use.
+
+Nevertheless, studies about children’s perceptions of robots in
+use provide an invaluable perspective about how they make
+sense of these platforms in context. For instance, Fanny et al.
+found that children used metaphors to understand robots’
+abstract capabilities (e.g. comparing RAM to a post-man
+carrying packages), and increase their immersion in robotbased activities (e.g. calling the robots “little rascals”) [26].
+And Bartlett et al. found that when children interacted with a
+robot resembling a dog, they considered it “closer to living
+dogs” compared to the abstract and mechanical-looking robots
+also provided during the study [7].
+Children’s perceptions of robots are closely related to robots’
+shape [47, 67, 76]. For example, when Woods et al. asked
+children about their perceptions of robots with a diverse set of
+appearances, they found that participants agreed that robots
+with a human-like form had feelings and could understand
+them, while those that resembled machines could not [76]. We
+see an opportunity to examine children's conceptualizations of
+tabletop telepresence robots, because these platforms are
+visually distinct from both the common ways that children
+imagine robots [28] (being human-like in neither form nor
+function), and the robot platforms that have been at the center
+of past child-perception research [7-9, 26, 36].
+By analyzing the metaphors that our child design partners used
+to describe their interactions with and via our tabletop
+telepresence robot platform, we contribute new insights about
+children’s conceptual models of tabletop telepresence robots.
+Physical Telepresence for Children
+
+Physical telepresence refers to the integration of tangible
+interaction into remote communication [11, 44, 69]. Similar to
+real-time coworking software, physical telepresence supports
+
+Fig. 1. A child’s drawing of an anthropomorphic
+robot from research by Secim et al. which explored
+children’s robot illustrations.[68]
+
+shared task-spaces to improve remote collaboration by
+increasing social presence and shared context between
+teammates [59]. Contrasting to graphical user interface (GUI)based telepresence–physical telepresence incorporates the
+physical world–supporting applications like artifact design [42,
+69] and educational demonstration [44, 45].
+Past research has explored how to extend the benefits of
+physical telepresence systems (such as tangible interaction,
+social presence, and shared context) to children. For instance,
+the ShareTable project found that top-down projection and
+tabletop video feeds encouraged children and their physically
+distant parents to engage in joint interactions around familiar
+artifacts, such as books and toys [78]. Meanwhile, many
+projects have investigated how commercial telepresence robots
+might support remote teaching and learning in education [2,
+18, 55, 75]. For example, Newhart et al. explored how
+telepresence robots include homebound children in classroom
+activities [55], and Ahumada-Newhart et al. examined how
+these robots help remote children express their identity and
+form friendships at school [2].
+Because tabletop robot systems are versatile, low-cost, and can
+leverage consumer-available components, they have emerged
+
+===== PDF PAGE 3 =====
+
+pictorial, we focus on how children used metaphors to
+describe their interactions with and via these robots.
+Analyzing User Perception of Robots through Metaphor
+
+Fig. 2 A child arranges toio robots in a game she designed.
+Two other children are controlling these robots via our
+telepresence platform, competing to score a goal.
+
+as a particularly robust approach to physical telepresence [41,
+42, 45, 70]. However, while limited research has explored the
+adaptation of tabletop robots to telepresence applications for
+children [35, 73], this pictorial is the first work exploring
+children’s perceptions of these systems. In particular, we
+analyze children’s use of metaphors across video data
+collected during a participatory design effort with children to
+design tabletop telepresence robots for children [22].
+Cooperative Inquiry Online
+
+Cooperative Inquiry is a sub-discipline of participatory design.
+Where PD is a broad approach, encompassing inquiry that
+involves stakeholders in the design process [37, 63],
+Cooperative Inquiry focuses on techniques and practices that
+support intergenerational collaboration between children and
+adults [22, 80]. In particular, Cooperative Inquiry seeks to
+mediate power dynamics between adults and children and
+empower children to share design ideas [22]. Consequently,
+Cooperative Inquiry is a method for producing technology that
+integrates children’s preferences and needs [21, 22, 30].
+While the Cooperative Inquiry method originally focused on
+in-person collaborations, it has subsequently been adapted to
+online contexts [25, 35, 43]. During our study, we employed
+these adapted techniques for online participatory design with
+children, supported by the tabletop telepresence robots. Based
+on feedback shared by our child co-designers throughout the 2year Cooperative Inquiry process, we iteratively adapted our
+tabletop telepresence robot system to their preferences. In this
+
+Metaphors are foundational to developing intuitive technology
+[5, 38, 49, 54], because associative reasoning enables users to
+construct cognitive models about unfamiliar experiences
+through comparison with familiar concepts [16, 19].
+Correspondingly, analyzing metaphors employed by users to
+describe interactions with unfamiliar technology results in a
+deeper understanding of how these users make sense of their
+experiences [26, 40]. Previously, researchers exploring the PD
+of human-robot interactions have analyzed the metaphors used
+by participants during the design process, observing how they
+use these comparisons to interpret robots.
+For instance, Alves-Oliveira et al. evaluated metaphors used
+during a design workshop about the future of robots to learn
+how artists and academics conceptualize what a “robot” is [3].
+Meanwhile, Zhou et al. focused on metaphors used by
+interaction designers while producing affective haptic
+experiences, in order to understand how designers make sense
+of emotional robotic touch [81]. Inspired by these studies
+which examined the metaphors participants used to describe
+robots during PD, we conduct a similar analysis of the
+metaphors used by our child design partners during the PD of a
+tabletop telepresence robot platform.
+SYSTEM DESCRIPTION
+During this study, we utilized online Cooperative Inquiry
+techniques to develop a tabletop telepresence robot system
+according to children’s suggestions. Children were provided
+with materials and equipment to get started with the platform
+(next page), which used a web-hosted GUI to connect to and
+drive remote and local robots, supplemented by Zoom video.
+Throughout the 2-year study, features were iteratively added
+and improved based on children’s feedback. For instance, three
+pre-programmed movement buttons were added: dance,
+shuffle, and party, based on children’s ideas to add “robot
+emotes” to the platform. Additionally, we added support for
+USB game controllers in response to children’s requests.
+Shared crafting is essential to in-person Cooperative Inquiry
+[22], but limited by online settings. The tabletop telepresence
+
+robots were introduced to strengthen online Cooperative
+Inquiry processes, by enabling children to share ownership of
+the physical artifacts they created.
+METHODS
+In this pictorial, we present a qualitative case study [52, 79]
+analyzing video data from online participatory design sessions.
+During these sessions, children provided design ideas and
+feedback about our tabletop telepresence robot platform, while
+using it to collaborate with one another to complete design
+activities. In this section, we describe our participatory design
+process, data collection, and qualitative analysis.
+Online Cooperative Inquiry
+
+During this project, we engaged in 2-years of online PD with
+children at KidsTeam UW, an intergenerational co-design
+group of children aged 8 to 12, to produce a child-centered
+tabletop telepresence robot platform [35]. During PD sessions,
+we employed techniques for online Cooperative Inquiry [25,
+35, 43]. From March 2020 to February 2022, we conducted 17
+sessions with KidsTeam UW, using these co-making sessions
+as the basis for iterative changes to the tabletop telepresence
+robot platform. All online PD sessions and breakout groups
+were recorded using Zoom video.
+During these sessions, we asked KidsTeam UW to either use
+the platform to design or make design suggestions for the
+platform (Fig. 3). These prompts provided the opportunity for
+children to use the robots and reflect on their experiences with
+them over time, informing their design suggestions for the
+platform.
+Context and Participants
+
+The 17 child participants, that we collaborated with at
+KidsTeam UW are developmentally ready for design while
+remaining experts in children's perspectives [20]. KidsTeam
+UW considers ethnicity, socioeconomic status, gender, and age
+during recruitment to ensure that selected children represent
+diverse perspectives. During each online PD session throughout
+our study, child participants collaborated closely with
+researchers (graduate or undergraduate students and faculty)
+from computer science, industrial design, and child-computer
+interaction. In this pictorial, we analyze video data collected
+during the 17 online PD sessions using Zoom.
+
+===== PDF PAGE 4 =====
+
+System Setup
+Using our web-based GUI, children could select and
+control any robot connected to the platform
+(remote or local) with on-screen controls or a
+USB game controller. Zoom video was used during
+the synchronous online design sessions, enabling a
+view of remote children's robots and designs.
+Remote robot control commands were sent
+in near real time via websocket server.
+Children connected the robots to the
+platform using web bluetooth.
+
+Initially, children were introduced to a proof-ofconcept robot control GUI which enabled simple
+remote and local robot movement (forward, back,
+left, right) via the website. During design sessions,
+children used the platform to drive robots with
+collaborators, decorated robots, and moved
+robots around by hand.
+
+Children used a Microsoft Surface tablet
+with 3D printed stand and flip mirror to
+video call into online design sessions
+2 Sony toio
+robots were provided
+per household
+
+children used craft materials like
+paper and pipe cleaners to decorate
+robots and their environment
+
+===== PDF PAGE 5 =====
+
+Each 90-minute design session was subdivided into three parts:
+
+welcome (15 minutes)
+
+design (45 minutes)
+
+discuss (15 minutes)
+
+adults and children discussed a
+“question of the day” to prime
+them for the design activity.
+
+participants worked in small
+groups to create designs
+around a given prompt
+
+participants gathered back into
+the main room together to
+share their ideas and designs
+
+Make a game for the
+robots
+Then. play it together!
+
+Design With
+“Write a story,
+decorate the robots
+together and use
+them to act it out.”
+“Choreograph a dance
+with the robots”
+
+Design For
+“Design a way to
+attach a pen to the
+robots, so they can
+be used to draw”
+
+Small groups of 2-3 adults and 2-3
+children designed together in breakout
+rooms based on the prompt
+
+“Design better
+controls for the
+robots”
+
+We asked participants in each session to consider a specific
+prompt during design time. These prompts encouraged groups
+to either design with the robots or design for the robots.
+Fig. 3 The routinized structure we followed during each design session with KidsTeam UW
+
+Data Analysis
+
+To evaluate the metaphors used by children while interacting
+with the tabletop telepresence robots during our study, we
+analyzed video data recorded during online PD sessions. To
+process the over 100 hours of videos, first, seven coders
+(graduate students and faculty) generated analytic memos
+describing 10-minute segments of the design session
+recordings using an open inductive process [17, 60]. During
+this memoing effort, a codebook was developed and applied to
+the data through iterative discussions. Additionally, the
+research team (coders plus advising faculty) engaged in paired
+coding reviews, then met weekly to resolve any coding
+disagreements [4, 51].
+
+From these memos, two student coders performed a deductive
+selection, using the following criteria to identify a sample of
+metaphors used by children throughout the recordings: (1)
+children use comparisons/references to describe or refer to the
+tabletop telepresence robot platform, (2) children use/discuss
+familiar cultural objects/concepts (i.e. jump rope, video games)
+during design sessions. Within this deductive selection of
+analytic memos, we conducted thematic coding based on an
+open analytical approach using grounded methods [17]. From
+these codes, the research team used reflexive thematic analysis
+to interpret and condense the patterns observed in children’s
+use of metaphors while interacting with or via the robots into
+three thematic categories and seven sub-themes [12, 13].
+
+FINDINGS
+In this section, we present the three thematic categories (robot
+capabilities, robot roles, robot agency) of metaphor that
+children used to describe their interactions with and via the
+tabletop telepresence robots during our PD inquiry. Each of the
+following three pages correlate with each theme, and pages are
+subdivided into the corresponding sub-themes that emerged
+during our analysis.
+Co-Occurrence of Themes
+
+Although we categorize each type of metaphor separately,
+children often blended metaphors across multiple categories
+and sub-themes when describing their interactions with the
+robots. For instance, when a group of children played “monster
+robot soccer together,” they considered a combination of the
+competition and character roles, with representative agency. In
+addition, they discussed how the robots would enact the
+monsters’ magical powers, delving into their capabilities.
+At times, children applied only one category of metaphor to the
+robots. For example, one child decorated his robots to “joust”
+but could not drive due to a low battery–in this case, he
+considered the robot role only. Likewise, in some PD sessions,
+children discussed the robots without actively crafting for or
+moving them. In these scenarios, children tended to rapidly
+generate ideas using a single metaphor category. During one
+such brainstorm, children suggested “a button to make your
+robot stronger”, a robot parachute, and a robot that can shop for
+groceries. Here, the focus was solely on the robots' capabilities,
+not their roles or agency.
+In both of these examples, the use of a single metaphor
+coincided with interactions where children only used the robots
+as passive props. In contrast, we find that children's use of
+mixed metaphors accompanied scenarios where they engaged
+substantively with the platform. For instance, while playing
+“monster robot soccer together,” the children decorated the
+robots as monsters, built a soccer field for them, and drove
+them to enact the scenario as a group.
+
+We note that across these scenarios, the robot platform
+remained the same, but children’s level of engagement with it
+varied significantly.
+And, in instances of heightened
+engagement, children were more likely to mix metaphors
+across thematic categories and sub-themes.
+
+===== PDF PAGE 6 =====
+
+Theme 1: What capabilities do the robots have?
+While children designed and played, they used metaphors to
+describe the robots’ capabilities. These metaphors fell into two
+sub-themes: helpless and needing care or magic and futuristic.
+
+When the robots encountered difficulties,
+children felt responsible to help them, like
+catching them when they fell from a high
+height or tipping them back onto their
+wheels when they toppled over
+
+Children used verbs like “save”, “help”, “rescue”,
+and “give” to describe their caring actions
+toward their “helpless” robots.
+Contrasting with the robots’ simple appearance and small size, children
+described them as having magic and futuristic capabilities. Even when the
+robots faced limitations, children still interpreted them as having fantastical
+abilities (e.g. when one robot was stopped by an “indestructible post-it note”).
+
+Children suggested that the robots
+might shape-shift and hover in
+order to help around their houses
+by doing chores, painting the walls,
+and checking their homework. In
+these cases, the children described
+the robots’ fantastical abilities.
+
+===== PDF PAGE 7 =====
+
+Theme 2: What roles do the robots play?
+During design sessions, the children imagined and crafted scenarios
+for the robots. They used metaphors to describe three types of
+roles (sub-themes) for the robots during these activities:
+competitors, characters, and creative partners.
+
+Children adapted familiar games for the
+robots such as sports and video games..
+During these scenarios, the robots most
+often took on the role of competitors.
+In one common scene, the
+robots “wrestled”, battling
+to push their opponents
+off of the table first
+
+When children were asked to write and act out
+stories, they chose to use the robots to play
+the role of characters in their scenarios.
+One group of children used their robots to
+tell their story about a lawbreaking
+Roomba. Another decorated the robots to
+play Mario and Luigi in their production.
+
+Children used robots as part of their
+creative processes. For example,
+attaching a pen to them for drawing.
+In these moments, children referred
+to robots as creative partners.
+Sometimes, children danced with the
+robots. In these instances, the robots
+darted about in unpredictable ways,
+inspiring the children to giggle and wiggle
+their bodies (and robots) too.
+
+===== PDF PAGE 8 =====
+
+Theme 3: Who has the agency to make decisions for the robot?
+Although children understood that all robot movements required a
+robot pilot, their interpretations of who made decisions for the
+robot were more complex than “object moved by faraway child”.
+Instead, they considered the robots as one of two sub-themes:
+representations of collaborators or autonomous agents.
+At times, children described the robots as
+extensions of the child piloting them
+(e.g. Sarah’s robot). Or, the robot might even
+be considered a tiny stand-in for the remote
+collaborator controlling it (e.g. “that’s Alex”).
+
+In contrast, children sometimes considered
+the robots to have a “mind of [their] own”,
+acting as independent and autonomous
+entities with their own plans and ideas.
+
+Mara drives the robot alongside Aiden.
+The two children write their names
+together. In this instance, Aiden imagines
+the robot as a representation of Mara,
+embodying her goals and motivations.
+
+Olivia draws pictures with a robot.
+Although the robot is being moved
+remotely by a group of her colleagues,
+she refers to the robot’s actions not as a
+combination of their ideas but as if it
+were its own, autonomous entity.
+
+This description of robots as
+autonomous agents was especially
+common when many children controlled
+the robot at once, causing their individual
+commands to blend together into the
+“robot’s” decisions.
+
+===== PDF PAGE 9 =====
+
+DISCUSSION
+In our findings, we identified three categories and seven subthemes of metaphor used by children when describing tabletop
+telepresence robots. In addition, we highlighted that–during
+instances of deeper engagement, children were more likely to
+mix metaphors across categories and sub-themes
+
+telepresence robot designs for children can support more
+engaging experiences by employing scenarios about robots’
+potential or fictional magic and futuristic capabilities, as well
+as robots' actual and imaginary fragility to encourage children
+to care for and protect them.
+
+In this section, we consider each category of robot metaphor in
+the context of existing literature. Then, we present a theoretical
+framework–the metaphor sandwich–that addresses how
+children's use of mixed metaphors corresponded to richer
+engagement with our tabletop telepresence platform. Finally,
+we sum up why and how “making a metaphor sandwich”
+might strengthen children’s interactions with tabletop
+telepresence robot systems
+
+Cultural forms are recurring patterns of interaction which are
+familiar enough to act as cognitive shortcuts [15, 65]. For
+instance, shaping elements of a tangible interaction system like
+jigsaw pieces to imply they should be slotted together [32].
+Horn et al. concluded that cultural forms provide context for
+children using tangible interaction systems, which can
+otherwise be unfamiliar and unintuitive [32, 46]. By
+referencing familiar interactions, tangible interaction systems
+structured around cultural forms hint at how artifacts should be
+moved and manipulated [33].
+
+Robot Capabilities: Futuristic or flawed? Actual and
+imagined limitations of robots
+
+Research finds that children hold complex perspectives around
+robot capabilities: simultaneously acknowledging and
+embracing their fallibility [63], while also attributing
+seemingly limitless potential to them (such as being extremely
+strong [62] or emotionally intelligent and empathetic [28]).
+However, little is known about how children's existing
+cognitive models about robots’ capabilities translate to small,
+abstract, tabletop robots. Malinverni et al. emphasized the need
+to explore children’s perceptions of different forms of robots
+[50]. And Bartlett et al. found that children considered robots’
+similarity in appearance and movements to familiar objects
+and animals when forming their understanding of robot
+capabilities (such as assigning human-like empathy to
+humanoid robots) [7].
+Despite the small, abstract, and fragile form of the toio robots
+used in our study, we found that children still attributed
+fantastical capabilities to them such as super strength and
+exceptional knowledge. Also, this remained the case even
+when children were confronted by the actual limitations of the
+technology. At the same time, we find that children considered
+the robots’ weakness or flaws as an opportunity to provide
+them care and protection.
+From this finding about children’s cognitive models of
+tabletop telepresence robots, we infer that future tabletop
+
+Robot Roles: Cultural forms for child-robot interaction
+
+Similarly, we found that children relied on references to
+cultural forms during use of the tabletop telepresence robots–
+reshaping and adapting familiar roles for the robots to play.
+We highlight that children’s metaphors about robot roles were
+based on three cultural forms: competitive play, play acting,
+and creative collaboration. This finding suggests that, like
+designers of tangible interfaces for children, robot designers
+can also leverage familiar cultural concepts to make
+interactions with robots feel familiar and intuitive to child
+users [4]. In particular, we find that designers should leverage
+familiar roles like competitive play, play acting, and creative
+collaboration to scaffold otherwise unfamiliar telepresence
+robot experiences for children.
+Robot Agency: How tabletop telepresence robots
+impact children’s perceptions of remote collaborators
+
+Despite our tabletop telepresence robots' actual functionality,
+which required control actions by remote drivers, we found
+that children at times considered the robots to be autonomous
+agents. This is consistent with past research by Straten et al.,
+which concluded that informing children that robots were
+remotely controlled by study facilitators resulted in them being
+less likely to report that the robot was autonomous. However,
+that this act of disclosure did not completely eliminate
+children’s tendency to assume robots were acting on their
+own [74].
+
+Meanwhile, in their study of telepresence robots in college
+classrooms, Schouten et al. employed the term ‘robomorphism’
+to describe a phenomenon where remote participation via robot
+resulted in students attributing robot-like characteristics to
+remote classmates [66]. Similarly, we interpret children’s
+metaphors about the autonomous actions of tabletop
+telepresence robots to be the result of robomorphism. In other
+words, we found that at times the robots in our study caused
+such severe robomorphism that children attributed their remote
+colleagues' actions to the robot itself. We highlight this finding
+because–although children reportedly understand that robots
+are subject to outside control [62]–in practice, they sometimes
+conceptualize remotely operated robots as fully autonomous
+anyway [74].
+As a result, children do not always associate remote colleagues
+with the robots they operate. Therefore, remote robot operation
+does not guarantee improved social presence for children.
+Instead, we conclude that there is an opportunity to further
+explore interventions which might mitigate robomorphism
+related disruptions to social presence in child-centered
+telepresence robot systems. For instance, designers might
+create “avatars” of remote operators, like Ma et. al, who found
+that customizing tabletop telepresence robot appearance
+strengthens social presence of remote co-workers’ in hybrid
+meetings [48].
+Theoretical Framework: Making a Metaphor Sandwich
+
+In this study, we found that children were more likely to
+employ mixed metaphors to describe robots during periods of
+high engagement with our telepresence platform. Considering
+how our metaphor themes cut across theories from child-robot
+interaction [7, 50, 62, 63], tangible interaction [32, 33], and
+telepresence robot literature [66, 74]–we conclude that mixed
+metaphors might make these unfamiliar systems more legible
+and engaging to children by touching on a combination of their
+relevant pre-conceptions about tabletop telepresence robots.
+To highlight how mixing metaphors can produce richer
+experiences for child-users of these systems, we present a
+theoretical framework of “making a metaphor sandwich.” The
+metaphor sandwich model captures the cross-domain
+complexity at play in tabletop telepresence robot interactions
+for children that emerged during our study as a “recipe”,
+seeking to scaffold designers of these systems.
+
+===== PDF PAGE 10 =====
+
+We found that when children were most engaged,
+they tended to use mixed metaphors to describe
+their robots.. To capture this characteristic of
+children’s use of mixed metaphors, we propose
+the metaphor sandwich model.
+
+While imagining his robot playing robot soccer, Kieran is
+making a metaphor sandwich. He considers how his
+robot represents him, as it acts like a vampire while
+using its collapsible legs to dribble a soccer ball.
+
+Similar to a sandwich, which is more delicious
+because of its many components, children’s
+experiences were strengthened while using mixed
+metaphors compared to when they used each
+“ingredient” (metaphor theme) alone. Metaphor
+sandwiches are powerful, because they address
+overlapping theories from child-robot interaction,
+tangible interaction, and telepresence robotics
+which contribute to children’s cognitive models
+about tabletop telepresence robots.
+
+(agency)
+representing
+child
+
+(role)
+competitive,
+acting
+
+(capabilities)
+futuristic
+
+===== PDF PAGE 11 =====
+
+By incorporating multiple categories of metaphor (robot
+capabilities, roles, and agency) into their framing of tabletop
+telepresence robot interactions, designers can account for the
+many theories that influence children’s experiences of these
+platforms at once.
+Each ingredient of a sandwich can be taken alone–bread,
+vegetables, or meat–but they are more delicious and satisfying
+when combined together. Similarly, we found that children
+combined several metaphors across categories and sub-themes
+to enrich their shared experiences with the robots, such as
+“playing monster soccer together.” In this scenario, children
+combined metaphors about robot roles (competitive play, play
+acting), agency (representative), and capabilities (magic).
+Whereas, when children used one “ingredient” alone, such as
+brainstorming robot capabilities that might help around the
+house, they were less likely to use the robots to their full
+capacity, instead often playing with them as merely props.
+This model also highlights how, just as bread is foundational
+to a sandwich, robot capabilities are foundational to mixed
+metaphors about tabletop telepresence robot platforms. First,
+because children’s imaginings about robot capabilities are
+governed by the robots’ appearance–forming a first impression
+of these systems, and shaping subsequent interactions with
+them [7, 50]. But also, because imagining how robots might
+compete, act, or create (roles) and represent colleagues or
+move autonomously (agency), requires an understanding of the
+attributes they use to accomplish these goals (capabilities).
+The metaphor sandwich model emphasizes how complex and
+imaginative combinations of metaphors can deepen child-robot
+interaction in telepresent scenarios. This conclusion may be
+counter-intuitive, as designers might assume that simplifying
+interactive experiences for children, especially in novel
+contexts such as tabletop telepresence robotics, would produce
+more intuitive and engaging experiences. However, we find
+that the complexity afforded by mixing metaphors actually
+enriches children’s experiences with these platforms.
+
+This idea of combining metaphors for child-robot interaction is
+unique. Although past works have explored how children
+conceptualize robots through metaphor, in order to facilitate
+the design of experiences with robots that children can relate to
+[26], the metaphor sandwich model considers how mixing
+
+metaphors can strengthen children’s experiences with tabletop
+telepresence robots.
+This conclusion echoes how tabletop telepresence robots for
+children cut across existing knowledge bases in the literature,
+encouraging designers to simultaneously acknowledge: (1) the
+robots’ strengths and weaknesses, like other child-robot
+systems [4, 62, 64]; (2) the use of cultural forms to guide
+interaction, as tangible interaction systems for children [32,
+33]; and (3) the impact of remote control on children's’
+perceptions of one another, as explored in telepresence
+robotics research [66]. By making metaphor sandwiches,
+designers can produce experiences that children can connect to
+and immerse themselves in. For example, asking children to
+drive the robots (agency) like zoo animals (role) that are acting
+out a play (role), using their magical ability to speak
+(capability) provides a richer experience than merely asking
+children how the robots could act like zoo animals (role).
+However, just as a sandwich can be disgusting if the flavors
+inside clash, even if it is made of delicious ingredients, we
+highlight the inherent risk involved with the added complexity
+of mixing metaphors. Although defining effective metaphor
+combinations is outside the scope of this pictorial, we
+underscore the need for careful “culinary” or creative practice
+from designers using the metaphor sandwich model. Rather
+than formulaically picking metaphor “ingredients” and
+assuming they will function well together, designers of childcentered tabletop telepresence robot interactions must consider
+whether their mixed metaphors are compatible. Like a chef
+tastes their own recipes before serving them to others, we
+encourage designers to reflect on whether their metaphor
+sandwich is inspiring or overwhelming before introducing it to
+children, and to incorporate children’s feedback to refine their
+“recipes”.
+LIMITATIONS AND FUTURE WORK
+This pictorial provides insights about how children
+conceptualized tabletop telepresence robots during 2-years of
+online PD with KidsTeam UW to produce a tabletop
+telepresence robot system for children. We see potential for the
+metaphor sandwich model to be relevant for broader childrobot interaction and child-centered telepresence communities.
+However, our research is limited by its specificity. In
+particular, our conclusions are bounded by the context
+
+(online Cooperative Inquiry) and technical approach (tabletop
+telepresence robots) of this study. As a result, more research is
+needed to understand whether the metaphor sandwich model
+we propose might apply to children’s interactions with
+technologies other than tabletop telepresence robots.
+That said, we hope that the specific insights from this work will
+inspire the development of future child-centered tabletop
+telepresence platforms. We believe these technologies
+represent a promising avenue for child-centered telepresence,
+as they are relatively easy and low-cost to build and deploy.
+Because advancements to child-centered telepresence can
+improve the accessibility of education [18, 75], as well as
+children’s socio-emotional well-being [57, 78], we hope to
+contribute to the continuous improvement of this domain.
+Specifically, we highlight the need for further research to
+define best practices when applying the metaphor sandwich
+model. Our study does not address how to make a delicious
+metaphor sandwich, merely that child-centered tabletop
+telepresence activities can be strengthened by the use of mixed
+metaphors.
+CONCLUSION
+In this pictorial, we analyzed a longitudinal participatory
+design effort to produce a tabletop telepresence robot platform
+for children–taking a close look at the metaphors children used
+when discussing and interacting with the robot platform.
+Through this analysis, we gained clues into how children make
+sense of tabletop telepresence robots. Specifically, we found
+that children made connections to describe what the robots
+were capable of doing (their magical characteristics and
+knowledge, or their weakness), what roles the robots played
+(competition, storytelling, and creative practice), and the
+robots’ agency (controlled by a colleague or autonomous).
+Finally, we introduced the metaphor sandwich model–
+highlighting that designers of tabletop telepresence robot
+systems for children should consider mixing metaphors to
+address a combination of robot capability, role, and agency to
+produce experiences that are familiar and intuitive for child
+users. We underscore that care should be taken to ensure that
+“ingredients” of the sandwich (mixed metaphors) are
+complementary by engaging children to iterate on “recipes”, as
+clashing “ingredients” (component metaphors) may diminish
+the benefit of this approach.
+
+===== PDF PAGE 12 =====
+
+SELECTION AND PARTICIPATION OF CHILDREN
+Children at KidsTeam UW are recruited through word-ofmouth, mailing list, and posters. Parents/guardians provided
+consent and were briefed on study goals, safety, privacy risks,
+and confidentiality during the consent process. Parents were
+also informed that children could withdraw anytime. Our
+undergraduate, graduate, and faculty researchers were all
+trained in child ethics and safety. When these adults facilitated
+co-design sessions, they made sure children did not feel any
+pressure to participate with the study activities. The study was
+approved by our university’s Institutional Review Board, and
+all child data was anonymized and securely stored on the
+University of Washington server.
+ACKNOWLEDGEMENTS
+This research was supported by the Jacobs Foundation
+Research Fellowship Program and Sony, who provided the
+toio robots that powered this project. We are also grateful to
+the children and student volunteers at KidsTeam UW for their
+invaluable contributions to this research.
+REFERENCES
+[1] Veronica Ahumada-Newhart and Jacquelynne S. Eccles.
+2020. A theoretical and qualitative approach to evaluating
+children’s robot-mediated levels of presence. Technology,
+Mind, and Behavior 1, 1 (June 2020).
+https://doi.org/10.1037/tmb0000007
+[2] Verónica Ahumada-Newhart, Margaret Schneider, and
+Laurel D. Riek. 2023. The Power of Robot-mediated Play:
+Forming Friendships and Expressing Identity. J. Hum.-Robot
+Interact. 12, 4 (September 2023), 1–21.
+https://doi.org/10.1145/3611656
+[3] Patrícia Alves-Oliveira, Maria Luce Lupetti, Michal Luria,
+Diana Löffler, Mafalda Gamboa, Lea Albaugh, Waki Kamino,
+Anastasia K. Ostrowski, David Puljiz, Pedro ReynoldsCuéllar, Marcus Scheunemann, Michael Suguitan, and Dan
+Lockton. 2021. Collection of Metaphors for Human-Robot
+Interaction. In Designing Interactive Systems Conference
+2021, June 28, 2021, Virtual Event USA. ACM, Virtual Event
+USA, 1366–1379. . https://doi.org/10.1145/3461778.3462060
+[4] James Henry Auger. 2014. Living With Robots: A
+Speculative Design Approach. Journal of Human-Robot
+Interaction 3, 1 (February 2014), 20–42.
+https://doi.org/10.5898/JHRI.3.1.Auger
+
+[5] Saskia Bakker, Alissa N. Antle, and Elise Van Den Hoven.
+2012. Embodied metaphors in tangible interaction design. Pers
+Ubiquit Comput 16, 4 (April 2012), 433–449.
+https://doi.org/10.1007/s00779-011-0410-4
+
+[6] Anne Bamford. 2009. The wow factor: global research
+compendium on the impact of the arts in education (2. ed.).
+Waxmann, Münster München Berlin.
+[7] Lynn A. Barnett. 1990. Developmental Benefits of Play for
+Children. Journal of Leisure Research 22, 2 (April 1990), 138–
+153. https://doi.org/10.1080/00222216.1990.11969821
+[8] B. Bartlett, V. Estivill-Castro, and S. Seymon. 2004. Dogs
+or robots: why do children see them as robotic pets rather than
+canine machines? In Proceedings of the Fifth Conference on
+Australasian User Interface - Volume 28 (AUIC ’04), 2004,
+AUS. Australian Computer Society, Inc., AUS, 7–14.
+[9] Tanya N. Beran and Alejandro Ramirez-Serrano. 2010. Do
+children perceive robots as alive?: children’s attributions of
+human characteristics. In Proceeding of the 5th ACM/IEEE
+international conference on Human-robot interaction - HRI
+’10, March 2010, Osaka, Japan. ACM Press, Osaka, Japan,
+137. https://doi.org/10.1145/1734454.1734511
+[10] Maria Blancas, Vasiliki Vouloutsi, Samuel Fernando,
+Marti Sanchez-Fibla, Riccardo Zucca, Tony J. Prescott, Anna
+Mura, and Paul F. M. J. Verschure. 2017. Analyzing children’s
+expectations from robotic companions in educational settings.
+In 2017 IEEE-RAS 17th International Conference on
+Humanoid Robotics (Humanoids), November 2017,
+Birmingham. IEEE, Birmingham, 749–755.
+https://doi.org/10.1109/HUMANOIDS.2017.8246956
+[11] Scott Brave, Hiroshi Ishii, and Andrew Dahley. 1998.
+Tangible interfaces for remote collaboration and
+communication. In Proceedings of the 1998 ACM Conference
+on Computer Supported Cooperative Work, November 1998,
+Seattle Washington USA. ACM, Seattle Washington USA,
+169–178. https://doi.org/10.1145/289444.289491
+[12] Virginia Braun and Victoria Clarke. 2006. Using thematic
+analysis in psychology. Qualitative Research in Psychology,
+3(2), 77–101. https://doiorg.colorado.idm.oclc.org/10.1191/1478088706qp063oa
+[13] Virginia Braun and Victoria Clarke. (2019). Reflecting on
+reflexive thematic analysis. Qualitative Research in Sport,
+
+Exercise and Health, 11(4), 589–597. https://doiorg.colorado.idm.oclc.org/10.1080/2159676X.2019.1628806
+[14] Emily R. R. Burdett, Shogo Ikari, and Yo Nakawake.
+2022. British Children’s and Adults’ Perceptions of Robots.
+Human Behavior and Emerging Technologies 2022, (January
+2022), 1–16. https://doi.org/10.1155/2022/3813820
+[15] Fabio Campos, Ha Nguyen, June Ahn, and Kara Jackson.
+2023. Leveraging cultural forms in human‐centred learning
+analytics design. Brit J Educational Tech (September 2023),
+10.1111/bjet.13384. https://doi.org/10.1111/bjet.13384
+[16] Hernan Casakin. 2004. Metaphors in the design studio:
+Implications for education. The Changing Face of Design
+Education: 2Nd International Engineering and Product
+Design Education Conference Delft (January 2004), 265–273.
+
+[17] Kathy Charmaz. 2016. Shifting the Grounds. In
+Developing Grounded Theory (1st ed.). Routledge, 127–193.
+[18] Jennifer Charteris, Jeanette Berman, and Angela Page.
+2022. Virtual inclusion through telepresence robots: an
+inclusivity model and heuristic. International Journal of
+Inclusive Education (September 2022), 1–15.
+https://doi.org/10.1080/13603116.2022.2112769
+[19] Han Hee Choi and Mi Jeong Kim. 2016. The effects of
+analogical and metaphorical reasoning on design thinking.
+Thinking Skills and Creativity 23, (November 2016), 29–41.
+https://doi.org/10.1016/j.tsc.2016.11.004
+[20] María C. Cortés-Albornoz, Sofía Ramírez-Guerrero,
+Danna P. García-Guáqueta, Alberto Vélez-Van-Meerbeke, and
+Claudia Talero-Gutiérrez. 2023. Effects of remote learning
+during COVID-19 lockdown on children’s learning abilities
+and school performance: A systematic review. International
+Journal of Educational Development 101, (September 2023),
+102835. https://doi.org/10.1016/j.ijedudev.2023.102835
+[21] Betsy DiSalvo, Jason Yip, Elizabeth Bonsignore, and Carl
+DiSalvo (Eds.). 2017. Participatory Design for Learning.
+Routledge, Taylor & Francis Group, New York, 3–6.
+
+[22] Allison Druin. 1999. Cooperative inquiry: developing new
+technologies for children with children. In Proceedings of the
+SIGCHI conference on Human factors in computing systems
+the CHI is the limit - CHI ’99, May 01, 1999, Pittsburgh,
+Pennsylvania, United States. ACM Press, 592–599.
+https://doi.org/10.1145/302979.303166
+
+===== PDF PAGE 13 =====
+
+[23] Houda Elmimouni, Cooper Young, Selma Sabanovic, and
+Jennifer Rode. 2023. Does Robotic Telepresence Make the
+Classroom Accessible? In Designing Interactive Systems
+Conference, July 10, 2023, Pittsburgh PA USA. ACM,
+Pittsburgh PA USA, 194–197.
+https://doi.org/10.1145/3563703.3596631
+[24] Marina Escobar-Planas, Vicky Charisi, and Emilia
+Gomez. 2022. “That Robot Played with Us!” Children’s 2022.
+Virtual inclusion through telepresence robots: an inclusivity
+model and heuristic. International Journal of Inclusive
+Education (September 2022), 1–15.
+https://doi.org/10.1080/13603116.2022.2112769
+[25] Jerry Alan Fails, Dhanush Kumar Ratakonda, Nitzan
+Koren, Salma Elsayed-Ali, Elizabeth Bonsignore, and Jason
+Yip. 2022. Pushing boundaries of co-design by going online:
+Lessons learned and reflections from three perspectives.
+International Journal of Child-Computer Interaction 33,
+(September 2022), 100476.
+https://doi.org/10.1016/j.ijcci.2022.100476
+[26] Boraita Fanny, Henry Julie, and Collard Anne-Sophie.
+2020. Developing a Critical Robot Literacy for Young People
+from Conceptual Metaphors Analysis. In 2020 IEEE Frontiers
+in Education Conference (FIE), October 21, 2020, Uppsala,
+Sweden. IEEE, Uppsala, Sweden, 1–7.
+https://doi.org/10.1109/FIE44824.2020.9273959
+[27] Naomi T. Fitter, Nisha Raghunath, Elizabeth Cha,
+Christopher A. Sanchez, Leila Takayama, and Maja J. Mataric.
+2020. Are We There Yet? Comparing Remote Learning
+Technologies in the University Classroom. IEEE Robot.
+Autom. Lett. 5, 2 (April 2020), 2706–2713.
+https://doi.org/10.1109/LRA.2020.2970939
+
+[30] Mona Leigh Guha, Allison Druin, and Jerry Alan Fails.
+Perceptions of a Robot after a Child-Robot Group Interaction.
+Proc. ACM Hum.-Comput. Interact. 6, CSCW2 (November
+2022), 1–23. https://doi.org/10.1145/3555118
+
+[37] Finn Kensing and Jeanette Blomberg. 1998. Participatory
+Design: Issues and Concerns. Computer Supported
+Cooperative Work (CSCW) 7, 3–4 (September 1998), 167–185.
+https://doi.org/10.1023/A:1008689307411
+
+[31] Pauline A. Hendriksen, Johan Garssen, Elisabeth Y.
+Bijlsma, Ferdi Engels, Gillian Bruce, and Joris C. Verster.
+2021. COVID-19 Lockdown-Related Changes in Mood,
+Health and Academic Functioning. EJIHPE 11, 4 (November
+2021), 1440–1461. https://doi.org/10.3390/ejihpe11040103
+
+[38] Jingoog Kim and Mary Lou Maher. 2020. Conceptual
+Metaphors for Designing Smart Environments: Device, Robot,
+and Friend. Front. Psychol. 11, (March 2020), 198.
+https://doi.org/10.3389/fpsyg.2020.00198
+
+[32] Michael S. Horn. 2013. The role of cultural forms in
+tangible interaction design. In Proceedings of the 7th
+International Conference on Tangible, Embedded and
+Embodied Interaction, February 10, 2013, Barcelona Spain.
+ACM, Barcelona Spain, 117–124.
+https://doi.org/10.1145/2460625.2460643
+[33] Michael S. Horn. 2013. Interaction design, books, and
+cultural forms. In Proceedings of the 12th International
+Conference on Interaction Design and Children, June 24, 2013,
+New York New York USA. ACM, 628–631.
+https://doi.org/10.1145/2485760.2485892
+[34] Layne Jackson Hubbard, Yifan Chen, Eliana Colunga,
+Pilyoung Kim, and Tom Yeh. 2021. Child-Robot Interaction to
+Integrate Reflective Storytelling Into Creative Play. In
+Creativity and Cognition, June 22, 2021, Virtual Event Italy.
+ACM, Virtual Event Italy, 1–8. .
+https://doi.org/10.1145/3450741.3465254
+
+[28] Leopoldina Fortunati, Anna Esposito, Mauro Sarrica, and
+Giovanni Ferrin. 2015. Children’s Knowledge and Imaginary
+About Robots. Int J of Soc Robotics 7, 5 (November 2015),
+685–695. https://doi.org/10.1007/s12369-015-0316-9
+
+[35] Casey Lee Hunt, Kaiwen Sun, Zahra Dhuliawala, Fumi
+Tsukiyama, Iva Matkovic, Zachary Schwemler, Anastasia
+Wolf, Zihao Zhang, Allison Druin, Amanda Huynh, Daniel
+Leithinger, and Jason Yip. 2023. Designing Together, Miles
+Apart: A Longitudinal Tabletop Telepresence Adventure in
+Online Co-Design with Children. In Proceedings of the 22nd
+Annual ACM Interaction Design and Children Conference,
+June 19, 2023, Chicago IL USA. ACM, Chicago IL USA, 52–
+67.
+
+[29] Christian Giang, Loredana Addimando, Luca Botturi,
+Lucio Negrini, Alessandro Giusti, and Alberto Piatti. 2023.
+Have You Ever Seen a Robot? An Analysis of Children’s
+Drawings Between Technology and Science Fiction. Journal
+for STEM Educ Res 6, 2 (August 2023), 232–251.
+https://doi.org/10.1007/s41979-023-00098-6
+
+[36] Eun-ja Hyun, Hawon Lee, and Hyemin Yeon. 2012.
+Young children’s perception of IrobiQ, the teacher assistive
+robot, with reference to speech register. 2012 8th International
+Conference on Computing Technology and Information
+Management (NCM and ICNIT) 1, (2012), 366–369.
+
+[39] Yanghee Kim and Michael Tscholl. 2021. Young
+children’s embodied interactions with a social robot. Education
+Tech Research Dev 69, 4 (August 2021), 2059–2081.
+https://doi.org/10.1007/s11423-021-09978-3
+[40] George Lakoff and Mark Johnson. 2008. Metaphors we
+live by: with a new afterword. University of Chicago Press,
+Chicago London.
+[41] Mathieu Le Goc, Lawrence H. Kim, Ali Parsaei, JeanDaniel Fekete, Pierre Dragicevic, and Sean Follmer. 2016.
+Zooids: Building Blocks for Swarm User Interfaces. In
+Proceedings of the 29th Annual Symposium on User Interface
+Software and Technology, October 16, 2016, Tokyo Japan.
+ACM, Tokyo Japan, 97–109.
+https://doi.org/10.1145/2984511.2984547
+[42] Mathieu Le Goc, Allen Zhao, Ye Wang, Griffin Dietz,
+Rob Semmens, and Sean Follmer. 2019. Investigating Active
+Tangibles and Augmented Reality for Creativity Support in
+Remote Collaboration. In Design Thinking Research, Christoph
+Meinel and Larry Leifer (eds.). Springer International
+Publishing, Cham, 185–200. https://doi.org/10.1007/978-3030-28960-7_12
+[43] Kung Jin Lee, Wendy Roldan, Tian Qi Zhu, Harkiran
+Kaur Saluja, Sungmin Na, Britnie Chin, Yilin Zeng, Jin Ha
+Lee, and Jason Yip. 2021. The Show Must Go On: A
+Conceptual Model of Conducting Synchronous Participatory
+Design With Children Online. In Proceedings of the 2021 CHI
+Conference on Human Factors in Computing Systems, May 07,
+2021, Yokohama Japan. ACM, Yokohama Japan, 1–16.
+https://doi.org/10.1145/3411764.3445715
+[44] Daniel Leithinger, Sean Follmer, Alex Olwal, and Hiroshi
+Ishii. 2014. Physical telepresence: shape capture and display
+for embodied, computer-mediated remote collaboration. In
+
+===== PDF PAGE 14 =====
+
+Proceedings of the 27th annual ACM symposium on User
+Interface Software and Technology, October 05, 2014,
+Honolulu Hawaii USA. ACM, Honolulu Hawaii USA, 461–
+470. https://doi.org/10.1145/2642918.2647377
+
+[45] Jiannan Li, Maurício Sousa, Chu Li, Jessie Liu, Yan
+Chen, Ravin Balakrishnan, and Tovi Grossman. 2022.
+ASTEROIDS: Exploring Swarms of Mini-Telepresence
+Robots for Physical Skill Demonstration. In CHI Conference
+on Human Factors in Computing Systems, April 28, 2022,
+New Orleans LA USA. ACM, New Orleans LA USA, 1–14.
+https://doi.org/10.1145/3491102.3501927
+[46] Meng Liang, Yanhong Li, Thomas Weber, and Heinrich
+Hussmann. 2021. Tangible Interaction for Children’s Creative
+Learning: A Review. In Creativity and Cognition, June 22,
+2021, Virtual Event Italy. ACM, Virtual Event Italy, 1–14.
+https://doi.org/10.1145/3450741.3465262
+[47] E Liberman-Pincu and T. Oron-Gilad. 2021. Impacting
+the Perception of Socially Assistive Robots- Evaluating the
+effect of Visual Qualities among Children. In 2021 30th IEEE
+International Conference on Robot & Human Interactive
+Communication (RO-MAN), August 08, 2021, Vancouver, BC,
+Canada. IEEE, Vancouver, BC, Canada, 612–618.
+https://doi.org/10.1109/RO-MAN50785.2021.9515458
+[48] Siran Ma, Qingyu Hu, Yanran Chen, Zhilong Zhao, and
+Houze Li. 2023. Social Bots that Bring a Strong Presence to
+Remote Participants in Hybrid Meetings. In Companion of the
+2023 ACM/IEEE International Conference on Human-Robot
+Interaction (HRI '23). Association for Computing Machinery,
+New York, NY, USA, 853–856. https://doiorg.colorado.idm.oclc.org/10.1145/3568294.3580200
+[49] Kim Halskov Madsen. 2000. Magic by metaphors. In
+Proceedings of DARE 2000 on Designing Augmented Reality
+Environments, April 2000, Elsinore Denmark. ACM, Elsinore
+Denmark, 167–169. https://doi.org/10.1145/354666.354696
+[50] Laura Malinverni and Cristina Valero. 2020. What is a
+robot?: an artistic approach to understand children’s
+imaginaries about robots. In Proceedings of the Interaction
+Design and Children Conference, June 21, 2020, London
+United Kingdom. ACM, London United Kingdom, 250–261.
+https://doi.org/10.1145/3392063.3394415
+
+[51] Nora McDonald, Sarita Schoenebeck, and Andrea Forte.
+2019. Reliability and Inter-rater Reliability in Qualitative
+Research: Norms and Guidelines for CSCW and HCI Practice.
+Proc. ACM Hum.-Comput. Interact. 3, CSCW (November
+2019), 1–23. https://doi.org/10.1145/3359174
+[52] S.B. Merriam. 2014. Qualitative research: Designing,
+implementing, and publishing a study. 125–140.
+https://doi.org/10.4018/978-1-4666-7409-7.ch007
+[53] Terran Mott, Alexandra Bejarano, and Tom Williams.
+2022. Robot Co-design Can Help Us Engage Child
+Stakeholders in Ethical Reflection. In Proceedings of the 2022
+ACM/IEEE International Conference on Human-Robot
+Interaction (HRI ’22), 2022. IEEE Press, Sapporo, Hokkaido,
+Japan, 14–23.
+[54] Dennis C. Neale and John M. Carroll. 1997. The Role of
+Metaphors in User Interface Design. In Handbook of HumanComputer Interaction. Elsevier, 441–462.
+https://doi.org/10.1016/B978-044481862-1.50086-8
+[55] Veronica Newhart and Mark Warschauer. 2017. Virtual
+Inclusion via Telepresence Robots in the Classroom: An
+Exploratory Case Study. The International Journal of
+Technologies in Learning 23, 4 (August 2017), 9–25.
+https://doi.org/10.18848/2327-0144/CGP/v23i04/9-25
+[56] Devasena Pasupuleti, Sreejith Sasidharan, Gayathri
+Manikutty, Anand M. Das, Praveen Pankajakshan, and Sidney
+Strauss. 2023. Co-designing the Embodiment of a Minimalist
+Social Robot to Encourage Hand Hygiene Practises Among
+Children in India. International Journal of Social Robotics 15,
+2 (February 2023), 345–367. https://doi.org/10.1007/s12369023-00969-3
+[57] Hayes Raffle, Glenda Revelle, Koichi Mori, Rafael
+Ballagas, Kyle Buza, Hiroshi Horii, Joseph Kaye, Kristin
+Cook, Natalie Freed, Janet Go, and Mirjana Spasojevic. 2011.
+Hello, is grandma there? let’s read! StoryVisit: family video
+chat and connected e-books. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems, May
+07, 2011, Vancouver BC Canada. ACM, Vancouver BC
+Canada, 1195–1204. https://doi.org/10.1145/1978942.1979121
+[58] Geetha B Ramani and Celia A Brownell. 2014.
+Preschoolers’ cooperative problem solving: Integrating play
+and problem solving. Journal of Early Childhood Research 12,
+1 (February 2014), 92–108.
+
+[59] Jan Richter, Bruce H. Thomas, Maki Sugimoto, and
+Masahiko Inami. 2007. Remote active tangible interactions. In
+Proceedings of the 1st International Conference on Tangible
+and Embedded Interaction, February 15, 2007, Baton Rouge
+Louisiana. ACM, Baton Rouge Louisiana, 39–42.
+https://doi.org/10.1145/1226969.1226977
+[60] Richard Rogers. 2018. Coding and Writing Analytic
+Memos on Qualitative Data: A Review of Johnny Saldaña’s
+The Coding Manual for Qualitative Researchers. TQR (April
+2018), 889–893. https://doi.org/10.46743/21603715/2018.3459
+[61] Katharina J. Rohlfing, Nicole Altvater-Mackensen, Nathan
+Caruana, Rianne Van Den Berghe, Barbara Bruno, Nils F.
+Tolksdorf, and Adriana Hanulíková. 2022. Social/dialogical
+roles of social robots in supporting children’s learning of
+language and literacy—A review and analysis of innovative
+roles. Front. Robot. AI 9, (October 2022), 971749.
+https://doi.org/10.3389/frobt.2022.971749
+[62] Elisa Rubegni, Laura Malinverni, and Jason Yip. 2022.
+“Don’t let the robots walk our dogs, but it’s ok for them to do
+our homework”: children’s perceptions, fears, and hopes in
+social robots. In Interaction Design and Children, June 27,
+2022, Braga Portugal. ACM, Braga Portugal, 352–361.
+https://doi.org/10.1145/3501712.3529726
+[63] Elizabeth B.-N. Sanders and Pieter Jan Stappers. 2008.
+Co-creation and the new landscapes of design. CoDesign 4, 1
+(June 2008), 5–18.
+https://doi.org/10.1080/15710880701875068
+[64] Elaheh Sanoubari, John Edison Muñoz Cardona, Hamza
+Mahdi, James E. Young, Andrew Houston, and Kerstin
+Dautenhahn. 2021. Robots, Bullies and Stories: A Remote Codesign Study with Children. In Interaction Design and
+Children, June 24, 2021, Athens Greece. ACM, Athens Greece,
+171–182. https://doi.org/10.1145/3459990.3460725
+[65] Geoffrey B. Saxe. 1991. Culture and cognitive
+development: Studies in mathematical understanding.
+Lawrence Erlbaum Associates, Inc, Hillsdale, NJ, US.
+[66] Alexander P. Schouten, Tijs C. Portegies, Iris Withuis,
+Lotte M. Willemsen, and Komala Mazerant-Dubois. 2022.
+Robomorphism: Examining the effects of telepresence robots
+on between-student cooperation. Computers in Human
+Behavior 126, (2022), 106980.
+
+===== PDF PAGE 15 =====
+
+https://doi.org/10.1016/j.chb.2021.106980
+[67] Alessandra Sciutti, Francesco Rea, and Giulio Sandini.
+2014. When you are young, (robot’s) looks matter.
+Developmental changes in the desired properties of a robot
+friend. In The 23rd IEEE International Symposium on Robot
+and Human Interactive Communication, 2014. 567–573.
+https://doi.org/10.1109/ROMAN.2014.6926313
+[68] Ela Secim, Mine Durmuşoğlu, and Mustafa Ciftcioglu.
+2021. Investigating Pre-School Children’s Perspectives of
+Robots through Their Robot Drawings. International Journal
+of Computer Science Education in Schools 4, (April 2021).
+[69] Alexa F. Siu, Shenli Yuan, Hieu Pham, Eric Gonzalez,
+Lawrence H. Kim, Mathieu Le Goc, and Sean Follmer. 2017.
+Investigating Tangible Collaboration for Design Towards
+Augmented Physical Telepresence. In Design Thinking
+Research, Hasso Plattner, Christoph Meinel and Larry Leifer
+(eds.). Springer International Publishing, Cham, 131–145.
+https://doi.org/10.1007/978-3-319-60967-6_7
+[70] Ryo Suzuki, Eyal Ofek, Mike Sinclair, Daniel Leithinger,
+and Mar Gonzalez-Franco. 2021. HapticBots: Distributed
+Encountered-type Haptics for VR with Multiple Shapechanging Mobile Robots. In The 34th Annual ACM Symposium
+on User Interface Software and Technology, October 12, 2021,
+Virtual Event USA. ACM, Virtual Event USA, 1269–1281.
+https://doi.org/10.1145/3472749.3474821
+
+[71] Raquel Thiessen, Minoo Dabiri, Denise Y. Geiskkovitch,
+Jacquie Ripat, and James Everett Young. 2023. Social Robots
+to Encourage Play for Children with Disabilities: Learning
+Perceived Requirements and Barriers from Family Units. In
+Companion of the 2023 ACM/IEEE International Conference
+on Human-Robot Interaction, March 13, 2023, Stockholm
+Sweden. ACM, Stockholm Sweden, 625–628.
+https://doi.org/10.1145/3568294.3580161
+[72] Hiroaki Tobita. 2017. Ghost-hack AR: human
+augmentation using multiple telepresence systems for network
+communication. In Proceedings of the 6th ACM International
+Symposium on Pervasive Displays, June 07, 2017, Lugano
+Switzerland. ACM, Lugano Switzerland, 1–6.
+https://doi.org/10.1145/3078810.3078827
+
+[73] Nathan Tsoi, Joe Connolly, Emmanuel Adéníran, Amanda
+Hansen, Kaitlynn Taylor Pineda, Timothy Adamson, Sydney
+Thompson, Rebecca Ramnauth, Marynel Vázquez, and Brian
+Scassellati. 2021. Challenges Deploying Robots During a
+Pandemic: An Effort to Fight Social Isolation Among
+Children. In Proceedings of the 2021 ACM/IEEE International
+Conference on Human-Robot Interaction, March 08, 2021,
+Boulder CO USA. ACM, Boulder CO USA, 234–242.
+https://doi.org/10.1145/3434073.3444665
+[74] Caroline L. Van Straten, Jochen Peter, Rinaldo Kühne,
+and Alex Barco. 2022. The wizard and I: How transparent
+teleoperation and self-description (do not) affect children’s
+robot perceptions and child-robot relationship formation. AI &
+Soc 37, 1 (March 2022), 383–399.
+https://doi.org/10.1007/s00146-021-01202-3
+
+[75] Mette Weibel, Sofie Skoubo, Charlotte Handberg, Lykke
+Brogaard Bertel, Nonni Camilla Steinrud, Kjeld Schmiegelow,
+Inger Kristensson Hallström, and Hanne Bækgaard Larsen.
+2023. Telepresence robots to reduce school absenteeism
+among children with cancer, neuromuscular diseases, or
+anxiety—the expectations of children and teachers: A
+qualitative study in Denmark. Computers in Human Behavior
+Reports 10, (May 2023), 100280.
+https://doi.org/10.1016/j.chbr.2023.100280
+
+[76] S. Woods, K. Dautenhahn, and J. Schulz. 2004. The
+design space of robots: investigating children’s views. In ROMAN 2004. 13th IEEE International Workshop on Robot and
+Human Interactive Communication (IEEE Catalog
+No.04TH8759), 2004, Kurashiki, Okayama, Japan. IEEE,
+Kurashiki, Okayama, Japan, 47–52.
+https://doi.org/10.1109/ROMAN.2004.1374728
+[77] Svetlana Yarosh, Kori M. Inkpen, and A.J. Bernheim
+Brush. 2010. Video playdate: toward free play across distance.
+In Proceedings of the SIGCHI Conference on Human Factors
+in Computing Systems, April 10, 2010, Atlanta Georgia USA.
+ACM, Atlanta Georgia USA, 1251–1260.
+[78] Svetlana Yarosh, Anthony Tang, Sanika Mokashi, and
+Gregory D. Abowd. 2013. “almost touching”: parent-child
+remote communication using the sharetable system. In
+Proceedings of the 2013 Conference on Computer Supported
+Cooperative Work, February 23, 2013, San Antonio Texas
+USA. ACM, San Antonio Texas USA, 181–192.
+https://doi.org/10.1145/2441776.2441798
+[79] Robert K. Yin. 2018. Case study research and
+applications: design and methods (Sixth edition ed.). SAGE,
+Los Angeles.
+[80] Jason C. Yip, Kiley Sobel, Caroline Pitt, Kung Jin Lee,
+Sijin Chen, Kari Nasu, and Laura R. Pina. 2017. Examining
+Adult-Child Interactions in Intergenerational Participatory
+Design. In Proceedings of the 2017 CHI Conference on Human
+Factors in Computing Systems, May 02, 2017, Denver
+Colorado USA. ACM, Denver Colorado USA, 5742–5754.
+https://doi.org/10.1145/3025453.3025787
+[81] Ran Zhou, Harpreet Sareen, Yufei Zhang, and Daniel
+Leithinger. 2022. EmotiTactor: Exploring How Designers
+Approach Emotional Robotic Touch. In Designing Interactive
+Systems Conference, June 13, 2022, Virtual Event Australia.
+ACM, Virtual Event Australia, 1330–1344.
+https://doi.org/10.1145/3532106.3533487
+
+===== PDF PAGE 16 =====
+
+
