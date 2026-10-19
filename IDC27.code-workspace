@@ -18,9 +18,6 @@
     ],
     "[latex]": {
       "editor.wordWrap": "on"
-    },
-    "files.exclude": {
-      "build": true
     }
   }
 }
